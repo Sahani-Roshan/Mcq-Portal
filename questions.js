@@ -319,16 +319,1671 @@ window.mcqData = {
 
 "Structural Engineering": 
 [
-    {
-      question: "What is the modulus of elasticity of steel?",
-      options: ["200 GPa","210 GPa","190 GPa","220 GPa"],
-      answer: 1
-    },
-    {
-      question: "Which load combination is ULS?",
-      options: ["1.2D + 1.6L","1.5D + 1.5L","1.0D + 1.0L","0.9D + 1.1L"],
-      answer: 0
-    }
+   {
+    question: "The direction of shear stress is",
+    options: ["horizontal", "vertical", "both (a) and (b) above", "none of the above"],
+    answer: 2
+  },
+  {
+    question: "The direction of normal stress is",
+    options: ["parallel to failure plane", "perpendicular to failure plane", "both (a) and (b) above", "none of the above"],
+    answer: 1
+  },
+  {
+    question: "The direction of shear stress is",
+    options: ["parallel to failure plane", "perpendicular to failure plane", "both (a) and (b) above", "none of the above"],
+    answer: 0
+  },
+  {
+    question: "The actual numerical value of tensile stress (engineering stress) is … than the theoretical stress",
+    options: ["less", "more", "equal", "any of the above"],
+    answer: 1
+  },
+  {
+    question: "Allowable stress in steel is less than",
+    options: ["permissible stress", "working stress", "yield stress", "none of the above"],
+    answer: 2
+  },
+  {
+    question: "According to Hook's law, which one is wrong?",
+    options: ["σ ∝ E", "σ/E = constant", "MoE × Strain = Stress", "MoE × Stress = Strain"],
+    answer: 3
+  },
+  {
+    question: "Stress is directly proportional to strain within elastic limit is given by",
+    options: ["Archimedes", "Hooke's", "Newton", "Galileo"],
+    answer: 1
+  },
+  {
+    question: "Elasticity of a body is defined",
+    options: ["the property by which a body returns to its original shape after removal of load", "the property by which a body don't return to its original shape after removal of load", "the property by which a body undergoes deformation even after removal of load", "all of the above"],
+    answer: 0
+  },
+  {
+    question: "Elasticity of a body is",
+    options: ["the ratio of stress to strain", "the resistance to the force acting", "large deformability", "none of the above"],
+    answer: 1
+  },
+  {
+    question: "Permanent set is",
+    options: ["the force which acts permanently on the body", "irrecoverable deformation in the body", "the shape of the member just after completion of construction", "ratio of Poisson's ratio to Young's modulus"],
+    answer: 1
+  },
+  {
+    question: "Stress in a member subjected to a force is",
+    options: ["the ratio of modulus of elasticity to strain", "the product of modulus of elasticity and strain", "the resistance to the force acting", "sum of strain and modulus of elasticity"],
+    answer: 1
+  },
+  {
+    question: "Young's modulus is the ratio of the normal stress to the",
+    options: ["normal strain within elastic limit", "normal strain within proportional limit", "reciprocal of normal strain within elastic limit", "normal strain at yield point"],
+    answer: 1
+  },
+  {
+    question: "Modulus of rigidity is the ratio of",
+    options: ["normal stress to normal strain", "shear stress to shear strain", "lateral stress to lateral strain", "normal strain to normal stress"],
+    answer: 1
+  },
+  {
+    question: "In any member of structure system, the strain does not effect the size of member",
+    options: ["lateral strain", "volumetric strain", "shear strain", "longitudinal strain"],
+    answer: 2
+  },
+  {
+    question: "Plasticity of a body is",
+    options: ["the ratio of stress to strain", "same as property of elasticity", "opposite property of elasticity", "none of the above"],
+    answer: 2
+  },
+  {
+    question: "The ratio of lateral strain to longitudinal strain is called",
+    options: ["Poisson's ratio", "stress", "Hooke's law", "none of the above"],
+    answer: 0
+  },
+  {
+    question: "The product EI is called",
+    options: ["flexural rigidity", "torsional rigidity", "second moment of area", "none of the above"],
+    answer: 0
+  },
+  {
+    question: "The value of Poisson's ratio always remains",
+    options: ["greater than one", "less than one", "equal to one", "none of the above"],
+    answer: 1
+  },
+  {
+    question: "The percentage elongation of a material from a direct tensile test indicates",
+    options: ["ductility", "strength", "yield stress", "brittleness"],
+    answer: 0
+  },
+  {
+    question: "The percentage reduction of a material from a direct compressive test indicates",
+    options: ["ductility", "strength", "yield stress", "brittleness"],
+    answer: 0
+  },
+  {
+    question: "The safe value of stress below which the material will not fail when subjected to reversal of stress is known as",
+    options: ["fatigue stress", "endurance limit", "elastic limit", "tolerance limit"],
+    answer: 1
+  },
+  {
+    question: "The property by which the metals deform continuously at a slow rate without further increase in stress is called",
+    options: ["creep", "fatigue", "resilience", "plasticity"],
+    answer: 0
+  },
+  {
+    question: "Toughness is",
+    options: ["ability to absorb energy during plastic deformation", "higher ultimate strength", "stress at yield", "strain energy at yield"],
+    answer: 0
+  },
+  {
+    question: "The impact tests are used to determine",
+    options: ["ultimate crushing strength", "toughness", "ductility", "tenacity"],
+    answer: 1
+  },
+  {
+    question: "The ratio of maximum instantaneous stress due to sudden loading to the maximum stress due to gradual loading will be",
+    options: ["1", "2", "3", "4"],
+    answer: 1
+  },
+  {
+    question: "What is tenacity?",
+    options: ["ultimate strength in tension", "ultimate strength in compression", "ultimate shear strength", "ultimate impact strength"],
+    answer: 0
+  },
+  {
+    question: "At ordinary temperatures, how is the yield point affected with rate of loading?",
+    options: ["not greatly influenced", "very greatly influenced", "not influenced at all", "difficult to tell"],
+    answer: 0
+  },
+  {
+    question: "Simple bending equation is",
+    options: ["M/I = f/y = E/R", "f/I = M/y = E/R", "M/I = E/y = f/R", "all of the above"],
+    answer: 0
+  },
+  {
+    question: "Stress in a beam due to simple bending is",
+    options: ["directly proportional", "inversely proportional", "curvilinearly related", "all of the above"],
+    answer: 0
+  },
+  {
+    question: "In a composite bar the load distribution among different materials of which it is made is based on the assumption the all the materials will have",
+    options: ["equal areas", "same Young's modulus", "same strain", "same stress"],
+    answer: 2
+  },
+  {
+    question: "The stress due to temperature change in a member depends on",
+    options: ["supporting conditions of ends", "length of member", "area of cross section", "none of the above"],
+    answer: 0
+  },
+  {
+    question: "Strain energy of a member may be defined as work done on it",
+    options: ["to deform it", "to resist elongation", "to resist shortening", "all of the above"],
+    answer: 3
+  },
+  {
+    question: "Partial derivative of strain energy gives",
+    options: ["deflection", "slope", "moment", "redundant force"],
+    answer: 0
+  },
+  {
+    question: "The strain energy stored in a specimen when strained within the elastic limit is known as",
+    options: ["resilience", "proof resilience", "strain energy", "modulus of resilience"],
+    answer: 0
+  },
+  {
+    question: "The maximum strain energy stored in a specimen when strained within the elastic limit is known as",
+    options: ["resilience", "proof resilience", "strain energy", "modulus of resilience"],
+    answer: 1
+  },
+  {
+    question: "Find the elongation of a rod if a load of p is applied on a rod having length l, c/s area A and modulus of elasticity E",
+    options: ["p l / (A E)", "p E / (A l)", "A l / (p E)", "p A / (l E)"],
+    answer: 0
+  },
+  {
+    question: "Find the modulus elasticity of bar material (E) if c/s area of bar is A, length L, applied load P and elongation is Δ",
+    options: ["p l / (A Δ)", "p Δ / (l a)", "A Δ / (p l)", "p A / (Δ l)"],
+    answer: 0
+  },
+  {
+    question: "The amount of stress developed due to increase in temperature in case of SSB if l=10 m, ΔT=10 °C, A=5 cm²",
+    options: ["1 N/mm²", "100 N/mm²", "500 N/mm²", "none of the above"],
+    answer: 0
+  },
+  {
+    question: "A member having cross section 5 cm × 5 cm is subjected to a tensile stress of 100 kg/cm², then the applied load should be",
+    options: ["2500 kg", "2000 kg", "1500 kg", "1000 kg"],
+    answer: 0
+  },
+  {
+    question: "Torsion is produced in a beam due to",
+    options: ["magnitude of load", "eccentricity of load from centroidal axis", "types of beam", "none of the above"],
+    answer: 1
+  },
+  {
+    question: "Due to torsion moment beam get",
+    options: ["bent", "twisted", "uplifted", "none of the above"],
+    answer: 1
+  },
+  {
+    question: "Torsional equation is given by",
+    options: ["T/J = τₘₐₓ/R = c θ / l", "J/T = τₘₐₓ/R = c θ / l", "T/J = R/τₘₐₓ = c θ / l", "J/T = τₘₐₓ/R = l / c θ"],
+    answer: 0
+  },
+  {
+    question: "The amount of temperature stress is … in fixed beam if compared with propped cantilever.",
+    options: ["more", "less", "equal", "any of the above"],
+    answer: 0
+  },
+  {
+    question: "If the M.I of section about its axis is I and if the effective sectional area is A, then radius of gyration r is given by",
+    options: ["√(I / A)", "√(I / l A)", "√(A / I)", "√(I / A)"],
+    answer: 0
+  },
+  {
+    question: "Stress concentration near the void is … as compared to solid portion.",
+    options: ["less", "more", "equal", "none of the above"],
+    answer: 1
+  },
+  {
+    question: "Hoop stress is",
+    options: ["compressive", "radial stress", "circumferential tensile stress", "none of the above"],
+    answer: 2
+  },
+  {
+    question: "The moment of inertia of rectangular section is",
+    options: ["BD³/12", "a⁴/12", "πBD³/64", "bh³/36"],
+    answer: 0
+  },
+  {
+    question: "Ratio of moment of inertia (MOI) of a rectangular object about its x-axis to its base is",
+    options: ["1/12", "1/8", "1/6", "1/4"],
+    answer: 3
+  },
+  {
+    question: "M.I of circular section",
+    options: ["π d⁴/64", "π d⁴/48", "π d⁴/56", "π d⁴/78"],
+    answer: 0
+  },
+  {
+    question: "The moment of inertia of square section is",
+    options: ["a⁴/12", "BD³/12", "π BD³/64", "bh³/36"],
+    answer: 0
+  },
+  {
+    question: "The moment of inertia of elliptical section is",
+    options: ["π BD³/64", "BD³/12", "a⁴/12", "bh³/36"],
+    answer: 0
+  },
+  {
+    question: "The moment of inertia of triangular section about its c.g. is",
+    options: ["bh³/36", "BD³/12", "a⁴/12", "π BD³/64"],
+    answer: 0
+  },
+  {
+    question: "Along the neutral axis of a simply supported beam",
+    options: ["fibres do not undergo strain", "fibres undergo minimum strain", "fibres undergo maximum strain", "none of the above"],
+    answer: 0
+  },
+  {
+    question: "The ratio of the moment of inertia of a circular plate and a square plate for equal depth is",
+    options: ["slightly less than one", "equal to one", "more than one", "equal to 3π/16"],
+    answer: 3
+  },
+  {
+    question: "The section modulus of a rectangular section is proportional to",
+    options: ["area of the section", "square of the area of the section", "product of the area and depth", "product of the area and width"],
+    answer: 0
+  },
+  {
+    question: "The algebraic sum of the vertical forces on either side of the section of a loaded beam is known as",
+    options: ["shear force", "bending moment", "deformed force", "all of the above"],
+    answer: 0
+  },
+  {
+    question: "Find the shear force produced in the member BC due to load shown in fig. (4 kN at C, BC horizontal, A–B fixed)",
+    options: ["4 kN", "50 kN", "25 kN", "75 kN"],
+    answer: 0
+  },
+  {
+    question: "Find the bending moment at fixed end for the structure as shown in fig. (10 T at top of vertical member 1 m above bracket, bracket 2 m from base)",
+    options: ["0", "10 T m", "20 T m", "30 T m"],
+    answer: 0
+  },
+  {
+    question: "Find the bending moment at fixed end for the structure as shown in fig. (5 T at horizontal arm 2 m from wall, 10 T at top of vertical)",
+    options: ["0", "10 T m", "20 T m", "30 T m"],
+    answer: 0
+  },
+  {
+    question: "Find the bending moment at fixed end of cantilever as shown in fig. (5 T at 2 m, 10 T-m couple at 5 m)",
+    options: ["0", "10 T m", "20 T m", "30 T m"],
+    answer: 0
+  },
+  {
+    question: "Find the bending moment at fixed end of cantilever as shown in fig. (10 T at 2 m, 10 T-m couple)",
+    options: ["0", "10 T m", "20 T m", "30 T m"],
+    answer: 1
+  },
+  {
+    question: "A rectangular beam carries a maximum bending moment of M. If its depth is doubled, its moment carrying capacity will be",
+    options: ["M", "2M", "3M", "4M"],
+    answer: 3
+  },
+  {
+    question: "The algebraic sum of the moments of the forces on either side of the section of a loaded beam is known as",
+    options: ["shear force", "bending moment", "deformed force", "all of the above"],
+    answer: 1
+  },
+  {
+    question: "The shear force and bending moment are related by",
+    options: ["V = M/Z", "V = M Y/I", "V = dM/dx", "V = M dx"],
+    answer: 2
+  },
+  {
+    question: "The shear force on a beam and the displacement are related by",
+    options: ["V = E I d²y/dx²", "V = E I d³y/dx²", "V = E I d³y/dx³", "none of the above"],
+    answer: 2
+  },
+  {
+    question: "Which one is correct if the deflection of a beam is y",
+    options: ["θ = dy/dx", "dθ/dx = d²y/dx²", "M = E I/R", "all of the above"],
+    answer: 3
+  },
+  {
+    question: "Calculate the maximum BM introduced due to a udl of 4 kN/m, if the span of the cantilever is 1.8 m",
+    options: ["2.16 kN·m", "6.48 kN·m", "1.08 kN·m", "5.48 kN·m"],
+    answer: 1
+  },
+  {
+    question: "Find the bending moment at ¼th of the span having simply supported beam with following data: point load = 200 kg at centre, span = 20 m",
+    options: ["250 kg·m", "500 kg·m", "50 kg·m", "none of the above"],
+    answer: 1
+  },
+  {
+    question: "The maximum deflection in the cantilever beam subjected to an udl of W/m throughout the span is",
+    options: ["W l⁴/8 E I", "W l⁴/36 E I", "3 W l⁴/384 E I", "none of the above"],
+    answer: 0
+  },
+  {
+    question: "A simply supported beam of length l carries a load varying uniformly from zero at left end to maximum at right end maximum bending moment occurs at a distance of",
+    options: ["1/√3 from left end", "1/3 from left end", "1/√3 from right end", "1/3 from right end"],
+    answer: 0
+  },
+  {
+    question: "Load carrying capacity of fixed beam is",
+    options: ["lesser than simply supported beam", "lesser than cantilever beam", "greater than simply supported beam and cantilever beam", "all of the above"],
+    answer: 2
+  },
+  {
+    question: "The difference in placing the end of a beam simply over a support and the supporting end through a hinge on rollers is that the roller support",
+    options: ["can offer reaction in the plane of rollers", "can offer moment reaction", "will not allow the end to lift up the deflection", "will not offer reaction normal to the plane of rollers"],
+    answer: 2
+  },
+  {
+    question: "The number of reaction components possible at a hinged end for a general loading is",
+    options: ["0", "1", "2", "3"],
+    answer: 2
+  },
+  {
+    question: "At either ends of plane frame, maximum number of possible transverse shear forces, are",
+    options: ["one", "two", "three", "four"],
+    answer: 0
+  },
+  {
+    question: "At either ends of plane frame, maximum number of possible bending moment, are",
+    options: ["one", "two", "three", "zero"],
+    answer: 3
+  },
+  {
+    question: "A simply supported beam of span L carries a uniformly distributed load, w. The maximum shear force, V is",
+    options: ["w L/2", "w L/4", "w L/8", "w L/16"],
+    answer: 0
+  },
+  {
+    question: "A simply supported beam of span L carries a uniformly distributed load, w. The maximum bending moment, M is",
+    options: ["w L²/2", "w L²/4", "w L²/8", "w L²/16"],
+    answer: 2
+  },
+  {
+    question: "A simply supported beam of span L carries two equal concentrated loads, W at a distance of L/3 from either support. The maximum bending moment, M is",
+    options: ["W L/2", "W L/3", "W L/4", "W L/5"],
+    answer: 1
+  },
+  {
+    question: "A beam is hinged at both ends and loaded with a triangular load having maximum intensity (W) at centre. Find the maximum bending moment & shear force",
+    options: ["W L²/12 , W L/10", "W L²/12 , W L/4", "W L²/10 , W L/10", "all of the above"],
+    answer: 1
+  },
+  {
+    question: "The shape of bending moment diagram over the length of a beam, having no external load is",
+    options: ["linear", "parabolic", "cubical", "circular"],
+    answer: 0
+  },
+  {
+    question: "The shape of bending moment diagram over the length of a beam, carrying a uniformly distributed load is",
+    options: ["linear", "parabolic", "cubical", "circular"],
+    answer: 1
+  },
+  {
+    question: "In any beam, there is acting uniformly moment then its curve is",
+    options: ["circular arch", "parabolic arch", "both (a) and (b) of above", "none of the above"],
+    answer: 1
+  },
+  {
+    question: "The shape of bending moment diagram over the length of a beam, carrying a uniformly increasing load is",
+    options: ["linear", "parabolic", "cubical", "circular"],
+    answer: 2
+  },
+  {
+    question: "The maximum bending moment due to moving load on a simply supported beam occurs",
+    options: ["at the mid span", "at the supports", "under the load", "none of the above"],
+    answer: 2
+  },
+  {
+    question: "For a simply supported beam with a central load, the bending moment is",
+    options: ["least at the centre", "least at the supports", "maximum at the supports", "maximum at the center"],
+    answer: 3
+  },
+  {
+    question: "For a cantilever with a uniformly distributed load, w over its entire length L, the maximum bending moment is",
+    options: ["w l²", "w l²/2", "w l²/3", "w l²/4"],
+    answer: 1
+  },
+  {
+    question: "The maximum deflection in the cantilever beam carrying a point load (W) at end is",
+    options: ["W l³/3 E I", "W l³/8 E I", "W l³/16 E I", "W l³/32 E I"],
+    answer: 0
+  },
+  {
+    question: "In a cantilever beam a point load is applied at the free end. Which one is correct?",
+    options: ["SF is uniform throughout the beam", "SF varies linearly from free end to fixed end", "BM is uniform throughout the beam", "none of the above"],
+    answer: 0
+  },
+  {
+    question: "Which of the following end conditions permits the displacement in any direction and also rotation",
+    options: ["fixed end", "hinged end", "roller end", "free end"],
+    answer: 3
+  },
+  {
+    question: "Which of the following section is the most efficient in carrying bending moments?",
+    options: ["I-section", "rectangular-section", "T-section", "circular-section"],
+    answer: 0
+  },
+  {
+    question: "In an I-section almost all the shear force is taken by",
+    options: ["top flange", "web", "bottom flange", "none of the above"],
+    answer: 1
+  },
+  {
+    question: "The bending moment is maximum on a section where shear force",
+    options: ["is maximum", "is minimum", "is equal", "changes sign"],
+    answer: 3
+  },
+  {
+    question: "In a continuous bending moment curve the point where its changes sign is called",
+    options: ["point of inflexion", "point of contraflexure", "point of virtual hinge", "all of the above"],
+    answer: 3
+  },
+  {
+    question: "For any types of loading, the no. of point of contraflexure in a simply supported beam is",
+    options: ["one", "two", "zero", "three"],
+    answer: 2
+  },
+  {
+    question: "The moment diagram for a cantilever carrying concentrated load at its free end will be",
+    options: ["triangle", "rectangle", "parabola", "cubic parabola"],
+    answer: 0
+  },
+  {
+    question: "Shear force for a cantilever carrying a uniformly distributed load over its whole length is",
+    options: ["triangle", "rectangle", "parabola", "cubic parabola"],
+    answer: 0
+  },
+  {
+    question: "When a rectangular beam is loaded longitudinally, shear develops on",
+    options: ["bottom fibre", "top fibre", "neutral axis", "every horizontal plane"],
+    answer: 3
+  },
+  {
+    question: "When a rectangular beam is loaded transversely, the maximum compressive force develops on",
+    options: ["bottom fibre", "top fibre", "neutral axis", "every horizontal plane"],
+    answer: 1
+  },
+  {
+    question: "If the shear force along a section of a beam is zero, the bending moment at the section is",
+    options: ["zero", "minimum", "maximum", "all of the above"],
+    answer: 2
+  },
+  {
+    question: "The moments in the arch will be zero, if",
+    options: ["ends are hinged", "ends are fixed", "the arch axis coincides with the line of thrust", "the arch axis is parallel to the line of thrust"],
+    answer: 2
+  },
+  {
+    question: "The arch meant for supporting uniformly distributed loads, to avoid any bending moment must be",
+    options: ["circular", "elliptical", "parabolic", "none of the above"],
+    answer: 2
+  },
+  {
+    question: "In any determinate structure, vertical load fall on the",
+    options: ["hinge", "roller", "fixed", "all of the above"],
+    answer: 3
+  },
+  {
+    question: "Three hinged arch is a …… structure.",
+    options: ["indeterminate", "determinate", "both (a) and (b) of above", "none of the above"],
+    answer: 1
+  },
+  {
+    question: "Three hinged arch will have three hinges",
+    options: ["two at the two ends and one anywhere in between the two ends", "two at the two ends and one at the crown only", "one hinge at the crown essentially and the other two anywhere", "none of the above"],
+    answer: 1
+  },
+  {
+    question: "The value of horizontal thrust produced in an arch is",
+    options: ["w l²/4", "w l²/6", "w l²/8", "w l²/10"],
+    answer: 2
+  },
+  {
+    question: "The amount of bending moment induced in a cable is",
+    options: ["unity", "zero", "two", "all of the above"],
+    answer: 1
+  },
+  {
+    question: "A suspension cable, supporting loads will be under",
+    options: ["tension", "bending", "compression", "compression and bending"],
+    answer: 0
+  },
+  {
+    question: "The maximum tension in a cable occurs",
+    options: ["at the highest point in the cable", "at the lowest point in the cable", "at the centre point of the cable", "at all points in the cable"],
+    answer: 0
+  },
+  {
+    question: "A cable subjected to UDL over its entire span assumes a shape of",
+    options: ["semi-circle", "an isosceles triangle", "parabola", "none of the above"],
+    answer: 2
+  },
+  {
+    question: "What is the maximum number of unknown reaction components that can be determined using only statics?",
+    options: ["0", "1", "2", "3"],
+    answer: 3
+  },
+  {
+    question: "A statically indeterminate structure is the one which",
+    options: ["cannot be analysed using the equations of statics alone", "cannot be analysed at all", "is not stable for general loading", "can be analysed with the equations of statics alone"],
+    answer: 0
+  },
+  {
+    question: "A roller support for a space structure",
+    options: ["permits movement perpendicular to the base of the supports only", "permits movement in any direction in the plane of the base", "does not permit any movement but permits rotation", "permits movement in any direction in the plane of the base but does not permit any rotation"],
+    answer: 1
+  },
+  {
+    question: "A hinged support for a space structure",
+    options: ["permits movement perpendicular to the base of the support only", "permits movement in any direction in the plane of the base", "does not permit any movement at all but permits rotation about all three mutually perpendicular axes through the joint", "does not permit movement as well as rotation in any direction"],
+    answer: 2
+  },
+  {
+    question: "A fixed support for a space structure",
+    options: ["permits translation only in all directions", "permits rotation only about all three mutually perpendicular axes through the joint", "permits rotation about all three mutually perpendicular axes and movement in any direction in the plane of the base", "permits neither rotation about nor translation along any of the three principal axes"],
+    answer: 3
+  },
+  {
+    question: "Free body diagram is",
+    options: ["the diagram of the body or part of the body in isolated equilibrium", "the diagram of a body freed from all the forces that have been acting", "the diagram of a body with no supports at all", "none of the above"],
+    answer: 0
+  },
+  {
+    question: "The free body diagram of a portion of a body will be in equilibrium under the action of",
+    options: ["only external loading acting on that part without consideration of support reactions", "all super‐imposed loads, self‐weight, support reactions, if any, and the internal reactions exposed at the cuts", "only support reactions and the internal reactions exposed at the cuts", "external loading acting on that part and internal reactions exposed at the cuts"],
+    answer: 1
+  },
+  {
+    question: "The analysis of a structure is",
+    options: ["deciding the material of the member", "deciding the dimensions of the member", "calculating the magnitude and nature of various straining actions at salient points of the structure", "planning of the structure"],
+    answer: 2
+  },
+  {
+    question: "The design of a structure is",
+    options: ["the planning of the structure", "the calculation of straining actions at salient points", "deciding the material and proportions of the various members of the structure", "none of the above"],
+    answer: 2
+  },
+  {
+    question: "The statically indeterminate structure can be solved by",
+    options: ["using equations of statics alone", "equations of compatibility alone", "ignoring all deformations and assuming the structure to be rigid", "using the equations of statics and the necessary number of equations of compatibility"],
+    answer: 3
+  },
+  {
+    question: "The equations of compatibility are written based on",
+    options: ["the geometry of the deformed structure under the action of several forces acting", "the nature of external forces", "the duration of external forces", "none of the above"],
+    answer: 0
+  },
+  {
+    question: "A plane structure is structure",
+    options: ["the various members of which lie in a plane", "the thickness of various members of which will be very small", "in which there will not be any bending moment", "none of the above"],
+    answer: 0
+  },
+  {
+    question: "A two dimensional structure is one in which",
+    options: [
+      "two dimensions are very much larger than the third",
+      "all the dimensions are equal",
+      "two dimensions are very much smaller than the third",
+      "none of the above"
+    ],
+    answer: 0
+  },
+  {
+    question: "A plane structure which subjected to a force lying outside the plane will be",
+    options: [
+      "stable",
+      "statically determinate",
+      "unstable",
+      "statically indeterminate"
+    ],
+    answer: 2
+  },
+  {
+    question: "An externally indeterminate structure is the one in which",
+    options: [
+      "the total number of external reaction components is more than the equations of statics applicable to the structure as a whole",
+      "the total number of external reaction components is more than the degree of indeterminacy",
+      "the sum of external reaction components and the degree of internal redundancy is greater than three",
+      "none of the above"
+    ],
+    answer: 0
+  },
+  {
+    question: "An internally indeterminate structure",
+    options: [
+      "must be externally indeterminate",
+      "must be externally determinate",
+      "may be an unstable structure based on supports",
+      "none of the above"
+    ],
+    answer: 2
+  },
+  {
+    question: "A frame is completely analysed, when",
+    options: [
+      "the variation in shear is found throughout the frame",
+      "the variation in direct stress, shear and moment is found throughout the frame",
+      "the shear and moment reaction from member to member are known at every joint",
+      "none of the above"
+    ],
+    answer: 1
+  },
+  {
+    question: "A prop is",
+    options: [
+      "an additional support provided to a stable structure to avoid any displacement at the desired point in a direction perpendicular to the plane of the prop",
+      "the support which gives the maximum number of reactions for the stability of the structure",
+      "a support which will not affect the geometry of the deformed structure",
+      "a dummy support provided for architectural purposes"
+    ],
+    answer: 0
+  },
+  {
+    question: "A rigid prop is one which",
+    options: [
+      "permits 50% of free deflection, that would have occurred if the prop were not there",
+      "does not permit any displacement perpendicular to that plane of prop",
+      "does not offer any reaction",
+      "supports the entire load and relieves all other supports completely"
+    ],
+    answer: 1
+  },
+  {
+    question: "An elastic prop is one which",
+    options: [
+      "does not offer any reaction",
+      "supports the entire load and relieves all other supports completely",
+      "develops reaction proportional to the compression in itself",
+      "none of the above"
+    ],
+    answer: 2
+  },
+  {
+    question: "A sinking prop is one which",
+    options: [
+      "permits any amount of deflection",
+      "does not permit any deflection at all",
+      "is provided below the level of regular supports and becomes effective after the respective deflection occurs",
+      "none of the above"
+    ],
+    answer: 2
+  },
+  {
+    question: "A support over which the real beam is continuous will correspond to",
+    options: [
+      "an internal hinge in the conjugate beam",
+      "a hinged support in the conjugate beam",
+      "a fixed support in the conjugate beam",
+      "a discontinuity in the conjugate beam"
+    ],
+    answer: 0
+  },
+  {
+    question: "The displacements of joints of a truss can be obtained directly from",
+    options: [
+      "space diagram",
+      "force diagram",
+      "Williot-Mohr diagram",
+      "funicular polygon"
+    ],
+    answer: 2
+  },
+  {
+    question: "The basic form of a pin-jointed frame is",
+    options: [
+      "triangle",
+      "rectangular",
+      "trapezium",
+      "parallelogram"
+    ],
+    answer: 0
+  },
+  {
+    question: "In a pin-jointed plane frame all the loads are assumed to act",
+    options: [
+      "in the plane of the frame",
+      "perpendicular to the plane of the frame",
+      "in a plane inclined at 45° to the plane of the frame",
+      "none of the above"
+    ],
+    answer: 0
+  },
+  {
+    question: "A pin-jointed plane frame with J number of joints and n number of members will be internally redundant if",
+    options: [
+      "n = 2j + 3",
+      "n > (2j - 3)",
+      "n < (2j - 3)",
+      "n = (2j - 3)"
+    ],
+    answer: 1
+  },
+  {
+    question: "A pin-jointed frame with J number of joints and n number of members will be a perfect frame if",
+    options: [
+      "n > (2j - 3)",
+      "n < (2j - 3)",
+      "n = (2j - 3)",
+      "n < (2j + 3)"
+    ],
+    answer: 2
+  },
+  {
+    question: "Find the DSI of propped cantilever beam",
+    options: [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    answer: 0
+  },
+  {
+    question: "DSI of structure depends upon",
+    options: [
+      "loading",
+      "types of material",
+      "c/s of the member",
+      "types of joint"
+    ],
+    answer: 3
+  },
+  {
+    question: "The ends of continuous beam should be",
+    options: [
+      "cantilever",
+      "hinged",
+      "roller",
+      "any of the above"
+    ],
+    answer: 3
+  },
+  {
+    question: "A structure having J = 4 & number of members = 3 then structure should be",
+    options: [
+      "stable",
+      "unstable",
+      "indeterminate",
+      "all of the above"
+    ],
+    answer: 1
+  },
+  {
+    question: "Find the number of members in a structure if the number of joints is 4 for a determinate structure.",
+    options: [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    answer: 2
+  },
+  {
+    question: "Find the number of joints in a structure if the number of members is 3 for a determinate structure.",
+    options: [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    answer: 0
+  },
+  {
+    question: "If the co-moment of Joint A, B, & C are 10, 20 and 30 kN·m then find the balancing moment at joint B.",
+    options: [
+      "20 kN·m",
+      "30 kN·m",
+      "50 kN·m",
+      "–20 kN·m"
+    ],
+    answer: 3
+  },
+  {
+    question: "For finding forces in the members of a truss by the graphical method. The force diagram is suggested by",
+    options: [
+      "Mohr",
+      "Timoshenko",
+      "Maxwell",
+      "Betti"
+    ],
+    answer: 2
+  },
+  {
+    question: "The theorem of three moments for the solution of continuous beams is formulated by",
+    options: [
+      "Young",
+      "Maxwell",
+      "Williot-Mohr",
+      "Clépyron"
+    ],
+    answer: 3
+  },
+  {
+    question: "The term \"centre of gravity\" was introduced by",
+    options: [
+      "Archimedes",
+      "Otto Mohr",
+      "Saint-Venant",
+      "Coulomb"
+    ],
+    answer: 0
+  },
+  {
+    question: "The moment distribution method is formulated by",
+    options: [
+      "Hardy cross",
+      "Thomas Young",
+      "Mohr",
+      "Kani's"
+    ],
+    answer: 0
+  },
+  {
+    question: "The simultaneous equations of slope-deflection method can be solved by iteration in",
+    options: [
+      "moment distribution method",
+      "consistent deformation method",
+      "conjugate beam method",
+      "Williot-Mohr method"
+    ],
+    answer: 0
+  },
+  {
+    question: "Slope-deflection method is",
+    options: [
+      "energy method",
+      "deflection method",
+      "unit load method",
+      "all of the above"
+    ],
+    answer: 1
+  },
+  {
+    question: "Moment distribution method is",
+    options: [
+      "approximate method",
+      "accurate method",
+      "international method",
+      "all of the above"
+    ],
+    answer: 0
+  },
+  {
+    question: "Degree of freedom (DOF) or DKI, for the structure is",
+    options: [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    answer: 1
+  },
+  {
+    question: "The stiffness factor at the near end of a member with far end hinged is",
+    options: [
+      "4EI/l",
+      "3EI/l",
+      "EI/l",
+      "EI"
+    ],
+    answer: 1
+  },
+  {
+    question: "The ratio of stiffness of a member when far end is hinged to that of the member when far end is fixed is",
+    options: [
+      "1",
+      "2",
+      "¾",
+      "4/3"
+    ],
+    answer: 2
+  },
+  {
+    question: "At a joint where several members meet, any applied moment will be distributed among the various members",
+    options: [
+      "equally",
+      "equally among such members whose far ends are fixed",
+      "in proportion to their stiffness",
+      "equally among such members whose far ends are hinged"
+    ],
+    answer: 2
+  },
+  {
+    question: "The distribution factor of a member at a joint is",
+    options: [
+      "the ratio of the moment borne by the member to the total moment applied at the joint",
+      "the ratio of the area of the member to the sum of the areas of several members",
+      "the ratio of the moment induced at the far end to the moment applied at the near end",
+      "equally among such members whose far ends are hinged"
+    ],
+    answer: 0
+  },
+  {
+    question: "If kᵢ is the stiffness of i-th member of a joint, the distribution factor for the member is",
+    options: [
+      "kᵢ / Σkᵢ",
+      "Σkᵢ",
+      "kᵢ",
+      "(Σkᵢ – kᵢ)"
+    ],
+    answer: 0
+  },
+  {
+    question: "The vertical distance of the crown of the arch above the springing is called",
+    options: [
+      "span of the arch",
+      "rise of the arch",
+      "thickness of the arch",
+      "none of the above"
+    ],
+    answer: 1
+  },
+  {
+    question: "An arch can be treated as a curved beam",
+    options: [
+      "whose ends are restrained against horizontal movement",
+      "whose ends do not provide any reaction",
+      "whose ends are unsupported",
+      "none of the above"
+    ],
+    answer: 0
+  },
+  {
+    question: "The line of thrust of the linear arch is",
+    options: [
+      "the axis of the arch",
+      "the imaginary line of thrust for a given set of loads",
+      "the springing line",
+      "none of the above"
+    ],
+    answer: 1
+  },
+  {
+    question: "In hingeless arch, it is supposed to be",
+    options: [
+      "stable",
+      "geometrically unstable",
+      "2nd degree",
+      "3rd degree"
+    ],
+    answer: 2
+  },
+  {
+    question: "If there is a cantilever beam joined with the edge of the span, then it is",
+    options: [
+      "determinate",
+      "indeterminate",
+      "2nd degree",
+      "3rd degree"
+    ],
+    answer: 1
+  },
+  {
+    question: "Influence line is",
+    options: [
+      "the line showing stress function due to unit moving load",
+      "the line showing stress function due to unit load",
+      "the line showing stress function due to UDL",
+      "all of the above"
+    ],
+    answer: 0
+  },
+  {
+    question: "The line showing the variations of stress function at a given point due to a unit load moving on a span is known as",
+    options: [
+      "load line",
+      "influence line",
+      "curve line",
+      "stress function line"
+    ],
+    answer: 1
+  },
+  {
+    question: "Influence lines are drawn for structures",
+    options: [
+      "indeterminate",
+      "determinate",
+      "any type",
+      "none of the above"
+    ],
+    answer: 2
+  },
+  {
+    question: "Which one is right w.r.t. ILD?",
+    options: [
+      "it is the BMD due to unit load",
+      "it is the BMD due to static unit load",
+      "it is the BMD due to moving unit load",
+      "it is the BMD due to impacting unit load"
+    ],
+    answer: 2
+  },
+  {
+    question: "The influence line diagram for SF or BM at a section is",
+    options: [
+      "the value of SF or BM at that section when the unit load is placed over that section only",
+      "the value of SF or BM at that section when the unit load is at the centre of the span",
+      "the variation in the value of SF or BM at that section as the unit load traverses the span from left to right",
+      "the S.F. or B.M. diagram"
+    ],
+    answer: 2
+  },
+  {
+    question: "The influence line diagram for reaction at a support of a simply supported beam is",
+    options: [
+      "a triangle with ordinate 1 at that support",
+      "a triangle with ordinate 1 at the other support",
+      "a rectangle with ordinate 1",
+      "a rectangle with ordinate ½"
+    ],
+    answer: 0
+  },
+  {
+    question: "The influence line diagram for reaction at the support of a cantilever will be a",
+    options: [
+      "triangle with zero ordinate at fixed end and unit ordinate at free end",
+      "triangle with unit ordinate at fixed end and zero ordinate at free end",
+      "rectangle with ordinate ½",
+      "rectangle with unit ordinate"
+    ],
+    answer: 3
+  },
+  {
+    question: "The influence line diagram for shear force at a section on a cantilever will be",
+    options: [
+      "a rectangle of length equal to full length of span with unit ordinate",
+      "a rectangle extending between free end and the section with unit ordinate",
+      "a triangle extending for whole length of span with unit ordinate at fixed support",
+      "a triangle extending between the section and the fixed end with unit ordinate at fixed support"
+    ],
+    answer: 1
+  },
+  {
+    question: "The influence line diagram for BM at a section in a cantilever will be a triangle extending between the section and the",
+    options: [
+      "fixed end with maximum ordinate under the section",
+      "fixed end with maximum ordinate under the fixed end",
+      "unsupported end with maximum ordinate at the section",
+      "unsupported end with maximum ordinate at the supported end"
+    ],
+    answer: 3
+  },
+  {
+    question: "The influence line diagram for BM at a section of a simply supported beam will be a",
+    options: [
+      "triangle with maximum ordinate at the section and zero at the two supports",
+      "triangle with maximum ordinate at the support nearer to the section and zero at the other support",
+      "rectangle with unit ordinate",
+      "none of the above"
+    ],
+    answer: 0
+  },
+  {
+    question: "Plastic section modulus is defined as",
+    options: [
+      "the ratio of plastic moment capacity of a section to the yield moment",
+      "the ratio of moment of inertia to radius of gyration",
+      "radius of gyration multiplied by the area",
+      "the ratio of plastic moment capacity of a section to the yield stress"
+    ],
+    answer: 0
+  },
+  {
+    question: "Plastic hinge in a section is caused",
+    options: [
+      "when the material at a section reach plastic state",
+      "when the extreme fibres at a section reach plastic state",
+      "when all the fibres at a section reach plastic state",
+      "none of the above"
+    ],
+    answer: 2
+  },
+  {
+    question: "The shape factor is defined as the ratio of",
+    options: [
+      "plastic moment / yield moment",
+      "M.I. / yield stress",
+      "ultimate moment / yield stress",
+      "none of the above"
+    ],
+    answer: 0
+  },
+  {
+    question: "The shape factor of rectangle section is",
+    options: [
+      "1.50",
+      "1.69",
+      "1.80",
+      "2.00"
+    ],
+    answer: 0
+  },
+  {
+    question: "The shape factor of circular section is",
+    options: [
+      "1.50",
+      "1.69",
+      "1.80",
+      "2.00"
+    ],
+    answer: 1
+  },
+  {
+    question: "The approximate value of the shape factor of an I-section is equal to",
+    options: [
+      "2.15",
+      "1.75",
+      "1.15",
+      "0.75"
+    ],
+    answer: 2
+  },
+  {
+    question: "The shape factor of diamond section is",
+    options: [
+      "1.50",
+      "1.69",
+      "1.80",
+      "2.00"
+    ],
+    answer: 3
+  },
+  {
+    question: "The ultimate strength design of steel structures make use of",
+    options: [
+      "plastic analysis of structures",
+      "elastic analysis of structures",
+      "ultimate analysis of structures",
+      "elastic and plastic analysis"
+    ],
+    answer: 1
+  },
+  {
+    question: "The limit strength design of steel structures make use of",
+    options: [
+      "plastic analysis of structures",
+      "elastic analysis of structures",
+      "ultimate analysis of structures",
+      "elastic and plastic analysis"
+    ],
+    answer: 0
+  },
+  {
+    question: "The plastic design of steel structure which is based on the mechanism method of plastic analysis",
+    options: [
+      "is safe",
+      "is unsafe",
+      "gives no any indication",
+      "none of the above"
+    ],
+    answer: 1
+  },
+  {
+    question: "The plastic design of steel structure which is based on the kinematic method of plastic analysis",
+    options: [
+      "is safe",
+      "is unsafe",
+      "gives no any indication",
+      "none of the above"
+    ],
+    answer: 1
+  },
+  {
+    question: "The plastic design of steel structure which is based on the statical method of plastic analysis",
+    options: [
+      "is safe",
+      "is unsafe",
+      "gives no any indication",
+      "none of the above"
+    ],
+    answer: 0
+  },
+  {
+    question: "The plastic design of steel structure which is based on the lower bound theorem of plastic analysis",
+    options: [
+      "is safe",
+      "is unsafe",
+      "gives no any indication",
+      "none of the above"
+    ],
+    answer: 0
+  },
+  {
+    question: "The plastic design of steel structure which is based on the upper bound theorem of plastic analysis",
+    options: [
+      "is safe",
+      "is unsafe",
+      "gives no any indication",
+      "none of the above"
+    ],
+    answer: 3
+  },
+  {
+    question: "Horizontal reaction at B as shown in fig. is equal to",
+    options: [
+      "0",
+      "10 kN",
+      "20 kN",
+      "30 kN"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of the following methods of structure analysis is a force method?",
+    options: [
+      "slope deflection method",
+      "column analogy method",
+      "moment distribution method",
+      "none of the above"
+    ],
+    answer: 1
+  },
+  {
+    question: "The percentage of elongation of a material with applied direct tensile test is:",
+    options: [
+      "rigidity",
+      "strength",
+      "rupture",
+      "ductility"
+    ],
+    answer: 2
+  },
+  {
+    question: "Bending moment at any section in a conjugate beam gives in the actual beam:",
+    options: [
+      "slope",
+      "curvature",
+      "deflection",
+      "bending moment"
+    ],
+    answer: 2
+  },
+  {
+    question: "In general equation for the deflection of the beam: M = E I × ______ where E I is:",
+    options: [
+      "Young's modulus of elasticity",
+      "flexural strength",
+      "stiffening modulus",
+      "sectional rigidity"
+    ],
+    answer: 1
+  },
+  {
+    question: "When the load does not pass through the shear centre of the steel beam. It produces:",
+    options: [
+      "torsional moments only",
+      "bending moments only",
+      "shear force only",
+      "tensional moment along with bending moment"
+    ],
+    answer: 3
+  },
+  {
+    question: "When a cantilever beam of length l is loaded with a uniformly varying load of maximum intensity w at free end, the shape of bending moment diagram is:",
+    options: [
+      "a straight line",
+      "a triangle",
+      "a simple parabola",
+      "a cubic parabola"
+    ],
+    answer: 3
+  },
+  {
+    question: "Degree of static indeterminacy of the frame is equal to:",
+    options: [
+      "18",
+      "15",
+      "12",
+      "8"
+    ],
+    answer: 3
+  },
+  {
+    question: "If 'S' is the axial acting on an element ds of a structural member with cross-sectional area 'A' and modulus of elasticity 'E', the total strain energy of the member on account of axial force 'S' is given by:",
+    options: [
+      "∫S² ds / 2AE",
+      "S² / 2AE",
+      "∫ds / AE",
+      "ds / A"
+    ],
+    answer: 0
+  },
+  {
+    question: "Given pin‐jointed frame is:",
+    options: [
+      "internally stable",
+      "externally unstable",
+      "unstable",
+      "stable"
+    ],
+    answer: 2
+  },
+  {
+    question: "Bending moment at A of the following beam is equal to:",
+    options: [
+      "0",
+      "20 kN·m",
+      "30 kN·m",
+      "10 kN·m"
+    ],
+    answer: 0
+  },
+  {
+    question: "Portal method of framed analysis for horizontal loads is appropriate for a frame:",
+    options: [
+      "that has a width greater than its height",
+      "that has a height greater than its width",
+      "which is thin and tall",
+      "any width any height"
+    ],
+    answer: 0
+  },
+  {
+    question: "The slope and the deflection at a section in a loaded beam cannot be found out by:",
+    options: [
+      "Rankine's method",
+      "virtual work method",
+      "Macaulay's method",
+      "moment‐area method"
+    ],
+    answer: 0
+  },
+  {
+    question: "For the beam shown in figure, the shear force at A is equal to:",
+    options: [
+      "w L / 6",
+      "w L / 3",
+      "w L",
+      "2 w L / 3"
+    ],
+    answer: 0
+  },
+  {
+    question: "Prestressing to a large extent removes the disadvantages which a conventional reinforced concrete structure suffers as compared to a comparable:",
+    options: [
+      "steel structure",
+      "plain concrete structure",
+      "composite structure",
+      "reinforced concrete structure"
+    ],
+    answer: 3
+  },
+  {
+    question: "For a cantilever with a uniformly distributed load of total W over entire length L, the mixing bending moment is:",
+    options: [
+      "W L / δ",
+      "W L",
+      "W L / 2",
+      "—"
+    ],
+    answer: 2
+  },
+  {
+    question: "The load required to produce a unit deflection in a spring is called:",
+    options: [
+      "Young's modulus",
+      "flexural rigidity",
+      "torsional rigidity",
+      "spring stiffness"
+    ],
+    answer: 3
+  },
+  {
+    question: "Force is the product of:",
+    options: [
+      "mass and acceleration",
+      "mass and weight",
+      "velocity and time",
+      "acceleration and time"
+    ],
+    answer: 0
+  },
+  {
+    question: "The function of king post in a roof truss is:",
+    options: [
+      "to support the framework of the roof",
+      "to receive the ends of principal rafters",
+      "to prevent the walls from spreading outward",
+      "to prevent the tie beam from sagging at its centre"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which of the following structural analysis is a force method?",
+    options: [
+      "slope deflection",
+      "column analogy",
+      "moment distribution",
+      "none of the above"
+    ],
+    answer: 1
+  },
+  {
+    question: "Stiffness factor is calculated in structural members for analyzing it by:",
+    options: [
+      "moment distribution method",
+      "slope deflection method",
+      "column analogy method",
+      "none of the above"
+    ],
+    answer: 0
+  },
+  {
+    question: "At the yield point of a steel test piece:",
+    options: [
+      "materials obey Hooke's Law",
+      "materials behave in an elastic manner",
+      "materials regain original shape on removal of load",
+      "materials undergo plastic deformation"
+    ],
+    answer: 3
+  },
+  {
+    question: "Strain in concrete at zero stress is called:",
+    options: [
+      "creep loss",
+      "relaxation",
+      "shrinkage",
+      "transfer stress"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of the following is a true example of a statically determinate beam?",
+    options: [
+      "one end is fixed and the other end is simply supported",
+      "both ends are fixed",
+      "the beam overhangs over two supports",
+      "the beam is supported on three supports"
+    ],
+    answer: 2
+  },
+  {
+    question: "Unequal settlement in the supports of statically indeterminate structure develop:",
+    options: [
+      "member force",
+      "reactions from supports",
+      "no reactions",
+      "strains in some members"
+    ],
+    answer: 1
+  },
+  {
+    question: "In approximate analysis of building frames under lateral loads, the point of contraflexure in columns is assumed at:",
+    options: [
+      "storey height/2",
+      "storey height/3",
+      "storey height/10",
+      "storey height/12"
+    ],
+    answer: 0
+  },
+  {
+    question: "The moment distribution method is best suited for:",
+    options: [
+      "trussed beam",
+      "space frames",
+      "rigid frames",
+      "indeterminate pin‐jointed truss"
+    ],
+    answer: 0
+  },
+  {
+    question: "In the moment distribution method, the sum of distribution factors of all the members meeting at any joint is always:",
+    options: [
+      "zero",
+      "less than 1",
+      "1",
+      "greater than 1"
+    ],
+    answer: 2
+  },
+  {
+    question: "The stiffness method in structural analysis is also known as:",
+    options: [
+      "unit load method",
+      "consistent deformation method",
+      "force method",
+      "displacement method"
+    ],
+    answer: 3
+  },
+  {
+    question: "The Young's modulus of elasticity of steel is:",
+    options: [
+      "150 kN/mm²",
+      "200 kN/mm²",
+      "275 kN/mm²",
+      "250 kN/mm²"
+    ],
+    answer: 1
+  },
+  {
+    question: "Creep of material is the property indicated by:",
+    options: [
+      "elongation of the materials caused by changes in material properties",
+      "time dependent strain of the materials",
+      "shortening caused by shrinkage of the member",
+      "decrease in volume of the materials affected by weather conditions"
+    ],
+    answer: 1
+  },
+  {
+    question: "The shear centre may be defined as:",
+    options: [
+      "the point through which the resultant of the shear stress pass",
+      "the point about which the moment of shear flow is zero",
+      "the centre of gravity of section",
+      "none of the above"
+    ],
+    answer: 1
+  },
+  {
+    question: "The shear center in the case of T-beam section is:",
+    options: [
+      "at the C.G. of the section",
+      "at the neutral axis of the section",
+      "on the C.G. horizontal plane and away from C.G. within the leg projections",
+      "none of the above"
+    ],
+    answer: 0
+  },
+  {
+    question: "The shear flow in a section can be defined as:",
+    options: [
+      "total shear stress",
+      "flow direction of shear",
+      "total shear stress at a point",
+      "none of the above"
+    ],
+    answer: 2
+  },
+  {
+    question: "When a thin cylindrical shell is subjected to internal fluid pressure, which of the following stress is developed in its wall?",
+    options: [
+      "circumferential and longitudinal stress",
+      "longitudinal stress",
+      "normal stress",
+      "circumferential"
+    ],
+    answer: 0
+  },
+  {
+    question: "What is the condition for equilibrium in plastic analysis?",
+    options: [
+      "bending moment distribution defined by assumed plastic hinges must not be in static equilibrium with applied loads and reactions",
+      "shear force distribution defined by assumed plastic hinges must be in static equilibrium with applied loads and reactions",
+      "bending moment distribution defined by assumed plastic hinges must be in static equilibrium with applied loads and reactions",
+      "shear force distribution defined by assumed plastic hinges must not be in static equilibrium with applied loads and reactions"
+    ],
+    answer: 2
+  },
+  {
+    question: "Which of the following is true?",
+    options: [
+      "ultimate load is reached when a mechanism is formed",
+      "ultimate load is not reached when a mechanism is formed", 
+      "plastic hinges are not required for beam to form a mechanism",
+      "frictionless hinges are not required for beam to form a mechanism"
+    ],
+    answer: 0
+  },
+  {
+    question: "Which of the following relation is correct?",
+    options: [
+      "–Mₚ ≥ M",
+      "M > Mₚ",
+      "M ≥ Mₚ",
+      "M ≤ Mₚ"
+    ],
+    answer: 3
+  },
+  {
+    question: "Lowest plastic limit load is obtained when …",
+    options: [
+      "only equilibrium condition of plastic analysis is satisfied",
+      "only equilibrium and mechanism condition of plastic analysis are satisfied",
+      "only mechanism condition of plastic analysis is satisfied",
+      "equilibrium, mechanism and plasticity condition of plastic analysis are satisfied"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which load is obtained when equilibrium and mechanism conditions of plastic analysis are satisfied?",
+    options: [
+      "plastic limit load",
+      "upper bound solution of true ultimate load",
+      "lower bound solution of true ultimate load",
+      "no solution"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which load is obtained when equilibrium and plasticity conditions of plastic analysis are satisfied?",
+    options: [
+      "plastic limit load",
+      "upper bound solution of true ultimate load",
+      "lower bound solution of true ultimate load",
+      "no solution"
+    ],
+    answer: 2
+  },
+  {
+    question: "What is principle of virtual work?",
+    options: [
+      "work done by external forces is greater than work done by internal forces",
+      "work done by external forces is less than work done by internal forces",
+      "work done by external forces is equal to work done by internal forces",
+      "work done by internal forces is greater than work done by external forces"
+    ],
+    answer: 2
+  }
 ],
 
 "Estimation and Costing":
