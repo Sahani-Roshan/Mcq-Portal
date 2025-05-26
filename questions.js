@@ -9685,7 +9685,7 @@ window.mcqData = {
     options: ["increase 400%", "increase 200%", "decrease 200%", "decrease 400%"],
     answer: 3
   }
-]
+],
 
 
 
