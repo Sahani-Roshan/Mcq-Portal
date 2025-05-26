@@ -8783,6 +8783,909 @@ window.mcqData = {
   }
 
 ],
+"Engineering Drawing":
+[
+  {
+    question: "The art of representation of an object by systemic lines on a paper is known as",
+    options: ["drawing", "art", "dimensioning", "profession"],
+    answer: 0
+  },
+  {
+    question: "Drawing is the ……………… of engineers.",
+    options: ["language", "tool", "machine", "all of the above"],
+    answer: 0
+  },
+  {
+    question: "The edge of drawing board where T-square is made to slide is called",
+    options: ["sliding edge", "fixing edge", "working edge", "all of the above"],
+    answer: 2
+  },
+  {
+    question: "As per ISI recommended size of drawing board is/are",
+    options: ["B₀ (1000×1500 mm)", "B₁ (700×1000 mm)", "B₂ (500×700 mm)", "B₃ (350×500 mm)", "all of the above"],
+    answer: 4
+  },
+  {
+    question: "Working edge of drawing board is kept ……….. of the user.",
+    options: ["left", "right", "ahead", "all of the above"],
+    answer: 0
+  },
+  {
+    question: "Drawing board is made of",
+    options: ["well seasoned soft wood", "well seasoned hard wood", "moisted soft wood", "moisted hard wood"],
+    answer: 0
+  },
+  {
+    question: "During drawing stock of T-square is placed",
+    options: ["adjoining the working edge of the board", "adjoining the sliding edge of the board", "surface of the board", "none of the above"],
+    answer: 0
+  },
+  {
+    question: "The working edge of T-square is used to",
+    options: ["draw horizontal line", "as a base of set square", "draw horizontal parallel line", "all of the above"],
+    answer: 3
+  },
+  {
+    question: "Set squares are not used to draw",
+    options: ["straight line", "vertical line with T-square", "horizontal line", "all of the above"],
+    answer: 2
+  },
+  {
+    question: "The diameter of semi-circle is called",
+    options: ["diameter of protractor", "base of protractor", "length of protractor", "none of the above"],
+    answer: 1
+  },
+  {
+    question: "Drawing pins/cello tapes are used to",
+    options: ["draw a drawing", "move the drawing", "fix the drawing", "all of the above"],
+    answer: 2
+  },
+  {
+    question: "When only one drawing is to be made then its position should be",
+    options: ["left side of paper", "right side of paper", "upper side of paper", "centre of paper"],
+    answer: 3
+  },
+  {
+    question: "Working/ drawing space on the paper is determined by",
+    options: ["working line", "drawing line", "border line", "deader line"],
+    answer: 2
+  },
+  {
+    question: "The edge of the board on which T-square is made to slide is called",
+    options: ["working edge", "drawing line", "border line", "deader line"],
+    answer: 0
+  },
+  {
+    question: "To prevent warping of the board ……… are cleated at its back.",
+    options: ["packing", "wooden block", "batten", "none of the above"],
+    answer: 2
+  },
+  {
+    question: "The two parts of T-square are …….. and …….",
+    options: ["vertical and horizontal edge", "straight and slant edge", "stock and blade", "blade and batten"],
+    answer: 2
+  },
+  {
+    question: "Angles in multiples of 15° are constructed by the combined use of",
+    options: ["T-square and set-square", "set-square and scale", "scale and french curve", "french curve and erasing shield"],
+    answer: 0
+  },
+  {
+    question: "To draw or measure angles ……… is used.",
+    options: ["set-square", "T-square", "protractor", "all of the above"],
+    answer: 2
+  },
+  {
+    question: "For drawing large-size circles …………… is attached to the compass (>150 mm).",
+    options: ["straight bar", "bow compass", "lengthening bar", "divider"],
+    answer: 2
+  },
+  {
+    question: "Circles of small radii are drawn by means of a",
+    options: ["straight bar", "bow compass", "lengthening bar", "drop compass"],
+    answer: 1
+  },
+  {
+    question: "The scale should never be used as a ……… for drawing straight lines.",
+    options: ["set-square", "working edge", "straight edge", "none of the above"],
+    answer: 2
+  },
+  {
+    question: "Measurements from scale to the drawing are transferred with the aid of",
+    options: ["scale", "compass", "divider", "plumbing fork"],
+    answer: 2
+  },
+  {
+    question: "……… is used for setting of short equal distances.",
+    options: ["compass", "bow divider", "scale", "lengthening bar"],
+    answer: 1
+  },
+  {
+    question: "In drafting machine, which one does not follow",
+    options: ["levelling machine", "T-square", "set square", "divider"],
+    answer: 0
+  },
+  {
+    question: "Which one is not drafting equipment?",
+    options: ["drafter", "dust cloth", "scale", "none of the above"],
+    answer: 3
+  },
+  {
+    question: "Circles of very small radii are drawn by means of a",
+    options: ["straight bar", "bow compass", "lengthening bar", "drop compass"],
+    answer: 3
+  },
+  {
+    question: "……… is used to protect the adjoining lines on the drawing when some parts of the line is being erased.",
+    options: ["eraser", "erasing shield", "pencil", "drop compass"],
+    answer: 1
+  },
+  {
+    question: "For drawing thin lines of uniform thickness the pencil should be sharpened in the form of",
+    options: ["chisel edge", "conical", "pointed", "circular"],
+    answer: 0
+  },
+  {
+    question: "Pencil of …… grade sharpened in the form of …… is used for sketching",
+    options: ["soft & conical point", "low and conical point", "hard & conical point", "chisel & conical point"],
+    answer: 0
+  },
+  {
+    question: "…… is used for drawing curves which can't be drawn by a compass",
+    options: ["bow compass", "protractor", "french curve", "scale"],
+    answer: 2
+  },
+  {
+    question: "To remove unnecessary lines …… is used",
+    options: ["duster", "chalk", "sand box", "eraser"],
+    answer: 3
+  },
+  {
+    question: "Uses of the T-square, set squares, scale and protractor are combined in the",
+    options: ["set-square", "drafting machine", "compass", "none of the above"],
+    answer: 1
+  },
+  {
+    question: "Circle and arcs of circles are drawn by means of a …….",
+    options: ["lengthening bar", "divider", "compass", "T-square"],
+    answer: 2
+  },
+  {
+    question: "The projection of any feature on the horizontal plane is called",
+    options: ["plan", "elevation", "map", "all of the above"],
+    answer: 0
+  },
+  {
+    question: "Inking pen is used for drawing ---------- in ink",
+    options: ["writing", "curve", "straight line", "none of the above"],
+    answer: 2
+  },
+  {
+    question: "Set squares are used for drawing ……, …….. and ………. lines.",
+    options: ["vertical", "inclined", "parallel", "all of the above"],
+    answer: 3
+  },
+  {
+    question: "The purpose of making the drawing board with seasoned soft wood",
+    options: ["easy to carry", "for fixing of drawing paper with the help of drawing pin", "to match with T-square", "all of the above"],
+    answer: 1
+  },
+  {
+    question: "For dimensioning and lettering normally following pencils are used",
+    options: ["H & HB", "2H & HB", "H & 2HB", "2H & 2HB"],
+    answer: 0
+  },
+  {
+    question: "The most important material for drawing is",
+    options: ["pencil and eraser", "eraser & paper", "paper & pencil", "none of the above"],
+    answer: 2
+  },
+  {
+    question: "Which pencil is used for thinner line?",
+    options: ["H", "B", "2B", "2H"],
+    answer: 3
+  },
+  {
+    question: "9H pencil is …… than the 7H pencil",
+    options: ["softer", "harder", "medium", "none of the above"],
+    answer: 1
+  },
+  {
+    question: "To draw very light line which pencil is used",
+    options: ["B", "HB", "H", "2H"],
+    answer: 3
+  },
+  {
+    question: "The paper size of A₃ is",
+    options: ["297×420", "210×297", "420×850", "none of the above"],
+    answer: 0
+  },
+  {
+    question: "Size of A₄ size paper is",
+    options: ["148×210 mm", "210×297 mm", "297×210 mm", "320×460 mm"],
+    answer: 1
+  },
+  {
+    question: "Number of equal pieces of A₄ size paper from A₀ is equal to",
+    options: ["2", "4", "8", "16"],
+    answer: 3
+  },
+  {
+    question: "The area occupied by A₀ (drawing sheet) is …… times the area occupied by A₁ (drawing sheet).",
+    options: ["2", "4", "8", "16"],
+    answer: 0
+  },
+  {
+    question: "The area occupied by A₀ (drawing sheet) is …… times the area occupied by A₂ (drawing sheet).",
+    options: ["2", "4", "8", "16"],
+    answer: 1
+  },
+  {
+    question: "The area occupied by A₀ (drawing sheet) is …… times the area occupied by A₃ (drawing sheet).",
+    options: ["2", "4", "8", "16"],
+    answer: 2
+  },
+  {
+    question: "The area occupied by A₀ (drawing sheet) is …… times the area occupied by A₄ (drawing sheet).",
+    options: ["2", "4", "8", "16"],
+    answer: 3
+  },
+  {
+    question: "The equipment mainly used to transfer the measurements is",
+    options: ["scale", "divider", "compass", "drawing pin"],
+    answer: 1
+  },
+  {
+    question: "The shape of scales are",
+    options: ["flat and triangular", "flat and rectangular", "flat and square", "all of the above"],
+    answer: 0
+  },
+  {
+    question: "The drawing for municipality is done at scale",
+    options: ["1\" = 8'", "1:50", "1:100", "both (a) and (c)"],
+    answer: 0
+  },
+  {
+    question: "To measure a fraction we use",
+    options: ["diagonal scale", "T-square", "set square", "planimeter"],
+    answer: 0
+  },
+  {
+    question: "Find the RF for scale 1 cm = 25 km",
+    options: ["1/250", "1/2500", "1/25000", "1/2500000"],
+    answer: 3
+  },
+  {
+    question: "Tracing paper is also named as",
+    options: ["drafting vellum", "drafting film", "drafting media", "drafting line"],
+    answer: 0
+  },
+  {
+    question: "During draw a drawing we start from",
+    options: ["top to bottom of drawing paper", "bottom to top of drawing paper", "right to left of the drawing paper", "left to right of drawing paper", "both (a) and (d) of above"],
+    answer: 4
+  },
+  {
+    question: "Bisecting a line means, divide a line into….. equal part.",
+    options: ["two", "three", "four", "none of the above"],
+    answer: 0
+  },
+  {
+    question: "The angle between two perpendicular line is",
+    options: ["0°", "45°", "90°", "180°"],
+    answer: 2
+  },
+  {
+    question: "The angle between two horizontal line is",
+    options: ["0°", "180°", "both (a) and (b) of above", "none of the above"],
+    answer: 2
+  },
+  {
+    question: "Dashed (dotted) line is used for indication",
+    options: ["edge of the object", "hidden edge of the object", "centre line of the object", "all of the above"],
+    answer: 1
+  },
+  {
+    question: "The lines which are drawn to represent visible edges and surface boundaries of objects are called …………",
+    options: ["outlines", "principle lines", "both (a) and (b) of above", "none of the above"],
+    answer: 2
+  },
+  {
+    question: "The unseen/inner edge of an object is represented by",
+    options: ["solid line", "dotted line", "hatch line", "none of the above"],
+    answer: 1
+  },
+  {
+    question: "The space between two sentences should be left equal to",
+    options: ["height of letter", "twice the ht. of letter", "1.5 times ht. of letter", "none of the above"],
+    answer: 1
+  },
+  {
+    question: "In case of aligned method of dimensioning, they can be readable form",
+    options: ["bottoms and right side of drawing sheet", "bottoms and left side of drawing sheet", "bottoms and top side of drawing sheet", "all of the above"],
+    answer: 0
+  },
+  {
+    question: "In case of unidirectional method of dimensioning, they can be read from",
+    options: ["bottom side of drawing sheet only", "right side of drawing sheet only", "top side of drawing sheet only", "left side of drawing sheet only"],
+    answer: 0
+  },
+  {
+    question: "The main objective of writing letters/alphabets on the drawing is to make the drawing",
+    options: ["more fantastic", "more informative", "more expensive", "all of the above"],
+    answer: 1
+  },
+  {
+    question: "The angle between isometric axes is",
+    options: ["30°", "60°", "90°", "120°"],
+    answer: 3
+  },
+  {
+    question: "The isometric length of the edge of the cube is",
+    options: ["more than actual length", "equal to actual length", "less than actual length", "all of the above"],
+    answer: 2
+  },
+  {
+    question: "The isometric length of the edge of the cube is obtained by",
+    options: ["adding 0.815 in actual length", "dividing actual length by 0.815", "multiplying actual length by 0.815", "none of the above"],
+    answer: 2
+  },
+  {
+    question: "In case of perspective projection, picture plane is placed",
+    options: ["between eye and object", "out side of eye towards eye", "outside of object towards object", "all of the above"],
+    answer: 0
+  },
+  {
+    question: "Perspective projection is used to represent",
+    options: ["real exact size of object", "real exact shape of object", "natural view of the object", "all of the above"],
+    answer: 2
+  },
+  {
+    question: "Normally perspective projection is used by ……. to represent the object",
+    options: ["engineer", "doctor", "manufacturer in marketing", "painter"],
+    answer: 2
+  },
+  {
+    question: "Picture plane is",
+    options: ["transparent", "opaque", "semi transparent", "all of the above"],
+    answer: 0
+  },
+  {
+    question: "The plane on which perspective is formed is called:",
+    options: ["horizontal plane", "picture plane", "ground plane", "central plane"],
+    answer: 1
+  },
+  {
+    question: "Ground plane is",
+    options: ["horizontal plane", "vertical plane", "inclined plane", "none of the above"],
+    answer: 0
+  },
+  {
+    question: "Perspective drawing is done for",
+    options: ["not for civil engineers", "show details of market products", "both (a) and (b) of above", "none of the above"],
+    answer: 2
+  },
+  {
+    question: "Why perspective drawing is done by manufacturer?",
+    options: ["It is easy to express in the market", "shape is confirmed", "exact size is not measured", "all of the above"],
+    answer: 0
+  },
+  {
+    question: "In orthographic projection which one have all three views same",
+    options: ["cube", "circle", "sphere", "both (a) and (c) of above"],
+    answer: 3
+  },
+  {
+    question: "Which is not pictorial projection?",
+    options: ["oblique projection", "orthographic projection", "trigonometric", "axonometric projection"],
+    answer: 2
+  },
+  {
+    question: "View of circle in orthographic is",
+    options: ["ellipse", "circle", "ellipse and circle", "triangle"],
+    answer: 2
+  },
+  {
+    question: "In orthographic projection, projector lines are",
+    options: ["vertical lines", "inclined lines", "horizontal lines", "none of the above"],
+    answer: 0
+  },
+  {
+    question: "In third angle projection top view is put",
+    options: ["above front view", "below font view", "side view", "none of the above"],
+    answer: 0
+  },
+  {
+    question: "In case of third angle projection, plan is kept at",
+    options: ["top", "below", "side", "none"],
+    answer: 1
+  },
+  {
+    question: "In case of orthographic projection the number of view generally used are",
+    options: ["2", "4", "6", "8"],
+    answer: 2
+  },
+  {
+    question: "Mechanical lines are types of",
+    options: ["mechanic drawing", "line of drawn with free hand", "line drawn with drawing equipment", "none of the above"],
+    answer: 2
+  },
+  {
+    question: "The main purpose of leader line is",
+    options: ["show dimension", "to connect a note with the feature", "to show beauty", "to show hatch"],
+    answer: 1
+  },
+  {
+    question: "Hatching line is a line which makes an angle of 45° with",
+    options: ["horizontal", "vertical", "main line of the section", "all of the above"],
+    answer: 2
+  },
+  {
+    question: "Horizontal lines are drawn",
+    options: ["left to right", "right to left", "top to bottom", "both (a) and (b) above"],
+    answer: 3
+  },
+  {
+    question: "Vertical lines are drawn",
+    options: ["top to bottom", "bottom to top", "both (a) and (b) above", "none of the above"],
+    answer: 2
+  },
+  {
+    question: "The other name of axonometric projection is",
+    options: ["one plane projection", "two plane projection", "three plane projection", "all of the above"],
+    answer: 0
+  },
+  {
+    question: "One plane projection is",
+    options: ["axonometric projection", "oblique projection", "both (a) and (b) above", "none of the above"],
+    answer: 2
+  },
+  {
+    question: "Axonometric view/drawing is what type of view?",
+    options: ["one plane", "two plane", "three plane", "six plane"],
+    answer: 0
+  },
+  {
+    question: "Axonometric drawing is a drawing like",
+    options: ["parallel to the plane", "perpendicular to the plane", "inclined to the plane", "all of the above"],
+    answer: 1
+  },
+  {
+    question: "In one plane drawing, which one does not falls under",
+    options: ["orthographic", "axonometric", "oblique", "dimetric"],
+    answer: 0
+  },
+  {
+    question: "A 100 m long line making 30° with the vertical, show its projection on horizontal plane",
+    options: ["100 m", "50 m", "86.6 m", "70.71 m"],
+    answer: 1
+  },
+  {
+    question: "The point of intersection of co-ordinate axis is called",
+    options: ["zero-zero", "origin", "cross point", "all of the above"],
+    answer: 1
+  },
+  {
+    question: "Axonometric projection is a special types of",
+    options: ["orthographic projection", "perspective projection", "isometric projection", "multi view projective"],
+    answer: 0
+  },
+  {
+    question: "In case of dimetric projection",
+    options: ["two sides are not equally inclined", "two sides are equally inclined", "two sides are parallel", "two sides are equal"],
+    answer: 1
+  },
+  {
+    question: "In a topographic drawing the symbols representing natural features are drawn by free hand while artificial works are drawn by",
+    options: ["free hand", "mechanically", "both (a) and (b) of above", "none of the above"],
+    answer: 1
+  },
+  {
+    question: "The symbol indicates",
+    options: ["temple", "mosque", "church", "museum"],
+    answer: 1
+  },
+  {
+    question: "The symbol indicates",
+    options: ["church", "temple", "mosque", "gurudwara"],
+    answer: 0
+  },
+  {
+    question: "The symbol indicates",
+    options: ["bamboo", "mango", "black berry", "tree"],
+    answer: 3
+  },
+  {
+    question: "Symbol … indicates",
+    options: ["brick", "stone", "steel", "concrete"],
+    answer: 1
+  },
+  {
+    question: "The symbol represents",
+    options: ["school", "temple", "church", "catenary"],
+    answer: 0
+  },
+  {
+    question: "What is the slant for the letter shown?",
+    options: ["80°", "10°", "0°", "none of the above"],
+    answer: 1
+  },
+  {
+    question: "What is the aspect ratio for the letter shown ?",
+    options: ["1", "2", "0.5", "3"],
+    answer: 2
+  },
+  {
+    question: "Topographic map is used to represent the",
+    options: ["artificial detail", "natural detail", "construction detail", "all of the above"],
+    answer: 1
+  },
+  {
+    question: "Concept drawing is normally provided for the work of",
+    options: ["tender", "construction", "revise estimate", "all of the above"],
+    answer: 0
+  },
+  {
+    question: "As built drawing is normally constructed ……….… the construction.",
+    options: ["before construction", "simultaneously with construction", "after construction", "all of the above"],
+    answer: 2
+  },
+  {
+    question: "Free hand sketch is normally used for",
+    options: ["concept", "final", "discussion", "none of the above"],
+    answer: 0
+  },
+  {
+    question: "Free hand drawing is done for",
+    options: ["generate new idea", "to make correction", "both (a) and (b) of above", "none of the above"],
+    answer: 2
+  },
+  {
+    question: "In engineering field free hand drawing is mostly used for",
+    options: ["shape", "size", "to express easily to client", "to express dimension"],
+    answer: 2
+  },
+  {
+    question: "The techniques for free hand sketch to drawing straight line is",
+    options: ["fixing two end points", "fixing length of the line", "fixing the center of line", "all of the above"],
+    answer: 0
+  },
+  {
+    question: "The techniques for free hand sketch to drawing circle is",
+    options: ["fixing a fixed point and arc", "fixing the perimeter", "fixing the radius only", "none of the above"],
+    answer: 0
+  },
+  {
+    question: "The main purpose of as built drawing is",
+    options: ["maintenance of service work", "dimensioning", "profession", "to award tender"],
+    answer: 0
+  },
+  {
+    question: "The section obtained when the section plane is inclined to the axis of cone and cuts all the generators on either side of the apex, is called …………",
+    options: ["an ellipse", "a parabola", "a hyperbola", "a circle"],
+    answer: 0
+  },
+  {
+    question: "The section obtained when the section plane is inclined to the axis of cone, but parallel to one of the generators of a cone is called ……………",
+    options: ["an ellipse", "a parabola", "a hyperbola", "a circle"],
+    answer: 1
+  },
+  {
+    question: "The section obtained when the section plane makes a smaller angle with its axis than that of the angle made by the generator of a cone is called …………",
+    options: ["an ellipse", "a parabola", "a hyperbola", "a circle"],
+    answer: 2
+  },
+  {
+    question: "The section obtained when the section plane passes parallel to the base of a cone is called …………",
+    options: ["an ellipse", "a parabola", "a hyperbola", "a circle"],
+    answer: 3
+  },
+  {
+    question: "The section obtained when the section plane passes through the apex of the cone in such a way that it is perpendicular to the base is called …..",
+    options: ["a triangle", "a parabola", "a hyperbola", "a circle"],
+    answer: 0
+  },
+  {
+    question: "The polyhedra having two equal and similar end bases, parallel to each other and are joined by other faces which may be rectangle, or parallelograms is called ……………",
+    options: ["a prism", "a pyramid", "a cylinder", "a cone"],
+    answer: 0
+  },
+  {
+    question: "The polyhedra having a plane figure for its base and equal number of isosceles triangular faces meeting at a point is called a …………",
+    options: ["a prism", "a pyramid", "a cylinder", "a cone"],
+    answer: 1
+  },
+  {
+    question: "The solid which is generated by the revolution of a rectangle about one of its sides which remains fixed is called…………………",
+    options: ["a prism", "a pyramid", "a cylinder", "a cone"],
+    answer: 2
+  },
+  {
+    question: "The solid which is generated by the revolution of a right angle triangle about one of its perpendicular sides which remains fixed is called …………",
+    options: ["a prism", "a pyramid", "a cylinder", "a cone"],
+    answer: 3
+  },
+  {
+    question: "When a pyramid or cone is cut by a cutting plane parallel to its base, the remaining portion thus obtained after removing the top portion is called …",
+    options: ["a prism", "frustum", "a cylinder", "a cone"],
+    answer: 1
+  },
+  {
+    question: "Which of the following is not a drawing hand tool?",
+    options: ["alidade", "straight edge", "french curve", "set squares"],
+    answer: 0
+  },
+  {
+    question: "For drawing of small objects, the scale used is",
+    options: ["enlarged", "full size", "reducing", "all of the above"],
+    answer: 0
+  },
+  {
+    question: "French curve is used to draw",
+    options: ["regular curve", "circle", "irregular curve", "none of the above"],
+    answer: 2
+  },
+  {
+    question: "Parallel rulig straight edge machine is used to draw",
+    options: ["inclined lines", "curved lines", "irregular lines", "horizontal lines"],
+    answer: 3
+  },
+  {
+    question: "Working drawing is prepared not for",
+    options: ["bill of quantities", "estimation", "layout", "specification"],
+    answer: 3
+  },
+  {
+    question: "The set of technical drawings used during the manufacturing phase of product including civil construction, are known as",
+    options: ["structural drawing", "as built drawing", "structural drawing", "working drawing"],
+    answer: 3
+  },
+  {
+    question: "In orthographic projection, the line of sight and plane of projection are",
+    options: ["perpendicular", "parallel", "horizontal", "vertical"],
+    answer: 0
+  },
+  {
+    question: "In full sectional view, the object is imagined to be cut off",
+    options: ["one third", "one half", "one fourth", "one fifth"],
+    answer: 1
+  },
+  {
+    question: "The purpose of sectional view is to show the",
+    options: ["surface of the object", "internal of the object", "shape of the object", "none of the above"],
+    answer: 1
+  },
+  {
+    question: "The drawing prepared by a pencil and without use of drawing instrument is called",
+    options: ["isometric drawing", "orthographic projection", "cadastral", "free hand sketching"],
+    answer: 3
+  },
+  {
+    question: "The view actually appears to the observer when viewed from a fixed position is called",
+    options: ["isometric drawing", "orthographic projection", "perspective drawing", "none of the above"],
+    answer: 2
+  },
+  {
+    question: "The point in space where parallel lines meet are called",
+    options: ["station point", "vanishing point", "origin", "all of the above"],
+    answer: 1
+  },
+  {
+    question: "Free hand sketching can be done only when, one has",
+    options: ["proper proficiency", "good practice", "proper patience", "all of the above"],
+    answer: 3
+  },
+  {
+    question: "Sketching is usually done:",
+    options: ["with French curves", "free hand", "with drafting machine", "with protractor"],
+    answer: 1
+  },
+  {
+    question: "One method of preparing perspective of an object is",
+    options: ["lattice method", "vanishing point method", "evolution method", "equilibrium method"],
+    answer: 1
+  },
+  {
+    question: "The proportion by which the actual size of an object is enlarged or reduced in drawing is simply known as",
+    options: ["multiplication factor", "scale", "reflection factor", "none of the above"],
+    answer: 1
+  },
+  {
+    question: "'Title Block' is placed at bottom right hand corner of the drawing which gives information about",
+    options: ["title of drawing", "scale of the drawing", "serial no of drawing", "all of the above"],
+    answer: 3
+  },
+  {
+    question: "The locus of centre of curvature is known as",
+    options: ["space", "evolute", "point", "centre"],
+    answer: 1
+  },
+  {
+    question: "In engineering drawing, auxiliary views are used to show details of",
+    options: ["incline surface", "horizontal surface", "vertical surface", "none of the above"],
+    answer: 0
+  },
+  {
+    question: "In the first angle projection the object is assumed to be placed in",
+    options: ["fourth quadrant", "third quadrant", "second quadrant", "first quadrant"],
+    answer: 3
+  },
+  {
+    question: "First angle projection method and third angle projection method are used in:",
+    options: ["axonometric views", "isometric views", "orthographic views", "none of the above"],
+    answer: 2
+  }, 
+  {
+    question: "'Perspective Drawing' is an approximate representation on a flat surface of an image………",
+    options: ["as it is perceived by the eye", "as it is drawn on computer", "of a free hand drawing", "as it is felt by the hands"],
+    answer: 0
+  },
+  {
+    question: "Which of the following is not intended while making a 'sketch' in the context of technical drawings?",
+    options: ["a fished product", "free hand sketching", "a preliminary product", "a quick way to record an idea for work"],
+    answer: 0
+  },
+  {
+    question: "One of the characteristics features of a perspective drawing is that objects are drawn:",
+    options: ["smaller as their distance from the observer increases", "same size irrespective of distance", "larger as their distance from the observer increases", "none of the above"],
+    answer: 0
+  },
+  {
+    question: "The principal of oblique view drawing is to keep:",
+    options: ["width axes at 90°", "width and height axes at 90°", "width, height and depth axes at 90°", "all of the above"],
+    answer: 1
+  },
+  {
+    question: "In Engineering Drawing, French Curves mean:",
+    options: ["the shape of an hourglass", "drafting tools used to draw non-linear figures", "drafting tools used to draw oblong figures", "helical designs patented in France"],
+    answer: 1
+  },
+  {
+    question: "The maps which are on sufficient large scale to enable the individual features shown on the map to be identified on the ground by their shape and position are called :",
+    options: ["topographical maps", "geographical maps", "geological maps", "site plan"],
+    answer: 0
+  },
+  {
+    question: "The letter 'H' labelled in a Drawing Pencil indicates -",
+    options: ["relative hardness", "thickness of line", "both of above", "none of the above"],
+    answer: 0
+  },
+  {
+    question: "The line connecting a view to note is called :",
+    options: ["leader", "cross line", "outline", "dimension line"],
+    answer: 0
+  },
+  {
+    question: "In isometric view a circle is seen as :",
+    options: ["a parabola", "a hyperbola", "a cone", "an ellipse"],
+    answer: 3
+  },
+  {
+    question: "In orthographic projection, the projection's are always ……… to the plane of projection",
+    options: ["perpendicular", "parallel", "60°", "30°"],
+    answer: 0
+  },
+  {
+    question: "In standard A series drawing sheet, the ratio of length of shorter side to longer side",
+    options: ["1:2", "3:4", "1:√2", "?"],
+    answer: 2
+  },
+  {
+    question: "Which of the following theories of mathematics is used by a CAD (computer Aided Design) software in creating a perspective design?",
+    options: ["descriptive geometry", "linear algebra", "Bernoulli's theorem", "vector analysis"],
+    answer: 3
+  },
+  {
+    question: "The most of the texture can be drawn with the help of drawing pen with line thickness",
+    options: ["0.1mm", "0.5mm", "0.8mm", "1.0mm"],
+    answer: 2
+  },
+  {
+    question: "Presentation drawing are generally rendered due to",
+    options: ["decoration", "give real effects", "attract the client", "satisfaction"],
+    answer: 1
+  },
+  {
+    question: "The most suitable angle for the cone of the vision for drawing perspective is",
+    options: ["60°", "45°", "30°", "15°"],
+    answer: 2
+  },
+  {
+    question: "The best drawing paper used for water colour is :",
+    options: ["hand made paper (hand made drawing sheet )", "tracing drawing sheet", "ordinary drawing sheet", "ammonia paper"],
+    answer: 1
+  },
+  {
+    question: "The length of the rectangle representing the development of the lateral surface of a right circular cylinder is equal to :",
+    options: ["circumference of the circular base", "twice the circumference of circular base", "diameter of the circular base", "radius of the circular base"],
+    answer: 0
+  },
+  {
+    question: "Third angle projection is the traditional ………… system.",
+    options: ["American", "British", "Indian", "Nepali"],
+    answer: 0
+  },
+  {
+    question: "Engineers prefer to make ………. sketches than to pictorial sketches to clear the shape of an object.",
+    options: ["orthographic", "perspective", "auto CAD", "all of the above"],
+    answer: 0
+  },
+  {
+    question: "The selection of suitable scale and allotment of proper space for margin, title block, revision panel, folding marks, etc. on the drawing sheet is known as :",
+    options: ["formatting", "layout", "folding", "centering"],
+    answer: 1
+  },
+  {
+    question: "The size of the title block of all sizes of drawing sheet is :",
+    options: ["420 mm, 65 mm", "185 mm, 65 mm", "297 mm, 65 mm", "185 mm, 50 mm"],
+    answer: 1
+  },
+  {
+    question: "The projection in which the length, breadth and height of an object is shown in one view is Known as :",
+    options: ["pictorial projection", "isometric projection", "cavalier projection", "cabinet projection"],
+    answer: 1
+  },
+  {
+    question: "The shades and shadows are :",
+    options: ["the same", "the different", "the result of object on the ground", "the result of light on the ground"],
+    answer: 1
+  },
+  {
+    question: "Pencil drawings are generally corrected or revised with the help of :",
+    options: ["razor blade", "eraser shield", "ink", "all of the above"],
+    answer: 1
+  },
+  {
+    question: "Dimension lines and projection lines are drawn as",
+    options: ["continuous thick lines", "continuous thin line with zig zags", "continuous thin line", "continuous thin and wary lines"],
+    answer: 2
+  },
+  {
+    question: "Select the incorrect staternent about orthographic projections :",
+    options: ["the reference planes are also called the principle planes", "the object must the situated in the first quadrant", "the planes of projection and assumed to be transparent", "projections are obtained by drawing perpendicular s from the object to the planes"],
+    answer: 2
+  },
+  {
+    question: "In the first angle method of orthographic projection",
+    options: ["the object comes between the observer and the plane", "the plane comes between the object and the observer", "the observer comes between the object and the plane", "none of the above"],
+    answer: 0
+  },
+  {
+    question: "Which of the following regarding scales in drawing is NOT true?",
+    options: ["the name of the scale (e.g. scale 1:10) should be mentioned below the scale", "a diagonal scale consists of a primary scale and a vernier", "comparative scales may be plain or diagonal", "when an unusual scale is used it is constructed on the drawing sheet"],
+    answer: 1
+  },
+  {
+    question: "The free hand drawing of a ordinary room is generally :",
+    options: ["one point perspective", "two point perspective", "three point perspective", "all of the above"],
+    answer: 1
+  },
+  {
+    question: "Site plan is a :",
+    options: ["structural plan", "architecturel plan", "section plan", "none of the above"],
+    answer: 1
+  },
+  {
+    question: "Working drawings:",
+    options: ["must provide complete information to produce the object", "need not provide complete information", "should be supplemented by further details", "should be supplemented by specifications"],
+    answer: 0
+  },
+  {
+    question: "In general structural drawings would typically include following information:",
+    options: ["north point", "plan, section and elevation", "notes on specification", "all of the above"],
+    answer: 3
+  },
+  {
+    question: "A technical drawing of an object that shows the relationship or order of assembly of the various parts is known",
+    options: ["orthographic projection", "exploded view drawing", "compacted view drawing", "axonometric drawing"],
+    answer: 1
+  },
+  {
+    question: "The space covered by a drawing in a paper after changing the scale from 1:100 to 1:50 will:",
+    options: ["increase 400%", "increase 200%", "decrease 200%", "decrease 400%"],
+    answer: 3
+  }
+]
 
 
 
