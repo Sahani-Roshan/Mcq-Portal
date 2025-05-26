@@ -12,16 +12,19 @@
     header { text-align: center; padding: 2rem 0; }
     header h1 { font-size: 2.5rem; color: #2c3e50; }
     .sections { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
-    .section-card, .nav-btn, .view-marked { background: #fff; border-radius: .5rem; padding: 1rem; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.1); cursor: pointer; transition: transform .2s; }
-    .section-card:hover, .nav-btn:hover, .view-marked:hover { transform: translateY(-3px); }
+    .section-card, .nav-btn, .view-mark-btn { background: #fff; border-radius: .5rem; padding: 1rem; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.1); cursor: pointer; transition: transform .2s; }
+    .section-card:hover, .nav-btn:hover, .view-mark-btn:hover { transform: translateY(-3px); }
     .question-container { margin-top: 2rem; }
     .question { background: #fff; margin-bottom: 1.5rem; padding: 1rem; border-radius: .5rem; box-shadow: 0 1px 5px rgba(0,0,0,0.1); position: relative; }
     .question h3 { margin-bottom: .75rem; }
     .options { list-style: none; }
     .options li { padding: .5rem 1rem; margin-bottom: .5rem; background: #ecf0f1; border-radius: .25rem; cursor: pointer; }
     .options li:hover { background: #d0d7de; }
-    .star { position: absolute; top: 1rem; right: 1rem; font-size: 1.25rem; cursor: pointer; color: #ccc; }
+    .star, .report { position: absolute; top: 1rem; font-size: 1.25rem; cursor: pointer; color: #ccc; }
+    .star { right: 2.5rem; }
+    .report { right: 1rem; }
     .star.marked { color: gold; }
+    .report.reported { color: crimson; }
   </style>
 </head>
 <body>
@@ -29,7 +32,10 @@
     <header><h1>Engineering MCQ Portal</h1></header>
     <div id="main-view">
       <div class="sections" id="sections-list"></div>
-      <div style="text-align:center; margin-top:1rem;"><button class="view-marked nav-btn" id="viewMarkedBtn">View Marked Questions</button></div>
+      <div style="text-align:center; margin-top:1rem;">
+        <button class="view-mark-btn nav-btn" id="viewMarkedBtn">View Marked Questions</button>
+        <button class="view-mark-btn nav-btn" id="viewReportedBtn">View Reported Questions</button>
+      </div>
     </div>
     <div id="question-view" style="display:none;">
       <div style="text-align:center; margin-top:1rem;"><button class="nav-btn" id="backBtn">&larr; Back</button></div>
@@ -38,8 +44,13 @@
     </div>
     <div id="marked-sections-view" style="display:none;">
       <div style="text-align:center; margin-top:1rem;"><button class="nav-btn" id="backFromMarkedBtn">&larr; Back</button></div>
-      <h2>Select Section</h2>
+      <h2>Select Section (Marked)</h2>
       <div class="sections" id="marked-sections-list"></div>
+    </div>
+    <div id="reported-sections-view" style="display:none;">
+      <div style="text-align:center; margin-top:1rem;"><button class="nav-btn" id="backFromReportedBtn">&larr; Back</button></div>
+      <h2>Select Section (Reported)</h2>
+      <div class="sections" id="reported-sections-list"></div>
     </div>
   </div>
   <script src="questions.js"></script>
@@ -52,10 +63,12 @@
 
     let currentSection = null;
     let marked = JSON.parse(localStorage.getItem('marked') || '[]');
+    let reported = JSON.parse(localStorage.getItem('reported') || '[]');
     let currentPage = 0;
     const pageSize = 25;
     let currentQuestions = [];
 
+    // init sections
     const secList = document.getElementById('sections-list');
     sections.forEach(sec => {
       const div = document.createElement('div'); div.className='section-card'; div.textContent=sec;
@@ -63,108 +76,108 @@
       secList.appendChild(div);
     });
 
+    // buttons
     document.getElementById('backBtn').addEventListener('click', () => toggleView('main'));
     document.getElementById('viewMarkedBtn').addEventListener('click', () => loadMarkedSections());
     document.getElementById('backFromMarkedBtn').addEventListener('click', () => toggleView('main'));
+    document.getElementById('viewReportedBtn').addEventListener('click', () => loadReportedSections());
+    document.getElementById('backFromReportedBtn').addEventListener('click', () => toggleView('main'));
 
     function toggleView(view) {
-      document.getElementById('main-view').style.display = view === 'main' ? 'block':'none';
-      document.getElementById('question-view').style.display = view === 'questions' ? 'block':'none';
-      document.getElementById('marked-sections-view').style.display = view === 'markedSections' ? 'block':'none';
+      ['main','questions','markedSections','reportedSections'].forEach(v => {
+        document.getElementById(v==='questions'? 'question-view' :
+          v==='main'? 'main-view' :
+          v==='markedSections'? 'marked-sections-view' :
+          'reported-sections-view').style.display =
+          (v===view? 'block':'none');
+      });
     }
 
     function loadSection(section) {
       currentSection = section;
       currentQuestions = window.mcqData[section].map((q, idx) => ({...q, origIdx: idx, section}));
-      currentPage = 0;
-      renderQuestions();
-      toggleView('questions');
+      currentPage = 0; renderQuestions(); toggleView('questions');
     }
 
     function renderQuestions() {
-      const container = document.getElementById('questionsContainer'); container.innerHTML = '';
+      const container = document.getElementById('questionsContainer'); container.innerHTML='';
       const start = currentPage * pageSize;
       const slice = currentQuestions.slice(start, start + pageSize);
-
-      slice.forEach((q, i) => {
-        const realIdx = slice[i].origIdx;
+      slice.forEach(q => {
+        const idx = q.origIdx;
         const div = document.createElement('div'); div.className='question';
-        const h3 = document.createElement('h3'); h3.textContent=(realIdx+1)+'. '+q.question;
+        const h3 = document.createElement('h3'); h3.textContent=(idx+1)+'. '+q.question;
         div.appendChild(h3);
+        if(q.image) { const img = document.createElement('img'); img.src=q.image; img.style.maxWidth='100%'; img.style.margin='10px 0'; div.appendChild(img); }
         const ul = document.createElement('ul'); ul.className='options';
-        q.options.forEach((opt, optI) => {
-          const li = document.createElement('li'); li.textContent=opt;
-          li.addEventListener('click', () => selectOption(li, optI === q.answer));
-          ul.appendChild(li);
-        });
-        div.appendChild(ul);
-
-        const star = document.createElement('span'); star.className='star';
-        const key = q.section + '::' + q.origIdx;
-        star.innerHTML = marked.includes(key) ? '★' : '☆';
-        if (marked.includes(key)) star.classList.add('marked');
-        star.addEventListener('click', () => toggleMark(q.section, q.origIdx, star));
-        div.appendChild(star);
-
+        q.options.forEach((opt,i)=>{ const li=document.createElement('li'); li.textContent=opt;
+          li.addEventListener('click', ()=> selectOption(li, i===q.answer)); ul.appendChild(li);
+        }); div.appendChild(ul);
+        // star
+        const star = document.createElement('span'); star.className='star'; const mk=q.section+'::'+idx;
+        star.innerHTML = marked.includes(mk)? '★':'☆'; if(marked.includes(mk)) star.classList.add('marked');
+        star.addEventListener('click', ()=> toggleMark(q.section, idx, star)); div.appendChild(star);
+        // report
+        const rpt = document.createElement('span'); rpt.className='report'; const rk=q.section+'::'+idx;
+        rpt.innerHTML = reported.includes(rk)? '🚩':'🏳️'; if(reported.includes(rk)) rpt.classList.add('reported');
+        rpt.addEventListener('click', ()=> toggleReport(q.section, idx, rpt)); div.appendChild(rpt);
         container.appendChild(div);
       });
-
-      renderPagination();
-      document.getElementById('questionsContainer').scrollIntoView({block:'start'});
+      renderPagination(); document.getElementById('questionsContainer').scrollIntoView({block:'start'});
     }
 
     function renderPagination() {
-      const pag = document.getElementById('pagination'); pag.innerHTML = '';
-      const totalPages = Math.ceil(currentQuestions.length / pageSize);
-      if (currentPage > 0) {
-        const prev = document.createElement('button'); prev.className='nav-btn'; prev.textContent='Previous';
-        prev.addEventListener('click', () => { currentPage--; renderQuestions(); }); pag.appendChild(prev);
-      }
+      const pag = document.getElementById('pagination'); pag.innerHTML='';
+      const totalPages = Math.ceil(currentQuestions.length/pageSize);
+      if(currentPage>0){ const prev=document.createElement('button'); prev.className='nav-btn'; prev.textContent='Previous'; prev.addEventListener('click', ()=>{currentPage--; renderQuestions();}); pag.appendChild(prev);} 
       pag.append(` Page ${currentPage+1} of ${totalPages} `);
-      if (currentPage < totalPages - 1) {
-        const next = document.createElement('button'); next.className='nav-btn'; next.textContent='Next';
-        next.addEventListener('click', () => { currentPage++; renderQuestions(); }); pag.appendChild(next);
-      }
+      if(currentPage<totalPages-1){ const next=document.createElement('button'); next.className='nav-btn'; next.textContent='Next'; next.addEventListener('click', ()=>{currentPage++; renderQuestions();}); pag.appendChild(next);}    
     }
 
-    function selectOption(el, isCorrect) {
-      el.style.background = isCorrect ? '#d4edda' : '#f8d7da';
-    }
+    function selectOption(el, correct) { el.style.background=correct? '#d4edda':'#f8d7da'; }
 
-    function toggleMark(sec, idx, starEl) {
-      const key = sec + '::' + idx;
-      if (marked.includes(key)) {
-        marked = marked.filter(m => m !== key);
-        starEl.textContent = '☆'; starEl.classList.remove('marked');
-      } else {
-        marked.push(key);
-        starEl.textContent = '★'; starEl.classList.add('marked');
-      }
+    function toggleMark(sec, idx, el) {
+      const k=sec+'::'+idx;
+      if(marked.includes(k)){ marked=marked.filter(x=>x!==k); el.textContent='☆'; el.classList.remove('marked'); }
+      else{ marked.push(k); el.textContent='★'; el.classList.add('marked'); }
       localStorage.setItem('marked', JSON.stringify(marked));
     }
 
+    function toggleReport(sec, idx, el) {
+      const k=sec+'::'+idx;
+      if(reported.includes(k)){ reported=reported.filter(x=>x!==k); el.textContent='🏳️'; el.classList.remove('reported'); }
+      else{ reported.push(k); el.textContent='🚩'; el.classList.add('reported'); }
+      localStorage.setItem('reported', JSON.stringify(reported));
+    }
+
     function loadMarkedSections() {
-      const secs = [...new Set(marked.map(m => m.split('::')[0]))];
-      const list = document.getElementById('marked-sections-list'); list.innerHTML = '';
-      secs.forEach(sec => {
-        const count = marked.filter(m => m.startsWith(sec + '::')).length;
-        const div = document.createElement('div'); div.className='section-card'; div.textContent=`${sec} (${count})`;
-        div.addEventListener('click', () => loadMarkedSection(sec)); list.appendChild(div);
-      });
-      toggleView('markedSections');
+      const secs=[...new Set(marked.map(m=>m.split('::')[0]))]; const list=document.getElementById('marked-sections-list'); list.innerHTML='';
+      secs.forEach(sec=>{ const cnt=marked.filter(m=>m.startsWith(sec+'::')).length;
+        const div=document.createElement('div'); div.className='section-card'; div.textContent=`${sec} (${cnt})`;
+        div.addEventListener('click', ()=> loadMarkedSection(sec)); list.appendChild(div);
+      }); toggleView('markedSections');
     }
 
     function loadMarkedSection(section) {
-      currentSection = section;
-      const keys = marked.filter(m => m.startsWith(section + '::'));
-      currentQuestions = keys.map(k => {
-        const idx = parseInt(k.split('::')[1], 10);
-        const q = window.mcqData[section][idx];
-        return {...q, origIdx: idx, section};
-      });
-      currentPage = 0;
-      renderQuestions();
-      toggleView('questions');
+      currentSection=section;
+      const keys=marked.filter(m=>m.startsWith(section+'::'));
+      currentQuestions=keys.map(k=>{ const i=parseInt(k.split('::')[1],10); const q=window.mcqData[section][i]; return {...q,origIdx:i,section}; });
+      currentPage=0; renderQuestions(); toggleView('questions');
+    }
+
+    function loadReportedSections() {
+      const secs=[...new Set(reported.map(m=>m.split('::')[0]))]; const list=document.getElementById('reported-sections-list'); list.innerHTML='';
+      secs.forEach(sec=>{ const cnt=reported.filter(m=>m.startsWith(sec+'::')).length;
+        const div=document.createElement('div'); div.className='section-card'; div.textContent=`${sec} (${cnt})`;
+        div.addEventListener('click', ()=> loadReportedSection(sec)); list.appendChild(div);
+      }); toggleView('reportedSections');
+    }
+
+    function loadReportedSection(section) {
+      currentSection=section;
+      const keys=reported.filter(m=>m.startsWith(section+'::'));
+      currentQuestions=keys.map(k=>{ const i=parseInt(k.split('::')[1],10); const q=window.mcqData[section][i]; return {...q,origIdx:i,section}; });
+      currentPage=0; renderQuestions(); toggleView('questions');
     }
   </script>
 </body>
