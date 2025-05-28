@@ -925,6 +925,16 @@ window.mcqData = {
     answer: 0
   },
   {
+    question: "A one dimensional structure is one in which",
+    options: [
+      "one dimension is very small and other two are large",
+      "one dimension is very much larger than the other two dimensions",
+      "all three dimensions are equal",
+      "none of the above"
+    ],
+    answer: 1
+  },
+  {
     question: "A two dimensional structure is one in which",
     options: [
       "two dimensions are very much larger than the third",
