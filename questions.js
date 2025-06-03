@@ -285,12 +285,12 @@ window.mcqData = {
 {
     question: "The difference between plastic limit and shrinkage limit is called",
     options: ["fluidity index", "reliability", "plasticity index", "shrinkage index"],
-    answer: 2
+    answer: 3
 },
 {
     question: "The liquidity index of soil is given by",
     options: ["( Wn - Wp)/Ip", "( Wl - Wp)/Ip", "( Wl - Wp)", "none of the above"],
-    answer: 1
+    answer: 0
 },
 {
     question: "Which of the following does not happen when compaction is done?",
