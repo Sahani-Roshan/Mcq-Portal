@@ -255,7 +255,7 @@ window.mcqData = {
 {
     question: "The maximum water content at which a reduction in water content does not cause a decrease in volume of soil mass is known as",
     options: ["liquid limit", "plastic limit", "shrinkage limit", "ductile limit"],
-    answer: 1
+    answer: 2
 },
 {
     question: "Plasticity index is obtained as the difference between",
