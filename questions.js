@@ -144,7 +144,7 @@ window.mcqData = {
 },
 {
     question: "The relationship between void ratio (e) and porosity ratio (n) is",
-    options: ["n=e/(1-e)", "e=n/(1-e)", "e=(1+n)/(1-e)", "(1+e)/(1-e)"],
+    options: ["n=e/(1-e)", "e=n/(1-n)", "e=(1+n)/(1-e)", "(1+e)/(1-e)"],
     answer: 1
 },
 {
