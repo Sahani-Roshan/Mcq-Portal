@@ -155,7 +155,7 @@ window.mcqData = {
 {
     question: "The functional equation for specific gravity (G), water content (w), void ratio (e) and degree of saturation (Sr) is",
     options: ["w = SrG/e", "e = Srw/G", "e = WG/Sr", "G = Srw/e"],
-    answer: 0
+    answer: 2
 },
 {
     question: "The fundamental relation between percentage Air voids na, specific gravity (G), water content (w) and dry density (Yd) is",
