@@ -270,7 +270,7 @@ window.mcqData = {
 {
     question: "The ratio of plasticity index to flow index is called",
     options: ["activity ratio", "liquidity index", "toughness index", "shrinkage index"],
-    answer: 1
+    answer: 2
 },
 {
     question: "In a soil if the water content is equal to the liquid limit, its relative consistency is",
