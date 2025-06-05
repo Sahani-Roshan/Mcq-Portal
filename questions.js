@@ -15427,6 +15427,4559 @@ window.mcqData = {
   answer: 3
 },
 ],
+"Engineering Survey":
+[
+{
+  question: "Principle of surveying is",
+  options: [
+    "to work from whole to the part",
+    "to work from part to whole",
+    "both (a) and (b) above",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Under Survey “working from whole to part” is done",
+  options: [
+    "to prevent the accumulation of error",
+    "to localise the error",
+    "both of the above",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "The curvature of the earth’s surface is taken into account only if the extent of survey is more than",
+  options: [
+    "60 sq km",
+    "160 sq km",
+    "260 sq km",
+    "500 sq km",
+  ],
+  answer: 2
+},
+{
+  question: "Geodetic survey is different from plane surveying because of",
+  options: [
+    "very large area is covered",
+    "the curvature of the earth is considered",
+    "undulations of the topography",
+    "the large difference of elevations",
+  ],
+  answer: 1
+},
+{
+  question: "The limitation for geodetic survey is",
+  options: [
+    "150 km²",
+    "250 km²",
+    "350 km²",
+    "400 km²",
+  ],
+  answer: 1
+},
+{
+  question: "Hydrographic survey deal with the mapping of",
+  options: [
+    "large water bodies",
+    "canal system",
+    "cloud movement",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "The survey which is carried out for determining absolute locations and the direction of any line on the surface of the earth by making observation to heavenly bodies is called",
+  options: [
+    "hydrographic survey",
+    "astronomical survey",
+    "land survey",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "A scale representing either three units or only one unit and its fractions up to second place of decimal point is",
+  options: [
+    "diagonal scale",
+    "comparative scale",
+    "simple vernier",
+    "shrunk scale",
+  ],
+  answer: 0
+},
+{
+  question: "If the smallest division of a vernier is longer than the smallest division of its primary scale, the vernier is known as",
+  options: [
+    "direct vernier",
+    "double vernier",
+    "simple vernier",
+    "retrograde vernier",
+  ],
+  answer: 3
+},
+{
+  question: "The scale used to measure and to set out the angles is",
+  options: [
+    "diagonal scale",
+    "comparative scale",
+    "vernier scale",
+    "scale of chords",
+  ],
+  answer: 3
+},
+{
+  question: "If s is the value of one smallest division on main scale, v is the value of one smallest division on the vernier, and n is the number divisions on the vernier, then least count is given by",
+  options: [
+    "(s/n)",
+    "s/(n–1)",
+    "(s+1)/n",
+    "(c–1)s/n",
+  ],
+  answer: 0
+},
+{
+  question: "A discrepancy is the difference between",
+  options: [
+    "true value and error",
+    "measured value and actual value",
+    "two measured values of the same quantity",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "Find the R.F. for scale, 1 cm = 5 m",
+  options: [
+    "1/5",
+    "1/50",
+    "1/500",
+    "1/5000",
+  ],
+  answer: 2
+},
+{
+  question: "Find the representative fraction for a scale 10 cm = 2 km.",
+  options: [
+    "1/200",
+    "1/20000",
+    "1/200000",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The designation of scale recommended by IS: 1491-1959",
+  options: [
+    "A to C",
+    "A to D",
+    "A to E",
+    "A to F",
+  ],
+  answer: 3
+},
+{
+  question: "Least count is given by where p & v are the smallest division of primary & secondary scale respectively.",
+  options: [
+    "p–v",
+    "v–p",
+    "p+v",
+    "both",
+  ],
+  answer: 3
+},
+{
+  question: "Which of the following scale is the smallest one",
+  options: [
+    "1 cm = 10 m",
+    "1 cm = 100 m",
+    "1 cm = 1000 m",
+    "1 cm = 10⁴ m",
+  ],
+  answer: 3
+},
+{
+  question: "Compensating errors in chaining or other survey are",
+  options: [
+    "proportional to the length of the line",
+    "proportional to the square root of the length of the line",
+    "inversely proportional to the square root of the length of the line",
+    "inversely proportional to the length of the line",
+  ],
+  answer: 1
+},
+{
+  question: "The errors which are not possible to correct is",
+  options: [
+    "positive cumulative error",
+    "negative cumulative error",
+    "compensating error",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "Negative errors are caused in chain, when its length is",
+  options: [
+    "more than the standard length",
+    "less than the standard length",
+    "equal to the standard length",
+    "any of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Theory of probability is applied to",
+  options: [
+    "cumulative errors",
+    "compensative errors",
+    "accidental errors",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "The most probable value of an observed quantity available from a given set of observations is the one for which the sum of the square of errors is a minimum. This statement is called as",
+  options: [
+    "principle of least square",
+    "law of errors",
+    "principle of square errors",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "The difference between the most probable value of a quantity and its observed value is",
+  options: [
+    "conditional error",
+    "true error",
+    "residual error",
+    "safe error",
+  ],
+  answer: 2
+},
+{
+  question: "The maximum allowable limit up to that a measurement may vary from the true value is known as",
+  options: [
+    "permissible error",
+    "residual error",
+    "expected error",
+    "systematic error",
+  ],
+  answer: 0
+},
+{
+  question: "The types of error which are of cumulative nature and can be corrected is known as",
+  options: [
+    "permissible error",
+    "residual error",
+    "expected error",
+    "systematic error",
+  ],
+  answer: 3
+},
+{
+  question: "If n observations are taken, the accidental errors are proportional to",
+  options: [
+    "n",
+    "n²",
+    "√n",
+    "1/n",
+  ],
+  answer: 2
+},
+{
+  question: "Which one is the simplest survey?",
+  options: [
+    "chain survey",
+    "compass survey",
+    "plane table survey",
+    "levelling",
+  ],
+  answer: 0
+},
+{
+  question: "During geodetic survey which one is considered",
+  options: [
+    "radius of earth is considered",
+    "curvature of earth is considered",
+    "mean of the earth is considered",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Cadastral Map is a map having",
+  options: [
+    "small scale",
+    "medium scale",
+    "large scale",
+    "all of the above",
+  ],
+  answer: 2
+},
+{
+  question: "In city for planning, plotting the details as well as property line is",
+  options: [
+    "topographical map",
+    "cadastral map",
+    "land use map",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "An offset scale always has the zero mark at its",
+  options: [
+    "middle",
+    "end",
+    "either middle or at end",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "Offsets are",
+  options: [
+    "chain lines out of alignment",
+    "small measurements from chain line",
+    "measurements taken in chain surveying",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Short offsets are measured with",
+  options: [
+    "an ordinary chain",
+    "an invar tape",
+    "a metallic tape",
+    "a steel tape",
+  ],
+  answer: 0
+},
+{
+  question: "Butt rods are used for measuring",
+  options: [
+    "base line",
+    "tie line",
+    "offset distance",
+    "vertical distance",
+  ],
+  answer: 2
+},
+{
+  question: "A 30 m chain was found to be 20 cm too long after chaining 1500 m. The correct length of the total distance chained will be",
+  options: [
+    "1495 m",
+    "1500 m",
+    "1505 m",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "The chain length which is not the standard metric chain length is",
+  options: [
+    "10 m",
+    "20 m",
+    "25 m",
+    "30 m",
+  ],
+  answer: 2
+},
+{
+  question: "If a chain is found too short on testing, it can be adjusted by",
+  options: [
+    "straightening the links",
+    "inserting additional circular rings",
+    "flattening the circular rings",
+    "any of the above",
+  ],
+  answer: 3
+},
+{
+  question: "Number of links in a 30 m metric chain is",
+  options: [
+    "100",
+    "150",
+    "180",
+    "200",
+  ],
+  answer: 1
+},
+{
+  question: "A chain may be elongated due to",
+  options: [
+    "decrease in temperature",
+    "kinks in link",
+    "difference in pull",
+    "opening in rings",
+  ],
+  answer: 3
+},
+{
+  question: "The distance between two neighboring brass rings are",
+  options: [
+    "20 cm",
+    "50 cm",
+    "1 m",
+    "5 m",
+  ],
+  answer: 2
+},
+{
+  question: "The tape commonly used for measure the offsets in chain survey is",
+  options: [
+    "linen tape",
+    "steel tape",
+    "metallic tape",
+    "invar tape",
+  ],
+  answer: 2
+},
+{
+  question: "A chain 33′ (feet) long and consisting of 16 links each 2 1/16 feet long is",
+  options: [
+    "Engineer’s chain",
+    "Gunter’s chain",
+    "Metric chain",
+    "Revenue chain",
+  ],
+  answer: 3
+},
+{
+  question: "A chain is made up of mild steel or galvanized iron wire of diameter",
+  options: [
+    "1 mm",
+    "3 mm",
+    "5 mm",
+    "7 mm",
+  ],
+  answer: 2
+},
+{
+  question: "Ranging is the process of",
+  options: [
+    "marking some intermediate points in straight line, joining the two end points in the field",
+    "fixing ranging rods on the extremities of the area",
+    "taking offsets from a chain line",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Ranging is the process of fixing intermediate points between two points while changing the measurement of distance between two points, then find the correct statement",
+  options: [
+    "accurate ranging is not possible without ranging",
+    "accurate ranging is not possible without chaining",
+    "chaining & ranging proceeds simultaneously",
+    "all of the above",
+  ],
+  answer: 0
+},
+{
+  question: "The minimum no. of ranging rods required for direct ranging is",
+  options: [
+    "2",
+    "3",
+    "4",
+    "5",
+  ],
+  answer: 1
+},
+{
+  question: "The minimum no. of ranging rods required for indirect ranging is",
+  options: [
+    "2",
+    "3",
+    "4",
+    "5",
+  ],
+  answer: 2
+},
+{
+  question: "The important points selected at the ends of the chain lines to command the boundaries of the survey are known as",
+  options: [
+    "main stations",
+    "subsidiary stations",
+    "tie station",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "The longest chain line passing through the centre of the area is known as",
+  options: [
+    "base line",
+    "tie line",
+    "check line",
+    "all the above",
+  ],
+  answer: 0
+},
+{
+  question: "The tie line is run through the traverse to",
+  options: [
+    "take offsets for detailed surveying",
+    "take details of nearby objects",
+    "check accuracy of work",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The permissible limits of error in chaining for measurement on rough or hilly ground is",
+  options: [
+    "1 : 2000",
+    "1 : 1000",
+    "1 : 500",
+    "1 : 250",
+  ],
+  answer: 3
+},
+{
+  question: "During chaining along a straight line, the leader of the survey party has three arrows and while the follower has five arrows. The distance of the follower from the starting point will be",
+  options: [
+    "three chains",
+    "four chains",
+    "five chains",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "Invar tapes are made of an alloy of",
+  options: [
+    "nickel and steel",
+    "copper and steel",
+    "tin and steel",
+    "aluminium and steel",
+  ],
+  answer: 0
+},
+{
+  question: "Metallic tapes are made of",
+  options: [
+    "steel",
+    "invar",
+    "cloth and wires",
+    "nickel",
+  ],
+  answer: 2
+},
+{
+  question: "Chain surveying is used for",
+  options: [
+    "small areas in open ground",
+    "small areas with crowded details",
+    "small areas with simple details",
+    "large areas with simple details",
+  ],
+  answer: 0
+},
+{
+  question: "For accurate work, in comparison to chain, the steel band is used because it",
+  options: [
+    "is light in weight",
+    "is easy to handle",
+    "is practically inextensible",
+    "all of the above",
+  ],
+  answer: 2
+},
+{
+  question: "The length of an Engineer’s chain is",
+  options: [
+    "70 ft",
+    "80 ft",
+    "90 ft",
+    "100 ft",
+  ],
+  answer: 3
+},
+{
+  question: "It is more difficult to obtain good results while measuring horizontal distance by stepping",
+  options: [
+    "up-hill",
+    "down-hill",
+    "in low undulations",
+    "in plain areas",
+  ],
+  answer: 0
+},
+{
+  question: "While measuring horizontal distance by stepping method we should follow",
+  options: [
+    "down-hill",
+    "up-hill",
+    "centre",
+    "all of the above",
+  ],
+  answer: 0
+},
+{
+  question: "If W is the weight of the chain, L is the span and P is the tension or pull, the sag correction for chain will be",
+  options: [
+    "W²L²/24P²",
+    "W²L/24P",
+    "LW²/24P²",
+    "W²L²/24P",
+  ],
+  answer: 2
+},
+{
+  question: "If 30 m chain is used to measure on an inclined surface. The measured length is one chain and difference in level between them is D, then slope correction is",
+  options: [
+    "D²/60",
+    "p²/30",
+    "60/D²",
+    "30/D²",
+  ],
+  answer: 0
+},
+{
+  question: "No. of divisions in Gunter chain are",
+  options: [
+    "100",
+    "150",
+    "10",
+    "all of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Plumb bob is used for",
+  options: [
+    "measuring the line",
+    "transferring the points",
+    "marking the point",
+    "all of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Line ranger is an instrument used for",
+  options: [
+    "ranging",
+    "centering",
+    "transferring",
+    "measuring",
+  ],
+  answer: 0
+},
+{
+  question: "Drop arrow is used in",
+  options: [
+    "conventional chain survey",
+    "measurements along slopes",
+    "measurements by methods of stepping",
+    "measuring with tape",
+  ],
+  answer: 2
+},
+{
+  question: "Normal tension is that pull which",
+  options: [
+    "neutralizes the effect due to pull and sag",
+    "makes sag correction zero",
+    "makes pull correction zero",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "If θ is the angle of slope, l is length of slope and H is the difference in elevation between the two ends of the line, then slope correction will be",
+  options: [
+    "l sin θ",
+    "2 L sin²(θ/2)",
+    "l sin²(θ/2)",
+    "2 L sin 2θ",
+  ],
+  answer: 1
+},
+{
+  question: "A 30 m long tape was standardized at a temperature 30 °C, if at the time of measurement the temperature recorded is 35 °C, then the correction for temperature per tape length is (coefficient of thermal expansion = 0.0000116/°C)",
+  options: [
+    "+0.01674 m",
+    "–0.001674 m",
+    "+0.002500 m",
+    "–0.002500 m",
+  ],
+  answer: 0
+},
+{
+  question: "Chaining is the distance measured",
+  options: [
+    "along a chain line",
+    "perpendicular to a chain line",
+    "perpendicular to a tie line",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Length of offset depends upon",
+  options: [
+    "accuracy desired",
+    "scale of plotting",
+    "nature of the ground",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "The maximum angular error in laying the direction is 3′; if this maximum displacement of the point on paper is same for both sources of error, the accuracy in the offset measurement will be",
+  options: [
+    "1 in 18",
+    "1 in 19",
+    "1 in 25",
+    "1 in 30",
+  ],
+  answer: 1
+},
+{
+  question: "The angle that can be set by French cross staff is",
+  options: [
+    "45°",
+    "90°",
+    "45° or 90°",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "The method of offset laying involving minimum measurement on the ground is",
+  options: [
+    "perpendicular offset method",
+    "oblique offset method",
+    "tie offset method",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "The sag correction is always",
+  options: [
+    "positive",
+    "negative",
+    "zero",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Open cross staff is used for setting out",
+  options: [
+    "long offsets",
+    "short offsets",
+    "oblique offsets",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "The angle of intersection of horizon mirror and index mirror of an optical square is",
+  options: [
+    "30°",
+    "45°",
+    "105°",
+    "120°",
+  ],
+  answer: 1
+},
+{
+  question: "The main difference between optical square and prism square is",
+  options: [
+    "no adjustment is required in a prism square as the angle between the reflecting mirrors is fixed",
+    "optical square is more accurate",
+    "principle of working is different",
+    "all of the above",
+  ],
+  answer: 0
+},
+{
+  question: "In chain survey execution, this first step taken is",
+  options: [
+    "reconnaissance",
+    "marking station",
+    "running survey line",
+    "reference sketches",
+  ],
+  answer: 0
+},
+{
+  question: "A river is an obstacle to",
+  options: [
+    "ranging but not chaining",
+    "chaining but not ranging",
+    "both chaining and ranging",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Obstacle to ranging but not chaining is",
+  options: [
+    "river",
+    "building",
+    "hill",
+    "pond",
+  ],
+  answer: 2
+},
+{
+  question: "A building is an obstacle to",
+  options: [
+    "chaining but not ranging",
+    "ranging but not chaining",
+    "both chaining and ranging",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "A field is measured with a 1.0 percent too long chain is found to be 10000 acres. The corrected area of the field will be",
+  options: [
+    "90891 acres",
+    "10201 acres",
+    "10401 acres",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "A 30 m long chain when tested should not show error exceeding",
+  options: [
+    "±2 mm per metre and ±5 mm overall length",
+    "±3 mm per metre and ±8 mm overall length",
+    "±2 mm per metre and ±8 mm overall length",
+    "±5 mm per metre and ±2 mm overall length",
+  ],
+  answer: 2
+},
+{
+  question: "Offset angle taken in chain survey may be",
+  options: [
+    "45°",
+    "90°",
+    "135°",
+    "any of the above",
+  ],
+  answer: 3
+},
+{
+  question: "An offset more than 15 m in length is known as",
+  options: [
+    "long offset",
+    "short offset",
+    "oblique offset",
+    "right-angled offset",
+  ],
+  answer: 0
+},
+{
+  question: "Choose the correct statement",
+  options: [
+    "discrepancy is the difference between two measured values of same quantity",
+    "residual error is the difference between a measured quantity and most probable value",
+    "variance is the square of the standard deviation",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "Well-conditioned triangle having angle between",
+  options: [
+    "30° & 60°",
+    "30° & 90°",
+    "30° & 120°",
+    "60° & 120°",
+  ],
+  answer: 2
+},
+{
+  question: "In case of chain surveying which one is the best triangle?",
+  options: [
+    "well-conditioned triangle",
+    "ill-conditioned triangle",
+    "equilateral triangle",
+    "isosceles triangle",
+  ],
+  answer: 2
+},
+{
+  question: "The sum of internal angle of well-conditioned triangle should be",
+  options: [
+    "180°",
+    "90°",
+    "280°",
+    "360°",
+  ],
+  answer: 0
+},
+{
+  question: "The sum of external angle of ill-conditioned triangle should be",
+  options: [
+    "360°",
+    "720°",
+    "450°",
+    "900°",
+  ],
+  answer: 3
+},
+{
+  question: "The accuracy of measurement in chain surveying does not depend upon",
+  options: [
+    "length of the offset",
+    "scale of the plotting",
+    "importance of the features",
+    "general layout of the chain lines",
+  ],
+  answer: 3
+},
+{
+  question: "The accuracy of measurement in chain surveying does not depend upon",
+  options: [
+    "leader",
+    "follower",
+    "length of chain",
+    "length of offset",
+  ],
+  answer: 0
+},
+{
+  question: "The purpose of triangulation in chain survey is",
+  options: [
+    "finding the direction of points",
+    "establishment of accurate control points",
+    "transferring the control point",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Handles are connected to link by",
+  options: [
+    "flexible joint",
+    "rigid joint",
+    "swivel joint",
+    "ball and socket joint",
+  ],
+  answer: 2
+},
+{
+  question: "Handles of chains are made of",
+  options: [
+    "nickel",
+    "steel",
+    "copper",
+    "brass",
+  ],
+  answer: 3
+},
+{
+  question: "Angle of 45° with chain line may be set out with",
+  options: [
+    "optical square",
+    "prismatic square",
+    "open cross staff",
+    "french cross staff",
+  ],
+  answer: 3
+},
+{
+  question: "The optical square is based on the principle of optical",
+  options: [
+    "reflection",
+    "refraction",
+    "double reflection",
+    "double refraction",
+  ],
+  answer: 2
+},
+{
+  question: "The position of point can be fixed more accurately by",
+  options: [
+    "perpendicular offset",
+    "optical square",
+    "prism square",
+    "oblique offsets",
+  ],
+  answer: 0
+},
+{
+  question: "Positive error is caused if",
+  options: [
+    "the length of chain is shorter than the standard",
+    "the slope and sag corrections is not applied",
+    "the measurements are made along the incorrectly aligned line",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "The base line is measured with",
+  options: [
+    "metallic tape",
+    "steel tape",
+    "invar tape",
+    "chain",
+  ],
+  answer: 3
+},
+{
+  question: "In compass surveying",
+  options: [
+    "the direction and lengths of survey line is measured by compass",
+    "the direction is measured by compass",
+    "length is measured by the chain or tape",
+    "both (b) and (c) of above",
+  ],
+  answer: 3
+},
+{
+  question: "In a prismatic compass",
+  options: [
+    "the magnetic needle moves with the box",
+    "the magnetic needle and graduated circle do not move with the box",
+    "the line of sight does not move with the box",
+    "the graduated circle is fixed to the box and the magnetic needle always remains in the N-S direction",
+  ],
+  answer: 1
+},
+{
+  question: "In a closed traverse",
+  options: [
+    "the difference between fore bearing & back bearing should be 90°",
+    "the sum of included angles should be (2N–4) right angle, where N is the number of sides",
+    "the sum of inclined angles should be (2N–1), where N is the number of sides",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Methods adopted for traversing are",
+  options: [
+    "chain traversing and loose needle method",
+    "chain angle method and fast needle method",
+    "both (a) and (b) of above",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "The graduations in a prismatic compass are",
+  options: [
+    "inverted and run clockwise having 0° at north",
+    "inverted and run clockwise having 0° at south",
+    "are erect",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "True meridians",
+  options: [
+    "are parallel to each other",
+    "converge at a point called pole",
+    "converge near equator",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "In whole circle system the bearings are measured",
+  options: [
+    "clock wise from the north point of the reference meridian towards the line of sight round the circle",
+    "anti clockwise from the north point",
+    "with the notations of cardinal points N, E, S & W",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Quadrantal system confines the user to measure the bearings from",
+  options: [
+    "the north point clockwise",
+    "the north point or south point whichever is nearer",
+    "the north point anticlockwise",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "A bearing noted N45° E represents",
+  options: [
+    "quadrantal system",
+    "whole circle system",
+    "none of the above",
+    "reduces bearing system",
+  ],
+  answer: 0
+},
+{
+  question: "The whole circle bearing 338°42′ converted into quadrantal form is given as",
+  options: [
+    "N 21°18′ W",
+    "S 21°18′ E",
+    "W 21°18′ N",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "If the quadrantal bearing of a line is N 35° W then the whole circle bearing is",
+  options: [
+    "325°",
+    "205°",
+    "215°",
+    "315°",
+  ],
+  answer: 0
+},
+{
+  question: "The prismatic compass and surveyor’s compass respectively give",
+  options: [
+    "whole circle bearing of a line & quadrantal bearing of a line",
+    "both quadrantal bearing of a line",
+    "both whole circle bearing of a line",
+    "quadrantal & whole circle bearing of a line",
+  ],
+  answer: 0
+},
+{
+  question: "The whole circle bearing of a line is 270° then find the reduced bearing of line",
+  options: [
+    "0°",
+    "E 90°",
+    "180°",
+    "W 90°",
+  ],
+  answer: 3
+},
+{
+  question: "The quadrantal bearing of a line is determined by",
+  options: [
+    "surveyor’s compass",
+    "prismatic compass",
+    "celestial observations",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Local attraction at a place may be due to",
+  options: [
+    "key bunches",
+    "steel buttons",
+    "current carrying base wire",
+    "electric storm",
+  ],
+  answer: 2
+},
+{
+  question: "The amount of correction due to local attraction at a place",
+  options: [
+    "is constant for all bearings",
+    "various with the bearing",
+    "changes from time to time",
+    "sometimes additive and sometimes subtractive",
+  ],
+  answer: 0
+},
+{
+  question: "An instrumental error in compass survey is because",
+  options: [
+    "inaccurate leveling",
+    "variation in declination",
+    "no counter weight provision to counteract dip",
+    "local attraction due to base current carrying conductors",
+  ],
+  answer: 2
+},
+{
+  question: "If bearing of AB is N 30° W and bearing of BC is N 40° E then find the angle < ABC",
+  options: [
+    "10°",
+    "70°",
+    "110°",
+    "170°",
+  ],
+  answer: 2
+},
+{
+  question: "The smaller angle which a survey line makes with the true meridian is known as",
+  options: [
+    "altitude",
+    "azimuth",
+    "declination",
+    "dip",
+  ],
+  answer: 1
+},
+{
+  question: "Azimuth and altitude of a star",
+  options: [
+    "is constant",
+    "vary due to diurnal motion",
+    "azimuth is constant but altitude is not constant",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The W\.C.B of a line is preferred to a quadrantal bearing merely because",
+  options: [
+    "bearing is not completely specified by an angle",
+    "bearing is completely specified by an angle",
+    "sign of correction of magnetic declination is different in different quadrant",
+    "all of the above",
+  ],
+  answer: 1
+},
+{
+  question: "For a line AB",
+  options: [
+    "the fore bearing and back bearing of line AB differ by 180°",
+    "the fore bearing of AB and back bearing of line BA differ by 180°",
+    "both (a) and (b) of above",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Local attraction in a compass surveying may be due to",
+  options: [
+    "faulty adjustment in compass",
+    "presence of magnetic materials",
+    "loss of magnetism in the needle",
+    "friction of the needle at the point",
+  ],
+  answer: 1
+},
+{
+  question: "The inclination of needle to the horizontal towards the poles is called",
+  options: [
+    "dip",
+    "declination",
+    "azimuth",
+    "bearing",
+  ],
+  answer: 0
+},
+{
+  question: "The dip of the needle",
+  options: [
+    "is constant",
+    "varies from place to place & is zero at the equator and maximum at the poles",
+    "is zero at the equator and poles",
+    "",
+  ],
+  answer: 1
+},
+{
+  question: "The Q.B. of the lines are given by ……, ……. & …….. If W\.C.B. of the lines are 0°, 135° & 270° respectively",
+  options: [
+    "S, S45° E, E90°",
+    "N, N45° W, E90°",
+    "N, S45° E, E90°",
+    "N, S45° E, W90°",
+  ],
+  answer: 3
+},
+{
+  question: "The effect of local attraction is observed in",
+  options: [
+    "chain survey",
+    "compass survey",
+    "PT survey",
+    "leveling",
+  ],
+  answer: 1
+},
+{
+  question: "The angle which the true meridian makes with magnetic meridian is called",
+  options: [
+    "magnetic declination or declination",
+    "true declination",
+    "dip",
+    "azimuth",
+  ],
+  answer: 0
+},
+{
+  question: "Magnetic declination",
+  options: [
+    "remains same at different places",
+    "varies from place to place",
+    "does not vary with temperature",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The magnetic north is indicated by",
+  options: [
+    "magnetic compass",
+    "prismatic compass",
+    "theodolite",
+    "levelling",
+  ],
+  answer: 0
+},
+{
+  question: "If the magnetic bearing of a line is 65° and the true bearing is 45°, then the magnetic declination is",
+  options: [
+    "10° W",
+    "20° W",
+    "20° E",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "A negative declination shows the magnetic meridian to the",
+  options: [
+    "eastern side of the true meridian",
+    "western side of the true meridian",
+    "southern side of the true meridian",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "If the magnetic bearing of sun at noon at a place in southern hemisphere is 150°, the magnetic declination at that place is",
+  options: [
+    "30° E",
+    "30° W",
+    "20° E",
+    "20° W",
+  ],
+  answer: 0
+},
+{
+  question: "Isogonic lines are",
+  options: [
+    "line passing through the points having same declination at a given point",
+    "line passing through point of zero declination",
+    "line passing through the point having same dip",
+    "line passing through the point having zero dip",
+  ],
+  answer: 1
+},
+{
+  question: "In survey works declination varies from time to time and place to place. The main important variation is",
+  options: [
+    "secular variation",
+    "annual variation",
+    "diurnal variation",
+    "irregular variation",
+  ],
+  answer: 0
+},
+{
+  question: "Secular variation is important factor because",
+  options: [
+    "the variation is due to seasonal changes",
+    "the magnitude of variation is of high order and the needle after coming to standstill may move in opposite direction",
+    "the needle will stop",
+    "the variation is less",
+  ],
+  answer: 1
+},
+{
+  question: "Diurnal variation depends upon",
+  options: [
+    "locality",
+    "time",
+    "seasons",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "The true bearing of a line can be calculated as Where the declination is to the east.",
+  options: [
+    "true bearing = magnetic bearing ± magnetic declination",
+    "true bearing = magnetic bearing + magnetic declination",
+    "true bearing = magnetic bearing – magnetic declination",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The magnetic declination at a place is 7°20′ W, the bearing given by the compass is S45° E, the true bearing of the place is",
+  options: [
+    "N53° 0′ E",
+    "S53° 0′ E",
+    "N53° 0′ W",
+    "S53° 0′ W",
+  ],
+  answer: 1
+},
+{
+  question: "The bearing of line AB is 200° and that of BC is 270°, the included angle ABC is",
+  options: [
+    "110°",
+    "80°",
+    "90°",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "If the magnetic declination is (–)6°0′ and the reduced bearing of a line is S40° 0′ E the true bearing of the line is",
+  options: [
+    "S134° 0′ E",
+    "S146° 0′ E",
+    "S46° 0′ E",
+    "S34° 0′ E",
+  ],
+  answer: 2
+},
+{
+  question: "Find the whole circle bearing of a line as shown in figure",
+  options: [
+    "15°",
+    "345°",
+    "375°",
+    "195°",
+  ],
+  answer: 1
+},
+{
+  question: "If the bearing of a line AB is 210° and that of CB is 150° then find the angle < ABC",
+  options: [
+    "45°",
+    "60°",
+    "75°",
+    "90°",
+  ],
+  answer: 1
+},
+{
+  question: "The bearing of a line AB is N30° E and that of CB is S80° E then find the angle between AB & BC",
+  options: [
+    "50°",
+    "60°",
+    "70°",
+    "90°",
+  ],
+  answer: 2
+},
+{
+  question: "The whole circle bearing of a line is 210°30′ then find the RB of line",
+  options: [
+    "S30°30′ W",
+    "S30°30′ E",
+    "N30°30′ W",
+    "N30°30′ E",
+  ],
+  answer: 0
+},
+{
+  question: "The value of magnetic declination if the magnetic bearing of sun at noon is 350°",
+  options: [
+    "10° E",
+    "10° W",
+    "80° E",
+    "80° W",
+  ],
+  answer: 0
+},
+{
+  question: "Back bearing of a line BA is 35° and bearing of BC is 125° then find the included angle ABC",
+  options: [
+    "35°",
+    "90°",
+    "125°",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The foremost work to be executed while traversing with a compass is",
+  options: [
+    "marking and referencing of stations",
+    "running survey lines",
+    "picking up of details",
+    "reconnaissance",
+  ],
+  answer: 3
+},
+{
+  question: "A traverse survey can be plotted",
+  options: [
+    "by rectangular coordinates or plotting by tangents",
+    "by paper protractor or by included angles",
+    "by parallel meridian method or plotting by chords",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "If the needle of the compass is sluggish the type of error will be",
+  options: [
+    "instrumental error",
+    "personal error",
+    "natural error",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Which one of the following may not be classified as natural error?",
+  options: [
+    "variation in magnetic declination",
+    "local attraction",
+    "sluggish needle",
+    "irregular variation",
+  ],
+  answer: 2
+},
+{
+  question: "For a station to be free from local attraction",
+  options: [
+    "the fore and back bearings of the line should be measured accurately",
+    "the fore and back bearings of line should differ by exactly 180°",
+    "the fore and back bearing of the line should be exactly same but with opposite signs",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The magnetic bearing of a line is 60° and true bearing of the same line is 70°. Find the declination",
+  options: [
+    "10° E",
+    "10° W",
+    "0°",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "If the station A and B are equally affected and in the different direction, then the difference between fore bearing and back bearing of a line AB should be",
+  options: [
+    "180°",
+    "200°",
+    "220°",
+    "may any of the above",
+  ],
+  answer: 3
+},
+{
+  question: "The survey stations set up during traversing with compass should be such that",
+  options: [
+    "they are visible from each other",
+    "chaining between them is easy",
+    "the line joining them are near the objects to be located",
+    "they are as long as possible",
+  ],
+  answer: 2
+},
+{
+  question: "The maximum permissible difference allowed while taking down the fore bearing and back bearing of a line is",
+  options: [
+    "15′",
+    "15″",
+    "no such limit",
+    "1°",
+  ],
+  answer: 0
+},
+{
+  question: "Which one of the following may not be classified as personal error?",
+  options: [
+    "inaccurate centring",
+    "inaccurate leveling",
+    "plane of sight not being vertical",
+    "carelessness in reading and recording",
+  ],
+  answer: 2
+},
+{
+  question: "If the needle is truly magnetic and is not sluggish",
+  options: [
+    "it will be always oscillating and never stop",
+    "when it stops it will be exactly on magnetic meridian",
+    "it will be always free from local attraction",
+    "all of the above",
+  ],
+  answer: 1
+},
+{
+  question: "If the sights are vertical",
+  options: [
+    "the eye vane and object vane will be in same line",
+    "the eye vane, object vane and string will be parallel and in same line",
+    "there will be no local attraction",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The needle is adjusted for",
+  options: [
+    "sensitivity",
+    "balancing",
+    "straightening vertically and horizontally",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "A diagonal eye piece is provided with a",
+  options: [
+    "plane convex lens",
+    "reflecting prism",
+    "mirror fitted at 45° with the axis of telescope",
+    "both (b) and (c) of above",
+  ],
+  answer: 3
+},
+{
+  question: "The angular error of closure or summation error should not exceed where N is number of stations or sides.",
+  options: [
+    "15′√N",
+    "153′√N",
+    "√N",
+    "3′√N",
+  ],
+  answer: 0
+},
+{
+  question: "A level line is a",
+  options: [
+    "line parallel to the mean spherical surface of earth",
+    "line normal to the plumb line at all points",
+    "horizontal line",
+    "both (a) and (b) of above",
+  ],
+  answer: 3
+},
+{
+  question: "The surface of zero elevation around the earth, which is slightly irregular and curved is known as",
+  options: [
+    "mean sea level",
+    "geoid surface",
+    "level surface",
+    "horizontal surface",
+  ],
+  answer: 1
+},
+{
+  question: "The line normal to the plumb line is known as",
+  options: [
+    "horizontal line",
+    "level line",
+    "datum line",
+    "vertical line",
+  ],
+  answer: 1
+},
+{
+  question: "An example of a level surface is",
+  options: [
+    "surface of earth",
+    "surface of sea",
+    "surface of reservoir",
+    "surface of a still lake",
+  ],
+  answer: 3
+},
+{
+  question: "The place where reading is taken is known as",
+  options: [
+    "level",
+    "ground",
+    "station",
+    "all of the above",
+  ],
+  answer: 2
+},
+{
+  question: "With the help of leveling we measures",
+  options: [
+    "horizontal angle",
+    "vertical angle",
+    "deflection angle",
+    "none of the above",
+  ],
+  answer: 3
+},
+{
+  question: "Cross hairs in surveying telescope are fitted",
+  options: [
+    "in the objective glass",
+    "at the centre of the telescope",
+    "in the optical center of the eye-piece",
+    "in front of the eye-piece",
+  ],
+  answer: 3
+},
+{
+  question: "Any arbitrarily assumed level line from which vertical distances are measured is known as",
+  options: [
+    "level line",
+    "vertical line",
+    "horizontal line",
+    "datum line",
+  ],
+  answer: 3
+},
+{
+  question: "The difference between a level line and a horizontal line is that",
+  options: [
+    "level line is normal to plumb line while horizontal line is not necessarily",
+    "level line is curved but horizontal line is a straight line",
+    "both (a) and (b) of above",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "During leveling the readings are generally taken by the level man. The staff man also takes the reading if the staff is a type of",
+  options: [
+    "target staff",
+    "telescopic staff",
+    "solid staff",
+    "inverted staff",
+  ],
+  answer: 0
+},
+{
+  question: "A number of readings taken between back sight and fore sight are called",
+  options: [
+    "back sight",
+    "fore sight",
+    "middle sight",
+    "none of the above",
+  ],
+  answer: 3
+},
+{
+  question: "A staff reading taken on a bench mark/known elevation or change point is known as",
+  options: [
+    "back sight",
+    "fore sight",
+    "intermediate sight",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "In leveling the station where back sight and fore sight readings are taken during the operation is known as",
+  options: [
+    "change point",
+    "fixed point",
+    "movable point",
+    "permanent",
+  ],
+  answer: 0
+},
+{
+  question: "A relatively fixed point of known elevation above datum is called",
+  options: [
+    "datum point",
+    "bench mark",
+    "reduced level",
+    "reference point",
+  ],
+  answer: 1
+},
+{
+  question: "An operation for determining the relative elevations of different points on the surface of the earth is known as",
+  options: [
+    "levelling",
+    "simple levelling",
+    "differential levelling",
+    "longitudinal levelling",
+  ],
+  answer: 2
+},
+{
+  question: "In a dumpy level, the objective and eyepiece lenses are made of two or more small lenses to obtain",
+  options: [
+    "distinct image",
+    "shorter image",
+    "reading even in less light",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "The types of level normally used in hilly area is",
+  options: [
+    "abney level",
+    "dumpy level",
+    "hand level",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "During levelling generally instrumental error is occurring due to",
+  options: [
+    "curvature and refraction",
+    "tripod",
+    "collimation error",
+    "all of the above",
+  ],
+  answer: 2
+},
+{
+  question: "When bubble of the telescope is centered then",
+  options: [
+    "line of sight is horizontal",
+    "line of sight in vertical",
+    "line of sight is inclined",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "The image of the objectives formed should lie",
+  options: [
+    "at the eye piece",
+    "in the plane of cross hairs",
+    "at the center of the eyepiece",
+    "at the optical center of the eyepiece",
+  ],
+  answer: 1
+},
+{
+  question: "The absence of spherical aberration in a telescope is known as",
+  options: [
+    "achromation",
+    "crimination",
+    "aplanation",
+    "definition",
+  ],
+  answer: 2
+},
+{
+  question: "The absence of chromatic aberration in a telescope is known as",
+  options: [
+    "achromation",
+    "crimination",
+    "aplanation",
+    "definition",
+  ],
+  answer: 0
+},
+{
+  question: "The magnification of a telescope depends upon",
+  options: [
+    "focal length of eye piece",
+    "focal length of objective lens",
+    "ratio of (b) and (a) above",
+    "inverse of ratio of (b) and (a) above",
+  ],
+  answer: 2
+},
+{
+  question: "In an internal focussing type of telescope, the negative lens provided is",
+  options: [
+    "convex lens",
+    "double concave lens",
+    "plano concave lens",
+    "convex concave lens",
+  ],
+  answer: 1
+},
+{
+  question: "An inter focusing type of telescope is focused by the movement of",
+  options: [
+    "convex lens",
+    "concave lens",
+    "plano-convex lens",
+    "objective glass",
+  ],
+  answer: 1
+},
+{
+  question: "The sensitivity of the bubble tube can be increased by",
+  options: [
+    "decreasing the radius of curvature of tube",
+    "decreasing the length of bubble",
+    "increasing the diameter of the tube",
+    "increasing the viscosity of fluid",
+  ],
+  answer: 2
+},
+{
+  question: "A level tube is used to make line of sight horizontal. It is filled with",
+  options: [
+    "ether",
+    "chloroform",
+    "synthetic alcohol",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "In a constant level tube, size of the bubble remains constant because upper wall of tube has",
+  options: [
+    "relatively small radius",
+    "relatively large radius",
+    "flat",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "If temperature increases the sensitivity of a bubble tube",
+  options: [
+    "increases",
+    "decreases",
+    "remains constant",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Sensitivity of a level tube is expressed by",
+  options: [
+    "length of level tube",
+    "radius of level tube",
+    "length of bubble of level tube",
+    "all of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Dumpy level is used when",
+  options: [
+    "number of observation to be taken are large from one level position",
+    "number of observation to be taken are small from one level position",
+    "fly levelling is to be done",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Automatic level has advantages of",
+  options: [
+    "high precision and external influence",
+    "freedom from errors and external influence",
+    "comfortable and has large range of application",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "The height of instrument method is",
+  options: [
+    "less tedious",
+    "more rapid",
+    "includes less calculation",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "Height of instrument method of levelling as compared to rise and fall method is",
+  options: [
+    "more accurate",
+    "less accurate",
+    "quicker and less tedious",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "The rise and fall method of levelling provides a complete check on",
+  options: [
+    "back sight",
+    "fore sight",
+    "intermediate sight",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "The rise and fall method",
+  options: [
+    "provides a check on the intermediate readings",
+    "is preferable for differential and check levelling",
+    "suitable for important works",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "If the observed reading of a level staff is 3.83 m, and at the point sighted the staff is 0.15 m off the vertical through the bottom, the correct reading will be",
+  options: [
+    "3.827 m",
+    "3.83 m",
+    "3.834 m",
+    "3.384 m",
+  ],
+  answer: 0
+},
+{
+  question: "The observed reading on a levelling staff was 3.545 m. If the staff was 0.150 m off from the original ground level, what should be correct reading?",
+  options: [
+    "3.695 m",
+    "3.548 m",
+    "3.395 m",
+    "all of the above",
+  ],
+  answer: 2
+},
+{
+  question: "The observed reading on a levelling staff was 3.525 m. If the staff was 0.125 m off from the original ground level, what should be correct reading?",
+  options: [
+    "3.65 m",
+    "3.525 m",
+    "3.40 m",
+    "all of the above",
+  ],
+  answer: 0
+},
+{
+  question: "The levelling of instrument is done such that",
+  options: [
+    "line of sight is truly horizontal",
+    "optical axis is truly horizontal",
+    "vertical axis truly vertical",
+    "line of collimation is truly horizontal",
+  ],
+  answer: 2
+},
+{
+  question: "In case of leveling staff readings are taken by (In case of target staff)",
+  options: [
+    "staff man",
+    "instrument man",
+    "both (a) and (b) of above",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Instrumental error in levelling is error due to",
+  options: [
+    "imperfect adjustment",
+    "sluggish bubble",
+    "movement of objective slide",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "Natural error in levelling is caused due to",
+  options: [
+    "wind vibration",
+    "atmospheric refraction",
+    "temperature variation",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "Permanent adjustment are carried out to",
+  options: [
+    "set up of the level",
+    "establish a fixed relationship between its fundamental axes",
+    "focus the eye piece",
+    "focus the object glass",
+  ],
+  answer: 1
+},
+{
+  question: "The line of collimation should be parallel to",
+  options: [
+    "vertical axis",
+    "bubble axis",
+    "both (a) and (b) of above",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "For Y level, Cooke’s and Cushing levels, the line of collimation should coincide with",
+  options: [
+    "bubble tube axis",
+    "vertical axis",
+    "axis of telescope",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "For dumpy level in perfect adjustment, the horizontal cross hair should be in a plane",
+  options: [
+    "perpendicular to the vertical axis",
+    "parallel to the vertical axis",
+    "parallel to the axis of bubble tube",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "The two peg method is used to check the parallelism between the",
+  options: [
+    "line of collimation and axis of bubble tube",
+    "line of collimation and axis of telescope",
+    "axis of bubble tube and vertical axis",
+    "all of the above",
+  ],
+  answer: 0
+},
+{
+  question: "When it is not possible to set up the level, midway between the two points, then the difference in elevation between them is measured by",
+  options: [
+    "fly levelling",
+    "precise levelling",
+    "differential levelling",
+    "reciprocal levelling",
+  ],
+  answer: 3
+},
+{
+  question: "The method of levelling used to carry out the reconnaissance of area is",
+  options: [
+    "check levelling",
+    "fly levelling",
+    "profile levelling",
+    "simple levelling",
+  ],
+  answer: 1
+},
+{
+  question: "The accuracy required in precise levelling is of the order of Where K is the total distance of level line in KM",
+  options: [
+    "± 4√K mm",
+    "± 8√K mm",
+    "± 12√K mm",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "The levels to which the earthwork will have to be carried out is known as",
+  options: [
+    "finish surface level",
+    "original G.L",
+    "formation level",
+    "depth of cutting",
+  ],
+  answer: 2
+},
+{
+  question: "If the formation level is less than the ground level, the difference between them at any point will give the",
+  options: [
+    "height of embankment",
+    "depth of cutting",
+    "proposed gradient",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The reciprocal levelling eliminates",
+  options: [
+    "the error due to curvature and refraction",
+    "collimation error",
+    "both (a) and (b) of above",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "Due to curvature of the earth object looks",
+  options: [
+    "higher than really they are",
+    "lower than really they are",
+    "at real height",
+    "all of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The correction for refraction is given by",
+  options: [
+    "0.0785d^2 m",
+    "0.0112 d^2 m",
+    "0.0673 d^2 m",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "If the distance between two points A and B is 1km, the combined correction for curvature and refraction will be",
+  options: [
+    "0.673 m",
+    "0.0673 m",
+    "1.0673 m",
+    "1.673 m",
+  ],
+  answer: 1
+},
+{
+  question: "The sensitivity of the bubble tube expressed in terms of angular value of one division of the bubble is given by",
+  options: [
+    "S/D radians",
+    "D/S radians",
+    "S/D seconds",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Personal error in levelling occur due to",
+  options: [
+    "careless levelling of the instrument",
+    "bubble not centered",
+    "staff not held vertical",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "Levelling across a river is done by",
+  options: [
+    "fly levelling",
+    "reciprocal levelling",
+    "trigonometrical levelling",
+    "cross levelling",
+  ],
+  answer: 1
+},
+{
+  question: "In trigonometrical levelling the combined correction is given by  (-Where m = coefficient of refraction  )",
+  options: [
+    "{d^2}{2R}",
+    "(1-2m) {d^2}{2R}",
+    "0.0673 d^2",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Bench marks are fixed by",
+  options: [
+    "trigonometric levelling",
+    "barometric levelling",
+    "spirit levelling",
+    "profile levelling",
+  ],
+  answer: 2
+},
+{
+  question: "The last reading of levelling is always a",
+  options: [
+    "back sight",
+    "fore sight",
+    "intermediate sight",
+    "any of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The first reading of levelling is always",
+  options: [
+    "back sight",
+    "fore sight",
+    "intermediate sight",
+    "any of the above",
+  ],
+  answer: 0
+},
+{
+  question: "The first reading taken at turning point is",
+  options: [
+    "back sight",
+    "fore sight",
+    "intermediate sight",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "If the BM of a station A is 500 m. The back sight reading at the point A is 2 m and fore sight reading of station B is 3 m, then find the RL of station B",
+  options: [
+    "502 m",
+    "503 m",
+    "505 m",
+    "499 m",
+  ],
+  answer: 3
+},
+{
+  question: "The RL of BM is 1000.00 m. Back sight reading at the BM is 2.555 and RL of IS is 1000.055 then find the reading of IS",
+  options: [
+    "3.5",
+    "2.55",
+    "3",
+    "0.005",
+  ],
+  answer: 0
+},
+{
+  question: "Reduce level of line of collimation is 50 m, staff reading at the base of pillar in 1.15 m then find the reduce level of base of pillar",
+  options: [
+    "48.85 m",
+    "51.15 m",
+    "50 m",
+    "52.30 m",
+  ],
+  answer: 0
+},
+{
+  question: "The Bench Mark of a point is 400m. Back sight reading at bench mark is 2.20 and fore sight reading of point A is 2.10 then find the RL of the point A",
+  options: [
+    "400.00 m",
+    "402.20 m",
+    "402.10 m",
+    "400.10 m",
+  ],
+  answer: 3
+},
+{
+  question: "Find the RL of collimation line if the RL of BM is 100 m & BS staff reading is 5.35 m",
+  options: [
+    "105.35 m",
+    "94.65 m",
+    "100 m",
+    "5.35 m",
+  ],
+  answer: 0
+},
+{
+  question: "The elevation (BM) of point A is 100 m. Back sight reading at A is 20 and fore sight reading at B is 30 m. Find the RL of point B",
+  options: [
+    "100 m",
+    "90 m",
+    "120 m",
+    "9130 m",
+  ],
+  answer: 1
+},
+{
+  question: "Tiling levels are used for",
+  options: [
+    "fly levelling",
+    "precise leveling",
+    "profile levelling",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The types of survey used for Geodetic survey is",
+  options: [
+    "fly levelling",
+    "precise leveling",
+    "profile levelling",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Compensator is used to make the line of sight perpendicular to vertical axis in case of",
+  options: [
+    "automatic level",
+    "dumpy level",
+    "theodolite",
+    "all of the above",
+  ],
+  answer: 0
+},
+{
+  question: "In leveling across a hill, the level should be set up on",
+  options: [
+    "side of the hill",
+    "its top",
+    "both (a) and (b) of above",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Level surface is parallel to",
+  options: [
+    "horizontal surface",
+    "vertical surface",
+    "datum surface",
+    "none of the above",
+  ],
+  answer: 3
+},
+{
+  question: "The surface perpendicular to the direction of the gravity is",
+  options: [
+    "horizontal surface",
+    "level surface",
+    "horizon",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The Philadelphia rod is a type of",
+  options: [
+    "solid staff",
+    "folding staff",
+    "telescopic staff",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "The correction for curvature as applied to staff reading is",
+  options: [
+    "(d^2)(2R)",
+    "-{d^2}{2R}",
+    "{d^2}{R}",
+    "-{d^2}{R}",
+  ],
+  answer: 1
+},
+{
+  question: "The curvature and refraction corrections applied to staff readings respectively are",
+  options: [
+    "both +ve",
+    "both -ve",
+    "+ve and -ve",
+    "-ve and +ve",
+  ],
+  answer: 3
+},
+{
+  question: "If the level tube is out of adjustment by an angle e, when the telescope is rotated through 180°, it becomes",
+  options: [
+    "4e",
+    "3e",
+    "2e",
+    "-e",
+  ],
+  answer: 2
+},
+{
+  question: "Line of collimation is",
+  options: [
+    "is the same line of sight",
+    "the line joining point of intersection of cross hairs and optical centre of object glass",
+    "the geometrical axis of the telescope",
+    "the line parallel to the bubble tube axis",
+  ],
+  answer: 1
+},
+{
+  question: "Pick up the odd statement",
+  options: [
+    "temporary adjustment of Dumpy level are to be performed at every set up",
+    "the eye piece need not be adjusted after the first set up when the same surveyor is taking readings",
+    "parallax error is completely eliminated when there is no change in the staff reading when the eye is moved up and down",
+    "focus the objective towards a white or bright background for the clear visibility of cross hairs",
+  ],
+  answer: 3
+},
+{
+  question: "\"Cross-sectioning\" and \"Longitudinal sectioning\" is",
+  options: [
+    "when less number of intermediate sight exist",
+    "in profile leveling",
+    "in reciprocal levelling",
+    "in differential levelling",
+  ],
+  answer: 1
+},
+{
+  question: "An invert is taken when the point is",
+  options: [
+    "having high elevation",
+    "below the line of sight",
+    "above the line of the sight",
+    "below ground level",
+  ],
+  answer: 2
+},
+{
+  question: "Ten readings were recorded in a level field book. If the instrument was shifted after 2nd and 6th readings, then the fore sight are",
+  options: [
+    "1st, 2nd and 7th readings",
+    "2nd, 6th and 10th readings",
+    "2nd and 6th readings",
+    "3rd, 4th, 5th, 7th, 8th and 10th readings",
+  ],
+  answer: 1
+},
+{
+  question: "Fifteen readings were recorded in a level field book. If the instrument was shifted after 5th, 10th and 15th readings, then the fore sights are",
+  options: [
+    "1st, 3rd and 7th readings",
+    "5th, 10th and 15th reading",
+    "2nd and 6th reading",
+    "3rd, 4th, 5th, 7th, 8th, 9th and 10th reading",
+  ],
+  answer: 1
+},
+{
+  question: "In profile levelling, staff readings on two neighboring pegs 20 m apart are 1.20 and 1.00 respectively. Therefore, the proposed road had a",
+  options: [
+    "rising gradient of 1 in 100",
+    "falling gradient of 1 in 100",
+    "rising gradient of 1 in 20",
+    "falling gradient of 1 in 20",
+  ],
+  answer: 0
+},
+{
+  question: "In profile leveling, staff readings on two neighboring pages 20 m apart are 1.00 and 1.20 respectively. Therefore, the proposed road has a",
+  options: [
+    "rising gradient of 1 in 100",
+    "falling gradient of 1 in 100",
+    "rising gradient of 1 in 20",
+    "falling gradient of 1 in 20",
+  ],
+  answer: 1
+},
+{
+  question: "The following readings were taken on a uniformly sloping ground, 0.5, 1.0, 1.5, 2.0, 1.2, 1.7, 2.7. Hence the difference in level between the first and last station is",
+  options: [
+    "1.70 fall",
+    "2.20 fall",
+    "3.20 fall",
+    "3.00 fall",
+  ],
+  answer: 3
+},
+{
+  question: "The following readings were taken on a uniformly sloping ground, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0. Hence the difference in level between the first and last station is",
+  options: [
+    "1.50 fall",
+    "2.00 fall",
+    "2.50 fall",
+    "3.00 fall",
+  ],
+  answer: 2
+},
+{
+  question: "The points A and B are 1530 m apart across a wide river. The following reciprocal levels are taken with one level Level at    Reading on A    B A  2.165    3.810 B  0.91    2.355 The true difference in level between A and B would be",
+  options: [
+    "1.255 m",
+    "1.455 m",
+    "1.545 m",
+    "1.645 m",
+  ],
+  answer: 2
+},
+{
+  question: "During levelling staff readings are taken 1.0, 0.8 & 0.6 from consecutive horizontal cross hairs, the staff intercept should be",
+  options: [
+    "1.0",
+    "0.8",
+    "0.6",
+    "0.4",
+  ],
+  answer: 3
+},
+{
+  question: "In survey it was recorded that \(\sum\) fall = 0 then",
+  options: [
+    "the ground is sloping",
+    "it is continuously rising",
+    "it is continuously falling",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "In a survey it was recorded that \(\sum\) rise = 0, then",
+  options: [
+    "the ground is sloping",
+    "it is continuously rising",
+    "it is continuously falling",
+    "all of the above",
+  ],
+  answer: 2
+},
+{
+  question: "The bench mark of a station A is 300 m and back sight reading at the point A is 2 m & fore sight reading of station B is 3 m. Find the RL of station B",
+  options: [
+    "202 m",
+    "203 m",
+    "299 m",
+    "205 m",
+  ],
+  answer: 2
+},
+{
+  question: "The RL of bench mark is 100.0 m and back sight reading at the bench mark is 2.555 m find the staff reading of IS if RL of IS is 100.055 m",
+  options: [
+    "2.555 m",
+    "2.5 m",
+    "3 m",
+    "0.0505 m",
+  ],
+  answer: 1
+},
+{
+  question: "The types of survey in which field work and plotting proceeds simultaneously",
+  options: [
+    "plane table",
+    "compass",
+    "levelling",
+    "tacheometric",
+  ],
+  answer: 0
+},
+{
+  question: "Plane table surveying is graphical method of surveying in which",
+  options: [
+    "field work and plotting proceeds simultaneously",
+    "plotting is done later while records are taken in field book",
+    "only field work is done",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Setting up the plane table consists of operations",
+  options: [
+    "levelling",
+    "centering",
+    "levelling and centering",
+    "orienting",
+  ],
+  answer: 2
+},
+{
+  question: "Plane table survey is considered good as compared to other survey since",
+  options: [
+    "easy to shift & carry",
+    "number of equipments are less",
+    "plotting is done out-door",
+    "chances to missing details are less",
+  ],
+  answer: 3
+},
+{
+  question: "A disadvantage of plane table survey is",
+  options: [
+    "It is heavy, cumbersome and awkward to carry",
+    "It can't be used in wet climate",
+    "details may not be available while redrawing to a different scale.",
+    "accessories are likely to be lost",
+  ],
+  answer: 0
+},
+{
+  question: "Placing the table over the station such that the station plotted on sheet is exactly above the corresponding station on the ground is",
+  options: [
+    "centering",
+    "levelling",
+    "orienting",
+    "resection",
+  ],
+  answer: 0
+},
+{
+  question: "Orientation is the operation of keeping the table at successive stations such that",
+  options: [
+    "the position of the table at the station is parallel to the position it occupied at the previous station",
+    "the position of station plotted on sheet is exactly above the corresponding station on ground",
+    "the table is brought in a horizontal plane",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "The method of plane tabling generally adopted to obtain details and plotting inaccessible points is",
+  options: [
+    "radiation",
+    "intersection",
+    "resection",
+    "all of the above",
+  ],
+  answer: 1
+},
+{
+  question: "In the intersection method of plane tabling the number of stations needed to be set up are",
+  options: [
+    "1",
+    "2",
+    "3",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Resection is the method employed for",
+  options: [
+    "plotting the details",
+    "locating the instrument station",
+    "surveying mountainous country",
+    "all of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The two point problem is",
+  options: [
+    "a case of resection method where no ray is required to be drawn from the proceeding station to the instrument station",
+    "locating the position of plane table by means of two visible well defined points",
+    "all of the above",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "The two-point problem as compared to the three point problem is",
+  options: [
+    "more laborious",
+    "more accurate",
+    "quicker",
+    "all of the above",
+  ],
+  answer: 0
+},
+{
+  question: "The three point problem can be solved by",
+  options: [
+    "tracing paper method",
+    "graphical method",
+    "trial and error method",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "Three point problem is concerned with",
+  options: [
+    "chain survey",
+    "plane table survey",
+    "compass survey",
+    "levelling",
+  ],
+  answer: 1
+},
+{
+  question: "The size of plane table is",
+  options: [
+    "600 X 750  mm",
+    "450 X 750  mm",
+    "450 X 800  mm",
+    "3.350 X 500 mm",
+  ],
+  answer: 0
+},
+{
+  question: "The process of aligning the plane table by rotating it in the horizontal plane to the corresponding lines on the ground",
+  options: [
+    "centring",
+    "orientation",
+    "fore sight",
+    "all of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The triangle formed by joining the position of the known points on plane table survey is known as",
+  options: [
+    "isoscele triangle",
+    "great triangle",
+    "small triangle",
+    "equilateral triangle",
+  ],
+  answer: 1
+},
+{
+  question: "In case of resection method of plane table, the relation between great triangle and great circle are",
+  options: [
+    "the area of great triangle is more than great circle",
+    "the area of great triangle is less than great circle",
+    "the area of great triangle is equal to great circle",
+    "all of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Strength of fix of a plane table is",
+  options: [
+    "accuracy in centring",
+    "accuracy in locating the position of instrument station by taking observation to three stations",
+    "fixity of table while solving two point problem",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The fix of table is good when",
+  options: [
+    "the station is within the great triangle",
+    "the middle station is much nearer than other two stations",
+    "the angle subtended between two stations is not very small",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "A poor fix of the table is",
+  options: [
+    "when station is within the great triangle",
+    "when station is near the great circle",
+    "the angle subtended is large",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The strength of fix' is poor when",
+  options: [
+    "the station is within the great triangle",
+    "the station is outside the great circle",
+    "the station is on the great circle",
+    "the station is within the great circle but outside the great triangle",
+  ],
+  answer: 2
+},
+{
+  question: "The two point problem and three point problems are methods of",
+  options: [
+    "orientation",
+    "resection",
+    "orientation and resection",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "The resection by two point problem as compared to the three point problem",
+  options: [
+    "requires more labor",
+    "takes less time",
+    "gives more accurate results",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "If the plane table is not horizontal in a direction at right angles to the alidade, the line of sight is parallel to fiducial edge only for",
+  options: [
+    "horizontal sights",
+    "inclined sight upward",
+    "inclined sight downwards",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "To orient a plane table without two inaccessible points, the method generally adopted is",
+  options: [
+    "intersection",
+    "resection",
+    "radiation",
+    "two point problem",
+  ],
+  answer: 3
+},
+{
+  question: "Which one of the following is not a personal error?",
+  options: [
+    "the table not being perfectly leveled",
+    "the table not being perfectly central",
+    "the table not being perfectly clamped",
+    "none of the above",
+  ],
+  answer: 3
+},
+{
+  question: "The method of plane tabling in which plane table is set only one station to take detail is known as",
+  options: [
+    "intersection",
+    "radiation",
+    "resection",
+    "traversing",
+  ],
+  answer: 1
+},
+{
+  question: "Detailed plotting is generally done by",
+  options: [
+    "radiation",
+    "intersection",
+    "resection",
+    "traversing",
+  ],
+  answer: 0
+},
+{
+  question: "Radiation method of plane table survey is the best suited when",
+  options: [
+    "distances are long but accessible",
+    "distances are short but accessible",
+    "distances are long but inaccessible",
+    "distances are short but inaccessible",
+  ],
+  answer: 1
+},
+{
+  question: "In plane table instrument for horizontal & vertical measurement without chaining",
+  options: [
+    "theodolite",
+    "tachcometer",
+    "telescopic alidade",
+    "compass",
+  ],
+  answer: 2
+},
+{
+  question: "The method most suitable for plotting in hilly areas is",
+  options: [
+    "radiation",
+    "resection",
+    "intersection",
+    "traversing",
+  ],
+  answer: 2
+},
+{
+  question: "Intersection is preferred to radiation when",
+  options: [
+    "the lengths are too short",
+    "it is not possible to measure any distance",
+    "the points are too far and invisible",
+    "the points are inaccessible",
+  ],
+  answer: 3
+},
+{
+  question: "Actually which is the method of plane tabling?",
+  options: [
+    "radiation",
+    "intersection",
+    "resection",
+    "transversing",
+  ],
+  answer: 2
+},
+{
+  question: "The instrument used for centering the plane table accurately is",
+  options: [
+    "spirit level",
+    "trough compass",
+    "plumbing fork",
+    "alidade",
+  ],
+  answer: 2
+},
+{
+  question: "The orientation of the table is done by",
+  options: [
+    "magnetic needle",
+    "back sighting",
+    "both (a) and (b) of above",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "\"Fiducial edge\" is the working edge of",
+  options: [
+    "plumbing fork",
+    "alidade",
+    "belidade",
+    "all of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Which instrument is not used in plane table?",
+  options: [
+    "altimeter",
+    "alidade",
+    "sprit level",
+    "anchor",
+  ],
+  answer: 0
+},
+{
+  question: "Theodolite is an instrument used for measuring",
+  options: [
+    "horizontal angles",
+    "vertical angles",
+    "deflection angle",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "The process of turning the telescope about the horizontal axis in a vertical plane by a complete revolution is known as",
+  options: [
+    "reversing",
+    "transiting",
+    "plunging",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "The process of turning the telescope about the vertical axis in a horizontal plane is known as",
+  options: [
+    "reversing",
+    "transiting",
+    "plunging",
+    "swinging",
+  ],
+  answer: 3
+},
+{
+  question: "The levelling head of a transit theodolite consists of",
+  options: [
+    "parallel plates",
+    "a tribarch plate",
+    "levelling screws",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "The function of levelling head is",
+  options: [
+    "to attach the theodolite to the tripod",
+    "to provide a bearing for the outer hollow spindle",
+    "to provide a mean of levelling the instrument",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "Size of a theodolite is specified by",
+  options: [
+    "the diameter of lower plate",
+    "the diameter of upper plate",
+    "the length of telescope",
+    "diameter of vertical circle",
+  ],
+  answer: 0
+},
+{
+  question: "A 20 cm theodolite means",
+  options: [
+    "length of theodolite is 20 cm",
+    "diameter of the lower plate is 20 cm",
+    "diameter of the upper plate is 20 cm",
+    "total height of theodolite plate is 20 cm",
+  ],
+  answer: 1
+},
+{
+  question: "The projection of a line on a plane parallel to meridian is known as",
+  options: [
+    "parallax",
+    "aberration",
+    "latitude",
+    "departure",
+  ],
+  answer: 2
+},
+{
+  question: "The projection of a line on a plane perpendicular to meridian is known as",
+  options: [
+    "parallax",
+    "aberration",
+    "latitude",
+    "departure",
+  ],
+  answer: 3
+},
+{
+  question: "In case of telescopic alidade, the adjustment done is",
+  options: [
+    "the line of collimation should perpendicular to the axis of telescope",
+    "the horizontal axis should be parallel to the alidade rule",
+    "the bubble line of telescope level should be parallel to the plane of collimation",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "The outer spindle attached to the lower plate in a transit theodolite known is",
+  options: [
+    "vernier plate",
+    "scale plate",
+    "alidade",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "In a theodolite the line passing through the intersection of the horizontal and vertical cross hairs and optical centre of the object glass and its continuation is known as",
+  options: [
+    "horizontal glass",
+    "line of collimation",
+    "line of sight",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The fundamental lines of transit are",
+  options: [
+    "horizontal axis and line of collimation",
+    "vertical axis",
+    "axes of plate levels and bubble line of telescope level",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "The upper plate",
+  options: [
+    "is attached to the inner spindle and is called vernier plate",
+    "has two vernier 180° apart for reading the horizontal angles",
+    "is also called alidade of theodolite",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "If the image formed by the objective of the telescope is not in the plane of cross hairs it is called",
+  options: [
+    "indistinct focusing",
+    "parallax",
+    "aberration",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "A straight line tangential to the longitudinal curve of the level tube at its center, is known as",
+  options: [
+    "horizontal axis",
+    "line of collimation",
+    "bubble line",
+    "line of sight",
+  ],
+  answer: 2
+},
+{
+  question: "The trunion axis or transverse axis is",
+  options: [
+    "the axis about which the telescope can be rotated in a vertical plane",
+    "the axis about which the telescope can be rotated in a horizontal plane",
+    "is also known as line of collimation",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "The telescope is said to be normal when the",
+  options: [
+    "bubble of the telescope is down and the face of the vertical circle is right",
+    "bubble of the telescope is up and the face of the vertical circle is left",
+    "bubble of the telescope is up and the face of the vertical circle is right",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The process of bringing the vertical circle to the right of the observer is called",
+  options: [
+    "face left",
+    "face right",
+    "changing face",
+    "all of the above",
+  ],
+  answer: 2
+},
+{
+  question: "Parallax may be eliminated by",
+  options: [
+    "focusing the eye-piece",
+    "focusing the objective",
+    "both (a) and (b) of above",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "“SPIRE TEST” is used in permanent adjustment of theodolite for",
+  options: [
+    "adjusting the plate levels",
+    "adjusting the line of sight",
+    "adjusting the vertical axis",
+    "adjustment of horizontal axis",
+  ],
+  answer: 3
+},
+{
+  question: "The error eliminated by taking mean of both face observations is",
+  options: [
+    "error due to eccentricity of verniers",
+    "error due to imperfect adjustment of levels",
+    "error due to line of collimation not being perpendicular to horizontal axis",
+    "all of the above",
+  ],
+  answer: 2
+},
+{
+  question: "A traverse deflection angle is",
+  options: [
+    "less than 90°",
+    "between 90° and 180°",
+    "the difference between the included angle and 180°",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "If the included angle is greater than 180°, the deflection angle is",
+  options: [
+    "right handed or positive",
+    "left handed or negative",
+    "90°",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "If the included angle is less than 180°, the deflection angle is",
+  options: [
+    "right handed or positive",
+    "left handed or negative",
+    "90°",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The difference between the sum of the measured angles and the theoretical sum of the angles of a closed traverse is called the",
+  options: [
+    "angular closing error",
+    "closing error in bearing",
+    "relative closing error",
+    "all of the above",
+  ],
+  answer: 0
+},
+{
+  question: "The difference between the two bearings of the last line as observed at the first and the last station of a traverse is known as",
+  options: [
+    "angular closing error",
+    "closing error in bearing",
+    "relative closing error",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The bearing of the traverse line is calculated by",
+  options: [
+    "included angle method",
+    "deflection angle method",
+    "both (a) and (b) of above",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "Bowditch rule is applied to",
+  options: [
+    "an open traverse for graphical adjustment",
+    "determine the effect of local attraction",
+    "a closed traverse for adjustment of closing error",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "The included angle of the theodolite traverse are generally measured",
+  options: [
+    "clock wise from the back station",
+    "clock wise from the forward station",
+    "anti clock wise from the forward station",
+    "anti clock wise from the back station",
+  ],
+  answer: 0
+},
+{
+  question: "In a closed traverse by included angles, the sum of measured interior angles should be equal to",
+  options: [
+    "(N – 4) right angles",
+    "(2 N – 4) right angles",
+    "(2 N + 4) right angles",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Azimuth (direct angles) is an angle measured in",
+  options: [
+    "c.w. direction",
+    "a.c.w. direction",
+    "both",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Direction of closing error is given by",
+  options: [
+    "sin⁻¹(∑ D / ∑ L)",
+    "tan⁻¹(–∑ D / ∑ L)",
+    "sin⁻¹(–∑ L / ∑ D)",
+    "tan⁻¹(–∑ L / ∑ D)",
+  ],
+  answer: 1
+},
+{
+  question: "The closing error is given by",
+  options: [
+    "√ΣL² + ΣD²",
+    "√ΣL + ΣD²",
+    "ΣL² + ΣD²",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "In a traverse, the algebraic sum of the deflection angles, taking the right hand deflection angles as positive and left hand deflection as negative, should be equal to",
+  options: [
+    "(N–4) right angles",
+    "(2N–4) right angles",
+    "180°",
+    "360°",
+  ],
+  answer: 3
+},
+{
+  question: "A transverse consists of six side, then the sum of external angle must be",
+  options: [
+    "1080°",
+    "540°",
+    "720°",
+    "1440°",
+  ],
+  answer: 3
+},
+{
+  question: "In closed traverse the algebraic sum of deflection angle is",
+  options: [
+    "0°",
+    "360°",
+    "(2n–4) 90°",
+    "(2n+4) 90°",
+  ],
+  answer: 1
+},
+{
+  question: "n a closed traverse, the closing error should not be more than  Where N is the no. of side of traverse",
+  options: [
+    "N × least count of instrument",
+    "√N × least count of instrument",
+    "1/N least count of instrument",
+    "1/√N least count of instrument",
+  ],
+  answer: 1
+},
+{
+  question: "The angular and linear measurement of the part of the traverse can be checked by",
+  options: [
+    "astronomical error",
+    "cut off lines",
+    "well defined objects",
+    "all of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The distance between terminal points computed from a subsidiary traverse run between them is known as",
+  options: [
+    "traverse base",
+    "transverse base",
+    "corrected base",
+    "traverse length",
+  ],
+  answer: 0
+},
+{
+  question: "The maximum number of omitted measurements that can be calculated from latitudes and departures of a closed traverse is",
+  options: [
+    "one",
+    "two",
+    "three",
+    "four",
+  ],
+  answer: 1
+},
+{
+  question: "Axis method of traverse correction is used when",
+  options: [
+    "the angles are measured very accurately",
+    "the lengths are measured very accurately",
+    "both (a) and (b) are not measured very accurately",
+    "any of the above",
+  ],
+  answer: 0
+},
+{
+  question: "If the sum of northing of a traverse exceeds the sum of southing by 2m and sum of easting exceeds the sum of westing by 2m, the resulting closing error will be",
+  options: [
+    "√2 m",
+    "2√2 m",
+    "2m",
+    "4m",
+  ],
+  answer: 1
+},
+{
+  question: "The perpendicular distance of the mid point of the line from the reference meridian is known as",
+  options: [
+    "double meridian distance",
+    "meridian distance",
+    "departure of the line",
+    "latitude of the line",
+  ],
+  answer: 1
+},
+{
+  question: "Right face and left face reading are taken to",
+  options: [
+    "get the correct reading",
+    "eliminate error of trunnion axis not exactly horizontal",
+    "eliminate error in vertical axis",
+    "eliminate error in the line of collimation",
+  ],
+  answer: 1
+},
+{
+  question: "Angular surveying in which both horizontal and vertical positions of a point are obtained by optical means is known as",
+  options: [
+    "tachometry",
+    "hydrography",
+    "tacheometry",
+    "all of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Tacheometry is adopted where",
+  options: [
+    "too many curves at the borders exists",
+    "slopes, undulations exists",
+    "limitations of space exists",
+    "all of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The method of tacheometry in which the stadia hair intercept is fixed, is known as",
+  options: [
+    "movable hair method",
+    "fixed hair method",
+    "subtense hair method",
+    "tangential hair method",
+  ],
+  answer: 1
+},
+{
+  question: "The stadia hairs are not used in",
+  options: [
+    "movable hair method",
+    "fixed hair method",
+    "tangential hair method",
+    "subtense hair method",
+  ],
+  answer: 2
+},
+{
+  question: "The method of tacheometry in which the observation is made with stadia wires with a known spacing is",
+  options: [
+    "movable hair method",
+    "fixed hair method",
+    "subtense hair method",
+    "tangential hair method",
+  ],
+  answer: 0
+},
+{
+  question: "The number of horizontal cross wires in a stadia diaphragm is",
+  options: [
+    "1",
+    "2",
+    "3",
+    "4",
+  ],
+  answer: 2
+},
+{
+  question: "The horizontal distances obtained by tacheometry are corrected for",
+  options: [
+    "slope correction",
+    "temperature correction",
+    "refraction and curvature correction",
+    "tension correction",
+  ],
+  answer: 2
+},
+{
+  question: "The multiplying constant of a tacheometer is",
+  options: [
+    "f",
+    "f/i",
+    "f/i + d",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The intercept of a staff is",
+  options: [
+    "minimum if the staff is held truly normal to the line of sight",
+    "maximum if the staff is held truly normal to the line of sight",
+    "decreases if the staff is tilted away form normal",
+    "increases if the staff is tilted away from normal",
+  ],
+  answer: 0
+},
+{
+  question: "If the staff is held vertical and the angle of elevation and depression are kept same, then the horizontal distance between instrument and staff station computed by observation will be",
+  options: [
+    "greater at an angle of elevation",
+    "greater at an angle of depression",
+    "same in both case",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "In stadia method, if k is the multiplying factor, s is the staff intercept, c is the additive constant of instrument then the distance equation is given by the expression",
+  options: [
+    "D = k + cs",
+    "D = ks + c",
+    "D = k/s + c",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Subtense bar is an instrument used for measurement of horizontal distance in",
+  options: [
+    "undulated areas",
+    "flat areas",
+    "mountains",
+    "all of the above",
+  ],
+  answer: 0
+},
+{
+  question: "For a tacheometer the additive and multiplying constants are respectively",
+  options: [
+    "zero and zero",
+    "zero and 100",
+    "100 and zero",
+    "100 and 100",
+  ],
+  answer: 1
+},
+{
+  question: "If the intercept on vertical staff is observed as 1.5 mm from a tacheometer, the horizontal distance between tacheometer and staff station is",
+  options: [
+    "75 m",
+    "100 m",
+    "150 m",
+    "300 m",
+  ],
+  answer: 2
+},
+{
+  question: "The spacing of cross hairs in a stadia diaphragm of a tacheometer is 1.5 mm and the focal length of object glass is 30 cm, the multiplying constant of tacheometer is",
+  options: [
+    "200",
+    "100",
+    "50",
+    "25",
+  ],
+  answer: 1
+},
+{
+  question: "Theodolite traverse is plotted more accurately by",
+  options: [
+    "consecutive ordinate of each section",
+    "independent coordinates of each section",
+    "inclined angle & scaling off each traverse leg",
+    "the tangent method of plotting",
+  ],
+  answer: 1
+},
+{
+  question: "Staff intercept means",
+  options: [
+    "top reading",
+    "bottom reading",
+    "middle reading",
+    "difference between top & bottom reading",
+  ],
+  answer: 3
+},
+{
+  question: "In a theodolite, staff reading for upper, middle and lower cross hairs are 1.4, 0.9 & 0.4 respectively. If the height of tower is 100 m then find the horizontal distance between instrument station & base of the tower",
+  options: [
+    "40 m",
+    "90 m",
+    "140 m",
+    "100 m",
+  ],
+  answer: 3
+},
+{
+  question: "In tacheometric survey, the method which provides easy reading of the staff is",
+  options: [
+    "three hair method",
+    "height of instrument method",
+    "even angle method",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Which one is wrong ?",
+  options: [
+    "anallatic lens is not a concave lens",
+    "anallatic lens is a convex lens",
+    "anallatic lens is used to eliminate the additive constant",
+    "none of the above",
+  ],
+  answer: 3
+},
+{
+  question: "The advantage of anallatic lens is",
+  options: [
+    "helps in external focusing",
+    "protection against moisture",
+    "computation become easy as the additive constant in distance formula vanishes",
+    "all of the above",
+  ],
+  answer: 2
+},
+{
+  question: "If the focal length of the objective glass is 20 cm and the distance from object glass to the trunnion axis is 12 cm, the additive constant is",
+  options: [
+    "0.80 m",
+    "0.40 m",
+    "0.32 m",
+    "0.20 m",
+  ],
+  answer: 2
+},
+{
+  question: "An anallatic lens is a ------- used to remove an additive constant in a tacheometer.",
+  options: [
+    "convex lens",
+    "concave lens",
+    "compound concave and convex lens",
+    "plain lens",
+  ],
+  answer: 0
+},
+{
+  question: "Anallatic lens is provided in tacheometer to measure",
+  options: [
+    "nullify both constant",
+    "render additive constant zero",
+    "multiplying constant 100 and additive constant zero",
+    "improve visibility",
+  ],
+  answer: 2
+},
+{
+  question: "Error in tacheometric surveying is due to e) all the above",
+  options: [
+    "manipulation",
+    "sighting",
+    "natural causes",
+    "instrumental error",
+  ],
+  answer: 4
+},
+{
+  question: "The type of survey in which horizontal and vertical distance is measured",
+  options: [
+    "compass",
+    "tacheometric",
+    "plane table",
+    "contour",
+  ],
+  answer: 1
+},
+{
+  question: "Tacheometry is best suited",
+  options: [
+    "where chaining is impossible",
+    "for populous areas",
+    "in broken grounds",
+    "for extremely accurate survey",
+  ],
+  answer: 2
+},
+{
+  question: "In a tacheometer provided with anallatic lens distance between object glass and vertical axis is 15 cm. Focal length of objective is 15 cm and that of anallatic lens is 10 cm. hence distance between the two lenses is",
+  options: [
+    "17.5 cm",
+    "25 cm",
+    "30 cm",
+    "40 cm",
+  ],
+  answer: 0
+},
+{
+  question: "An imaginary line connecting the points of equal elevation on the ground surface is known as",
+  options: [
+    "contour line",
+    "contour interval",
+    "horizontal equivalent",
+    "contour gradient",
+  ],
+  answer: 0
+},
+{
+  question: "The vertical distance between any two consecutive contours is known as",
+  options: [
+    "contour line",
+    "contour interval",
+    "horizontal equivalent",
+    "contour gradient",
+  ],
+  answer: 1
+},
+{
+  question: "The minimum horizontal distance between any two consecutive contours is known as",
+  options: [
+    "contour line",
+    "contour interval",
+    "horizontal equivalent",
+    "contour gradient",
+  ],
+  answer: 2
+},
+{
+  question: "Horizontal equivalent of uniform slope must be",
+  options: [
+    "equal",
+    "unequal",
+    "contour interval",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "The contour interval depends upon",
+  options: [
+    "nature of the ground",
+    "scale of the map",
+    "purpose and extent of survey",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "Contour interval is proportional",
+  options: [
+    "directly to the scale of map",
+    "inversely to the scale of map",
+    "directly to flatness of the ground",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "An imaginary line lying through the surface of ground, having a constant inclination to the horizontal is known as",
+  options: [
+    "contour line",
+    "contour gradient",
+    "contour interval",
+    "horizontal equivalent",
+  ],
+  answer: 1
+},
+{
+  question: "A series of closed contour lines on the map with higher to lower values inside them represents a",
+  options: [
+    "hill",
+    "ridge",
+    "depression",
+    "steep slope",
+  ],
+  answer: 2
+},
+{
+  question: "The contour lines merge or cross one another on the map in case of",
+  options: [
+    "cave",
+    "overhang ground surfaces",
+    "both (a) and (b) of above",
+    "vertical surfaces",
+  ],
+  answer: 2
+},
+{
+  question: "A series of closely spaced contour lines represents a",
+  options: [
+    "steep slope",
+    "uniform slope",
+    "horizontal surface",
+    "gentle slope",
+  ],
+  answer: 0
+},
+{
+  question: "A series of straight, parallel and widely spaced contours on a map represents a",
+  options: [
+    "valley",
+    "ridge",
+    "curved surface",
+    "inclined plane surface",
+  ],
+  answer: 3
+},
+{
+  question: "The contour lines are perpendicular to the",
+  options: [
+    "ridge line",
+    "valley line",
+    "both (a) and (b) of above",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "The tacheometric method is more suitable method for preparing the contour map of a",
+  options: [
+    "valley",
+    "hill",
+    "ridge",
+    "plain surface",
+  ],
+  answer: 1
+},
+{
+  question: "The representation of general topography of a very flat terrain is possible only",
+  options: [
+    "by drawing possible only",
+    "by drawing contours at large interval",
+    "by giving spot levels at large interval",
+    "by giving spot levels to salient features of close interval",
+  ],
+  answer: 3
+},
+{
+  question: "Contours represent at equal interval",
+  options: [
+    "steepest slope",
+    "hill",
+    "depression",
+    "uniform slope",
+  ],
+  answer: 3
+},
+{
+  question: "The contour close to each other represents",
+  options: [
+    "plain",
+    "steep slope",
+    "river",
+    "all of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Contour interval, within the limits of a map",
+  options: [
+    "may be kept constant",
+    "may not be kept constant",
+    "must be kept constant",
+    "may vary according to the configuration",
+  ],
+  answer: 2
+},
+{
+  question: "Two contour lines, having the same elevation",
+  options: [
+    "can’t cross each other",
+    "can cross each other",
+    "can’t unite together",
+    "can unite together",
+  ],
+  answer: 3
+},
+{
+  question: "Contour lines",
+  options: [
+    "end abruptly",
+    "cross each other",
+    "are uniformly spaced",
+    "close somewhere",
+  ],
+  answer: 3
+},
+{
+  question: "Method of contour plotting can be done by",
+  options: [
+    "by square",
+    "by offsetting",
+    "by arch",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "Contouring in hilly area is done by",
+  options: [
+    "square method",
+    "c/s method",
+    "tacheometric method",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "Contour lines tend to cross each other in case of",
+  options: [
+    "an overhanging cliff",
+    "a dam of vertical face",
+    "a steep hill",
+    "a deep valley",
+  ],
+  answer: 0
+},
+{
+  question: "Pick up the odd statement",
+  options: [
+    "contour gives topography of the area",
+    "intervisibility between two points can be judged from a contour map",
+    "quantities of work can be computed from the contour map",
+    "for a vertical cliff contours seem to cross each other",
+  ],
+  answer: 3
+},
+{
+  question: "Deep ravine means",
+  options: [
+    "pond",
+    "lake very deep",
+    "ocean",
+    "very much difference in level within a little horizontal distance",
+  ],
+  answer: 3
+},
+{
+  question: "Height indicator is a",
+  options: [
+    "scale",
+    "tool",
+    "instrument",
+    "all of the above",
+  ],
+  answer: 0
+},
+{
+  question: "The direction of steepest slope on a contour, is",
+  options: [
+    "along the contour",
+    "at an angle to the contour",
+    "at right angles to the contour",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "The direct method of contouring is",
+  options: [
+    "very slow method",
+    "most accurate method",
+    "suitable for contouring small areas",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "In the direct method of contouring the process of locating points lying on a contour is known as",
+  options: [
+    "horizontal control",
+    "vertical control",
+    "ranging",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The spacing of cross-sections in indirect method of contouring depends upon",
+  options: [
+    "character of the ground",
+    "scale of map",
+    "contour intervals",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "Find the contour interval for the map, 1 : 25000 in IS & FPS",
+  options: [
+    "4 m & 20.70 ft",
+    "6 m & 19.70 ft",
+    "3 m & 20.70 ft",
+    "5 m & 19.70 ft",
+  ],
+  answer: 3
+},
+{
+  question: "Contours are used to determine",
+  options: [
+    "intervisibility of points on a contour map",
+    "area of the drainage basin and capacity of the reservoir",
+    "quantities of earth work",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "Closed contours with higher value inside represents a",
+  options: [
+    "depression",
+    "hill",
+    "plain surface",
+    "none",
+  ],
+  answer: 1
+},
+{
+  question: "The order of accuracy of elevation of points obtained from a contour map is equal to",
+  options: [
+    "contour interval",
+    "1/2 × control interval",
+    "¼ × contour interval",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The best method of interpolation of contours in direct method of contouring is by",
+  options: [
+    "computations",
+    "interpolation",
+    "estimation",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "In double line river, contours are",
+  options: [
+    "stopped at the bank of the river",
+    "stopped at the edge of the river",
+    "drawn across the water",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The limit of water level in a river represents a",
+  options: [
+    "contour line",
+    "horizontal surface",
+    "contour gradient",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Location of contour gradient for a highway is best set out from",
+  options: [
+    "ridge down the hill",
+    "saddle down the hill",
+    "bottom to the ridge",
+    "bottom to the saddle",
+  ],
+  answer: 1
+},
+{
+  question: "For any point on the surface with a given inclination, contour gradient possible is",
+  options: [
+    "one",
+    "two",
+    "infinite",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "For route survey of a contour map, method used is",
+  options: [
+    "square method",
+    "cross-profile method",
+    "quantities of earth work",
+    "all of the above",
+  ],
+  answer: 1
+},
+{
+  question: "A contour map of the area is essential before proceeding the construction of",
+  options: [
+    "a building",
+    "a swimming pool",
+    "a dam",
+    "a bridge",
+  ],
+  answer: 2
+},
+{
+  question: "The V-shaped contours shown below represent  40  30  20  10  5 <  <  <  <  <",
+  options: [
+    "a ridge",
+    "a valley",
+    "an overhanging cliff",
+    "both (a) & (b) of above",
+  ],
+  answer: 1
+},
+{
+  question: "Boning rod is used",
+  options: [
+    "setting out of sewer",
+    "setting out of road",
+    "setting out of canal",
+    "all of the above",
+  ],
+  answer: 0
+},
+{
+  question: "The “point of curve” of a simple circular curve, is",
+  options: [
+    "point of commencement",
+    "point of tangency",
+    "point of intersection",
+    "all of the above",
+  ],
+  answer: 0
+},
+{
+  question: "The “point of tangency” of a simple circular curve, is",
+  options: [
+    "point of commencement",
+    "point of curve",
+    "point of intersection",
+    "the point where curve join the forward tangent",
+  ],
+  answer: 3
+},
+{
+  question: "The central angle subtended by an arc of 30 m of the curve",
+  options: [
+    "573/R",
+    "1146/R",
+    "1718.9/R",
+    "3435/R",
+  ],
+  answer: 2
+},
+{
+  question: "The length of perpendicular offset from a tangent to the junction of a transition curve and circular curve is equal to",
+  options: [
+    "shift",
+    "2 × shift",
+    "3 × shift",
+    "4 × shift",
+  ],
+  answer: 2
+},
+{
+  question: "Find the length of curve if R = 500 m, Intersection angle = 120°",
+  options: [
+    "500 m",
+    "525 m",
+    "550 m",
+    "575 m",
+  ],
+  answer: 1
+},
+{
+  question: "Find the length of curve if radius of curve is 50 m and angle of deflection is 60°",
+  options: [
+    "52 m",
+    "104 m",
+    "34 m",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Find the length of curve if radius of curve is 15 m and angle of deflection is 240°",
+  options: [
+    "60 m",
+    "63 m",
+    "10 m",
+    "47 m",
+  ],
+  answer: 1
+},
+{
+  question: "The upgrade road meets with downgrade road then curve formed at the junction is called",
+  options: [
+    "valley cline",
+    "entrant curve",
+    "summit curve",
+    "all of the above",
+  ],
+  answer: 2
+},
+{
+  question: "Overturning of vehicles on a curve can be avoided by using",
+  options: [
+    "transition curve",
+    "vertical curve",
+    "compound curve",
+    "reverse curve",
+  ],
+  answer: 0
+},
+{
+  question: "A curve of varying radius introduced between two branches of a compound curve is called",
+  options: [
+    "transition curve",
+    "vertical curve",
+    "compound curve",
+    "reverse curve",
+  ],
+  answer: 0
+},
+{
+  question: "A transition curve introduced between the tangent and the circular curve should",
+  options: [
+    "have infinite curvature at the junction of straight and transition curve",
+    "have zero curvature at the junction of straight and transition curve",
+    "meet the curve tangentially",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "A curve consists of two areas of different radii bending in the same direction and lying on the same side of their common tangent and their centers being on the same side of the curve is known as a",
+  options: [
+    "transition curve",
+    "vertical curve",
+    "compound curve",
+    "reverse curve",
+  ],
+  answer: 2
+},
+{
+  question: "Different grades are joined together by a",
+  options: [
+    "transition curve",
+    "vertical curve",
+    "compound curve",
+    "reverse curve",
+  ],
+  answer: 1
+},
+{
+  question: "Cubic parabola is a type of",
+  options: [
+    "transition curve",
+    "vertical curve",
+    "compound curve",
+    "simple curve",
+  ],
+  answer: 0
+},
+{
+  question: "If the length of a transition curve is such that the full super elevation is attained at the junction with the circular curve, the resultant curve is known as",
+  options: [
+    "transition curve",
+    "vertical curve",
+    "compound curve",
+    "reverse curve",
+  ],
+  answer: 2
+},
+{
+  question: "The angle subtended by the long chord of a simple curve at its centre is equal to",
+  options: [
+    "deflection angle",
+    "2 × deflection angle",
+    "3 × deflection angle",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The chord of curve less than peg interval is known as",
+  options: [
+    "small chord",
+    "short chord",
+    "long chord",
+    "sub chord",
+  ],
+  answer: 3
+},
+{
+  question: "The Normal chord of a curve should be",
+  options: [
+    "less than sub chord",
+    "equal to sub chord",
+    "greater than sub chord",
+    "all of the above",
+  ],
+  answer: 2
+},
+{
+  question: "The shape of the vertical curve generally used is",
+  options: [
+    "circular",
+    "parabolic",
+    "spiral",
+    "elliptical",
+  ],
+  answer: 1
+},
+{
+  question: "The angle of intersection of a curve is the angle between",
+  options: [
+    "forward tangent and long chord",
+    "back tangent and long chord",
+    "back tangent and forward tangent",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "The instrument used to reproduce plans to a different scale is called",
+  options: [
+    "planimeter",
+    "clinometer",
+    "ghat tracer",
+    "pentagraph",
+  ],
+  answer: 3
+},
+{
+  question: "The instrument used for measuring area on a contour map is",
+  options: [
+    "graph meter",
+    "planimeter",
+    "area meter",
+    "clinometers",
+  ],
+  answer: 1
+},
+{
+  question: "The device used in computing the horizontal and vertical distances rapidly and conveniently, is",
+  options: [
+    "stadia tables",
+    "stadia diagrams",
+    "stadia slide rule",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "The instrument used to measure horizontal and vertical angle is",
+  options: [
+    "planimeter",
+    "clinometer",
+    "ghat tracer",
+    "sextant",
+  ],
+  answer: 3
+},
+{
+  question: "Direct distance measurement method is more suitable to measure in",
+  options: [
+    "hilly area",
+    "plain area",
+    "line of sight",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The range of accuracy in measuring distance by EDM with respect to ODM is",
+  options: [
+    "more",
+    "equal",
+    "less",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Distomats is a type of",
+  options: [
+    "direct distance measuring instrument",
+    "optical distance measuring instrument",
+    "electro magnetic distance measuring instrument",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "Tellurometer uses",
+  options: [
+    "light waves",
+    "radio waves",
+    "infra waves",
+    "all of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Total station is",
+  options: [
+    "total no. of stations in traverse",
+    "even-odd no. of stations in traverse",
+    "optical distance measurement instrument",
+    "electro magnetic distance measurement instrument",
+  ],
+  answer: 3
+},
+{
+  question: "Total station measures",
+  options: [
+    "horizontal & slope distance",
+    "slope & difference in level",
+    "difference in level & coordinates",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "The deflection angle of pentagon is:",
+  options: [
+    "72°",
+    "60°",
+    "51°",
+    "60°",
+  ],
+  answer: 0
+},
+{
+  question: "Which of the following statement is not correct regarding field work leveling?",
+  options: [
+    "leveling should always start and finish at points of known RL so that misclosure can be detected",
+    "all staff length should be more than 60 m",
+    "the staff must be held vertically by suitable use of a bracket bubble",
+    "readings should be booked immediately after they are observed",
+  ],
+  answer: 1
+},
+{
+  question: "Which one of the following wrongly describes plane surveying?",
+  options: [
+    "it refers to a flat plane without considering curvature of the earth",
+    "it ignores the actual shape of the earth and allows use of plane geometry and trigonometry",
+    "it is performed on the surface of the earth",
+    "it considers the size and shape of the earth",
+  ],
+  answer: 3
+},
+{
+  question: "Combination of two reverse curve is a:",
+  options: [
+    "simple circular curve",
+    "compound curve",
+    "transition curve",
+    "deviation curve",
+  ],
+  answer: 3
+},
+{
+  question: "A clinometer is commonly used to measure:",
+  options: [
+    "horizontal distance",
+    "vertical distance",
+    "inclined angles",
+    "angles of slope",
+  ],
+  answer: 3
+},
+{
+  question: "The instrument which uses measurement of air pressure to approximately indicate altitude of a place is called:",
+  options: [
+    "tacheometer",
+    "manometer",
+    "barometer",
+    "odometer",
+  ],
+  answer: 2
+},
+{
+  question: "The types of instrument generally used in survey of gravity water supply system is:",
+  options: [
+    "dumpy level",
+    "theodolite",
+    "clinometer",
+    "clinometer",
+  ],
+  answer: 0
+},
+{
+  question: "A systematic process for combining opinions into a reasoned consensus is",
+  options: [
+    "consumer survey",
+    "opinion of experts",
+    "Delphi method",
+    "group work",
+  ],
+  answer: 2
+},
+{
+  question: "Which type of the chain is mainly used for measuring field in cadastral survey?",
+  options: [
+    "metric chain",
+    "Gunter’s chain",
+    "revenue chain",
+    "engineer’s chain",
+  ],
+  answer: 1
+},
+{
+  question: "The instrument attached to the wheel of a vehicle in order to measure the distance traveled, is called",
+  options: [
+    "perometer",
+    "odometer",
+    "pedometer",
+    "speedometer",
+  ],
+  answer: 3
+},
+{
+  question: "The horizontal distances obtained tacheometrically are corrected for:",
+  options: [
+    "slope correction",
+    "temperature correction",
+    "refra. & curva. correction",
+    "tension correction",
+  ],
+  answer: 1
+},
+{
+  question: "The use of alidade is associated with the use of:",
+  options: [
+    "abney level",
+    "theodolite",
+    "altimeter",
+    "plane table",
+  ],
+  answer: 3
+},
+{
+  question: "In surveying, the lengths of main lines and the positions of important survey stations should be ascertained by at least",
+  options: [
+    "three independent measurements",
+    "two independent measurements",
+    "one independent measurements",
+    "all of the above",
+  ],
+  answer: 1
+},
+],
 
 
 
