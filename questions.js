@@ -144,7 +144,7 @@ window.mcqData = {
 },
 {
     question: "The relationship between void ratio (e) and porosity ratio (n) is",
-    options: ["n=e/(1-e)", "e=n/(1-n)", "e=(1+n)/(1-e)", "(1+e)/(1-e)"],
+    options: ["n=e/(1-e)", "e=n/(1-e)", "e=(1+n)/(1-e)", "(1+e)/(1-e)"],
     answer: 1
 },
 {
@@ -155,7 +155,7 @@ window.mcqData = {
 {
     question: "The functional equation for specific gravity (G), water content (w), void ratio (e) and degree of saturation (Sr) is",
     options: ["w = SrG/e", "e = Srw/G", "e = WG/Sr", "G = Srw/e"],
-    answer: 2
+    answer: 0
 },
 {
     question: "The fundamental relation between percentage Air voids na, specific gravity (G), water content (w) and dry density (Yd) is",
@@ -255,7 +255,7 @@ window.mcqData = {
 {
     question: "The maximum water content at which a reduction in water content does not cause a decrease in volume of soil mass is known as",
     options: ["liquid limit", "plastic limit", "shrinkage limit", "ductile limit"],
-    answer: 2
+    answer: 1
 },
 {
     question: "Plasticity index is obtained as the difference between",
@@ -270,7 +270,7 @@ window.mcqData = {
 {
     question: "The ratio of plasticity index to flow index is called",
     options: ["activity ratio", "liquidity index", "toughness index", "shrinkage index"],
-    answer: 2
+    answer: 1
 },
 {
     question: "In a soil if the water content is equal to the liquid limit, its relative consistency is",
@@ -285,12 +285,12 @@ window.mcqData = {
 {
     question: "The difference between plastic limit and shrinkage limit is called",
     options: ["fluidity index", "reliability", "plasticity index", "shrinkage index"],
-    answer: 3
+    answer: 2
 },
 {
     question: "The liquidity index of soil is given by",
     options: ["( Wn - Wp)/Ip", "( Wl - Wp)/Ip", "( Wl - Wp)", "none of the above"],
-    answer: 0
+    answer: 1
 },
 {
     question: "Which of the following does not happen when compaction is done?",
@@ -319,7 +319,7 @@ window.mcqData = {
 
 "Structural Engineering": 
 [
-   {
+  {
     question: "The direction of shear stress is",
     options: ["horizontal", "vertical", "both (a) and (b) above", "none of the above"],
     answer: 2
@@ -924,7 +924,7 @@ window.mcqData = {
     options: ["the various members of which lie in a plane", "the thickness of various members of which will be very small", "in which there will not be any bending moment", "none of the above"],
     answer: 0
   },
-  {
+   {
     question: "A one dimensional structure is one in which",
     options: [
       "one dimension is very small and other two are large",
@@ -1994,6 +1994,8 @@ window.mcqData = {
     ],
     answer: 2
   }
+
+
 ],
 
 "Estimation and Costing":
@@ -10448,6 +10450,7 @@ window.mcqData = {
   }
 
 ],
+
 "Engineering Drawing":
 [
   {
@@ -11351,6 +11354,7 @@ window.mcqData = {
     answer: 3
   }
 ],
+
 "Concrete Technology":
 [
 {
@@ -15426,6 +15430,7 @@ window.mcqData = {
   ],
   answer: 3
 },
+
 ],
 "Engineering Survey":
 [
@@ -19981,8 +19986,13422 @@ window.mcqData = {
 },
 ],
 
+// Apex questions from weekly exam
+"Apex Questions": {
+    "2080-4-13": [
+      {
+  question: "What is the area of Sagarmatha National Park?",
+  options: [
+    "830 sq.km",
+    "275 sq.km",
+    "216 sq.km",
+    "198 sq.km",
+  ],
+  answer: 1
+},
+{
+  question: "Who is the first Buddha to come in Nepal?",
+  options: [
+    "Manjushri",
+    "Vishwambhu",
+    "Shikhi",
+    "Bipashwi",
+  ],
+  answer: 3
+},
+{
+  question: "According to the Ministry of Forest and Environment 2078 data, which province occupies the largest share of the total forest area of Nepal?",
+  options: [
+    "Karnali",
+    "Madhesh",
+    "Sudurpashchim",
+    "Koshi",
+  ],
+  answer: 0
+},
+{
+  question: "What is the old name of Bhrikutimandap?",
+  options: [
+    "Amaraapuri",
+    "Shikharapuri",
+    "Tori Bari",
+    "Haanpuri",
+  ],
+  answer: 2
+},
+{
+  question: "Which mountain is also known as Killer Mountain?",
+  options: [
+    "Amadablam",
+    "Manaslu",
+    "Dhaulagiri",
+    "Machhapuchhre",
+  ],
+  answer: 1
+},
+{
+  question: "Who is known as an opportunistic leader?",
+  options: [
+    "Marichman Singh",
+    "Bishwabandhu Thapa",
+    "Dr. Tulsi Giri",
+    "Ram Shah",
+  ],
+  answer: 1
+},
+{
+  question: "Who is the king who started the Malla Dynasty by putting Malla after the name?",
+  options: [
+    "Abhay Malla",
+    "Yaksha Malla",
+    "Ari Malla",
+    "Mahendra Malla",
+  ],
+  answer: 2
+},
+{
+  question: "From which plan did Nepal accept foreign investment as a strategy for industrial development?",
+  options: [
+    "5th Plan",
+    "6th Plan",
+    "7th Plan",
+    "8th Plan",
+  ],
+  answer: 1
+},
+{
+  question: "Who is the Chairman of the National Planning Commission?",
+  options: [
+    "Prime Minister",
+    "Finance Minister",
+    "Home Minister",
+    "Governer",
+  ],
+  answer: 0
+},
+{
+  question: "In    .., United Nations came up with 17 Sustainable Development Goals which were aimed to be achieved by    .. .",
+  options: [
+    "2015; 2025",
+    "2015; 2030",
+    "2010; 2025",
+    "2010; 2030",
+  ],
+  answer: 1
+},
+{
+  question: "The phenomenon of marble cancer is due to:",
+  options: [
+    "Soot particles",
+    "Acid rain",
+    "CFCs",
+    "Fog",
+  ],
+  answer: 1
+},
+{
+  question: "Who among the following is not an observer country of the SAARC?",
+  options: [
+    "Iran",
+    "China",
+    "USA",
+    "Canada",
+  ],
+  answer: 3
+},
+{
+  question: "When was BIMSTEC founded?",
+  options: [
+    "1985 AD",
+    "1987 AD",
+    "1995 AD",
+    "1997 AD",
+  ],
+  answer: 3
+},
+{
+  question: "The list of common rights of Federal, Provinces and Local levels is arranged in which schedule of the constitution?",
+  options: [
+    "Schedule 6",
+    "Schedule 7",
+    "Schedule 8",
+    "Schedule 9",
+  ],
+  answer: 3
+},
+{
+  question: "The Right to Freedom of Religion is mentioned in which Article of the Constitution of Nepal?",
+  options: [
+    "Article 25",
+    "Article 26",
+    "Article 27",
+    "Article 28",
+  ],
+  answer: 1
+},
+{
+  question: "Which country is known as the mother of parliamentary system of government?",
+  options: [
+    "USA",
+    "Britain",
+    "Russia",
+    "France",
+  ],
+  answer: 1
+},
+{
+  question: "How many levels of courts are there in Nepal?",
+  options: [
+    "2",
+    "3",
+    "4",
+    "5",
+  ],
+  answer: 1
+},
+{
+  question: "When was the Civil Service Act 2049 published in Laal Mohar?",
+  options: [
+    "BS 2050 Jestha 04",
+    "BS 2050 Asar 28",
+    "BS 2050 Jestha 28",
+    "BS 2050 Asar 04",
+  ],
+  answer: 0
+},
+{
+  question: "Civil Service Act, 2049   has provided for how many clusters for Gazetted special category?",
+  options: [
+    "4",
+    "5",
+    "6",
+    "10",
+  ],
+  answer: 2
+},
+{
+  question: "When did the Citizen   s Charter with compensation start in Nepal?",
+  options: [
+    "BS 2056",
+    "BS 2070",
+    "BS 2073",
+    "BS 2075",
+  ],
+  answer: 1
+},
+{
+  question: "Organizations that pursue the common interests of groups of people by attempting to influence the making and implementation of government policy are known as:",
+  options: [
+    "Political parties",
+    "Interests groups",
+    "Lobbyists",
+    "Social movements",
+  ],
+  answer: 1
+},
+{
+  question: "Which one of the following examples is not included in the intangible premises of planning?",
+  options: [
+    "Public Relations",
+    "Labour Hours",
+    "Employee Morale",
+    "Competitive Strength",
+  ],
+  answer: 1
+},
+{
+  question: "The budget is a detailed action plan of the government.    Whose statement is this?",
+  options: [
+    "F.W. Taylor",
+    "F.M. Marks",
+    "Subramanyam Swami",
+    "P.E. Taylor",
+  ],
+  answer: 3
+},
+{
+  question: "When was the first human death recorded due to Covid-19?",
+  options: [
+    "2019 Jan 05",
+    "2020 Jan 05",
+    "2019 Dec 31",
+    "2020 Dec 31",
+  ],
+  answer: 1
+},
+{
+  question: "Since when the train service from Jayanagar in India to Bijulpura in Mahottari was started?",
+  options: [
+    "BS 2079 Asar 31",
+    "BS 2080 Asar 31",
+    "BS 2079 Jestha 31",
+    "BS 2080 Jestha 31",
+  ],
+  answer: 1
+},
+{
+  question: "Statement: Government has spoiled many top-ranking financial institutions by appointing bureaucrats as Directors of these institutions. Conclusions: I. Government should appoint Directors of the financial institutes taking into consideration the expertise of the person in the area of finance. II. The Director of the financial institute should have expertise commensurate with financial work carried out by the institute.",
+  options: [
+    "Only conclusion I follows.",
+    "Only conclusion II follows.",
+    "Neither I nor II follow.",
+    "Both I and II follow.",
+  ],
+  answer: 3
+},
+{
+  question: "Arrange the words given below in meaningful sequence. 1. Poverty              2. Population               3. Death                       4. Unemployment                   5. Disease",
+  options: [
+    "2,3,4,5,1",
+    "3,4,2,5,1",
+    "2,4,3,5,3",
+    "1,2,3,4,5",
+  ],
+  answer: 2
+},
+{
+  question: "One morning Udai and Vishal were talking to each other face to face at a crossing. If Vishal's shadow was exactly to the left of Udai, which direction was Udai facing?",
+  options: [
+    "East",
+    "West",
+    "North",
+    "South",
+  ],
+  answer: 2
+},
+{
+  question: "Rank of Sushila is 14 th  from the top in a group of 25 students. Find her rank from below if 3 new students will be added to the bottom of the list?",
+  options: [
+    "15",
+    "11",
+    "12",
+    "13",
+  ],
+  answer: 0
+},
+{
+  question: "If Eraser is called Pencil and Pencil is called Sharpener and Sharpener is called Bag, what will a child write with?",
+  options: [
+    "Box",
+    "Pencil",
+    "Sharpener",
+    "Bag",
+  ],
+  answer: 2
+},
+{
+  question: "Which word does NOT belong with the others?",
+  options: [
+    "inch",
+    "ounce",
+    "centimeter",
+    "yard",
+  ],
+  answer: 1
+},
+{
+  question: "ZA 5 , Y 4 B, XC 6 , W 3 D, _____",
+  options: [
+    "E7V",
+    "V2E",
+    "VE5",
+    "VE7",
+  ],
+  answer: 3
+},
+{
+  question: "Choose the correct alternative that will continue the same pattern and replace the question mark in the given series.                      3, 10, 101, ?",
+  options: [
+    "10101",
+    "10201",
+    "10202",
+    "11012",
+  ],
+  answer: 2
+},
+{
+  question: "Find odd man out.             6, 9, 15, 21, 24, 28, 30",
+  options: [
+    "28",
+    "21",
+    "24",
+    "30",
+  ],
+  answer: 0
+},
+{
+  question: "In a class of 60 students, the number of boys and girls participating in the annual sports is in the ratio 3 : 2 respectively. The number of girls not participating in the sports is 5 more than the number of boys not participating in the sports. If the number of boys participating in the sports is 15, then how many girls are there in the class?",
+  options: [
+    "20",
+    "25",
+    "30",
+    "35",
+  ],
+  answer: 2
+},
+{
+  question: "In an election between two candidates, one got 55% of the total valid votes, 20% of the votes were invalid. If the total number of votes was 7500, the number of valid votes that the other candidate got, was:",
+  options: [
+    "2700",
+    "2900",
+    "3000",
+    "3100",
+  ],
+  answer: 0
+},
+{
+  question: "The fourth proportional to 5, 8, 15 is:",
+  options: [
+    "18",
+    "24",
+    "19",
+    "20",
+  ],
+  answer: 1
+},
+{
+  question: "The average of 20 numbers is zero. Of them, at the most, how many may be greater than zero?",
+  options: [
+    "0",
+    "1",
+    "10",
+    "19",
+  ],
+  answer: 3
+},
+{
+  question: "A vendor bought toffees at 6 for a rupee. How many for a rupee must he sell to gain 20%?",
+  options: [
+    "3",
+    "4",
+    "5",
+    "6",
+  ],
+  answer: 2
+},
+{
+  question: "A, B and C can do a piece of work in 20, 30 and 60 days respectively. In how many days can A do the work if he is assisted by B and C on every third day?",
+  options: [
+    "12 days",
+    "15 days",
+    "16 days",
+    "18 days",
+  ],
+  answer: 1
+},
+{
+  question: "Which one will replace the question mark?",
+  options: [
+    "184",
+    "210",
+    "241",
+    "425",
+  ],
+  answer: 0
+},
+{
+  question: "Select a figure from amongst the Answer Figures which will continue the same series as established by the five Problem Figures.",
+  options: [
+    "1",
+    "2",
+    "3",
+    "4",
+  ],
+  answer: 2
+},
+{
+  question: "Select a suitable figure from the Answer Figures that would replace the question mark (?).",
+  options: [
+    "1",
+    "2",
+    "3",
+    "4",
+  ],
+  answer: 1
+},
+{
+  question: "Select a suitable figure from the four alternatives that would complete the figure matrix.",
+  options: [
+    "1",
+    "2",
+    "3",
+    "4",
+  ],
+  answer: 3
+},
+{
+  question: "Identify the figure that completes the pattern.",
+  options: [
+    "1",
+    "2",
+    "3",
+    "4",
+  ],
+  answer: 1
+},
+{
+  question: "Find the number of triangles in the given figure.",
+  options: [
+    "12",
+    "13",
+    "14",
+    "15",
+  ],
+  answer: 3
+},
+{
+  question: "Find out which of the figures (1), (2), (3) and (4) can be formed from the pieces given in figure (X).",
+  options: [
+    "1",
+    "2",
+    "3",
+    "4",
+  ],
+  answer: 0
+},
+{
+  question: "Choose the correct water image of the given figure (X) from amongst the four alternatives.",
+  options: [
+    "1",
+    "2",
+    "3",
+    "4",
+  ],
+  answer: 2
+},
+{
+  question: "Study the following figure and answer the questions given below. How many educated people are employed?",
+  options: [
+    "9",
+    "18",
+    "20",
+    "15",
+  ],
+  answer: 0
+},
+{
+  question: "The following pie-chart shows the percentage distribution of the expenditure incurred in publishing a book. Study the pie-chart and the answer the questions based on it. Various Expenditures (in percentage) Incurred in Publishing a Book If 5500 copies are published and the transportation cost on them amounts to Rs. 82500, then what should be the selling price of the book so that the publisher can earn a profit of 25%?",
+  options: [
+    "Rs. 187.50",
+    "Rs. 191.50",
+    "Rs. 175",
+    "Rs. 180",
+  ],
+  answer: 0
+},
+{
+  question: "For a well-conditioned triangle, no angle should be less than",
+  options: [
+    "20",
+    "30",
+    "45",
+    "60",
+  ],
+  answer: 1
+},
+{
+  question: "If the true bearing of a line AB is 269    30', then the azimuth of the line AB is",
+  options: [
+    "0    30'",
+    "89    30'",
+    "90    30'",
+    "269    30'",
+  ],
+  answer: 2
+},
+{
+  question: "Size of a theodolite is specified by",
+  options: [
+    "The length of telescope",
+    "the diameter of vertical circle",
+    "the diameter of lower plate",
+    "the diameter of upper plate",
+  ],
+  answer: 2
+},
+{
+  question: "Which of the following is not the function of leveling head?",
+  options: [
+    "To support the main part of instrument",
+    "to attach the theodolite to the tripod",
+    "to provide a means for leveling the theodolite",
+    "none of the above",
+  ],
+  answer: 3
+},
+{
+  question: "In the double application of principle of reversion, the apparent error is",
+  options: [
+    "Equal to true error",
+    "half the true error",
+    "two times the true error",
+    "four times the true error",
+  ],
+  answer: 3
+},
+{
+  question: "Which of the following arithmetic checks can be applied in rise and fall method?",
+  options: [
+    "B.S.-  F.S.=  Rise-  Fall only",
+    "B.S.=  F.S= Last R.L     First R.L only",
+    "Rise       Fall = Last R.L     First R.L only",
+    "B.S.       F.S. =   Rise      Fall = Last R.L.",
+  ],
+  answer: 3
+},
+{
+  question: "PERT technique of network analysis is mainly useful for",
+  options: [
+    "Small projects",
+    "large and complex projects",
+    "research and development projects",
+    "deterministic activities",
+  ],
+  answer: 2
+},
+{
+  question: "Which of the following is a weakness of bar chart?",
+  options: [
+    "Interdependencies of activities",
+    "project progress",
+    "uncertainties",
+    "all of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Which of the following does not represent an activity?",
+  options: [
+    "site located",
+    "foundation is being dug",
+    "the office area is being cleaned",
+    "the invitations are being sent",
+  ],
+  answer: 0
+},
+{
+  question: "The direct cost of a project with respect to normal time is",
+  options: [
+    "Minimum",
+    "maximum",
+    "zero",
+    "infinite",
+  ],
+  answer: 0
+},
+{
+  question: "Economic saving of time results by crashing",
+  options: [
+    "Cheapest critical activity",
+    "cheapest non-critical activity",
+    "costliest critical activity",
+    "costliest non-critical activity",
+  ],
+  answer: 3
+},
+{
+  question: "Updating may result in",
+  options: [
+    "Change of critical path",
+    "decrease of project completion time",
+    "increase of project completion time",
+    "all of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Which of the following metamorphic rocks has the most weather resisting characteristics?",
+  options: [
+    "Marble",
+    "quartzite",
+    "slate",
+    "lime stone",
+  ],
+  answer: 3
+},
+{
+  question: "The function of Nepal Engineering Council is to:",
+  options: [
+    "Register and issue license to engineers",
+    "enforce engineering profession code of conduct",
+    "regulate the regulate the required standard of educational facilities of engineering colleges",
+    "all of the above",
+  ],
+  answer: 2
+},
+{
+  question: "Every practicing engineer in Nepal must be registered legally in",
+  options: [
+    "Nepal Engineer's Association",
+    "Concerned Municipality",
+    "Nepal Engineering Council",
+    "all of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Which of the following mode of selection is related to procurement of goods?",
+  options: [
+    "QCBS",
+    "QBS",
+    "CBS",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Ethical filter shall test",
+  options: [
+    "Whether action or decision are against law",
+    "whether action or decision breach religious code of conduct",
+    "both A and B",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The most suitable tool to draw freehand is",
+  options: [
+    "Rotring pen",
+    "HB pencil",
+    "graphos",
+    "charcoal pencil stick",
+  ],
+  answer: 1
+},
+{
+  question: "Most suitable hand drawn coloured perspective drawing paper is",
+  options: [
+    "Handmade paper",
+    "any colored paper",
+    "tracing paper",
+    "charcoal pencil stick",
+  ],
+  answer: 0
+},
+{
+  question: "Building working drawing are generally prepared in drawing paper of",
+  options: [
+    "A 1 size",
+    "A 2 size",
+    "A 3 size",
+    "A 4 size",
+  ],
+  answer: 3
+},
+{
+  question: "The bricks work is not measured in cubic meter in case of",
+  options: [
+    "One or more than one brick wall",
+    "brick work in arches",
+    "reinforced brick work",
+    "half brick wall",
+  ],
+  answer: 0
+},
+{
+  question: "The estimate of the value of the assert at the time it will be sold or disposed of, which may be zero or even negative is term as",
+  options: [
+    "Salvage value",
+    "face value",
+    "book value",
+    "half brick wall",
+  ],
+  answer: 1
+},
+{
+  question: "The bill of quantities does not contain",
+  options: [
+    "Item description",
+    "item wise rate employer",
+    "item wise rate of contractor",
+    "unit of items",
+  ],
+  answer: 2
+},
+{
+  question: "Granite is not suitable for ordinary building purpose because",
+  options: [
+    "it cannot be polished",
+    "it is not a fire proof material",
+    "it is costly",
+    "it has less crushing strength",
+  ],
+  answer: 1
+},
+{
+  question: "Spalling hammer is used for",
+  options: [
+    "Driving hammer is used for",
+    "rough dressing of stones",
+    "carving of stones",
+    "breaking small projection of stones",
+  ],
+  answer: 2
+},
+{
+  question: "The radial splits which are wider on the outside of the log and narrow towards the pith are known as",
+  options: [
+    "Heart shakes",
+    "Cupshakes",
+    "starshakes",
+    "rindgalls",
+  ],
+  answer: 3
+},
+{
+  question: "In which of the following pairs both trees yield soft wood?",
+  options: [
+    "Deodar and shishum",
+    "chir and Sal",
+    "Sal and teak",
+    "chir and deodar",
+  ],
+  answer: 0
+},
+{
+  question: "A footing which supports two or more columns is termed as",
+  options: [
+    "Combined footings",
+    "raft footings",
+    "strap Footings",
+    "none of these",
+  ],
+  answer: 1
+},
+{
+  question: "Early attainment of strength in rapid hardening cement is mainly due to",
+  options: [
+    "Gypsum",
+    "finer grinding",
+    "tricalcium silicate",
+    "tricalcium aluminates",
+  ],
+  answer: 2
+},
+{
+  question: "With increase in moisture content, the bulking of sand",
+  options: [
+    "Increase",
+    "decrease",
+    "first increase to a certain maximum value and then decreases",
+    "first decrease to a certain minimum value and then increase",
+  ],
+  answer: 3
+},
+{
+  question: "Which one is not drafting equipment?",
+  options: [
+    "Drafter",
+    "dust cloth",
+    "scale",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "The most important tool in brick lying for lifting and spreading mortal and for forming joints is",
+  options: [
+    "Trowel",
+    "square",
+    "bolster",
+    "scotch",
+  ],
+  answer: 2
+},
+{
+  question: "The function of cleats in a roof truss is",
+  options: [
+    "To support the common rafter",
+    "to support purlins",
+    "to prevent the purlins from tilting",
+    "all of the above",
+  ],
+  answer: 2
+},
+{
+  question: "Which of the followings mortar is most suitable for construction work in water logged areas?",
+  options: [
+    "Lime mortar",
+    "gauged mortar",
+    "cement mortar",
+    "mud mortar",
+  ],
+  answer: 2
+},
+{
+  question: "Which of the following test is used to determine the rate of wear of stone?",
+  options: [
+    "Crushing test",
+    "abrasion test",
+    "attrition test",
+    "impact test",
+  ],
+  answer: 2
+},
+{
+  question: "Consider the following statements: seasoning of timber results in Increase strength increased durability reduced resilience Of these statements, which are correct?",
+  options: [
+    "1, 2 and 3 are correct",
+    "1 and 3 are correct",
+    "1 and 2 are correct",
+    "2 and 3 are correct",
+  ],
+  answer: 2
+},
+{
+  question: "Distemper is used to coat",
+  options: [
+    "External concrete surfaces",
+    "interior surfaces not exposed to weather",
+    "wood work",
+    "compound walls",
+  ],
+  answer: 1
+},
+{
+  question: "Putty is made up of",
+  options: [
+    "White lead and turpentine",
+    "powered chalk and raw linseed oil",
+    "red lead and linseed oil",
+    "zinc oxide and boiled linseed oil",
+  ],
+  answer: 3
+},
+{
+  question: "The limit of proportionality is applicable more in the case of",
+  options: [
+    "Concrete",
+    "wood",
+    "cast iron",
+    "mild steel",
+  ],
+  answer: 3
+},
+{
+  question: "The compacting factor test of cement concrete determines its",
+  options: [
+    "Strength",
+    "Porosity",
+    "degree of compaction under loads",
+    "workability",
+  ],
+  answer: 3
+},
+{
+  question: "The moment required to rotate the near end of a prismatic beam through unit angle, without translation (the far end being fixed),is given by",
+  options: [
+    "EL/L",
+    "2EL/L",
+    "3EL/L",
+    "4EL/L",
+  ],
+  answer: 3
+},
+{
+  question: "If one end of a prismatic beam AB with fixed ends is given a transverse displacement    without any rotation, then the transverse reactions at A and B due to the displacement is",
+  options: [
+    "6EI  /1",
+    "6EI  /1",
+    "12EI  /1",
+    "12EI  /1",
+  ],
+  answer: 1
+},
+{
+  question: "The Castigliono's second theorem can be used to compute deflections",
+  options: [
+    "in statically determinate structures only",
+    "for any type of structure",
+    "at the point under the load only",
+    "for beams and frames only",
+  ],
+  answer: 2
+},
+{
+  question: "Bending moment at any section in a conjugate beam gives in the actual beam",
+  options: [
+    "Slope",
+    "curvature",
+    "deflection",
+    "bending moment",
+  ],
+  answer: 1
+},
+{
+  question: "The maximum bending moment due to a train of wheel loads on a simply supported girder",
+  options: [
+    "Always occurs at centre of span",
+    "always occurs under a wheel load",
+    "never occurs under a wheel load",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "A symmetrical parabolic arch of span 20 meters and rise 5 meters is hinged at the springing. It supports a uniformly distributed load of 2 tones per meter run of span. The horizontal thrust in tones at each of the springing is",
+  options: [
+    "8",
+    "16",
+    "20",
+    "zero",
+  ],
+  answer: 2
+},
+{
+  question: "Workability of concrete is directly proportion to",
+  options: [
+    "Aggregate cement ratio",
+    "time of transit",
+    "grading of the aggregate",
+    "all of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Admixtures which cause early setting and hardening of concrete are called",
+  options: [
+    "Workability admixtures",
+    "accelerators",
+    "retarders",
+    "air entraining agents",
+  ],
+  answer: 0
+},
+{
+  question: "The most commonly used admixture which prolongs the setting and hardening time is",
+  options: [
+    "Gypsum",
+    "calcium chloride",
+    "sodium silicate",
+    "all of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Percentage of carbon content in mild steel is",
+  options: [
+    "Less than 0.25",
+    "between 0.25 and 0.7",
+    "between 0.7 and 1.5",
+    "",
+  ],
+  answer: 2
+},
+    ],
+    "2080-4-20": [
+     {
+        "question": "According to the scriptures, how many types of marriage are there in the Hindu tradition?",
+        "options": [
+            "a. 2",
+            "b. 11",
+            "c. 8",
+            "d. 3"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Jhizhiya dance is a dance of which caste?",
+        "options": [
+            "a. Maithili",
+            "b. Tharu",
+            "c. Kahar",
+            "d. Satar"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "In which year was the current area of \ufffd\ufffd\ufffd\ufffd\ufffd\ufffdNepal determined??",
+        "options": [
+            "a. BS 2063",
+            "b. BS 1936",
+            "c. BS 2036",
+            "d. BS 1963"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "In which district does the Lake Gyankund lie?",
+        "options": [
+            "a. Sarlahi",
+            "b. Dhanusha",
+            "c. Gorakha",
+            "d. Nuwakot"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which is the first dynasty to rule Nepal?",
+        "options": [
+            "a. Gopal",
+            "b. Mahispal",
+            "c. Kirant",
+            "d. Som"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following does not belong to the 12  Tahasil  districts of Tarai during the Rana period?",
+        "options": [
+            "a. Rautahat",
+            "b. Saptari",
+            "c. Jhapa",
+            "d. Udaypur"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which day is celebrated as Vegetation Day in Nepal?",
+        "options": [
+            "a. Chaitra 9",
+            "b. Chaitra 19",
+            "c. Chaitra 29",
+            "d. Chaitra 20"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which blood group is known as Universal Donor?",
+        "options": [
+            "a. A",
+            "b. B",
+            "c. AB",
+            "d. O"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Russia is the most vetoed nation in the UN and which is the least vetoed nation?",
+        "options": [
+            "a. USA",
+            "b. India",
+            "c. China",
+            "d. France"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which is the first SAARC country to introduce VAT?",
+        "options": [
+            "a. Pakistan",
+            "b. India",
+            "c. Bangladesh",
+            "d. Maldives"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "What is the official language of BIMSTEC Secretariat?",
+        "options": [
+            "a. Hindi",
+            "b. English",
+            "c. Urdu",
+            "d. Both a and b"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "What is the post for parliamentary hearing?",
+        "options": [
+            "a. Chief Justice",
+            "b. Prime Minister",
+            "c. Speaker",
+            "d. Chief Minister"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "What percentage of the world's water resources are covered by Nepal's river channel?",
+        "options": [
+            "a. 3.9%",
+            "b. 2.27%",
+            "c. 5.67%",
+            "d. 0.04%"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which world's highest altitude lake also contains fish?",
+        "options": [
+            "a. Tilicho",
+            "b. Shey Phoksundo",
+            "c. Rara",
+            "d. Tsho Rolpa"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which mountain of Nepal is also known as \ufffd\ufffd\ufffd White Mountain\ufffd\ufffd\ufffd ?",
+        "options": [
+            "a. Machhapuchhre",
+            "b. Gaurishankar",
+            "c. Manaslu",
+            "d. Dhaulagiri"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which ethnic caste of Nepal celebrate their marriage only in Mangshir month?",
+        "options": [
+            "a. Meche",
+            "b. Manange",
+            "c. Dhami",
+            "d. Thami"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "How many municipalities are there in Nepal?",
+        "options": [
+            "a. 276",
+            "b. 11",
+            "c. 6",
+            "d. 460"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which country has adopted a mixed system of governance, both federal and presidential?",
+        "options": [
+            "a. France",
+            "b. Ukraine",
+            "c. Germany",
+            "d. Portugal"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "How many times has the Civil Service Regulations been amended so far?",
+        "options": [
+            "a. 4",
+            "b. 15",
+            "c. 10",
+            "d. 5"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "How many categories of Non-Gazetted officers are there according to Civil Service Act, 2049 BS?",
+        "options": [
+            "a. 5",
+            "b. 4",
+            "c. 3",
+            "d. 2"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which is the office to start keeping citizen's charter with digital display?",
+        "options": [
+            "a. District Administration Office, Tehrathum",
+            "b. Department of Foreign Employment",
+            "c. Department of Traffic Management",
+            "d. District Development Committee, Rukum"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Communication runs faster in",
+        "options": [
+            "a. Centralized structure",
+            "b. Decentralized structure",
+            "c. Matrix structure",
+            "d. Line structure"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "All the following principles are included in \ufffd\ufffd\ufffdDirecting\ufffd\ufffd\ufffd except",
+        "options": [
+            "a. Harmony of Objectives",
+            "b. Unity of Command",
+            "c. Coordination",
+            "d. Follow up"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which African country has a military coup recently?",
+        "options": [
+            "a. Niger",
+            "b. Nigeria",
+            "c. Sudan",
+            "d. Oman"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Since when did the Kathmandu Metropolitan City decide to ban the use of plastic bags thinner than 40 microns?",
+        "options": [
+            "a. BS 2080 Jestha 01",
+            "b. BS 2080 Shravan 01",
+            "c. BS 2080 Asar 01",
+            "d. BS 2080 Shravan 15"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "If 6 men and 8 boys can do a piece of work in 10 days while 26 men and 48 boys can do the same in 2 days, the time taken by 15 men and 20 boys in doing the same type of work will be:",
+        "options": [
+            "a. 4 days",
+            "b. 5 days",
+            "c. 6 days",
+            "d. 7 days"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A trader gets 50% profit by selling a chair. If he buys at 1/4 th  of the rate and sells at the same selling before, then what will be his percentage profit?",
+        "options": [
+            "a. 100%",
+            "b. 160%",
+            "c. 500%",
+            "d. 200%"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The average age of 8 members is 40 years. A member aged 35 years retired and his place was taken by another member aged 45. Find the average age of present members.",
+        "options": [
+            "a. 40 years",
+            "b. 41.25 years",
+            "c. 42 years",
+            "d. 41.75 years"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "If the sum of two numbers is 35 and their difference is 13. Then the ratio of the two numbers is:",
+        "options": [
+            "a. 13:24",
+            "b. 12:14",
+            "c. 35:13",
+            "d. 24:11"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Amit spends 70% of his income and saves the rest. If his expenditure is increased by 10% and saving is increased by 20%, then find the percentage increase in his income.",
+        "options": [
+            "a. 11%",
+            "b. 32%",
+            "c. 13%",
+            "d. 15%"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "If you write down all the numbers from 1 to 100, then how many times do you write 3?",
+        "options": [
+            "a. 11",
+            "b. 18",
+            "c. 20",
+            "d. 21"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "In a certain code language, fire is called water, water is called mask, mask is called helmet, helmet is called box and box is called steam. In this language, which of the following is must while riding?",
+        "options": [
+            "a. Box",
+            "b. Helmet",
+            "c. Steam",
+            "d. Fire"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Choose the one which is different from the rest three?",
+        "options": [
+            "a. 81",
+            "b. 83",
+            "c. 21",
+            "d. 69"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "What should come in place of the question mark in the following number series? 2, 12, 130, 56, ?, 132",
+        "options": [
+            "a. 744",
+            "b. 740",
+            "c. 735",
+            "d. 738"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Study the graph and answer the questions: The percentage increase in population from 1991 to 2001 is:",
+        "options": [
+            "a. 24.8 crores",
+            "b. 20 crores",
+            "c. 13.6 crores",
+            "d. 22.9 crores"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Find the missing number.",
+        "options": [
+            "a. 34",
+            "b. 42",
+            "c. 44",
+            "d. 45"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Find the missing figure in the series from the given answer figures.",
+        "options": [
+            "a. 1",
+            "b. 2",
+            "c. 3",
+            "d. 4"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Choose the figure which is different from the rest.",
+        "options": [
+            "a. 1",
+            "b. 2",
+            "c. 3",
+            "d. 4"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Select a suitable figure from the four alternatives that would complete the figure matrix.",
+        "options": [
+            "a. 1",
+            "b. 2",
+            "c. 3",
+            "d. 4"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Identify the figure that completes the pattern.",
+        "options": [
+            "a. 1",
+            "b. 2",
+            "c. 3",
+            "d. 4"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Find the number of triangles in the given figure.",
+        "options": [
+            "a. 21",
+            "b. 23",
+            "c. 25",
+            "d. 27"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Choose the set of figures which follows the given rule. Rule: Any figure can be traced by a single unbroken line without retracting.",
+        "options": [
+            "a. 1",
+            "b. 2",
+            "c. 3",
+            "d. 4"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Choose the alternative which is closely resembles the mirror image of the given combination.",
+        "options": [
+            "a. 1",
+            "b. 2",
+            "c. 3",
+            "d. 4"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Choose the box that is similar to the box formed from the given sheet of paper (X).",
+        "options": [
+            "a. 1 only",
+            "b. 1, 2 and 3 only",
+            "c. 2 and 3 only",
+            "d. 1, 2, 3 and 4"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Statement; Nation X faced growing international opposition for its decision to explode eight nuclear weapons at its test site. Conclusions: \u00a0\u00a0\u00a0\u00a0\u00a0 I. The citizens of the nation favoured the decision. \u00a0\u00a0\u00a0\u00a0\u00a0 II. Some powerful countries do not want other nations to become as powerful as they are.",
+        "options": [
+            "a. Only conclusion I follows.",
+            "b. Only conclusion II follows.",
+            "c. Either I or II follows.",
+            "d. Neither I nor II follows."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "G is daughter of R. Z is married to R. R is daughter of F who is husband of M. How many female members are there in the family?",
+        "options": [
+            "a. One",
+            "b. Two",
+            "c. Three",
+            "d. Four"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "I walk 30 meters in North-West direction from my house and then 30 meters in South-West direction. After this I walk 30 meters in South-East direction. Now, I turn to my house, in what direction am I going?",
+        "options": [
+            "a. North-East",
+            "b. North-West",
+            "c. South-East",
+            "d. South-West"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Rahim arranged different colours of balls on the floor in a row. The red colour ball is placed 14th from the left and white colour is placed 7th from the right. There are other four colours of ball were placed in between them. How many different colours of ball did Rahim arranged?",
+        "options": [
+            "a. 23",
+            "b. 24",
+            "c. 25",
+            "d. 26"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Choose the word which is different from the rest.",
+        "options": [
+            "a. Sandstone",
+            "b. Basalt",
+            "c. Granite",
+            "d. Pumice"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Look carefully the sequence of symbols to find the pattern. Select the correct pattern.",
+        "options": [
+            "a. 1",
+            "b. 2",
+            "c. 3",
+            "d. 4"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The center of gravity of a plane lamina will not be at its geometrical centre if it is a",
+        "options": [
+            "a. Square",
+            "b. Rectangle",
+            "c. Circle",
+            "d. Right angle triangle"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Stress at any point in a material is defined as",
+        "options": [
+            "a. load per unit area",
+            "b. resisting force per unit area",
+            "c. modulus of elasticity times strain",
+            "d. None of the above"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "If the deflection and slope at the free end of cantilever beam subjected to uniformly distributed load are\u00a0 15mm and 0.02 radians respectively the length of beam is",
+        "options": [
+            "a. 800 mm",
+            "b. 1000 mm",
+            "c. 1200 mm",
+            "d. 1500 mm"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "If rigid body is in equilibrium under a system of forces the virtual workdone by this system of forces during virtual displacement is zero. This principle is known as",
+        "options": [
+            "a. work energy principle",
+            "b. Macaulays principle",
+            "c. Bernaullis principle",
+            "d. castiglianos principle"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The shape factor of rectngular section is",
+        "options": [
+            "a. 1.0",
+            "b. 1.5",
+            "c. 2.0",
+            "d. 3.6"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Contour lines of different elevations can unite to form one line only in the case of",
+        "options": [
+            "a. vertical cliff",
+            "b. a saddle",
+            "c. a water shed line",
+            "d. a hill top"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "The radius of curvature of the arc of bubble tube is generally kept",
+        "options": [
+            "a. 10 m",
+            "b. 25m",
+            "c. 50m",
+            "d. 100m"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Ranging is the operation of",
+        "options": [
+            "a. Reconnaissance",
+            "b. judging the distance",
+            "c. Determination of slope",
+            "d. estimating intermediate point between terminals"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The smaller horizontal angle between the true meridian and a survey line is known as",
+        "options": [
+            "a. Declination",
+            "b. bearing",
+            "c. azimuth",
+            "d. dip"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The boundary of water of\u00a0 a still lake represents",
+        "options": [
+            "a. level surface",
+            "b. horizontal surface",
+            "c. contour line",
+            "d. concave surface"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The main principle of survey is to work",
+        "options": [
+            "a. from part to whole",
+            "b. whole to part",
+            "c. from higher level to lower level",
+            "d. All"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In setting up a plane table at any station",
+        "options": [
+            "a. levelling is done first",
+            "b. centering is done first",
+            "c. orientation is done first",
+            "d. both levelling and centering\u00a0 are done simultaneously"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Marble belongs to which of the following rocks?",
+        "options": [
+            "a. Calcareous rock",
+            "b. Argillaceous rock",
+            "c. Silicious rock",
+            "d. None"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Refractory bricks resist",
+        "options": [
+            "a. high temperature",
+            "b. Chemical action",
+            "c. Dampness",
+            "d. all"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "In a mortar the binding material is",
+        "options": [
+            "a. cement",
+            "b. sand",
+            "c. Surkhi",
+            "d. Cinder"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "The base material for distemper is",
+        "options": [
+            "a. chalk",
+            "b. Lime",
+            "c. lime putty",
+            "d. cement wash"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "The yield strength and tensile strength of low carbon steel may be improved by addition of",
+        "options": [
+            "a. manganese",
+            "b. chromium",
+            "c. Nickel",
+            "d. venadium"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Rapid hardening cement contains",
+        "options": [
+            "a. Tri- calcium silicate",
+            "b. Tri- calcium aluminate",
+            "c. tetra calcium alumino ferrite",
+            "d. Dicalcium Silicate"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "In order to obtain the best workability of concrete, the preferred shape of aggregate is",
+        "options": [
+            "a. Rounded",
+            "b. Elongated",
+            "c. Angular",
+            "d. all of the above"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "For a concrete mix 1:3:6 and water cement ratio 0.6 both by weight , the quantity of water required per bag is",
+        "options": [
+            "a. 14kg",
+            "b. 10 kg",
+            "c. 16 kg",
+            "d. 12 kg"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "For quality control of portland cement the test essentially done is",
+        "options": [
+            "a. Soundness",
+            "b. setting time",
+            "c. tensile strength",
+            "d. All"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Normally pre stressing wires are arranged in the",
+        "options": [
+            "a. Upper part of beam",
+            "b. lower part of beam",
+            "c. center",
+            "d. anywhere"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "For compacting plain concrete road surface of thickness less than 20 cm we use",
+        "options": [
+            "a. Screes vibrator",
+            "b. internal vibrator",
+            "c. form vibrator",
+            "d. None"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "soil formed by wind weosion is",
+        "options": [
+            "a. Residual",
+            "b. marl",
+            "c. talus",
+            "d. loess"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Degree of saturation of a natural soil deposit having water content 15%, void ratio 0.05 and specific gravity 2.5 is",
+        "options": [
+            "a. 80%",
+            "b. 70%",
+            "c. 65%",
+            "d. 75%"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The ratio of weight of water to weight of solids is called",
+        "options": [
+            "a. air content",
+            "b. porosity",
+            "c. water content",
+            "d. specific gravity"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The tendency of dense sand to expand on application of shearing load is called",
+        "options": [
+            "a. thixotropy",
+            "b. dilatancy",
+            "c. compressibility",
+            "d. sensitivity"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "parallel faults have same",
+        "options": [
+            "a. dip",
+            "b. orientation",
+            "c. strike",
+            "d. all of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "the explosive used for tunneling in soft rock is",
+        "options": [
+            "a. ammonia dynamite",
+            "b. blasting gelatine",
+            "c. semi gelatine",
+            "d. special gelatine"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "liquid and plastic limit exist in the soil type of",
+        "options": [
+            "a. Gravel",
+            "b. Clay",
+            "c. silt",
+            "d. sand"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Dummy activities are used to\u00a0 determine the",
+        "options": [
+            "a. critical path",
+            "b. project completion time",
+            "c. maintain the require network",
+            "d. none"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "CPM is",
+        "options": [
+            "a. activity oriented",
+            "b. event oriented",
+            "c. probabilistic approach",
+            "d. all of the above"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "The independent float affects",
+        "options": [
+            "a. preceding activity",
+            "b. succeeding activity",
+            "c. particular activity",
+            "d. all activity"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The direct cost of project with respect to normal time is",
+        "options": [
+            "a. Zero",
+            "b. maximum",
+            "c. minimum",
+            "d. infinite"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "In many project responsibility of safety\u00a0 is given to",
+        "options": [
+            "a. Individual",
+            "b. client",
+            "c. contractor",
+            "d. all of the above"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "if variation occurs",
+        "options": [
+            "a. price increases",
+            "b. price decreases",
+            "c. project time changes",
+            "d. all of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The gradual reduction in value of property with age\u00a0 is known as",
+        "options": [
+            "a. Devaluation",
+            "b. inflation",
+            "c. revaluation",
+            "d. Depreciation"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The layer of dry bricks put below the foundation concrete in the case of soft soil is called",
+        "options": [
+            "a. soling",
+            "b. DPC",
+            "c. shoring",
+            "d. any of above"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Unit rate is only for",
+        "options": [
+            "a. Contractor",
+            "b. reparing document",
+            "c. finding cost",
+            "d. none of the above"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The annual periodic payment made for repayment of the capital invested is",
+        "options": [
+            "a. sinking fund",
+            "b. sunk fund",
+            "c. depreciation",
+            "d. auuity"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The measurment is made in square meter in case of",
+        "options": [
+            "a. RCC",
+            "b. PCC",
+            "c. DPC",
+            "d. All of the above"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The main objective of writing letters/ alphabets on the drawing is to make the drawing",
+        "options": [
+            "a. more attractive",
+            "b. more fantastic",
+            "c. more informative",
+            "d. all of the above"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Set square are used for drawing",
+        "options": [
+            "a. vertical lines",
+            "b. parallel lines",
+            "c. inclined lines",
+            "d. all of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The plane on which perspective is formed is called",
+        "options": [
+            "a. horizontal plane",
+            "b. central plane",
+            "c. ground plane",
+            "d. picture plane"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The difference of discounted benefit and cost is called",
+        "options": [
+            "a. NPV",
+            "b. B/C ratio",
+            "c. IRR",
+            "d. ERR"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "The numerical value of MARR is",
+        "options": [
+            "a. greater than IRR",
+            "b. less than IRR",
+            "c. equal to IRR",
+            "d. all of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "cost which are independent of output and no alternation by the change in production level are called",
+        "options": [
+            "a. fixed cost",
+            "b. variable cost",
+            "c. total cost",
+            "d. marginal cost"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "professional code of conduct issued by NEC has following articals",
+        "options": [
+            "a. 10",
+            "b. 8",
+            "c. 13",
+            "d. 308"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Minimum numbers\u00a0 of female members in nepal engineering council should be..",
+        "options": [
+            "a. 18",
+            "b. 3",
+            "c. 4",
+            "d. 9"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "According to building act 2055, buildings are categorized into \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.types.",
+        "options": [
+            "a. 4",
+            "b. 15",
+            "c. 23",
+            "d. 2"
+        ],
+        "answer": 0
+    }
+    ],
+    // Add further subsections as needed:
+    "2080-4-27": [
+      {
+  question: "Gaurishankar Himal belongs to which mountain range?",
+  options: [
+    "Ganesh",
+    "Mahalangur",
+    "Gurash",
+    "Rolwaling",
+  ],
+  answer: 3
+},
+{
+  question: "According to national census 2078 total population of Nepal is..",
+  options: [
+    "29192480",
+    "29164578",
+    "26494504",
+    "29963567",
+  ],
+  answer: 1
+},
+{
+  question: "Phung Phung fall is located in which district?",
+  options: [
+    "Nuwakot",
+    "Dhading",
+    "Rasuwa",
+    "Kavrepalanchok",
+  ],
+  answer: 0
+},
+{
+  question: "Paldok festival is celebrated by which caste?",
+  options: [
+    "Dhimal",
+    "Newar",
+    "Jirel",
+    "Gurung",
+  ],
+  answer: 2
+},
+{
+  question: "How many articles were there in Sugauli Treaty?",
+  options: [
+    "10",
+    "9",
+    "13",
+    "308",
+  ],
+  answer: 1
+},
+{
+  question: "The concept of five-year plan in Nepal was introduced by",
+  options: [
+    "Matrika Pd Koirala",
+    "Tanka Pd Acharya",
+    "BP Koirala",
+    "Subarna Shamsher",
+  ],
+  answer: 1
+},
+{
+  question: "In which date Nepal Gazette (Rajpatra) was published first time?",
+  options: [
+    "2008 Shrawan 22",
+    "2004 magh 13",
+    "1958 baisakh 26",
+    "2019 push 1",
+  ],
+  answer: 0
+},
+{
+  question: "How many types of Biodiversity are exists in nature?",
+  options: [
+    "3",
+    "6",
+    "24",
+    "49",
+  ],
+  answer: 0
+},
+{
+  question: "The head quarter of International Union for Conservation of Nature (IUCN) is located at",
+  options: [
+    "Gland",
+    "Paris",
+    "Vienna",
+    "Dublin",
+  ],
+  answer: 0
+},
+{
+  question: "How many government(s) are there in Nepal?",
+  options: [
+    "1",
+    "3",
+    "753",
+    "761",
+  ],
+  answer: 3
+},
+{
+  question: "The study of kidneys and their diseases is called���.",
+  options: [
+    "Nosology",
+    "Nephrology",
+    "Oncology",
+    "Ornithology",
+  ],
+  answer: 1
+},
+{
+  question: "Who is the founder of Google?",
+  options: [
+    "Vic Hayes",
+    "Paul Burchett",
+    "Larry page",
+    "Robert Kahn",
+  ],
+  answer: 2
+},
+{
+  question: "Who was the first secretary general of UN to visit Nepal?",
+  options: [
+    "Trygve Lee",
+    "U Thant",
+    "Kofi Annan",
+    "Ban Ki Moon",
+  ],
+  answer: 1
+},
+{
+  question: "Term of office of secretary general of SAARC is ���.",
+  options: [
+    "2 years",
+    "3 years",
+    "4 years",
+    "5 years",
+  ],
+  answer: 1
+},
+{
+  question: "According to present constitution of Nepal how may powers/ jurisdiction are allocated for local level?",
+  options: [
+    "8",
+    "22",
+    "25",
+    "35",
+  ],
+  answer: 1
+},
+{
+  question: "Minimum��������� female members should be elected from each province to National Assembly.",
+  options: [
+    "8",
+    "59",
+    "3",
+    "4",
+  ],
+  answer: 2
+},
+{
+  question: "How many classes are there in gazette level of civil service in Nepal?",
+  options: [
+    "4",
+    "5",
+    "3",
+    "10",
+  ],
+  answer: 0
+},
+{
+  question: "The first country in the world to introduce the right to information was ���.",
+  options: [
+    "UK",
+    "USA",
+    "Sweden",
+    "Nepal",
+  ],
+  answer: 2
+},
+{
+  question: "Who is credited as founding public administration?",
+  options: [
+    "Henry Gant",
+    "Max Weber",
+    "Woodrow Wilson",
+    "Frederick Taylor",
+  ],
+  answer: 2
+},
+{
+  question: "Theory ���������..  is based on Negative assumption about worker.",
+  options: [
+    "X",
+    "Y",
+    "Z",
+    "All",
+  ],
+  answer: 0
+},
+{
+  question: "The amount allocated for capital expenditure in budget of fiscal year 2080/81 is",
+  options: [
+    "17 Kharba 51 Arba",
+    "3 kharba 2 arba",
+    "4 karba 52 arba",
+    "11 karba 50 arba",
+  ],
+  answer: 1
+},
+{
+  question: "Among the given below which bill can only be introduced as government bill?",
+  options: [
+    "Money bill",
+    "security concerned bill",
+    "Both",
+    "None",
+  ],
+  answer: 2
+},
+{
+  question: "Which of the following needs is missing in the Hierarchy of Needs theory?",
+  options: [
+    "Psychological Needs",
+    "Physiological Needs",
+    "Safety needs",
+    "Wealth Needs",
+  ],
+  answer: 3
+},
+{
+  question: "When Did Indian Space Research Organization (ISRO) lunch Chandrayaan 3?",
+  options: [
+    "14 July 2023",
+    "16 July 2023",
+    "18 July 2023",
+    "20 July 2023",
+  ],
+  answer: 0
+},
+{
+  question: "From when service of electric public vehicle is started in Kathmandu Valley?",
+  options: [
+    "2076 Bhadra 23",
+    "2077 Bhadra 23",
+    "2078 Bhadra 23",
+    "2075 Bhadra 23",
+  ],
+  answer: 0
+},
+{
+  question: "Choose the best alternative in the place to complete the series.                   2, 2, 5, 13, 28, ?",
+  options: [
+    "49",
+    "50",
+    "51",
+    "52",
+  ],
+  answer: 3
+},
+{
+  question: "Find out the odd one.",
+  options: [
+    "EBCDA",
+    "GFHIJ",
+    "KOLNM",
+    "QRSTU",
+  ],
+  answer: 0
+},
+{
+  question: "Writer is related to Reader in the same way as Producer is related to",
+  options: [
+    "Seller",
+    "Consumer",
+    "Creator",
+    "Contractor",
+  ],
+  answer: 1
+},
+{
+  question: "What is the product of all the numbers in the dial of a telephone",
+  options: [
+    "362880",
+    "99999",
+    "999",
+    "0",
+  ],
+  answer: 3
+},
+{
+  question: "P is 18 th  from the left end and S is 10 th  from right end. If there is 7 students between them. How many total students are there in the row ?",
+  options: [
+    "35",
+    "19",
+    "Both",
+    "None",
+  ],
+  answer: 2
+},
+{
+  question: "If MASTER  is written as 632145 how is TEARS  written ?",
+  options: [
+    "35214",
+    "52413",
+    "14352",
+    "25314",
+  ],
+  answer: 2
+},
+{
+  question: "A and B travel the same distance at speed of 9 km/hr and 10 km/hr respectively. If A takes 36 minutes more than B , the distance travelled by each is:",
+  options: [
+    "48 km",
+    "54 km",
+    "60 km",
+    "66 km",
+  ],
+  answer: 1
+},
+{
+  question: "Assertion(A): Red colour of blood is due to hemoglobin. Reason (R):     Hemoglobin is a red pigment",
+  options: [
+    "If both A and R are true and R is the correct explanation of A",
+    "If both A and R are true but R is not the correct explanation of A",
+    "If A is true but R is false",
+    "If A and R are false",
+  ],
+  answer: 0
+},
+{
+  question: "If the average weight of class of students is 15 and the average weight of another class of students is 30, then find the ratio of students of the first class to another class of 30 students when average weight of both classes is 25.",
+  options: [
+    "1:2",
+    "2:1",
+    "1:3",
+    "3:4",
+  ],
+  answer: 0
+},
+{
+  question: "If books bought at price ranging from Rs 200 to Rs 350 are sold at price ranging from Rs 300 to Rs 425, what is the greatest possible profit that might be made in selling eight books?",
+  options: [
+    "225",
+    "650",
+    "1800",
+    "data insufficient",
+  ],
+  answer: 2
+},
+{
+  question: "8 children and 12 men complete a certain piece of work in 9 days. Each child takes twice the time taken by a men to finish the work. In how many days will 12 men finish the same work?",
+  options: [
+    "9 days",
+    "13 days",
+    "12 days",
+    "15 days",
+  ],
+  answer: 2
+},
+{
+  question: "In what ratio should freely available water be mixed with the wine worth Rs 60 per liter so that after selling the mixture at Rs 50 per liter the profit will be 25% ?",
+  options: [
+    "1:2",
+    "2:3",
+    "3:4",
+    "4:5",
+  ],
+  answer: 0
+},
+{
+  question: "800 chocolates were distributed among the students of a class. Each students got twice as many chocolates as the number of students in the class. The number of students in the class was:",
+  options: [
+    "25",
+    "40",
+    "30",
+    "20",
+  ],
+  answer: 3
+},
+{
+  question: "Two positions of a dice are shown. When 4 is at the bottom, what number will be on the top?",
+  options: [
+    "1",
+    "6",
+    "5",
+    "2",
+  ],
+  answer: 0
+},
+{
+  question: "Select a figure from amongst the Answer Figures which will continue the same series as established by the five Problem Figures.",
+  options: [
+    "1",
+    "2",
+    "3",
+    "4",
+  ],
+  answer: 2
+},
+{
+  question: "Choose the correct mirror image of the given figure (X) from amongst the four alternatives.",
+  options: [
+    "1",
+    "2",
+    "3",
+    "4",
+  ],
+  answer: 2
+},
+{
+  question: "Select the alternative which represents three out of the five alternative figures which     when fitted into each other would form a complete square.",
+  options: [
+    "124",
+    "234",
+    "345",
+    "235",
+  ],
+  answer: 1
+},
+{
+  question: "Determine the number of rectangles and hexagons in the given figure.",
+  options: [
+    "30,5",
+    "32,3",
+    "28,5",
+    "30,3",
+  ],
+  answer: 0
+},
+{
+  question: "Choose the figure which is different from the rest.",
+  options: [
+    "1",
+    "2",
+    "3",
+    "4",
+  ],
+  answer: 2
+},
+{
+  question: "What is the number of triangles that can be formed whose vertices are the vertices of an octagon but have only one side common with that of octagon?",
+  options: [
+    "64",
+    "32",
+    "24",
+    "16",
+  ],
+  answer: 1
+},
+{
+  question: "Find out how will the key figure (X) look like after rotation.",
+  options: [
+    "1",
+    "2",
+    "3",
+    "4",
+  ],
+  answer: 2
+},
+{
+  question: "Arrange the words given below in a meaningful sequence. 1. caste       2. Family       3. Newly married couple     4. Clan      5. Species",
+  options: [
+    "2,3,1,4,5",
+    "3,4,5,1,2",
+    "3,2,1,4,5",
+    "4,5,3,2,1",
+  ],
+  answer: 2
+},
+{
+  question: "1Aab12ABabc123ABC������������..50 th  term ?",
+  options: [
+    "E",
+    "e",
+    "5",
+    "all",
+  ],
+  answer: 1
+},
+{
+  question: "The annual income of  A and B are in the ratio 4:3 and the ratio of their expenditure is 3:2  if each of them saves Rs 600 in the year then annual income of  A is",
+  options: [
+    "Rs. 4800",
+    "Rs 1800",
+    "Rs. 1200",
+    "Rs. 2400",
+  ],
+  answer: 3
+},
+{
+  question: "A man walked 100 meters toward west from his home. Then turned to south and walked 200 metes. Again he turns to left and walked 140 meters and finally he again turned to left and walked 230 meters. How far was he from his home and in which direction?",
+  options: [
+    "50m north-west",
+    "100m north-east",
+    "50m south-west",
+    "50m north-west",
+  ],
+  answer: 0
+},
+{
+  question: "Castigliano's theorem fall under the category of",
+  options: [
+    "Displacement method",
+    "equilibrium method",
+    "Force method",
+    "Stiffness method",
+  ],
+  answer: 2
+},
+{
+  question: "If a moment M is applied to the hinged end of a prismatic propped cantilever, then moment at the fixed end will be",
+  options: [
+    "M",
+    "M/2",
+    "M/3",
+    "M/4",
+  ],
+  answer: 1
+},
+{
+  question: "Flexibility coefficient for shaft of length L and torsional rigidity GJ under torsion at mid point will be",
+  options: [
+    "L2/6GJ",
+    "L/2GJ",
+    "L/3GJ",
+    "L/GJ",
+  ],
+  answer: 1
+},
+{
+  question: "The shape of influence line diagram for maximum bending moment in a simply supported beam is",
+  options: [
+    "Rectangular",
+    "triangular",
+    "parabolic",
+    "circular",
+  ],
+  answer: 1
+},
+{
+  question: "The net annual letting out value of a property, which is obtained after deducting the amount of yearly repairs from the gross income, is known as",
+  options: [
+    "Market value",
+    "book value",
+    "sinking value",
+    "rateable value",
+  ],
+  answer: 3
+},
+{
+  question: "Characteristic strength of concrete is",
+  options: [
+    "Higher than the average cube strength",
+    "Lower than the average cube strength",
+    "The same as the average cube strength",
+    "higher than 90% of the average cube strength",
+  ],
+  answer: 0
+},
+{
+  question: "Which one of the following sections of equal cross-sectional area can resist the torsional moment of RCC beam section more efficiently when working stress design is being adopted?",
+  options: [
+    "An unsymmetrical I-section",
+    "A box section",
+    "A solid section rectangular section",
+    "A symmetrical I-section",
+  ],
+  answer: 1
+},
+{
+  question: "If a magnetic bearing of sun at noon at a place in southern hemisphere is 150 ��, then magnetic declination at that place is",
+  options: [
+    "30 �� E",
+    "30 ��W",
+    "20 ��E",
+    "20 ��W",
+  ],
+  answer: 0
+},
+{
+  question: "Quadrant system confines the users to measures bearing form",
+  options: [
+    "North point clockwise",
+    "north point or south point whichever is nearer",
+    "North point anti-clockwise",
+    "none of these",
+  ],
+  answer: 1
+},
+{
+  question: "Inclination of the needle to the horizontal towards the pole is called",
+  options: [
+    "Dip",
+    "Declination",
+    "Azimuth",
+    "bearing",
+  ],
+  answer: 0
+},
+{
+  question: "Angular error of closure or summation error should not exceed",
+  options: [
+    "15���N",
+    "153���N",
+    "���N",
+    "3���N",
+  ],
+  answer: 0
+},
+{
+  question: "Spire test is used for adjustment of",
+  options: [
+    "Line of Sight",
+    "Horizontal axis",
+    "Vertical axis",
+    "adjustment of altitude bubble",
+  ],
+  answer: 1
+},
+{
+  question: "In an inter focusing type of telescope, lens provided is",
+  options: [
+    "Convex lens",
+    "Concave lens",
+    "Plano concave lens",
+    "Convex concave lens",
+  ],
+  answer: 1
+},
+{
+  question: "Natural error in leveling is caused due to",
+  options: [
+    "Wind vibration",
+    "atmospheric refraction",
+    "temperature variation",
+    "All of these",
+  ],
+  answer: 3
+},
+{
+  question: "In a slope deflection method, the unknown rotations at various joints are determined considering",
+  options: [
+    "The equilibrium of the joint",
+    "The rigidity of the joint",
+    "The equilibrium of the structure",
+    "none of these",
+  ],
+  answer: 0
+},
+{
+  question: "The arches meant for supporting uniformity distributed loads, to avoid any bending moment, must be",
+  options: [
+    "Circular",
+    "Elliptical",
+    "parabolic",
+    "none of these",
+  ],
+  answer: 2
+},
+{
+  question: "The maximum tension in a cable occurs",
+  options: [
+    "At the highest point in the cable",
+    "at the lowest point in the cable",
+    "at the centre of the cable",
+    "At all point in the cable",
+  ],
+  answer: 0
+},
+{
+  question: "In a cable subjected to a u.d.l over the entire span, the minimum tension is given by",
+  options: [
+    "wL3/16h",
+    "wL2/8h",
+    "wL2/4h",
+    "zero",
+  ],
+  answer: 1
+},
+{
+  question: "The bending moment in a cable carrying a system of loads will be",
+  options: [
+    "Maximum at the center",
+    "minimum at the center",
+    "zero at all point",
+    "none of these",
+  ],
+  answer: 2
+},
+{
+  question: "The increase in strength of concrete after six month is generally",
+  options: [
+    "5%",
+    "10%",
+    "15%",
+    "20%",
+  ],
+  answer: 1
+},
+{
+  question: "Which of the following is the most correct estimate?",
+  options: [
+    "Plinth area estimate",
+    "cube rate estimate",
+    "detailed estimate",
+    "building cost index estimate",
+  ],
+  answer: 2
+},
+{
+  question: "The amount of annuity paid for a definite numbers years is known as",
+  options: [
+    "Deferred annuity",
+    "annuity certain",
+    "annuity due",
+    "perpetual annuity",
+  ],
+  answer: 1
+},
+{
+  question: "The unit measurement of steel work involving flats, angles, channels etc is",
+  options: [
+    "Meter",
+    "cubic meter",
+    "quintal",
+    "kilogram",
+  ],
+  answer: 2
+},
+{
+  question: "Filling work in trenches shall be carried out in layers of thickness not more than",
+  options: [
+    "500 mm",
+    "200 mm",
+    "300 mm",
+    "400 mm",
+  ],
+  answer: 1
+},
+{
+  question: "Which of the following comes under general overhead?",
+  options: [
+    "Amenities of workers",
+    "travelling expenses",
+    "interest on investment",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Pegmatite is an example of",
+  options: [
+    "Sedimentary rock",
+    "extrusive igneous rock",
+    "intrusive igneous rock",
+    "igneous rock",
+  ],
+  answer: 2
+},
+{
+  question: "The process of adding water to lime to convert into a hydrated lime is termed as",
+  options: [
+    "Watering",
+    "baking",
+    "hydration",
+    "slaking",
+  ],
+  answer: 3
+},
+{
+  question: "The quality of cement is good if it has more of",
+  options: [
+    "Di-Calcium silicate",
+    "tri-calcium aluminates",
+    "tri-calcium silicate",
+    "free lime",
+  ],
+  answer: 1
+},
+{
+  question: "The consistency test is performed to find",
+  options: [
+    "The correct water-cement ratio",
+    "the fineness of the cement",
+    "the compressive strength",
+    "tensile strength",
+  ],
+  answer: 0
+},
+{
+  question: "The initial and final setting times of quick setting cement are",
+  options: [
+    "15 minutes and 45 minutes",
+    "20minutes and 1 hour",
+    "10 minutes and 30 minutes",
+    "5 minutes and 30 minutes",
+  ],
+  answer: 3
+},
+{
+  question: "Curing of concrete can be done by",
+  options: [
+    "Spraying",
+    "pounding",
+    "covering with moist cloth",
+    "any of the above",
+  ],
+  answer: 3
+},
+{
+  question: "Good quality sand is never obtained from the following source",
+  options: [
+    "Riverbed",
+    "Nala",
+    "sea",
+    "gravel powder",
+  ],
+  answer: 2
+},
+{
+  question: "The process involved in the manufacture of wrought iron from pig iron is",
+  options: [
+    "Refining",
+    "Pudding",
+    "rolling",
+    "all of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The tendency of the minerals to split along a certain plane is called",
+  options: [
+    "Lusture",
+    "softness",
+    "fractive",
+    "cleavage",
+  ],
+  answer: 3
+},
+{
+  question: "To which category do the chromites bricks belong?",
+  options: [
+    "Ordinary fire brick",
+    "acid refractory brick",
+    "basic refractory bricks",
+    "neutral refractory bricks",
+  ],
+  answer: 3
+},
+{
+  question: "A revised estimate is prepared if the sanctioned estimate exceeds",
+  options: [
+    "2 %",
+    "5 %",
+    "8%",
+    "10%",
+  ],
+  answer: 1
+},
+{
+  question: "The valuation of a building depends upon",
+  options: [
+    "Its structure and durability",
+    "size shape and type",
+    "quality of material used",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "Freehand sketching can be done only one has",
+  options: [
+    "Proper proficiency",
+    "good practice",
+    "good in tuition",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "In isometric view a circle is seen as",
+  options: [
+    "A parabola",
+    "a hyperbola",
+    "a cone",
+    "an ellipse",
+  ],
+  answer: 3
+},
+{
+  question: "As the number of modularly rays increase, generally the strength of the timber",
+  options: [
+    "Decrease",
+    "Increase",
+    "may increase or may decrease",
+    "difficult to guess",
+  ],
+  answer: 1
+},
+{
+  question: "The water absorption of good brick after 25 h immersion should be less than",
+  options: [
+    "25%",
+    "20%",
+    "15%",
+    "10%",
+  ],
+  answer: 1
+},
+{
+  question: "The isometric length of the edge of a cube is obtained by:",
+  options: [
+    "Adding 0.815 to the actual length",
+    "dividing actual length by 0.815",
+    "multiplying actual lengths by 0.815",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "Working drawing of a structure at site prepared for the",
+  options: [
+    "Layout for the construction of the structure",
+    "estimating for the structure",
+    "preparation of as built drawing",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "The unit of payment for blasting of rock including stacking is in",
+  options: [
+    "Sq m",
+    "cu m",
+    "% sq m",
+    "% cu m",
+  ],
+  answer: 1
+},
+{
+  question: "Which one is overhead expenditure of the following items?",
+  options: [
+    "Rent and Taxes",
+    "establishment charges",
+    "office stationary items",
+    "workmen's compensation",
+  ],
+  answer: 3
+},
+{
+  question: "Ratio analysis of construction firm is used for analysis by",
+  options: [
+    "Share holders",
+    "firm's management",
+    "banks of the firm",
+    "Financial analysis",
+  ],
+  answer: 3
+},
+{
+  question: "Working/drawing space on the paper is determined by",
+  options: [
+    "Working line",
+    "drawing line",
+    "border line",
+    "deader line",
+  ],
+  answer: 2
+},
+{
+  question: "Annual series of amount for a period equivaler to the cash inflows and or cash-outflows, computed with deduction of expenses and capital recovery from receipts is",
+  options: [
+    "Annual worth",
+    "annual loss",
+    "annual profit",
+    "present worth",
+  ],
+  answer: 0
+},
+{
+  question: "Nepal Engineering council was formed under the Engineering shall hold",
+  options: [
+    "B.S. 2056",
+    "B.S. 2055",
+    "B.S. 2054",
+    "B.S. 2053",
+  ],
+  answer: 1
+},
+{
+  question: "Five members are elected from Nepal Engineer Association members to represent in Nepal Engineering Council every",
+  options: [
+    "2 years",
+    "3 Years",
+    "4 years",
+    "5 years",
+  ],
+  answer: 2
+},
+    ],
+    "2080-5-02": [
+      {
+  question: "Which region of Nepal is called the ��� Outer Himalaya��� ?",
+  options: [
+    "Chure",
+    "Mahabharat",
+    "Inner Terai",
+    "Midland",
+  ],
+  answer: 0
+},
+{
+  question: "The founder of Kirat religion is",
+  options: [
+    "Iman singh Chemjung",
+    "laina singh bangdel",
+    "Falghunanda Linden",
+    "Mundhum",
+  ],
+  answer: 2
+},
+{
+  question: "Which one is famous place for slate ?",
+  options: [
+    "Godawori",
+    "Bandipur",
+    "Chautara",
+    "Ganesh Himal",
+  ],
+  answer: 1
+},
+{
+  question: "Which of the following pairs of province and district is not correctly matched?",
+  options: [
+    "Gandaki Province ��� Nawalparasi purba",
+    "Lumbini province ��� Bardiya",
+    "Karnali province ��� Rukum east",
+    "Koshi province  -  Udayapur",
+  ],
+  answer: 2
+},
+{
+  question: "From the Nepalese side, who had signed the peace and friendship treaty of 1950?",
+  options: [
+    "Gajaraj Mishra",
+    "Chandra Shekhar Upadhdhaya",
+    "Yadu Nath Khanal",
+    "Mohan Shamsher",
+  ],
+  answer: 3
+},
+{
+  question: "How many endangered castes are there in Nepal?",
+  options: [
+    "2",
+    "10",
+    "12",
+    "15",
+  ],
+  answer: 1
+},
+{
+  question: "Who bought 20 years paper plan in the history of Nepal?",
+  options: [
+    "Judda Shamsher",
+    "Tanka Pd Acharya",
+    "Matrika Pd Koirala",
+    "Mohan Shamsher",
+  ],
+  answer: 0
+},
+{
+  question: "The concept of  ���Carbon credit���   originated from which one of the following   ?",
+  options: [
+    "Rio summit",
+    "Kyoto Protocol",
+    "Montreal protocol",
+    "Basel Convention",
+  ],
+  answer: 1
+},
+{
+  question: "The long term vision of the 15 th  plan is to increase Nepal���s per capita national income to at  least������������",
+  options: [
+    "USD 12000",
+    "USD 12100",
+    "USD 1595",
+    "USD 12500",
+  ],
+  answer: 1
+},
+{
+  question: "The government of Nepal has decided to ban to use polythene bags of below",
+  options: [
+    "30 microns",
+    "20 microns",
+    "50 microns",
+    "40 microns",
+  ],
+  answer: 3
+},
+{
+  question: "Who is called father of electricity?",
+  options: [
+    "Michael Faraday",
+    "Otto Hahn",
+    "Thomas Alva Edison",
+    "Galileo Ferraris",
+  ],
+  answer: 0
+},
+{
+  question: "The number(s) of UNO secretaries who won The Nobel peace prize is/are",
+  options: [
+    "2",
+    "3",
+    "4",
+    "1",
+  ],
+  answer: 0
+},
+{
+  question: "When was SAARC established?",
+  options: [
+    "1987 January 16",
+    "1985 December 8",
+    "1987 December 8",
+    "1985 January 16",
+  ],
+  answer: 1
+},
+{
+  question: "���Both the spouses shall have equal rights in property and family affairs��� this right belongs to which fundamental right of constitution of Nepal?",
+  options: [
+    "Right of women",
+    "Right to property",
+    "Right to equality",
+    "Right to social justice",
+  ],
+  answer: 0
+},
+{
+  question: "How many members are in there in the house of representative in federal parliament?",
+  options: [
+    "165",
+    "59",
+    "275",
+    "334",
+  ],
+  answer: 2
+},
+{
+  question: "While fulfilling the vacancy of gazette third class officer how much percentage is allocated for open competition?",
+  options: [
+    "30%",
+    "45%",
+    "55%",
+    "70%",
+  ],
+  answer: 3
+},
+{
+  question: "The founder of Scientific Management school of thought was",
+  options: [
+    "F.W. Taylor",
+    "Herbert Simpson",
+    "L.D. white",
+    "Mary Parker",
+  ],
+  answer: 0
+},
+{
+  question: "Which country introduced the concept of Citizen Charter for the very first time?",
+  options: [
+    "France",
+    "Nepal",
+    "UK",
+    "USA",
+  ],
+  answer: 2
+},
+{
+  question: "During which part of public policy cycle does the government explore potential policy response?",
+  options: [
+    "Agenda setting",
+    "Policy Formulation",
+    "Decision making",
+    "policy implementation",
+  ],
+  answer: 1
+},
+{
+  question: "In POSDCoRB theory R stands for?",
+  options: [
+    "Recruiting",
+    "Resource management",
+    "Rearrangement",
+    "Reporting",
+  ],
+  answer: 3
+},
+{
+  question: "Federal Government Budget of  fiscal year 2080/81 is announced in parliament by ?",
+  options: [
+    "Bishnu Paudel",
+    "Janardan Sharma",
+    "Ram Sharan Mahat",
+    "Prakash Sharan Mahat",
+  ],
+  answer: 3
+},
+{
+  question: "An organization is deemed efficient and intelligent when it uses its resources",
+  options: [
+    "Effective",
+    "Modern",
+    "Conservation",
+    "Efficient",
+  ],
+  answer: 3
+},
+{
+  question: "According to census 2078 overall literacy rate of Nepal is",
+  options: [
+    "69.4%",
+    "83.6%",
+    "76.2%",
+    "65.25%",
+  ],
+  answer: 2
+},
+{
+  question: "After cabinet decision of 2079/12/28, government of Nepal has granted permission to ascent mountains peaks reached to ���������",
+  options: [
+    "415",
+    "419",
+    "425",
+    "1311",
+  ],
+  answer: 1
+},
+{
+  question: "When was the first economic census held in Nepal?",
+  options: [
+    "2027 BS",
+    "2072 BS",
+    "2075 BS",
+    "2057 BS",
+  ],
+  answer: 2
+},
+{
+  question: "Complete the following series                  4,24,6,48,8,80,���.",
+  options: [
+    "8",
+    "10",
+    "12",
+    "15",
+  ],
+  answer: 1
+},
+{
+  question: "Find out the alternative which will replace the question marks               AEDM: ZQRN : : FLMO: ?",
+  options: [
+    "BZYS",
+    "CZYS",
+    "SZYB",
+    "YZBC",
+  ],
+  answer: 0
+},
+{
+  question: "Choose the Number similar to group of numbers given               536,428,365",
+  options: [
+    "358",
+    "435",
+    "624",
+    "266",
+  ],
+  answer: 3
+},
+{
+  question: "If GARMENT is written as 203691422137, how is INDULGE written in the same code?",
+  options: [
+    "9144211275",
+    "914211275",
+    "1813326152022",
+    "1813236152022",
+  ],
+  answer: 3
+},
+{
+  question: "A man walked 100m towards west from his home. Then turned to south and walked 200m. Again, he turned to left and walked 140m. and finally he again turned to left and walked 230m. How far was he from his home and in which direction?",
+  options: [
+    "50m North-East",
+    "100m North- east",
+    "50m South- West",
+    "50m North-west",
+  ],
+  answer: 0
+},
+{
+  question: "In a queue, Amrita is 10 th  from the front while Mukul is 25 th  from behind and Mamta is just in middle of the two. If 50 persons in the queue, what position does occupy by Mamta from the front?",
+  options: [
+    "20th",
+    "19th",
+    "18th",
+    "17th",
+  ],
+  answer: 2
+},
+{
+  question: "Before finding of Mt Everest which was the highest peak of the world?",
+  options: [
+    "Mt K2",
+    "Nanga Parbat",
+    "Mt Melapic",
+    "Mt Everest",
+  ],
+  answer: 3
+},
+{
+  question: "Statements: All cars are cat. All fans are cats. Conclusion :          (I) All cars are fan                              (II) Some fans are car",
+  options: [
+    "If only conclusion (I) follows",
+    "if only conclusion (II) follows",
+    "if either conclusion I or II follows",
+    "if neither conclusion I nor II follows",
+  ],
+  answer: 3
+},
+{
+  question: "The average weight of A,B and C is 45kg . if the average weight of A and B be 40kg and that of B and C be 43kg , then the weight (in kg) of B is",
+  options: [
+    "20",
+    "26",
+    "31",
+    "17",
+  ],
+  answer: 2
+},
+{
+  question: "A can do a piece of work in 24 days and B can do the same work in 30. After they work together for 5 days, B leaves. If A completes the remaining work, in how many days A can complete remaining work?",
+  options: [
+    "20",
+    "15",
+    "16",
+    "51",
+  ],
+  answer: 1
+},
+{
+  question: "In a school the ratio of boys to girl is 4:3 and the ratio of girls to teacher is 8:1. The ratio of students to teacher is:",
+  options: [
+    "56:3",
+    "55:1",
+    "49:3",
+    "56:1",
+  ],
+  answer: 0
+},
+{
+  question: "18% of which number is equal to 12% of 75?",
+  options: [
+    "50",
+    "100",
+    "2",
+    "1.5",
+  ],
+  answer: 0
+},
+{
+  question: "Two different types of oil costing Rs 80 per liter and Rs 90 per liter are mixed in the ratio of 9:8 what will be the cost per liter of mixed oil?",
+  options: [
+    "80.90",
+    "85",
+    "86",
+    "none of the above",
+  ],
+  answer: 3
+},
+{
+  question: "Binod sold an article for Rs 136 and thus lost 15%. At what price he should have to sold it to gain 15%?",
+  options: [
+    "180",
+    "150",
+    "200",
+    "184",
+  ],
+  answer: 3
+},
+{
+  question: "The following pie-chart shows the percentage distribution of the expenditure incurred in publishing a book. Study the pie-chart and the answer the  two questions based on it. Various Expenditures (in percentage) Incurred in Publishing a Book If for a certain quantity of books, the publisher has to pay Rs. 30,600 as printing cost, then what will be amount of royalty to be paid for these books?",
+  options: [
+    "Rs 19450",
+    "Rs 21200",
+    "Rs 22950",
+    "Rs 26150",
+  ],
+  answer: 2
+},
+{
+  question: "The price of the book is marked 20% above the C.P. If the marked price of the book is Rs. 180, then what is the cost of the paper used in a single copy of the book?",
+  options: [
+    "36",
+    "37.5",
+    "42",
+    "44.25",
+  ],
+  answer: 1
+},
+{
+  question: "Select a suitable figure from the four alternatives that would complete the figure matrix.",
+  options: [
+    "1",
+    "2",
+    "3",
+    "4",
+  ],
+  answer: 2
+},
+{
+  question: "Select a figure from amongst the Answer Figures which will continue the same series as established by the five Problem Figures.",
+  options: [
+    "1",
+    "2",
+    "3",
+    "4",
+  ],
+  answer: 3
+},
+{
+  question: "Select a suitable figure from the Answer Figures that would replace the question mark (?).",
+  options: [
+    "1",
+    "2",
+    "3",
+    "5",
+  ],
+  answer: 1
+},
+{
+  question: "Choose the correct water image of the given figure (X) from amongst the four alternatives.",
+  options: [
+    "1",
+    "2",
+    "3",
+    "4",
+  ],
+  answer: 2
+},
+{
+  question: "How many dots lie opposite to the face having three dots, when the given figure is folded to form a cube?",
+  options: [
+    "6",
+    "2",
+    "5",
+    "2",
+  ],
+  answer: 0
+},
+{
+  question: "Find out the alternative figure which contains figure (X) as its part.",
+  options: [
+    "1",
+    "2",
+    "3",
+    "4",
+  ],
+  answer: 0
+},
+{
+  question: "Choose the figure which is different from the rest.",
+  options: [
+    "5",
+    "4",
+    "3",
+    "2",
+  ],
+  answer: 1
+},
+{
+  question: "Find the number of quadrilaterals in the given figure.",
+  options: [
+    "7",
+    "9",
+    "11",
+    "12",
+  ],
+  answer: 2
+},
+{
+  question: "Select the alternative which represents three out of the five alternative figures which when fitted into each other would form a equilateral triangle.",
+  options: [
+    "234",
+    "123",
+    "345",
+    "235",
+  ],
+  answer: 1
+},
+{
+  question: "Section modulus of a triangular section of width b and height h about its neutral axis XX is",
+  options: [
+    "bh3 /36",
+    "bh3/24",
+    "bh2/24",
+    "bh2/15",
+  ],
+  answer: 2
+},
+{
+  question: "The angle between the direction of maximum shear plane and maximum principal plane are",
+  options: [
+    "30o",
+    "45o",
+    "90o",
+    "60o",
+  ],
+  answer: 1
+},
+{
+  question: "Which of the following method is more accurate for the analysis of rigid frame?",
+  options: [
+    "substitute frame method",
+    "portal method",
+    "factor method",
+    "slope deflection method",
+  ],
+  answer: 3
+},
+{
+  question: "The virtual work means  I. Work done by real force due to hypothetical displacement  II. Work done by hypothetical forces during real displacement",
+  options: [
+    "Both I and II correct",
+    "I is correct but II is wrong",
+    "I is wrong but II is correct",
+    "both I and II are wrong",
+  ],
+  answer: 0
+},
+{
+  question: "The moment which makes all the fibers at the section to yield is known as",
+  options: [
+    "plastic moment capacity",
+    "Yield moment",
+    "flexural moment",
+    "moment of resistance",
+  ],
+  answer: 0
+},
+{
+  question: "The line normal to the plumb line is known as",
+  options: [
+    "horizontal line",
+    "level line",
+    "datum line",
+    "vertical line",
+  ],
+  answer: 1
+},
+{
+  question: "Reciprocal ranging is adopted when the following is encountered",
+  options: [
+    "a dense forest",
+    "a river",
+    "a hillock",
+    "a tall building",
+  ],
+  answer: 2
+},
+{
+  question: "The additional lines which are measured to show the correctness of the chain survey is called",
+  options: [
+    "check line",
+    "proof line",
+    "tie line",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "The first reading made with the staff on a point of known reduced level is called?",
+  options: [
+    "back sight",
+    "fore sight",
+    "intermediate sight",
+    "benchmark",
+  ],
+  answer: 0
+},
+{
+  question: "Close contour of decreasing value towards their center represents",
+  options: [
+    "River bed",
+    "Depression",
+    "hill",
+    "saddle or pass",
+  ],
+  answer: 1
+},
+{
+  question: "The stadia lines of tacheometer are",
+  options: [
+    "Top line and middle line",
+    "Middle line and bottom line",
+    "top line and bottom line",
+    "none of the above",
+  ],
+  answer: 2
+},
+{
+  question: "The point of curvature of simple circular curve is",
+  options: [
+    "point of commencement",
+    "point of tangency",
+    "point of intersection",
+    "midpoint of curve",
+  ],
+  answer: 0
+},
+{
+  question: "Which of the following construction materials is not a constituent of cement concrete?",
+  options: [
+    "lime",
+    "mortar",
+    "cement",
+    "stone",
+  ],
+  answer: 3
+},
+{
+  question: "Varnish is a solution of resins or resinous substances dissolved in",
+  options: [
+    "Alcohol",
+    "Oil",
+    "turpentine",
+    "either of these",
+  ],
+  answer: 3
+},
+{
+  question: "The minimum compressive strength of first-class brick should be",
+  options: [
+    "75 kg/cm2",
+    "90 kg/cm2",
+    "100kg/cm2",
+    "120kg/cm2",
+  ],
+  answer: 2
+},
+{
+  question: "If P is the standard consistency of cement, the amount of water used in conduction the initial setting time test on cement is",
+  options: [
+    "0.85P",
+    "0.6P",
+    "0.65P",
+    "0.81P",
+  ],
+  answer: 0
+},
+{
+  question: "The age of tree can be known by examining",
+  options: [
+    "Heart wood",
+    "medullary rays",
+    "cambium layer",
+    "annual rings",
+  ],
+  answer: 3
+},
+{
+  question: "The amount of water used for one kg of distemper is",
+  options: [
+    "0.2 ltr",
+    "0.4 ltr",
+    "0.6ltr",
+    "0.8 ltr",
+  ],
+  answer: 2
+},
+{
+  question: "The minimum percentage of chemical ingredient of cement is that of",
+  options: [
+    "magnesium oxide",
+    "iron oxide",
+    "alumina",
+    "Lime",
+  ],
+  answer: 0
+},
+{
+  question: "Sand required a high water cement ratio belongs to",
+  options: [
+    "zone 1",
+    "zone 2",
+    "zone 3",
+    "zone 4",
+  ],
+  answer: 0
+},
+{
+  question: "Buckling of sand is maximum if moisture content is about",
+  options: [
+    "2%",
+    "4%",
+    "6%",
+    "10%",
+  ],
+  answer: 1
+},
+{
+  question: "To prevent segregation, the maximum height for placing concrete is",
+  options: [
+    "125cm",
+    "150cm",
+    "100cm",
+    "75cm",
+  ],
+  answer: 2
+},
+{
+  question: "Gypsum in cement is added for",
+  options: [
+    "controlling setting time",
+    "colour",
+    "strength",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "soils are derived from",
+  options: [
+    "igneous rock",
+    "sedimentary rocks",
+    "metamorphic rocks",
+    "any of the above",
+  ],
+  answer: 3
+},
+{
+  question: "If the soil is dried beyond its shrinkage limit, it will show",
+  options: [
+    "Large volume change",
+    "moderate volume change",
+    "low volume change",
+    "no volume changes",
+  ],
+  answer: 3
+},
+{
+  question: "Shear strength in plastic undrained clay is due to",
+  options: [
+    "Cohesion",
+    "intergranular friction",
+    "internal friction",
+    "all of the above",
+  ],
+  answer: 0
+},
+{
+  question: "soil particle size range is measured by",
+  options: [
+    "effective size",
+    "uniformity coefficient",
+    "coefficient of curvature",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Which of the following rocks is impervious?",
+  options: [
+    "sandstone",
+    "clay",
+    "limestone",
+    "basalt",
+  ],
+  answer: 3
+},
+{
+  question: "In case of drift method of tunneling, drift may be excavated at",
+  options: [
+    "Top",
+    "bottom",
+    "side",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "Latest start of activity is always",
+  options: [
+    "more than or equal to latest events time of preceding node",
+    "less than or equal to latest event time of preceding node",
+    "equal to latest event time of preceding node",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "Which of the following is not bid document?",
+  options: [
+    "letter of acceptance",
+    "condition of contract",
+    "specification",
+    "performance bond form",
+  ],
+  answer: 0
+},
+{
+  question: "Quality control is done by using the method of",
+  options: [
+    "project management audit",
+    "supervision of work",
+    "post construction audit",
+    "None",
+  ],
+  answer: 1
+},
+{
+  question: "Due to alternation of any component of the project the duration of project",
+  options: [
+    "increases",
+    "decreases",
+    "constant",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "A turn key contract is offered for",
+  options: [
+    "Planning",
+    "designing",
+    "construction",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "According to public procurement regulation 2064, who approves the prequalification criteria?",
+  options: [
+    "project chief",
+    "department chief",
+    "concern secretary",
+    "concern engineer",
+  ],
+  answer: 1
+},
+{
+  question: "Generally, the unit of measurement for supply of electric wire is",
+  options: [
+    "Running meter",
+    "kilogram",
+    "sqm",
+    "cubic meter",
+  ],
+  answer: 0
+},
+{
+  question: "contractor profit is added to",
+  options: [
+    "detail estimate",
+    "rate analysis",
+    "valuation",
+    "salvage",
+  ],
+  answer: 1
+},
+{
+  question: "The number of skilled man power required for fabrication of 1MT steel is",
+  options: [
+    "4",
+    "8",
+    "12",
+    "16",
+  ],
+  answer: 2
+},
+{
+  question: "Which of the following factors is a reason for the need to provide for contingency in the cost estimate of a project?",
+  options: [
+    "unreliability",
+    "uncertainty",
+    "under estimation",
+    "unstable market",
+  ],
+  answer: 1
+},
+{
+  question: "The amount provisioned for tools and plants on earthwork excavation item in norms for rate analysis is",
+  options: [
+    "3% of material",
+    "3% of labour",
+    "5% of material",
+    "5% of labour",
+  ],
+  answer: 1
+},
+{
+  question: "Building drawing are generally prepared in ���������.. size paper.",
+  options: [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+  ],
+  answer: 0
+},
+{
+  question: "Circle of small radii are drawn by means of a",
+  options: [
+    "straight bar",
+    "bow compass",
+    "lengthening bar",
+    "Drop compass",
+  ],
+  answer: 1
+},
+{
+  question: "parallel rulling straight edge machine is used to draw",
+  options: [
+    "inclined line",
+    "curved line",
+    "irregular line",
+    "horizontal line",
+  ],
+  answer: 3
+},
+{
+  question: "The technique for free hand sketch to drawing circle is",
+  options: [
+    "fixing fixed point and arc",
+    "fixing radius only",
+    "fixing perimeter",
+    "none",
+  ],
+  answer: 0
+},
+{
+  question: "The interest calculated on the basis of 365 days a year is known as",
+  options: [
+    "interest",
+    "ordinary simple interest",
+    "exact simple interest",
+    "none",
+  ],
+  answer: 2
+},
+{
+  question: "Current assets less inventories divided by current liabilities is known as",
+  options: [
+    "Acid test ratio",
+    "Debts ratio",
+    "liquidity ratio",
+    "current ratio",
+  ],
+  answer: 0
+},
+{
+  question: "Excessive spending power of consumers that pulls prices up is called",
+  options: [
+    "cost pull inflation",
+    "cost push inflation",
+    "demand pull inflation",
+    "demand push inflation",
+  ],
+  answer: 2
+},
+{
+  question: "Nepal Engineering Council categorized the engineer into ������.. types",
+  options: [
+    "3",
+    "4",
+    "9",
+    "12",
+  ],
+  answer: 0
+},
+{
+  question: "NEC regulation 2057 is effective from",
+  options: [
+    "2057/11/27",
+    "2057/03/08",
+    "2057/08/03",
+    "2057/12/27",
+  ],
+  answer: 1
+},
+{
+  question: "Nepal Engineering Association was established in",
+  options: [
+    "2024 BS",
+    "2019 BS",
+    "2056 BS",
+    "2044 BS",
+  ],
+  answer: 1
+},
+    ],
+    "2080-5-9": [
+      {
+  question: "When did Nepal unveiled its new political map including Limpiyadhura and Lipulake?",
+  options: [
+    "2020 May 18",
+    "2020 May 20",
+    "2021 May 18",
+    "2021 May 2",
+  ],
+  answer: 1
+},
+{
+  question: "Nepali, Bhojpuri, Maithili fall in which family of language?",
+  options: [
+    "Bharopeli",
+    "Bhot Barmeli",
+    "Dravid",
+    "Agneya",
+  ],
+  answer: 0
+},
+{
+  question: "Postal Highway (Hulaki Rajmarga) passes through ��������� district of Nepal.",
+  options: [
+    "19",
+    "33",
+    "21",
+    "25",
+  ],
+  answer: 2
+},
+{
+  question: "The first referendum in Nepal was held in",
+  options: [
+    "2037 Baishakh 20",
+    "2036 Jesth 10",
+    "2036 Baishakh 20",
+    "2037 Jesth 10",
+  ],
+  answer: 0
+},
+{
+  question: "The current 15 th  periodic plan targets average life expectancy to reach?",
+  options: [
+    "70 years",
+    "72 years",
+    "74 years",
+    "69.7 years",
+  ],
+  answer: 1
+},
+{
+  question: "In which battle did Bhakti Thapa lost his life?",
+  options: [
+    "Almoda",
+    "Kalapani",
+    "Kumau",
+    "Deuthal",
+  ],
+  answer: 3
+},
+{
+  question: "How many sustainable development goals are there in UN agenda 2030?",
+  options: [
+    "16",
+    "17",
+    "169",
+    "232",
+  ],
+  answer: 1
+},
+{
+  question: "What of the following does not fall under biodiversity?",
+  options: [
+    "Genetic biodiversity",
+    "Species biodiversity",
+    "Ecosystem biodiversity",
+    "Climatic biodiversity",
+  ],
+  answer: 3
+},
+{
+  question: "Who is called father of Microbiology?",
+  options: [
+    "Karl Landesteiner",
+    "William Harvey",
+    "Louis Pasteur",
+    "Hippocrates",
+  ],
+  answer: 2
+},
+{
+  question: "The refrigerant commonly used for domestic refrigerators is",
+  options: [
+    "alcohol",
+    "ammonia",
+    "Neon",
+    "all of the above",
+  ],
+  answer: 1
+},
+{
+  question: "The non-permanent members of UN secretary council are elected for period of",
+  options: [
+    "2 years",
+    "3 years",
+    "1 years",
+    "5 years",
+  ],
+  answer: 0
+},
+{
+  question: "Nepal attained full membership of BIMESTIC in",
+  options: [
+    "2004 Feb 6",
+    "1997 Dec 22",
+    "2004 Feb 8",
+    "1975 Dec 8",
+  ],
+  answer: 2
+},
+{
+  question: "���Each citizen shall have the right to access to clean water and hygiene��� this right belongs to which fundamental right of present constitution of Nepal?",
+  options: [
+    "Right regarding clean environment",
+    "Right to health care",
+    "Right to food",
+    "Right of consumer",
+  ],
+  answer: 1
+},
+{
+  question: "Reservation in civil service started from when in Nepal?",
+  options: [
+    "2064/04/30",
+    "2064/04/23",
+    "2063/04/30",
+    "2063/04/30",
+  ],
+  answer: 1
+},
+{
+  question: "First budget of Nepal falls under which category?",
+  options: [
+    "Surplus budget",
+    "balance budget",
+    "deficit budget",
+    "all of the above",
+  ],
+  answer: 2
+},
+{
+  question: "Which is the first SAARC country to introduce right to information as a fundamental right in constitution?",
+  options: [
+    "India",
+    "Bhutan",
+    "Bangladesh",
+    "Nepal",
+  ],
+  answer: 3
+},
+{
+  question: "Citizen Charter with compensation was implemented in Nepal from when?",
+  options: [
+    "2056 BS",
+    "2061 BS",
+    "2070 BS",
+    "2073BS",
+  ],
+  answer: 2
+},
+{
+  question: "How many peaks above 8000 meters are located in Solukhumbu district?",
+  options: [
+    "1",
+    "2",
+    "3",
+    "4",
+  ],
+  answer: 2
+},
+{
+  question: "The newspaper which is publish is largest number of languages  in the world is ?",
+  options: [
+    "Gorkhapatra",
+    "Hindustan Times",
+    "Newyork times",
+    "Times of India",
+  ],
+  answer: 0
+},
+{
+  question: "FIFA women worldcup football 2023 final match was organized  by which country?",
+  options: [
+    "Spain",
+    "England",
+    "Australia",
+    "New Zealand",
+  ],
+  answer: 2
+},
+{
+  question: "When Chandrayaan-3 of ISRO landed on the moon?",
+  options: [
+    "22 August 2023",
+    "23 August 2023",
+    "24 August 2023",
+    "25 August 2023",
+  ],
+  answer: 1
+},
+{
+  question: "Autocratic leadership is also known as",
+  options: [
+    "Authoritarian",
+    "Democratic",
+    "Free rein",
+    "participative",
+  ],
+  answer: 0
+},
+{
+  question: "The popular on the job training methos include",
+  options: [
+    "Job rotation",
+    "classroom lectures",
+    "films",
+    "description and display",
+  ],
+  answer: 0
+},
+{
+  question: "Which one of the following is not a function of management?",
+  options: [
+    "Grouping",
+    "Planning",
+    "staffing",
+    "Leading",
+  ],
+  answer: 0
+},
+{
+  question: "Which of the following is not type of public policy?",
+  options: [
+    "Substantive",
+    "symbolic",
+    "distributive",
+    "Facilitative",
+  ],
+  answer: 3
+},
+{
+  question: "Select the letter pair that has the same relation as the original pair of words      MAD: JXA ::RUN: ?",
+  options: [
+    "ORK",
+    "OSQ",
+    "PRJ",
+    "UXQ",
+  ],
+  answer: 0
+},
+{
+  question: "Find the odd term in the given series       898,906,933,996,1122,1338,1681",
+  options: [
+    "1122",
+    "1338",
+    "933",
+    "996",
+  ],
+  answer: 3
+},
+{
+  question: "Find out the odd one",
+  options: [
+    "Book: chapter",
+    "Calendar: Month",
+    "House: City",
+    "Factory: Worker",
+  ],
+  answer: 2
+},
+{
+  question: "In the following question, what will come at the place of question mark            88, 64, 24, ?",
+  options: [
+    "8",
+    "6",
+    "2",
+    "5",
+  ],
+  answer: 0
+},
+{
+  question: "If ROSE is written as TQUG, how can BISCUIT be written in that code",
+  options: [
+    "CJTDVJU",
+    "DKVEWKV",
+    "DKUWEKY",
+    "DKUEWKV",
+  ],
+  answer: 3
+},
+{
+  question: "Bikram is a student of 10 th  class. In his class, his position is 16 th  from the top and 49 th  from the bottom. What is the total number of students in the class?",
+  options: [
+    "64",
+    "65",
+    "66",
+    "63",
+  ],
+  answer: 0
+},
+{
+  question: "Ram, Hari, Shyam and Krishna live in same village. The house of Hari is in the east of Ram���s house but in the north of Shyam���s house. The house of Shyam in the west of Krishna���s house, Krishna���s house is in which direction of Ram���s house?",
+  options: [
+    "North- East",
+    "West",
+    "South- East",
+    "East",
+  ],
+  answer: 2
+},
+{
+  question: "In a university, girls are double of teacher and boys are 3 times of girls. Find the total population of university",
+  options: [
+    "12000",
+    "10800",
+    "11000",
+    "15000",
+  ],
+  answer: 1
+},
+{
+  question: "If + means - ,- means x ,�� means + and x means �� then 15-3+10x5��5 =?",
+  options: [
+    "5",
+    "22",
+    "48",
+    "52",
+  ],
+  answer: 2
+},
+{
+  question: "A person spends 30% of monthly salary on rent, 25% on food, 20% on children���s education, 12% on electricity and the balance of Rs 1040 on the remaining items. What is the monthly salary of the person?",
+  options: [
+    "8000",
+    "9000",
+    "9600",
+    "10600",
+  ],
+  answer: 0
+},
+{
+  question: "If x% of one hour is 1 minute 12 seconds, then  x is equal to",
+  options: [
+    "2",
+    "1",
+    "0.5",
+    "0.25",
+  ],
+  answer: 0
+},
+{
+  question: "There are some shepherds and their sheep in a grazing field. The numbers of total heads are 60 and total legs are 168 including both men and sheep. the number of sheep is:",
+  options: [
+    "18",
+    "26",
+    "24",
+    "36",
+  ],
+  answer: 2
+},
+{
+  question: "In a examination 34% failed in Mathematics and 42% failed in English. If 20% failed in both the subjects, the percentage of students who passed in both subjects was",
+  options: [
+    "54%",
+    "50%",
+    "44%",
+    "56%",
+  ],
+  answer: 2
+},
+{
+  question: "Two different types of rice costing Rs 15 per kg and Rs 20 per kg are mixed in the ratio of 2:3. What will be the cost per kg of the mixed rice ?",
+  options: [
+    "18",
+    "15",
+    "19",
+    "17",
+  ],
+  answer: 0
+},
+{
+  question: "A man purchases 5 pens for a rupee. How many pens should he sell for a rupee if he wants to earn 25% profit?",
+  options: [
+    "4",
+    "5",
+    "3",
+    "2",
+  ],
+  answer: 0
+},
+{
+  question: "A can do a job in 40 days, A and B both can do the same job in 8 days. How many days will B take to do the alone?",
+  options: [
+    "8",
+    "10",
+    "12",
+    "18",
+  ],
+  answer: 1
+},
+{
+  question: "Which of the following diagrams indicates the best relation between Travelers, Train and Bus?",
+  options: [
+    "",
+    "",
+    "",
+    "",
+  ],
+  answer: 2
+},
+{
+  question: "Select a figure from amongst the Answer Figures which will continue the same series as established by the five Problem Figures.",
+  options: [
+    "1",
+    "2",
+    "3",
+    "4",
+  ],
+  answer: 2
+},
+{
+  question: "Select a suitable figure from the Answer Figures that would replace the question mark (?).",
+  options: [
+    "1",
+    "2",
+    "3",
+    "5",
+  ],
+  answer: 0
+},
+{
+  question: "Select the pair in which the number are similarly related as in the given pair 10:99::?",
+  options: [
+    "6:37",
+    "7:45",
+    "8:63",
+    "9:85",
+  ],
+  answer: 2
+},
+{
+  question: "Choose the figure which is different from the rest.",
+  options: [
+    "1",
+    "2",
+    "3",
+    "4",
+  ],
+  answer: 0
+},
+{
+  question: "Count the number of rectangles in the given figure.",
+  options: [
+    "8",
+    "17",
+    "18",
+    "20",
+  ],
+  answer: 2
+},
+{
+  question: "Choose the correct water image of the given figure (X) from amongst the four alternatives.",
+  options: [
+    "1",
+    "2",
+    "3",
+    "4",
+  ],
+  answer: 3
+},
+{
+  question: "Find out the alternative figure which contains figure (X) as its part.",
+  options: [
+    "1",
+    "2",
+    "3",
+    "4",
+  ],
+  answer: 1
+},
+{
+  question: "Identify the figure that completes the pattern.",
+  options: [
+    "1",
+    "2",
+    "3",
+    "4",
+  ],
+  answer: 0
+},
+{
+  question: "In slope deflection equations the deformations are considered to be caused by",
+  options: [
+    "Bending moment",
+    "shear force",
+    "both a & b",
+    "axial force",
+  ],
+  answer: 0
+},
+{
+  question: "For no torsion the plane of bending should",
+  options: [
+    "pass through CG of section",
+    "be parallel to one of the principle axes",
+    "passing through shear center of section",
+    "pass through neutral axis of section",
+  ],
+  answer: 3
+},
+{
+  question: "The ratio of maximum shear stress in the rectangular section of beam and the corresponding average shear stress is",
+  options: [
+    "1.15",
+    "1.25",
+    "1.5",
+    "1.75",
+  ],
+  answer: 2
+},
+{
+  question: "The percentage of elongation of a material with applied direct tensile test is",
+  options: [
+    "Rigidity",
+    "Strength",
+    "rupture",
+    "Ductility",
+  ],
+  answer: 3
+},
+{
+  question: "Which of the following structural analysis is force method?",
+  options: [
+    "slope deflection method",
+    "column analogy method",
+    "moment distribution method",
+    "all of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Area of influenced line diagram for fixed end moment of fixed beam of span L is",
+  options: [
+    "L2/24",
+    "L2/12",
+    "L2/8",
+    "L2/16",
+  ],
+  answer: 3
+},
+{
+  question: "The optical square is used to measure angle by",
+  options: [
+    "Double reflection",
+    "refraction",
+    "reflection",
+    "double refraction",
+  ],
+  answer: 0
+},
+{
+  question: "The instrument used for setting out an offset at a right angle is called",
+  options: [
+    "optical square",
+    "open cross staff",
+    "French cross staff",
+    "adjustable cross staff",
+  ],
+  answer: 1
+},
+{
+  question: "Bench marks are fixed by",
+  options: [
+    "Profile levelling",
+    "trigonometric levelling",
+    "barometric levelling",
+    "spirit levelling",
+  ],
+  answer: 3
+},
+{
+  question: "The types of level normally used in hilly area is",
+  options: [
+    "Abney level",
+    "Dumpy level",
+    "hand level",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "The magnetic declination at a place is 7 o 20���  the bearing given by the compass is S45 o 40��� E. Then the true bearing of the place is",
+  options: [
+    "N53oE",
+    "S 53oE",
+    "N53oW",
+    "S53oW",
+  ],
+  answer: 1
+},
+{
+  question: "The method in which reading are taken of the staff indicated by two fixed stadia wires in the diaphragm of the telescope is called",
+  options: [
+    "Astronomy",
+    "Tacheometry",
+    "plane table",
+    "Remote sensing",
+  ],
+  answer: 1
+},
+{
+  question: "Measuring with a 30m chain, 0.02m short introduces",
+  options: [
+    "Positive compensating error",
+    "Negative compensating error",
+    "Positive cumulative error",
+    "Negative cumulative error",
+  ],
+  answer: 2
+},
+{
+  question: "A metamorphosed mineral entirely composed of silica is known as",
+  options: [
+    "Marble",
+    "Granite",
+    "Quartz",
+    "slate",
+  ],
+  answer: 2
+},
+{
+  question: "The essential constituent of all varnishes is",
+  options: [
+    "Turpentine",
+    "Oil",
+    "Alcohol",
+    "Resin",
+  ],
+  answer: 3
+},
+{
+  question: "Bronze is a metal alloy consists of",
+  options: [
+    "copper and tin",
+    "copper and steel",
+    "copper and iron",
+    "tin and iron",
+  ],
+  answer: 0
+},
+{
+  question: "The thickness of 24-gauge galvanized iron sheet is",
+  options: [
+    "1/24 inch",
+    "1/30 inch",
+    "1/12 inch",
+    "1/48 inch",
+  ],
+  answer: 3
+},
+{
+  question: "Which type of timber is used for construction of houses in Himalayan region of Nepal?",
+  options: [
+    "Sal wood",
+    "Rose wood",
+    "pine wood",
+    "Oak",
+  ],
+  answer: 0
+},
+{
+  question: "The degree of grinding of a cement is called",
+  options: [
+    "Fineness",
+    "Soundness",
+    "impact value",
+    "Buckling",
+  ],
+  answer: 0
+},
+{
+  question: "Low heat cement is preferred for",
+  options: [
+    "Slabs",
+    "Columns",
+    "Dams",
+    "foundation",
+  ],
+  answer: 2
+},
+{
+  question: "High temperature��������������������� strength of concrete",
+  options: [
+    "Increase",
+    "Decreases",
+    "no changes",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Use of water in excess or less then the specified water cement ratio in concrete will result in",
+  options: [
+    "less workability",
+    "improved workability",
+    "server crack",
+    "decrease strength",
+  ],
+  answer: 3
+},
+{
+  question: "The breaking up of cohesion in a mass of concrete is called",
+  options: [
+    "Bleeding",
+    "segregation",
+    "creeping",
+    "workability",
+  ],
+  answer: 1
+},
+{
+  question: "Soil deposited and transported by wind is",
+  options: [
+    "Lacustrine soil",
+    "marine soil",
+    "aeolian soil",
+    "alluvial soil",
+  ],
+  answer: 2
+},
+{
+  question: "If the water content of saturated soil is 40% and the specific gravity of solids is 2.5, the void ratio is",
+  options: [
+    "1.05",
+    "1.0",
+    "1.1",
+    "0.95",
+  ],
+  answer: 1
+},
+{
+  question: "Decrease in water content does not result in the reduction of volume of the soil in",
+  options: [
+    "Solid state",
+    "semi solid state",
+    "liquid state",
+    "plastic state",
+  ],
+  answer: 0
+},
+{
+  question: "Uniformity coefficient of well graded soil is",
+  options: [
+    "greater than 2",
+    "greater than 6",
+    "less than 2",
+    "none",
+  ],
+  answer: 1
+},
+{
+  question: "Which of these methods is generally adopted for tunneling in firm ground?",
+  options: [
+    "full face",
+    "heading and benching",
+    "Drift",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "Darcys law is applicable to seepage if a soil is",
+  options: [
+    "homogenous",
+    "isotropic",
+    "incompressible",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "The opening of bidding in the process of procurement is known as",
+  options: [
+    "Contracting",
+    "Tendering",
+    "Negotiation",
+    "Mediation",
+  ],
+  answer: 1
+},
+{
+  question: "Various activity of project is shown in bar chart by",
+  options: [
+    "vertical line",
+    "horizontal line",
+    "Arrow",
+    "Dots",
+  ],
+  answer: 1
+},
+{
+  question: "Whenever a dispute arise between an employer and contractor most effective method of dispute resolution is",
+  options: [
+    "Amicable settlement",
+    "Adjudication",
+    "Mediation",
+    "Arbitration",
+  ],
+  answer: 0
+},
+{
+  question: "As per the public procurement act and regulation who has the authority to blacklist the contractor",
+  options: [
+    "Department head",
+    "PPMO",
+    "Concern Ministry",
+    "Project Chief",
+  ],
+  answer: 1
+},
+{
+  question: "Critical path in a project network is",
+  options: [
+    "Longest path",
+    "Shortest path",
+    "Dummy path",
+    "none of the above",
+  ],
+  answer: 0
+},
+{
+  question: "The quantity for expansion joints in building is worked out in",
+  options: [
+    "m3",
+    "m2",
+    "m",
+    "Lump sum",
+  ],
+  answer: 2
+},
+{
+  question: "As per standard specification the work shall be done under the supervision of",
+  options: [
+    "Engineer",
+    "Inspector",
+    "Supervisor",
+    "Manager",
+  ],
+  answer: 0
+},
+{
+  question: "Of the total estimate cost of building the cost of electrification usually accounts for",
+  options: [
+    "1%",
+    "5%",
+    "8%",
+    "20%",
+  ],
+  answer: 2
+},
+{
+  question: "Detailed specification gives:",
+  options: [
+    "Quantity and quality of material",
+    "Workmanship of work",
+    "Quality of product",
+    "all of the above",
+  ],
+  answer: 3
+},
+{
+  question: "The estimate of value of asset at the time it will be sold or disposed of which may be zero or even negative is term as",
+  options: [
+    "Salvage value",
+    "Face value",
+    "Book value",
+    "all of the above",
+  ],
+  answer: 0
+},
+{
+  question: "In 1 st  angle projection the right-side view must be drawn on ��������������� side of FV",
+  options: [
+    "Right",
+    "Left",
+    "Top",
+    "none of the above",
+  ],
+  answer: 1
+},
+{
+  question: "Which of the following scale is largest?",
+  options: [
+    "1 cm= 50 m",
+    "1:4200",
+    "RF =1/300000",
+    "1cm=50km",
+  ],
+  answer: 1
+},
+{
+  question: "Generally written dimension is followed and scaling out from the drawing is not allowed in",
+  options: [
+    "presentation drawing",
+    "Preliminary   drawing",
+    "working drawing",
+    "mechanical drawing",
+  ],
+  answer: 2
+},
+{
+  question: "Oblique projection is of",
+  options: [
+    "45 degree",
+    "30 degree",
+    "both",
+    "none",
+  ],
+  answer: 0
+},
+{
+  question: "Total cost of the project is sum of",
+  options: [
+    "fixed and variable cost",
+    "average and fixed cost",
+    "fixed, variable and marginal cost",
+    "cannot predict",
+  ],
+  answer: 0
+},
+{
+  question: "NPV compares the present value of money today to present value of money in the",
+  options: [
+    "Future",
+    "end of project",
+    "past",
+    "beginning of project",
+  ],
+  answer: 0
+},
+{
+  question: "The state where economic forces are balanced is known as",
+  options: [
+    "loss potential",
+    "economic equilibrium",
+    "demand balance",
+    "profit potential",
+  ],
+  answer: 1
+},
+{
+  question: "What variation order man not necessarily contain?",
+  options: [
+    "Change in quantity",
+    "change in rate",
+    "new item added to BoQ",
+    "Budget provision",
+  ],
+  answer: 3
+},
+{
+  question: "First amendment of Nepal Engineering Councial Act 2055 was approved on",
+  options: [
+    "2055/11/27",
+    "2057/03/08",
+    "2079/05/05",
+    "2079/06/06",
+  ],
+  answer: 2
+},
+{
+  question: "NEC categorized professional engineer as",
+  options: [
+    "category A",
+    "category B",
+    "category C",
+    "category D",
+  ],
+  answer: 1
+},
+{
+  question: "Worker are not allowed to work continuously more than",
+  options: [
+    "3 hrs",
+    "5 hrs",
+    "8 hrs",
+    "48 hrs",
+  ],
+  answer: 1
+},
+    ],
+    "2080-5-16":[
+       {
+        "question": "Which of the following is a folk dance of Sherpa?",
+        "options": [
+            "a. Syabru",
+            "b. Mahakali",
+            "c. Mundhum",
+            "d. Ghatu"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Chameliya hydropower is located at",
+        "options": [
+            "a. Achham",
+            "b. Taplejung",
+            "c. Dolakha",
+            "d. Darchula"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The first paper note was introduced in?",
+        "options": [
+            "a. 2009, Bhadra 22",
+            "b. 2002, Ashwin 1",
+            "c. 1993, Jesth 20",
+            "d. 2007, Shrawan 3"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Who was the first secretary general of SAARC?",
+        "options": [
+            "a. Abbul Ahasan",
+            "b. Arjun Bahadur Thapa",
+            "c. Nihal Robrigo",
+            "d. Ziaur Rahaman"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "\ufffd\ufffd\ufffdNo law shall be made providing for the death penalty to any one\ufffd\ufffd\ufffd, which article of present constitution of Nepal deals with this statement?",
+        "options": [
+            "a. article35",
+            "b. article42",
+            "c. article16",
+            "d. article22"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Since, when the budget divides into regular and development in Nepal? (recurrent expenditure and capital expenditure)?",
+        "options": [
+            "a. F.Y. 2012/13 B.S",
+            "b. F.Y. 2062/63 B.S",
+            "c. F.Y.2064/65 B.S",
+            "d. F.Y.2061/62 B.S"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "How many industrial estates are there in Nepal?",
+        "options": [
+            "a. 9",
+            "b. 10",
+            "c. 11",
+            "d. 14"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following does not belong to famous Kanchenjunga range of Nepal?",
+        "options": [
+            "a. Lengpo peak",
+            "b. Nepal peak",
+            "c. Chupolu",
+            "d. Kirat chuli"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Who becomes the first chief of province (governer) in the history of Nepal?",
+        "options": [
+            "a. Govinda Subba",
+            "b. Ratneshwor lal Kayastha",
+            "c. Anuradha Koirala",
+            "d. Mohan raj Malla"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "When were \ufffd\ufffd\ufffdNew Nation\ufffd\ufffd\ufffd handed back to Nepal from East India Company?",
+        "options": [
+            "a. B.S 1916, kartik 3",
+            "b. B.S 1903,Aswin 3",
+            "c. B.S1916, Jesth 2",
+            "d. none of the above"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "The minimum age requires to vote for the member of National Assembly is",
+        "options": [
+            "a. 18 years",
+            "b. 21 years",
+            "c. 25 years",
+            "d. 35 years"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Henry Faoyls General theory of administration is applicable at",
+        "options": [
+            "a. Policy management level",
+            "b. Top management level",
+            "c. middle management level",
+            "d. all of the above"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which chapter of civil service act 2049 has provisioned about the code of conduct",
+        "options": [
+            "a. chapter 8",
+            "b. chapter 7",
+            "c. chapter 6",
+            "d. chapter 5"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which organ coordinates the difference activities of specialized agency of UNO?",
+        "options": [
+            "a. secretariat",
+            "b. security council",
+            "c. General assembly",
+            "d. Economic and social council"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Where is the headquarter of BIMSTEC?",
+        "options": [
+            "a. Nepal",
+            "b. India",
+            "c. Bangladesh",
+            "d. Srilanka"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Gaijatra festival is celebrated on\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd..",
+        "options": [
+            "a. Shrwan Shukla Purnima",
+            "b. Bhadra Shukla Purnima",
+            "c. Shrawan Krishan\u00a0 Pratipada",
+            "d. Bhadra krishna pratipada"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The first game of Asia Cup Cricket 2023 was played at",
+        "options": [
+            "a. Multan Stadium",
+            "b. Jinnah sport stadium",
+            "c. Karachi stadium",
+            "d. R. Premadasa stadium"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Millennium Challenge Corporation (MCC) has officially enters into its execution phase from\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.",
+        "options": [
+            "a. 2080 Bhadra 13",
+            "b. 2080 Bhadra 12",
+            "c. 2080 Bhadra 14",
+            "d. 2079 Falgun 15"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Who is known as father of school in Nepal?",
+        "options": [
+            "a. Mohan Shumsher",
+            "b. Juddha Shumsher",
+            "c. Padma Shumsher",
+            "d. Jay Prithivi bahadur shingh"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following district of Nepal does not lies in Inner Terai?",
+        "options": [
+            "a. Chitawan",
+            "b. Nawanparasi East",
+            "c. Nawalparasi West",
+            "d. Surkhet"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The long-term vision of current periodic plan aims to achieve the HDI of Nepal to",
+        "options": [
+            "a. 0.602",
+            "b. 0.624",
+            "c. 0.67",
+            "d. 0.76"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Name of\u00a0 \u00a0public service Charter in Belgium is",
+        "options": [
+            "a. Service Charter",
+            "b. Client charter",
+            "c. Quality observatory",
+            "d. public service user charter"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd. is the chain of the supervisor existing from the highest authority to lowest rank.",
+        "options": [
+            "a. Unity of command",
+            "b. unity of direction",
+            "c. scalar chain",
+            "d. Authority"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which one of the following is not correct in case of planning?",
+        "options": [
+            "a. planning is goal oriented",
+            "b. planning is pervasive",
+            "c. planning is discreet function",
+            "d. planning is flexible"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Who won the four-nation women's T-20 international series held in Malaysia in August 2023?",
+        "options": [
+            "a. Hong Kong",
+            "b. Nepal",
+            "c. India",
+            "d. Malaysia"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which will replace the question marks?\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 7528:5306::4673:?",
+        "options": [
+            "a. 2367",
+            "b. 2451",
+            "c. 2531",
+            "d. none of the above"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Choose the number similar to the group of numbers given \u00a0580,265,373",
+        "options": [
+            "a. 580",
+            "b. 490",
+            "c. 428",
+            "d. 383"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Choose the appropriate alternative which will replace the question mark ABCD: WXYZ:: EFGH: ?",
+        "options": [
+            "a. STUV",
+            "b. ZYXW",
+            "c. VUTS",
+            "d. WXYZ"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Find the odd one out in the five group?\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 10,25,45,54,60,75,80",
+        "options": [
+            "a. 10",
+            "b. 45",
+            "c. 54",
+            "d. 75"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Complete the series \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 56, 72, 90, 110, 132, ?",
+        "options": [
+            "a. 148",
+            "b. 152",
+            "c. 156",
+            "d. 158"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "zZyyYYxxxXXXwwwwWWWW\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd 200 th  letter will be",
+        "options": [
+            "a. M",
+            "b. m",
+            "c. n",
+            "d. p"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "In certain code CLOCK is written as XOLXP how will LOTUS be written in that code?",
+        "options": [
+            "a. OLGFH",
+            "b. OLFGH",
+            "c. OLHFG",
+            "d. LOGFH"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Starting from a point X Sheetal walked 25m towards south. She turned to her left and walked 50m, then she again turned to her left and walked 25m. She again turned to her left and walked 60m and reached a point Y how far Sheetal is from point X and which direction?",
+        "options": [
+            "a. 10 m West",
+            "b. 25m North",
+            "c. 10m east",
+            "d. 25m west"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "If today is Saturday then which day will be after 200 day from today?",
+        "options": [
+            "a. Sunday",
+            "b. Monday",
+            "c. Tuesday",
+            "d. Wednesday"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The monthly income of Komal and Asha are in the ratio of 4:3. Their monthly expenses are in the ratio of 3:2. However both save Rs 600 per month. What is total monthly income in Rs?",
+        "options": [
+            "a. 8400",
+            "b. 5600",
+            "c. 4200",
+            "d. 2800"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "If 15 pumps of equal capacity can fill a tank in 7 days then how many extra pumps will be required to fill the tank in 5 days?",
+        "options": [
+            "a. 6",
+            "b. 7",
+            "c. 14",
+            "d. 21"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A sum of Rs 55 is divided among 150 children. If each girl gets 50 paisa and each boy gets 25 paisa, then the number of girls is?",
+        "options": [
+            "a. 80",
+            "b. 100",
+            "c. 70",
+            "d. 50"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The average of six numbers is 3.95. The average of two of them is 3.4, while the average of the other two is 3.85. What is the average of the remaining two numbers?",
+        "options": [
+            "a. 4.5",
+            "b. 4.6",
+            "c. 4.7",
+            "d. 4.8"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The difference between simple and compound interest in a certain sum in 2 years at 12% per annum is Rs 216. The sum is",
+        "options": [
+            "a. 14500",
+            "b. 15000",
+            "c. 15500",
+            "d. 16000"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "There are 25 boys in a horizontal row. Rahul was shifted by three places towards his right side and he occupies the middle position in the row. What was the original position from the left end of the row ?",
+        "options": [
+            "a. 15th",
+            "b. 16th",
+            "c. 12th",
+            "d. 10th"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Assertion(A): Pressure cookers are fitted with ebonite handles Reason Reason (R): Ebonite is strong",
+        "options": [
+            "a. Both A&R are true and R is correct explanation of A",
+            "b. Both A&R are true nut R is not correct explanation of A",
+            "c. A is true R is false",
+            "d. A is false R is true"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "If x is 20% more than that of z and y is 50% more than that of z what percent of y is x?",
+        "options": [
+            "a. 80%",
+            "b. 90%",
+            "c. 70%",
+            "d. 60%"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Six friends are sitting in a circle and facing the center of the circle. Deepa is between Prakash and Pankaj. Priti is between Mukesh and Lalit. Prakash and Mukesh are opposite to each other. Who is sitting right to Prakash?",
+        "options": [
+            "a. Mukesh",
+            "b. Pankaj",
+            "c. Lalit",
+            "d. Priti"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Select a figure from amongst the Answer Figures which will continue the same series as established by the five Problem Figures.",
+        "options": [
+            "a. 1",
+            "b. 2",
+            "c. 3",
+            "d. 4"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Select a suitable figure from the Answer Figures that would replace the question mark (?).",
+        "options": [
+            "a. 1",
+            "b. 2",
+            "c. 3",
+            "d. 4"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Choose the figure which is different from the rest.",
+        "options": [
+            "a. 1",
+            "b. 2",
+            "c. 3",
+            "d. 4"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Count the number of convex pentagons in the adjoining figure.",
+        "options": [
+            "a. 16",
+            "b. 12",
+            "c. 8",
+            "d. 4"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Choose the correct water image of the given figure (X) from amongst the four alternatives.",
+        "options": [
+            "a. 1",
+            "b. 2",
+            "c. 3",
+            "d. 4"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Find out how will the key figure (X) look like after rotation.",
+        "options": [
+            "a. 1",
+            "b. 2",
+            "c. 3",
+            "d. 4"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Two positions of a dice are shown below. When there are two dots at the bottom, the number of dots at the top will be",
+        "options": [
+            "a. 3",
+            "b. 5",
+            "c. 6",
+            "d. 4"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "The shape of bending moment diagram over the length of a beam having no external load is",
+        "options": [
+            "a. Linear",
+            "b. Parabolic",
+            "c. cubical",
+            "d. circular"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A three-hinge system consists of",
+        "options": [
+            "a. Two plate",
+            "b. three plate",
+            "c. four plate",
+            "d. Five plate"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "The maximum deflection in the cantilever beam subjected to an UDL of w per meter throughout the span is",
+        "options": [
+            "a. wl3/3EI",
+            "b. wl4/8EI",
+            "c. wl4/30EI",
+            "d. wl2/6EI"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "The moment distribution method is best suited for",
+        "options": [
+            "a. indeterminate pin jointed truss",
+            "b. rigid frame",
+            "c. space frame",
+            "d. trussed beam"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "\ufffd\ufffd\ufffdThe plane section remain plane\ufffd\ufffd\ufffd assumption in the bending theory implies",
+        "options": [
+            "a. strain profile is linear",
+            "b. stress profile is linear",
+            "c. both a& b",
+            "d. shear deformation is neglected"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "slope deflection equations are sufficient to determine the unknowns if they considered along with",
+        "options": [
+            "a. condition of rotation",
+            "b. condition of equilibrium",
+            "c. condition of deflection",
+            "d. condition of stress"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In a transit theodolite, errors due to eccentricity of verniers is eliminated by reading",
+        "options": [
+            "a. right and left swing",
+            "b. right and left face",
+            "c. both Vernier",
+            "d. various part of main scale"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "In a prismatic compass zero is marked on which end?",
+        "options": [
+            "a. East",
+            "b. West",
+            "c. North",
+            "d. south"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Closed traverse is suitable for the survey work of",
+        "options": [
+            "a. Road",
+            "b. Coastline",
+            "c. pond",
+            "d. River"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following methods of contouring is most suitable for a hilly terrain?",
+        "options": [
+            "a. Direct method",
+            "b. square method",
+            "c. Cross section method",
+            "d. tacheometer method"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "For the preparation of cadastral maps, the mode of survey mostly used in Nepal is",
+        "options": [
+            "a. Chain survey",
+            "b. Levelling",
+            "c. Traversing",
+            "d. plane tabling"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "profile levelling is usually done for determining",
+        "options": [
+            "a. Contour of area",
+            "b. capacity of reservoir",
+            "c. elevation along a straight",
+            "d. boundaries of property"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "A relatively fixed point of known elevation above datum is",
+        "options": [
+            "a. bench mark",
+            "b. Datum point",
+            "c. Reduced level",
+            "d. Reference point"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Bitumen with higher value of softening point is preferred in the area with",
+        "options": [
+            "a. Warm climate",
+            "b. Ice",
+            "c. cold climate",
+            "d. Fuggy climate"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Marble used in flooring comes from\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+        "options": [
+            "a. Sedimentary rock",
+            "b. Metamorphic rock",
+            "c. igneous rock",
+            "d. all of the above"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Plaster of Paris can be obtained from calcination of",
+        "options": [
+            "a. Lime stone",
+            "b. Gypsum",
+            "c. Dolomite",
+            "d. Bauxite"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Initial setting time of hydraulic lime is",
+        "options": [
+            "a. 120 mins",
+            "b. 60 mins",
+            "c. 30 mins",
+            "d. 90 mins"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "The operation of removal of impurities of clay adhering to iron ores is known as",
+        "options": [
+            "a. Dressing",
+            "b. Calcinations",
+            "c. Roasting",
+            "d. smelting"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "plywood is obtained from",
+        "options": [
+            "a. bamboo",
+            "b. commonly available timber",
+            "c. teak wood",
+            "d. Shisham wood"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The compacting factor test of cement concrete determines its",
+        "options": [
+            "a. strength",
+            "b. porosity",
+            "c. degree of compaction",
+            "d. workability"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Polymer concrete is an aggregate bound with a polymer binder instead of",
+        "options": [
+            "a. sand",
+            "b. Portland cement",
+            "c. white cement",
+            "d. pozzolona"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Compaction by vibrator roller is the best method of compaction in case of",
+        "options": [
+            "a. moist silty sand",
+            "b. well graded dry sand",
+            "c. clay of medium compressibility",
+            "d. silt of high compressibility"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "The batching of concrete is done by measurement of its constituents",
+        "options": [
+            "a. by volume",
+            "b. by weight",
+            "c. both a & b",
+            "d. none of above"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Shrinkage of concrete depends on",
+        "options": [
+            "a. humidity of atmosphere",
+            "b. passage of time",
+            "c. Grading of aggregate",
+            "d. All of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which method of tunneling can be adopted if full face excavation is not possible?",
+        "options": [
+            "a. Back bearing",
+            "b. Plotting",
+            "c. Trenching",
+            "d. Benching"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Bearing capacity of soil is determined by",
+        "options": [
+            "a. plate load test",
+            "b. standard cone test",
+            "c. both a & b",
+            "d. none of the above"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Coarse grained soil contains material half of which is larger than",
+        "options": [
+            "a. 600 micron",
+            "b. 75 mm",
+            "c. 75 micron",
+            "d. 4.75 mm"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The soil moisture driven off by heat is called",
+        "options": [
+            "a. Free water",
+            "b. Hygroscopic water",
+            "c. gravity water",
+            "d. none of the above"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Soil formed by wind erosion is",
+        "options": [
+            "a. Residual soil",
+            "b. Marl",
+            "c. Talus",
+            "d. Loess"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The line of intersection of a fault plane with the ground surface is termed as",
+        "options": [
+            "a. Fault line",
+            "b. fault outcrop",
+            "c. fault trace",
+            "d. all of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The amount of time that a non-critical path activity can be delayed without delaying the project is referred as",
+        "options": [
+            "a. Slack time",
+            "b. start time",
+            "c. Expected time",
+            "d. most likely time"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "The occupational and industrial accidents are caused by",
+        "options": [
+            "a. preventable factors",
+            "b. Equipment",
+            "c. working space",
+            "d. Tools"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The performance of septic tank in CPM is also",
+        "options": [
+            "a. Dummy",
+            "b. Event",
+            "c. Activity",
+            "d. Node"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Primarily maintenance and improving quality control is the responsibility of",
+        "options": [
+            "a. supervisor",
+            "b. Manager",
+            "c. Engineer",
+            "d. Contractor"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Construction specification normally consists of a series of",
+        "options": [
+            "a. Instruction",
+            "b. procurement process",
+            "c. Test methods",
+            "d. Recommendations"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the types of following estimates is not used at initial stage of project life cycle?",
+        "options": [
+            "a. Preliminary",
+            "b. Budget",
+            "c. order of magnitude",
+            "d. Detailed"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The quantity of wood of the shutters of doors and windows is calculated in",
+        "options": [
+            "a. m2",
+            "b. m3",
+            "c. lump-sum",
+            "d. m"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "The volume of cement required for 10m3 of brickwork in 1:6 cement mortar is approximately equal to",
+        "options": [
+            "a. 3/7 m3",
+            "b. 3/6 m3",
+            "c. 3/4m3",
+            "d. 3/5m"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Norms are used to",
+        "options": [
+            "a. prepare rate analysis",
+            "b. compare cost estimate",
+            "c. prepare specification",
+            "d. all of the above"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A document containing detailed description of all items of work together with their estimated rate but without mentioning their quantities is called",
+        "options": [
+            "a. Bill of quantity",
+            "b. schedule of rate",
+            "c. analysis of rate",
+            "d. abstract of cost"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "The vanishing point is located",
+        "options": [
+            "a. Above the horizon",
+            "b. Below the horizon",
+            "c. on the horizon",
+            "d. none of the above"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A drawing is a \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.. representation of a real things and idea or a proposed design of later manufacture or construction",
+        "options": [
+            "a. pictorial",
+            "b. verbal",
+            "c. Graphical",
+            "d. Descriptive"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "In the first angle projection elevation are in",
+        "options": [
+            "a. vertical plane",
+            "b. horizontal plane",
+            "c. both a & b",
+            "d. pictorial plane"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Lettering on drawing sheet should have",
+        "options": [
+            "a. All alphabets in capital letter",
+            "b. All alphabets in small letters",
+            "c. Only first alphabet in capital letter",
+            "d. Any of above is accepted"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Present worth annuity (PWA) is generally known as",
+        "options": [
+            "a. Premium annuity",
+            "b. Future annuity",
+            "c. income annuity",
+            "d. all of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Costs which are independent of output and no alteration by the change in production level are called",
+        "options": [
+            "a. Total cost",
+            "b. production cost",
+            "c. Fixed cost",
+            "d. Variable cost"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The annuity which refers to a debt payment for recovering the initial amount or capital in equal periodical payment is known as",
+        "options": [
+            "a. present worth annuity",
+            "b. sinking fund annuity",
+            "c. compound annuity",
+            "d. capital recovery annuity"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following association members must not have registered their name in NEC to conduct engineering activities?",
+        "options": [
+            "a. NEA",
+            "b. SONA",
+            "c. DEAN",
+            "d. RUPSON"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following category of engineer is not mentioned in Engineering Council Rule?",
+        "options": [
+            "a. General engineer",
+            "b. Professional engineer",
+            "c. Non-Nepali registered engineer",
+            "d. Foreigner engineer"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "As per Nepal engineering council act 2055 (first amendment) generally the tenure of registrar is",
+        "options": [
+            "a. 4 years",
+            "b. 5 years",
+            "c. 2 years",
+            "d. 1 years"
+        ],
+        "answer": 0
+    }
+    ],
+    "2080-5-23":[
+      {
+        "question": "With reference to UN\ufffd\ufffd\ufffds sustainable development goals, which of the following is SDG 10?",
+        "options": [
+            "a. Reduction inequalities",
+            "b. zero hunger",
+            "c. climate action",
+            "d. Decent work and economic growth"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "which of the following was the first industry/ enterprises of Nepal?",
+        "options": [
+            "a. Raghupati jute mill",
+            "b. Juddha match factory",
+            "c. Biratnagar jute mill",
+            "d. Gorakhkali rubber tyre industry"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Hindu Nepali women celebrates the festival \ufffd\ufffd\ufffd Haritalika Teej\ufffd\ufffd\ufffd on \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.",
+        "options": [
+            "a. Bhadra Krishna Tritiya",
+            "b. Bhadra Shukla Tritiya",
+            "c. Asoj Krisna Tritiya",
+            "d. Asoj Shukla Tritiya"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In which of the following district of Nepal Phalgunanda Airport is located?",
+        "options": [
+            "a. Ilam",
+            "b. Taplejung",
+            "c. Pachathar",
+            "d. Dhankuta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "When is world wetland day observed?",
+        "options": [
+            "a. Feb 2",
+            "b. May 22",
+            "c. Jun 5",
+            "d. Jul 22"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Who is the last Shah King of Gorkha?",
+        "options": [
+            "a. Gyanendra Shah",
+            "b. Prithivi Narayan Shah",
+            "c. Rana Bahadur Shah",
+            "d. Ram Shah"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "When was Singhadurbar caught fire?",
+        "options": [
+            "a. 2030 Baisakh 25",
+            "b. 2030 Jesth 25",
+            "c. 2030 Asar 25",
+            "d. 2030 Bhadra 25"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What percentage of population is targeted to have access on internet by the end of 15 th  plan?",
+        "options": [
+            "a. 100%",
+            "b. 95%",
+            "c. 85%",
+            "d. 80%"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The Narayangadh- Mugling Highway is also called\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+        "options": [
+            "a. Gangalal Highway",
+            "b. BP highway",
+            "c. Madan Ashrit highway",
+            "d. Amar Shing highway"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which is the fourth major food crop grown in Nepal?",
+        "options": [
+            "a. Paddy",
+            "b. Maize",
+            "c. Millet",
+            "d. Wheat"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which climate is found above 5000m of Nepal?",
+        "options": [
+            "a. Tundra",
+            "b. Alpine",
+            "c. Lekali",
+            "d. Temperate"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "The temperature measuring device \ufffd\ufffd\ufffdThermometer\ufffd\ufffd\ufffd is invented by\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd.",
+        "options": [
+            "a. Micheal Faraday",
+            "b. Archimedes",
+            "c. Galileo Galilei",
+            "d. John Dalton"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The general Assembly of UN\u00a0is held every year on every \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd..",
+        "options": [
+            "a. Third Sunday of September",
+            "b. Third Monday of September",
+            "c. Third Tuesday of September",
+            "d. Third Wednesday of September"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which of the following country is not included in BIMSTEC?",
+        "options": [
+            "a. Shree Lanka",
+            "b. Thailand",
+            "c. Maldives",
+            "d. Myanmar"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "According to present constitution of Nepal how many types of citizenship can provide by government of Nepal?",
+        "options": [
+            "a. 2",
+            "b. 3",
+            "c. 4",
+            "d. 5"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "When is civil service day (Nijamati Sewa Diwas) observed?",
+        "options": [
+            "a. Bhadra 29",
+            "b. Asoj 2",
+            "c. Asar 18",
+            "d. Bhadra 22"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "A person who has been elected as the Mayor of municipality for \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd. Terms shall not be eligible to be a candidate in an election to the municipality.",
+        "options": [
+            "a. 1",
+            "b. 2",
+            "c. 3",
+            "d. no limit"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In Nepal which is the first periodic plan to make provision of citizen charter?",
+        "options": [
+            "a. 7th plan",
+            "b. 9th plan",
+            "c. 10th plan",
+            "d. 11th plan"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Incremental theory of public policy was propounded by whom?",
+        "options": [
+            "a. Charles E Lindblom",
+            "b. Hertzberg",
+            "c. Finer",
+            "d. James Buchanan"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Vrooms theory of motivation is also known as",
+        "options": [
+            "a. Equity theory",
+            "b. Expectancy theory",
+            "c. Need theory",
+            "d. Theory X and Y"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Money bill is concern with which of the following?",
+        "options": [
+            "a. Imposition of tax",
+            "b. Regulation of tax",
+            "c. Alternation of tax",
+            "d. all of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Who is the first finance minister to present budget in Nepal?",
+        "options": [
+            "a. Tanka Pd Acharya",
+            "b. Shubarna Shumsher",
+            "c. Prakash Sharan Mahat",
+            "d. Mohan Shumsher"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "ICIMOD is established on",
+        "options": [
+            "a. 1997 Dec 1",
+            "b. 1985 Dec 8",
+            "c. 1983 Dec 5",
+            "d. 1986 Dec 6"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Who is the Nepali Cricketer to make highest runs in Asia Cup Cricket 2023?",
+        "options": [
+            "a. Aasif Sheikh",
+            "b. Sompal Kami",
+            "c. Rohit Paudel",
+            "d. Kushal Bhurtel"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Who is known as father of management?",
+        "options": [
+            "a. F.W. Taylor",
+            "b. Drucker",
+            "c. Foyal",
+            "d. David"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In the following questions, what will come at place of question mark\u00a0 C, V, O, I, R, R, O, U, N, S,\u00a0 ?",
+        "options": [
+            "a. A",
+            "b. T",
+            "c. K",
+            "d. Y"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Find out the alternative which will replace the question mark Flower: Bud: Basil:?",
+        "options": [
+            "a. Sprout",
+            "b. Stalk",
+            "c. Basil",
+            "d. Bud"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following is an odd number group?",
+        "options": [
+            "a. 25,50,56",
+            "b. 20,40,46",
+            "c. 18,36,40",
+            "d. 12,24,30"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "If\u00a0 MASTER is coded as 411259\u00a0 then how is POWDER coded as",
+        "options": [
+            "a. 766549",
+            "b. 765549",
+            "c. 765459",
+            "d. 765599"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Find out the odd one",
+        "options": [
+            "a. RKD",
+            "b. UNG",
+            "c. MTF",
+            "d. SLE"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "In the following letter series, some of the letters are missing which are given in that order as one of the alternatives below it. Select the correct alternative \u00a0_ bcc _ ac _ aabb _ ab _ cc",
+        "options": [
+            "a. aabca",
+            "b. abaca",
+            "c. bacab",
+            "d. bcaca"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Choose the best alternative in that place to compete the series 10000, 11000, 9900, 10890, 9801, ?",
+        "options": [
+            "a. 10929",
+            "b. 10241",
+            "c. 10423.3",
+            "d. 10781.1"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which one will replace the question mark?",
+        "options": [
+            "a. 45",
+            "b. 41",
+            "c. 40",
+            "d. 30"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which of the following diagrams indicates the best relation between Teacher, Men and Women?",
+        "options": [
+            "a.",
+            "b.",
+            "c.",
+            "d."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "If the clock read 6:20 and if the minute hand points North- East, in which direction will the hour hand point?",
+        "options": [
+            "a. West",
+            "b. South- east",
+            "c. East",
+            "d. North- west"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "In a queue A is 35 th  from front and B is 22 nd  from behind. If there are 54 persons in the queue then number of persons between A and B is",
+        "options": [
+            "a. 1",
+            "b. 2",
+            "c. 3",
+            "d. 4"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Instead of multiplying a number by 5, it has been mistakenly divided by 5. Find the percentage error due to this mistake",
+        "options": [
+            "a. 25%",
+            "b. 500%",
+            "c. 125%",
+            "d. 96%"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "If a:b=2:5 find 10a+3b:5a+2b",
+        "options": [
+            "a. 4: 7",
+            "b. 7:4",
+            "c. 35:20",
+            "d. 20:35"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "If three pens are sold at the cost price of 4 pens of the same kind, then find the profit percentage.",
+        "options": [
+            "a. 25%",
+            "b. 33.33%",
+            "c. 62.66%",
+            "d. 50%"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "A is twice as good a workman as B. Working together, they can finish a work in 16 days. How many days will A alone take to finish the work?",
+        "options": [
+            "a. 4",
+            "b. 8",
+            "c. 24",
+            "d. 48"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Study the following line graph and answer the  two  questions based on it. Number of Vehicles Manufactured by Two companies ove the Years (Number in Thousands) What is the difference between the number of vehicles manufactured by Company Y in 2000 and 2001?",
+        "options": [
+            "a. 50000",
+            "b. 42000",
+            "c. 33000",
+            "d. 21000"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "In which of the following years, the difference between the productions of Companies X and Y was the maximum among the given years?",
+        "options": [
+            "a. 1997",
+            "b. 1998",
+            "c. 1999",
+            "d. 2000"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Select a figure from amongst the Answer Figures which will continue the same series as established by the five Problem Figures.",
+        "options": [
+            "a. 1",
+            "b. 2",
+            "c. 3",
+            "d. 4"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Select a suitable figure from the Answer Figures that would replace the question mark (?).",
+        "options": [
+            "a. 1",
+            "b. 2",
+            "c. 3",
+            "d. 4"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Choose the figure which is different from the rest.",
+        "options": [
+            "a. 1",
+            "b. 2",
+            "c. 3",
+            "d. 4"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Find the number of triangles in the given figure.",
+        "options": [
+            "a. 8",
+            "b. 10",
+            "c. 12",
+            "d. 14"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Choose the correct mirror image of the given figure (X) from amongst the four alternatives.",
+        "options": [
+            "a. 1",
+            "b. 2",
+            "c. 3",
+            "d. 4"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Select a suitable figure from the four alternatives that would complete the figure matrix.",
+        "options": [
+            "a. 1",
+            "b. 2",
+            "c. 3",
+            "d. 4"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Find out the alternative figure which contains figure (X) as its part.",
+        "options": [
+            "a. 1",
+            "b. 2",
+            "c. 3",
+            "d. 4"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Select the figure which satisfies the same conditions of placement of the dots as in Figure-X.",
+        "options": [
+            "a. 1",
+            "b. 2",
+            "c. 3",
+            "d. 4"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "ABCD\u00a0is a regular parallelogram plot of land whose angle\u00a0BAD\u00a0is 60\ufffd\ufffd. If the bearing of the line\u00a0AB\u00a0is 30\ufffd\ufffd, the bearing of\u00a0CD, is",
+        "options": [
+            "a. 90\ufffd\ufffd",
+            "b. 120\ufffd\ufffd",
+            "c. 210\ufffd\ufffd",
+            "d. 2700"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "If the angular measurements of a traverse are more precise than its linear measurements, balancing of the traverse, is done by",
+        "options": [
+            "a. Bowditch's rule",
+            "b. Transit rule",
+            "c. Empirical rule",
+            "d. all of the above."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "The systematic errors which persist and have regular effects in the performance of a survey operation, are due to",
+        "options": [
+            "a. carelessness",
+            "b. faulty instrument",
+            "c. inattention",
+            "d. none of these"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Subtense tacheometry is generally preferred to if ground is",
+        "options": [
+            "a. flat",
+            "b. undulating",
+            "c. mountaineous",
+            "d. deserts"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "The area of any irregular figure of the plotted map is measured with",
+        "options": [
+            "a. pentagraph",
+            "b. sextant",
+            "c. clinometer",
+            "d. planimeter"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "For preparation of a contour plan for a route survey",
+        "options": [
+            "a. method of squares is used",
+            "b. method of trace contour is used",
+            "c. method of cross profile is used",
+            "d. indirect method of contouring is used"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Accuracy of elevation of various points obtained from contour map is limited to",
+        "options": [
+            "a. 1/2of the contour interval",
+            "b. 1/4th of the contour interval",
+            "c. 1/3\u00a0rd of the contour interval",
+            "d. 1/5th of the contour interval"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "The shape factor of standard rolled beam section varies from",
+        "options": [
+            "a. 1.10 to 1.20",
+            "b. 1.20 to 1.30",
+            "c. 1.30 to 1.40",
+            "d. 1.40 to 1.50"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A truss containing\u00a0 j \u00a0joints and\u00a0 m \u00a0members, will be a simple truss if",
+        "options": [
+            "a. m\u00a0= 2j\u00a0- 3",
+            "b. j\u00a0= 2m\u00a0- 3",
+            "c. m\u00a0= 3j\u00a0- 2",
+            "d. j\u00a0= 3m\u00a0\ufffd\ufffd\ufffd 2"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Pick up the incorrect statement from the following: The torsional resistance of a shaft is directly proportional to",
+        "options": [
+            "a. modulus of rigidity",
+            "b. angle of twist",
+            "c. reciprocal of the length of the shaft",
+            "d. moment of inertia of the shaft section"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "If the width of a simply supported beam carrying an isolated load at its centre is doubled, the deflection of the beam at the centre is changed by",
+        "options": [
+            "a. 2 times",
+            "b. 4 times",
+            "c. 8 times",
+            "d. 1/2 times"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "A rectangular bar of width\u00a0 b \u00a0and height\u00a0 h \u00a0is being used as a cantilever. The loading is in a plane parallel to the side\u00a0 b . The section modulus is",
+        "options": [
+            "a. bh3/12",
+            "b. bh2/6",
+            "c. b2h/6",
+            "d. none of these"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Gradually applied static loads do not change with time their",
+        "options": [
+            "a. magnitude",
+            "b. direction",
+            "c. point of application",
+            "d. all the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The tendency of a stone is, to split along",
+        "options": [
+            "a. fracture",
+            "b. cleavage",
+            "c. structure",
+            "d. all the above"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Pig iron made from heamatite ores free from sulphur, phosphorus and copper, is known as",
+        "options": [
+            "a. Bessemer pig",
+            "b. Grey or foundry pig",
+            "c. White or forge pig",
+            "d. Mottled pig"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Bulking of sand is caused due to",
+        "options": [
+            "a. surface moisture",
+            "b. air voids",
+            "c. viscosity",
+            "d. clay contents"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "To give a brilliant finish, the type of varnish used, is",
+        "options": [
+            "a. water varnish",
+            "b. spirit varnish",
+            "c. turpentine varnish",
+            "d. oil varnish"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In stone masonry, stratified rocks are so placed that the direction of pressure to the plane of bedding is",
+        "options": [
+            "a. right angles",
+            "b. 45\ufffd\ufffd",
+            "c. 60\ufffd\ufffd",
+            "d. parallel"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Pick up the constituent of good brick earth whose excess causes the raw bricks shrink and warp during drying and burning, from the following:",
+        "options": [
+            "a. Magnesia",
+            "b. Lime",
+            "c. Iron oxide",
+            "d. Alumina"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Slump test of concrete measures of its",
+        "options": [
+            "a. consistency",
+            "b. compressive strength",
+            "c. tensile strength",
+            "d. setting time"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "The resistance of aggregate to wear is known as",
+        "options": [
+            "a. shear resistance",
+            "b. crushing resistance",
+            "c. abrasion resistance",
+            "d. impact value"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The compound of Portland cement which reacts immediately with water and sets first is",
+        "options": [
+            "a. Tricalcium silicate",
+            "b. Tricalcium aluminate",
+            "c. dicalcium aluminate",
+            "d. can not say"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "prestress loss due to friction occurs",
+        "options": [
+            "a. only in post tensioned beam",
+            "b. only in pre tensioned beam",
+            "c. both of the above",
+            "d. None of the above"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "The levelling operation that removes humps and hollows and give truly uniform concrete surface is called",
+        "options": [
+            "a. compacting",
+            "b. troweling",
+            "c. floating",
+            "d. screeding"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The minimum water content at which the soil just begins to crumble when rolled into threads 3 mm in diameter, is known as",
+        "options": [
+            "a. plastic limit",
+            "b. liquid limit",
+            "c. shrinkage limit",
+            "d. water limit"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "The weight of a pycnometer containing 400 g sand and water full to the top is 2150 g. The weight of pycnometer full of clean water is 1950 g. If specific gravity of the soil is 2.5, the water content is",
+        "options": [
+            "a. 5%",
+            "b. 10%",
+            "c. 15%",
+            "d. 20%"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Pick up the incorrect statement from the following: The soils which contain montmorillonite minerals",
+        "options": [
+            "a. swell more when wet",
+            "b. shrink more when dry",
+            "c. possess high plasticity",
+            "d. possess high coefficient of internal coefficient"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "To attain the required shape of the tunnel section, we use:",
+        "options": [
+            "a. easers",
+            "b. trimmers",
+            "c. cut holes",
+            "d. chisels"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "A trough or valley is formed when",
+        "options": [
+            "a. Two normal faults occur",
+            "b. the central blocks move down with respect to side block",
+            "c. both a and b",
+            "d. none of the above"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which one of the following represents an activity?",
+        "options": [
+            "a. curing of concrete",
+            "b. setting of question paper",
+            "c. preparation of breakfast",
+            "d. all of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "A Milestone chart",
+        "options": [
+            "a. shows the interdependencies of various jobs",
+            "b. depicts the delay of jobs, if any",
+            "c. points outgoing ahead of schedule of jobs, if any",
+            "d. none of these"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The Overall in-charge of an organization at the site responsible for the execution of the works, is",
+        "options": [
+            "a. Executive Engineer",
+            "b. Engineer",
+            "c. Junior Engineer",
+            "d. Sub overseer"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "For completion of a project, the critical path of the network represents",
+        "options": [
+            "a. minimum time",
+            "b. maximum time",
+            "c. maximum cost",
+            "d. minimum cost"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "contract data is a part of",
+        "options": [
+            "a. specification",
+            "b. tender document",
+            "c. estimate of work",
+            "d. none of the above"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "In Nepal where resource may be uncertain and work interrupted by monsoon, flood etc the \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd techniques is more suitable",
+        "options": [
+            "a. CPM",
+            "b. PERT",
+            "c. Bar chartmilestone",
+            "d. milestone"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Purpose of valuation is",
+        "options": [
+            "a. buying and selling of properties",
+            "b. for taxation",
+            "c. for security of loan",
+            "d. all of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following is not a common size of reinforcement bars in ordinary building work",
+        "options": [
+            "a. 16mm",
+            "b. 20mm",
+            "c. 25mm",
+            "d. 32mm"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The measurement is not made in square metres in case of",
+        "options": [
+            "a. D.P.C. (Damp proof course)",
+            "b. Form works",
+            "c. R.C. Chhajja",
+            "d. Concrete Jaffries"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The most reliable estiamte is",
+        "options": [
+            "a. Detailed estimate",
+            "b. Preliminary estimate",
+            "c. Plinth area estimate",
+            "d. Cube rate estimate"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "The expected out turn of cement concrete 1 : 2 : 4 per mason per day is",
+        "options": [
+            "a. 1.5 m3",
+            "b. 2.5 m3",
+            "c. 3.5 m3",
+            "d. 5.0 m3"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "The area occupied by A O  drawing sheet is how many times the area occupied by A1 drawing sheet",
+        "options": [
+            "a. 8",
+            "b. 4",
+            "c. 2",
+            "d. 1"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The edge of T square is known as",
+        "options": [
+            "a. stock",
+            "b. blade",
+            "c. working part",
+            "d. all of the above"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "When the plane situated in between the object and observer such projection is a",
+        "options": [
+            "a. orthographic projection",
+            "b. first angle projection",
+            "c. third angle projection",
+            "d. axonometric projection"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "used scale 1:100000 denotes",
+        "options": [
+            "a. 1cm=10m",
+            "b. 1cm=100m",
+            "c. 1cm =1000m",
+            "d. 1cm=10000m"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "An investment project costs P. it is expected to have an annual net cash flow of 0.125P for 20 years. What is the projects payback period?",
+        "options": [
+            "a. 8 years",
+            "b. 10 years",
+            "c. 17 years",
+            "d. 20 years"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "prime cost of project includes",
+        "options": [
+            "a. direct material cost",
+            "b. direct labour cost",
+            "c. direct expenses",
+            "d. all of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "For procurement of works up to 1 million, by which method of the following is to be consider?",
+        "options": [
+            "a. seal quotation",
+            "b. national competitive bidders",
+            "c. International competitive bidders",
+            "d. direct purchase"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Nepal engineering council act was formed in the year",
+        "options": [
+            "a. 2019 BS",
+            "b. 2050 BS",
+            "c. 2055 BS",
+            "d. 2057 BS"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Minimum age requires to be member of Nepal engineering council is",
+        "options": [
+            "a. 25 years",
+            "b. 35 years",
+            "c. 45 years",
+            "d. no age limits"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Ethics has a",
+        "options": [
+            "a. physical meaning",
+            "b. religious meaning",
+            "c. moral meaning",
+            "d. social meaning"
+        ],
+        "answer": 2
+    }
+    ]
+  },
+ "500+ MCQ" : [
+
+  {
+    question: "To determine the modulus of rupture, the size of test specimen used is",
+    options: [
+      "150 x150 x500 mm",
+      "100 x100 x700 mm",
+      "150 x150 x700 mm",
+      "100 x100 x500 mm",
+    ],
+    answer: 3
+  },
+  {
+    question: "The property of fresh concrete, in which the water in the mix tends to rise to the surface",
+    options: [
+      "segregation",
+      "bleeding",
+      "bulking",
+      "creep",
+    ],
+    answer: 2
+  },
+  {
+    question: "Select the incorrect statement",
+    options: [
+      "Lean mixes bleed more as compared to rich ones.",
+      "Bleeding can be minimized by adding pozzuolana finer aggregate.",
+      "Bleeding can be increased by addition 'of calcium chloride.",
+      "none of the above",
+    ],
+    answer: 4
+  },
+  {
+    question: "The property of the ingredients to separate from each other while placing the concrete is",
+    options: [
+      "segregation",
+      "compaction",
+      "shrinkage",
+      "bulking",
+    ],
+    answer: 1
+  },
+  {
+    question: "Workability of concrete is directly proportional to",
+    options: [
+      "aggregate cement ratio",
+      "time of transit",
+      "grading of the aggregate",
+      "all of above",
+    ],
+    answer: 3
+  },
+  {
+    question: "Workability of concrete is inversely proportional to",
+    options: [
+      "time of transit",
+      "water-cement ratio",
+      "the air in the mix",
+      "size of aggregate",
+    ],
+    answer: 1
+  },
+  {
+    question: "Approximate value of shrinkage strain in concrete, is",
+    options: [
+      "0.003",
+      "0.0003",
+      "0.00003",
+      "0.03",
+    ],
+    answer: 2
+  },
+  {
+    question: "Air entrainment in the concrete increases",
+    options: [
+      "workability",
+      "strength",
+      "the effects of temperature variations",
+      "the unit weight",
+    ],
+    answer: 1
+  },
+  {
+    question: "The relation between modulus of rupture fcr, splitting strength fcs and direct tensile",
+    options: [
+      "tcr -rcs = tct",
+      "fcr>fcs>fct.",
+      "fcr",
+      "fc5>fcr>fC.",
+    ],
+    answer: 2
+  },
+  {
+    question: "The approximate value of the ratio between direct tensile strength and flexural strength",
+    options: [
+      "0.33",
+      "0.5",
+      "0.75",
+      "1.0",
+    ],
+    answer: 2
+  },
+  {
+    question: "Strength of concrete increases with",
+    options: [
+      "increase in water-cement ratio",
+      "increase in fineness of cement",
+      "decrease in curing time",
+      "decrease in size of aggregate",
+    ],
+    answer: 2
+  },
+  {
+    question: "The relation between modulus of rupture fcr and characteristic strength of concrete fck is",
+    options: [
+      "fcr=0.35√fck",
+      "fcr=0.5√fck",
+      "fcr=0.7√fck",
+      "fcr=1.2√fck",
+    ],
+    answer: 3
+  },
+  {
+    question: "The compressive strength of 100 mm cube as compared to 150 mm cube is always",
+    options: [
+      "less",
+      "more",
+      "equal",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "According to IS : 456 -1978, the modulus of elasticity of concrete Ec (in N/mm2) can be",
+    options: [
+      "Ec = = 5700√fck",
+      "Ec = = 570√fck",
+      "Ec = = 5700√fck",
+      "Ec = 700√fck , fck is the characteristic strength in N/mm2",
+    ],
+    answer: 1
+  },
+  {
+    question: "Increase in the moisture content in con-crete",
+    options: [
+      "reduces the strength",
+      "increases the strength",
+      "does not change the strength",
+      "all of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "As compared to ordinary portland cement, use of pozzuolanic cement",
+    options: [
+      "reduces workability",
+      "increases bleeding",
+      "increases shrinkage",
+      "increases strength",
+    ],
+    answer: 3
+  },
+  {
+    question: "Admixtures which cause early setting, and hardening of concrete are called",
+    options: [
+      "workability admixtures",
+      "accelerators",
+      "retarders",
+      "air entraining agents",
+    ],
+    answer: 2
+  },
+  {
+    question: "The most commonly used admixture which prolongs the setting and hardening time is",
+    options: [
+      "gypsum",
+      "calcium chloride",
+      "sodium silicate",
+      "all of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "The percentage of voids in cement is approximately",
+    options: [
+      "25%",
+      "40%",
+      "60%",
+      "80%",
+    ],
+    answer: 2
+  },
+  {
+    question: "The strength of concrete after one year as compared to 28 days strength is about",
+    options: [
+      "10 to 15% more",
+      "15 to 20% more",
+      "20 to 25% more",
+      "25 to 50% more",
+    ],
+    answer: 3
+  },
+  {
+    question: "As compared to ordinary portland cement, high alumina cement has",
+    options: [
+      "higher initial setting time but lower final setting time",
+      "lower initial setting time but higher final setting time",
+      "higher initial and final setting times",
+      "lower initial and final setting times",
+    ],
+    answer: 1
+  },
+  {
+    question: "Modulus of rupture of concrete is a measure of",
+    options: [
+      "flexural tensile strength",
+      "direct tensile strength",
+      "compressive strength",
+      "split tensile strength",
+    ],
+    answer: 1
+  },
+  {
+    question: "In order to obtain the best workability of concrete, the preferred shape of aggregate is",
+    options: [
+      "rounded",
+      "elongated",
+      "angular",
+      "all of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "The effect of adding calcium chloride in concrete is",
+    options: [
+      "(i) and (iii)",
+      "(i)and(iv)",
+      "(ii) and (iii)",
+      "(ii) and (iv)",
+    ],
+    answer: 2
+  },
+  {
+    question: "Bulking of sand is maximum if moisture content is about",
+    options: [
+      "2 %",
+      "4%",
+      "6%",
+      "10%",
+    ],
+    answer: 2
+  },
+  {
+    question: "Finer grinding of cement",
+    options: [
+      "affects only the early development of strength",
+      "affects only the ultimate strength",
+      "both (a) and (b)",
+      "does not affect the strength",
+    ],
+    answer: 1
+  },
+  {
+    question: "Poisson's ratio for concrete",
+    options: [
+      "remains constant",
+      "increases with richer mixes",
+      "decreases with richer mixes",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "1% of voids in a concrete mix would reduce its strength by about",
+    options: [
+      "5%",
+      "10 %",
+      "15%",
+      "20%",
+    ],
+    answer: 1
+  },
+  {
+    question: "The fineness modulus of fine aggregate is in the range of",
+    options: [
+      "2.0 to 3.5",
+      "3.5 to 5.0",
+      "5.0 to 7.0",
+      "6.0 to 8.5",
+    ],
+    answer: 1
+  },
+  {
+    question: "The factor of safety for",
+    options: [
+      "steel and concrete are same",
+      "steel is lower than that for concrete",
+      "steel is higher than that for concrete",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "Examine the following statements :",
+    options: [
+      "(i) and (iii)",
+      "(i)and(iv)",
+      "(ii) and (iii)",
+      "(ii) and (iv)",
+    ],
+    answer: 2
+  },
+  {
+    question: "For a reinforced concrete section, the shape of shear stress diagram is",
+    options: [
+      "wholly parabolic",
+      "wholly rectangular",
+      "parabolic above neutral axis and rectangular below neutral axis",
+      "rectangular above neutral axis and parabolic below neutral axis",
+    ],
+    answer: 3
+  },
+  {
+    question: "Diagonal tension in a beam",
+    options: [
+      "is maximum at neutral axis",
+      "decreases below the neutral axis and increases above the neutral axis",
+      "increases below the neutral axis and decreases above the neutral axis",
+      "remains same",
+    ],
+    answer: 3
+  },
+  {
+    question: "If a beam fails in bond, then its bond strength can be increased most economically by",
+    options: [
+      "increasing the depth of beam",
+      "using thinner bars but more in number",
+      "using thicker bars but less in number",
+      "providing vertical stirrups",
+    ],
+    answer: 2
+  },
+  {
+    question: "If nominal shear stress tv exceeds the design shear strength of concrete xc, the nominal",
+    options: [
+      "τv",
+      "τc",
+      "τv - τC",
+      "τv + τc",
+    ],
+    answer: 3
+  },
+  {
+    question: "If the depth of actual neutral axis in a beam is more than the depth of critical neutral axis,",
+    options: [
+      "balanced beam",
+      "under-reinforced beam",
+      "over-reinforced beam",
+      "none of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "If the depth of neutral axis for a singly reinforced rectangular section is represented by kd in",
+    options: [
+      "depends on as, only",
+      "depends on aCbC only",
+      "depends on both crst and acbc",
+      "is independant of both ast and acbc where d is the effective depth, ast is permissible",
+    ],
+    answer: 1
+  },
+  {
+    question: "If the permissible stress in steel in tension is 140 N/mm2, then the depth of neutral axis for",
+    options: [
+      "0.35 d",
+      "0.40 d",
+      "0.45 d",
+      "dependent on grade of concrete also",
+    ],
+    answer: 2
+  },
+  {
+    question: "Modulus of elasticity of steel as per IS : 456-1978 shall be taken as",
+    options: [
+      "20 kN/cm2",
+      "200 kN/cm2",
+      "200kN/mm2",
+      "2xl06N/cm2",
+    ],
+    answer: 3
+  },
+  {
+    question: "Minimum grade of concrete to be used in reinforced concrete as per IS:456-1978 is",
+    options: [
+      "M15",
+      "M20",
+      "M 10",
+      "M25",
+    ],
+    answer: 1
+  },
+  {
+    question: "For concreting of heavily reinforced sections without vibration, the workability of concrete",
+    options: [
+      "0.75-0.80",
+      "0.80-0.85",
+      "0.85 - 0.92",
+      "above 0.92",
+    ],
+    answer: 4
+  },
+  {
+    question: "Maximum quantity of water needed per 50 kg of cement for M 15 grade of concrete is",
+    options: [
+      "28 litres",
+      "30 litres",
+      "32 litres",
+      "34 litres",
+    ],
+    answer: 3
+  },
+  {
+    question: "In case of hand mixing of concrete, the extra cement to be added is",
+    options: [
+      "5%",
+      "10%",
+      "15%",
+      "20%",
+    ],
+    answer: 2
+  },
+  {
+    question: "For walls, columns and vertical faces of all structural members, the form work is generally",
+    options: [
+      "24 to 48 hours",
+      "3 days",
+      "7 days",
+      "14 days",
+    ],
+    answer: 1
+  },
+  {
+    question: "The individual variation between test strength of sample should not be more than",
+    options: [
+      "±5% of average",
+      "± 10% of average",
+      "± 15% of average",
+      "±20% of average",
+    ],
+    answer: 3
+  },
+  {
+    question: "One of the criteria for the effective width of flange of T-beam is bf =—+ bw +6Df 6 In above",
+    options: [
+      "effective span of T-beam",
+      "distance between points of zero mo-ments in the beam",
+      "distance between points of maximum moments in the beam",
+      "clear span of the T-beam",
+    ],
+    answer: 2
+  },
+  {
+    question: "For a cantilever of effective depth of 0.5m, the maximum span to satisfy vertical deflection",
+    options: [
+      "3.5 m",
+      "4 m",
+      "4.5 m",
+      "5 m",
+    ],
+    answer: 1
+  },
+  {
+    question: "For a simply supported beam of span 15m, the minimum effective depth to satisfy the",
+    options: [
+      "600 mm",
+      "750 mm",
+      "900 mm",
+      "more than 1 m",
+    ],
+    answer: 2
+  },
+  {
+    question: "For a continuous slab of 3 m x 3.5 m size, the minimum overall depth of slab to satisfy",
+    options: [
+      "50 mm",
+      "75 mm",
+      "100 mm",
+      "120 mm",
+    ],
+    answer: 2
+  },
+  {
+    question: "According to IS : 456-1978, the fiexural strength of concrete is",
+    options: [
+      "directly proportional to compressive strength",
+      "inversely proportional to compressive strength",
+      "directly proportional to square root of compressive strength\fd) inversely proportional to square root of compressive strength",
+    ],
+    answer: 3
+  },
+  {
+    question: "According to IS : 456-1978, the column or the strut is the member whose effective length is",
+    options: [
+      "the least lateral dimension",
+      "2 times the least lateral dimension",
+      "3 times the least lateral dimension",
+      "4 times the least lateral dimension",
+    ],
+    answer: 3
+  },
+  {
+    question: "According to IS : 456- 1978, minimum slenderness ratio for a short column is",
+    options: [
+      "less than 12",
+      "less than 18",
+      "between 18 and 24",
+      "more than 24",
+    ],
+    answer: 1
+  },
+  {
+    question: "Lap length in compression shall not be less than",
+    options: [
+      "15 Φ",
+      "20 Φ",
+      "24 Φ",
+      "30 Φ",
+    ],
+    answer: 3
+  },
+  {
+    question: "The minimum cover in a slab should neither be less than the diameter of bar nor less",
+    options: [
+      "10 mm",
+      "15 mm",
+      "25 mm",
+      "13 mm",
+    ],
+    answer: 2
+  },
+  {
+    question: "For a longitudinal reinforcing bar in a column, the minimum cover shall neither be less",
+    options: [
+      "15 mm",
+      "25 mm",
+      "30mm",
+      "40 mm",
+    ],
+    answer: 4
+  },
+  {
+    question: "The ratio of the diameter of reinforcing bars and the slab thickness is",
+    options: [
+      "1/4",
+      "1/5",
+      "1/6",
+      "1/8",
+    ],
+    answer: 4
+  },
+  {
+    question: "According to IS: 456-1978, the maximum reinforcement in a column is",
+    options: [
+      "2 %",
+      "4%",
+      "6 %",
+      "8 %",
+    ],
+    answer: 3
+  },
+  {
+    question: "The percentage of reinforcement in case of slabs, when high strength deformed bars",
+    options: [
+      "0.15",
+      "0.12",
+      "0.30",
+      "1.00",
+    ],
+    answer: 2
+  },
+  {
+    question: "Which of the following statements is incorrect ?",
+    options: [
+      "Minimum cross sectional area of longitudinal reinforcement in a column is 0.8%.",
+      "Spacing of longitudinal bars measured along the periphery of column should not exceed",
+      "Reinforcing bars in a column should not be less than 12 mm in diameter.",
+      "The number of longitudinal bars pro-vided in a circular column should not be less than",
+    ],
+    answer: 4
+  },
+  {
+    question: "Which of the following statements is incorrect ?",
+    options: [
+      "Higher Vee-Bee time shows lower workability.",
+      "Higher slump shows higher workability.",
+      "Higher compacting factor shows higher workability.",
+      "none of the above",
+    ],
+    answer: 4
+  },
+  {
+    question: "Minimum pitch of transverse reinforce¬ment in a column is",
+    options: [
+      "the least lateral dimension of the member",
+      "sixteen times the smallest diameter of longitudinal reinforcement bar to be tied",
+      "forty-eight times the diameter of transverse reinforcement",
+      "lesser of the above three values",
+    ],
+    answer: 4
+  },
+  {
+    question: "Maximum distance between expansion joints in structures as per IS : 456 - 1978 is",
+    options: [
+      "20 m",
+      "30 m",
+      "45 m",
+      "60 m",
+    ],
+    answer: 3
+  },
+  {
+    question: "A continuous beam is deemed to be a deep beam when the ratio of effective span to",
+    options: [
+      "1.5",
+      "2.0",
+      "2.5",
+      "3.0",
+    ],
+    answer: 3
+  },
+  {
+    question: "Critical section for shear in case of flat slabs is at a distance of",
+    options: [
+      "effective depth of slab from periphery of column/drop panel",
+      "d/2 from periphery of column/capital/ drop panel",
+      "at the drop panel of slab",
+      "at the periphery of column",
+    ],
+    answer: 2
+  },
+  {
+    question: "Minimum thickness of load bearing RCC wall should be",
+    options: [
+      "50 mm",
+      "100 mm",
+      "150 mm",
+      "200 mm",
+    ],
+    answer: 2
+  },
+  {
+    question: "If the storey height is equal to length of RCC wall, the percentage increase in strength is",
+    options: [
+      "0",
+      "10",
+      "20",
+      "30",
+    ],
+    answer: 2
+  },
+  {
+    question: "In reinforced concrete footing on soil, the minimum thickness at edge should not be less",
+    options: [
+      "100 mm",
+      "150 mm",
+      "200 mm",
+      "250 mm",
+    ],
+    answer: 2
+  },
+  {
+    question: "The slab is designed as one way if the ratio of long span to short span is",
+    options: [
+      "less than 1",
+      "between 1 and 1.5",
+      "between 1.5 and 2",
+      "greater than 2",
+    ],
+    answer: 4
+  },
+  {
+    question: "Ratio of permissible stress in direct compression and bending compression is",
+    options: [
+      "less than 1",
+      "between 1 and 1.5",
+      "between 1.5 and 2.0",
+      "greater than 2",
+    ],
+    answer: 1
+  },
+  {
+    question: "A higher modular ratio shows",
+    options: [
+      "higher compressive strength of con-crete",
+      "lower compressive strength of concrete",
+      "higher tensile strength of steel",
+      "lower tensile strength of steel",
+    ],
+    answer: 2
+  },
+  {
+    question: "The average permissible stress in bond for plain bars in tension is",
+    options: [
+      "increased by 10% for bars in compression",
+      "increased by 25% for bars in compression",
+      "decreased by 10% for bars in compression",
+      "decreased by 25% for bars in com-pression",
+    ],
+    answer: 2
+  },
+  {
+    question: "In working stress design, permissible bond stress in the case of deformed bars is more",
+    options: [
+      "10%",
+      "20%",
+      "30%",
+      "40%",
+    ],
+    answer: 4
+  },
+  {
+    question: "The main reason for providing number of reinforcing bars at a support in a simply",
+    options: [
+      "compressive stress",
+      "shear stress",
+      "bond stress",
+      "tensile stress",
+    ],
+    answer: 3
+  },
+  {
+    question: "Half of the main steel in a simply supported slab is bent up near the support at a",
+    options: [
+      "l/3",
+      "l/5",
+      "l/7",
+      "l/10",
+    ],
+    answer: 3
+  },
+  {
+    question: "When shear stress exceeds the permissible limit in a slab, then it is reduced by",
+    options: [
+      "increasing the depth",
+      "providing shear reinforcement",
+      "using high strength steel",
+      "using thinner bars but more in number",
+    ],
+    answer: 1
+  },
+  {
+    question: "If the size of panel in a flat slab is 6m x 6m, then as per Indian Standard Code, the widths",
+    options: [
+      "3.0 m and 1.5 m",
+      "1.5 m and 3.0 m",
+      "3.0 m and 3.0 m",
+      "1.5 m and 1.5 m",
+    ],
+    answer: 3
+  },
+  {
+    question: "For a slab supported on its four edges with corners held down and loaded uniformly, the",
+    options: [
+      "is always less than 1",
+      "is always greater than 1",
+      "can be more than 1",
+      "can be less than 1",
+    ],
+    answer: 1
+  },
+  {
+    question: "The permissible diagonal tensile stress in reinforced brick work is",
+    options: [
+      "about 0.1 N/mm2",
+      "zero",
+      "0.3 N/mm2 to 0.7 N/mm2",
+      "about 1.0 N/mm2",
+    ],
+    answer: 1
+  },
+  {
+    question: "The limits of percentage p of the longitudinal reinforce-ment in a column is given by",
+    options: [
+      "0.15% to 2%",
+      "0.8% to 4%",
+      "0.8% to 6%",
+      "0.8% to 8%",
+    ],
+    answer: 3
+  },
+  {
+    question: "The minimum diameter of longitudinal bars in a column is",
+    options: [
+      "6 mm",
+      "8 mm",
+      "12 mm",
+      "16 mm",
+    ],
+    answer: 3
+  },
+  {
+    question: "The minimum cover to the ties or spirals should not be less than",
+    options: [
+      "15 mm",
+      "20 mm",
+      "25 mm",
+      "50mm",
+    ],
+    answer: 3
+  },
+  {
+    question: "The load carrying capacity of a helically reinforced column as compared to that of a tied",
+    options: [
+      "5% less",
+      "10% less",
+      "5% more",
+      "10% more",
+    ],
+    answer: 3
+  },
+  {
+    question: "The diameter of ties in a column should be",
+    options: [
+      "more than or equal to one fourth of diameter of main bar",
+      "more than or equal to 5 mm",
+      "more than 5 mm but less than one-fourth of diameter of main bar",
+      "more than 5 mm and also more than one-fourth of diameter of main bar",
+    ],
+    answer: 4
+  },
+  {
+    question: "Due to circumferential action of the spiral in a spirally reinforced column",
+    options: [
+      "capacity of column is decreased",
+      "ductility of column reduces",
+      "capacity of column is decreased but ductility of column increases",
+      "both the capacity of column and ductility of column increase",
+    ],
+    answer: 4
+  },
+  {
+    question: "Maximum percentage reinforcement in case of slabs is limited to",
+    options: [
+      "2",
+      "4",
+      "6",
+      "8",
+    ],
+    answer: 2
+  },
+  {
+    question: "Which of the following R.C. retaining walls is suitable for heights beyond 6m?",
+    options: [
+      "L-shaped wall",
+      "T-shaped wall",
+      "counterfort type",
+      "all of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "For the design of retaining walls, the minimum factor of safety against overturning is",
+    options: [
+      "1.5",
+      "2.0",
+      "2.5",
+      "3.0",
+    ],
+    answer: 2
+  },
+  {
+    question: "In counterfort type retaining walls",
+    options: [
+      "(i) and (ii)",
+      "(i)and(iv)",
+      "(ii) and (iii)",
+      "(iii) and (iv)",
+    ],
+    answer: 1
+  },
+  {
+    question: "A T-shaped retaining wall mainly conssits of",
+    options: [
+      "one cantilever",
+      "two cantilevers",
+      "three cantilevers",
+      "four cantilevers",
+    ],
+    answer: 3
+  },
+  {
+    question: "In T-shaped R C. retaining walls, the main reinforcement in the stem is provided on",
+    options: [
+      "the front face in one direction",
+      "the front face in both directions",
+      "the inner face in one direction",
+      "the inner face in both directions",
+    ],
+    answer: 3
+  },
+  {
+    question: "The main reinforcement in the toe of a T- shaped R C. retaining wall is provided on",
+    options: [
+      "only (ii) is correct",
+      "(i) and (ii) are correct",
+      "(iii) and (iv) are correct",
+      "only (iv) is correct",
+    ],
+    answer: 4
+  },
+  {
+    question: "The temperature reinforcement in the vertical slab of a T-shaped R.C. retaining wall is",
+    options: [
+      "not needed",
+      "provided equally on inner and front faces",
+      "provided more on inner face than on front face",
+      "provided more on front face than on inner face",
+    ],
+    answer: 4
+  },
+  {
+    question: "The main reinforcement in the heel of a T-shaped R.C. retaining wall is provided on",
+    options: [
+      "top face perpendicular to wall",
+      "bottom face perpendicular to wall",
+      "both top and bottom faces perpendi-cular to wall",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "In a counterfort retaining wall, the main reinforcement is provided on the",
+    options: [
+      "(i) and (ii),",
+      "(ii) and (iii)",
+      "(i) and (iv)",
+      "(iii) and (iv)",
+    ],
+    answer: 3
+  },
+  {
+    question: "In counterfort retaining walls, the main reinforcement in the stem at support is",
+    options: [
+      "not provided",
+      "provided only on inner face",
+      "provided only on front face",
+      "provided both on inner and front faces",
+    ],
+    answer: 2
+  },
+  {
+    question: "In the design of a front counterfort in a counterfort retaining wall, the main reinforcement",
+    options: [
+      "only (i)",
+      "only (ii)",
+      "both (i) and (iv)",
+      "both (ii) and (iii)",
+    ],
+    answer: 3
+  },
+  {
+    question: "In a counterfort retaining wall, the main reinforcement in the stem at mid span is provided",
+    options: [
+      "front face only",
+      "inner face only",
+      "both front face and inner face",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "The depth of footing for an isolated column is governed by",
+    options: [
+      "only (i)",
+      "(i)and(ii)",
+      "(i) and (iii)",
+      "(i), (ii) and (iii)",
+    ],
+    answer: 4
+  },
+  {
+    question: "If the foundations of all the columns of a structure are designed on the total live and",
+    options: [
+      "there will be no settlement of columns",
+      "there will be no differential settlement",
+      "the settlement of exterior columns will be more than interior columns",
+      "the settlement of interior columns will be more than exterior columns",
+    ],
+    answer: 3
+  },
+  {
+    question: "To minimise the effect of differential settlement, the area of a footing should be designed",
+    options: [
+      "dead load only",
+      "dead load + live load",
+      "dead load + fraction of live load",
+      "live load + fraction of dead load",
+    ],
+    answer: 3
+  },
+  {
+    question: "The critical section for finding maximum bending moment for footing under masonry wall",
+    options: [
+      "at the middle of the wall",
+      "at the edge of the wall",
+      "halfway between the middle and edge of the wall",
+      "at a distance equal to effective depth of footing from the edge of the wall",
+    ],
+    answer: 3
+  },
+  {
+    question: "In a pile of length L, the points of suspension from ends for lifting it are located at",
+    options: [
+      "0.207L",
+      "0.25L",
+      "0.293L",
+      "0.333L",
+    ],
+    answer: 1
+  },
+  {
+    question: "During erection, the pile of length L is supported by a crane at a distance of",
+    options: [
+      "0.207L",
+      "0.293L",
+      "0.707L",
+      "0.793L",
+    ],
+    answer: 3
+  },
+  {
+    question: "While designing the pile as a column, the end conditions are nearly",
+    options: [
+      "both ends hinged",
+      "both ends fixed",
+      "one end fixed and other end hinged",
+      "one end fixed and other end free",
+    ],
+    answer: 3
+  },
+  {
+    question: "The recommended value of modular ratio for reinforced brick work is",
+    options: [
+      "18",
+      "30",
+      "40",
+      "58",
+    ],
+    answer: 3
+  },
+  {
+    question: "According to ISI recommendations, the maximum depth of stress block for balanced",
+    options: [
+      "0.43 d",
+      "0.55 d",
+      "0.68 d",
+      "0.85 d",
+    ],
+    answer: 1
+  },
+  {
+    question: "Assertion A : The load factor for live load is greater than that for dead load.",
+    options: [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true.",
+    ],
+    answer: 1
+  },
+  {
+    question: "The design yield stress of steel according to IS: 456-1978 is (where fy is the characteristic yield strength of steel)",
+    options: [
+      "0.37 fy",
+      "0.57 fy",
+      "0.67 fy",
+      "0.87 fy",
+    ],
+    answer: 4
+  },
+  {
+    question: "According to Whitney's theory, ultimate strain of concrete is assumed to be",
+    options: [
+      "0.03%",
+      "0.1%",
+      "0.3%",
+      "3%",
+    ],
+    answer: 3
+  },
+  {
+    question: "According to Whitney's theory, depth of stress block for a balanced section of a concrete",
+    options: [
+      "0.43 d",
+      "0.537 d",
+      "0.68 d",
+      "0.85 d",
+    ],
+    answer: 2
+  },
+  {
+    question: "The load factors for live load and dead load are taken respectively as",
+    options: [
+      "1.5 and 2.2",
+      "2.2 and 1.5",
+      "1.5 and 1.5",
+      "2.2 and 2.2",
+    ],
+    answer: 2
+  },
+  {
+    question: "As per Whitney's theory, the maximum moment of resistance of the balanced section of a",
+    options: [
+      "^acybd2",
+      "^acybd2",
+      "0.185acybd2",
+      "0.43acybd2",
+    ],
+    answer: 2
+  },
+  {
+    question: "The effect of creep on modular ratio is",
+    options: [
+      "to decrease it",
+      "to increase it",
+      "either to decrease or to increase it",
+      "to keep it unchanged",
+    ],
+    answer: 2
+  },
+  {
+    question: "Shrinkage of concrete depends upon",
+    options: [
+      "(i) and (ii)",
+      "(ii) and (iii)",
+      "only (iii)",
+      "All (i), (ii) and (iii)",
+    ],
+    answer: 1
+  },
+  {
+    question: "Due to shrinkage stresses, a simply supported beam having reinforcement only at",
+    options: [
+      "deflect downward",
+      "deflect upward",
+      "deflect downward or upward",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "In symmetrically reinforced sections, shrinkage stresses in concrete and steel are",
+    options: [
+      "compressive and tensile",
+      "tensile and compressive",
+      "both compressive",
+      "both tensile",
+    ],
+    answer: 2
+  },
+  {
+    question: "A beam curved in plan is designed for",
+    options: [
+      "bending moment and shear",
+      "bending moment and torsion",
+      "shear and torsion",
+      "bending moment, shear and torsion",
+    ],
+    answer: 4
+  },
+  {
+    question: "In a spherical dome subjected to concentrated load at crown or uniformly distributed",
+    options: [
+      "zero",
+      "tensile",
+      "compressive",
+      "tensile or compressive",
+    ],
+    answer: 3
+  },
+  {
+    question: "Sinking of an intermediate support of a continuous beam",
+    options: [
+      "(i) and (iii)",
+      "(i)and(iv)",
+      "(ii) and (iii)",
+      "(ii) and (iv)",
+    ],
+    answer: 2
+  },
+  {
+    question: "The maximum value of hoop compression in a dome is given by",
+    options: [
+      "wR / 4d",
+      "wR/2d",
+      "wR/d",
+      "2wR/d",
+    ],
+    answer: 2
+  },
+  {
+    question: "In a spherical dome the hoop stress due to a concentrated load at crown is",
+    options: [
+      "compressive everywhere",
+      "tensile everywhere",
+      "partly compressive and partly tensile",
+      "zero",
+    ],
+    answer: 2
+  },
+  {
+    question: "In a ring beam subjected to uniformly distributed load",
+    options: [
+      "(i) and (iii)",
+      "(i)and(iv)",
+      "(ii) and (iii)",
+      "(ii) and (iv)",
+    ],
+    answer: 1
+  },
+  {
+    question: "In prestressed concrete",
+    options: [
+      "forces of tension and compression change but lever arm remains unchanged",
+      "forces of tension and compressions remain unchanged but lever arm changes with the",
+      "both forces of tension and compres-sion as well as lever arm change",
+      "both forces of tension and compres-sion as well as lever arm remain unchanged",
+    ],
+    answer: 2
+  },
+  {
+    question: "The purpose of reinforcement in prestressed concrete is",
+    options: [
+      "to provide adequate bond stress",
+      "to resist tensile stresses",
+      "to impart initial compressive stress in concrete",
+      "all of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "Normally prestressing wires are arranged in the",
+    options: [
+      "upper part of the beam",
+      "lower part of the beam",
+      "centre",
+      "anywhere",
+    ],
+    answer: 2
+  },
+  {
+    question: "Most common method of prestressing used for factory production is",
+    options: [
+      "Long line method",
+      "Freyssinet system",
+      "Magnel-Blaton system",
+      "Lee-Macall system",
+    ],
+    answer: 1
+  },
+  {
+    question: "Select the incorrect statement",
+    options: [
+      "The loss of prestress is more in pre-tensioning system than in post-tensioning system.",
+      "Pretensioning system has greater certainty about its durability.",
+      "For heavy loads and large spans in buildings or bridges, post-tensioning system is",
+      "none of the above",
+    ],
+    answer: 4
+  },
+  {
+    question: "Which of the following losses of prestress occurs only in pretensioning and not in",
+    options: [
+      "elastic shortening of concrete",
+      "shrinkage of concrete",
+      "creep of concrete",
+      "loss due to friction",
+    ],
+    answer: 1
+  },
+  {
+    question: "Prestress loss due to friction occurs",
+    options: [
+      "only in post-tensioned beams",
+      "only in pretensioned beams",
+      "in both post-tensioned and preten-sioned beams",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of the following has high tensile strength ?",
+    options: [
+      "plain hot rolled wires",
+      "cold drawn wires",
+      "heat treated rolled wires",
+      "all have same tensile strength",
+    ],
+    answer: 2
+  },
+  {
+    question: "High carbon content in the steel causes",
+    options: [
+      "decrease in tensile strength but increase in ductility",
+      "increase in tensile strength but decrease in ductility",
+      "decrease in both tensile strength and ductility",
+      "increase in both tensile strength and ductility",
+    ],
+    answer: 2
+  },
+  {
+    question: "Stress strain curve of high tensile steel",
+    options: [
+      "has a definite yield point",
+      "does not show definite yield point but yield point is defined by 0.1% proof stress",
+      "does not show definite yield point but yield point is defined by 0.2% proof stress",
+      "does not show definite yield point but yield point is defined by 2% proof stress,",
+    ],
+    answer: 3
+  },
+  {
+    question: "Select the correct statement",
+    options: [
+      "Elastic modulus of high tensile steel is nearly the same as that of mild steel.",
+      "Elastic modulus of high tensile steel is more than that of mild steel.",
+      "Carbon percentage in high carbon steel is less than that in mild steel.",
+      "High tensile steel is cheaper than mild steel.",
+    ],
+    answer: 1
+  },
+  {
+    question: "Cube strength of controlled concrete to be used for pretensioned and post-tensioned",
+    options: [
+      "35 MPa and 42 MPa",
+      "42 MPa and 35 MPa",
+      "42 MPa and 53 MPa",
+      "53 MPa and 42 MPa",
+    ],
+    answer: 2
+  },
+  {
+    question: "Ultimate strength of cold drawn high steel wires",
+    options: [
+      "increases with increase in diameter of bar",
+      "decreases with increase in diameter of bar",
+      "does not depend on diameter of bar",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "Prestressing losses in post-tensioned and pre-tensioned beams are respectively",
+    options: [
+      "15% and 20%",
+      "20% and 15%",
+      "15% and 15%",
+      "20% and 20%",
+    ],
+    answer: 1
+  },
+  {
+    question: "In concrete, use of angular crushed aggregate in place of natural rounded gravel affects",
+    options: [
+      "direct tensile strength",
+      "split tensile strength",
+      "flexural tensile strength",
+      "compressive strength",
+    ],
+    answer: 3
+  },
+  {
+    question: "Ratio of compressive strength to tensile strength of concrete",
+    options: [
+      "increases with age",
+      "decreases with age",
+      "remains constant",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "According to Indian Standards, the grading of fine aggregates is divided into",
+    options: [
+      "two zones",
+      "three zones",
+      "four zones",
+      "five zones",
+    ],
+    answer: 3
+  },
+  {
+    question: "Assertion A : Lightweight concrete exhi¬bits higher shrinkage than normal weight",
+    options: [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A.and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true",
+    ],
+    answer: 3
+  },
+  {
+    question: "Endurance limit of mild steel is approximately equal to,",
+    options: [
+      "0.3",
+      "0.5",
+      "0.7",
+      "0.8",
+    ],
+    answer: 2
+  },
+  {
+    question: "With the increase in rate of loading during testing, compressive strength of concrete",
+    options: [
+      "increases",
+      "decreases",
+      "remains same",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "For a given aggregate content increasing the water-cement ratio in concrete",
+    options: [
+      "increases shrinkage",
+      "decreases shrinkage",
+      "does not change shrinkage",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "Assertion A : The net loss of strength due to air entrainment of a richer mix is higher",
+    options: [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true",
+    ],
+    answer: 1
+  },
+  {
+    question: "The bond strength between steel reinforcement and concrete is affected by i)",
+    options: [
+      "(i) and (ii)",
+      "(ii) and (iii)",
+      "(i) and (iii)",
+      "(i), (ii) and (iii)",
+    ],
+    answer: 4
+  },
+  {
+    question: "The bond strength between steel and concrete is due to",
+    options: [
+      "friction",
+      "adhesion",
+      "both friction and adhesion",
+      "none of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "Impact strength of concrete increases by using",
+    options: [
+      "(i) and (ii)",
+      "(ii) and (iii)",
+      "(i) and (iii)",
+      "(i), (ii) and (iii)",
+    ],
+    answer: 3
+  },
+  {
+    question: "Impact strength of concrete is greater for",
+    options: [
+      "(i) and (ii)",
+      "(i) and (iii)",
+      "only (i)",
+      "only (ii)",
+    ],
+    answer: 4
+  },
+  {
+    question: "If the contributions of tricalcium silicate, dicalcium silicate, tricalcium aluminate",
+    options: [
+      "W>.X>Y>Z",
+      "X>W>Y>Z",
+      "W>X>Z>Y",
+      "W>Y>X>Z",
+    ],
+    answer: 1
+  },
+  {
+    question: "The initial and final setting times for ordinary portland cement are approxi¬",
+    options: [
+      "T = 530 + t",
+      "T = 270 + t",
+      "T = 90+1.2t",
+      "T = 600-1.2t",
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true",
+    ],
+    answer: 3
+  },
+  {
+    question: "Amount of gypsum required to be added to the clinker depends on the following contents",
+    options: [
+      "(i) and (ii)",
+      "(ii) and (iii)",
+      "(iii) and (iv)",
+      "(i)and(iv)",
+    ],
+    answer: 2
+  },
+  {
+    question: "The diameter of needle used in Vicat's apparatus for the determination of initial",
+    options: [
+      "0.5 mm",
+      "1 mm",
+      "5 mm",
+      "10mm",
+    ],
+    answer: 1
+  },
+  {
+    question: "The heat of hydration of cement can be reduced by",
+    options: [
+      "reducing the proportions of C3A and C3S",
+      "increasing the proportions of C3A and C3S",
+      "increasing the fineness of cement",
+      "both (a) and (c)",
+    ],
+    answer: 3
+  },
+  {
+    question: "Assertion A : Rapid hardening cement is generally not used in mass concrete",
+    options: [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true.",
+    ],
+    answer: 3
+  },
+  {
+    question: "If the angularity number of an aggregate is increased, then the workability of the",
+    options: [
+      "increase",
+      "decrease",
+      "not change",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "If W,, W2, W3 and W4 are the weights of sand in oven dry, air dry, saturated but surface",
+    options: [
+      "W3 - W,",
+      "W4-W2",
+      "W4-W3",
+      "W3-W2",
+    ],
+    answer: 3
+  },
+  {
+    question: "The ordinate of grading curve of an aggregate represents",
+    options: [
+      "cumulative percentage passing each sieve plotted on normal scale",
+      "cumulative percentage passing each sieve plotted on logarithmic scale",
+      "sieve size plotted on normal scale",
+      "sieve size plotted on logarithmic scale",
+    ],
+    answer: 1
+  },
+  {
+    question: "Increase in fineness modulus of aggregate indicates",
+    options: [
+      "finer grading",
+      "coarser grading",
+      "gap grading",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "Weight of an oven dry sand and air dry sand are 500 gm and 520 gm respectively.",
+    options: [
+      "1%",
+      "4%",
+      "4.76%",
+      "5%",
+    ],
+    answer: 4
+  },
+  {
+    question: "Soundness test of cement by Le-Chatelier's apparatus gives unsoundness due to",
+    options: [
+      "free lime only",
+      "magnesia only",
+      "both free lime and magnesia",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "Maximum permissible limit of magnesia content in ordinary Portland cement is",
+    options: [
+      "4%",
+      "6%",
+      "8%",
+      "10%",
+    ],
+    answer: 2
+  },
+  {
+    question: "A metallic tape is made of",
+    options: [
+      "steel",
+      "invar",
+      "linen",
+      "cloth and wires",
+    ],
+    answer: 4
+  },
+  {
+    question: "For a well-conditioned triangle, no angle should be less than",
+    options: [
+      "20°",
+      "30°",
+      "45°",
+      "60°",
+    ],
+    answer: 2
+  },
+  {
+    question: "The angle of intersection of the two plane mirrors of an optical square is",
+    options: [
+      "30°",
+      "45°",
+      "60°",
+      "90°",
+    ],
+    answer: 2
+  },
+  {
+    question: "The allowable length of an offset depends upon the",
+    options: [
+      "degree of accuracy required",
+      "method of setting out the perpendiculars and nature of ground",
+      "scale of plotting",
+      "all of the above",
+    ],
+    answer: 4
+  },
+  {
+    question: "Which of the following angles can be set out with the help of French cross staff?",
+    options: [
+      "45° only",
+      "90° only",
+      "either 45° or 90°",
+      "any angle",
+    ],
+    answer: 3
+  },
+  {
+    question: "Which of the following methods of offsets involves less measurement on the ground?",
+    options: [
+      "method of perpendicular offsets",
+      "method of oblique offsets",
+      "method of ties",
+      "all involve equal measurement on the ground",
+    ],
+    answer: 1
+  },
+  {
+    question: "The permissible error in chaining for measurement with chain on rough or hilly ground is",
+    options: [
+      "1 in 100",
+      "1 in 250",
+      "1 in 500",
+      "1 in 1000",
+    ],
+    answer: 2
+  },
+  {
+    question: "The correction for sag is",
+    options: [
+      "always additive",
+      "always subtractive",
+      "always zero",
+      "sometimes additive and sometimes subtractive",
+    ],
+    answer: 2
+  },
+  {
+    question: "Cross staff is an instrument used for",
+    options: [
+      "measuring approximate horizontal angles",
+      "setting out right angles",
+      "measuring bearings of the lines",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "Normal tension is that pull which",
+    options: [
+      "is used at the time of standardising the tape",
+      "neutralizes the effect due to pull and sag",
+      "makes the correction due to sag equal to zero",
+      "makes the correction due to pull equal to zero",
+    ],
+    answer: 2
+  },
+  {
+    question: "Which of the following is not used in measuring perpendicular offsets ?",
+    options: [
+      "line ranger",
+      "steel tape",
+      "optical square",
+      "cross staff",
+    ],
+    answer: 1
+  },
+  {
+    question: "If the length of a chain is found to be short on testing, it can be adjusted by?",
+    options: [
+      "straightening the links",
+      "removing one or more small circular rings",
+      "closing the joints of the rings if opened out",
+      "all of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "The maximum tolerance in a 20 m chain is | Surveying Questions",
+    options: [
+      "±2 mm",
+      "±3 mm",
+      "±5 mm",
+      "±8 mm",
+    ],
+    answer: 3
+  },
+  {
+    question: "For accurate work, the steel band should always be used in preference to chain because the",
+    options: [
+      "is lighter than chain",
+      "is easier to handle",
+      "is practically inextensible and is not liable to kinks when in use",
+      "can be easily repaired in the field",
+    ],
+    answer: 3
+  },
+  {
+    question: "The length of a chain is measured from?",
+    options: [
+      "center of one handle to center of other handle",
+      "outside of one handle to outside of other handle",
+      "outside of one handle to inside of other handle",
+      "inside of one handle to inside of other handle",
+    ],
+    answer: 2
+  },
+  {
+    question: "Select the incorrect statement",
+    options: [
+      "The true meridians at different places are parallel to each other.",
+      "The true meridian at any place is not variable.",
+      "The true meridians converge to a point in northern and southern hemispheres.",
+      "The maps prepared by national survey departments of any country are based on true",
+    ],
+    answer: 1
+  },
+  {
+    question: "If the true bearing of a line AB is 269° 30', then the azimuth of the line AB is | Surveying",
+    options: [
+      "0° 30'",
+      "89° 30'",
+      "90° 30'",
+      "269° 30'",
+    ],
+    answer: 3
+  },
+  {
+    question: "In the prismatic compass",
+    options: [
+      "the magnetic needle moves with the box",
+      "the line of the sight does not move with the box",
+      "the magnetic needle and graduated circle do not move with the box",
+      "the graduated circle is fixed to the box and the magnetic needle always remains in the N-S",
+    ],
+    answer: 3
+  },
+  {
+    question: "For a line AB",
+    options: [
+      "the forebearing of AB and back bearing of AB differ by 180°",
+      "the forebearing of AB and back bearing of BA differ by 180°",
+      "both (a) and (b) are correct.",
+      "none is correct",
+    ],
+    answer: 1
+  },
+  {
+    question: "The heaviest I-section for same depth is",
+    options: [
+      "ISMB",
+      "ISLB",
+      "ISHB",
+      "ISWB",
+    ],
+    answer: 3
+  },
+  {
+    question: "Bending compressive and tensile stresses respectively are calculated based on",
+    options: [
+      "net area and gross area",
+      "gross area and net area",
+      "net area in both cases",
+      "gross area in both cases",
+    ],
+    answer: 2
+  },
+  {
+    question: "If the thickness of thinnest outside plate is 10 mm, then the maximum pitch of rivets in",
+    options: [
+      "120 mm",
+      "160 mm",
+      "200 mm",
+      "300 mm",
+    ],
+    answer: 2
+  },
+  {
+    question: "In a gusseted base, when the end of the column is machined for complete bearing on the base",
+    options: [
+      "fully by direct bearing",
+      "fully through fastenings",
+      "50% by direct bearing and 50% through fastenings",
+      "75% by direct bearing and 25% through fastenings",
+    ],
+    answer: 3
+  },
+  {
+    question: "When the axis of load lies in the plane of rivet group, then the rivets are subjected to",
+    options: [
+      "only shear stresses",
+      "only tensile stresses",
+      "both (a) and (b)",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "When the axis of load lies in the plane of rivet group, then the most heavily loaded rivet will be",
+    options: [
+      "is at the maximum distance from CG of the rivet group",
+      "is at the minimum distance from CG of the rivet group",
+      "gives the maximum angle between the two forces Fa and Fm",
+      "gives the minimum angle between the two forces Fa and Fm",
+    ],
+    answer: 4
+  },
+  {
+    question: "Which of the following types of riveted joint is free from bending stresses ?",
+    options: [
+      "lap joint",
+      "butt joint with single cover plate",
+      "butt joint with double cover plates",
+      "none of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "The difference between gross diameter and nominal diameter for the rivets up to 25 mm",
+    options: [
+      "1.0 mm",
+      "1.5 mm",
+      "2.0 mm",
+      "2.5 mm",
+    ],
+    answer: 2
+  },
+  {
+    question: "As compared to field rivets, the shop rivets are",
+    options: [
+      "stronger",
+      "weaker",
+      "equally strong",
+      "any of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "If the thickness of plate to be connected by a rivet is 16 mm, then suitable size of rivet as per",
+    options: [
+      "16 mm",
+      "20 mm",
+      "24 mm",
+      "27 mm",
+    ],
+    answer: 3
+  },
+  {
+    question: "By providing sufficient edge distance, which of the following failures of riveted joint can be",
+    options: [
+      "tension failure of the plate",
+      "shear failure of the rivet",
+      "shear failure of the plate",
+      "crushing failure of the rivet",
+    ],
+    answer: 3
+  },
+  {
+    question: "Minimum pitch of the rivets shall not be less than",
+    options: [
+      "1.5 d",
+      "2.0 d",
+      "2.5 d",
+      "3.0 d",
+    ],
+    answer: 3
+  },
+  {
+    question: "Efficiency of a riveted joint, having the minimum pitch as per IS : 800, is",
+    options: [
+      "40%",
+      "50%",
+      "60%",
+      "70%",
+    ],
+    answer: 3
+  },
+  {
+    question: "Select the correct statement",
+    options: [
+      "Material cost of a rivet is higher than that of a bolt.",
+      "Tensile strength of a bolt is lesser than that of a rivet.",
+      "Bolts are used as a temporary fastenings whereas rivets are used as permanent fastenings.",
+      "Riveting is less noisy than bolting.",
+    ],
+    answer: 3
+  },
+  {
+    question: "Bolts are most suitable to carry",
+    options: [
+      "shear",
+      "bending",
+      "axial tension",
+      "shear and bending",
+    ],
+    answer: 3
+  },
+  {
+    question: "Diameter of a bolt hole is usually taken as",
+    options: [
+      "gross diameter of bolt",
+      "nominal diameter + 1.5 mm",
+      "nominal diameter + 2.0 mm",
+      "nominal diameter of bolt",
+    ],
+    answer: 2
+  },
+  {
+    question: "When the bolts are subjected to reversal of stresses, the most suitable type of bolt is",
+    options: [
+      "black bolt",
+      "ordinary unfinished bolt",
+      "turned and fitted bolt",
+      "high strength bolt",
+    ],
+    answer: 4
+  },
+  {
+    question: "In the cross-section of a weld, throat is the",
+    options: [
+      "minimum dimension",
+      "average dimension",
+      "maximum dimension",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "The effective length of a fillet weld should not be less than",
+    options: [
+      "two times the weld size",
+      "four times the weld size",
+      "six times the weld size",
+      "weld size",
+    ],
+    answer: 2
+  },
+  {
+    question: "For a standard 45° fillet, the ratio of size of fillet to throat thickness is",
+    options: [
+      "1:1",
+      "1 : V2",
+      "V2 : 1",
+      "2: 1",
+    ],
+    answer: 3
+  },
+  {
+    question: "A butt weld is specified by",
+    options: [
+      "effective throat thickness",
+      "plate thickness",
+      "size of weld",
+      "penetration thickness",
+    ],
+    answer: 1
+  },
+  {
+    question: "The actual thickness of butt weld as compared to the thickness of plate is usually",
+    options: [
+      "more",
+      "less",
+      "equal",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "According to IS Specifications, the maximum pitch of rivets in compression is",
+    options: [
+      "lesser of 200 mm and 12 t",
+      "lesser of 200 mm and 161",
+      "lesser of 300 mm and 32 t",
+      "lesser of 3 00 mm and 24 t",
+    ],
+    answer: 1
+  },
+  {
+    question: "A circular column section is generally not used in actual practice because",
+    options: [
+      "it is uneconomical",
+      "it cannot carry the load safely",
+      "it is difficult to connect beams to the round sections",
+      "all of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "The slenderness ratio of a column supported throughout its length by a masonry wall is",
+    options: [
+      "zero",
+      "10",
+      "100",
+      "infinity",
+    ],
+    answer: 1
+  },
+  {
+    question: "According to IS Specifications, the effective length of a column effectively held in position at",
+    options: [
+      "0.67 L",
+      "0.8 L",
+      "L",
+      "1.5 L",
+    ],
+    answer: 2
+  },
+  {
+    question: "The effective length of a battened strut effectively held in position at both ends but not",
+    options: [
+      "1.8 L",
+      "L",
+      "1.1 L",
+      "1.5 L",
+    ],
+    answer: 3
+  },
+  {
+    question: "The maximum slenderness ratio of a compression member carrying both dead and",
+    options: [
+      "180",
+      "200",
+      "250",
+      "350",
+    ],
+    answer: 1
+  },
+  {
+    question: "The maximum slenderness ratio of a steel column, the design of which is governed by wind",
+    options: [
+      "150",
+      "180",
+      "250",
+      "350",
+    ],
+    answer: 3
+  },
+  {
+    question: "According to IS:800, in the Merchant Rankine formula the value of imperfection index (n) is",
+    options: [
+      "1.0",
+      "1.4",
+      "1.8",
+      "2.0",
+    ],
+    answer: 2
+  },
+  {
+    question: "The best arrangement to provide unified behaviour in built up steel columns is by",
+    options: [
+      "lacing",
+      "battening",
+      "tie plates",
+      "perforated cover plates",
+    ],
+    answer: 1
+  },
+  {
+    question: "If the 20 mm rivets are used in lacing bars, then the minimum width of lacing bar should be",
+    options: [
+      "40mm",
+      "60mm",
+      "80mm",
+      "100mm",
+    ],
+    answer: 2
+  },
+  {
+    question: "The use of tie plates in laced columns is",
+    options: [
+      "prohibited",
+      "not prohibited",
+      "permitted at start and end of lacing system only",
+      "permitted between two parts of the lacing",
+    ],
+    answer: 3
+  },
+  {
+    question: "Lacing bars in a steel column should be designed to resist",
+    options: [
+      "bending moment due to 2.5% of the column load",
+      "shear force due to 2.5% of the column load",
+      "2.5% of the column load",
+      "both (a) and (b)",
+    ],
+    answer: 2
+  },
+  {
+    question: "Angle of inclination of the lacing bar with the longitudinal axis of the column should",
+    options: [
+      "10° to 30°",
+      "30° to 40°",
+      "40° to 70°",
+      "90°",
+    ],
+    answer: 3
+  },
+  {
+    question: "Battening is preferable when the",
+    options: [
+      "only (i)",
+      "only (iii)",
+      "(i) and (ii)",
+      "(ii) and (iii)",
+    ],
+    answer: 3
+  },
+  {
+    question: "The effective length of a battened column is increased by",
+    options: [
+      "5%",
+      "10%",
+      "15%",
+      "20%",
+    ],
+    answer: 2
+  },
+  {
+    question: "The overlap of batten plates with the main members in welded connections should be more",
+    options: [
+      "3t",
+      "4t",
+      "6t",
+      "8t",
+    ],
+    answer: 2
+  },
+  {
+    question: "The slenderness ratio of lacing bars should not exceed",
+    options: [
+      "100",
+      "120",
+      "145",
+      "180",
+    ],
+    answer: 3
+  },
+  {
+    question: "Economical depth of a plate girder corresponds to",
+    options: [
+      "minimum weight",
+      "minimum depth",
+      "maximum weight",
+      "minimum thickness of web",
+    ],
+    answer: 1
+  },
+  {
+    question: "Shear buckling of web in a plate girder is prevented by using",
+    options: [
+      "vertical intermediate stiffener",
+      "horizontal stiffener at neutral axis",
+      "bearing stiffener",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "Horizontal stiffener in a plate girder is provided to safeguard against",
+    options: [
+      "shear buckling of web plate",
+      "compression buckling of web plate",
+      "yielding",
+      "all of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "Minimum thickness of web in a plate girder, when the plate is accessible and also exposed to",
+    options: [
+      "5 mm",
+      "6 mm",
+      "8 mm",
+      "10 mm",
+    ],
+    answer: 2
+  },
+  {
+    question: "The web crippling due to excessive bearing stress can be avoided by",
+    options: [
+      "increasing the web thickness",
+      "providing suitable stiffeners",
+      "increasing the length of the bearing plates",
+      "none of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "As per IS : 800, for compression flange, the outstand of flange plates should not exceed",
+    options: [
+      "121",
+      "161",
+      "201",
+      "251",
+    ],
+    answer: 2
+  },
+  {
+    question: "Intermediate vertical stiffeners in a plate girder need be provided if the depth of web exceeds",
+    options: [
+      "501",
+      "851",
+      "200 t",
+      "2501",
+    ],
+    answer: 2
+  },
+  {
+    question: "Bearing stiffener in a plate girder is used to",
+    options: [
+      "transfer the load from the top flange to the bottom one",
+      "prevent buckling of web",
+      "decrease the effective depth of web",
+      "prevent excessive deflection",
+    ],
+    answer: 2
+  },
+  {
+    question: "The forces acting on the web splice of a plate girder are",
+    options: [
+      "axial forces",
+      "shear and axial forces",
+      "shear and bending forces",
+      "axial and bending forces",
+    ],
+    answer: 3
+  },
+  {
+    question: "Gantry girders are designed to resist",
+    options: [
+      "lateral loads",
+      "longitudinal loads and vertical loads",
+      "lateral, longitudinal and vertical loads",
+      "lateral and longitudinal loads",
+    ],
+    answer: 3
+  },
+  {
+    question: "Minimum spacing of vertical stiffeners is limited to",
+    options: [
+      "d/4",
+      "d/3",
+      "d/2",
+      "2d/3",
+    ],
+    answer: 2
+  },
+  {
+    question: "Bearing stiffeners are provided at",
+    options: [
+      "only (i)",
+      "both (i) and (ii)",
+      "both (i) and (iii)",
+      "(i), (ii) and (iii)",
+    ],
+    answer: 3
+  },
+  {
+    question: "Rivets connecting flange angles to cover plates in a plate girder are subjected to",
+    options: [
+      "horizontal shear only",
+      "vertical load only",
+      "both (a) and (b)",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "The maximum spacing of vertical stiffeners is",
+    options: [
+      "1.33 d",
+      "1.25 d",
+      "1.5 d",
+      "1.75 d",
+    ],
+    answer: 3
+  },
+  {
+    question: "The range of economical spacing of trusses varies from",
+    options: [
+      "L/3 to L/5",
+      "L/4to2L/5",
+      "L/3 to L/2",
+      "2L/5 to 3L/5 where L is span",
+    ],
+    answer: 1
+  },
+  {
+    question: "The maximum permissible span of asbestos cement sheets is",
+    options: [
+      "650 mm",
+      "810 mm",
+      "1250 mm",
+      "1680 mm",
+    ],
+    answer: 4
+  },
+  {
+    question: "Normally, the angle of roof truss with asbestos sheets should not be less than",
+    options: [
+      "26'/2°",
+      "30°",
+      "35°",
+      "40°",
+    ],
+    answer: 2
+  },
+  {
+    question: "To minimize the total cost of a roof truss, the ratio of the cost of truss to the cost of purlins",
+    options: [
+      "1",
+      "2",
+      "3",
+      "4",
+    ],
+    answer: 2
+  },
+  {
+    question: "Generally the purlins are placed at the panel points so as to avoid",
+    options: [
+      "axial force in rafter",
+      "shear force in rafter",
+      "deflection of rafter",
+      "bending moment in rafter",
+    ],
+    answer: 4
+  },
+  {
+    question: "For the buildings having a low permeability, the internal wind pressure acting normal to the",
+    options: [
+      "zero",
+      "±0.2p",
+      "± 0.5 p",
+      "±0.7p",
+    ],
+    answer: 2
+  },
+  {
+    question: "The relation between intensity of wind pressure p and velocity of wind V is taken as",
+    options: [
+      "pa V",
+      "paV2",
+      "p a (1/V)",
+      "paV\"2",
+    ],
+    answer: 2
+  },
+  {
+    question: "The live load for a sloping roof with slope 15°, where access is not provided to roof, is taken",
+    options: [
+      "0.65 kN/m2",
+      "0.75 kN/m2",
+      "1.35 kN/m2",
+      "1.50 kN/m2",
+    ],
+    answer: 1
+  },
+  {
+    question: "The internal pressure coefficient on walls for buildings with large permeability is taken as",
+    options: [
+      "± 0.2",
+      "±0.5",
+      "± 0.7",
+      "0",
+    ],
+    answer: 3
+  },
+  {
+    question: "The basic wind speed is specified at a height 'h' above mean ground level in an open terrain.",
+    options: [
+      "10 m",
+      "20 m",
+      "25 m",
+      "50 m",
+    ],
+    answer: 1
+  },
+  {
+    question: "The risk coefficient k, depends on",
+    options: [
+      "mean probable design life of structures",
+      "basic wind speed",
+      "both (a) and (b)",
+      "none of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "The external wind pressure acting on a roof depends on",
+    options: [
+      "degree of permeability of roof",
+      "slope of roof",
+      "both (a) and (b)",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "Area of openings for buildings of large permeability is more than",
+    options: [
+      "10% of wall area",
+      "20% of wall area",
+      "30% of wall area",
+      "50% of wall area",
+    ],
+    answer: 2
+  },
+  {
+    question: "As per IS : 875, for the purposes of specifying basic wind velocity, the country has been",
+    options: [
+      "4 zones",
+      "5 zones",
+      "6 zones",
+      "7 zones",
+    ],
+    answer: 3
+  },
+  {
+    question: "The number of seismic zones in which the country has been divided are",
+    options: [
+      "3",
+      "5",
+      "6",
+      "7",
+    ],
+    answer: 2
+  },
+  {
+    question: "Minimum pitch provided in riveted steel tanks is",
+    options: [
+      "1.5 d",
+      "2.0 d",
+      "2.5 d",
+      "3.0 d",
+    ],
+    answer: 4
+  },
+  {
+    question: "The allowable tensile stress in structural mild steel plates for steel tank is assumed as",
+    options: [
+      "95.0 MPa on net area",
+      "105.5 MPa on net area",
+      "105.5 MPa on gross area",
+      "150.0 MPa on gross area",
+    ],
+    answer: 2
+  },
+  {
+    question: "Steel tanks are mainly designed for",
+    options: [
+      "weight of tank",
+      "wind pressure",
+      "water pressure",
+      "earthquake forces",
+    ],
+    answer: 3
+  },
+  {
+    question: "Which of the following sections should preferably be used at places where torsion occurs ?",
+    options: [
+      "angle section",
+      "channel section",
+      "box type section",
+      "any of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "The capacity of the smallest pressed steel tank is",
+    options: [
+      "1000 litre",
+      "1650 litre",
+      "1950 litre",
+      "2450 litre",
+    ],
+    answer: 3
+  },
+  {
+    question: "The bracing between two columns of a steel tank will be designed to resist",
+    options: [
+      "horizontal shear due to wind or earthquake only",
+      "horizontal, shear due to wind or earthquake + 2.5% of column loads",
+      "column loads + 2.5% of horizontal shear due to wind or earthquake",
+      "column loads + full horizontal shear due to wind or earthquake",
+    ],
+    answer: 2
+  },
+  {
+    question: "The minimum thickness of plates in a steel stack should be",
+    options: [
+      "4 mm",
+      "5 mm",
+      "6 mm",
+      "8 mm",
+    ],
+    answer: 3
+  },
+  {
+    question: "Maximum pitch of rivets, used in steel stacks, is limited to",
+    options: [
+      "6t",
+      "101",
+      "121",
+      "161",
+    ],
+    answer: 2
+  },
+  {
+    question: "The diameter of base of conical flare of a steel stack is",
+    options: [
+      "less than d",
+      "equal to d",
+      "more than d",
+      "any of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "Hudson's formula gives the dead weight of a truss bridge as a function of",
+    options: [
+      "bottom chord area",
+      "top chord area",
+      "effective span of bridge",
+      "heaviest axle load of engine",
+    ],
+    answer: 1
+  },
+  {
+    question: "If the loaded length of span in meters of a railway steel bridge carrying a single track is 6 m,",
+    options: [
+      "0",
+      "0.5",
+      "between 0.5 and 1.0",
+      "1.0",
+    ],
+    answer: 3
+  },
+  {
+    question: "If the floor is supported at or near the bottom but top chords of a bridge are not braced, then",
+    options: [
+      "deck type",
+      "through type",
+      "half through type",
+      "double deck type",
+    ],
+    answer: 3
+  },
+  {
+    question: "The centrifugal force due to curvature of track is assumed to act on the bridge at a height of",
+    options: [
+      "1.23 m above the rail level",
+      "1.50 m above the rail level",
+      "1.83 m above the rail level",
+      "2.13 m above the rail level",
+    ],
+    answer: 3
+  },
+  {
+    question: "The effect of racking forces is considered in the design of",
+    options: [
+      "only (i)",
+      "only (ii)",
+      "both (i) and (ii)",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "The portal bracing in a truss bridge is used to",
+    options: [
+      "transfer load from top of end posts to bearings",
+      "keep the rectangular shape of the bridge cross-section",
+      "stiffen the structure laterally",
+      "prevent the sidesway buckling of top chord",
+    ],
+    answer: 1
+  },
+  {
+    question: "The sway bracing is designed to transfer",
+    options: [
+      "2Vi % of the top panel wind load to bottom bracing",
+      "10% of the top panel wind load to bottom bracing",
+      "25% of the top panel wind load to bottom bracing",
+      "50% of the top panel wind load to bottom bracing",
+    ],
+    answer: 4
+  },
+  {
+    question: "Study the following statements.",
+    options: [
+      "only (i)",
+      "both (i) and (ii)",
+      "both (i) and (iii)",
+      "all (i), (ii) and (iii)",
+    ],
+    answer: 2
+  },
+  {
+    question: "The bracing provided in the plane of end posts is called",
+    options: [
+      "sway bracing",
+      "portal bracing",
+      "top lateral bracing",
+      "bottom lateral bracing",
+    ],
+    answer: 2
+  },
+  {
+    question: "compression force in two end posts The pin of a rocker bearing in a bridge is designed for",
+    options: [
+      "bearing and shear",
+      "bending and shear",
+      "bearing and bending",
+      "bearing, shear and bending",
+    ],
+    answer: 4
+  },
+  {
+    question: "The least dimension in case of a circular column of diameter D is taken as",
+    options: [
+      "0.5 D",
+      "0.68 D",
+      "0.88 D",
+      "D",
+    ],
+    answer: 3
+  },
+  {
+    question: "In case of timber structures, the form factor for solid circular cross-section is taken as",
+    options: [
+      "1.18",
+      "1.414",
+      "1.67",
+      "1.81",
+    ],
+    answer: 1
+  },
+  {
+    question: "In case of timber structures, the simple bending formula M = fz may be applied for",
+    options: [
+      "rectangular beams up to 300 mm depth",
+      "all rectangular beams",
+      "solid circular beams only",
+      "all square cross-section beams",
+    ],
+    answer: 1
+  },
+  {
+    question: "The elastic strain for steel is about",
+    options: [
+      "1/12 of strain at the initiation of strain hardening and about 1/120 of maxi-mum strain",
+      "1/2 of strain at the initiation of strain hardening and about 1/12 of maxi-mum strain",
+      "1/12 of strain at the initiation of strain hardening and 1/200 of maximum strain",
+      "1/24 of strain at the initiation of strain hardening and about 1/200 of maximum strain",
+    ],
+    answer: 3
+  },
+  {
+    question: "The mechanism method and the statical method give",
+    options: [
+      "lower and upper bounds respectively on the strength of structure",
+      "upper and lower bounds respectively on the strength of structure",
+      "lower bound on the strength of structure",
+      "upper bound on the strength of structure",
+    ],
+    answer: 2
+  },
+  {
+    question: "The moment-curvature relation at a plastic hinge is",
+    options: [
+      "linear",
+      "parabolic",
+      "constant moment for all curvatures",
+      "constant curvature for all moments",
+    ],
+    answer: 3
+  },
+  {
+    question: "Shape factor is a property which depends",
+    options: [
+      "only on the ultimate stress of the material",
+      "only on the yield stress of the material",
+      "only on the geometry of the section",
+      "both on the yield stress and ultimate stress of material",
+    ],
+    answer: 3
+  },
+  {
+    question: "The statical method of plastic analysis satisfies",
+    options: [
+      "equilibrium and mechanism conditions",
+      "equilibrium and plastic moment conditions",
+      "mechanism and plastic moment conditions",
+      "equilibrium condition only",
+    ],
+    answer: 2
+  },
+  {
+    question: "The mechanism method of plastic analysis satisfies",
+    options: [
+      "equilibrium and mechanism conditions",
+      "equilibrium and plastic moment conditions",
+      "mechanism and plastic moment conditions",
+      "equilibrium condition only",
+    ],
+    answer: 1
+  },
+  {
+    question: "Load factor is",
+    options: [
+      "always equal to factor of safety",
+      "always less than factor of safety",
+      "always greater than factor of safety",
+      "sometimes greater than factor of safety",
+    ],
+    answer: 3
+  },
+  {
+    question: "The ratio of plastic section modulus to elastic section modulus",
+    options: [
+      "is equal to 1",
+      "is always less than 1",
+      "is always greater than 1",
+      "can be less than 1",
+    ],
+    answer: 3
+  },
+  {
+    question: "Other conditions being same, the load factor in indeterminate structures is",
+    options: [
+      "equal to load factor in determinate structures",
+      "more than the load factor in determinate structures",
+      "less than the load factor in determinate structures",
+      "unpredictable",
+    ],
+    answer: 2
+  },
+  {
+    question: "Which of the following conditions is to be satisfied both in elastic and plastic analysis ?",
+    options: [
+      "equilibrium condition",
+      "yield condition",
+      "plastic moment condition",
+      "mechanism condition",
+    ],
+    answer: 1
+  },
+  {
+    question: "In the virtual work method, the virtual quantity is",
+    options: [
+      "displacement",
+      "load",
+      "slope",
+      "moment",
+    ],
+    answer: 1
+  },
+  {
+    question: "As per IS:800, in the plastic design, which of the following pairs are correctly matched?",
+    options: [
+      "(i) and (ii) are correct",
+      "(i), (ii) and (iii) are correct",
+      "(ii) and (iii) are correct",
+      "only (i) is correct",
+    ],
+    answer: 1
+  },
+  {
+    question: "The shape factor of an isosceles triangle for bending about the axis parallel to the base is:",
+    options: [
+      "1.5",
+      "1.7",
+      "2.0",
+      "2.34",
+    ],
+    answer: 4
+  },
+  {
+    question: "In case of plastic design, the calculated maximum shear capacity of a beam as per IS:800",
+    options: [
+      "0.55 Awfy",
+      "0.65 Awfy",
+      "0.75 Awfy",
+      "0.85 Awfy",
+    ],
+    answer: 1
+  },
+  {
+    question: "The minimum thickness of a steel plate, which is directly exposed to weather and is not",
+    options: [
+      "4.5 mm",
+      "6 mm",
+      "8 mm",
+      "10 mm",
+    ],
+    answer: 3
+  },
+  {
+    question: "The moment of inertia of the pair of vertical stiffeners about the center line of the web",
+    options: [
+      "1.5dV/C",
+      "1.5d¥/C",
+      "1.5d¥/C2",
+      "1.5dY/C3",
+    ],
+    answer: 3
+  },
+  {
+    question: "The connection of intermediate vertical stiffeners to the web, not subjected to external",
+    options: [
+      "75 t2/h",
+      "125 t3/h2",
+      "125 t2/h",
+      "175 t2/h",
+    ],
+    answer: 3
+  },
+  {
+    question: "For a compression member with double angle section, which of the following section will",
+    options: [
+      "equal angles back to back",
+      "unqual legged angles with long legs back to back",
+      "unequal legged angles with short legs back to back",
+      "both (b) or (c)",
+    ],
+    answer: 2
+  },
+  {
+    question: "Lug angles",
+    options: [
+      "are used to reduce the length of connection.",
+      "are unequal angles.",
+      "increases shear lag.",
+      "all the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "For rivets in tension with counter-sunk heads, the tensile value shall be",
+    options: [
+      "reduced by 25 %",
+      "reduced by 33.3%",
+      "increased by 25 %",
+      "increased by 33.3 %",
+    ],
+    answer: 2
+  },
+  {
+    question: "A steel beam supporting loads from the floor slab as well as from wall is termed as",
+    options: [
+      "stringer beam",
+      "lintel beam",
+      "spandrel beam",
+      "header beam",
+    ],
+    answer: 3
+  },
+  {
+    question: "Pitch of tacking rivets, when double angles connected back to back and acting as tension",
+    options: [
+      "500 mm",
+      "600 mm",
+      "1000 mm",
+      "300 mm",
+    ],
+    answer: 3
+  },
+  {
+    question: "In moment resistant connections, the moment resistance of riveted connection depends",
+    options: [
+      "shear in rivets",
+      "compression in rivets",
+      "tension in rivets",
+      "strength of rivets in bearing",
+    ],
+    answer: 3
+  },
+  {
+    question: "The allowable shear stress in the web of mild steel beams decreases with",
+    options: [
+      "decrease in h/t ratio",
+      "increase in h/t ratio",
+      "decrease in thickness",
+      "increase in height",
+    ],
+    answer: 2
+  },
+  {
+    question: "The number of independent equations to be satisfied for static equilibrium of a plane",
+    options: [
+      "1",
+      "2",
+      "3",
+      "6",
+    ],
+    answer: 3
+  },
+  {
+    question: "If there are m unknown member forces, r unknown reaction components and j number of",
+    options: [
+      "m + r + 2j",
+      "m - r + 2j",
+      "m + r - 2j",
+      "m + r - 3j",
+    ],
+    answer: 3
+  },
+  {
+    question: "Number of unknown internal forces in each member of a rigid jointed plane frame is",
+    options: [
+      "1",
+      "2",
+      "3",
+      "6",
+    ],
+    answer: 3
+  },
+  {
+    question: "Degree of static indeterminacy of a rigid-jointed plane frame having 15 members, 3 reaction",
+    options: [
+      "2",
+      "3",
+      "6",
+      "8",
+    ],
+    answer: 3
+  },
+  {
+    question: "Degree of kinematic indeterminacy of a pin-jointed plane frame is given by",
+    options: [
+      "2j - r",
+      "j - 2r",
+      "3j - r",
+      "2j + r",
+    ],
+    answer: 1
+  },
+  {
+    question: "Independent displacement components at each joint of a rigid-jointed plane frame are",
+    options: [
+      "three linear movements",
+      "two linear movements and one rotation",
+      "one linear movement and two rotations",
+      "three rotations",
+    ],
+    answer: 2
+  },
+  {
+    question: "If in a pin-jointed plane frame (m + r) > 2j, then the frame is",
+    options: [
+      "stable and statically determinate",
+      "stable and statically indeterminate",
+      "unstable",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "A pin-jointed plane frame is unstable if",
+    options: [
+      "(m + r)<2j",
+      "m + r = 2j",
+      "(m + r)>2j",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "A rigid-jointed plane frame is stable and statically determinate if",
+    options: [
+      "(m + r) = 2j",
+      "(m + r) = 3j",
+      "(3m + r) = 3j",
+      "(m + 3r) = 3j",
+    ],
+    answer: 3
+  },
+  {
+    question: "The number of independent equations to be satisfied for static equilibrium in a space",
+    options: [
+      "2",
+      "3",
+      "4",
+      "6",
+    ],
+    answer: 4
+  },
+  {
+    question: "The degree of static indeterminacy of a pin-jointed space frame is given by",
+    options: [
+      "m + r - 2j",
+      "m + r - 3j",
+      "3m + r - 3j",
+      "m + r + 3j",
+    ],
+    answer: 2
+  },
+  {
+    question: "The degree of static indeterminacy of a rigid-jointed space frame is",
+    options: [
+      "m + r - 2j",
+      "m + r - 3j",
+      "3m + r - 3j",
+      "6m + r - 6j",
+    ],
+    answer: 4
+  },
+  {
+    question: "The degree of kinematic indeterminacy of a pin-jointed space frame is",
+    options: [
+      "2j-r",
+      "3j-r",
+      "j-2r",
+      "j-3r",
+    ],
+    answer: 2
+  },
+  {
+    question: "The number of independent displacement components at each joint of a rigid-jointed space",
+    options: [
+      "1",
+      "2",
+      "3",
+      "6",
+    ],
+    answer: 4
+  },
+  {
+    question: "If in a rigid-jointed space frame, (6m + r) < 6j, then the frame is",
+    options: [
+      "unstable",
+      "stable and statically determinate",
+      "stable and statically indeterminate",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "The principle of virtual work can be applied to elastic system by considering the virtual work",
+    options: [
+      "internal forces only",
+      "external forces only",
+      "internal as well as external forces",
+      "none of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "Castigliano's first theorem is applicable",
+    options: [
+      "for statically determinate structures only",
+      "when the system behaves elastically",
+      "only when principle of superposition is valid",
+      "none of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "Principle of superposition is applicable when",
+    options: [
+      "deflections are linear functions of applied forces",
+      "material obeys Hooke's law",
+      "the action of applied forces will be affected by small deformations of the structure",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "In moment distribution method, the sum of distribution factors of all the members meeting",
+    options: [
+      "zero",
+      "less than 1",
+      "1",
+      "greater than 1",
+    ],
+    answer: 3
+  },
+  {
+    question: "The carryover factor in a prismatic member whose far end is fixed is",
+    options: [
+      "0",
+      "1/2",
+      "3/4",
+      "1",
+    ],
+    answer: 2
+  },
+  {
+    question: "In column analogy method, the area of an analogous column for a fixed beam of span L and",
+    options: [
+      "L/EI",
+      "L/2EI",
+      "L/3EI",
+      "L/4EI",
+    ],
+    answer: 1
+  },
+  {
+    question: "The degree of static indeterminacy up to which column analogy method can be used is",
+    options: [
+      "2",
+      "3",
+      "4",
+      "unrestricted",
+    ],
+    answer: 2
+  },
+  {
+    question: "The deflection at any point of a perfect frame can be obtained by applying a unit load at the",
+    options: [
+      "vertical direction",
+      "horizontal direction",
+      "inclined direction",
+      "the direction in which the deflection is required",
+    ],
+    answer: 4
+  },
+  {
+    question: "In the slope deflection equations, the deformations are considered to be caused by",
+    options: [
+      "only (i)",
+      "(i)and(ii)",
+      "(ii) and (iii)",
+      "(i), (ii) and (iii)",
+    ],
+    answer: 1
+  },
+  {
+    question: "The three moments equation is applicable only when",
+    options: [
+      "the beam is prismatic",
+      "there is no settlement of supports",
+      "there is no discontinuity such as hinges within the span",
+      "the spans are equal",
+    ],
+    answer: 3
+  },
+  {
+    question: "While using three moments equation, a fixed end of a continuous beam is replaced by an",
+    options: [
+      "zero length",
+      "infinite length",
+      "zero moment of inertia",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "The Castigliano's second theorem can be used to compute deflections",
+    options: [
+      "in statically determinate structures only",
+      "for any type of structure",
+      "at the point under the load only",
+      "for beams and frames only",
+    ],
+    answer: 2
+  },
+  {
+    question: "Bending moment at any section in a conjugate beam gives in the actual beam",
+    options: [
+      "slope",
+      "curvature",
+      "deflection",
+      "bending moment",
+    ],
+    answer: 3
+  },
+  {
+    question: "For a two-hinged arch, if one of the supports settles down vertically, then the horizontal",
+    options: [
+      "is increased",
+      "is decreased",
+      "remains unchanged",
+      "becomes zero",
+    ],
+    answer: 3
+  },
+  {
+    question: "For a symmetrical two hinged parabolic arch, if one of the supports settles horizontally, then",
+    options: [
+      "is increased",
+      "is decreased",
+      "remains unchanged",
+      "becomes zero",
+    ],
+    answer: 2
+  },
+  {
+    question: "A single rolling load of 8 kN rolls along a girder of 15 m span. The absolute maximum",
+    options: [
+      "8 kN.m",
+      "15 kN.m",
+      "30 kN.m",
+      "60 kN.m",
+    ],
+    answer: 3
+  },
+  {
+    question: "The maximum bending moment due to a train of wheel loads on a simply supported girder",
+    options: [
+      "always occurs at centre of span",
+      "always occurs under a wheel load",
+      "never occurs under a wheel load",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "When a uniformly distributed load, longer than the span of the girder, moves from left to",
+    options: [
+      "less than the left half span",
+      "whole of left half span",
+      "more than the left half span",
+      "whole span",
+    ],
+    answer: 4
+  },
+  {
+    question: "When a uniformly distributed load, shorter than the span of the girder, moves from left to",
+    options: [
+      "the head of the load reaches the section",
+      "the tail of the load reaches the section",
+      "the load position should be such that the section divides it equally on both sides",
+      "the load position should be such that the section divides the load in the same ratio as it",
+    ],
+    answer: 4
+  },
+  {
+    question: "When a series of wheel loads crosses a simply supported girder, the maximum bending",
+    options: [
+      "the centre of gravity of the load system is midway between the centre of span and wheel load",
+      "the centre of span is midway between the centre of gravity of the load system and the wheel",
+      "the wheel load under consideration is midway between the centre of span and the centre of",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "Which of the following is not the displacement method ?",
+    options: [
+      "Equilibrium method",
+      "Column analogy method",
+      "Moment distribution method",
+      "Kani's method",
+    ],
+    answer: 2
+  },
+  {
+    question: "Study the following statements.",
+    options: [
+      "(i) and (iii)",
+      "(ii) and (iii)",
+      "(i) and (iv)",
+      "(ii) and (iv)",
+    ],
+    answer: 4
+  },
+  {
+    question: "Select the correct statement",
+    options: [
+      "Flexibility matrix is a square symmetrical matrix",
+      "Stiffness matrix is a square symmetrical matrix",
+      "both (a) and (b)",
+      "none of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "To generate the j th column of the flexibility matrix",
+    options: [
+      "a unit force is applied at coordinate j and the displacements are calculated at all coordinates",
+      "a unit displacement is applied at co-ordinate j and the forces are calculated at all coordinates",
+      "a unit force is applied at coordinate j and the forces are calculated at all coordinates",
+      "a unit displacement is applied at co-ordinate j and the displacements are calculated at all coordinates",
+    ],
+    answer: 1
+  },
+  {
+    question: "For stable structures, one of the important properties of flexibility and stiffness matrices is",
+    options: [
+      "(i) and (iii)",
+      "(ii) and (iii)",
+      "(i) and (iv)",
+      "(ii) and (iv)",
+    ],
+    answer: 1
+  },
+  {
+    question: "Effects of shear force and axial force on plastic moment capacity of a structure are",
+    options: [
+      "increase and decrease",
+      "increase and increase",
+      "decrease and increase",
+      "decrease and decrease",
+    ],
+    answer: 4
+  },
+  {
+    question: "Which of the following methods of structural analysis is a force method ?",
+    options: [
+      "slope deflection method",
+      "column analogy method",
+      "moment distribution method",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "Which of the following methods of structural analysis is a displacement method ?",
+    options: [
+      "moment distribution method",
+      "column analogy method",
+      "three moment equation",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "In the displacement method of structural analysis, the basic unknowns are",
+    options: [
+      "displacements",
+      "force",
+      "displacements and forces",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "The fixed support in a real beam becomes in the conjugate beam a",
+    options: [
+      "roller support",
+      "hinged support",
+      "fixed support",
+      "free end",
+    ],
+    answer: 4
+  },
+  {
+    question: "The width of the analogous column in the method of column analogy is",
+    options: [
+      "2/EI",
+      "1/EI",
+      "1/2 EI",
+      "1/4 EI",
+    ],
+    answer: 2
+  },
+  {
+    question: "A simply supported beam deflects by 5 mm when it is subjected to a concentrated load of 10",
+    options: [
+      "5 mm",
+      "0.5 mm",
+      "0.05 mm",
+      "0.005mm",
+    ],
+    answer: 1
+  },
+  {
+    question: "The deformation of a spring produced by a unit load is called",
+    options: [
+      "stiffness",
+      "flexibility",
+      "influence coefficient",
+      "unit strain",
+    ],
+    answer: 2
+  },
+  {
+    question: "For a single point load W moving on a symmetrical three hinged parabolic arch of span L, the",
+    options: [
+      "0.211 L",
+      "0.25 L",
+      "0.234 L",
+      "0.5 L",
+    ],
+    answer: 1
+  },
+  {
+    question: "Muller Breslau's principle for obtaining influence lines is applicable to",
+    options: [
+      "(i), (ii) and (iii)",
+      "(i), (ii) and (iv)",
+      "(i) and (ii)\fd) only (i)",
+    ],
+    answer: 1
+  },
+  {
+    question: "increases the positive moment at the centre of span.",
+    options: [
+      "i and 4 are correct",
+      "1 and 3 are correct",
+      "2 and 3 are correct",
+      "2 and 4 are correct",
+    ],
+    answer: 1
+  },
+  {
+    question: "A load 'W is moving from left to right support on a simply supported beam of span T. The",
+    options: [
+      "0.16 Wl",
+      "0.20 Wl",
+      "0.24 Wl",
+      "0.25 Wl",
+    ],
+    answer: 3
+  },
+  {
+    question: "When a load crosses a through type Pratt truss in the direction left to right, the nature of",
+    options: [
+      "change from compression to tension",
+      "change from tension to compression",
+      "always be compression",
+      "always be tension",
+    ],
+    answer: 1
+  },
+  {
+    question: "Residual soils are formed by",
+    options: [
+      "glaciers",
+      "wind",
+      "water",
+      "none of the above",
+    ],
+    answer: 4
+  },
+  {
+    question: "Water content of soil can",
+    options: [
+      "never be greater than 100 %",
+      "take values only from 0 % to 100 %",
+      "be less than 0 %",
+      "be greater than 100 %",
+    ],
+    answer: 4
+  },
+  {
+    question: "Which of the following types of soil is transported by gravitational forces ?",
+    options: [
+      "loess",
+      "talus",
+      "drift",
+      "dune sand",
+    ],
+    answer: 2
+  },
+  {
+    question: "A fully saturated soil is said to be",
+    options: [
+      "one phase system",
+      "two phase system with soil and air",
+      "two phase system with soil and water",
+      "three phase system",
+    ],
+    answer: 3
+  },
+  {
+    question: "Valid range for S, the degree of saturation of soil in percentage is",
+    options: [
+      "S>0",
+      "S<0",
+      "0<S<100",
+      "0 < S < 100",
+    ],
+    answer: 4
+  },
+  {
+    question: "A soil has a bulk density of 22 kN/m3 and water content 10 %. The dry density of soil is",
+    options: [
+      "18.6 kN/m3",
+      "20.0 kN/m3",
+      "22.0 kN/m3",
+      "23.2 kN/m3",
+    ],
+    answer: 2
+  },
+  {
+    question: "If the voids of a soil mass are full of air only, the soil is termed as",
+    options: [
+      "air entrained soil",
+      "partially saturated soil",
+      "dry soil",
+      "dehydrated soil",
+    ],
+    answer: 3
+  },
+  {
+    question: "Valid range for n, the percentage voids, is",
+    options: [
+      "0<n<100",
+      "0<n<100",
+      "n>0",
+      "n<0",
+    ],
+    answer: 1
+  },
+  {
+    question: "Select the correct statement.",
+    options: [
+      "Unit weight of dry soil is greater than unit weight of wet soil.",
+      "For dry soils, dry unit weight is less than total unit weight.",
+      "Unit weight of soil increases due to submergence in water.",
+      "Unit weight of soil decreases due to submergence in water.",
+    ],
+    answer: 4
+  },
+  {
+    question: "Voids ratio of a soil mass can",
+    options: [
+      "never be greater than unity",
+      "be zero",
+      "take any value greater than zero",
+      "take values between 0 and 1 only",
+    ],
+    answer: 3
+  },
+  {
+    question: "If the volume of voids is equal to the volume of solids in a soil mass, then the values of",
+    options: [
+      "1.0 and 0.0",
+      "0.0 and 1.0",
+      "0.5 and 1.0",
+      "1.0 and 0.5",
+    ],
+    answer: 3
+  },
+  {
+    question: "When the degree of saturation is zero, the soil mass under consideration represents",
+    options: [
+      "one phase system",
+      "two phase system with soil and air",
+      "two phase system with soil and water",
+      "three phase system",
+    ],
+    answer: 2
+  },
+  {
+    question: "Select the correct range of density index,ID",
+    options: [
+      "lD>0",
+      "ID>0",
+      "0 < lD < 1",
+      "0 < ID < 1",
+    ],
+    answer: 4
+  },
+  {
+    question: "If the degree of saturation of a partially saturated soil is 60%, then air content of the soil is",
+    options: [
+      "40%",
+      "60%",
+      "80%",
+      "100%",
+    ],
+    answer: 1
+  },
+  {
+    question: "If the water content of a fully saturated soil mass is 100%, then the voids ratio of the sample",
+    options: [
+      "less than specific gravity of soil",
+      "equal to specific gravity of soil",
+      "greater than specific gravity of soil",
+      "independent of specific gravity of soil",
+    ],
+    answer: 2
+  },
+  {
+    question: "The ratio of volume of voids to the total volume of soil mass is called",
+    options: [
+      "air content",
+      "porosity",
+      "percentage air voids",
+      "voids ratio",
+    ],
+    answer: 2
+  },
+  {
+    question: "Relative density of a compacted dense sand is approximately equal to",
+    options: [
+      "0.4",
+      "0.6",
+      "0.95",
+      "1.20",
+    ],
+    answer: 3
+  },
+  {
+    question: "If the sand in-situ is in its densest state, then the relative density of sand is",
+    options: [
+      "zero",
+      "1",
+      "between 0 and 1",
+      "greater than 1",
+    ],
+    answer: 2
+  },
+  {
+    question: "Which of the following methods is most accurate for the determination of the water content",
+    options: [
+      "oven drying method",
+      "sand bath method",
+      "calcium carbide method",
+      "pycnometer method",
+    ],
+    answer: 1
+  },
+  {
+    question: "For proper field control, which of the following methods is best suited for quick",
+    options: [
+      "oven drying method",
+      "sand bath method",
+      "alcohol method",
+      "calcium carbide method",
+    ],
+    answer: 4
+  },
+  {
+    question: "A pycnometer is used to determine",
+    options: [
+      "water content and voids ratio",
+      "specific gravity and dry density",
+      "water content and specific gravity",
+      "voids ratio and dry density",
+    ],
+    answer: 3
+  },
+  {
+    question: "Stoke's law is valid only if the size of particle is",
+    options: [
+      "less than 0.0002 mm",
+      "greater than 0.2 mm",
+      "between 0.2 mm and 0.0002 mm",
+      "all of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "In hydrometer analysis for a soil mass",
+    options: [
+      "both meniscus correction and dispersing agent correction are additive",
+      "both meniscus correction and dispersing agent correction are subtractive",
+      "meniscus correction is additive and dispersing agent correction is subtractive",
+      "meniscus correction is subtractive and dispersing agent correction is additive",
+    ],
+    answer: 3
+  },
+  {
+    question: "The hydrometer method of sedimentation analysis differs from the pipette analysis mainly in",
+    options: [
+      "the principle of test",
+      "the method of taking observations",
+      "the method of preparation of soil suspension",
+      "all of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "Which of the following is a measure of particle size range ?",
+    options: [
+      "effective size",
+      "uniformity coefficient",
+      "coefficient of curvature",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "Which of the following statements is correct?",
+    options: [
+      "Uniformity coefficient represents the shape of the particle size distribution curve.",
+      "For a well graded soil, both uniformity coefficient and coefficient of curvature are nearly unity.",
+      "A soil is said to be well graded if it has most of the particles of about the same size",
+      "none of the above",
+    ],
+    answer: 4
+  },
+  {
+    question: "Uniformity coefficient of a soil is",
+    options: [
+      "always less than 1",
+      "always equal to 1",
+      "equal to or less than 1",
+      "equal to or gi eater than 1",
+    ],
+    answer: 4
+  },
+  {
+    question: "According to Atterberg, the soil is said to be of medium plasticity if the plasticity index PI is",
+    options: [
+      "0 < PI < 7",
+      "7<PI< 17",
+      "17<PI<27",
+      "PI>27",
+    ],
+    answer: 2
+  },
+  {
+    question: "If the natural water content of soil mass lies between its liquid limit and plastic limit, the soil",
+    options: [
+      "liquid state",
+      "plastic state",
+      "semi-solid state",
+      "solid state",
+    ],
+    answer: 2
+  },
+  {
+    question: "When the plastic limit of a soil is greater than the liquid limit, then the plasticity index is",
+    options: [
+      "negative",
+      "zero",
+      "non-plastic (NP)",
+      "1",
+    ],
+    answer: 2
+  },
+  {
+    question: "Toughness index is defined as the ratio of",
+    options: [
+      "plasticity index to consistency index",
+      "plasticity index to flow index",
+      "liquidity index to flow index",
+      "consistency index to liquidity index",
+    ],
+    answer: 2
+  },
+  {
+    question: "If the plasticity index of a soil mass is zero, the soil is",
+    options: [
+      "sand",
+      "silt",
+      "clay",
+      "clayey silt",
+    ],
+    answer: 1
+  },
+  {
+    question: "The admixture of coarser particles like sand or silt to clay causes",
+    options: [
+      "decrease in liquid limit and increase in plasticity index",
+      "decrease in liquid limit and no change in plasticity index",
+      "decrease in both liquid limit and plasticity index",
+      "increase in both liquid limit and plasticity index",
+    ],
+    answer: 3
+  },
+  {
+    question: "Select the correct statement.",
+    options: [
+      "A uniform soil has more strength and stability than a non-uniform soil.",
+      "A uniform soil has less strength and stability than a non-uniform soil.",
+      "Uniformity coefficient does not affect strength and stability.",
+      "Uniformity coefficient of a poorly graded soil is more than that of a well graded soil.",
+    ],
+    answer: 2
+  },
+  {
+    question: "The water content of soil, which represents the boundary between plastic state and liquid",
+    options: [
+      "liquid limit",
+      "plastic limit",
+      "shrinkage limit",
+      "plasticity index",
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of the following soils has more plasticity index ?",
+    options: [
+      "sand",
+      "silt",
+      "clay",
+      "gravel",
+    ],
+    answer: 3
+  },
+  {
+    question: "At liquid limit, all soils possess",
+    options: [
+      "same shear strength of small magnitude",
+      "same shear strength of large magnitude",
+      "different shear strengths of small magnitude",
+      "different shear strengths of large magnitude",
+    ],
+    answer: 1
+  },
+  {
+    question: "If the material of the base of the Casagrande liquid limit device on which the cup containing",
+    options: [
+      "the liquid limit of soil always increases",
+      "the liquid limit of soil always decreases",
+      "the liquid limit of soil may increase",
+      "the liquid limit of soil may decrease",
+    ],
+    answer: 1
+  },
+  {
+    question: "According to IS classification, the range of silt size particles is",
+    options: [
+      "4.75 mm to 2.00 mm",
+      "2.00 mm to 0.425 mm",
+      "0.425 mm to 0.075 mm",
+      "0.075 mm to 0.002 mm",
+    ],
+    answer: 4
+  },
+  {
+    question: "Highway Research Board (HRB) classification of soils is based on",
+    options: [
+      "particle size composition",
+      "plasticity characteristics",
+      "both particle size composition and plasticity characteristics",
+      "none of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "Inorganic soils with low compressibility are represented by",
+    options: [
+      "MH",
+      "SL",
+      "ML",
+      "CH",
+    ],
+    answer: 3
+  },
+  {
+    question: "Sand particles are made of",
+    options: [
+      "rock minerals",
+      "kaolinite",
+      "illite",
+      "montmorillonite",
+    ],
+    answer: 1
+  },
+  {
+    question: "The clay mineral with the largest swelling and shrinkage characteristics is",
+    options: [
+      "kaolinite",
+      "illite",
+      "montmorillonite",
+      "none of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "Dispersed type of soil structure is an arrangement comprising particles having",
+    options: [
+      "face to face or parallel orientation",
+      "edge to edge orientation",
+      "edge to face orientation",
+      "all of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "Effective stress is",
+    options: [
+      "the stress at particles contact",
+      "a physical parameter that can be measured",
+      "important because it is a function of engineering properties of soil",
+      "all of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "Rise of water table above the ground surface causes",
+    options: [
+      "equal increase in pore water pressure and total stress",
+      "equal decrease in pore water pressure and total stress",
+      "increase in pore water pressure but decrease in total stress",
+      "decrease in pore water pressure but increase in total stress",
+    ],
+    answer: 1
+  },
+  {
+    question: "The total and effective stresses at a depth of 5 m below the top level of water in a swimming",
+    options: [
+      "zero and zero",
+      "0.5 kg/cm2 and zero",
+      "0.5 kg/cm2 and 0.5 kg/cm2",
+      "1.0 kg/cm2 and 0.5 kg/cm2",
+    ],
+    answer: 2
+  },
+  {
+    question: "If the water table rises upto ground surface, then the",
+    options: [
+      "effective stress is reduced due to decrease in total stress only but pore water pressure does",
+      "effective stress is reduced due to increase in pore water pressure only but total stress does not",
+      "total stress is reduced due to increase in pore water pressure only but effec-tive stress does",
+      "total stress is increased due to de-crease in pore water pressure but effective stress does not",
+    ],
+    answer: 2
+  },
+  {
+    question: "Quick sand is a",
+    options: [
+      "type of sand",
+      "flow condition occurring in cohesive soils",
+      "flow condition occurring in cohesionless soils",
+      "flow condition occurring in both cohesive and cohesionless soils",
+    ],
+    answer: 1
+  },
+  {
+    question: "The hydraulic head that would produce a quick condition in a sand stratum of thickness 1.5",
+    options: [
+      "1.0m",
+      "1.5 m",
+      "2.0 m",
+      "3m",
+    ],
+    answer: 2
+  },
+  {
+    question: "Physical properties of a permeant which influence permeability are",
+    options: [
+      "viscosity only",
+      "unit weight only",
+      "both viscosity and unit weight",
+      "none of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "Select the correct statement.",
+    options: [
+      "The greater the viscosity, the greater is permeability.",
+      "The greater the unit weight, the greater is permeability.",
+      "The greater the unit weight, the smaller is permeability.",
+      "Unit weight does not affect per-meability.",
+    ],
+    answer: 2
+  },
+  {
+    question: "Effective stress on soil",
+    options: [
+      "increases voids ratio and decreases permeability",
+      "increases both voids ratio and permeability",
+      "decreases both voids ratio and permeability",
+      "decreases voids ratio and increases permeability",
+    ],
+    answer: 3
+  },
+  {
+    question: "If the permeability of a soil is 0.8 mm/sec, the type of soil is",
+    options: [
+      "gravel",
+      "sand",
+      "silt",
+      "clay",
+    ],
+    answer: 2
+  },
+  {
+    question: "Which of the following methods is more suitable for the determination of permeability of",
+    options: [
+      "constant head method",
+      "falling head method",
+      "horizontal permeability test",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "Which of the following methods is best suited for determination of permeability of coarsegrained soils ?",
+    options: [
+      "constant head method",
+      "falling head method",
+      "both the above",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "Due to a rise in temperature, the viscosity and the unit weight of the percolating fluid are",
+    options: [
+      "increases by 25%",
+      "increases by 50%",
+      "increases by 33.3%",
+      "decreases by 33.3%",
+    ],
+    answer: 2
+  },
+  {
+    question: "Coefficient of permeability of soil",
+    options: [
+      "does not depend upon temperature",
+      "increases with the increase in temperature",
+      "increases with the decrease in temperature",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "The average coefficient of permeability of natural deposits",
+    options: [
+      "parallel to stratification is always greater than that perpendicular to stratification",
+      "parallel to stratification is always less than that perpendicular to stratification",
+      "is always same in both directions",
+      "parallel to stratification may or may not be greater than that perpendicular to stratification",
+    ],
+    answer: 1
+  },
+  {
+    question: "The total discharge from two wells situated near to each other is",
+    options: [
+      "sum of the discharges from individual wells",
+      "less than the sum of the discharges from individual wells",
+      "greater than the sum of the discharges from individual wells",
+      "equal to larger of the two discharges from individual wells",
+    ],
+    answer: 2
+  },
+  {
+    question: "The flownet for an earthen dam with 30 m water depth consists of 25 potential drops and 5",
+    options: [
+      "0.00018 nrVsec",
+      "0.0045 m3/sec",
+      "0.18m3/sec",
+      "0.1125m3/sec",
+    ],
+    answer: 1
+  },
+  {
+    question: "The most suitable method for drainage of fine grained cohesive soils is",
+    options: [
+      "well ppint system",
+      "vacuum method",
+      "deep well system",
+      "electroosmosis method",
+    ],
+    answer: 4
+  },
+  {
+    question: "Total number of stress components at a point within a soil mass loaded at its boundary is",
+    options: [
+      "3",
+      "6",
+      "9",
+      "16",
+    ],
+    answer: 3
+  },
+  {
+    question: "The slope of isochrone at any point at a given time indicates the rate of change of",
+    options: [
+      "effective stress with time",
+      "effective stress with depth",
+      "pore water pressure with depth",
+      "pore water pressure with time",
+    ],
+    answer: 3
+  },
+  {
+    question: "Within the consolidation process of a saturated clay",
+    options: [
+      "a gradual increase in neutral pressure and a gradual decrease in effective pressure takes place",
+      "a gradual decrease in neutral pressure and a gradual increase in effective pressure takes",
+      "both neutral pressure and effective pressure decrease",
+      "both neutral pressure and effective pressure increase",
+    ],
+    answer: 2
+  },
+  {
+    question: "The value of compression index for a remoulded sample whose liquid limit is 50% is",
+    options: [
+      "0.028",
+      "0.28",
+      "036",
+      "0.036",
+    ],
+    answer: 2
+  },
+  {
+    question: "Which one of the following clays behaves like a dense sand ?",
+    options: [
+      "over-consolidated ciay with a high over-consolidation ratio",
+      "over-consolidated clay with a low over-consolidation ratio",
+      "normally consolidated clay",
+      "under-consolidated clay",
+    ],
+    answer: 1
+  },
+  {
+    question: "Coefficient of consolidation of a soil is affected by",
+    options: [
+      "compressibility",
+      "permeability",
+      "both compressibility and permeability",
+      "none of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "Degree of consolidation is",
+    options: [
+      "directly proportional to time and inversely proportional to drainage path",
+      "directly proportional to time and inversely proportional to square of drainage path",
+      "directly proportional to drainage path and inversely proportional to time",
+      "directly proportional to square of drainage path and inversely proportional to time",
+    ],
+    answer: 2
+  },
+  {
+    question: "Time factor for a clay layer is",
+    options: [
+      "a dimensional parameter",
+      "directly proportional to permeability of soil",
+      "inversely proportional to drainage path",
+      "independent of thickness of clay layer",
+    ],
+    answer: 2
+  },
+  {
+    question: "Clay layer A with single drainage and coefficient of consolidation Cv takes 6 months to",
+    options: [
+      "3 months",
+      "6 months",
+      "12 months",
+      "24 months",
+    ],
+    answer: 1
+  },
+  {
+    question: "Coefficient of consolidation for clays normally",
+    options: [
+      "decreases with increase in liquid limit",
+      "increases with increase in liquid limit",
+      "first increases and then decreases with increase in liquid limit",
+      "remains constant at all liquid limits",
+    ],
+    answer: 1
+  },
+  {
+    question: "Direct measurement of permeability of the specimen at any stage of loading can be made",
+    options: [
+      "only in fixed ring type consolido-meter",
+      "only in floating ring type consolido-meter",
+      "both (a) and (b)",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "Compressibility of sandy soils is",
+    options: [
+      "almost equal to that of clayey soils",
+      "much greater than that of clayey soils",
+      "much less than that of clayey soils",
+      "none of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "Select the correct statement.",
+    options: [
+      "coefficient of compressibility of an over-consolidated clay is less than that of a normally",
+      "coefficient of compressibility of an over-consolidated clay is greater than that of a normally",
+      "coefficient of compressibility is cons-tant for any clay",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "Coefficient of compressibility is",
+    options: [
+      "constant for any type of soil",
+      "different for different types of soils and also different for a soil under different states of",
+      "different for different types of soils but same for a soil under different states of consolidation",
+      "independent of type of soil but depends on the stress history of soil",
+    ],
+    answer: 2
+  },
+  {
+    question: "The ultimate consolidation settlement of a structure resting on a soil",
+    options: [
+      "decreases with the increase in the initial voids ratio",
+      "decreases with the decrease in the plastic limit",
+      "increases with the increase in the initial voids ratio",
+      "increases with the decrease in the porosity of the soil",
+    ],
+    answer: 1
+  },
+  {
+    question: "The ultimate consolidation settlement of a soil is",
+    options: [
+      "directly proportional to the voids ratio",
+      "directly proportional to the compression index",
+      "inversely proportional to the compression index",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "A normally consolidated clay settled 10 mm when effective stress was increased from 100",
+    options: [
+      "10 mm",
+      "20 mm",
+      "40 mm",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "Coarse grained soils are best compacted by a",
+    options: [
+      "drum roller",
+      "rubber tyred roller",
+      "sheep's foot roller",
+      "vibratory roller",
+    ],
+    answer: 4
+  },
+  {
+    question: "With the increase in the amount of compaction energy",
+    options: [
+      "optimum water content increases but maximum dry density decreases",
+      "optimum water content decreases but maximum dry density increases",
+      "both optimum water content and maximum dry density increase",
+      "both optimum water content and maximum dry density decrease[ES 93]",
+    ],
+    answer: 2
+  },
+  {
+    question: "The maximum dry density upto which any soil can be compacted depends upon",
+    options: [
+      "moisture content only",
+      "amount of compaction energy only",
+      "both moisture content and amount of compaction energy",
+      "none of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "For better strength and stability, the fine grained soils and coarse grained soils are",
+    options: [
+      "dry of OMC and wet of OMC",
+      "wet of OMC and dry of OMC",
+      "wet of OMC and wet of OMC",
+      "dry of OMC and dry of OMC where OMC is optimum moisture content",
+    ],
+    answer: 2
+  },
+  {
+    question: "Select the incorrect statement.",
+    options: [
+      "Effective cohesion of a soil can never have a negative value.",
+      "Effective angle of internal friction for coarse grained soils is rarely below 30°.",
+      "Effective angle of internal friction for a soil increases as state of compact-ness increases.",
+      "Effective angle of internal friction is a complicated function of mineralogy and clay size",
+    ],
+    answer: 1
+  },
+  {
+    question: "For a loose sand sample and a dense sand sample consolidated to the same effective stress",
+    options: [
+      "ultimate strength is same and also peak strength is same",
+      "ultimate strength is different but peak strength is same",
+      "ultimate strength is same but peak strength of dense sand is greater than that of loose sand",
+      "ultimate strength is same but peak",
+    ],
+    answer: 3
+  },
+  {
+    question: "The shear strength of a soil",
+    options: [
+      "is directly proportional to the angle of internal friction of the soil",
+      "is inversely proportional to the angle of internal friction of the soil",
+      "decreases with increase in normal stress",
+      "decreases with decrease in normal stress",
+    ],
+    answer: 4
+  },
+  {
+    question: "Nagpur road plan formula were prepared by assuming......?",
+    options: [
+      "rectangular or block road pattern",
+      "radial or star and block road pattern",
+      "radial or star and circular road pattern",
+      "radial or star and grid road pattern",
+    ],
+    answer: 4
+  },
+  {
+    question: "Select the correct statement.",
+    options: [
+      "Nagpur road plan formulae take into account the towns with very large population.",
+      "Nagpur road plan has a target road length of 32 km per 100 square km.",
+      "Second 20-year plan has provided 1600 km of expressways out of the proposed National",
+      "Second 20-year plan allowed deduc-tion of length of railway track in the area while calculating",
+    ],
+    answer: 3
+  },
+  {
+    question: "The sequence of four stages of survey in a highway alignment is",
+    options: [
+      "reconnaissance, map study, preli-minary survey and detailed survey",
+      "map study, preliminary survey, recon-naissance and detailed survey",
+      "map study, reconnaissance, prelimi-nary survey and detailed survey",
+      "preliminary survey, map study, recon-naissance and detailed survey",
+    ],
+    answer: 3
+  },
+  {
+    question: "The shape of the camber, best suited for cement concrete pavements, is",
+    options: [
+      "straight line",
+      "parabolic",
+      "elliptical",
+      "combination of straight and parabolic",
+    ],
+    answer: 1
+  },
+  {
+    question: "For water bound macadam roads in locali-ties of heavy rainfall, the recommended value of",
+    options: [
+      "1 in 30",
+      "1 in 36",
+      "1 in 48",
+      "1 in 60",
+    ],
+    answer: 2
+  },
+  {
+    question: "The stopping sight distance depends upon",
+    options: [
+      "total reaction time of driver",
+      "speed of vehicle",
+      "efficiency of brakes",
+      "all of the above",
+    ],
+    answer: 4
+  },
+  {
+    question: "When the path travelled along the road surface is more than the circumferential movement of",
+    options: [
+      "slipping",
+      "skidding",
+      "turning",
+      "revolving",
+    ],
+    answer: 2
+  },
+  {
+    question: "Coefficient of friction is less when the pavement surface is",
+    options: [
+      "rough",
+      "dry",
+      "smooth and dry",
+      "smooth and wet",
+    ],
+    answer: 4
+  },
+  {
+    question: "The shoulder provided along the road edge should be",
+    options: [
+      "rougher than the traffic lanes",
+      "smoother than the traffic lanes",
+      "of same colour as that of the pave-ment",
+      "of very low load bearing capacity",
+    ],
+    answer: 1
+  },
+  {
+    question: "Camber in the road is provided for",
+    options: [
+      "effective drainage",
+      "counteracting the centrifugal force",
+      "having proper sight distance",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "Compared to a level surface, on a descending gradient the stopping sight distance is",
+    options: [
+      "less",
+      "more",
+      "same",
+      "dependent on the speed",
+    ],
+    answer: 2
+  },
+  {
+    question: "On a single lane road with two way traffic, the minimum stopping sight distance is equal to",
+    options: [
+      "stopping distance",
+      "two times the stopping distance",
+      "half the stopping distance",
+      "three times the stopping distance",
+    ],
+    answer: 2
+  },
+  {
+    question: "The desirable length of overtaking zone as per IRC recommendation is equal to",
+    options: [
+      "overtaking sight distance",
+      "two times the overtaking sight distance",
+      "three times the overtaking sight distance",
+      "five times the overtaking sight distance",
+    ],
+    answer: 4
+  },
+  {
+    question: "Stopping sight distance is always",
+    options: [
+      "less than overtaking sight distance",
+      "equal to overtaking sight distance",
+      "more than overtaking sight distance",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "Reaction time of a driver",
+    options: [
+      "increases with increase in speed",
+      "decreases with increase in speed",
+      "is same for all speeds",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "If the stopping distance is 60 metres, then the minimum stopping sight distance for two lane,",
+    options: [
+      "30m",
+      "60m",
+      "120m",
+      "180m",
+    ],
+    answer: 2
+  },
+  {
+    question: "The effect of grade on safe overtaking sight distance is",
+    options: [
+      "to increase it on descending grades and to decrease it on ascending grades",
+      "to decrease it on descending grades and to increase it on ascending grades",
+      "to increase it on both descending and ascending grades",
+      "to decrease it on both descending and ascending grades",
+    ],
+    answer: 3
+  },
+  {
+    question: "The ruling design speed on a National Highway in plain terrain as per IRC recommendations",
+    options: [
+      "60 kmph",
+      "80 kmph",
+      "100 kmph",
+      "120 kmph",
+    ],
+    answer: 3
+  },
+  {
+    question: "The terrain may be classified as rolling terrain if the cross slope of land is",
+    options: [
+      "upto 10%",
+      "between 10% and 25%",
+      "between 25% and 60%",
+      "more than 60%",
+    ],
+    answer: 2
+  },
+  {
+    question: "If b is the wheel track of a vehicle and h is the height of centre of gravity above road surface,",
+    options: [
+      "less than b/2h and greater than co-efficient of lateral friction",
+      "less than b/2h and also less than co-efficient of lateral friction",
+      "greater than b/2h and less than co-efficient of lateral friction",
+      "greater than b/2h and also greater than coefficient of lateral friction",
+    ],
+    answer: 2
+  },
+  {
+    question: "As per IRC recommendations, the maximum limit of superelevation for mixed traffic in plain",
+    options: [
+      "1 in 15",
+      "1 in 12.5",
+      "1 in 10",
+      "equal to camber",
+    ],
+    answer: 1
+  },
+  {
+    question: "For the design of superelevation for mixed traffic conditions, the speed is reduced by",
+    options: [
+      "15%",
+      "20%",
+      "25%",
+      "75%",
+    ],
+    answer: 3
+  },
+  {
+    question: "On a horizontal curve if the pavement is kept horizontal across the alignment, then the",
+    options: [
+      "more than the pressure on inner wheels",
+      "less than the pressure on inner wheels",
+      "equal to the pressure on inner wheels",
+      "zero",
+    ],
+    answer: 1
+  },
+  {
+    question: "For a constant value of coefficient of lateral friction, the value of required super-elevation",
+    options: [
+      "increase in both speed and radius of curve",
+      "decrease in both speed and radius of curve",
+      "increase in speed and with decrease in radius of curve",
+      "decrease in speed and with increase in radius of curve",
+    ],
+    answer: 4
+  },
+  {
+    question: "To calculate the minimum value of ruling radius of horizontal curves in plains, the design",
+    options: [
+      "8 kmph",
+      "12kmph",
+      "16kmph",
+      "20 kmph",
+    ],
+    answer: 3
+  },
+  {
+    question: "The absolute minimum radius of curve for safe operation for a speed of 110 kmph is",
+    options: [
+      "110 m",
+      "220 m",
+      "440 m",
+      "577 m",
+    ],
+    answer: 3
+  },
+  {
+    question: "The attainment of superelevation by rotation of pavement about the inner edge of the",
+    options: [
+      "is preferable in steep terrain",
+      "results in balancing the earthwork",
+      "avoids the drainage problem in flat terrain",
+      "does not change the vertical align-ment of road",
+    ],
+    answer: 3
+  },
+  {
+    question: "Select the correct statement.",
+    options: [
+      "Psychological extra widening depends on the number of traffic lanes.",
+      "Mechanical extra widening depends on the speed of vehicle.",
+      "Psychological extra widening depends on the length of wheel base.",
+      "Psychological extra widening depends on the speed of vehicle.",
+    ],
+    answer: 4
+  },
+  {
+    question: "In case of hill roads, the extra widening is generally provided",
+    options: [
+      "equally on inner and outer sides of the curve",
+      "fully on the inner side of the curve",
+      "fully on the outer side of the curve",
+      "one-fourth on inner side and three-fourth on outer side of the curve",
+    ],
+    answer: 2
+  },
+  {
+    question: "The transition curve used in the horizontal alignment of highways as per IRC",
+    options: [
+      "spiral",
+      "lemniscate",
+      "cubic parabola",
+      "any of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "For design, that length of transition curve should be taken which is",
+    options: [
+      "based on allowable rate of change of centrifugal acceleration",
+      "based on rate of change of superele-vation",
+      "higher of (a) and (b)",
+      "smaller of (a) and (b)",
+    ],
+    answer: 3
+  },
+  {
+    question: "The maximum design gradient for vertical profile of a road is",
+    options: [
+      "ruling gradient",
+      "limiting gradient",
+      "exceptional gradient",
+      "minimum gradient",
+    ],
+    answer: 1
+  },
+  {
+    question: "The percentage compensation in gradient for ruling gradient of 4% and horizontal curve of",
+    options: [
+      "0.1 %",
+      "1 %",
+      "10%",
+      "no compensation",
+    ],
+    answer: 4
+  },
+  {
+    question: "If ruling gradient is I in 20 and there is also a horizontal curve of radius 76 m, then the",
+    options: [
+      "3 %",
+      "4%",
+      "5 %",
+      "6%",
+    ],
+    answer: 2
+  },
+  {
+    question: "The camber of road should be approximately equal to",
+    options: [
+      "longitudinal gradient",
+      "two times the longitudinal gradient",
+      "three times the longitudinal gradient",
+      "half the longitudinal gradient",
+    ],
+    answer: 4
+  },
+  {
+    question: "Which of the following shapes is preferred in a valley curve ?",
+    options: [
+      "simple parabola",
+      "cubic parabola",
+      "spiral",
+      "lemniscate",
+    ],
+    answer: 2
+  },
+  {
+    question: "The value of ruling gradient in plains as per IRC recommendation is",
+    options: [
+      "1 in 12",
+      "1 m 15",
+      "1 in 20",
+      "1 in 30",
+    ],
+    answer: 4
+  },
+  {
+    question: "In case of summit curves, the deviation angle will be maximum when",
+    options: [
+      "an ascending gradient meets with another ascending gradient",
+      "an ascending gradient meets with a descending gradient",
+      "a descending gradient meets with another descending gradient",
+      "an ascending gradient meets with a level surface",
+    ],
+    answer: 2
+  },
+  {
+    question: "If the design speed is V kmph and deviation angle is N radians, then the total length of a",
+    options: [
+      "0.38 N V3/2",
+      "0.38 (NV3)\"2",
+      "3.8 NV\"2",
+      "3.8 (NV3)\"2",
+    ],
+    answer: 2
+  },
+  {
+    question: "If an ascending gradient of 1 in 50 meets a descending gradient of 1 in 50, the length of",
+    options: [
+      "zero",
+      "64m",
+      "80m",
+      "60m",
+    ],
+    answer: 4
+  },
+  {
+    question: "Highway facilities are designed for",
+    options: [
+      "annual average hourly volume",
+      "annual average daily traffic",
+      "thirtieth highest hourly volume",
+      "peak hourly volume of the year",
+    ],
+    answer: 3
+  },
+  {
+    question: "Enoscope is used to find",
+    options: [
+      "average speed",
+      "spot speed",
+      "space-mean speed",
+      "time-mean speed",
+    ],
+    answer: 2
+  },
+  {
+    question: "For highway geometric design purposes the speed used is",
+    options: [
+      "15th percentile",
+      "50 \"\"percentile",
+      "85th percentile",
+      "98 \"\"percentile",
+    ],
+    answer: 4
+  },
+  {
+    question: "Select the correct statement.",
+    options: [
+      "Traffic volume should always be more than traffic capacity.",
+      "Traffic capacity should always be more than traffic volume.",
+      "Spot speed is the average speed of a vehicle at a specified section.",
+      "85th percentile speed is more than 98th percentile speed.",
+    ],
+    answer: 2
+  },
+  {
+    question: "Length of a vehicle affects",
+    options: [
+      "width of traffic lanes",
+      "extra width of pavement and minimum turning radius",
+      "width of shoulders and parking facilities",
+      "clearance to be provided under structures such as overbridges, under-bridges etc.",
+    ],
+    answer: 2
+  },
+  {
+    question: "The maximum width of a vehicle as recommended by IRC is",
+    options: [
+      "1.85m",
+      "2.44 m",
+      "3.81 m",
+      "4.72 m",
+    ],
+    answer: 2
+  },
+  {
+    question: "Desire lines are plotted in",
+    options: [
+      "traffic volume studies",
+      "speed studies",
+      "accident studies",
+      "origin and destination studies",
+    ],
+    answer: 4
+  },
+  {
+    question: "Which of the following methods is preferred for collecting origin and destination data for a",
+    options: [
+      "road side interview method",
+      "license plate method",
+      "return postcard method",
+      "home interview method",
+    ],
+    answer: 2
+  },
+  {
+    question: "The diagram which shows the approximate path of vehicles and pedestrians involved in",
+    options: [
+      "spot maps",
+      "pie charts",
+      "condition diagram",
+      "collision diagram",
+    ],
+    answer: 4
+  },
+  {
+    question: "With increase in speed of the traffic stream, the minimum spacing of vehicles",
+    options: [
+      "increases",
+      "decreases",
+      "first decreases and then increases after reaching a minimum value at optimum speed",
+      "first increases and then decreases after reaching a maximum value at optimum speed",
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of the following is known as design capacity ?",
+    options: [
+      "basic capacity",
+      "theoretical capacity",
+      "possible capacity",
+      "practical capacity",
+    ],
+    answer: 1
+  },
+  {
+    question: "If the average centre to centre spacing of vehicles is 20 metres, then the basic",
+    options: [
+      "2500 vehicles per day",
+      "2000 vehicles per hour",
+      "2500 vehicles per hour",
+      "1000 vehicles per hour",
+    ],
+    answer: 3
+  },
+  {
+    question: "With increase in speed of the traffic stream, the maximum capacity of the lane",
+    options: [
+      "increases",
+      "decreases",
+      "first increases and then decreases after reaching a maximum value at optimum speed",
+      "first decreases and then increases after reaching a minimum value at optimum speed",
+    ],
+    answer: 3
+  },
+  {
+    question: "Equivalent factor of passenger car unit (PCU) for a passenger car as per IRC is",
+    options: [
+      "1.0",
+      "2.0",
+      "0.5",
+      "10",
+    ],
+    answer: 1
+  },
+  {
+    question: "If the stopping distance and average length of a vehicle are 18 m and 6 m respectively, then",
+    options: [
+      "1500 vehicles per hour",
+      "2000 vehicles per hour",
+      "2500 vehicles per hour",
+      "3000 vehicles per hour",
+    ],
+    answer: 1
+  },
+  {
+    question: "Scientific planning of transportation system and mass transit facilities in cities should be",
+    options: [
+      "spot speed data",
+      "origin and destination data",
+      "traffic volume data",
+      "accident data",
+    ],
+    answer: 2
+  },
+  {
+    question: "The diagram which shows all important physical conditions of an accident location like",
+    options: [
+      "pie chart",
+      "spot maps",
+      "condition diagram",
+      "collision diagram",
+    ],
+    answer: 3
+  },
+  {
+    question: "When the speed of traffic flow becomes zero,then",
+    options: [
+      "traffic density attains maximum value whereas traffic volume becomes zero",
+      "traffic density and traffic volume both attain maximum value",
+      "traffic density and traffic volume both become zero",
+      "traffic density becomes zero whereas traffic volume attains maximum value",
+    ],
+    answer: 1
+  },
+  {
+    question: "On a right angled road intersection with two way traffic, the total number of conflict points is",
+    options: [
+      "6",
+      "11",
+      "18",
+      "24",
+    ],
+    answer: 4
+  },
+  {
+    question: "The background colour of the informatory sign board is",
+    options: [
+      "red",
+      "yellow",
+      "green",
+      "white",
+    ],
+    answer: 2
+  },
+  {
+    question: "Which of the following is indicated by a warning sign ?",
+    options: [
+      "level crossing",
+      "no parking",
+      "end of speed limit",
+      "overtaking prohibited",
+    ],
+    answer: 1
+  },
+  {
+    question: "\"Dead Slow\" is a",
+    options: [
+      "regulatory sign",
+      "warning sign",
+      "informatory sign",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "The most efficient traffic signal system is",
+    options: [
+      "simultaneous system",
+      "alternate system",
+      "flexible progressive system",
+      "simple progressive system",
+    ],
+    answer: 3
+  },
+  {
+    question: "The provision of traffic signals at intersections",
+    options: [
+      "reduces right angled and rear end collisions",
+      "increases right angled and rear end collisions",
+      "reduces right angled collisions but may increase rear end collisions",
+      "reduces rear end collisions but may increase right angled collisions",
+    ],
+    answer: 3
+  },
+  {
+    question: "Select the incorrect statement.",
+    options: [
+      "Stop or red time of a signal is the sum of go and clearance intervals for the cross flow.",
+      "Go or green time of a signal is the sum of stop and clearance intervals for the cross flow.",
+      "Clearance time is generally 3 to 5 seconds.",
+      "The cycle length is normally 40 to 60 seconds for two phase signals.",
+    ],
+    answer: 2
+  },
+  {
+    question: "Center line markings are used",
+    options: [
+      "to designate traffic lanes",
+      "in roadways meant for two way traffic",
+      "to indicate that overtaking is not permitted",
+      "to designate proper lateral placement of vehicles before turning to different directions",
+    ],
+    answer: 2
+  },
+  {
+    question: "The particular places where pedestrians are to cross the pavement are properly marked by",
+    options: [
+      "stop lines",
+      "turn markings",
+      "crosswalk lines",
+      "lane lines",
+    ],
+    answer: 3
+  },
+  {
+    question: "The entrance and exit curves of a rotary have",
+    options: [
+      "equal radii and equal widths of pavement",
+      "equal radii but pavement width is more at entrance than at exit curve",
+      "equal pavement widths but radius is more at entrance curve than at exit curve",
+      "different radii and different widths of pavement",
+    ],
+    answer: 4
+  },
+  {
+    question: "When two equally important roads cross roughly at right angles, the suitable shape of",
+    options: [
+      "circular",
+      "elliptical",
+      "tangent",
+      "turbine",
+    ],
+    answer: 1
+  },
+  {
+    question: "The maximum number of vehicles beyond which the rotary may not function efficiently is",
+    options: [
+      "500 vehicles per hour",
+      "500 vehicles per day",
+      "5000 vehicles per hour",
+      "5000 vehicles per day",
+    ],
+    answer: 3
+  },
+  {
+    question: "A traffic rotary is justified where",
+    options: [
+      "number of intersecting roads is between 4 and 7",
+      "space is limited and costly",
+      "when traffic volume is less than 500 vehicles per hour",
+      "when traffic volume is more than 5000 vehicles per hour",
+    ],
+    answer: 1
+  },
+  {
+    question: "When a number of roads are meeting at a point and only one of the roads is important, then",
+    options: [
+      "circular",
+      "tangent",
+      "elliptical",
+      "turbine",
+    ],
+    answer: 2
+  },
+  {
+    question: "Maximum number of vehicles can be parked with",
+    options: [
+      "parallel parking",
+      "30° angle parking",
+      "45° angle parking",
+      "90° angle parking",
+    ],
+    answer: 4
+  },
+  {
+    question: "When the width of kerb parking space and width of street are limited, generally preferred",
+    options: [
+      "parallel parking",
+      "45° angle parking",
+      "65° angle parking",
+      "90° angle parking",
+    ],
+    answer: 1
+  },
+  {
+    question: "As per IRC recommendations, the average level of illumination on important roads carrying",
+    options: [
+      "10 lux",
+      "15 lux",
+      "20 lux",
+      "30 lux",
+    ],
+    answer: 4
+  },
+  {
+    question: "The most economical lighting layout which is suitable for narrow roads is",
+    options: [
+      "single side lighting",
+      "staggered system",
+      "central lighting system",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "The direct interchange ramp involves",
+    options: [
+      "diverging to the right side and merging from left",
+      "diverging to the left side and merging from right",
+      "diverging to the right side and merging from right",
+      "diverging to the left side and merging from left",
+    ],
+    answer: 3
+  },
+  {
+    question: "In soils having same values of plasticity index, if liquid limit is increased, then",
+    options: [
+      "compressibility and permeability decrease and dry strength increases",
+      "compressibility, permeability and dry strength decrease",
+      "compressibility, permeability and dry strength increase",
+      "compressibility and permeability increase and dry strength decreases",
+    ],
+    answer: 4
+  },
+  {
+    question: "Which of the following tests measures the toughness of road aggregates ?",
+    options: [
+      "crushing strength test",
+      "abrasion test",
+      "impact test",
+      "shape test",
+    ],
+    answer: 3
+  },
+  {
+    question: "Los Angeles testing machine is used to conduct",
+    options: [
+      "abrasion test",
+      "impact test",
+      "attrition test",
+      "crushing strength test",
+    ],
+    answer: 1
+  },
+  {
+    question: "In CBR test the value of CBR is calculated at",
+    options: [
+      "2.5 mm penetration only",
+      "5.0 mm penetration only",
+      "7.5 mm penetration only",
+      "both 2.5~mm and 5.0 mm penetrations",
+    ],
+    answer: 4
+  },
+  {
+    question: "If aggregate impact value is 20 to 30 percent, then it is classified as",
+    options: [
+      "exceptionally strong",
+      "strong",
+      "satisfactory for road surfacing",
+      "unsuitable for road surfacing",
+    ],
+    answer: 3
+  },
+  {
+    question: "The maximum allowable Los Angeles abrasion value for high quality surface course is",
+    options: [
+      "10%",
+      "20 %",
+      "30%",
+      "45 %",
+    ],
+    answer: 3
+  },
+  {
+    question: "Percentage of free carbon in bitumen is",
+    options: [
+      "more than that in tar",
+      "less than that in tar",
+      "equal to that in tar",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "The ductility value of bitumen for suitability in road construction should not be less than",
+    options: [
+      "30 cm",
+      "40 cm",
+      "50 cm",
+      "60 cm",
+    ],
+    answer: 3
+  },
+  {
+    question: "The maximum limit of water absorption for aggregate suitable for road construction is",
+    options: [
+      "0.4 %",
+      "0.6%",
+      "0.8 %",
+      "1.0 %",
+    ],
+    answer: 2
+  },
+  {
+    question: "Which of the following represents hardest grade of bitumen ?",
+    options: [
+      "30/40",
+      "60/70",
+      "80/100",
+      "100/120",
+    ],
+    answer: 1
+  },
+  {
+    question: "Penetration test on bitumen is used for determining its",
+    options: [
+      "grade",
+      "viscosity",
+      "ductility",
+      "temperature susceptibility",
+    ],
+    answer: 1
+  },
+  {
+    question: "Bitumen of grade 80/100 means",
+    options: [
+      "its penetration value is 8 mm",
+      "its penetration value is 10 mm",
+      "its penetration value is 8 to 10 mm",
+      "its penetration value is 8 to 10 cm",
+    ],
+    answer: 3
+  },
+  {
+    question: "RC-2, MC-2 and SC-2 correspond to",
+    options: [
+      "same viscosity",
+      "viscosity in increasing order from RC-2 to SC-2",
+      "viscosity in decreasing order from RC-2 to SC-2",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "The recommended grade of tar for grouting purpose is",
+    options: [
+      "RT-1",
+      "RT-2",
+      "RT.3",
+      "RT-5",
+    ],
+    answer: 4
+  },
+  {
+    question: "Softening point of bitumen to be used for read construction at a place where maximum",
+    options: [
+      "less-than 40°C",
+      "greater than 40°C",
+      "equal to 40°C",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "For rapid curing cutbacks, the oil used is",
+    options: [
+      "gasoline",
+      "kerosene oil",
+      "light diesel",
+      "heavy diesel",
+    ],
+    answer: 1
+  },
+  {
+    question: "The method of design of flexible pavement as recommended by IRC is",
+    options: [
+      "group index method",
+      "CBR method",
+      "Westergaard method",
+      "Benkelman beam method",
+    ],
+    answer: 2
+  },
+  {
+    question: "The group index for a soil, whose liquid limit is 40 percent, plasticity index is 10 percent",
+    options: [
+      "0",
+      "3",
+      "5",
+      "7",
+    ],
+    answer: 1
+  },
+  {
+    question: "Bottom most layer of pavement is known as",
+    options: [
+      "wearing course",
+      "base course",
+      "sub-base course",
+      "subgrade",
+    ],
+    answer: 4
+  },
+  {
+    question: "Flexible pavement distribute the wheel load",
+    options: [
+      "directly to subgrade",
+      "through structural action",
+      "through a set of layers to the subgrade",
+      "none of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "The number of repetitions, which the pavement thickness designed for a given wheel load",
+    options: [
+      "1000",
+      "10000",
+      "100000",
+      "1000000",
+    ],
+    answer: 4
+  },
+  {
+    question: "Group index method of design of flexible pavement is",
+    options: [
+      "a theoretical method",
+      "an empirical method based on physical properties of subgrade soil",
+      "an empirical method based on strength characteristics of subgrade soil",
+      "a semi empirical method",
+    ],
+    answer: 2
+  },
+  {
+    question: "Select the correct statement.",
+    options: [
+      "More the value of group index, less thickness of pavement will be required.",
+      "More the value of CBR, greater thick-ness of pavement will be required.",
+      "Minimum and maximum values of group index can be 0 and 20 respec-tively.",
+      "all of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "If the group index value of subgrade is between 5 and 9, then the subgrade is treated as",
+    options: [
+      "good",
+      "fair",
+      "poor",
+      "very poor",
+    ],
+    answer: 3
+  },
+  {
+    question: "Tyre pressure influences the",
+    options: [
+      "total depth of pavement",
+      "quality of surface course",
+      "both the above",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "Rigidity factor for a tyre pressure greater than 7 kg/cm2 is",
+    options: [
+      "equal to 1",
+      "less than 1",
+      "greater than 1",
+      "zero",
+    ],
+    answer: 2
+  },
+  {
+    question: "The critical combination of stresses for corner region in cement concrete roads is",
+    options: [
+      "load stress + warping stress frictional stress",
+      "load stress + warping stress + frictional stress",
+      "load stress + warping stress",
+      "load stress + frictional stress",
+    ],
+    answer: 3
+  },
+  {
+    question: "Tie bars in cement concrete pavements are at",
+    options: [
+      "expansion joints",
+      "contraction joints",
+      "warping joints",
+      "longitudinal joints",
+    ],
+    answer: 4
+  },
+  {
+    question: "The maximum spacing of contraction joints in rigid pavements is",
+    options: [
+      "2.5 m",
+      "3.5 m",
+      "4.5 m",
+      "5.5m",
+    ],
+    answer: 3
+  },
+  {
+    question: "The maximum thickness of expansion joint in rigid pavements is",
+    options: [
+      "0",
+      "25 mm",
+      "50 mm",
+      "100 mm",
+    ],
+    answer: 2
+  },
+  {
+    question: "The function of an expansion joint in rigid pavements is to",
+    options: [
+      "relieve warping stresses",
+      "relieve shrinkage stresses",
+      "resist stresses due to expansion",
+      "allow free expansion",
+    ],
+    answer: 4
+  },
+  {
+    question: "The fundamental factor in the selection of pavement type is",
+    options: [
+      "climatic condition",
+      "type and intensity of traffic",
+      "subgrade soil and drainage conditions",
+      "availability of funds for the construction project",
+    ],
+    answer: 2
+  },
+  {
+    question: "Most suitable material for highway embankments is",
+    options: [
+      "granular soil",
+      "organic soil",
+      "silts",
+      "clays",
+    ],
+    answer: 1
+  },
+  {
+    question: "Maximum daily traffic capacity of bituminous pavements is",
+    options: [
+      "500 tonnes per day",
+      "1000 tonnes per day",
+      "1500 tonnes per day",
+      "2000 tonnes per day",
+    ],
+    answer: 3
+  },
+  {
+    question: "The most suitable equipment for compacting clayey soils is a",
+    options: [
+      "smooth wheeled roller",
+      "pneumatic tyred roller",
+      "sheep foot roller",
+      "vibrator",
+    ],
+    answer: 3
+  },
+  {
+    question: "The aggregates required for one kilometre length of water bound macadam road per meter",
+    options: [
+      "8 cubic meter",
+      "10 cubic meter",
+      "12 cubic meter",
+      "15 cubic meter",
+    ],
+    answer: 3
+  },
+  {
+    question: "The camber of shoulders in water bound macadam roads is",
+    options: [
+      "equal to the cross slope of pavement",
+      "less than the cross slope of pavement",
+      "greater than the cross slope of pavement",
+      "zero",
+    ],
+    answer: 1
+  },
+  {
+    question: "The binder normally used in flexible pavement construction is",
+    options: [
+      "cement",
+      "lime",
+      "bitumen",
+      "none of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "In highway construction, rolling starts from",
+    options: [
+      "sides and proceed to center",
+      "center and proceed to sides",
+      "one side and proceed to other side",
+      "any of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "For the construction of water bound macadam roads, the correct sequence of operations",
+    options: [
+      "dry rolling, wet rolling, application of screening and application of filler",
+      "dry rolling, application of filler, wet rolling and application of screening",
+      "dry rolling, application of screening, wet rolling and application of filler",
+      "dry rolling, application of screening, application of filler and wet rolling",
+    ],
+    answer: 3
+  },
+  {
+    question: "In the penetration macadam construction, the bitumen is",
+    options: [
+      "sprayed after the aggregates are spread and compacted",
+      "premixed with aggregates and then spread",
+      "sprayed before the aggregates are spread and compacted",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "When the bituminous surfacing is done on already existing black top road or over existing",
+    options: [
+      "seal coat",
+      "tack coat",
+      "prime coat",
+      "spray of emulsion",
+    ],
+    answer: 2
+  },
+  {
+    question: "Which of the following premix methods is used for base course ?",
+    options: [
+      "bituminous carpet",
+      "mastic asphalt",
+      "sheet asphalt",
+      "bituminous bound macadam",
+    ],
+    answer: 4
+  },
+  {
+    question: "Select the correct statement.",
+    options: [
+      "Quantity of binder required for tack coat is less than that required for prime coat.",
+      "Prime coat treatment is given for plugging the voids in water bound macadam during",
+      "Seal coat is the final coat over certain previous bituminous pavements.",
+      "A bitumen primer is a high viscosity cutback.",
+    ],
+    answer: 4
+  },
+  {
+    question: "The suitable surfacing material for a bridge deck slab is",
+    options: [
+      "sheet asphalt",
+      "bituminous carpet",
+      "mastic asphalt",
+      "rolled asphalt",
+    ],
+    answer: 3
+  },
+  {
+    question: "Which of the following is considered to be the highest quality construction in the group of",
+    options: [
+      "mastic asphalt",
+      "sheet asphalt",
+      "bituminous carpet",
+      "bituminous concrete",
+    ],
+    answer: 4
+  },
+  {
+    question: "The thickness of bituminous carpet varies from",
+    options: [
+      "20 to 25 mm",
+      "50 to 75 mm",
+      "75 to 100 mm",
+      "100 to 120 mm",
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of the following represents a carpet of sand-bitumen mix without coarse aggregates ?",
+    options: [
+      "mastic asphalt",
+      "sheet asphalt",
+      "bituminous carpet",
+      "bituminous concrete",
+    ],
+    answer: 2
+  },
+  {
+    question: "In highway construction on superelevated curves, the rolling shall proceed from",
+    options: [
+      "sides towards the centre",
+      "centre towards the sides",
+      "lower edge towards the upper edge",
+      "upper edge towards the lower edge",
+    ],
+    answer: 3
+  },
+  {
+    question: "The camber for hill roads in case of bituminous surfacing is adopted as",
+    options: [
+      "2%",
+      "2.5%",
+      "3%",
+      "4%",
+    ],
+    answer: 2
+  },
+  {
+    question: "The minimum design speed for hairpin bends in hill roads is taken as",
+    options: [
+      "20 kmph",
+      "30 kmph",
+      "40 kmph",
+      "50 kmph",
+    ],
+    answer: 1
+  },
+  {
+    question: "The drain which is provided parallel to roadway to intercept and divert the water from hill",
+    options: [
+      "sloping drain",
+      "catchwater drain",
+      "side drain",
+      "cross drain",
+    ],
+    answer: 2
+  },
+  {
+    question: "The walls which are necessary on the hill side of roadway where earth has to be retained",
+    options: [
+      "retaining wall",
+      "breast wall",
+      "parapet wall",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "In hill roads the side drains arc provided",
+    options: [
+      "only on the hill side of road",
+      "only on the opposite side of hill",
+      "on both sides of road",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "Gypsum is a------------------?",
+    options: [
+      "mechanically formed sedimentary rock",
+      "igneous rock",
+      "chemically precipitated sedimentary rock",
+      "metamorphic rock",
+    ],
+    answer: 3
+  },
+  {
+    question: "Which of the following sedimentary rocks changes into quartzite by metamorphic action ?",
+    options: [
+      "sand stone",
+      "lime stone",
+      "shale",
+      "gypsum",
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of the following represents a metamorphic rock?",
+    options: [
+      "only (iii)",
+      "both (i) and (iii)",
+      "both (ii) and (iii)",
+      "all (i), (ii) and (iii)",
+    ],
+    answer: 2
+  },
+  {
+    question: "Quartitze is a",
+    options: [
+      "silicious rock",
+      "argillaceous rock",
+      "calcareous rock",
+      "aqueous rock",
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of the following is a mineral ?",
+    options: [
+      "basalt",
+      "granite",
+      "quartz",
+      "syenite",
+    ],
+    answer: 3
+  },
+  {
+    question: "Slate is formed by metamorphic action on",
+    options: [
+      "shale",
+      "lime stone",
+      "sand stone",
+      "granite",
+    ],
+    answer: 1
+  },
+  {
+    question: "Sandstone is a",
+    options: [
+      "only (i)",
+      "both (i) and (ii)",
+      "both (i) and (iii)",
+      "all (i), (ii) and (iii)",
+    ],
+    answer: 4
+  },
+  {
+    question: "Which of the following is a rock ?",
+    options: [
+      "quartz",
+      "mica",
+      "gypsum",
+      "none of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "Based on the following rocks and minerals, select the correct statement, quartz, shale, basalt,",
+    options: [
+      "basalt and marble are the only metamorphic rocks",
+      "there is no sedimentary rock",
+      "granite is the only igneous rock",
+      "quartz and mica are minerals",
+    ],
+    answer: 4
+  },
+  {
+    question: "A heavy stone is suitable for",
+    options: [
+      "arches",
+      "rubble masonry",
+      "roads",
+      "retaining walls",
+    ],
+    answer: 4
+  },
+  {
+    question: "The stone suitable for rubble masonry should be.",
+    options: [
+      "hard",
+      "tough",
+      "heavy",
+      "light",
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of the following metamorphic rocks has the most weather resisting characteristics?",
+    options: [
+      "marble",
+      "quartzite",
+      "slate",
+      "lime stone",
+    ],
+    answer: 2
+  },
+  {
+    question: "A good building stone should not absorb water more than",
+    options: [
+      "5%",
+      "10%",
+      "15%",
+      "20%",
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of the following has more fire resisting characteristics ?",
+    options: [
+      "marble",
+      "lime stone",
+      "compact sand stone",
+      "granite",
+    ],
+    answer: 3
+  },
+  {
+    question: "Jumper is a tool used for",
+    options: [
+      "testing of stones",
+      "quarrying of stones",
+      "dressing of stones",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "The important test to be conducted on a stone used in docks and harbours isa) hardness test",
+    options: [
+      "workability test",
+      "weight test",
+      "toughness test",
+    ],
+    answer: 3
+  },
+  {
+    question: "The predominant constituent which is responsible for strength in granite is",
+    options: [
+      "quartz",
+      "felspar",
+      "mica",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "Granite is not suitable for ordinary building purpose because",
+    options: [
+      "it can not be polished",
+      "it is not a fire proof material",
+      "it is costly",
+      "it has less crushing strength",
+    ],
+    answer: 3
+  },
+  {
+    question: "Which of the following stone is best suited for construction of piers and abutments of a",
+    options: [
+      "granite",
+      "sand stone",
+      "lime stone",
+      "quartzite",
+    ],
+    answer: 1
+  },
+  {
+    question: "The preparation of surface of stone to obtain plain edges or to obtain stones of required size",
+    options: [
+      "quarrying of stones",
+      "blasting of stones",
+      "seasoning of stones",
+      "dressing of stones",
+    ],
+    answer: 4
+  },
+  {
+    question: "Crushing strength of a good building stone should be more than",
+    options: [
+      "50 MPa",
+      "100 MPa",
+      "150 MPa",
+      "200 MPa",
+    ],
+    answer: 2
+  },
+  {
+    question: "Specific gravity for most of the building stones lies between",
+    options: [
+      "1.5 to 2.0",
+      "2.0 to 2.5",
+      "2.5 to 3.0",
+      "3.0 to 3.5",
+    ],
+    answer: 3
+  },
+  {
+    question: "Spalling hammer is used for",
+    options: [
+      "driving wooden headed chisels",
+      "rough dressing of stones",
+      "carving of stones",
+      "breaking small projection of stones",
+    ],
+    answer: 2
+  },
+  {
+    question: "Cross cut saw is used for",
+    options: [
+      "cutting soft stones",
+      "cutting hard stones",
+      "cutting large blocks of stones",
+      "dressing stones",
+    ],
+    answer: 2
+  },
+  {
+    question: "Sapwood consists of",
+    options: [
+      "innermost annular rings around the pith",
+      "portion of timber between heartwood and cambium layer",
+      "thin layers below the bark",
+      "thin fibre which extends from the pith outwards and holds the annular rings together",
+    ],
+    answer: 2
+  },
+  {
+    question: "Which of the following trees yields hard wood ?",
+    options: [
+      "deodar",
+      "chir",
+      "shishum",
+      "pine",
+    ],
+    answer: 3
+  },
+  {
+    question: "The radial splits which are wider on the outside of the log and narrower towards the pith are",
+    options: [
+      "heart shakes",
+      "cupshakes",
+      "starshakes",
+      "rindgalls",
+    ],
+    answer: 3
+  },
+  {
+    question: "In which of the following pairs both trees yield soft wood?",
+    options: [
+      "deodar and shishum",
+      "chir and sal",
+      "sal and teak",
+      "chir and deodar",
+    ],
+    answer: 4
+  },
+  {
+    question: "Which of the following timbers is suitable for making sports goods ?",
+    options: [
+      "mulberry",
+      "mahogany",
+      "sal",
+      "deodar",
+    ],
+    answer: 1
+  },
+  {
+    question: "Assertion A : Shishum is used for decorative woodwork.",
+    options: [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true",
+    ],
+    answer: 1
+  },
+  {
+    question: "The disease of dry rot in timber is caused by",
+    options: [
+      "lack of ventilation",
+      "alternate wet and dry conditions",
+      "complete submergence in water",
+      "none of the above",
+    ],
+    answer: 1
+  },
+  {
+    question: "Plywood has the advantage of'",
+    options: [
+      "greater tensile strength in longer direction",
+      "greater tensile strength in shorter direction",
+      "same tensile strength in all directions",
+      "none of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "In which of the following directions, the strength of timber is maximum ?",
+    options: [
+      "parallel to grains",
+      "45° to grains",
+      "perpendicular to grains",
+      "same in all directions",
+    ],
+    answer: 1
+  },
+  {
+    question: "The moisture content in a well seasoned timber is",
+    options: [
+      "4% to 6%",
+      "10% to 12%",
+      "15% to 20%",
+      "100%",
+    ],
+    answer: 2
+  },
+  {
+    question: "The trunk of tree left after cutting all the branches is known as",
+    options: [
+      "log",
+      "batten",
+      "plank",
+      "baulk",
+    ],
+    answer: 1
+  },
+  {
+    question: "The age of a tree can be known by examining",
+    options: [
+      "cambium layer",
+      "annular rings",
+      "medullary rays",
+      "heart wood",
+    ],
+    answer: 2
+  },
+  {
+    question: "Plywood is made by bonding together thin layers of wood in such a way that the angle",
+    options: [
+      "0°",
+      "30°",
+      "45°",
+      "90°",
+    ],
+    answer: 4
+  },
+  {
+    question: "The plywood",
+    options: [
+      "has good strength along the panel only",
+      "can be spilt in the plane of the panel",
+      "has greater impact resistance to blows than ordinary wood",
+      "cannot be bent more easily than ordinary wood of same thickness",
+    ],
+    answer: 3
+  },
+  {
+    question: "The practical limit of moisture content achieved in air drying of timber is",
+    options: [
+      "5%",
+      "15%",
+      "25%",
+      "35%",
+    ],
+    answer: 2
+  },
+  {
+    question: "First class timber has an average life of",
+    options: [
+      "less than one year",
+      "1 to 5 years",
+      "5 to 10 years",
+      "more than 10 years",
+    ],
+    answer: 4
+  },
+  {
+    question: "A first class brick when immersed in cold water for 24 hours should not absorb water more",
+    options: [
+      "15%",
+      "20%",
+      "22%",
+      "25%",
+    ],
+    answer: 2
+  },
+  {
+    question: "Crushing strength of a first class brick should not be less than",
+    options: [
+      "3.5 N/mm2",
+      "7.0 N/mm2",
+      "10.5 N/mm2",
+      "14.0 N/mm2",
+    ],
+    answer: 3
+  },
+  {
+    question: "The main function of alumina in brick earth is",
+    options: [
+      "to impart plasticity",
+      "to make the brick durable",
+      "to prevent shrinkage",
+      "to make the brick impermeable",
+    ],
+    answer: 1
+  },
+  {
+    question: "The percentage of alumina in a good brick earth lies between",
+    options: [
+      "5 to 10%",
+      "20 to 30%",
+      "50 to 60%",
+      "70 to 80%",
+    ],
+    answer: 2
+  },
+  {
+    question: "Excess of alumina in brick earth makes the brick",
+    options: [
+      "impermeable",
+      "brittle and weak",
+      "to lose cohesion",
+      "to crack and warp on drying",
+    ],
+    answer: 4
+  },
+  {
+    question: "The nominal size of the modular brick is",
+    options: [
+      "190 mm x 90mmx 80 mm",
+      "190 mm x 190 mm x 90 mm",
+      "200 mm x 100 mm x 100 mm",
+      "200 mm x 200 mm x 100 mm",
+    ],
+    answer: 3
+  },
+  {
+    question: "Percentage of silica in a good brick earth lies between",
+    options: [
+      "5 to 10%",
+      "20 to 30%",
+      "50 to 60%",
+      "70 to 80%",
+    ],
+    answer: 3
+  },
+  {
+    question: "Excess of silica in brick earth results in",
+    options: [
+      "cracking and warping of bricks",
+      "loss of cohesion",
+      "enhancing the impermeability of bricks",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "Which of the following ingredients of the brick earth enables the brick to retain its shape ?",
+    options: [
+      "alumina",
+      "silica",
+      "iron",
+      "magnesia",
+    ],
+    answer: 2
+  },
+  {
+    question: "Which of the following pairs gives a correct combination of the useful and harmful",
+    options: [
+      "lime stone and alumina",
+      "silica and alkalies",
+      "alumina and iron",
+      "alkalies and magnesium",
+    ],
+    answer: 2
+  },
+  {
+    question: "The process of mixing clay, water and other ingredients to make brick is known as",
+    options: [
+      "kneading",
+      "moulding",
+      "pugging",
+      "drying",
+    ],
+    answer: 1
+  },
+  {
+    question: "Advantage of a clamp compared to a kiln for burning bricks is that",
+    options: [
+      "it takes less time for burning",
+      "it gives more output of first class bricks",
+      "it has less initial cost",
+      "it is suitable when bricks are required in large numbers",
+    ],
+    answer: 3
+  },
+  {
+    question: "The internal size of mould used in brick preparation is",
+    options: [
+      "equal to the size of a fully burnt brick",
+      "smaller than the size of a fully burnt brick",
+      "greater than the size of a fully burnt brick",
+      "none of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "Pug mill is used for",
+    options: [
+      "preparation of clay",
+      "moulding of clay",
+      "drying of bricks",
+      "burning of bricks",
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of the following bricks are used for lining of furnaces ?",
+    options: [
+      "overburnt bricks",
+      "underburnt bricks",
+      "refractory bricks",
+      "first class bricks",
+    ],
+    answer: 3
+  },
+  {
+    question: "The frog of the brick in a brick masonry is generally kept on",
+    options: [
+      "bottom face",
+      "top face",
+      "shorter side",
+      "longer side",
+    ],
+    answer: 2
+  },
+  {
+    question: "Number of bricks required for one cubic metre of brick masonry is",
+    options: [
+      "400",
+      "450",
+      "500",
+      "550",
+    ],
+    answer: 3
+  },
+  {
+    question: "Glazing is used to make earthenware",
+    options: [
+      "hard",
+      "soft",
+      "porous",
+      "impervious",
+    ],
+    answer: 4
+  },
+  {
+    question: "Quick lime is",
+    options: [
+      "calcium carbonate",
+      "calcium oxide",
+      "calcium hydroxide",
+      "none of the above",
+    ],
+    answer: 2
+  },
+  {
+    question: "Quick lime is",
+    options: [
+      "only (i)",
+      "only (ii)",
+      "both (i) and (ii)",
+      "both (ii) and (iii)",
+    ],
+    answer: 3
+  },
+  {
+    question: "Assertion A : Pure lime takes a long time to develop adequate strength.",
+    options: [
+      "Both A and R are true and R is correct explanation of A.",
+      "Both A and R are true and R is not a correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true.",
+    ],
+    answer: 1
+  },
+  {
+    question: "Hydraulic lime is obtained by",
+    options: [
+      "burning of lime stone",
+      "burning of kankar",
+      "adding water to quick lime",
+      "calcination of pure clay",
+    ],
+    answer: 2
+  },
+  {
+    question: "The main constituent which imparts hydraulicity to hydraulic lime is",
+    options: [
+      "calcium oxide",
+      "silica",
+      "clay",
+      "water",
+    ],
+    answer: 3
+  },
+  {
+    question: "Study the following statements.",
+    options: [
+      "(i) and (iv)",
+      "(ii) and (iii)",
+      "(i) and (ii)",
+      "(iii) and (iv)",
+    ],
+    answer: 2
+  },
+  {
+    question: "The main ingredients of Portland cement are",
+    options: [
+      "lime and silica",
+      "lime and alumina",
+      "silica and alumina",
+      "lime and iron",
+    ],
+    answer: 1
+  },
+  {
+    question: "The constituent of cement which is responsible for all the undesirable properties of cement is",
+    options: [
+      "dicalcium silicate",
+      "tricalcium silicate",
+      "tricalcium aluminate",
+      "tetra calcium alumino ferrite",
+    ],
+    answer: 3
+  },
+  {
+    question: "Le Chatelier's device is used for determining the",
+    options: [
+      "setting time of cement",
+      "soundness of cement",
+      "tensile strength of cement",
+      "compressive strength of cement",
+    ],
+    answer: 2
+  },
+  {
+    question: "The main constituent of cement which is responsible for initial setting of cement is",
+    options: [
+      "dicalcium silicate",
+      "tricalcium silicate",
+      "tricalcium aluminate",
+      "all of the above",
+    ],
+    answer: 3
+  },
+  {
+    question: "The initial setting time for ordinary Portland cement as per IS specifications should not be",
+    options: [
+      "10 minutes",
+      "30 minutes",
+      "60 minutes",
+      "600 minutes",
+    ],
+    answer: 2
+  },
+  {
+    question: "As per IS specifications, the maximum final setting time for ordinary Portland cement should",
+    options: [
+      "30 minutes",
+      "1 hour",
+      "6 hours",
+      "10 hours",
+    ],
+    answer: 4
+  },
+  {
+    question: "For testing compressive strength of cement, the size of cube used is",
+    options: [
+      "50 mm",
+      "70.6 mm",
+      "100 mm",
+      "150 mm",
+    ],
+    answer: 1
+  },
+  {
+    question: "The normal consistency of ordinary Portland cement is about",
+    options: [
+      "10%",
+      "20%",
+      "30%",
+      "40%",
+    ],
+    answer: 3
+  },
+  {
+    question: "Early attainment of strength in rapid hardening cement is mainly due to",
+    options: [
+      "gypsum",
+      "finer grinding",
+      "tricalcium silicate",
+      "tricalcium aluminate",
+    ],
+    answer: 2
+  },
+  {
+    question: "After storage, the strength of cement",
+    options: [
+      "decreases",
+      "increases",
+      "remains same",
+      "may increase or decrease",
+    ],
+    answer: 1
+  },
+  {
+    question: "According to IS specifications, the compressive strength of ordinary portland cement after",
+    options: [
+      "7 MPa",
+      "11.5 MPa",
+      "16 MPa",
+      "21 MPa",
+    ],
+    answer: 3
+  },
 
 
+
+
+ ] 
 
 
 };
