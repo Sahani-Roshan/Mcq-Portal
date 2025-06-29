@@ -27006,6 +27006,7 @@ window.mcqData = {
   },
  "500+ MCQ" : [
 
+
   {
     question: "To determine the modulus of rupture, the size of test specimen used is",
     options: [
@@ -27014,7 +27015,7 @@ window.mcqData = {
       "150 x150 x700 mm",
       "100 x100 x500 mm",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The property of fresh concrete, in which the water in the mix tends to rise to the surface",
@@ -27024,7 +27025,7 @@ window.mcqData = {
       "bulking",
       "creep",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Select the incorrect statement",
@@ -27034,7 +27035,7 @@ window.mcqData = {
       "Bleeding can be increased by addition 'of calcium chloride.",
       "none of the above",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "The property of the ingredients to separate from each other while placing the concrete is",
@@ -27044,7 +27045,7 @@ window.mcqData = {
       "shrinkage",
       "bulking",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Workability of concrete is directly proportional to",
@@ -27054,7 +27055,7 @@ window.mcqData = {
       "grading of the aggregate",
       "all of above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Workability of concrete is inversely proportional to",
@@ -27064,7 +27065,7 @@ window.mcqData = {
       "the air in the mix",
       "size of aggregate",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Approximate value of shrinkage strain in concrete, is",
@@ -27074,7 +27075,7 @@ window.mcqData = {
       "0.00003",
       "0.03",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Air entrainment in the concrete increases",
@@ -27084,7 +27085,7 @@ window.mcqData = {
       "the effects of temperature variations",
       "the unit weight",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The relation between modulus of rupture fcr, splitting strength fcs and direct tensile",
@@ -27094,7 +27095,7 @@ window.mcqData = {
       "fcr",
       "fc5>fcr>fC.",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The approximate value of the ratio between direct tensile strength and flexural strength",
@@ -27104,7 +27105,7 @@ window.mcqData = {
       "0.75",
       "1.0",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Strength of concrete increases with",
@@ -27114,7 +27115,7 @@ window.mcqData = {
       "decrease in curing time",
       "decrease in size of aggregate",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The relation between modulus of rupture fcr and characteristic strength of concrete fck is",
@@ -27124,7 +27125,7 @@ window.mcqData = {
       "fcr=0.7√fck",
       "fcr=1.2√fck",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The compressive strength of 100 mm cube as compared to 150 mm cube is always",
@@ -27134,7 +27135,7 @@ window.mcqData = {
       "equal",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "According to IS : 456 -1978, the modulus of elasticity of concrete Ec (in N/mm2) can be",
@@ -27144,7 +27145,7 @@ window.mcqData = {
       "Ec = = 5700√fck",
       "Ec = 700√fck , fck is the characteristic strength in N/mm2",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Increase in the moisture content in con-crete",
@@ -27154,7 +27155,7 @@ window.mcqData = {
       "does not change the strength",
       "all of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "As compared to ordinary portland cement, use of pozzuolanic cement",
@@ -27164,7 +27165,7 @@ window.mcqData = {
       "increases shrinkage",
       "increases strength",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Admixtures which cause early setting, and hardening of concrete are called",
@@ -27174,7 +27175,7 @@ window.mcqData = {
       "retarders",
       "air entraining agents",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The most commonly used admixture which prolongs the setting and hardening time is",
@@ -27184,7 +27185,7 @@ window.mcqData = {
       "sodium silicate",
       "all of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The percentage of voids in cement is approximately",
@@ -27194,7 +27195,7 @@ window.mcqData = {
       "60%",
       "80%",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The strength of concrete after one year as compared to 28 days strength is about",
@@ -27204,7 +27205,7 @@ window.mcqData = {
       "20 to 25% more",
       "25 to 50% more",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "As compared to ordinary portland cement, high alumina cement has",
@@ -27214,7 +27215,7 @@ window.mcqData = {
       "higher initial and final setting times",
       "lower initial and final setting times",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Modulus of rupture of concrete is a measure of",
@@ -27224,7 +27225,7 @@ window.mcqData = {
       "compressive strength",
       "split tensile strength",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "In order to obtain the best workability of concrete, the preferred shape of aggregate is",
@@ -27234,7 +27235,7 @@ window.mcqData = {
       "angular",
       "all of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The effect of adding calcium chloride in concrete is",
@@ -27244,7 +27245,7 @@ window.mcqData = {
       "(ii) and (iii)",
       "(ii) and (iv)",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Bulking of sand is maximum if moisture content is about",
@@ -27254,7 +27255,7 @@ window.mcqData = {
       "6%",
       "10%",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Finer grinding of cement",
@@ -27264,7 +27265,7 @@ window.mcqData = {
       "both (a) and (b)",
       "does not affect the strength",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Poisson's ratio for concrete",
@@ -27274,7 +27275,7 @@ window.mcqData = {
       "decreases with richer mixes",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "1% of voids in a concrete mix would reduce its strength by about",
@@ -27284,7 +27285,7 @@ window.mcqData = {
       "15%",
       "20%",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The fineness modulus of fine aggregate is in the range of",
@@ -27294,7 +27295,7 @@ window.mcqData = {
       "5.0 to 7.0",
       "6.0 to 8.5",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The factor of safety for",
@@ -27304,7 +27305,7 @@ window.mcqData = {
       "steel is higher than that for concrete",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Examine the following statements :",
@@ -27314,7 +27315,7 @@ window.mcqData = {
       "(ii) and (iii)",
       "(ii) and (iv)",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "For a reinforced concrete section, the shape of shear stress diagram is",
@@ -27324,7 +27325,7 @@ window.mcqData = {
       "parabolic above neutral axis and rectangular below neutral axis",
       "rectangular above neutral axis and parabolic below neutral axis",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Diagonal tension in a beam",
@@ -27334,7 +27335,7 @@ window.mcqData = {
       "increases below the neutral axis and decreases above the neutral axis",
       "remains same",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "If a beam fails in bond, then its bond strength can be increased most economically by",
@@ -27344,7 +27345,7 @@ window.mcqData = {
       "using thicker bars but less in number",
       "providing vertical stirrups",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "If nominal shear stress tv exceeds the design shear strength of concrete xc, the nominal",
@@ -27354,7 +27355,7 @@ window.mcqData = {
       "τv - τC",
       "τv + τc",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "If the depth of actual neutral axis in a beam is more than the depth of critical neutral axis,",
@@ -27364,7 +27365,7 @@ window.mcqData = {
       "over-reinforced beam",
       "none of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "If the depth of neutral axis for a singly reinforced rectangular section is represented by kd in",
@@ -27374,7 +27375,7 @@ window.mcqData = {
       "depends on both crst and acbc",
       "is independant of both ast and acbc where d is the effective depth, ast is permissible",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "If the permissible stress in steel in tension is 140 N/mm2, then the depth of neutral axis for",
@@ -27384,7 +27385,7 @@ window.mcqData = {
       "0.45 d",
       "dependent on grade of concrete also",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Modulus of elasticity of steel as per IS : 456-1978 shall be taken as",
@@ -27394,7 +27395,7 @@ window.mcqData = {
       "200kN/mm2",
       "2xl06N/cm2",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Minimum grade of concrete to be used in reinforced concrete as per IS:456-1978 is",
@@ -27404,7 +27405,7 @@ window.mcqData = {
       "M 10",
       "M25",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "For concreting of heavily reinforced sections without vibration, the workability of concrete",
@@ -27414,7 +27415,7 @@ window.mcqData = {
       "0.85 - 0.92",
       "above 0.92",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Maximum quantity of water needed per 50 kg of cement for M 15 grade of concrete is",
@@ -27424,7 +27425,7 @@ window.mcqData = {
       "32 litres",
       "34 litres",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "In case of hand mixing of concrete, the extra cement to be added is",
@@ -27434,7 +27435,7 @@ window.mcqData = {
       "15%",
       "20%",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "For walls, columns and vertical faces of all structural members, the form work is generally",
@@ -27444,7 +27445,7 @@ window.mcqData = {
       "7 days",
       "14 days",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The individual variation between test strength of sample should not be more than",
@@ -27454,7 +27455,7 @@ window.mcqData = {
       "± 15% of average",
       "±20% of average",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "One of the criteria for the effective width of flange of T-beam is bf =—+ bw +6Df 6 In above",
@@ -27464,7 +27465,7 @@ window.mcqData = {
       "distance between points of maximum moments in the beam",
       "clear span of the T-beam",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "For a cantilever of effective depth of 0.5m, the maximum span to satisfy vertical deflection",
@@ -27474,7 +27475,7 @@ window.mcqData = {
       "4.5 m",
       "5 m",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "For a simply supported beam of span 15m, the minimum effective depth to satisfy the",
@@ -27484,7 +27485,7 @@ window.mcqData = {
       "900 mm",
       "more than 1 m",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "For a continuous slab of 3 m x 3.5 m size, the minimum overall depth of slab to satisfy",
@@ -27494,7 +27495,7 @@ window.mcqData = {
       "100 mm",
       "120 mm",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "According to IS : 456-1978, the fiexural strength of concrete is",
@@ -27503,7 +27504,7 @@ window.mcqData = {
       "inversely proportional to compressive strength",
       "directly proportional to square root of compressive strength\fd) inversely proportional to square root of compressive strength",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "According to IS : 456-1978, the column or the strut is the member whose effective length is",
@@ -27513,7 +27514,7 @@ window.mcqData = {
       "3 times the least lateral dimension",
       "4 times the least lateral dimension",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "According to IS : 456- 1978, minimum slenderness ratio for a short column is",
@@ -27523,7 +27524,7 @@ window.mcqData = {
       "between 18 and 24",
       "more than 24",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Lap length in compression shall not be less than",
@@ -27533,7 +27534,7 @@ window.mcqData = {
       "24 Φ",
       "30 Φ",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The minimum cover in a slab should neither be less than the diameter of bar nor less",
@@ -27543,7 +27544,7 @@ window.mcqData = {
       "25 mm",
       "13 mm",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "For a longitudinal reinforcing bar in a column, the minimum cover shall neither be less",
@@ -27553,7 +27554,7 @@ window.mcqData = {
       "30mm",
       "40 mm",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "The ratio of the diameter of reinforcing bars and the slab thickness is",
@@ -27563,7 +27564,7 @@ window.mcqData = {
       "1/6",
       "1/8",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "According to IS: 456-1978, the maximum reinforcement in a column is",
@@ -27573,7 +27574,7 @@ window.mcqData = {
       "6 %",
       "8 %",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The percentage of reinforcement in case of slabs, when high strength deformed bars",
@@ -27583,7 +27584,7 @@ window.mcqData = {
       "0.30",
       "1.00",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Which of the following statements is incorrect ?",
@@ -27593,7 +27594,7 @@ window.mcqData = {
       "Reinforcing bars in a column should not be less than 12 mm in diameter.",
       "The number of longitudinal bars pro-vided in a circular column should not be less than",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Which of the following statements is incorrect ?",
@@ -27603,7 +27604,7 @@ window.mcqData = {
       "Higher compacting factor shows higher workability.",
       "none of the above",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Minimum pitch of transverse reinforce¬ment in a column is",
@@ -27613,7 +27614,7 @@ window.mcqData = {
       "forty-eight times the diameter of transverse reinforcement",
       "lesser of the above three values",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Maximum distance between expansion joints in structures as per IS : 456 - 1978 is",
@@ -27623,7 +27624,7 @@ window.mcqData = {
       "45 m",
       "60 m",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "A continuous beam is deemed to be a deep beam when the ratio of effective span to",
@@ -27633,7 +27634,7 @@ window.mcqData = {
       "2.5",
       "3.0",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Critical section for shear in case of flat slabs is at a distance of",
@@ -27643,7 +27644,7 @@ window.mcqData = {
       "at the drop panel of slab",
       "at the periphery of column",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Minimum thickness of load bearing RCC wall should be",
@@ -27653,7 +27654,7 @@ window.mcqData = {
       "150 mm",
       "200 mm",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "If the storey height is equal to length of RCC wall, the percentage increase in strength is",
@@ -27663,7 +27664,7 @@ window.mcqData = {
       "20",
       "30",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "In reinforced concrete footing on soil, the minimum thickness at edge should not be less",
@@ -27673,7 +27674,7 @@ window.mcqData = {
       "200 mm",
       "250 mm",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The slab is designed as one way if the ratio of long span to short span is",
@@ -27683,7 +27684,7 @@ window.mcqData = {
       "between 1.5 and 2",
       "greater than 2",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Ratio of permissible stress in direct compression and bending compression is",
@@ -27693,7 +27694,7 @@ window.mcqData = {
       "between 1.5 and 2.0",
       "greater than 2",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "A higher modular ratio shows",
@@ -27703,7 +27704,7 @@ window.mcqData = {
       "higher tensile strength of steel",
       "lower tensile strength of steel",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The average permissible stress in bond for plain bars in tension is",
@@ -27713,7 +27714,7 @@ window.mcqData = {
       "decreased by 10% for bars in compression",
       "decreased by 25% for bars in com-pression",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "In working stress design, permissible bond stress in the case of deformed bars is more",
@@ -27723,7 +27724,7 @@ window.mcqData = {
       "30%",
       "40%",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "The main reason for providing number of reinforcing bars at a support in a simply",
@@ -27733,7 +27734,7 @@ window.mcqData = {
       "bond stress",
       "tensile stress",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Half of the main steel in a simply supported slab is bent up near the support at a",
@@ -27743,7 +27744,7 @@ window.mcqData = {
       "l/7",
       "l/10",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "When shear stress exceeds the permissible limit in a slab, then it is reduced by",
@@ -27753,7 +27754,7 @@ window.mcqData = {
       "using high strength steel",
       "using thinner bars but more in number",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "If the size of panel in a flat slab is 6m x 6m, then as per Indian Standard Code, the widths",
@@ -27763,7 +27764,7 @@ window.mcqData = {
       "3.0 m and 3.0 m",
       "1.5 m and 1.5 m",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "For a slab supported on its four edges with corners held down and loaded uniformly, the",
@@ -27773,7 +27774,7 @@ window.mcqData = {
       "can be more than 1",
       "can be less than 1",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The permissible diagonal tensile stress in reinforced brick work is",
@@ -27783,7 +27784,7 @@ window.mcqData = {
       "0.3 N/mm2 to 0.7 N/mm2",
       "about 1.0 N/mm2",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The limits of percentage p of the longitudinal reinforce-ment in a column is given by",
@@ -27793,7 +27794,7 @@ window.mcqData = {
       "0.8% to 6%",
       "0.8% to 8%",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The minimum diameter of longitudinal bars in a column is",
@@ -27803,7 +27804,7 @@ window.mcqData = {
       "12 mm",
       "16 mm",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The minimum cover to the ties or spirals should not be less than",
@@ -27813,7 +27814,7 @@ window.mcqData = {
       "25 mm",
       "50mm",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The load carrying capacity of a helically reinforced column as compared to that of a tied",
@@ -27823,7 +27824,7 @@ window.mcqData = {
       "5% more",
       "10% more",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The diameter of ties in a column should be",
@@ -27833,7 +27834,7 @@ window.mcqData = {
       "more than 5 mm but less than one-fourth of diameter of main bar",
       "more than 5 mm and also more than one-fourth of diameter of main bar",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Due to circumferential action of the spiral in a spirally reinforced column",
@@ -27843,7 +27844,7 @@ window.mcqData = {
       "capacity of column is decreased but ductility of column increases",
       "both the capacity of column and ductility of column increase",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Maximum percentage reinforcement in case of slabs is limited to",
@@ -27853,7 +27854,7 @@ window.mcqData = {
       "6",
       "8",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Which of the following R.C. retaining walls is suitable for heights beyond 6m?",
@@ -27863,7 +27864,7 @@ window.mcqData = {
       "counterfort type",
       "all of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "For the design of retaining walls, the minimum factor of safety against overturning is",
@@ -27873,7 +27874,7 @@ window.mcqData = {
       "2.5",
       "3.0",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "In counterfort type retaining walls",
@@ -27883,7 +27884,7 @@ window.mcqData = {
       "(ii) and (iii)",
       "(iii) and (iv)",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "A T-shaped retaining wall mainly conssits of",
@@ -27893,7 +27894,7 @@ window.mcqData = {
       "three cantilevers",
       "four cantilevers",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "In T-shaped R C. retaining walls, the main reinforcement in the stem is provided on",
@@ -27903,7 +27904,7 @@ window.mcqData = {
       "the inner face in one direction",
       "the inner face in both directions",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The main reinforcement in the toe of a T- shaped R C. retaining wall is provided on",
@@ -27913,7 +27914,7 @@ window.mcqData = {
       "(iii) and (iv) are correct",
       "only (iv) is correct",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "The temperature reinforcement in the vertical slab of a T-shaped R.C. retaining wall is",
@@ -27923,7 +27924,7 @@ window.mcqData = {
       "provided more on inner face than on front face",
       "provided more on front face than on inner face",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "The main reinforcement in the heel of a T-shaped R.C. retaining wall is provided on",
@@ -27933,7 +27934,7 @@ window.mcqData = {
       "both top and bottom faces perpendi-cular to wall",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "In a counterfort retaining wall, the main reinforcement is provided on the",
@@ -27943,7 +27944,7 @@ window.mcqData = {
       "(i) and (iv)",
       "(iii) and (iv)",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "In counterfort retaining walls, the main reinforcement in the stem at support is",
@@ -27953,7 +27954,7 @@ window.mcqData = {
       "provided only on front face",
       "provided both on inner and front faces",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "In the design of a front counterfort in a counterfort retaining wall, the main reinforcement",
@@ -27963,7 +27964,7 @@ window.mcqData = {
       "both (i) and (iv)",
       "both (ii) and (iii)",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "In a counterfort retaining wall, the main reinforcement in the stem at mid span is provided",
@@ -27973,7 +27974,7 @@ window.mcqData = {
       "both front face and inner face",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The depth of footing for an isolated column is governed by",
@@ -27983,7 +27984,7 @@ window.mcqData = {
       "(i) and (iii)",
       "(i), (ii) and (iii)",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "If the foundations of all the columns of a structure are designed on the total live and",
@@ -27993,7 +27994,7 @@ window.mcqData = {
       "the settlement of exterior columns will be more than interior columns",
       "the settlement of interior columns will be more than exterior columns",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "To minimise the effect of differential settlement, the area of a footing should be designed",
@@ -28003,7 +28004,7 @@ window.mcqData = {
       "dead load + fraction of live load",
       "live load + fraction of dead load",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The critical section for finding maximum bending moment for footing under masonry wall",
@@ -28013,7 +28014,7 @@ window.mcqData = {
       "halfway between the middle and edge of the wall",
       "at a distance equal to effective depth of footing from the edge of the wall",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "In a pile of length L, the points of suspension from ends for lifting it are located at",
@@ -28023,7 +28024,7 @@ window.mcqData = {
       "0.293L",
       "0.333L",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "During erection, the pile of length L is supported by a crane at a distance of",
@@ -28033,7 +28034,7 @@ window.mcqData = {
       "0.707L",
       "0.793L",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "While designing the pile as a column, the end conditions are nearly",
@@ -28043,7 +28044,7 @@ window.mcqData = {
       "one end fixed and other end hinged",
       "one end fixed and other end free",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The recommended value of modular ratio for reinforced brick work is",
@@ -28053,7 +28054,7 @@ window.mcqData = {
       "40",
       "58",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "According to ISI recommendations, the maximum depth of stress block for balanced",
@@ -28063,7 +28064,7 @@ window.mcqData = {
       "0.68 d",
       "0.85 d",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Assertion A : The load factor for live load is greater than that for dead load.",
@@ -28073,7 +28074,7 @@ window.mcqData = {
       "A is true but R is false.",
       "A is false but R is true.",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The design yield stress of steel according to IS: 456-1978 is (where fy is the characteristic yield strength of steel)",
@@ -28083,7 +28084,7 @@ window.mcqData = {
       "0.67 fy",
       "0.87 fy",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "According to Whitney's theory, ultimate strain of concrete is assumed to be",
@@ -28093,7 +28094,7 @@ window.mcqData = {
       "0.3%",
       "3%",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "According to Whitney's theory, depth of stress block for a balanced section of a concrete",
@@ -28103,7 +28104,7 @@ window.mcqData = {
       "0.68 d",
       "0.85 d",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The load factors for live load and dead load are taken respectively as",
@@ -28113,7 +28114,7 @@ window.mcqData = {
       "1.5 and 1.5",
       "2.2 and 2.2",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "As per Whitney's theory, the maximum moment of resistance of the balanced section of a",
@@ -28123,7 +28124,7 @@ window.mcqData = {
       "0.185acybd2",
       "0.43acybd2",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The effect of creep on modular ratio is",
@@ -28133,7 +28134,7 @@ window.mcqData = {
       "either to decrease or to increase it",
       "to keep it unchanged",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Shrinkage of concrete depends upon",
@@ -28143,7 +28144,7 @@ window.mcqData = {
       "only (iii)",
       "All (i), (ii) and (iii)",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Due to shrinkage stresses, a simply supported beam having reinforcement only at",
@@ -28153,7 +28154,7 @@ window.mcqData = {
       "deflect downward or upward",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "In symmetrically reinforced sections, shrinkage stresses in concrete and steel are",
@@ -28163,7 +28164,7 @@ window.mcqData = {
       "both compressive",
       "both tensile",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "A beam curved in plan is designed for",
@@ -28173,7 +28174,7 @@ window.mcqData = {
       "shear and torsion",
       "bending moment, shear and torsion",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "In a spherical dome subjected to concentrated load at crown or uniformly distributed",
@@ -28183,7 +28184,7 @@ window.mcqData = {
       "compressive",
       "tensile or compressive",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Sinking of an intermediate support of a continuous beam",
@@ -28193,7 +28194,7 @@ window.mcqData = {
       "(ii) and (iii)",
       "(ii) and (iv)",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The maximum value of hoop compression in a dome is given by",
@@ -28203,7 +28204,7 @@ window.mcqData = {
       "wR/d",
       "2wR/d",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "In a spherical dome the hoop stress due to a concentrated load at crown is",
@@ -28213,7 +28214,7 @@ window.mcqData = {
       "partly compressive and partly tensile",
       "zero",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "In a ring beam subjected to uniformly distributed load",
@@ -28223,7 +28224,7 @@ window.mcqData = {
       "(ii) and (iii)",
       "(ii) and (iv)",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "In prestressed concrete",
@@ -28233,7 +28234,7 @@ window.mcqData = {
       "both forces of tension and compres-sion as well as lever arm change",
       "both forces of tension and compres-sion as well as lever arm remain unchanged",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The purpose of reinforcement in prestressed concrete is",
@@ -28243,7 +28244,7 @@ window.mcqData = {
       "to impart initial compressive stress in concrete",
       "all of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Normally prestressing wires are arranged in the",
@@ -28253,7 +28254,7 @@ window.mcqData = {
       "centre",
       "anywhere",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Most common method of prestressing used for factory production is",
@@ -28263,7 +28264,7 @@ window.mcqData = {
       "Magnel-Blaton system",
       "Lee-Macall system",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Select the incorrect statement",
@@ -28273,7 +28274,7 @@ window.mcqData = {
       "For heavy loads and large spans in buildings or bridges, post-tensioning system is",
       "none of the above",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Which of the following losses of prestress occurs only in pretensioning and not in",
@@ -28283,7 +28284,7 @@ window.mcqData = {
       "creep of concrete",
       "loss due to friction",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Prestress loss due to friction occurs",
@@ -28293,7 +28294,7 @@ window.mcqData = {
       "in both post-tensioned and preten-sioned beams",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Which of the following has high tensile strength ?",
@@ -28303,7 +28304,7 @@ window.mcqData = {
       "heat treated rolled wires",
       "all have same tensile strength",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "High carbon content in the steel causes",
@@ -28313,7 +28314,7 @@ window.mcqData = {
       "decrease in both tensile strength and ductility",
       "increase in both tensile strength and ductility",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Stress strain curve of high tensile steel",
@@ -28323,7 +28324,7 @@ window.mcqData = {
       "does not show definite yield point but yield point is defined by 0.2% proof stress",
       "does not show definite yield point but yield point is defined by 2% proof stress,",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Select the correct statement",
@@ -28333,7 +28334,7 @@ window.mcqData = {
       "Carbon percentage in high carbon steel is less than that in mild steel.",
       "High tensile steel is cheaper than mild steel.",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Cube strength of controlled concrete to be used for pretensioned and post-tensioned",
@@ -28343,7 +28344,7 @@ window.mcqData = {
       "42 MPa and 53 MPa",
       "53 MPa and 42 MPa",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Ultimate strength of cold drawn high steel wires",
@@ -28353,7 +28354,7 @@ window.mcqData = {
       "does not depend on diameter of bar",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Prestressing losses in post-tensioned and pre-tensioned beams are respectively",
@@ -28363,7 +28364,7 @@ window.mcqData = {
       "15% and 15%",
       "20% and 20%",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "In concrete, use of angular crushed aggregate in place of natural rounded gravel affects",
@@ -28373,7 +28374,7 @@ window.mcqData = {
       "flexural tensile strength",
       "compressive strength",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Ratio of compressive strength to tensile strength of concrete",
@@ -28383,7 +28384,7 @@ window.mcqData = {
       "remains constant",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "According to Indian Standards, the grading of fine aggregates is divided into",
@@ -28393,7 +28394,7 @@ window.mcqData = {
       "four zones",
       "five zones",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Assertion A : Lightweight concrete exhi¬bits higher shrinkage than normal weight",
@@ -28403,7 +28404,7 @@ window.mcqData = {
       "A is true but R is false",
       "A is false but R is true",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Endurance limit of mild steel is approximately equal to,",
@@ -28413,7 +28414,7 @@ window.mcqData = {
       "0.7",
       "0.8",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "With the increase in rate of loading during testing, compressive strength of concrete",
@@ -28423,7 +28424,7 @@ window.mcqData = {
       "remains same",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "For a given aggregate content increasing the water-cement ratio in concrete",
@@ -28433,7 +28434,7 @@ window.mcqData = {
       "does not change shrinkage",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Assertion A : The net loss of strength due to air entrainment of a richer mix is higher",
@@ -28443,7 +28444,7 @@ window.mcqData = {
       "A is true but R is false",
       "A is false but R is true",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The bond strength between steel reinforcement and concrete is affected by i)",
@@ -28453,7 +28454,7 @@ window.mcqData = {
       "(i) and (iii)",
       "(i), (ii) and (iii)",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "The bond strength between steel and concrete is due to",
@@ -28463,7 +28464,7 @@ window.mcqData = {
       "both friction and adhesion",
       "none of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Impact strength of concrete increases by using",
@@ -28473,7 +28474,7 @@ window.mcqData = {
       "(i) and (iii)",
       "(i), (ii) and (iii)",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Impact strength of concrete is greater for",
@@ -28483,7 +28484,7 @@ window.mcqData = {
       "only (i)",
       "only (ii)",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "If the contributions of tricalcium silicate, dicalcium silicate, tricalcium aluminate",
@@ -28493,7 +28494,7 @@ window.mcqData = {
       "W>X>Z>Y",
       "W>Y>X>Z",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The initial and final setting times for ordinary portland cement are approxi¬",
@@ -28507,7 +28508,7 @@ window.mcqData = {
       "A is true but R is false",
       "A is false but R is true",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Amount of gypsum required to be added to the clinker depends on the following contents",
@@ -28517,7 +28518,7 @@ window.mcqData = {
       "(iii) and (iv)",
       "(i)and(iv)",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The diameter of needle used in Vicat's apparatus for the determination of initial",
@@ -28527,7 +28528,7 @@ window.mcqData = {
       "5 mm",
       "10mm",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The heat of hydration of cement can be reduced by",
@@ -28537,7 +28538,7 @@ window.mcqData = {
       "increasing the fineness of cement",
       "both (a) and (c)",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Assertion A : Rapid hardening cement is generally not used in mass concrete",
@@ -28547,7 +28548,7 @@ window.mcqData = {
       "A is true but R is false.",
       "A is false but R is true.",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "If the angularity number of an aggregate is increased, then the workability of the",
@@ -28557,7 +28558,7 @@ window.mcqData = {
       "not change",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "If W,, W2, W3 and W4 are the weights of sand in oven dry, air dry, saturated but surface",
@@ -28567,7 +28568,7 @@ window.mcqData = {
       "W4-W3",
       "W3-W2",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The ordinate of grading curve of an aggregate represents",
@@ -28577,7 +28578,7 @@ window.mcqData = {
       "sieve size plotted on normal scale",
       "sieve size plotted on logarithmic scale",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Increase in fineness modulus of aggregate indicates",
@@ -28587,7 +28588,7 @@ window.mcqData = {
       "gap grading",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Weight of an oven dry sand and air dry sand are 500 gm and 520 gm respectively.",
@@ -28597,7 +28598,7 @@ window.mcqData = {
       "4.76%",
       "5%",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Soundness test of cement by Le-Chatelier's apparatus gives unsoundness due to",
@@ -28607,7 +28608,7 @@ window.mcqData = {
       "both free lime and magnesia",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Maximum permissible limit of magnesia content in ordinary Portland cement is",
@@ -28617,7 +28618,7 @@ window.mcqData = {
       "8%",
       "10%",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "A metallic tape is made of",
@@ -28627,7 +28628,7 @@ window.mcqData = {
       "linen",
       "cloth and wires",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "For a well-conditioned triangle, no angle should be less than",
@@ -28637,7 +28638,7 @@ window.mcqData = {
       "45°",
       "60°",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The angle of intersection of the two plane mirrors of an optical square is",
@@ -28647,7 +28648,7 @@ window.mcqData = {
       "60°",
       "90°",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The allowable length of an offset depends upon the",
@@ -28657,7 +28658,7 @@ window.mcqData = {
       "scale of plotting",
       "all of the above",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Which of the following angles can be set out with the help of French cross staff?",
@@ -28667,7 +28668,7 @@ window.mcqData = {
       "either 45° or 90°",
       "any angle",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Which of the following methods of offsets involves less measurement on the ground?",
@@ -28677,7 +28678,7 @@ window.mcqData = {
       "method of ties",
       "all involve equal measurement on the ground",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The permissible error in chaining for measurement with chain on rough or hilly ground is",
@@ -28687,7 +28688,7 @@ window.mcqData = {
       "1 in 500",
       "1 in 1000",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The correction for sag is",
@@ -28697,7 +28698,7 @@ window.mcqData = {
       "always zero",
       "sometimes additive and sometimes subtractive",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Cross staff is an instrument used for",
@@ -28707,7 +28708,7 @@ window.mcqData = {
       "measuring bearings of the lines",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Normal tension is that pull which",
@@ -28717,7 +28718,7 @@ window.mcqData = {
       "makes the correction due to sag equal to zero",
       "makes the correction due to pull equal to zero",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Which of the following is not used in measuring perpendicular offsets ?",
@@ -28727,7 +28728,7 @@ window.mcqData = {
       "optical square",
       "cross staff",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "If the length of a chain is found to be short on testing, it can be adjusted by?",
@@ -28737,7 +28738,7 @@ window.mcqData = {
       "closing the joints of the rings if opened out",
       "all of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The maximum tolerance in a 20 m chain is | Surveying Questions",
@@ -28747,7 +28748,7 @@ window.mcqData = {
       "±5 mm",
       "±8 mm",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "For accurate work, the steel band should always be used in preference to chain because the",
@@ -28757,7 +28758,7 @@ window.mcqData = {
       "is practically inextensible and is not liable to kinks when in use",
       "can be easily repaired in the field",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The length of a chain is measured from?",
@@ -28767,7 +28768,7 @@ window.mcqData = {
       "outside of one handle to inside of other handle",
       "inside of one handle to inside of other handle",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Select the incorrect statement",
@@ -28777,7 +28778,7 @@ window.mcqData = {
       "The true meridians converge to a point in northern and southern hemispheres.",
       "The maps prepared by national survey departments of any country are based on true",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "If the true bearing of a line AB is 269° 30', then the azimuth of the line AB is | Surveying",
@@ -28787,7 +28788,7 @@ window.mcqData = {
       "90° 30'",
       "269° 30'",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "In the prismatic compass",
@@ -28797,7 +28798,7 @@ window.mcqData = {
       "the magnetic needle and graduated circle do not move with the box",
       "the graduated circle is fixed to the box and the magnetic needle always remains in the N-S",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "For a line AB",
@@ -28807,7 +28808,7 @@ window.mcqData = {
       "both (a) and (b) are correct.",
       "none is correct",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The heaviest I-section for same depth is",
@@ -28817,7 +28818,7 @@ window.mcqData = {
       "ISHB",
       "ISWB",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Bending compressive and tensile stresses respectively are calculated based on",
@@ -28827,7 +28828,7 @@ window.mcqData = {
       "net area in both cases",
       "gross area in both cases",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "If the thickness of thinnest outside plate is 10 mm, then the maximum pitch of rivets in",
@@ -28837,7 +28838,7 @@ window.mcqData = {
       "200 mm",
       "300 mm",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "In a gusseted base, when the end of the column is machined for complete bearing on the base",
@@ -28847,7 +28848,7 @@ window.mcqData = {
       "50% by direct bearing and 50% through fastenings",
       "75% by direct bearing and 25% through fastenings",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "When the axis of load lies in the plane of rivet group, then the rivets are subjected to",
@@ -28857,7 +28858,7 @@ window.mcqData = {
       "both (a) and (b)",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "When the axis of load lies in the plane of rivet group, then the most heavily loaded rivet will be",
@@ -28867,7 +28868,7 @@ window.mcqData = {
       "gives the maximum angle between the two forces Fa and Fm",
       "gives the minimum angle between the two forces Fa and Fm",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Which of the following types of riveted joint is free from bending stresses ?",
@@ -28877,7 +28878,7 @@ window.mcqData = {
       "butt joint with double cover plates",
       "none of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The difference between gross diameter and nominal diameter for the rivets up to 25 mm",
@@ -28887,7 +28888,7 @@ window.mcqData = {
       "2.0 mm",
       "2.5 mm",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "As compared to field rivets, the shop rivets are",
@@ -28897,7 +28898,7 @@ window.mcqData = {
       "equally strong",
       "any of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "If the thickness of plate to be connected by a rivet is 16 mm, then suitable size of rivet as per",
@@ -28907,7 +28908,7 @@ window.mcqData = {
       "24 mm",
       "27 mm",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "By providing sufficient edge distance, which of the following failures of riveted joint can be",
@@ -28917,7 +28918,7 @@ window.mcqData = {
       "shear failure of the plate",
       "crushing failure of the rivet",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Minimum pitch of the rivets shall not be less than",
@@ -28927,7 +28928,7 @@ window.mcqData = {
       "2.5 d",
       "3.0 d",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Efficiency of a riveted joint, having the minimum pitch as per IS : 800, is",
@@ -28937,7 +28938,7 @@ window.mcqData = {
       "60%",
       "70%",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Select the correct statement",
@@ -28947,7 +28948,7 @@ window.mcqData = {
       "Bolts are used as a temporary fastenings whereas rivets are used as permanent fastenings.",
       "Riveting is less noisy than bolting.",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Bolts are most suitable to carry",
@@ -28957,7 +28958,7 @@ window.mcqData = {
       "axial tension",
       "shear and bending",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Diameter of a bolt hole is usually taken as",
@@ -28967,7 +28968,7 @@ window.mcqData = {
       "nominal diameter + 2.0 mm",
       "nominal diameter of bolt",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "When the bolts are subjected to reversal of stresses, the most suitable type of bolt is",
@@ -28977,7 +28978,7 @@ window.mcqData = {
       "turned and fitted bolt",
       "high strength bolt",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "In the cross-section of a weld, throat is the",
@@ -28987,7 +28988,7 @@ window.mcqData = {
       "maximum dimension",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The effective length of a fillet weld should not be less than",
@@ -28997,7 +28998,7 @@ window.mcqData = {
       "six times the weld size",
       "weld size",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "For a standard 45° fillet, the ratio of size of fillet to throat thickness is",
@@ -29007,7 +29008,7 @@ window.mcqData = {
       "V2 : 1",
       "2: 1",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "A butt weld is specified by",
@@ -29017,7 +29018,7 @@ window.mcqData = {
       "size of weld",
       "penetration thickness",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The actual thickness of butt weld as compared to the thickness of plate is usually",
@@ -29027,7 +29028,7 @@ window.mcqData = {
       "equal",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "According to IS Specifications, the maximum pitch of rivets in compression is",
@@ -29037,7 +29038,7 @@ window.mcqData = {
       "lesser of 300 mm and 32 t",
       "lesser of 3 00 mm and 24 t",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "A circular column section is generally not used in actual practice because",
@@ -29047,7 +29048,7 @@ window.mcqData = {
       "it is difficult to connect beams to the round sections",
       "all of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The slenderness ratio of a column supported throughout its length by a masonry wall is",
@@ -29057,7 +29058,7 @@ window.mcqData = {
       "100",
       "infinity",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "According to IS Specifications, the effective length of a column effectively held in position at",
@@ -29067,7 +29068,7 @@ window.mcqData = {
       "L",
       "1.5 L",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The effective length of a battened strut effectively held in position at both ends but not",
@@ -29077,7 +29078,7 @@ window.mcqData = {
       "1.1 L",
       "1.5 L",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The maximum slenderness ratio of a compression member carrying both dead and",
@@ -29087,7 +29088,7 @@ window.mcqData = {
       "250",
       "350",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The maximum slenderness ratio of a steel column, the design of which is governed by wind",
@@ -29097,7 +29098,7 @@ window.mcqData = {
       "250",
       "350",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "According to IS:800, in the Merchant Rankine formula the value of imperfection index (n) is",
@@ -29107,7 +29108,7 @@ window.mcqData = {
       "1.8",
       "2.0",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The best arrangement to provide unified behaviour in built up steel columns is by",
@@ -29117,7 +29118,7 @@ window.mcqData = {
       "tie plates",
       "perforated cover plates",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "If the 20 mm rivets are used in lacing bars, then the minimum width of lacing bar should be",
@@ -29127,7 +29128,7 @@ window.mcqData = {
       "80mm",
       "100mm",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The use of tie plates in laced columns is",
@@ -29137,7 +29138,7 @@ window.mcqData = {
       "permitted at start and end of lacing system only",
       "permitted between two parts of the lacing",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Lacing bars in a steel column should be designed to resist",
@@ -29147,7 +29148,7 @@ window.mcqData = {
       "2.5% of the column load",
       "both (a) and (b)",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Angle of inclination of the lacing bar with the longitudinal axis of the column should",
@@ -29157,7 +29158,7 @@ window.mcqData = {
       "40° to 70°",
       "90°",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Battening is preferable when the",
@@ -29167,7 +29168,7 @@ window.mcqData = {
       "(i) and (ii)",
       "(ii) and (iii)",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The effective length of a battened column is increased by",
@@ -29177,7 +29178,7 @@ window.mcqData = {
       "15%",
       "20%",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The overlap of batten plates with the main members in welded connections should be more",
@@ -29187,7 +29188,7 @@ window.mcqData = {
       "6t",
       "8t",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The slenderness ratio of lacing bars should not exceed",
@@ -29197,7 +29198,7 @@ window.mcqData = {
       "145",
       "180",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Economical depth of a plate girder corresponds to",
@@ -29207,7 +29208,7 @@ window.mcqData = {
       "maximum weight",
       "minimum thickness of web",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Shear buckling of web in a plate girder is prevented by using",
@@ -29217,7 +29218,7 @@ window.mcqData = {
       "bearing stiffener",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Horizontal stiffener in a plate girder is provided to safeguard against",
@@ -29227,7 +29228,7 @@ window.mcqData = {
       "yielding",
       "all of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Minimum thickness of web in a plate girder, when the plate is accessible and also exposed to",
@@ -29237,7 +29238,7 @@ window.mcqData = {
       "8 mm",
       "10 mm",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The web crippling due to excessive bearing stress can be avoided by",
@@ -29247,7 +29248,7 @@ window.mcqData = {
       "increasing the length of the bearing plates",
       "none of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "As per IS : 800, for compression flange, the outstand of flange plates should not exceed",
@@ -29257,7 +29258,7 @@ window.mcqData = {
       "201",
       "251",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Intermediate vertical stiffeners in a plate girder need be provided if the depth of web exceeds",
@@ -29267,7 +29268,7 @@ window.mcqData = {
       "200 t",
       "2501",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Bearing stiffener in a plate girder is used to",
@@ -29277,7 +29278,7 @@ window.mcqData = {
       "decrease the effective depth of web",
       "prevent excessive deflection",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The forces acting on the web splice of a plate girder are",
@@ -29287,7 +29288,7 @@ window.mcqData = {
       "shear and bending forces",
       "axial and bending forces",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Gantry girders are designed to resist",
@@ -29297,7 +29298,7 @@ window.mcqData = {
       "lateral, longitudinal and vertical loads",
       "lateral and longitudinal loads",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Minimum spacing of vertical stiffeners is limited to",
@@ -29307,7 +29308,7 @@ window.mcqData = {
       "d/2",
       "2d/3",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Bearing stiffeners are provided at",
@@ -29317,7 +29318,7 @@ window.mcqData = {
       "both (i) and (iii)",
       "(i), (ii) and (iii)",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Rivets connecting flange angles to cover plates in a plate girder are subjected to",
@@ -29327,7 +29328,7 @@ window.mcqData = {
       "both (a) and (b)",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The maximum spacing of vertical stiffeners is",
@@ -29337,7 +29338,7 @@ window.mcqData = {
       "1.5 d",
       "1.75 d",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The range of economical spacing of trusses varies from",
@@ -29347,7 +29348,7 @@ window.mcqData = {
       "L/3 to L/2",
       "2L/5 to 3L/5 where L is span",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The maximum permissible span of asbestos cement sheets is",
@@ -29357,7 +29358,7 @@ window.mcqData = {
       "1250 mm",
       "1680 mm",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Normally, the angle of roof truss with asbestos sheets should not be less than",
@@ -29367,7 +29368,7 @@ window.mcqData = {
       "35°",
       "40°",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "To minimize the total cost of a roof truss, the ratio of the cost of truss to the cost of purlins",
@@ -29377,7 +29378,7 @@ window.mcqData = {
       "3",
       "4",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Generally the purlins are placed at the panel points so as to avoid",
@@ -29387,7 +29388,7 @@ window.mcqData = {
       "deflection of rafter",
       "bending moment in rafter",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "For the buildings having a low permeability, the internal wind pressure acting normal to the",
@@ -29397,7 +29398,7 @@ window.mcqData = {
       "± 0.5 p",
       "±0.7p",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The relation between intensity of wind pressure p and velocity of wind V is taken as",
@@ -29407,7 +29408,7 @@ window.mcqData = {
       "p a (1/V)",
       "paV\"2",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The live load for a sloping roof with slope 15°, where access is not provided to roof, is taken",
@@ -29417,7 +29418,7 @@ window.mcqData = {
       "1.35 kN/m2",
       "1.50 kN/m2",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The internal pressure coefficient on walls for buildings with large permeability is taken as",
@@ -29427,7 +29428,7 @@ window.mcqData = {
       "± 0.7",
       "0",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The basic wind speed is specified at a height 'h' above mean ground level in an open terrain.",
@@ -29437,7 +29438,7 @@ window.mcqData = {
       "25 m",
       "50 m",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The risk coefficient k, depends on",
@@ -29447,7 +29448,7 @@ window.mcqData = {
       "both (a) and (b)",
       "none of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The external wind pressure acting on a roof depends on",
@@ -29457,7 +29458,7 @@ window.mcqData = {
       "both (a) and (b)",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Area of openings for buildings of large permeability is more than",
@@ -29467,7 +29468,7 @@ window.mcqData = {
       "30% of wall area",
       "50% of wall area",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "As per IS : 875, for the purposes of specifying basic wind velocity, the country has been",
@@ -29477,7 +29478,7 @@ window.mcqData = {
       "6 zones",
       "7 zones",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The number of seismic zones in which the country has been divided are",
@@ -29487,7 +29488,7 @@ window.mcqData = {
       "6",
       "7",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Minimum pitch provided in riveted steel tanks is",
@@ -29497,7 +29498,7 @@ window.mcqData = {
       "2.5 d",
       "3.0 d",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "The allowable tensile stress in structural mild steel plates for steel tank is assumed as",
@@ -29507,7 +29508,7 @@ window.mcqData = {
       "105.5 MPa on gross area",
       "150.0 MPa on gross area",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Steel tanks are mainly designed for",
@@ -29517,7 +29518,7 @@ window.mcqData = {
       "water pressure",
       "earthquake forces",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Which of the following sections should preferably be used at places where torsion occurs ?",
@@ -29527,7 +29528,7 @@ window.mcqData = {
       "box type section",
       "any of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The capacity of the smallest pressed steel tank is",
@@ -29537,7 +29538,7 @@ window.mcqData = {
       "1950 litre",
       "2450 litre",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The bracing between two columns of a steel tank will be designed to resist",
@@ -29547,7 +29548,7 @@ window.mcqData = {
       "column loads + 2.5% of horizontal shear due to wind or earthquake",
       "column loads + full horizontal shear due to wind or earthquake",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The minimum thickness of plates in a steel stack should be",
@@ -29557,7 +29558,7 @@ window.mcqData = {
       "6 mm",
       "8 mm",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Maximum pitch of rivets, used in steel stacks, is limited to",
@@ -29567,7 +29568,7 @@ window.mcqData = {
       "121",
       "161",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The diameter of base of conical flare of a steel stack is",
@@ -29577,7 +29578,7 @@ window.mcqData = {
       "more than d",
       "any of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Hudson's formula gives the dead weight of a truss bridge as a function of",
@@ -29587,7 +29588,7 @@ window.mcqData = {
       "effective span of bridge",
       "heaviest axle load of engine",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "If the loaded length of span in meters of a railway steel bridge carrying a single track is 6 m,",
@@ -29597,7 +29598,7 @@ window.mcqData = {
       "between 0.5 and 1.0",
       "1.0",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "If the floor is supported at or near the bottom but top chords of a bridge are not braced, then",
@@ -29607,7 +29608,7 @@ window.mcqData = {
       "half through type",
       "double deck type",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The centrifugal force due to curvature of track is assumed to act on the bridge at a height of",
@@ -29617,7 +29618,7 @@ window.mcqData = {
       "1.83 m above the rail level",
       "2.13 m above the rail level",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The effect of racking forces is considered in the design of",
@@ -29627,7 +29628,7 @@ window.mcqData = {
       "both (i) and (ii)",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The portal bracing in a truss bridge is used to",
@@ -29637,7 +29638,7 @@ window.mcqData = {
       "stiffen the structure laterally",
       "prevent the sidesway buckling of top chord",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The sway bracing is designed to transfer",
@@ -29647,7 +29648,7 @@ window.mcqData = {
       "25% of the top panel wind load to bottom bracing",
       "50% of the top panel wind load to bottom bracing",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Study the following statements.",
@@ -29657,7 +29658,7 @@ window.mcqData = {
       "both (i) and (iii)",
       "all (i), (ii) and (iii)",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The bracing provided in the plane of end posts is called",
@@ -29667,7 +29668,7 @@ window.mcqData = {
       "top lateral bracing",
       "bottom lateral bracing",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "compression force in two end posts The pin of a rocker bearing in a bridge is designed for",
@@ -29677,7 +29678,7 @@ window.mcqData = {
       "bearing and bending",
       "bearing, shear and bending",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "The least dimension in case of a circular column of diameter D is taken as",
@@ -29687,7 +29688,7 @@ window.mcqData = {
       "0.88 D",
       "D",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "In case of timber structures, the form factor for solid circular cross-section is taken as",
@@ -29697,7 +29698,7 @@ window.mcqData = {
       "1.67",
       "1.81",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "In case of timber structures, the simple bending formula M = fz may be applied for",
@@ -29707,7 +29708,7 @@ window.mcqData = {
       "solid circular beams only",
       "all square cross-section beams",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The elastic strain for steel is about",
@@ -29717,7 +29718,7 @@ window.mcqData = {
       "1/12 of strain at the initiation of strain hardening and 1/200 of maximum strain",
       "1/24 of strain at the initiation of strain hardening and about 1/200 of maximum strain",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The mechanism method and the statical method give",
@@ -29727,7 +29728,7 @@ window.mcqData = {
       "lower bound on the strength of structure",
       "upper bound on the strength of structure",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The moment-curvature relation at a plastic hinge is",
@@ -29737,7 +29738,7 @@ window.mcqData = {
       "constant moment for all curvatures",
       "constant curvature for all moments",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Shape factor is a property which depends",
@@ -29747,7 +29748,7 @@ window.mcqData = {
       "only on the geometry of the section",
       "both on the yield stress and ultimate stress of material",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The statical method of plastic analysis satisfies",
@@ -29757,7 +29758,7 @@ window.mcqData = {
       "mechanism and plastic moment conditions",
       "equilibrium condition only",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The mechanism method of plastic analysis satisfies",
@@ -29767,7 +29768,7 @@ window.mcqData = {
       "mechanism and plastic moment conditions",
       "equilibrium condition only",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Load factor is",
@@ -29777,7 +29778,7 @@ window.mcqData = {
       "always greater than factor of safety",
       "sometimes greater than factor of safety",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The ratio of plastic section modulus to elastic section modulus",
@@ -29787,7 +29788,7 @@ window.mcqData = {
       "is always greater than 1",
       "can be less than 1",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Other conditions being same, the load factor in indeterminate structures is",
@@ -29797,7 +29798,7 @@ window.mcqData = {
       "less than the load factor in determinate structures",
       "unpredictable",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Which of the following conditions is to be satisfied both in elastic and plastic analysis ?",
@@ -29807,7 +29808,7 @@ window.mcqData = {
       "plastic moment condition",
       "mechanism condition",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "In the virtual work method, the virtual quantity is",
@@ -29817,7 +29818,7 @@ window.mcqData = {
       "slope",
       "moment",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "As per IS:800, in the plastic design, which of the following pairs are correctly matched?",
@@ -29827,7 +29828,7 @@ window.mcqData = {
       "(ii) and (iii) are correct",
       "only (i) is correct",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The shape factor of an isosceles triangle for bending about the axis parallel to the base is:",
@@ -29837,7 +29838,7 @@ window.mcqData = {
       "2.0",
       "2.34",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "In case of plastic design, the calculated maximum shear capacity of a beam as per IS:800",
@@ -29847,7 +29848,7 @@ window.mcqData = {
       "0.75 Awfy",
       "0.85 Awfy",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The minimum thickness of a steel plate, which is directly exposed to weather and is not",
@@ -29857,7 +29858,7 @@ window.mcqData = {
       "8 mm",
       "10 mm",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The moment of inertia of the pair of vertical stiffeners about the center line of the web",
@@ -29867,7 +29868,7 @@ window.mcqData = {
       "1.5d¥/C2",
       "1.5dY/C3",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The connection of intermediate vertical stiffeners to the web, not subjected to external",
@@ -29877,7 +29878,7 @@ window.mcqData = {
       "125 t2/h",
       "175 t2/h",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "For a compression member with double angle section, which of the following section will",
@@ -29887,7 +29888,7 @@ window.mcqData = {
       "unequal legged angles with short legs back to back",
       "both (b) or (c)",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Lug angles",
@@ -29897,7 +29898,7 @@ window.mcqData = {
       "increases shear lag.",
       "all the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "For rivets in tension with counter-sunk heads, the tensile value shall be",
@@ -29907,7 +29908,7 @@ window.mcqData = {
       "increased by 25 %",
       "increased by 33.3 %",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "A steel beam supporting loads from the floor slab as well as from wall is termed as",
@@ -29917,7 +29918,7 @@ window.mcqData = {
       "spandrel beam",
       "header beam",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Pitch of tacking rivets, when double angles connected back to back and acting as tension",
@@ -29927,7 +29928,7 @@ window.mcqData = {
       "1000 mm",
       "300 mm",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "In moment resistant connections, the moment resistance of riveted connection depends",
@@ -29937,7 +29938,7 @@ window.mcqData = {
       "tension in rivets",
       "strength of rivets in bearing",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The allowable shear stress in the web of mild steel beams decreases with",
@@ -29947,7 +29948,7 @@ window.mcqData = {
       "decrease in thickness",
       "increase in height",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The number of independent equations to be satisfied for static equilibrium of a plane",
@@ -29957,7 +29958,7 @@ window.mcqData = {
       "3",
       "6",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "If there are m unknown member forces, r unknown reaction components and j number of",
@@ -29967,7 +29968,7 @@ window.mcqData = {
       "m + r - 2j",
       "m + r - 3j",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Number of unknown internal forces in each member of a rigid jointed plane frame is",
@@ -29977,7 +29978,7 @@ window.mcqData = {
       "3",
       "6",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Degree of static indeterminacy of a rigid-jointed plane frame having 15 members, 3 reaction",
@@ -29987,7 +29988,7 @@ window.mcqData = {
       "6",
       "8",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Degree of kinematic indeterminacy of a pin-jointed plane frame is given by",
@@ -29997,7 +29998,7 @@ window.mcqData = {
       "3j - r",
       "2j + r",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Independent displacement components at each joint of a rigid-jointed plane frame are",
@@ -30007,7 +30008,7 @@ window.mcqData = {
       "one linear movement and two rotations",
       "three rotations",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "If in a pin-jointed plane frame (m + r) > 2j, then the frame is",
@@ -30017,7 +30018,7 @@ window.mcqData = {
       "unstable",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "A pin-jointed plane frame is unstable if",
@@ -30027,7 +30028,7 @@ window.mcqData = {
       "(m + r)>2j",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "A rigid-jointed plane frame is stable and statically determinate if",
@@ -30037,7 +30038,7 @@ window.mcqData = {
       "(3m + r) = 3j",
       "(m + 3r) = 3j",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The number of independent equations to be satisfied for static equilibrium in a space",
@@ -30047,7 +30048,7 @@ window.mcqData = {
       "4",
       "6",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "The degree of static indeterminacy of a pin-jointed space frame is given by",
@@ -30057,7 +30058,7 @@ window.mcqData = {
       "3m + r - 3j",
       "m + r + 3j",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The degree of static indeterminacy of a rigid-jointed space frame is",
@@ -30067,7 +30068,7 @@ window.mcqData = {
       "3m + r - 3j",
       "6m + r - 6j",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "The degree of kinematic indeterminacy of a pin-jointed space frame is",
@@ -30077,7 +30078,7 @@ window.mcqData = {
       "j-2r",
       "j-3r",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The number of independent displacement components at each joint of a rigid-jointed space",
@@ -30087,7 +30088,7 @@ window.mcqData = {
       "3",
       "6",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "If in a rigid-jointed space frame, (6m + r) < 6j, then the frame is",
@@ -30097,7 +30098,7 @@ window.mcqData = {
       "stable and statically indeterminate",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The principle of virtual work can be applied to elastic system by considering the virtual work",
@@ -30107,7 +30108,7 @@ window.mcqData = {
       "internal as well as external forces",
       "none of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Castigliano's first theorem is applicable",
@@ -30117,7 +30118,7 @@ window.mcqData = {
       "only when principle of superposition is valid",
       "none of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Principle of superposition is applicable when",
@@ -30127,7 +30128,7 @@ window.mcqData = {
       "the action of applied forces will be affected by small deformations of the structure",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "In moment distribution method, the sum of distribution factors of all the members meeting",
@@ -30137,7 +30138,7 @@ window.mcqData = {
       "1",
       "greater than 1",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The carryover factor in a prismatic member whose far end is fixed is",
@@ -30147,7 +30148,7 @@ window.mcqData = {
       "3/4",
       "1",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "In column analogy method, the area of an analogous column for a fixed beam of span L and",
@@ -30157,7 +30158,7 @@ window.mcqData = {
       "L/3EI",
       "L/4EI",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The degree of static indeterminacy up to which column analogy method can be used is",
@@ -30167,7 +30168,7 @@ window.mcqData = {
       "4",
       "unrestricted",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The deflection at any point of a perfect frame can be obtained by applying a unit load at the",
@@ -30177,7 +30178,7 @@ window.mcqData = {
       "inclined direction",
       "the direction in which the deflection is required",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "In the slope deflection equations, the deformations are considered to be caused by",
@@ -30187,7 +30188,7 @@ window.mcqData = {
       "(ii) and (iii)",
       "(i), (ii) and (iii)",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The three moments equation is applicable only when",
@@ -30197,7 +30198,7 @@ window.mcqData = {
       "there is no discontinuity such as hinges within the span",
       "the spans are equal",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "While using three moments equation, a fixed end of a continuous beam is replaced by an",
@@ -30207,7 +30208,7 @@ window.mcqData = {
       "zero moment of inertia",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The Castigliano's second theorem can be used to compute deflections",
@@ -30217,7 +30218,7 @@ window.mcqData = {
       "at the point under the load only",
       "for beams and frames only",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Bending moment at any section in a conjugate beam gives in the actual beam",
@@ -30227,7 +30228,7 @@ window.mcqData = {
       "deflection",
       "bending moment",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "For a two-hinged arch, if one of the supports settles down vertically, then the horizontal",
@@ -30237,7 +30238,7 @@ window.mcqData = {
       "remains unchanged",
       "becomes zero",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "For a symmetrical two hinged parabolic arch, if one of the supports settles horizontally, then",
@@ -30247,7 +30248,7 @@ window.mcqData = {
       "remains unchanged",
       "becomes zero",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "A single rolling load of 8 kN rolls along a girder of 15 m span. The absolute maximum",
@@ -30257,7 +30258,7 @@ window.mcqData = {
       "30 kN.m",
       "60 kN.m",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The maximum bending moment due to a train of wheel loads on a simply supported girder",
@@ -30267,7 +30268,7 @@ window.mcqData = {
       "never occurs under a wheel load",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "When a uniformly distributed load, longer than the span of the girder, moves from left to",
@@ -30277,7 +30278,7 @@ window.mcqData = {
       "more than the left half span",
       "whole span",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "When a uniformly distributed load, shorter than the span of the girder, moves from left to",
@@ -30287,7 +30288,7 @@ window.mcqData = {
       "the load position should be such that the section divides it equally on both sides",
       "the load position should be such that the section divides the load in the same ratio as it",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "When a series of wheel loads crosses a simply supported girder, the maximum bending",
@@ -30297,7 +30298,7 @@ window.mcqData = {
       "the wheel load under consideration is midway between the centre of span and the centre of",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Which of the following is not the displacement method ?",
@@ -30307,7 +30308,7 @@ window.mcqData = {
       "Moment distribution method",
       "Kani's method",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Study the following statements.",
@@ -30317,7 +30318,7 @@ window.mcqData = {
       "(i) and (iv)",
       "(ii) and (iv)",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Select the correct statement",
@@ -30327,7 +30328,7 @@ window.mcqData = {
       "both (a) and (b)",
       "none of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "To generate the j th column of the flexibility matrix",
@@ -30337,7 +30338,7 @@ window.mcqData = {
       "a unit force is applied at coordinate j and the forces are calculated at all coordinates",
       "a unit displacement is applied at co-ordinate j and the displacements are calculated at all coordinates",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "For stable structures, one of the important properties of flexibility and stiffness matrices is",
@@ -30347,7 +30348,7 @@ window.mcqData = {
       "(i) and (iv)",
       "(ii) and (iv)",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Effects of shear force and axial force on plastic moment capacity of a structure are",
@@ -30357,7 +30358,7 @@ window.mcqData = {
       "decrease and increase",
       "decrease and decrease",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Which of the following methods of structural analysis is a force method ?",
@@ -30367,7 +30368,7 @@ window.mcqData = {
       "moment distribution method",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Which of the following methods of structural analysis is a displacement method ?",
@@ -30377,7 +30378,7 @@ window.mcqData = {
       "three moment equation",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "In the displacement method of structural analysis, the basic unknowns are",
@@ -30387,7 +30388,7 @@ window.mcqData = {
       "displacements and forces",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The fixed support in a real beam becomes in the conjugate beam a",
@@ -30397,7 +30398,7 @@ window.mcqData = {
       "fixed support",
       "free end",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "The width of the analogous column in the method of column analogy is",
@@ -30407,7 +30408,7 @@ window.mcqData = {
       "1/2 EI",
       "1/4 EI",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "A simply supported beam deflects by 5 mm when it is subjected to a concentrated load of 10",
@@ -30417,7 +30418,7 @@ window.mcqData = {
       "0.05 mm",
       "0.005mm",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The deformation of a spring produced by a unit load is called",
@@ -30427,7 +30428,7 @@ window.mcqData = {
       "influence coefficient",
       "unit strain",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "For a single point load W moving on a symmetrical three hinged parabolic arch of span L, the",
@@ -30437,7 +30438,7 @@ window.mcqData = {
       "0.234 L",
       "0.5 L",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Muller Breslau's principle for obtaining influence lines is applicable to",
@@ -30446,7 +30447,7 @@ window.mcqData = {
       "(i), (ii) and (iv)",
       "(i) and (ii)\fd) only (i)",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "increases the positive moment at the centre of span.",
@@ -30456,7 +30457,7 @@ window.mcqData = {
       "2 and 3 are correct",
       "2 and 4 are correct",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "A load 'W is moving from left to right support on a simply supported beam of span T. The",
@@ -30466,7 +30467,7 @@ window.mcqData = {
       "0.24 Wl",
       "0.25 Wl",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "When a load crosses a through type Pratt truss in the direction left to right, the nature of",
@@ -30476,7 +30477,7 @@ window.mcqData = {
       "always be compression",
       "always be tension",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Residual soils are formed by",
@@ -30486,7 +30487,7 @@ window.mcqData = {
       "water",
       "none of the above",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Water content of soil can",
@@ -30496,7 +30497,7 @@ window.mcqData = {
       "be less than 0 %",
       "be greater than 100 %",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Which of the following types of soil is transported by gravitational forces ?",
@@ -30506,7 +30507,7 @@ window.mcqData = {
       "drift",
       "dune sand",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "A fully saturated soil is said to be",
@@ -30516,7 +30517,7 @@ window.mcqData = {
       "two phase system with soil and water",
       "three phase system",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Valid range for S, the degree of saturation of soil in percentage is",
@@ -30526,7 +30527,7 @@ window.mcqData = {
       "0<S<100",
       "0 < S < 100",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "A soil has a bulk density of 22 kN/m3 and water content 10 %. The dry density of soil is",
@@ -30536,7 +30537,7 @@ window.mcqData = {
       "22.0 kN/m3",
       "23.2 kN/m3",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "If the voids of a soil mass are full of air only, the soil is termed as",
@@ -30546,7 +30547,7 @@ window.mcqData = {
       "dry soil",
       "dehydrated soil",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Valid range for n, the percentage voids, is",
@@ -30556,7 +30557,7 @@ window.mcqData = {
       "n>0",
       "n<0",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Select the correct statement.",
@@ -30566,7 +30567,7 @@ window.mcqData = {
       "Unit weight of soil increases due to submergence in water.",
       "Unit weight of soil decreases due to submergence in water.",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Voids ratio of a soil mass can",
@@ -30576,7 +30577,7 @@ window.mcqData = {
       "take any value greater than zero",
       "take values between 0 and 1 only",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "If the volume of voids is equal to the volume of solids in a soil mass, then the values of",
@@ -30586,7 +30587,7 @@ window.mcqData = {
       "0.5 and 1.0",
       "1.0 and 0.5",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "When the degree of saturation is zero, the soil mass under consideration represents",
@@ -30596,7 +30597,7 @@ window.mcqData = {
       "two phase system with soil and water",
       "three phase system",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Select the correct range of density index,ID",
@@ -30606,7 +30607,7 @@ window.mcqData = {
       "0 < lD < 1",
       "0 < ID < 1",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "If the degree of saturation of a partially saturated soil is 60%, then air content of the soil is",
@@ -30616,7 +30617,7 @@ window.mcqData = {
       "80%",
       "100%",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "If the water content of a fully saturated soil mass is 100%, then the voids ratio of the sample",
@@ -30626,7 +30627,7 @@ window.mcqData = {
       "greater than specific gravity of soil",
       "independent of specific gravity of soil",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The ratio of volume of voids to the total volume of soil mass is called",
@@ -30636,7 +30637,7 @@ window.mcqData = {
       "percentage air voids",
       "voids ratio",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Relative density of a compacted dense sand is approximately equal to",
@@ -30646,7 +30647,7 @@ window.mcqData = {
       "0.95",
       "1.20",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "If the sand in-situ is in its densest state, then the relative density of sand is",
@@ -30656,7 +30657,7 @@ window.mcqData = {
       "between 0 and 1",
       "greater than 1",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Which of the following methods is most accurate for the determination of the water content",
@@ -30666,7 +30667,7 @@ window.mcqData = {
       "calcium carbide method",
       "pycnometer method",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "For proper field control, which of the following methods is best suited for quick",
@@ -30676,7 +30677,7 @@ window.mcqData = {
       "alcohol method",
       "calcium carbide method",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "A pycnometer is used to determine",
@@ -30686,7 +30687,7 @@ window.mcqData = {
       "water content and specific gravity",
       "voids ratio and dry density",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Stoke's law is valid only if the size of particle is",
@@ -30696,7 +30697,7 @@ window.mcqData = {
       "between 0.2 mm and 0.0002 mm",
       "all of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "In hydrometer analysis for a soil mass",
@@ -30706,7 +30707,7 @@ window.mcqData = {
       "meniscus correction is additive and dispersing agent correction is subtractive",
       "meniscus correction is subtractive and dispersing agent correction is additive",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The hydrometer method of sedimentation analysis differs from the pipette analysis mainly in",
@@ -30716,7 +30717,7 @@ window.mcqData = {
       "the method of preparation of soil suspension",
       "all of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Which of the following is a measure of particle size range ?",
@@ -30726,7 +30727,7 @@ window.mcqData = {
       "coefficient of curvature",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Which of the following statements is correct?",
@@ -30736,7 +30737,7 @@ window.mcqData = {
       "A soil is said to be well graded if it has most of the particles of about the same size",
       "none of the above",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Uniformity coefficient of a soil is",
@@ -30746,7 +30747,7 @@ window.mcqData = {
       "equal to or less than 1",
       "equal to or gi eater than 1",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "According to Atterberg, the soil is said to be of medium plasticity if the plasticity index PI is",
@@ -30756,7 +30757,7 @@ window.mcqData = {
       "17<PI<27",
       "PI>27",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "If the natural water content of soil mass lies between its liquid limit and plastic limit, the soil",
@@ -30766,7 +30767,7 @@ window.mcqData = {
       "semi-solid state",
       "solid state",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "When the plastic limit of a soil is greater than the liquid limit, then the plasticity index is",
@@ -30776,7 +30777,7 @@ window.mcqData = {
       "non-plastic (NP)",
       "1",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Toughness index is defined as the ratio of",
@@ -30786,7 +30787,7 @@ window.mcqData = {
       "liquidity index to flow index",
       "consistency index to liquidity index",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "If the plasticity index of a soil mass is zero, the soil is",
@@ -30796,7 +30797,7 @@ window.mcqData = {
       "clay",
       "clayey silt",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The admixture of coarser particles like sand or silt to clay causes",
@@ -30806,7 +30807,7 @@ window.mcqData = {
       "decrease in both liquid limit and plasticity index",
       "increase in both liquid limit and plasticity index",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Select the correct statement.",
@@ -30816,7 +30817,7 @@ window.mcqData = {
       "Uniformity coefficient does not affect strength and stability.",
       "Uniformity coefficient of a poorly graded soil is more than that of a well graded soil.",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The water content of soil, which represents the boundary between plastic state and liquid",
@@ -30826,7 +30827,7 @@ window.mcqData = {
       "shrinkage limit",
       "plasticity index",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Which of the following soils has more plasticity index ?",
@@ -30836,7 +30837,7 @@ window.mcqData = {
       "clay",
       "gravel",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "At liquid limit, all soils possess",
@@ -30846,7 +30847,7 @@ window.mcqData = {
       "different shear strengths of small magnitude",
       "different shear strengths of large magnitude",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "If the material of the base of the Casagrande liquid limit device on which the cup containing",
@@ -30856,7 +30857,7 @@ window.mcqData = {
       "the liquid limit of soil may increase",
       "the liquid limit of soil may decrease",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "According to IS classification, the range of silt size particles is",
@@ -30866,7 +30867,7 @@ window.mcqData = {
       "0.425 mm to 0.075 mm",
       "0.075 mm to 0.002 mm",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Highway Research Board (HRB) classification of soils is based on",
@@ -30876,7 +30877,7 @@ window.mcqData = {
       "both particle size composition and plasticity characteristics",
       "none of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Inorganic soils with low compressibility are represented by",
@@ -30886,7 +30887,7 @@ window.mcqData = {
       "ML",
       "CH",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Sand particles are made of",
@@ -30896,7 +30897,7 @@ window.mcqData = {
       "illite",
       "montmorillonite",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The clay mineral with the largest swelling and shrinkage characteristics is",
@@ -30906,7 +30907,7 @@ window.mcqData = {
       "montmorillonite",
       "none of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Dispersed type of soil structure is an arrangement comprising particles having",
@@ -30916,7 +30917,7 @@ window.mcqData = {
       "edge to face orientation",
       "all of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Effective stress is",
@@ -30926,7 +30927,7 @@ window.mcqData = {
       "important because it is a function of engineering properties of soil",
       "all of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Rise of water table above the ground surface causes",
@@ -30936,7 +30937,7 @@ window.mcqData = {
       "increase in pore water pressure but decrease in total stress",
       "decrease in pore water pressure but increase in total stress",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The total and effective stresses at a depth of 5 m below the top level of water in a swimming",
@@ -30946,7 +30947,7 @@ window.mcqData = {
       "0.5 kg/cm2 and 0.5 kg/cm2",
       "1.0 kg/cm2 and 0.5 kg/cm2",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "If the water table rises upto ground surface, then the",
@@ -30956,7 +30957,7 @@ window.mcqData = {
       "total stress is reduced due to increase in pore water pressure only but effec-tive stress does",
       "total stress is increased due to de-crease in pore water pressure but effective stress does not",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Quick sand is a",
@@ -30966,7 +30967,7 @@ window.mcqData = {
       "flow condition occurring in cohesionless soils",
       "flow condition occurring in both cohesive and cohesionless soils",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The hydraulic head that would produce a quick condition in a sand stratum of thickness 1.5",
@@ -30976,7 +30977,7 @@ window.mcqData = {
       "2.0 m",
       "3m",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Physical properties of a permeant which influence permeability are",
@@ -30986,7 +30987,7 @@ window.mcqData = {
       "both viscosity and unit weight",
       "none of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Select the correct statement.",
@@ -30996,7 +30997,7 @@ window.mcqData = {
       "The greater the unit weight, the smaller is permeability.",
       "Unit weight does not affect per-meability.",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Effective stress on soil",
@@ -31006,7 +31007,7 @@ window.mcqData = {
       "decreases both voids ratio and permeability",
       "decreases voids ratio and increases permeability",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "If the permeability of a soil is 0.8 mm/sec, the type of soil is",
@@ -31016,7 +31017,7 @@ window.mcqData = {
       "silt",
       "clay",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Which of the following methods is more suitable for the determination of permeability of",
@@ -31026,7 +31027,7 @@ window.mcqData = {
       "horizontal permeability test",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Which of the following methods is best suited for determination of permeability of coarsegrained soils ?",
@@ -31036,7 +31037,7 @@ window.mcqData = {
       "both the above",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Due to a rise in temperature, the viscosity and the unit weight of the percolating fluid are",
@@ -31046,7 +31047,7 @@ window.mcqData = {
       "increases by 33.3%",
       "decreases by 33.3%",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Coefficient of permeability of soil",
@@ -31056,7 +31057,7 @@ window.mcqData = {
       "increases with the decrease in temperature",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The average coefficient of permeability of natural deposits",
@@ -31066,7 +31067,7 @@ window.mcqData = {
       "is always same in both directions",
       "parallel to stratification may or may not be greater than that perpendicular to stratification",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The total discharge from two wells situated near to each other is",
@@ -31076,7 +31077,7 @@ window.mcqData = {
       "greater than the sum of the discharges from individual wells",
       "equal to larger of the two discharges from individual wells",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The flownet for an earthen dam with 30 m water depth consists of 25 potential drops and 5",
@@ -31086,7 +31087,7 @@ window.mcqData = {
       "0.18m3/sec",
       "0.1125m3/sec",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The most suitable method for drainage of fine grained cohesive soils is",
@@ -31096,7 +31097,7 @@ window.mcqData = {
       "deep well system",
       "electroosmosis method",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Total number of stress components at a point within a soil mass loaded at its boundary is",
@@ -31106,7 +31107,7 @@ window.mcqData = {
       "9",
       "16",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The slope of isochrone at any point at a given time indicates the rate of change of",
@@ -31116,7 +31117,7 @@ window.mcqData = {
       "pore water pressure with depth",
       "pore water pressure with time",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Within the consolidation process of a saturated clay",
@@ -31126,7 +31127,7 @@ window.mcqData = {
       "both neutral pressure and effective pressure decrease",
       "both neutral pressure and effective pressure increase",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The value of compression index for a remoulded sample whose liquid limit is 50% is",
@@ -31136,7 +31137,7 @@ window.mcqData = {
       "036",
       "0.036",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Which one of the following clays behaves like a dense sand ?",
@@ -31146,7 +31147,7 @@ window.mcqData = {
       "normally consolidated clay",
       "under-consolidated clay",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Coefficient of consolidation of a soil is affected by",
@@ -31156,7 +31157,7 @@ window.mcqData = {
       "both compressibility and permeability",
       "none of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Degree of consolidation is",
@@ -31166,7 +31167,7 @@ window.mcqData = {
       "directly proportional to drainage path and inversely proportional to time",
       "directly proportional to square of drainage path and inversely proportional to time",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Time factor for a clay layer is",
@@ -31176,7 +31177,7 @@ window.mcqData = {
       "inversely proportional to drainage path",
       "independent of thickness of clay layer",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Clay layer A with single drainage and coefficient of consolidation Cv takes 6 months to",
@@ -31186,7 +31187,7 @@ window.mcqData = {
       "12 months",
       "24 months",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Coefficient of consolidation for clays normally",
@@ -31196,7 +31197,7 @@ window.mcqData = {
       "first increases and then decreases with increase in liquid limit",
       "remains constant at all liquid limits",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Direct measurement of permeability of the specimen at any stage of loading can be made",
@@ -31206,7 +31207,7 @@ window.mcqData = {
       "both (a) and (b)",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Compressibility of sandy soils is",
@@ -31216,7 +31217,7 @@ window.mcqData = {
       "much less than that of clayey soils",
       "none of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Select the correct statement.",
@@ -31226,7 +31227,7 @@ window.mcqData = {
       "coefficient of compressibility is cons-tant for any clay",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Coefficient of compressibility is",
@@ -31236,7 +31237,7 @@ window.mcqData = {
       "different for different types of soils but same for a soil under different states of consolidation",
       "independent of type of soil but depends on the stress history of soil",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The ultimate consolidation settlement of a structure resting on a soil",
@@ -31246,7 +31247,7 @@ window.mcqData = {
       "increases with the increase in the initial voids ratio",
       "increases with the decrease in the porosity of the soil",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The ultimate consolidation settlement of a soil is",
@@ -31256,7 +31257,7 @@ window.mcqData = {
       "inversely proportional to the compression index",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "A normally consolidated clay settled 10 mm when effective stress was increased from 100",
@@ -31266,7 +31267,7 @@ window.mcqData = {
       "40 mm",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Coarse grained soils are best compacted by a",
@@ -31276,7 +31277,7 @@ window.mcqData = {
       "sheep's foot roller",
       "vibratory roller",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "With the increase in the amount of compaction energy",
@@ -31286,7 +31287,7 @@ window.mcqData = {
       "both optimum water content and maximum dry density increase",
       "both optimum water content and maximum dry density decrease[ES 93]",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The maximum dry density upto which any soil can be compacted depends upon",
@@ -31296,7 +31297,7 @@ window.mcqData = {
       "both moisture content and amount of compaction energy",
       "none of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "For better strength and stability, the fine grained soils and coarse grained soils are",
@@ -31306,7 +31307,7 @@ window.mcqData = {
       "wet of OMC and wet of OMC",
       "dry of OMC and dry of OMC where OMC is optimum moisture content",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Select the incorrect statement.",
@@ -31316,7 +31317,7 @@ window.mcqData = {
       "Effective angle of internal friction for a soil increases as state of compact-ness increases.",
       "Effective angle of internal friction is a complicated function of mineralogy and clay size",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "For a loose sand sample and a dense sand sample consolidated to the same effective stress",
@@ -31326,7 +31327,7 @@ window.mcqData = {
       "ultimate strength is same but peak strength of dense sand is greater than that of loose sand",
       "ultimate strength is same but peak",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The shear strength of a soil",
@@ -31336,7 +31337,7 @@ window.mcqData = {
       "decreases with increase in normal stress",
       "decreases with decrease in normal stress",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Nagpur road plan formula were prepared by assuming......?",
@@ -31346,7 +31347,7 @@ window.mcqData = {
       "radial or star and circular road pattern",
       "radial or star and grid road pattern",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Select the correct statement.",
@@ -31356,7 +31357,7 @@ window.mcqData = {
       "Second 20-year plan has provided 1600 km of expressways out of the proposed National",
       "Second 20-year plan allowed deduc-tion of length of railway track in the area while calculating",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The sequence of four stages of survey in a highway alignment is",
@@ -31366,7 +31367,7 @@ window.mcqData = {
       "map study, reconnaissance, prelimi-nary survey and detailed survey",
       "preliminary survey, map study, recon-naissance and detailed survey",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The shape of the camber, best suited for cement concrete pavements, is",
@@ -31376,7 +31377,7 @@ window.mcqData = {
       "elliptical",
       "combination of straight and parabolic",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "For water bound macadam roads in locali-ties of heavy rainfall, the recommended value of",
@@ -31386,7 +31387,7 @@ window.mcqData = {
       "1 in 48",
       "1 in 60",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The stopping sight distance depends upon",
@@ -31396,7 +31397,7 @@ window.mcqData = {
       "efficiency of brakes",
       "all of the above",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "When the path travelled along the road surface is more than the circumferential movement of",
@@ -31406,7 +31407,7 @@ window.mcqData = {
       "turning",
       "revolving",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Coefficient of friction is less when the pavement surface is",
@@ -31416,7 +31417,7 @@ window.mcqData = {
       "smooth and dry",
       "smooth and wet",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "The shoulder provided along the road edge should be",
@@ -31426,7 +31427,7 @@ window.mcqData = {
       "of same colour as that of the pave-ment",
       "of very low load bearing capacity",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Camber in the road is provided for",
@@ -31436,7 +31437,7 @@ window.mcqData = {
       "having proper sight distance",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Compared to a level surface, on a descending gradient the stopping sight distance is",
@@ -31446,7 +31447,7 @@ window.mcqData = {
       "same",
       "dependent on the speed",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "On a single lane road with two way traffic, the minimum stopping sight distance is equal to",
@@ -31456,7 +31457,7 @@ window.mcqData = {
       "half the stopping distance",
       "three times the stopping distance",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The desirable length of overtaking zone as per IRC recommendation is equal to",
@@ -31466,7 +31467,7 @@ window.mcqData = {
       "three times the overtaking sight distance",
       "five times the overtaking sight distance",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Stopping sight distance is always",
@@ -31476,7 +31477,7 @@ window.mcqData = {
       "more than overtaking sight distance",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Reaction time of a driver",
@@ -31486,7 +31487,7 @@ window.mcqData = {
       "is same for all speeds",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "If the stopping distance is 60 metres, then the minimum stopping sight distance for two lane,",
@@ -31496,7 +31497,7 @@ window.mcqData = {
       "120m",
       "180m",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The effect of grade on safe overtaking sight distance is",
@@ -31506,7 +31507,7 @@ window.mcqData = {
       "to increase it on both descending and ascending grades",
       "to decrease it on both descending and ascending grades",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The ruling design speed on a National Highway in plain terrain as per IRC recommendations",
@@ -31516,7 +31517,7 @@ window.mcqData = {
       "100 kmph",
       "120 kmph",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The terrain may be classified as rolling terrain if the cross slope of land is",
@@ -31526,7 +31527,7 @@ window.mcqData = {
       "between 25% and 60%",
       "more than 60%",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "If b is the wheel track of a vehicle and h is the height of centre of gravity above road surface,",
@@ -31536,7 +31537,7 @@ window.mcqData = {
       "greater than b/2h and less than co-efficient of lateral friction",
       "greater than b/2h and also greater than coefficient of lateral friction",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "As per IRC recommendations, the maximum limit of superelevation for mixed traffic in plain",
@@ -31546,7 +31547,7 @@ window.mcqData = {
       "1 in 10",
       "equal to camber",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "For the design of superelevation for mixed traffic conditions, the speed is reduced by",
@@ -31556,7 +31557,7 @@ window.mcqData = {
       "25%",
       "75%",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "On a horizontal curve if the pavement is kept horizontal across the alignment, then the",
@@ -31566,7 +31567,7 @@ window.mcqData = {
       "equal to the pressure on inner wheels",
       "zero",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "For a constant value of coefficient of lateral friction, the value of required super-elevation",
@@ -31576,7 +31577,7 @@ window.mcqData = {
       "increase in speed and with decrease in radius of curve",
       "decrease in speed and with increase in radius of curve",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "To calculate the minimum value of ruling radius of horizontal curves in plains, the design",
@@ -31586,7 +31587,7 @@ window.mcqData = {
       "16kmph",
       "20 kmph",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The absolute minimum radius of curve for safe operation for a speed of 110 kmph is",
@@ -31596,7 +31597,7 @@ window.mcqData = {
       "440 m",
       "577 m",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The attainment of superelevation by rotation of pavement about the inner edge of the",
@@ -31606,7 +31607,7 @@ window.mcqData = {
       "avoids the drainage problem in flat terrain",
       "does not change the vertical align-ment of road",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Select the correct statement.",
@@ -31616,7 +31617,7 @@ window.mcqData = {
       "Psychological extra widening depends on the length of wheel base.",
       "Psychological extra widening depends on the speed of vehicle.",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "In case of hill roads, the extra widening is generally provided",
@@ -31626,7 +31627,7 @@ window.mcqData = {
       "fully on the outer side of the curve",
       "one-fourth on inner side and three-fourth on outer side of the curve",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The transition curve used in the horizontal alignment of highways as per IRC",
@@ -31636,7 +31637,7 @@ window.mcqData = {
       "cubic parabola",
       "any of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "For design, that length of transition curve should be taken which is",
@@ -31646,7 +31647,7 @@ window.mcqData = {
       "higher of (a) and (b)",
       "smaller of (a) and (b)",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The maximum design gradient for vertical profile of a road is",
@@ -31656,7 +31657,7 @@ window.mcqData = {
       "exceptional gradient",
       "minimum gradient",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The percentage compensation in gradient for ruling gradient of 4% and horizontal curve of",
@@ -31666,7 +31667,7 @@ window.mcqData = {
       "10%",
       "no compensation",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "If ruling gradient is I in 20 and there is also a horizontal curve of radius 76 m, then the",
@@ -31676,7 +31677,7 @@ window.mcqData = {
       "5 %",
       "6%",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The camber of road should be approximately equal to",
@@ -31686,7 +31687,7 @@ window.mcqData = {
       "three times the longitudinal gradient",
       "half the longitudinal gradient",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Which of the following shapes is preferred in a valley curve ?",
@@ -31696,7 +31697,7 @@ window.mcqData = {
       "spiral",
       "lemniscate",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The value of ruling gradient in plains as per IRC recommendation is",
@@ -31706,7 +31707,7 @@ window.mcqData = {
       "1 in 20",
       "1 in 30",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "In case of summit curves, the deviation angle will be maximum when",
@@ -31716,7 +31717,7 @@ window.mcqData = {
       "a descending gradient meets with another descending gradient",
       "an ascending gradient meets with a level surface",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "If the design speed is V kmph and deviation angle is N radians, then the total length of a",
@@ -31726,7 +31727,7 @@ window.mcqData = {
       "3.8 NV\"2",
       "3.8 (NV3)\"2",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "If an ascending gradient of 1 in 50 meets a descending gradient of 1 in 50, the length of",
@@ -31736,7 +31737,7 @@ window.mcqData = {
       "80m",
       "60m",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Highway facilities are designed for",
@@ -31746,7 +31747,7 @@ window.mcqData = {
       "thirtieth highest hourly volume",
       "peak hourly volume of the year",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Enoscope is used to find",
@@ -31756,7 +31757,7 @@ window.mcqData = {
       "space-mean speed",
       "time-mean speed",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "For highway geometric design purposes the speed used is",
@@ -31766,7 +31767,7 @@ window.mcqData = {
       "85th percentile",
       "98 \"\"percentile",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Select the correct statement.",
@@ -31776,7 +31777,7 @@ window.mcqData = {
       "Spot speed is the average speed of a vehicle at a specified section.",
       "85th percentile speed is more than 98th percentile speed.",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Length of a vehicle affects",
@@ -31786,7 +31787,7 @@ window.mcqData = {
       "width of shoulders and parking facilities",
       "clearance to be provided under structures such as overbridges, under-bridges etc.",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The maximum width of a vehicle as recommended by IRC is",
@@ -31796,7 +31797,7 @@ window.mcqData = {
       "3.81 m",
       "4.72 m",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Desire lines are plotted in",
@@ -31806,7 +31807,7 @@ window.mcqData = {
       "accident studies",
       "origin and destination studies",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Which of the following methods is preferred for collecting origin and destination data for a",
@@ -31816,7 +31817,7 @@ window.mcqData = {
       "return postcard method",
       "home interview method",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The diagram which shows the approximate path of vehicles and pedestrians involved in",
@@ -31826,7 +31827,7 @@ window.mcqData = {
       "condition diagram",
       "collision diagram",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "With increase in speed of the traffic stream, the minimum spacing of vehicles",
@@ -31836,7 +31837,7 @@ window.mcqData = {
       "first decreases and then increases after reaching a minimum value at optimum speed",
       "first increases and then decreases after reaching a maximum value at optimum speed",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Which of the following is known as design capacity ?",
@@ -31846,7 +31847,7 @@ window.mcqData = {
       "possible capacity",
       "practical capacity",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "If the average centre to centre spacing of vehicles is 20 metres, then the basic",
@@ -31856,7 +31857,7 @@ window.mcqData = {
       "2500 vehicles per hour",
       "1000 vehicles per hour",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "With increase in speed of the traffic stream, the maximum capacity of the lane",
@@ -31866,7 +31867,7 @@ window.mcqData = {
       "first increases and then decreases after reaching a maximum value at optimum speed",
       "first decreases and then increases after reaching a minimum value at optimum speed",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Equivalent factor of passenger car unit (PCU) for a passenger car as per IRC is",
@@ -31876,7 +31877,7 @@ window.mcqData = {
       "0.5",
       "10",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "If the stopping distance and average length of a vehicle are 18 m and 6 m respectively, then",
@@ -31886,7 +31887,7 @@ window.mcqData = {
       "2500 vehicles per hour",
       "3000 vehicles per hour",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Scientific planning of transportation system and mass transit facilities in cities should be",
@@ -31896,7 +31897,7 @@ window.mcqData = {
       "traffic volume data",
       "accident data",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The diagram which shows all important physical conditions of an accident location like",
@@ -31906,7 +31907,7 @@ window.mcqData = {
       "condition diagram",
       "collision diagram",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "When the speed of traffic flow becomes zero,then",
@@ -31916,7 +31917,7 @@ window.mcqData = {
       "traffic density and traffic volume both become zero",
       "traffic density becomes zero whereas traffic volume attains maximum value",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "On a right angled road intersection with two way traffic, the total number of conflict points is",
@@ -31926,7 +31927,7 @@ window.mcqData = {
       "18",
       "24",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "The background colour of the informatory sign board is",
@@ -31936,7 +31937,7 @@ window.mcqData = {
       "green",
       "white",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Which of the following is indicated by a warning sign ?",
@@ -31946,7 +31947,7 @@ window.mcqData = {
       "end of speed limit",
       "overtaking prohibited",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "\"Dead Slow\" is a",
@@ -31956,7 +31957,7 @@ window.mcqData = {
       "informatory sign",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The most efficient traffic signal system is",
@@ -31966,7 +31967,7 @@ window.mcqData = {
       "flexible progressive system",
       "simple progressive system",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The provision of traffic signals at intersections",
@@ -31976,7 +31977,7 @@ window.mcqData = {
       "reduces right angled collisions but may increase rear end collisions",
       "reduces rear end collisions but may increase right angled collisions",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Select the incorrect statement.",
@@ -31986,7 +31987,7 @@ window.mcqData = {
       "Clearance time is generally 3 to 5 seconds.",
       "The cycle length is normally 40 to 60 seconds for two phase signals.",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Center line markings are used",
@@ -31996,7 +31997,7 @@ window.mcqData = {
       "to indicate that overtaking is not permitted",
       "to designate proper lateral placement of vehicles before turning to different directions",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The particular places where pedestrians are to cross the pavement are properly marked by",
@@ -32006,7 +32007,7 @@ window.mcqData = {
       "crosswalk lines",
       "lane lines",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The entrance and exit curves of a rotary have",
@@ -32016,7 +32017,7 @@ window.mcqData = {
       "equal pavement widths but radius is more at entrance curve than at exit curve",
       "different radii and different widths of pavement",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "When two equally important roads cross roughly at right angles, the suitable shape of",
@@ -32026,7 +32027,7 @@ window.mcqData = {
       "tangent",
       "turbine",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The maximum number of vehicles beyond which the rotary may not function efficiently is",
@@ -32036,7 +32037,7 @@ window.mcqData = {
       "5000 vehicles per hour",
       "5000 vehicles per day",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "A traffic rotary is justified where",
@@ -32046,7 +32047,7 @@ window.mcqData = {
       "when traffic volume is less than 500 vehicles per hour",
       "when traffic volume is more than 5000 vehicles per hour",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "When a number of roads are meeting at a point and only one of the roads is important, then",
@@ -32056,7 +32057,7 @@ window.mcqData = {
       "elliptical",
       "turbine",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Maximum number of vehicles can be parked with",
@@ -32066,7 +32067,7 @@ window.mcqData = {
       "45° angle parking",
       "90° angle parking",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "When the width of kerb parking space and width of street are limited, generally preferred",
@@ -32076,7 +32077,7 @@ window.mcqData = {
       "65° angle parking",
       "90° angle parking",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "As per IRC recommendations, the average level of illumination on important roads carrying",
@@ -32086,7 +32087,7 @@ window.mcqData = {
       "20 lux",
       "30 lux",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "The most economical lighting layout which is suitable for narrow roads is",
@@ -32096,7 +32097,7 @@ window.mcqData = {
       "central lighting system",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The direct interchange ramp involves",
@@ -32106,7 +32107,7 @@ window.mcqData = {
       "diverging to the right side and merging from right",
       "diverging to the left side and merging from left",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "In soils having same values of plasticity index, if liquid limit is increased, then",
@@ -32116,7 +32117,7 @@ window.mcqData = {
       "compressibility, permeability and dry strength increase",
       "compressibility and permeability increase and dry strength decreases",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Which of the following tests measures the toughness of road aggregates ?",
@@ -32126,7 +32127,7 @@ window.mcqData = {
       "impact test",
       "shape test",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Los Angeles testing machine is used to conduct",
@@ -32136,7 +32137,7 @@ window.mcqData = {
       "attrition test",
       "crushing strength test",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "In CBR test the value of CBR is calculated at",
@@ -32146,7 +32147,7 @@ window.mcqData = {
       "7.5 mm penetration only",
       "both 2.5~mm and 5.0 mm penetrations",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "If aggregate impact value is 20 to 30 percent, then it is classified as",
@@ -32156,7 +32157,7 @@ window.mcqData = {
       "satisfactory for road surfacing",
       "unsuitable for road surfacing",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The maximum allowable Los Angeles abrasion value for high quality surface course is",
@@ -32166,7 +32167,7 @@ window.mcqData = {
       "30%",
       "45 %",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Percentage of free carbon in bitumen is",
@@ -32176,7 +32177,7 @@ window.mcqData = {
       "equal to that in tar",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The ductility value of bitumen for suitability in road construction should not be less than",
@@ -32186,7 +32187,7 @@ window.mcqData = {
       "50 cm",
       "60 cm",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The maximum limit of water absorption for aggregate suitable for road construction is",
@@ -32196,7 +32197,7 @@ window.mcqData = {
       "0.8 %",
       "1.0 %",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Which of the following represents hardest grade of bitumen ?",
@@ -32206,7 +32207,7 @@ window.mcqData = {
       "80/100",
       "100/120",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Penetration test on bitumen is used for determining its",
@@ -32216,7 +32217,7 @@ window.mcqData = {
       "ductility",
       "temperature susceptibility",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Bitumen of grade 80/100 means",
@@ -32226,7 +32227,7 @@ window.mcqData = {
       "its penetration value is 8 to 10 mm",
       "its penetration value is 8 to 10 cm",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "RC-2, MC-2 and SC-2 correspond to",
@@ -32236,7 +32237,7 @@ window.mcqData = {
       "viscosity in decreasing order from RC-2 to SC-2",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The recommended grade of tar for grouting purpose is",
@@ -32246,7 +32247,7 @@ window.mcqData = {
       "RT.3",
       "RT-5",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Softening point of bitumen to be used for read construction at a place where maximum",
@@ -32256,7 +32257,7 @@ window.mcqData = {
       "equal to 40°C",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "For rapid curing cutbacks, the oil used is",
@@ -32266,7 +32267,7 @@ window.mcqData = {
       "light diesel",
       "heavy diesel",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The method of design of flexible pavement as recommended by IRC is",
@@ -32276,7 +32277,7 @@ window.mcqData = {
       "Westergaard method",
       "Benkelman beam method",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The group index for a soil, whose liquid limit is 40 percent, plasticity index is 10 percent",
@@ -32286,7 +32287,7 @@ window.mcqData = {
       "5",
       "7",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Bottom most layer of pavement is known as",
@@ -32296,7 +32297,7 @@ window.mcqData = {
       "sub-base course",
       "subgrade",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Flexible pavement distribute the wheel load",
@@ -32306,7 +32307,7 @@ window.mcqData = {
       "through a set of layers to the subgrade",
       "none of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The number of repetitions, which the pavement thickness designed for a given wheel load",
@@ -32316,7 +32317,7 @@ window.mcqData = {
       "100000",
       "1000000",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Group index method of design of flexible pavement is",
@@ -32326,7 +32327,7 @@ window.mcqData = {
       "an empirical method based on strength characteristics of subgrade soil",
       "a semi empirical method",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Select the correct statement.",
@@ -32336,7 +32337,7 @@ window.mcqData = {
       "Minimum and maximum values of group index can be 0 and 20 respec-tively.",
       "all of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "If the group index value of subgrade is between 5 and 9, then the subgrade is treated as",
@@ -32346,7 +32347,7 @@ window.mcqData = {
       "poor",
       "very poor",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Tyre pressure influences the",
@@ -32356,7 +32357,7 @@ window.mcqData = {
       "both the above",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Rigidity factor for a tyre pressure greater than 7 kg/cm2 is",
@@ -32366,7 +32367,7 @@ window.mcqData = {
       "greater than 1",
       "zero",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The critical combination of stresses for corner region in cement concrete roads is",
@@ -32376,7 +32377,7 @@ window.mcqData = {
       "load stress + warping stress",
       "load stress + frictional stress",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Tie bars in cement concrete pavements are at",
@@ -32386,7 +32387,7 @@ window.mcqData = {
       "warping joints",
       "longitudinal joints",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "The maximum spacing of contraction joints in rigid pavements is",
@@ -32396,7 +32397,7 @@ window.mcqData = {
       "4.5 m",
       "5.5m",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The maximum thickness of expansion joint in rigid pavements is",
@@ -32406,7 +32407,7 @@ window.mcqData = {
       "50 mm",
       "100 mm",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The function of an expansion joint in rigid pavements is to",
@@ -32416,7 +32417,7 @@ window.mcqData = {
       "resist stresses due to expansion",
       "allow free expansion",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "The fundamental factor in the selection of pavement type is",
@@ -32426,7 +32427,7 @@ window.mcqData = {
       "subgrade soil and drainage conditions",
       "availability of funds for the construction project",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Most suitable material for highway embankments is",
@@ -32436,7 +32437,7 @@ window.mcqData = {
       "silts",
       "clays",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Maximum daily traffic capacity of bituminous pavements is",
@@ -32446,7 +32447,7 @@ window.mcqData = {
       "1500 tonnes per day",
       "2000 tonnes per day",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The most suitable equipment for compacting clayey soils is a",
@@ -32456,7 +32457,7 @@ window.mcqData = {
       "sheep foot roller",
       "vibrator",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The aggregates required for one kilometre length of water bound macadam road per meter",
@@ -32466,7 +32467,7 @@ window.mcqData = {
       "12 cubic meter",
       "15 cubic meter",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The camber of shoulders in water bound macadam roads is",
@@ -32476,7 +32477,7 @@ window.mcqData = {
       "greater than the cross slope of pavement",
       "zero",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The binder normally used in flexible pavement construction is",
@@ -32486,7 +32487,7 @@ window.mcqData = {
       "bitumen",
       "none of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "In highway construction, rolling starts from",
@@ -32496,7 +32497,7 @@ window.mcqData = {
       "one side and proceed to other side",
       "any of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "For the construction of water bound macadam roads, the correct sequence of operations",
@@ -32506,7 +32507,7 @@ window.mcqData = {
       "dry rolling, application of screening, wet rolling and application of filler",
       "dry rolling, application of screening, application of filler and wet rolling",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "In the penetration macadam construction, the bitumen is",
@@ -32516,7 +32517,7 @@ window.mcqData = {
       "sprayed before the aggregates are spread and compacted",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "When the bituminous surfacing is done on already existing black top road or over existing",
@@ -32526,7 +32527,7 @@ window.mcqData = {
       "prime coat",
       "spray of emulsion",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Which of the following premix methods is used for base course ?",
@@ -32536,7 +32537,7 @@ window.mcqData = {
       "sheet asphalt",
       "bituminous bound macadam",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Select the correct statement.",
@@ -32546,7 +32547,7 @@ window.mcqData = {
       "Seal coat is the final coat over certain previous bituminous pavements.",
       "A bitumen primer is a high viscosity cutback.",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "The suitable surfacing material for a bridge deck slab is",
@@ -32556,7 +32557,7 @@ window.mcqData = {
       "mastic asphalt",
       "rolled asphalt",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Which of the following is considered to be the highest quality construction in the group of",
@@ -32566,7 +32567,7 @@ window.mcqData = {
       "bituminous carpet",
       "bituminous concrete",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "The thickness of bituminous carpet varies from",
@@ -32576,7 +32577,7 @@ window.mcqData = {
       "75 to 100 mm",
       "100 to 120 mm",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Which of the following represents a carpet of sand-bitumen mix without coarse aggregates ?",
@@ -32586,7 +32587,7 @@ window.mcqData = {
       "bituminous carpet",
       "bituminous concrete",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "In highway construction on superelevated curves, the rolling shall proceed from",
@@ -32596,7 +32597,7 @@ window.mcqData = {
       "lower edge towards the upper edge",
       "upper edge towards the lower edge",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The camber for hill roads in case of bituminous surfacing is adopted as",
@@ -32606,7 +32607,7 @@ window.mcqData = {
       "3%",
       "4%",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The minimum design speed for hairpin bends in hill roads is taken as",
@@ -32616,7 +32617,7 @@ window.mcqData = {
       "40 kmph",
       "50 kmph",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The drain which is provided parallel to roadway to intercept and divert the water from hill",
@@ -32626,7 +32627,7 @@ window.mcqData = {
       "side drain",
       "cross drain",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The walls which are necessary on the hill side of roadway where earth has to be retained",
@@ -32636,7 +32637,7 @@ window.mcqData = {
       "parapet wall",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "In hill roads the side drains arc provided",
@@ -32646,7 +32647,7 @@ window.mcqData = {
       "on both sides of road",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Gypsum is a------------------?",
@@ -32656,7 +32657,7 @@ window.mcqData = {
       "chemically precipitated sedimentary rock",
       "metamorphic rock",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Which of the following sedimentary rocks changes into quartzite by metamorphic action ?",
@@ -32666,7 +32667,7 @@ window.mcqData = {
       "shale",
       "gypsum",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Which of the following represents a metamorphic rock?",
@@ -32676,7 +32677,7 @@ window.mcqData = {
       "both (ii) and (iii)",
       "all (i), (ii) and (iii)",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Quartitze is a",
@@ -32686,7 +32687,7 @@ window.mcqData = {
       "calcareous rock",
       "aqueous rock",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Which of the following is a mineral ?",
@@ -32696,7 +32697,7 @@ window.mcqData = {
       "quartz",
       "syenite",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Slate is formed by metamorphic action on",
@@ -32706,7 +32707,7 @@ window.mcqData = {
       "sand stone",
       "granite",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Sandstone is a",
@@ -32716,7 +32717,7 @@ window.mcqData = {
       "both (i) and (iii)",
       "all (i), (ii) and (iii)",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Which of the following is a rock ?",
@@ -32726,7 +32727,7 @@ window.mcqData = {
       "gypsum",
       "none of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Based on the following rocks and minerals, select the correct statement, quartz, shale, basalt,",
@@ -32736,7 +32737,7 @@ window.mcqData = {
       "granite is the only igneous rock",
       "quartz and mica are minerals",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "A heavy stone is suitable for",
@@ -32746,7 +32747,7 @@ window.mcqData = {
       "roads",
       "retaining walls",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "The stone suitable for rubble masonry should be.",
@@ -32756,7 +32757,7 @@ window.mcqData = {
       "heavy",
       "light",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Which of the following metamorphic rocks has the most weather resisting characteristics?",
@@ -32766,7 +32767,7 @@ window.mcqData = {
       "slate",
       "lime stone",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "A good building stone should not absorb water more than",
@@ -32776,7 +32777,7 @@ window.mcqData = {
       "15%",
       "20%",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Which of the following has more fire resisting characteristics ?",
@@ -32786,7 +32787,7 @@ window.mcqData = {
       "compact sand stone",
       "granite",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Jumper is a tool used for",
@@ -32796,7 +32797,7 @@ window.mcqData = {
       "dressing of stones",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The important test to be conducted on a stone used in docks and harbours isa) hardness test",
@@ -32805,7 +32806,7 @@ window.mcqData = {
       "weight test",
       "toughness test",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The predominant constituent which is responsible for strength in granite is",
@@ -32815,7 +32816,7 @@ window.mcqData = {
       "mica",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Granite is not suitable for ordinary building purpose because",
@@ -32825,7 +32826,7 @@ window.mcqData = {
       "it is costly",
       "it has less crushing strength",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Which of the following stone is best suited for construction of piers and abutments of a",
@@ -32835,7 +32836,7 @@ window.mcqData = {
       "lime stone",
       "quartzite",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The preparation of surface of stone to obtain plain edges or to obtain stones of required size",
@@ -32845,7 +32846,7 @@ window.mcqData = {
       "seasoning of stones",
       "dressing of stones",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Crushing strength of a good building stone should be more than",
@@ -32855,7 +32856,7 @@ window.mcqData = {
       "150 MPa",
       "200 MPa",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Specific gravity for most of the building stones lies between",
@@ -32865,7 +32866,7 @@ window.mcqData = {
       "2.5 to 3.0",
       "3.0 to 3.5",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Spalling hammer is used for",
@@ -32875,7 +32876,7 @@ window.mcqData = {
       "carving of stones",
       "breaking small projection of stones",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Cross cut saw is used for",
@@ -32885,7 +32886,7 @@ window.mcqData = {
       "cutting large blocks of stones",
       "dressing stones",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Sapwood consists of",
@@ -32895,7 +32896,7 @@ window.mcqData = {
       "thin layers below the bark",
       "thin fibre which extends from the pith outwards and holds the annular rings together",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Which of the following trees yields hard wood ?",
@@ -32905,7 +32906,7 @@ window.mcqData = {
       "shishum",
       "pine",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The radial splits which are wider on the outside of the log and narrower towards the pith are",
@@ -32915,7 +32916,7 @@ window.mcqData = {
       "starshakes",
       "rindgalls",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "In which of the following pairs both trees yield soft wood?",
@@ -32925,7 +32926,7 @@ window.mcqData = {
       "sal and teak",
       "chir and deodar",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Which of the following timbers is suitable for making sports goods ?",
@@ -32935,7 +32936,7 @@ window.mcqData = {
       "sal",
       "deodar",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Assertion A : Shishum is used for decorative woodwork.",
@@ -32945,7 +32946,7 @@ window.mcqData = {
       "A is true but R is false",
       "A is false but R is true",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The disease of dry rot in timber is caused by",
@@ -32955,7 +32956,7 @@ window.mcqData = {
       "complete submergence in water",
       "none of the above",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Plywood has the advantage of'",
@@ -32965,7 +32966,7 @@ window.mcqData = {
       "same tensile strength in all directions",
       "none of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "In which of the following directions, the strength of timber is maximum ?",
@@ -32975,7 +32976,7 @@ window.mcqData = {
       "perpendicular to grains",
       "same in all directions",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The moisture content in a well seasoned timber is",
@@ -32985,7 +32986,7 @@ window.mcqData = {
       "15% to 20%",
       "100%",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The trunk of tree left after cutting all the branches is known as",
@@ -32995,7 +32996,7 @@ window.mcqData = {
       "plank",
       "baulk",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The age of a tree can be known by examining",
@@ -33005,7 +33006,7 @@ window.mcqData = {
       "medullary rays",
       "heart wood",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Plywood is made by bonding together thin layers of wood in such a way that the angle",
@@ -33015,7 +33016,7 @@ window.mcqData = {
       "45°",
       "90°",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "The plywood",
@@ -33025,7 +33026,7 @@ window.mcqData = {
       "has greater impact resistance to blows than ordinary wood",
       "cannot be bent more easily than ordinary wood of same thickness",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The practical limit of moisture content achieved in air drying of timber is",
@@ -33035,7 +33036,7 @@ window.mcqData = {
       "25%",
       "35%",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "First class timber has an average life of",
@@ -33045,7 +33046,7 @@ window.mcqData = {
       "5 to 10 years",
       "more than 10 years",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "A first class brick when immersed in cold water for 24 hours should not absorb water more",
@@ -33055,7 +33056,7 @@ window.mcqData = {
       "22%",
       "25%",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Crushing strength of a first class brick should not be less than",
@@ -33065,7 +33066,7 @@ window.mcqData = {
       "10.5 N/mm2",
       "14.0 N/mm2",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The main function of alumina in brick earth is",
@@ -33075,7 +33076,7 @@ window.mcqData = {
       "to prevent shrinkage",
       "to make the brick impermeable",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The percentage of alumina in a good brick earth lies between",
@@ -33085,7 +33086,7 @@ window.mcqData = {
       "50 to 60%",
       "70 to 80%",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Excess of alumina in brick earth makes the brick",
@@ -33095,7 +33096,7 @@ window.mcqData = {
       "to lose cohesion",
       "to crack and warp on drying",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "The nominal size of the modular brick is",
@@ -33105,7 +33106,7 @@ window.mcqData = {
       "200 mm x 100 mm x 100 mm",
       "200 mm x 200 mm x 100 mm",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Percentage of silica in a good brick earth lies between",
@@ -33115,7 +33116,7 @@ window.mcqData = {
       "50 to 60%",
       "70 to 80%",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Excess of silica in brick earth results in",
@@ -33125,7 +33126,7 @@ window.mcqData = {
       "enhancing the impermeability of bricks",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Which of the following ingredients of the brick earth enables the brick to retain its shape ?",
@@ -33135,7 +33136,7 @@ window.mcqData = {
       "iron",
       "magnesia",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Which of the following pairs gives a correct combination of the useful and harmful",
@@ -33145,7 +33146,7 @@ window.mcqData = {
       "alumina and iron",
       "alkalies and magnesium",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The process of mixing clay, water and other ingredients to make brick is known as",
@@ -33155,7 +33156,7 @@ window.mcqData = {
       "pugging",
       "drying",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Advantage of a clamp compared to a kiln for burning bricks is that",
@@ -33165,7 +33166,7 @@ window.mcqData = {
       "it has less initial cost",
       "it is suitable when bricks are required in large numbers",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The internal size of mould used in brick preparation is",
@@ -33175,7 +33176,7 @@ window.mcqData = {
       "greater than the size of a fully burnt brick",
       "none of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Pug mill is used for",
@@ -33185,7 +33186,7 @@ window.mcqData = {
       "drying of bricks",
       "burning of bricks",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Which of the following bricks are used for lining of furnaces ?",
@@ -33195,7 +33196,7 @@ window.mcqData = {
       "refractory bricks",
       "first class bricks",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The frog of the brick in a brick masonry is generally kept on",
@@ -33205,7 +33206,7 @@ window.mcqData = {
       "shorter side",
       "longer side",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Number of bricks required for one cubic metre of brick masonry is",
@@ -33215,7 +33216,7 @@ window.mcqData = {
       "500",
       "550",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Glazing is used to make earthenware",
@@ -33225,7 +33226,7 @@ window.mcqData = {
       "porous",
       "impervious",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "Quick lime is",
@@ -33235,7 +33236,7 @@ window.mcqData = {
       "calcium hydroxide",
       "none of the above",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "Quick lime is",
@@ -33245,7 +33246,7 @@ window.mcqData = {
       "both (i) and (ii)",
       "both (ii) and (iii)",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Assertion A : Pure lime takes a long time to develop adequate strength.",
@@ -33255,7 +33256,7 @@ window.mcqData = {
       "A is true but R is false.",
       "A is false but R is true.",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "Hydraulic lime is obtained by",
@@ -33265,7 +33266,7 @@ window.mcqData = {
       "adding water to quick lime",
       "calcination of pure clay",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The main constituent which imparts hydraulicity to hydraulic lime is",
@@ -33275,7 +33276,7 @@ window.mcqData = {
       "clay",
       "water",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Study the following statements.",
@@ -33285,7 +33286,7 @@ window.mcqData = {
       "(i) and (ii)",
       "(iii) and (iv)",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The main ingredients of Portland cement are",
@@ -33295,7 +33296,7 @@ window.mcqData = {
       "silica and alumina",
       "lime and iron",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The constituent of cement which is responsible for all the undesirable properties of cement is",
@@ -33305,7 +33306,7 @@ window.mcqData = {
       "tricalcium aluminate",
       "tetra calcium alumino ferrite",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Le Chatelier's device is used for determining the",
@@ -33315,7 +33316,7 @@ window.mcqData = {
       "tensile strength of cement",
       "compressive strength of cement",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "The main constituent of cement which is responsible for initial setting of cement is",
@@ -33325,7 +33326,7 @@ window.mcqData = {
       "tricalcium aluminate",
       "all of the above",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "The initial setting time for ordinary Portland cement as per IS specifications should not be",
@@ -33335,7 +33336,7 @@ window.mcqData = {
       "60 minutes",
       "600 minutes",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "As per IS specifications, the maximum final setting time for ordinary Portland cement should",
@@ -33345,7 +33346,7 @@ window.mcqData = {
       "6 hours",
       "10 hours",
     ],
-    answer: 4
+    answer: 3
   },
   {
     question: "For testing compressive strength of cement, the size of cube used is",
@@ -33355,7 +33356,7 @@ window.mcqData = {
       "100 mm",
       "150 mm",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "The normal consistency of ordinary Portland cement is about",
@@ -33365,7 +33366,7 @@ window.mcqData = {
       "30%",
       "40%",
     ],
-    answer: 3
+    answer: 2
   },
   {
     question: "Early attainment of strength in rapid hardening cement is mainly due to",
@@ -33375,7 +33376,7 @@ window.mcqData = {
       "tricalcium silicate",
       "tricalcium aluminate",
     ],
-    answer: 2
+    answer: 1
   },
   {
     question: "After storage, the strength of cement",
@@ -33385,7 +33386,7 @@ window.mcqData = {
       "remains same",
       "may increase or decrease",
     ],
-    answer: 1
+    answer: 0
   },
   {
     question: "According to IS specifications, the compressive strength of ordinary portland cement after",
@@ -33395,8 +33396,9 @@ window.mcqData = {
       "16 MPa",
       "21 MPa",
     ],
-    answer: 3
+    answer: 2
   },
+
 
 
 
