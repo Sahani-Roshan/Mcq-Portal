@@ -39,7 +39,7 @@
     </div>
     <div id="subsection-view" style="display:none;">
       <button class="nav-btn" id="backFromSubsectionBtn">&larr; Back</button>
-      <h2>Select Subsection</h2>
+      <h2 id="subsection-title">Select Subsection</h2>
       <div class="sections" id="subsections-list"></div>
     </div>
     <div id="question-view" style="display:none;">
@@ -60,13 +60,12 @@
       "Geotechnical Engineering":6,"Construction Management":6,"Estimation and Costing":5,"Engineering Drawing":4,
       "Engineering Economics":3,"Professional Practice":3
     };
-    let currentSection=null, currentSubsection=null, currentPage=0;
+    let currentSection=null, currentSubsection=null, currentPage=0, customFlow=false;
     let marked=JSON.parse(localStorage.getItem('marked')||'[]');
     let reported=JSON.parse(localStorage.getItem('reported')||'[]');
     const pageSize=25;
     let currentQuestions=[];
 
-    // Init sections
     const secList=document.getElementById('sections-list');
     sections.forEach(sec=>{
       const div=document.createElement('div'); div.className='section-card'; div.textContent=sec;
@@ -74,40 +73,23 @@
     });
     document.getElementById('backBtn').addEventListener('click',goBack);
     document.getElementById('backFromSubsectionBtn').addEventListener('click',()=>toggleView('main-view'));
-    document.getElementById('viewMarkedBtn').addEventListener('click',()=>loadMarkedSections(true));
-    document.getElementById('viewReportedBtn').addEventListener('click',()=>loadReportedSections(true));
+    document.getElementById('viewMarkedBtn').addEventListener('click',()=>prepareMarkedView());
+    document.getElementById('viewReportedBtn').addEventListener('click',()=>prepareReportedView());
 
     function toggleView(id){['main-view','subsection-view','question-view'].forEach(v=>document.getElementById(v).style.display=v===id?'block':'none');}
 
-    function handleSectionClick(sec){currentSection=sec; currentSubsection=null;
+    function handleSectionClick(sec){
+      customFlow=false; currentSection=sec; currentSubsection=null;
       if(sec==='Practice Questions'){loadPracticeQuestions(); return;} 
       const data=window.mcqData[sec];
-      if(data&&!Array.isArray(data)&&typeof data==='object') loadSubsections(sec);
+      if(data && typeof data==='object' && !Array.isArray(data)) loadSubsections(sec);
       else loadSectionQuestions(sec);
     }
 
-    function loadPracticeQuestions(){
-      currentQuestions=[]; let poolIndex=0;
-      // For each in order, push that section's picks in sequence
-      Object.entries(practicePattern).forEach(([sec,c])=>{
-        let arr=window.mcqData[sec];
-        if(arr&&!Array.isArray(arr)&&typeof arr==='object') arr=Object.values(arr).flat();
-        // shuffle then take c
-        const pick=arr.sort(()=>Math.random()-.5).slice(0,c);
-        pick.forEach(q=>{
-          currentQuestions.push({...q,section:sec,subsection:null,origIdx:poolIndex++});
-        });
-      });
-      currentPage=0; renderQuestions(); toggleView('question-view');
-    }
-
-    function loadSectionQuestions(sec){currentSubsection=null;
-      currentQuestions=(window.mcqData[sec]||[]).map((q,i)=>({...q,section:sec,subsection:null,origIdx:i}));
-      currentPage=0; renderQuestions(); toggleView('question-view');
-    }
-
     function loadSubsections(sec){
+      currentSection=sec; customFlow=false;
       const subs=Object.keys(window.mcqData[sec]||{});
+      document.getElementById('subsection-title').textContent = sec;
       const list=document.getElementById('subsections-list'); list.innerHTML='';
       subs.forEach(sub=>{
         const d=document.createElement('div'); d.className='section-card'; d.textContent=sub;
@@ -115,41 +97,79 @@
       });
       toggleView('subsection-view');
     }
+    function loadSubsectionQuestions(sec,sub){
+      customFlow=false; currentSection=sec; currentSubsection=sub;
+      currentQuestions=(window.mcqData[sec][sub]||[]).map((q,i)=>({...q,section:sec,subsection:sub,origIdx:i}));
+      currentPage=0; renderQuestions(); toggleView('question-view');
+    }
+    function loadSectionQuestions(sec){
+      customFlow=false; currentSection=sec; currentSubsection=null;
+      currentQuestions=(window.mcqData[sec]||[]).map((q,i)=>({...q,section:sec,subsection:null,origIdx:i}));
+      currentPage=0; renderQuestions(); toggleView('question-view');
+    }
+    function loadPracticeQuestions(){
+      customFlow=false; currentSection='Practice Questions'; currentSubsection=null;
+      currentQuestions=[]; let poolIndex=0;
+      Object.entries(practicePattern).forEach(([sec,c])=>{
+        let arr=window.mcqData[sec];
+        if(arr && typeof arr==='object' && !Array.isArray(arr)) arr=Object.values(arr).flat();
+        const pick=arr.sort(()=>Math.random()-.5).slice(0,c);
+        pick.forEach(q=>currentQuestions.push({...q,section:sec,subsection:null,origIdx:poolIndex++}));
+      });
+      currentPage=0; renderQuestions(); toggleView('question-view');
+    }
 
-    function loadSubsectionQuestions(sec,sub){currentSubsection=sub;
-      const arr=window.mcqData[sec][sub]||[];
-      currentQuestions=arr.map((q,i)=>({...q,section:sec,subsection:sub,origIdx:i}));
+    function prepareMarkedView(){
+      customFlow=true; currentSection='Marked Questions'; currentSubsection=null;
+      const secs=Array.from(new Set(marked.map(m=>m.split('::')[0])));
+      renderCustomSubs(secs,'Marked Questions',marked);
+    }
+    function prepareReportedView(){
+      customFlow=true; currentSection='Reported Questions'; currentSubsection=null;
+      const secs=Array.from(new Set(reported.map(m=>m.split('::')[0])));
+      renderCustomSubs(secs,'Reported Questions',reported);
+    }
+    function renderCustomSubs(secs,title,keys){
+      document.getElementById('subsection-title').textContent=title+' - Select Section';
+      const list=document.getElementById('subsections-list'); list.innerHTML='';
+      secs.forEach(sec=>{
+        const d=document.createElement('div'); d.className='section-card'; d.textContent=sec;
+        d.addEventListener('click',()=>loadCustomQuestions(sec,title,keys)); list.appendChild(d);
+      });
+      toggleView('subsection-view');
+    }
+    function loadCustomQuestions(sec,title,keys){
+      customFlow=true; currentSection=title; currentSubsection=sec;
+      const filtered=keys.filter(k=>k.startsWith(sec+'::'));
+      currentQuestions=filtered.map(k=>{
+        const parts=k.split('::'); const idx=parseInt(parts.pop(),10);
+        const sub=parts[1]||null;
+        const q=sub?window.mcqData[sec][sub][idx]:window.mcqData[sec][idx];
+        return{...q,section:sec,subsection:sub,origIdx:idx};
+      });
       currentPage=0; renderQuestions(); toggleView('question-view');
     }
 
     function renderQuestions(){
       const con=document.getElementById('questionsContainer'); con.innerHTML='';
-      const start=currentPage*pageSize;
-      const slice=currentQuestions.slice(start,start+pageSize);
+      const slice=currentQuestions.slice(currentPage*pageSize,(currentPage+1)*pageSize);
       slice.forEach((q,i)=>{
-        const realIndex=start+i;
         const d=document.createElement('div'); d.className='question';
-        const h3=document.createElement('h3'); h3.textContent=(realIndex+1)+'. '+q.question; d.appendChild(h3);
+        const h3=document.createElement('h3'); h3.textContent=((currentPage*pageSize)+i+1)+'. '+q.question; d.appendChild(h3);
         if(q.image){ const img=document.createElement('img'); img.src=q.image; img.style.maxWidth='100%'; img.style.margin='10px 0'; d.appendChild(img); }
         const ul=document.createElement('ul'); ul.className='options';
-        q.options.forEach((opt,j)=>{
-          const li=document.createElement('li'); li.textContent=opt;
-          li.addEventListener('click',()=>li.style.background=(j===q.answer?'#d4edda':'#f8d7da'));
-          ul.appendChild(li);
+        q.options.forEach((opt,j)=>{ const li=document.createElement('li'); li.textContent=opt;
+          li.addEventListener('click',()=>li.style.background=(j===q.answer?'#d4edda':'#f8d7da')); ul.appendChild(li);
         }); d.appendChild(ul);
-        const key=q.section+'::'+(q.subsection? q.subsection+'::':'')+q.origIdx;
-        const star=document.createElement('span'); star.className='star';
-        star.innerHTML=marked.includes(key)?'★':'☆'; if(marked.includes(key)) star.classList.add('marked');
-        star.addEventListener('click',()=>toggleMark(key,star)); d.appendChild(star);
-        const rpt=document.createElement('span'); rpt.className='report';
-        rpt.innerHTML=reported.includes(key)?'🚩':'🏳️'; if(reported.includes(key)) rpt.classList.add('reported');
-        rpt.addEventListener('click',()=>toggleReport(key,rpt)); d.appendChild(rpt);
+        const key=q.section+'::'+(q.subsection?q.subsection+'::':'')+q.origIdx;
+        const star=document.createElement('span'); star.className='star'; star.innerHTML=marked.includes(key)?'★':'☆';
+        if(marked.includes(key)) star.classList.add('marked'); star.addEventListener('click',()=>toggleMark(key,star)); d.appendChild(star);
+        const rpt=document.createElement('span'); rpt.className='report'; rpt.innerHTML=reported.includes(key)?'🚩':'🏳️';
+        if(reported.includes(key)) rpt.classList.add('reported'); rpt.addEventListener('click',()=>toggleReport(key,rpt)); d.appendChild(rpt);
         con.appendChild(d);
       });
-      renderPagination();
-      con.scrollIntoView({block:'start'});
+      renderPagination(); con.scrollIntoView({block:'start'});
     }
-
     function renderPagination(){
       const p=document.getElementById('pagination'); p.innerHTML='';
       const total=Math.ceil(currentQuestions.length/pageSize);
@@ -157,51 +177,13 @@
       p.append(` Page ${currentPage+1} of ${total} `);
       if(currentPage<total-1){ const b=document.createElement('button'); b.className='nav-btn'; b.textContent='Next'; b.addEventListener('click',()=>{currentPage++;renderQuestions();}); p.appendChild(b); }
     }
-
-    function toggleMark(key,el){ if(marked.includes(key)){ marked=marked.filter(x=>x!==key); el.textContent='☆'; el.classList.remove('marked'); } else { marked.push(key); el.textContent='★'; el.classList.add('marked'); } localStorage.setItem('marked',JSON.stringify(marked)); }
-    function toggleReport(key,el){ if(reported.includes(key)){ reported=reported.filter(x=>x!==key); el.textContent='🏳️'; el.classList.remove('reported'); } else { reported.push(key); el.textContent='🚩'; el.classList.add('reported'); } localStorage.setItem('reported',JSON.stringify(reported)); }
-
-    function loadMarkedSections(){
-      // Load all marked questions
-      currentSection = 'Marked Questions';
-      currentSubsection = null;
-      const keys = marked;
-      currentQuestions = keys.map(m => {
-        const parts = m.split('::');
-        const section = parts[0];
-        const subsection = parts.length === 3 ? parts[1] : null;
-        const idx = parseInt(parts[ parts.length-1 ], 10);
-        const q = subsection ? window.mcqData[section][subsection][idx] : window.mcqData[section][idx];
-        return { ...q, section, subsection, origIdx: idx };
-      });
-      currentPage = 0;
-      renderQuestions();
-      toggleView('question-view');
-    }
-    function loadReportedSections(){
-      // Load all reported questions
-      currentSection = 'Reported Questions';
-      currentSubsection = null;
-      const keys = reported;
-      currentQuestions = keys.map(m => {
-        const parts = m.split('::');
-        const section = parts[0];
-        const subsection = parts.length === 3 ? parts[1] : null;
-        const idx = parseInt(parts[ parts.length-1 ], 10);
-        const q = subsection ? window.mcqData[section][subsection][idx] : window.mcqData[section][idx];
-        return { ...q, section, subsection, origIdx: idx };
-      });
-      currentPage = 0;
-      renderQuestions();
-      toggleView('question-view');
-    }
-
+    function toggleMark(k,e){ if(marked.includes(k)){ marked=marked.filter(x=>x!==k); e.textContent='☆'; e.classList.remove('marked'); } else{ marked.push(k); e.textContent='★'; e.classList.add('marked'); } localStorage.setItem('marked',JSON.stringify(marked)); }
+    function toggleReport(k,e){ if(reported.includes(k)){ reported=reported.filter(x=>x!==k); e.textContent='🏳️'; e.classList.remove('reported'); } else{ reported.push(k); e.textContent='🚩'; e.classList.add('reported'); } localStorage.setItem('reported',JSON.stringify(reported)); }
     function goBack(){
-      if(currentSubsection!==null) {
-        loadSubsections(currentSection);
-      } else {
-        toggleView('main-view');
-      }
+      if(document.getElementById('question-view').style.display==='block'){
+        if(customFlow || currentSubsection) toggleView('subsection-view');
+        else toggleView('main-view');
+      } else toggleView('main-view');
     }
   </script>
 </body>
