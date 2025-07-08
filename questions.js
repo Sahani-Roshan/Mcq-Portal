@@ -33406,7 +33406,7 @@ window.mcqData = {
  ],
  // General Knowledge Questions
 "General Knowledge": {
-  "Physical Geography": [
+  "1.1.1 Physical Geography": [
   
     {
         question: "Nepal is geographically situated at ........... zone of the world map",
@@ -33907,6 +33907,214 @@ window.mcqData = {
         question: "Inner Terai (Bhitri Madhesh) refers to which of the following?",
         options: ["North of Main Terai and below Chure range", "Between Chure and Mahabharata range", "The area between the Himalayan Mountains and the Mahabharata Mountains", "The plains of the main Terai region"],
         answer: 1  // b
+    }
+
+  ],
+  "1.3 Geographic Diversity, Climatic Condition and Livelihood": [
+    {
+        question: "What percent of the total area of Nepal is occupied by Mountain region?",
+        options: ["15%", "17%", "19%", "21%"],
+        answer: 0  // a
+    },
+    {
+        question: "Nepal is ranked ……in the rank of world’s most bio-diverse countries",
+        options: ["45th", "46th", "47th", "49th"],
+        answer: 3  // d
+    },
+    {
+        question: "What are the two least spoken languages of Nepal?",
+        options: ["Kusunda and Bankariya", "Bankaria and Kusunda", "Surei and Kusunda", "Tharu and Sadhani"],
+        answer: 0  // a
+    },
+    {
+        question: "How many languages are spoken in Nepal as the mother tongue?",
+        options: ["115", "119", "124", "142"],
+        answer: 2  // c
+    },
+    {
+        question: "Which of the following languages have been recommended as the official languages of Province?",
+        options: ["Tamang and Nepal Bhasa (Newar)", "Maithili, Bhoipuri and Bajrika", "Tamang and Newar", "Tharu and Abadhi"],
+        answer: 0  // a
+    },
+    {
+        question: "The most common language family of Nepal is",
+        options: ["Bharopedi", "BhotiBurnedi", "Agneli", "Dravid"],
+        answer: 0  // a
+    },
+    {
+        question: "What percent of people speak Nepali Language?",
+        options: ["44.86 %", "45.64%", "46.46%", "48.4%"],
+        answer: 0  // a
+    },
+    {
+        question: "Which is the least populated state of Nepal?",
+        options: ["Bankariya", "Nirang", "Kusunda", "Sutel"],
+        answer: 1  // b
+    },
+    {
+        question: "Which is the largest valley of Nepal?",
+        options: ["Dang", "Udayapur", "Surkter", "Chihwan"],
+        answer: 0  // a
+    },
+    {
+        question: "The deepest valley of Nepal which is also the deepest valley of the world lies in",
+        options: ["Sankhuwashabha", "Bhojpur", "Solukhambhu", "Rasuwa"],
+        answer: 0  // a
+    },
+    {
+        question: "Which is the first wetland of Nepal listed in World Ramsar Site in 1987 December 17?",
+        options: ["KokhiTappu", "Jagadishpur lake", "Ghodaghodi Lake", "Phewa lake"],
+        answer: 0  // a
+    },
+    {
+        question: "Which of the following is not included in World Ramsar Site?",
+        options: ["Mapokhari", "Phewa lake", "Beganas lake", "Satyawati lake"],
+        answer: 3  // d
+    },
+    {
+        question: "How many sites of Nepal have been listed in world heritage site by UNESCO?",
+        options: ["8", "9", "10", "11"],
+        answer: 2  // c
+    },
+    {
+        question: "Which of the following sites is not listed in the world heritage site?",
+        options: ["Paslupatinath", "Lumbini", "Changunaryan", "Nyatpol"],
+        answer: 3  // d
+    },
+    {
+        question: "Which is the last heritage listed in world heritage site in 1997?",
+        options: ["Lumbini", "Boudianath", "Changunaryan", "Basantapur Durbur"],
+        answer: 3  // d
+    },
+    {
+        question: "How many protected mammals are there in Nepal?",
+        options: ["25", "26", "27", "28"],
+        answer: 1  // b
+    },
+    {
+        question: "Which of the following mammals are not included in the list of protected mammals?",
+        options: ["Pangolin", "Royal Bengal Tiger", "Panda", "Lynx"],
+        answer: 3  // d
+    },
+    {
+        question: "Which of the following bird is not included in the list of protected species of birds?",
+        options: ["Danphe", "KhanMayur", "Sanas crane", "Dhukur"],
+        answer: 3  // d
+    },
+    {
+        question: "How many tigers are there in Nepal?",
+        options: ["230", "355", "240", "245"],
+        answer: 1  // b
+    },
+    {
+        question: "Among 752 Rhino in Nepal, how many of them are in Chiwan National Park?",
+        options: ["690", "692", "694", "696"],
+        answer: 2  // c
+    },
+    {
+        question: "Which national park of Nepal is the major for tigers in Nepal?",
+        options: ["Shuklaphtanta", "Paras", "Bauke", "Bardiya"],
+        answer: 0  // a
+    },
+    {
+        question: "The forest with Sal tree, Sisco, Red wood, Cutch tree (Khayar) is called",
+        options: ["Tropical Evergreen Forest", "Decidious Forest", "Coniferous Forest", "Alpine Forest"],
+        answer: 0  // a
+    },
+    {
+        question: "The only bird found in Nepal, Spinny babbler is found in which national park?",
+        options: ["Bauke National Park", "Bardiya National Park", "Chiwan National Park", "She Phoksundo National Park"],
+        answer: 1  // b
+    },
+    {
+        question: "Which is the largest national park of Nepal in terms of area?",
+        options: ["She-Phoksundo", "Khaphad", "Makalu-Barun", "Rara"],
+        answer: 0  // a
+    },
+    {
+        question: "Which district of Nepal is famous for Rhododendron?",
+        options: ["Jhapa", "Illam", "Pancithiar", "Bhojpur"],
+        answer: 1  // b
+    },
+    {
+        question: "How many types of climate are found in Nepal?",
+        options: ["4", "5", "6", "7"],
+        answer: 1  // b
+    },
+    {
+        question: "Which region of Nepal is called Monsoon affected region of Nepal?",
+        options: ["Mountain", "Hills", "Chure", "Terai"],
+        answer: 3  // d
+    },
+    {
+        question: "Monsoon wind originates from",
+        options: ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+        answer: 2  // c
+    },
+    {
+        question: "Tropical Monsoon climate is found at a height of",
+        options: ["60 meter-1200 meter", "2100-2100 meter", "2100-3300 meter", "3300 meters"],
+        answer: 0  // a
+    },
+    {
+        question: "Which climate is found above 5000 meters?",
+        options: ["Monsoon", "Temperate", "Alpine", "Tundra"],
+        answer: 3  // d
+    },
+    {
+        question: "Which climate is most suitable for healthier living?",
+        options: ["Warm Temperate", "Cold Temperate", "Sub-Tropical", "Monsoon"],
+        answer: 0  // a
+    },
+    {
+        question: "Which is the following statement is false?",
+        options: [
+            "Monsoon climate is the most favourable climate for agriculture.",
+            "The most unfavourable climate of Nepal is Mountain climate/Tundra/Polar climate.",
+            "Alpine climate is famous for animal farming and Trekking (Tourism Promotion).",
+            "Cold temperate climate is found in Kathmandu."
+        ],
+        answer: 3  // d
+    },
+    {
+        question: "Rhododendron is found in which type of climate?",
+        options: ["Warm Temperate", "Cold Temperate", "Monsoon Climate", "Alpine"],
+        answer: 0  // a
+    },
+    {
+        question: "Which of the following vegetation is not found in Tropical climate?",
+        options: ["Sal", "Sisson", "Khayar", "Lapsi"],
+        answer: 3  // d
+    },
+    {
+        question: "The medicinal herb “Yarshagumba (Cordyseps sinensis)” is found in which type of climate?",
+        options: ["Alpine", "Tundra", "Tropical", "Sub-tropical"],
+        answer: 0  // a
+    },
+    {
+        question: "Which climate is called vegetation free area?",
+        options: ["Monsoon", "Tundra", "Alpine", "Sub alpine region"],
+        answer: 1  // b
+    },
+    {
+        question: "What is the main occupation of the people of Himalayan region?",
+        options: ["Animal Husbandry", "Agriculture", "Trade", "Industrial activity"],
+        answer: 0  // a
+    },
+    {
+        question: "Which region of Nepal is called Lesser Himalaya?",
+        options: ["Bhabar", "Chure", "Mahabharata", "Inner Himalaya"],
+        answer: 2  // c
+    },
+    {
+        question: "There are ……… seasons of Nepal",
+        options: ["4", "5", "6", "7"],
+        answer: 2  // c
+    },
+    {
+        question: "Sharad (Autumn) season in Nepal can be observed in the month of",
+        options: ["Jetla-Asar", "Shrawan-Bhadra", "Ashwin-Kartik", "Mangsir-Poush"],
+        answer: 2  // c
     }
 
   ]
