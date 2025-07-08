@@ -155,7 +155,7 @@ window.mcqData = {
 {
     question: "The functional equation for specific gravity (G), water content (w), void ratio (e) and degree of saturation (Sr) is",
     options: ["w = SrG/e", "e = Srw/G", "e = WG/Sr", "G = Srw/e"],
-    answer: 0
+    answer: 2
 },
 {
     question: "The fundamental relation between percentage Air voids na, specific gravity (G), water content (w) and dry density (Yd) is",
@@ -5010,8 +5010,8 @@ window.mcqData = {
     options: [
       "Rs 1000 fine or imprisonment of 1 month or both",
       "Rs 5000 fine",
-      "Rs10000 fine",
-      "Rs3000 fine or Imprisonment of 3 month or both"
+      "Rs 10000 fine",
+      "Rs 10000 fine or Imprisonment of 3 month or both"
     ],
     answer: 3 // "d"
   },
@@ -33415,7 +33415,7 @@ window.mcqData = {
     },
     {
         question: "Nepal is situated in which Latitude and Longitude?",
-        options: ["Northern Latitude and Eastern Longitude", "Southern Latitude and Northern Longitude", "Northern Latitude and Eastern Longitude", "Eastern Longitude and Eastern Latitude"],
+        options: ["Northern Latitude and Eastern Latitude", "Earstern Longitude and Northern Longitude", "Northern Latitude and Eastern Longitude", "Southern Latitude and Eastern Latitude"],
         answer: 2  // c
     },
     {
@@ -33474,13 +33474,13 @@ window.mcqData = {
         answer: 1  // b
     },
     {
-        question: "What is the minimum and maximum number of wards in rural municipality?",
+        question: "what is the minimum and maximum number of wards in rural municipality?",
         options: ["Minimum 5 and Maximum 21", "Minimum 9 and Maximum 35", "Minimum 10 and Maximum 21", "Minimum 7 and Maximum 35"],
-        answer: 3  // d
+        answer: 0  // a
     },
     {
         question: "Which district of Nepal shares its border with most number of other district borders?",
-        options: ["Sarlahi", "Nawalparasi East", "Dhana", "Chitwan"],
+        options: ["Sindhuli", "Nawalparasi East", "Dhana", "Chitwan"],
         answer: 0  // a
     },
     {
@@ -33495,7 +33495,7 @@ window.mcqData = {
     },
     {
         question: "Which is the youngest/last/77th district of Nepal?",
-        options: ["Nawalparasi East", "Nawalparasi West", "Rukum East", "Rukum East"],
+        options: ["Nawalparasi East", "Nawalparasi West", "Rukum East", "Rukum west"],
         answer: 2  // c
     },
     {
@@ -33530,7 +33530,7 @@ window.mcqData = {
     },
     {
         question: "What is the nearest sea distance from Nepal?",
-        options: ["1126 km", "1125 m", "1128km", "1129km"],
+        options: ["1126 km", "1127 m", "1128km", "1129km"],
         answer: 1  // b
     },
     {
@@ -33560,7 +33560,7 @@ window.mcqData = {
     },
     {
         question: "The vast plains surrounded by mountains (Mahabharat and Shivalik) on all sides are _______________",
-        options: ["Inner Madhesh or Doon region.", "Chure Region", "Danduwa Region", "Inner Madhesh (Doon) Region"],
+        options: ["Dunduwa region", "Chure Region", "Danduwa Region", "Inner Madhesh (Doon) Region"],
         answer: 3  // d
     },
     {
@@ -33575,7 +33575,7 @@ window.mcqData = {
     },
     {
         question: "When did 77 districts come into operation?",
-        options: ["2074 Bhadra 4", "2074 Bhadra 25", "2075 Falgun 19", "2074 Bhadra 29"],
+        options: ["2074 Bhadra 4", "2074 Bhadra 25", "2075 Falgun 19", "2074 Bhadra 5"],
         answer: 3  // d
     },
     {
@@ -33635,7 +33635,7 @@ window.mcqData = {
     },
     {
         question: "What separates Nepal and India?",
-        options: ["Purbi Ghyanch", "", "11th Parallel", "Dasgaja"],
+        options: ["Purbi Ghyanch", "11th Parallel", "Chicken neck corridor", "Dasgaja"],
         answer: 3  // d
     },
     {
@@ -33661,7 +33661,7 @@ window.mcqData = {
     {
         question: "What is the area occupied by Inner Terai?",
         options: ["8.5%", "9.5%", "10.5%", "11.5%"],
-        answer: 1  // b
+        answer: 0  // a
     },
     {
         question: "Which of the following countries is not included in Upper Sagarmatha?",
@@ -33671,7 +33671,7 @@ window.mcqData = {
     {
         question: "Which is the airport at the highest altitude?",
         options: ["Phaplu", "Kangel Danda", "Lukla", "Syangboche"],
-        answer: 2  // c
+        answer: 3  // d
     },
     {
         question: "Which district has the similar map structure to Nepal?",
@@ -33681,7 +33681,7 @@ window.mcqData = {
     {
         question: "Which is the pass at the highest altitude?",
         options: ["Changla Pass", "Larkhe pass", "Thorang Pass", "Olangchunggola"],
-        answer: 3  // d
+        answer: 0  // a
     },
     {
         question: "Which place of Nepal is called \"The Cherapunji?",
@@ -33695,8 +33695,8 @@ window.mcqData = {
     },
     {
         question: "Which place is called \"Srilanka of Nepal\"?",
-        options: ["Chandanik Dodhara", "Ramechhap", "Koshi Tappu", "Matchaare"],
-        answer: 0  // a
+        options: ["Chandani Dodhara", "Marchwar", "Koshi Tappu", "Jagdishpur lake"],
+        answer: 2  // c
     },
     {
         question: "Which region is called the \"Outer Himalaya\"?",
@@ -33741,7 +33741,7 @@ window.mcqData = {
     {
         question: "The number of provinces named after the name of river are",
         options: ["4", "5", "6", "7"],
-        answer: 1  // b
+        answer: 0  // a
     },
     {
         question: "Which of the following is the youngest mountain formed by the accumulation of river materials?",
@@ -33751,7 +33751,7 @@ window.mcqData = {
     {
         question: "Which of the following province is linked to India only?",
         options: ["Koshi", "Bagmati", "Gandaki", "Lumbini"],
-        answer: 1  // b
+        answer: 3  // d
     },
     {
         question: "How many districts are there in Bagmati Province?",
@@ -33761,7 +33761,7 @@ window.mcqData = {
     {
         question: "Which is the second smallest province in terms of the number of districts?",
         options: ["Koshi", "Madhesh", "Sudur Paschim", "Gandaki"],
-        answer: 1  // b
+        answer: 2  // c
     },
     {
         question: "Which is the province with 8 districts?",
@@ -33781,7 +33781,7 @@ window.mcqData = {
     {
         question: "Who is the first Chief Minister of Nepal?",
         options: ["Sher Dhan Rai", "Lal Babu Raut", "Dormani Poudyal", "Trilochan"],
-        answer: 1  // b
+        answer: 2  // c
     },
     {
         question: "Who is the first governor/Chief of province of Nepal?",
@@ -33814,14 +33814,14 @@ window.mcqData = {
         answer: 1  // b
     },
     {
-        question: "Which of the following is the largest sub-metropolitan city any based on area?",
+        question: "Which of the following is the largest sub-metropolitan city based on area?",
         options: ["Biratnagar", "Birgunj", "Hetauda", "Kalaiya"],
         answer: 0  // a
     },
     {
-        question: "Which is the metropolitan city of Nepal?",
+        question: "Which is the last metropolitan city of Nepal?",
         options: ["Lalitpur", "Biratnagar", "Pokhara", "Ghorahi"],
-        answer: 2  // c
+        answer: 1  // b
     },
     {
         question: "Which is the smallest metropolitan city in terms of Area and Population?",
@@ -33886,7 +33886,7 @@ window.mcqData = {
     {
         question: "Which of the following province is not connected to both India and China?",
         options: ["Koshi", "Bagmati", "Gandaki", "Karnali"],
-        answer: 1  // b
+        answer: 3  // d
     },
     {
         question: "Mithila, Hanshapur and Kamala municipalities are located in which district?",
@@ -33901,7 +33901,7 @@ window.mcqData = {
     {
         question: "The standard time of Nepal (UTC+5:45) was implemented from which date?",
         options: ["2042/01/01", "2042/02/01", "2042/02/02", "2042/03/01"],
-        answer: 1  // b
+        answer: 0  // 1
     },
     {
         question: "Inner Terai (Bhitri Madhesh) refers to which of the following?",
