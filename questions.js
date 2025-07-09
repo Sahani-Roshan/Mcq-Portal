@@ -19983,7 +19983,9 @@ window.mcqData = {
 ],
 
 // Apex questions from weekly exam
-"Apex Questions": {
+
+"Apex Questions": 
+{
     "2080-4-13": [
       {
   question: "What is the area of Sagarmatha National Park?",
@@ -26999,8 +27001,12 @@ window.mcqData = {
         "answer": 2
     }
     ]
-  },
- "500+ MCQ" : [
+},
+
+// 500+ MCQ
+
+ "500+ MCQ" : 
+[
 
 
   {
@@ -33399,10 +33405,14 @@ window.mcqData = {
 
 
 
- ],
+],
+
  // General Knowledge Questions
-"General Knowledge": {
-  "1.1.1 Physical Geography": [
+ 
+"General Knowledge": 
+{
+  "1.1.1 Physical Geography": 
+  [
   
     {
         question: "Nepal is geographically situated at ........... zone of the world map",
@@ -33906,7 +33916,9 @@ window.mcqData = {
     }
 
   ],
-  "1.3 Geographic Diversity, Climatic Condition and Livelihood": [
+
+  "1.3 Geographic Diversity, Climatic Condition and Livelihood": 
+  [
     {
         question: "What percent of the total area of Nepal is occupied by Mountain region?",
         options: ["15%", "17%", "19%", "21%"],
@@ -34113,6 +34125,175 @@ window.mcqData = {
         answer: 2  // c
     }
 
+  ],
+
+  "1.14 Fundamentals of Management": 
+  [
+  {
+    question: "Management is the art of...",
+    options: ["Managing customers", "Making super normal profit", "Keeping competitors under pressure", "Getting things done by groups of people"],
+    answer: 3  // d
+  },
+  {
+    question: "Under ...leadership system, goals are set and work-related decision are taken by subordinates.",
+    options: ["Authoritarian", "Bureaucratic", "Democratic", "Visionary"],
+    answer: 2  // c
+  },
+  {
+    question: "Henry Foyls's General theory of Administration is applicable at..",
+    options: ["Policy management level", "Top management level", "Middle management level", "Workshop management level"],
+    answer: 1  // b
+  },
+  {
+    question: "Who propounded need-based theory of motivation?",
+    options: ["Maslow", "McGregor", "Vroom", "Hertzberg"],
+    answer: 0  // a
+  },
+  {
+    question: "Autocratic leadership is also known as..",
+    options: ["Authoritarian", "Democratic", "Free rein", "Participative"],
+    answer: 0  // a
+  },
+  {
+    question: "Abraham Maslow in his hierarchy has not considered:",
+    options: ["Physical needs", "Security needs", "Wealthy needs", "Existence needs"],
+    answer: 2  // c
+  },
+  {
+    question: "Leadership is not a...",
+    options: ["Act", "Capacity", "Art", "Post"],
+    answer: 3  // d
+  },
+  {
+    question: "Who is known as father of scientific management?",
+    options: ["Henry Foy]", "Abraham Maslow", "F.W. Taylor", "Fried Herzberg"],
+    answer: 2  // c
+  },
+  {
+    question: "Leadership behavior is influenced by certain quality of person is...",
+    options: ["Followers theory", "Trait theory", "Situational theory", "Managerial grid"],
+    answer: 1  // b
+  },
+  {
+    question: "Decision making is expected to be based on..",
+    options: ["Competitors policy", "Rational thinking", "Government policy", "Workers activity"],
+    answer: 0  // a
+  },
+  {
+    question: "Scientific management is concerned with...",
+    options: ["Cooperation, not individualism", "Increased production through long experience", "Application of scientific principles to the management production", "Increased sales"],
+    answer: 2  // c
+  },
+  {
+    question: "......... is an intellectual process.",
+    options: ["Staffing", "Controlling", "Directing", "Planning"],
+    answer: 3  // d
+  },
+  {
+    question: "......... is that managerial function which initiates organized action.",
+    options: ["Directing", "Organizing", "Leading", "Motivation"],
+    answer: 0  // a
+  },
+  {
+    question: "Vroom's Theory of Motivation is known as ....",
+    options: ["Equity theory", "Expectancy theory", "Need theory", "Theory X and Theory Y"],
+    answer: 1  // b
+  },
+  {
+    question: "Which of the following elements is associated with Herzberg's Model?",
+    options: ["Self Actualization", "Self realization", "Esteem", "Hygiene"],
+    answer: 3  // d
+  },
+  {
+    question: "Under Foyol's 14 principle of Management, which one of the following factor is related with Esprit de Corps?",
+    options: ["Division of work", "Team work", "Personal ability", "Personal interest"],
+    answer: 1  // b
+  },
+  {
+    question: "Scalar Chain denotes....",
+    options: ["A production process", "An appraisal process", "Span of Management", "Authority from the highest to lowest ranks"],
+    answer: 3  // d
+  },
+  {
+    question: "Which one of following is not included in \"The Managerial Activities\"?",
+    options: ["Commanding", "Controlling", "Accounting", "Directing"],
+    answer: 2  // c
+  },
+  {
+    question: "Theory X suggests that employees...",
+    options: ["Like their manager", "Dislike work", "Dislike manager", "Like work"],
+    answer: 1  // b
+  },
+  {
+    question: "Selecting a best course of action among available alternatives is called...",
+    options: ["Decision making", "Planning", "Controlling", "Directing"],
+    answer: 0  // a
+  },
+  {
+    question: "Crisis decision is also known as...",
+    options: ["Group decision", "Major decision", "Minor decision", "Spot decision"],
+    answer: 3  // d
+  },
+  {
+    question: "Theory.... is based on positive assumption about Workers?",
+    options: ["X", "Y", "C", "Z"],
+    answer: 1  // b
+  },
+  {
+    question: "In POSDCORB R stands for?",
+    options: ["Recruiting", "Re managing", "Reporting", "Rectifying."],
+    answer: 2  // c
+  },
+  {
+    question: "Who defines management as,\" process of getting things done by and through others\".",
+    options: ["F.W. Taylor", "Henry Foyl", "John Adams", "Hicks"],
+    answer: 3  // d
+  },
+  {
+    question: "Who is known as father of management?",
+    options: ["F.W. Taylor", "Drucker", "Foyol", "David"],
+    answer: 1  // b
+  },
+  {
+    question: "....flows from lower level management to top level management",
+    options: ["Authority", "Centralization", "Decentralization.", "Responsibility"],
+    answer: 3  // d
+  },
+  {
+    question: "Who has modified the hierarchy of needs theory of motivation?",
+    options: ["Vroom", "Mc Clelland", "Gregor", "Herzberg"],
+    answer: 1  // b
+  },
+  {
+    question: "Bureaucratic Theory was invented by whom?",
+    options: ["Elton Mayo", "Henry Foyl.", "F.W. Taylor", "Max Weber"],
+    answer: 3  // d
+  },
+  {
+    question: "Which one of the following is not a function of management?",
+    options: ["Grouping", "Planning", "Staffing", "Directing"],
+    answer: 0  // a
+  },
+  {
+    question: "Which one of the following is not a technique of control?",
+    options: ["Management Audit", "Management by objectives", "Management Information System", "Break even analysis"],
+    answer: 1  // b
+  },
+  {
+    question: "Leadership is the process of exerting influence on.",
+    options: ["Customers", "Suppliers", "Group members", "Competitors"],
+    answer: 2  // c
+  },
+  {
+    question: "... of motivation is known as Two factor Theory of Motivation?",
+    options: ["Maslow's Theory", "Herzberg's Theory", "Mc. Gregor's Theory", "Vroom Theory"],
+    answer: 1  // b
+  },
+  {
+    question: "..... leader exercise complete control over the subordinates.",
+    options: ["Autocratic", "Free rein", "Democratic", "Participative"],
+    answer: 0  // a
+  }
   ]
 }
 
