@@ -255,7 +255,7 @@ window.mcqData = {
 {
     question: "The maximum water content at which a reduction in water content does not cause a decrease in volume of soil mass is known as",
     options: ["liquid limit", "plastic limit", "shrinkage limit", "ductile limit"],
-    answer: 1
+    answer: 2
 },
 {
     question: "Plasticity index is obtained as the difference between",
@@ -4311,9 +4311,9 @@ window.mcqData = {
       "12",
       "14",
       "16",
-      "18"
+      "21"
     ],
-    answer: 3 // "18"
+    answer: 3 // "21"
   },
   {
     question: "Which one type of membership is not categorized by NEC?",
@@ -11986,7 +11986,7 @@ window.mcqData = {
     "kg/litre",
     "gm/cubic cm",
   ],
-  answer: 2
+  answer: 1
 },
 {
   question: "Pick up the correct statement from the following:",
@@ -12243,12 +12243,8 @@ window.mcqData = {
   options: [
     "coarse aggregate",
     "fine aggregate",
-    "neither (",
-    "nor (",
-    "",
-    "both (",
-    "and (",
-    "of above",
+    "neither of above",
+    "both of above",
   ],
   answer: 1
 },
@@ -33530,7 +33526,7 @@ window.mcqData = {
     },
     {
         question: "What is the nearest sea distance from Nepal?",
-        options: ["1126 km", "1127 m", "1128km", "1129km"],
+        options: ["1126 km", "1127 km", "1128km", "1129km"],
         answer: 1  // b
     },
     {
@@ -33560,7 +33556,7 @@ window.mcqData = {
     },
     {
         question: "The vast plains surrounded by mountains (Mahabharat and Shivalik) on all sides are _______________",
-        options: ["Dunduwa region", "Chure Region", "Danduwa Region", "Inner Madhesh (Doon) Region"],
+        options: ["Dunduwa region", "Chure Region", "Main terai Region", "Inner Madhesh (Doon) Region"],
         answer: 3  // d
     },
     {
@@ -33664,7 +33660,7 @@ window.mcqData = {
         answer: 0  // a
     },
     {
-        question: "Which of the following countries is not included in Upper Sagarmatha?",
+        question: "Which of the following district is not included in Upper Sagarmatha?",
         options: ["Solukhumbu", "Okhaldhunga", "Khotang", "Sankhuwasabha"],
         answer: 3  // d
     },
@@ -33746,7 +33742,7 @@ window.mcqData = {
     {
         question: "Which of the following is the youngest mountain formed by the accumulation of river materials?",
         options: ["The Chure", "Mahabharata", "Himalay", "Lamjung"],
-        answer: 2  // c
+        answer: 0  // a
     },
     {
         question: "Which of the following province is linked to India only?",
@@ -33815,17 +33811,17 @@ window.mcqData = {
     },
     {
         question: "Which of the following is the largest sub-metropolitan city based on area?",
-        options: ["Biratnagar", "Birgunj", "Hetauda", "Kalaiya"],
+        options: ["Itahari", "Ghorahi", "Hetauda", "Kalaiya"],
         answer: 0  // a
     },
     {
         question: "Which is the last metropolitan city of Nepal?",
-        options: ["Lalitpur", "Biratnagar", "Pokhara", "Ghorahi"],
+        options: ["Kathmandu", "Biratnagar", "Pokhara", "Ghorahi"],
         answer: 1  // b
     },
     {
         question: "Which is the smallest metropolitan city in terms of Area and Population?",
-        options: ["Lalitpur and Biratnagar", "Lalitpur and Birgunj", "Kathmandu and Biratnagar", "Kathmandu and Birgunj"],
+        options: ["Lalitpur and Biratnagar", "Lalitpur and Birgunj", "Kathmandu and Biratnagar", "Lalitpur and Kathmandu"],
         answer: 0  // a
     },
     {
@@ -33845,13 +33841,13 @@ window.mcqData = {
     },
     {
         question: "What is the minimum population required to declare a municipality in a hilly district?",
-        options: ["30 Thousand", "45 Thousand", "50 Thousand", "55 Thousand"],
-        answer: 2  // c
+        options: ["40 Thousand", "45 Thousand", "50 Thousand", "55 Thousand"],
+        answer: 0  // a
     },
     {
         question: "Which Province has the least number of local levels?",
         options: ["Gandaki", "Lumbini", "Karnali", "Madhesh"],
-        answer: 0  // a
+        answer: 2  // c
     },
     {
         question: "Choose the correct pair of districts according to the local governance operation act, 2074 (A=Mountainous district, B=Hilly district, C=District of Inner Terai, D=District of Kathmandu Valley District, 1=Dadeldhura, 2=Bhaktapur, 3=Myagdi,4=Surkhet)",
@@ -33871,7 +33867,7 @@ window.mcqData = {
     {
         question: "Match the correct pair between different peaks and Mountain ranges: (A=Sagarmatha, B=Machhapuchhre, C=Gaurishankar, D=Api, Gurans, Khumbu/Mahalangur, Annapurna, Rolwaling)",
         options: ["A-3, B-1, C-4, D-2", "A-4, B-3, C-2, D-1", "A-2, B-3; C-4, D-1", "A-3, B-2 C-4 D-1"],
-        answer: 0  // a
+        answer: 2  // c
     },
     {
         question: "How many meters is the height of Thorangla pass, the highest point of the Annapurna trail?",
@@ -33896,7 +33892,7 @@ window.mcqData = {
     {
         question: "The glacial origin of Seti river is _______________",
         options: ["Annapurna", "Uhotse", "Apinampa", "Machhapuchhre"],
-        answer: 0  // a
+        answer: 2 // c
     },
     {
         question: "The standard time of Nepal (UTC+5:45) was implemented from which date?",
