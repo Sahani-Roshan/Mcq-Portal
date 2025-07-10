@@ -34294,6 +34294,359 @@ window.mcqData = {
     options: ["Autocratic", "Free rein", "Democratic", "Participative"],
     answer: 0  // a
   }
+  ],
+  "1.15 Government Planning and Budgeting":
+  [
+    {
+    question: "Why is the role of Medium Term Expenditure Framework?",
+    options: [
+      "To help in accounting",
+      "To help in Auditing",
+      "To help in establishing tie between planning and budget",
+      "None of the above"
+    ],
+    answer: 2  // C
+  },
+  {
+    question: "In Nepal which of the following fiscal year is not observed as plan holiday?",
+    options: [
+      "2018/19",
+      "2047/48",
+      "2048/49",
+      "2016/17"
+    ],
+    answer: 3  // D
+  },
+  {
+    question: "National Development Council consist of how many members?",
+    options: [
+      "15",
+      "12",
+      "17",
+      "13"
+    ],
+    answer: 1  // B
+  },
+  {
+    question: "Who is the prime Minister to commence and materialize the concept of periodic plan in Nepal?",
+    options: [
+      "Juddha Sumsher",
+      "Tanka Prasad Aacharya",
+      "B.P. Koirala",
+      "K.I. Singh"
+    ],
+    answer: 1  // B
+  },
+  {
+    question: "Which is not the features of government accounting of Nepal?",
+    options: [
+      "Provision of Central and Operating level accounting",
+      "Books of account maintained for each budget head",
+      "Use of forms of accounts prepared by FCGO and approved by Auditor General",
+      "Based on Single Accounting System"
+    ],
+    answer: 3  // D
+  },
+  {
+    question: "In Nepal Internal Audit of Public office is done by which organization?",
+    options: [
+      "District Treasury Controller office",
+      "Province Treasury controller office",
+      "Internal Audit Mechanism of Local level",
+      "All of the above"
+    ],
+    answer: 1  // B
+  },
+  {
+    question: "Final Audit of public expenditure is done in Nepal by which organization?",
+    options: [
+      "Financial Comptroller General Office",
+      "Auditor General",
+      "District Treasury controller office",
+      "Non of the above"
+    ],
+    answer: 0  // A
+  },
+  {
+    question: "CGAS is....",
+    options: [
+      "A name of software",
+      "Auditor General Form",
+      "Book of Account",
+      "None of the above"
+    ],
+    answer: 0  // A
+  },
+  {
+    question: "Single Treasury Account (TSA) has been implemented in how many district of Nepal till date?",
+    options: [
+      "72",
+      "75",
+      "77",
+      "74"
+    ],
+    answer: 2  // C
+  },
+  {
+    question: "Nepal adopted surplus budget in which fiscal year?",
+    options: [
+      "2033/34 B.S.",
+      "2032/33 B.S.",
+      "2034/35 B.S.",
+      "2035/36 B.S"
+    ],
+    answer: 0  // A
+  },
+  {
+    question: "Among the given below which of the following budget emphasizes incrementalism?",
+    options: [
+      "Line item Budget",
+      "Program Budget",
+      "Zero based Budget",
+      "None of the above"
+    ],
+    answer: 0  // A
+  },
+  {
+    question: "Balanced budget is emphasized by whom?",
+    options: [
+      "Modern economist",
+      "Classical economist",
+      "Neo Classical economist",
+      "Neo Modern economist"
+    ],
+    answer: 1  // B
+  },
+  {
+    question: "First budget of Nepal falls under which category?",
+    options: [
+      "Surplus Budget",
+      "Deficit Budget",
+      "Balanced Budget",
+      "Line Item Budget"
+    ],
+    answer: 1  // B
+  },
+  {
+    question: "Which is the first country in the world to exercise the concept of development planning?",
+    options: [
+      "Russia",
+      "USA",
+      "UK",
+      "Denmark"
+    ],
+    answer: 0  // A
+  },
+  {
+    question: "Performance budgeting is based on ..",
+    options: [
+      "Items of expenditure",
+      "Items of investment",
+      "Objective of expenditure",
+      "Plan of implementation"
+    ],
+    answer: 3  // D
+  },
+  {
+    question: "Which is the first country in the world to introduce the concept of Gender Responsive Budget?",
+    options: [
+      "U.S.A",
+      "U.K.",
+      "Austria",
+      "Australia"
+    ],
+    answer: 3  // D
+  },
+  {
+    question: "What is the full form of LMBIS?",
+    options: [
+      "Local Mainstreaming Budget Information System",
+      "Land Management Budget Information System",
+      "Line Ministry Budget Information System",
+      "None"
+    ],
+    answer: 2  // C
+  },
+  {
+    question: "According to economic survey 2079/80 how many public enterprises are in net profit?",
+    options: [
+      "26",
+      "19",
+      "20",
+      "21"
+    ],
+    answer: 0  // A
+  },
+  {
+    question: "Per Capita Income of every Nepalese has reached to?",
+    options: [
+      "1045 US$",
+      "1095 US$",
+      "1395 US$",
+      "1405 US$"
+    ],
+    answer: 0  // A (assumed)
+  },
+  {
+    question: "According to economic survey 2079/80 how many public enterprises are in loss?",
+    options: [
+      "15",
+      "19",
+      "20",
+      "21"
+    ],
+    answer: 0  // A
+  },
+  {
+    question: "According to economic survey of current year how many percentage of people have access to basic drinking water?",
+    options: [
+      "97%",
+      "96.75%",
+      "95.75",
+      "None"
+    ],
+    answer: 1  // B
+  },
+  {
+    question: "According to economic survey of current year Human Development index of Nepal is?",
+    options: [
+      "0.589",
+      "0.601",
+      "0.569",
+      "0.625"
+    ],
+    answer: 2  // C
+  },
+  {
+    question: "Everyday expenditure of Tourist in Nepal is?",
+    options: [
+      "41 US$",
+      "50 US$",
+      "60 US$",
+      "45 US$"
+    ],
+    answer: 0  // A
+  },
+  {
+    question: "Headquarter of INTOSAI is located in which country?",
+    options: [
+      "Vienna Austria",
+      "Jeneva Switzerland",
+      "New York U.S.A",
+      "London, U.K"
+    ],
+    answer: 0  // A
+  },
+  {
+    question: "Who is the finance minister of Nepal to present budget in parliament for most number of times?",
+    options: [
+      "Subarna Shumsher",
+      "Mahes Aacharya",
+      "Ram Sharan Mahat",
+      "Bishnu Paudel"
+    ],
+    answer: 1  // B
+  },
+  {
+    question: "Among the given below which is not the basic element of programme budget?",
+    options: [
+      "Function",
+      "Programme",
+      "Project",
+      "Procedure"
+    ],
+    answer: 3  // D
+  },
+  {
+    question: "Direct gender responsive budget falls under which category?",
+    options: [
+      "Activities below 50%",
+      "Activities equal to 50%",
+      "Activities above 50%",
+      "Activities between 20 and 50%"
+    ],
+    answer: 2  // C
+  },
+  {
+    question: "Among the given below which bill is introduced only in house of representative?",
+    options: [
+      "Money Bill",
+      "Civil service Bill",
+      "Guthee Bill",
+      "Election Bill"
+    ],
+    answer: 0  // A
+  },
+  {
+    question: "Money Bill is concerned with which of the following?",
+    options: [
+      "Imposition of tax",
+      "Regulation of tax",
+      "Alteration of tax",
+      "All of the above"
+    ],
+    answer: 3  // D
+  },
+  {
+    question: "In how many days National Assembly should send back the Money Bill passed by House of Representative and transmitted to National Assembly?",
+    options: [
+      "Within 10 days",
+      "Within 20 days",
+      "Within 15 days",
+      "Within 30 days"
+    ],
+    answer: 2  // C
+  },
+  {
+    question: "Among the given below which Bill can only be introduced as government bill?",
+    options: [
+      "Money Bill",
+      "Bill concerning a security body",
+      "Both",
+      "Non of the above"
+    ],
+    answer: 2  // C
+  },
+  {
+    question: "Except Money Bill, in how many days National Assembly should return the concerned bill to House of Representative?",
+    options: [
+      "30 days",
+      "60 days",
+      "15 days",
+      "90 days"
+    ],
+    answer: 1  // B
+  },
+  {
+    question: "In the budget of current fiscal year how much percentage has been allocated for capital expenditure?",
+    options: [
+      "18.94 %",
+      "24%",
+      "42%",
+      "23.%"
+    ],
+    answer: 0  // A
+  },
+  {
+    question: "In which article of present constitution there is provision of estimation of revenue and expenditure of village body and municipality?",
+    options: [
+      "Article 228",
+      "Article 230",
+      "Article 119",
+      "Article 207"
+    ],
+    answer: 1  // B
+  },
+  {
+    question: "New Accounting System based on double entry book keeping system was introduced in Nepal from when?",
+    options: [
+      "Chaitra2, 2018 B.S",
+      "Baisakh 1, 2017",
+      "Chaitra 1, 2016",
+      "Mangsir 8, 2015"
+    ],
+    answer: 0  // A
+  }
   ]
 }
 
