@@ -34418,6 +34418,16 @@ window.mcqData = {
     answer: 1  // B
   },
   {
+    question: "Current budget ha projected the inflation rate to be contained within (2082/83)",
+    options: [
+      "4.6%",
+      "5.5%",
+      "7%",
+      "6%"
+    ],
+    answer: 1  // B
+  },
+  {
     question: "First budget of Nepal falls under which category?",
     options: [
       "Surplus Budget",
@@ -34647,7 +34657,7 @@ window.mcqData = {
     ],
     answer: 0  // A
   }
-  ]
+  ],
 }
 
 
