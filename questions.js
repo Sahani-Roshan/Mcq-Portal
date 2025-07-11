@@ -34127,6 +34127,139 @@ window.mcqData = {
 
   ],
 
+  "1.12 Public Service / Citizen charter":
+  [
+    {
+    question: "Public service charter is not kept in which of the following office?",
+    options: ["Rural municipality", "Municipality", "Department of Irrigation", "Ministry of agriculture and livestock"],
+    answer: 3
+  },
+  {
+    question: "According to Citizen Charter with compensation, management directives 2069 what is the maximum amount of compensation for the loss incurred to the customer incase he/she does not receive to the service due to the failure of the office to deliver service?",
+    options: ["Rs 5000", "Rs 4000", "Rs 3000", "Rs 2000"],
+    answer: 0
+  },
+  {
+    question: "In Nepal which is first periodic plan to make provision of citizen charter?",
+    options: ["7th plan", "9th plan", "10th plan", "11th plan"],
+    answer: 2
+  },
+  {
+    question: "Among the given below, which matter is not contained in Public Charter?",
+    options: ["Procedure to be followed by service seeker", "Estimated time for service delivery", "Description of the officer responsible for providing service", "About legal assistance"],
+    answer: 3
+  },
+  {
+    question: "What is the objectives of Public service charter?",
+    options: ["Strengthen trust between citizens and public officials", "Ensure predictability in service delivery", "Maintains administrative neutrality and functional commitment", "All of the above"],
+    answer: 3
+  },
+  {
+    question: "Which is the first SAARC country to implement Public service charter?",
+    options: ["Nepal", "Srilanka", "India", "Bhutan"],
+    answer: 2
+  },
+  {
+    question: "Citizen Charter with compensation was implemented in Nepal from when?",
+    options: ["2056 B.S.", "2070 B.S.", "2061B.S.", "2064 B.S"],
+    answer: 1
+  },
+  {
+    question: "Public service charter is guided by which principle?",
+    options: ["Principle of people's sovereignty", "Principle of decentralization", "Principle of delegation of authority", "Principle of division of work"],
+    answer: 0
+  },
+  {
+    question: "What is the legal ground to implement to Public Service Charter in Nepal?",
+    options: ["Right to information act, 2064", "Good governance ( management and operation ) act, 2064", "Audit act, 2075", "Financial procedure and financial accountability act, 2076"],
+    answer: 1
+  },
+  {
+    question: "When is United Nations Public Service day observed?",
+    options: ["June 21", "June 22", "June 23", "March 23"],
+    answer: 2
+  },
+  {
+    question: "The characteristics of public service is",
+    options: ["rivalrous", "profit oriented", "Based on social justice", "involve in manufacturing of goods for earning"],
+    answer: 2
+  },
+  {
+    question: "Which of the following is not the general principle of Public service charter?",
+    options: ["Service standard", "Informative", "Service choice", "Monopoly"],
+    answer: 3
+  },
+  {
+    question: "A written commitment by government agencies to public about service delivery system, cost, time, compensation is called...",
+    options: ["Service contract", "Term of Reference (ToR)", "Citizen charter", "Non of the above"],
+    answer: 2
+  },
+  {
+    question: "Full form of RTI is...",
+    options: ["Right to Information", "Right to investigation", "Both", "None"],
+    answer: 0
+  },
+  {
+    question: "In Nepal RTI Audit is done by which agency?",
+    options: ["Auditor General", "District Administration office", "Financial Comptroller General Office", "Information Commission"],
+    answer: 3
+  }
+  ],
+
+  "1.13 Public Policy":
+  [
+    {
+    question: "Among the given below which is not form of public policy?",
+    options: ["Constitution", "Directives issued by government", "Acts and rules", "Bill related to civil service management"],
+    answer: 3  // D. Bill related to civil service management
+  },
+  {
+    question: "Incremental Theory of Public Policy was propounded by whom?",
+    options: ["Charles E Lindblom", "Finer", "Hertzberg", "James Buchanan"],
+    answer: 0  // A. Charles E Lindblom
+  },
+  {
+    question: "Which of the following is not type of public policy?",
+    options: ["Substantive", "Symbolic", "Distributive", "Facilitative"],
+    answer: 3  // D. Facilitative
+  },
+  {
+    question: "Which theory assumes that government will be influenced by various interests groups and will not be biased against any of those groups?",
+    options: ["Marxist Theory", "Pluralist Theory", "Elite Theory", "None"],
+    answer: 1  // B. Pluralist Theory
+  },
+  {
+    question: "Which theory of Public Policy used the concept of Black Box?",
+    options: ["Populist theory", "Rationalist theory", "Political system theory", "Mixed scanning theory"],
+    answer: 2  // C. Political system theory
+  },
+  {
+    question: "The book named \"The Policy Orientation\" by whom?",
+    options: ["Harold Laswell", "Thomas R. Dye", "Charles Merriam", "L. D. White"],
+    answer: 0  // A. Harold Laswell
+  },
+  {
+    question: "Among the given below who is not the person to focus on elite theory?",
+    options: ["Finer.", "Thomas R. Dai", "Herman Jimlar.", "James Buchanan"],
+    answer: 3  // D. James Buchanan
+  },
+  {
+    question: "In autocratic form of government who involve in policy making process?",
+    options: ["Autocrat", "Interest group", "Media", "Public"],
+    answer: 0  // A. Autocrat
+  },
+  {
+    question: "In democratic form of government who involve in public policy formulation process?",
+    options: ["Think tanks", "Public officials", "Member of civil society", "All"],
+    answer: 3  // D. All
+  },
+  {
+    question: "During which part of policy cycle does the government explore potential policy responses",
+    options: ["Agenda setting", "Policy formulation", "Decision making", "Policy Implementation"],
+    answer: 1  // B. Policy formulation
+  }
+  ],
+
   "1.14 Fundamentals of Management": 
   [
   {
