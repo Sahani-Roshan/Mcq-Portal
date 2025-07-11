@@ -34127,6 +34127,340 @@ window.mcqData = {
 
   ],
 
+  "1.9 Government System and Government":
+  [
+    {
+    question: "The form of government of Nepal shall be",
+    options: ["Federal", "democratic", "republican", "All of the above"],
+    answer: 3  // d
+  },
+  {
+    question: "When Nepal was declared Republic state?",
+    options: ["2008 May 18", "2008 May 28", "2008 May 15", "2008 May 30"],
+    answer: 1  // b
+  },
+  {
+    question: "Provision relating to forms of governance of Nepal is indicated in which article of present constitution?",
+    options: ["Article 72", "Article 73", "Article 74", "Article 75"],
+    answer: 2  // c
+  },
+  {
+    question: "Which Article of Present Constitution defines Nepal as a Federal democratic republican country?",
+    options: ["Article 3", "Article 4", "Article 5", "Article 6"],
+    answer: 1  // b
+  },
+  {
+    question: "How many governments are there in Nepal?",
+    options: ["753", "761", "771", "785"],
+    answer: 1  // b
+  },
+  {
+    question: "Who is the executive head of state of Nepal?",
+    options: ["President", "Prime Minister", "Governor of Province", "Nepalese people"],
+    answer: 1  // b
+  },
+  {
+    question: "Which of the following statement is false?",
+    options: [
+      "President of Nepal is the titular head or constitutional head of the state",
+      "The term of office of president is 5 years",
+      "The president shall take his/her oath of office to Prime Minister",
+      "The only legal to remove the president from his/her office is by impeachment"
+    ],
+    answer: 2  // c
+  },
+  {
+    question: "When was Ram Chandra Paudel sworn in as Nepal's third President?",
+    options: ["2023/03/13", "2023/03/12", "2023/03/11", "2023/03/10"],
+    answer: 0  // a
+  },
+  {
+    question: "Which of the Following are not the characteristics of Governance system in Nepal?",
+    options: ["Parliamentary", "Republican", "Presidential", "Federal"],
+    answer: 2  // c
+  },
+  {
+    question: "There are...... Levels of government in Nepal",
+    options: ["1", "2", "3", "4"],
+    answer: 2  // c
+  },
+  {
+    question: "The number of ministers in the federal council of minister shall constitute the number......",
+    options: [
+      "25",
+      "in a number not exceeding 25 excluding Prime Minister",
+      "in a number not exceeding 25 including Prime Minister",
+      "20% of the total Members of National Assembly"
+    ],
+    answer: 1  // b
+  },
+  {
+    question: "Who heads Provinces of Nepal?",
+    options: ["Chief of Province (Governor)", "President", "Chief Minister", "Prime Minister"],
+    answer: 0  // a
+  },
+  {
+    question: "Who recommends for the nomination of Chief of Province?",
+    options: ["Government of Nepal", "President", "Governor recommendation committee", "Chief Minister"],
+    answer: 0  // a
+  },
+  {
+    question: "What is the term of office of the chief and members of constitutional bodies?",
+    options: ["4 years", "5 years", "6 years", "7 years"],
+    answer: 2  // c
+  },
+  {
+    question: "The minimum criteria of Master’s degree are required to be the member of which constitutional body?",
+    options: ["Public Service Commission", "Election Commission", "Women Commission", "National Human Rights commission"],
+    answer: 0  // a
+  },
+  {
+    question: "Who of the following is placed on the top hierarchism?",
+    options: ["Chief of Province", "Chief Justice", "Prime Minister", "Vice-President"],
+    answer: 2  // c
+  },
+  {
+    question: "What is the minimum age required to become a candidate for Member of Rural Municipal Assembly?",
+    options: ["20 years", "21 years", "22 years", "23 years"],
+    answer: 1  // b
+  },
+  {
+    question: "How many members are there in Federal Parliament (Legislature)?",
+    options: ["275", "165", "59", "334"],
+    answer: 3  // d
+  },
+  {
+    question: "Motion of no confidence cannot be filed against the prime minister of Nepal for ………from the date of appointment",
+    options: ["One year", "Two years", "Three years", "Four years"],
+    answer: 1  // b
+  },
+  {
+    question: "What is the minimum age required for the Nepalese citizens to vote in periodic election?",
+    options: ["16 years", "17 years", "18 years", "19 years"],
+    answer: 2  // c
+  },
+  {
+    question: "How many members are there in the lower house (house of representatives) in the federal parliament?",
+    options: ["275", "280", "285", "290"],
+    answer: 0  // a
+  },
+  {
+    question: "What is the minimum age required to be the candidate for the election of house of representative?",
+    options: ["23 years", "24 years", "25 years", "26 years"],
+    answer: 2  // c
+  },
+  {
+    question: "What is the minimum age required to be the candidate for National Assembly?",
+    options: ["25 years", "30 years", "35 years", "45 years"],
+    answer: 2  // c
+  },
+  {
+    question: "The total number of parliament members in Nepal including federation and province is",
+    options: ["335", "550", "790", "884"],
+    answer: 3  // d
+  },
+  {
+    question: "Who is the first president of Nepal?",
+    options: ["Dr. Bhagwan Koirala", "Dr. Ram Varanyadav", "Bidhya Devi Bhandari", "Parmananda Jha"],
+    answer: 1  // b
+  },
+  {
+    question: "Who is the first provincial Chief/Governor of Nepal?",
+    options: ["Dormani Poudyal", "Anuradha Koirala", "Ram Prasad Jha", "Trilochan Bhatta"],
+    answer: 1  // b
+  },
+  {
+    question: "Who is the first chief minister of Nepal?",
+    options: ["Sher Dhan Rai", "Lalbabu Raut", "Dormani Poudyal", "Anil Jha"],
+    answer: 2  // c
+  },
+  {
+    question: "Who is the first female chief minister of Nepal?",
+    options: ["Arzoo Deuwa", "Dwarika Devi Thakurani", "Ashta Laxmi Shakya", "none"],
+    answer: 2  // c
+  },
+  {
+    question: "Who has been elected the mayor of Kathmandu Metropolitan city?",
+    options: ["Sunita Dangol", "Balendra Sah", "Chiribabu Maharjan", "Renu Dahal"],
+    answer: 1  // b
+  },
+  {
+    question: "Who has the right to designate the name of rural municipality or municipality?",
+    options: [
+      "Government of Nepal in consultation with the Provincial Government",
+      "Provincial Government in consultation with the concerned municipality",
+      "Government of Nepal in consultation with concerned municipality",
+      "Concerned municipality"
+    ],
+    answer: 2  // c
+  },
+  {
+    question: "How many local governments are there in Nepal?",
+    options: ["753", "761", "3", "7"],
+    answer: 0  // a
+  },
+  {
+    question: "The chief of local level executive (Chairman and Mayor) take his/her oath of office in front of",
+    options: ["Chief Justice", "Judges of Supreme Court", "Judges of district court", "None"],
+    answer: 2  // c
+  },
+  {
+    question: "Which province has the highest number of members of provincial Assembly?",
+    options: ["Madhesh", "Bagmati", "Gandaki", "Sudur Paschim"],
+    answer: 1  // b
+  },
+  {
+    question: "When Nepal was declared the Federal State?",
+    options: ["2063 Baishakh 11", "2065 Jetha 15", "2072 Ashwin 3", "2074 Mangisr 15"],
+    answer: 1  // b
+  },
+  {
+    question: "Which of the following is/are the features of Democratic Governance system?",
+    options: ["Rule of law", "multiparty system", "Periodic election", "all of the above"],
+    answer: 3  // d
+  },
+  {
+    question: "Balen Sah is the ......mayor of Kathmandu Metropolitan city?",
+    options: ["14ᵗʰ", "15ᵗʰ", "16ᵗʰ", "17ᵗʰ"],
+    answer: 1  // b
+  },
+  {
+    question: "How many members are there in Kathmandu Metropolitan city executive (government)?",
+    options: ["40", "41", "42", "43"],
+    answer: 2  // c
+  },
+  {
+    question: "According to the present constitution of Nepal who shall discharge the functions required to be performed by President and Vice President if the offices of both the President and Vice President fall vacant?",
+    options: ["Prime Minister", "Speaker of the House of Representatives", "Chairman of National Assembly", "Chief Justice"],
+    answer: 1  // b
+  },
+  {
+    question: "The meetings of rural municipal assembly and municipal assembly are usually held..... a year?",
+    options: ["once", "twice", "thrice", "four"],
+    answer: 1  // b
+  },
+  {
+    question: "Which is the first country in the world to adopt Federal Governance System?",
+    options: ["China", "USA", "India", "France"],
+    answer: 1  // b
+  },
+  {
+    question: "According to the constitution of Nepal, in whom is the executive power vested?",
+    options: ["President", "Prime Minister", "Council of Minister", "All of the above"],
+    answer: 2  // c
+  },
+  {
+    question: "What is the function of inter-provincial council?",
+    options: [
+      "Co-operation and co-ordination between the Union and the States",
+      "Settlement of disputes between States",
+      "Resolving problems arising between the Union and the Provinces and between the Provinces",
+      "Settlement of political disputes arising between Union and States and between States"
+    ],
+    answer: 3  // d
+  },
+  {
+    question: "Which of the following works does not come under the purview of Ministry of Federal Affairs and General Administration?",
+    options: [
+      "Operation and Management of the Federal Civil Service",
+      "Regarding policies, laws and standards related to local infrastructure development",
+      "General direction, control and operation of the governance system of Nepal",
+      "Coordination, cooperation and facilitation with local levels"
+    ],
+    answer: 2  // c
+  },
+  {
+    question: "For which expenditure on the Federal Reserve Fund does not require the approval of the Federal Parliament?",
+    options: ["Remuneration of the President", "Remuneration of the Chief Justice", "Remuneration of the Provincial Head", "All of the above"],
+    answer: 3  // d
+  },
+  {
+    question: "According to the Constitution of Nepal, what is the provision of minimum age criteria to be a member of the National Assembly at the time of nomination?",
+    options: ["55", "45", "35", "25"],
+    answer: 2  // c
+  },
+  {
+    question: "According to the Constitution of Nepal, which of the following officials is not involved in the Electoral Board to elect 56 members of the National Assembly?",
+    options: ["Member of Provincial Assembly", "Chairman of Rural Municipality", "Deputy Chairman of Municipality", "Head of District Coordination Committee"],
+    answer: 3  // d
+  },
+  {
+    question: "Who will be the coordinator of the judicial committee to be formed in the municipality?",
+    options: ["Head of Municipality", "Deputy Head of Municipality", "The most senior member of the municipality", "The member elected by the municipal council"],
+    answer: 1  // b
+  },
+  {
+    question: "According to the constitution of Nepal, according to which principle is the appointment of constitutional bodies and agencies and ambassadors to be done?",
+    options: ["Inclusion", "Cooperation", "Coordination", "Collusion"],
+    answer: 0  // a
+  },
+  {
+    question: "According to the constitution of Nepal, what are the three pillars of economic policy?",
+    options: [
+      "Public, private and cooperative sector",
+      "Agriculture, industrial and service sector",
+      "Government, private and non-government sectors",
+      "None of the above"
+    ],
+    answer: 0  // a
+  },
+  {
+    question: "How many members are directly elected in the House of Representatives?",
+    options: ["275", "110", "165", "59"],
+    answer: 2  // c
+  },
+  {
+    question: "When was the third presidential election held in Nepal?",
+    options: ["2079/11/22", "2079/11/23", "2079/11/24", "2079/11/25"],
+    answer: 3  // d
+  },
+  {
+    question: "Who among the following is not a member of the inter-provincial council?",
+    options: [
+      "Minister of Law, Justice and Parliamentary Affairs, Government of Nepal",
+      "Minister of Home Affairs, Government of Nepal",
+      "Chief ministers of concerned Province",
+      "Minister of Defence of Government of Nepal"
+    ],
+    answer: 0  // a
+  },
+  {
+    question: "Who makes the final decision whether a member of the Federal Parliament is ineligible or disqualified?",
+    options: ["Supreme Court", "Constitutional Council", "Constitutional Bench", "High Court"],
+    answer: 2  // c
+  },
+  {
+    question: "Which is correct?",
+    options: [
+      "Supreme Court is called the court of record",
+      "There are only 25 judges in the Supreme Court.",
+      "Appointment of Supreme Court Judges is done on the recommendation of the Judicial Council.",
+      "The term of office of the Chief Justice of the Supreme Court is 5 years"
+    ],
+    answer: 0  // a
+  },
+  {
+    question: "What rule has the Nepal government made to manage the work to be done by the Nepal government?",
+    options: [
+      "Government of Nepal (Division of Work) Regulations, 2074",
+      "Government of Nepal (Performance) Regulations, 2064",
+      "Government Decision-Making Process Simplification Guide, 2065",
+      "All of the above"
+    ],
+    answer: 3  // d
+  },
+  {
+    question: "According to the constitution of Nepal, which of the following officers is exempted from impeachment?",
+    options: [
+      "President, Vice President, Chief Justice",
+      "Members of the Judiciary and Supreme Court Judges",
+      "Prime Ministers and Ministers",
+      "All of the above"
+    ],
+    answer: 0  // a
+  }
+  ],
+
   "1.10 Civil Service act & regulations":
   [
     {
