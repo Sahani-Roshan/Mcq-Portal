@@ -34127,6 +34127,354 @@ window.mcqData = {
 
   ],
 
+  "1.10 Civil Service act & regulations":
+  [
+    {
+    question: "From when civil service day was started to observe in Nepal?",
+    options: ["2049 B.S.", "2055 B.S.", "2061 B.S.", "2062 B.S."],
+    answer: 2
+  },
+  {
+    question: "According to civil service act, 2049 which is the central personnel agency of civil employee?",
+    options: ["Ministry of federal affairs and General administration", "Ministry of Finance", "Office of Prime Minister and Council of Ministers", "National Planning Commission"],
+    answer: 0
+  },
+  {
+    question: "Who was the chairman of High level administrative reform commission, 2048?",
+    options: ["Bedanandaha", "Girija Prasad Koirala", "Mahesh Aacharya", "BeshBahadurThapa"],
+    answer: 1
+  },
+  {
+    question: "Seat roll of the concerned employees is maintained in which office?",
+    options: ["Ministry of federal affairs and General administration", "Ministry of Finance", "Civil Employee record office", "Ministry of Finance"],
+    answer: 2
+  },
+  {
+    question: "Among the mentioned below, which is not the ground for nomination for study, training or study tour of any civil employee?",
+    options: [
+      "2 years experience as head of any office",
+      "Completion of permanent service period of 3 years",
+      "Below the age of 40 in respect of study of bachelor's, master's or any educational degree",
+      "On the basis of priority from amongst the civil employees who have secured highest marks and evaluation of work performance"
+    ],
+    answer: 3
+  },
+  {
+    question: "According to civil service act, provision of reservation can be reviewed in how many years?",
+    options: ["7 years", "8 years", "10 years", "15 years"],
+    answer: 0
+  },
+  {
+    question: "While fulfilling the vacancy of gazetted third class officer how much percentage is allocated for internal competitive exam?",
+    options: ["30%", "35%", "10%", "None of the above"],
+    answer: 2
+  },
+  {
+    question: "According to civil service act, 2049, which district does not fall in the category of backward area?",
+    options: ["Achham", "Bajura", "Jumal", "Doti"],
+    answer: 3
+  },
+  {
+    question: "The number of rules in civil service regulation 2050 is",
+    options: ["128", "140", "135", "138"],
+    answer: 3
+  },
+  {
+    question: "The registration of the trade union of civil employees shall be made in which office?",
+    options: [
+      "Ministry of federal affairs and General administration",
+      "Department of Labor and Employment Promotion",
+      "Civil Employee record office",
+      "Ministry of Labor employment and social security"
+    ],
+    answer: 1
+  },
+  {
+    question: "Civil service act, 2049 has provided authority for which official to approve study leave?",
+    options: [
+      "Ministry of federal affairs and General administration",
+      "Concerned chief of office",
+      "Concerned head of department",
+      "Government of Nepal"
+    ],
+    answer: 3
+  },
+  {
+    question: "What is the minimum year of service to be done upon completion of study, training or study tour for 1 to 2 year?",
+    options: ["7 years", "4 years", "3 years", "1 and half years"],
+    answer: 1
+  },
+  {
+    question: "In case of maternity leave how many additional months without pay can be added?",
+    options: ["6 months", "4 months", "7 months", "5 months"],
+    answer: 0
+  },
+  {
+    question: "According to civil service act, who chairs the Salary and allowance review committee?",
+    options: [
+      "Secretary, Ministry of Finance",
+      "Secretary, Ministry of Federal General Affairs and General Administration",
+      "Secretary, Public Service Commission",
+      "Chief Secretary of Government of Nepal"
+    ],
+    answer: 3
+  },
+  {
+    question: "According to civil service act, how many marks is allocated for work performance evaluation for the purpose of promotion on ground of work efficiency?",
+    options: ["40 marks", "30 marks", "16 marks", "12 marks"],
+    answer: 0
+  },
+  {
+    question: "For the purpose of evaluation of work performance: out of 40 marks how many maximum number can be granted by reviewer?",
+    options: ["16 marks", "20 marks", "25 marks", "5 marks"],
+    answer: 0
+  },
+  {
+    question: "Which one of following organization is responsible for organization and management survey?",
+    options: [
+      "Ministry of federal affairs and General administration",
+      "Office of Prime Minister and Council of ministers",
+      "Civil Employee record office",
+      "National planning commission"
+    ],
+    answer: 0
+  },
+  {
+    question: "In how many years salary, allowances and other facilities of civil employees are reviewed by review committee?",
+    options: ["In every years", "In every 3 years", "In every 5 years", "In every 2 years"],
+    answer: 1
+  },
+  {
+    question: "What is the probation period of female civil employee?",
+    options: ["1 year", "9 months", "6 months", "3 months"],
+    answer: 2
+  },
+  {
+    question: "While fulfilling in the pool of gazetted first class how much percentage is allocated for open competitive exam?",
+    options: ["15%", "35%", "10%", "20%"],
+    answer: 3
+  },
+  {
+    question: "How many classes are there in gazetted level of civil service in Nepal?",
+    options: ["5", "4", "6", "3"],
+    answer: 1
+  },
+  {
+    question: "In which part of present constitution of Nepal, there is provision of Public Service Commission?",
+    options: ["Part 20", "Part 22", "Part 21", "Part 24"],
+    answer: 0
+  },
+  {
+    question: "Excellent civil service award was not provided to whom?",
+    options: ["Shanta Raj Subedi", "Bhagwati Prasad Kafle", "SuryanathGautam", "BimalKoirala"],
+    answer: 3
+  },
+  {
+    question: "Reservation in civil service started from when in Nepal?",
+    options: ["2064:4:30", "2065:4:30", "2064:4:23", "2065:4:23"],
+    answer: 2
+  },
+  {
+    question: "From which amendment of civil service act, 2049, reservation was introduced?",
+    options: ["5th", "4th", "3rd", "2nd"],
+    answer: 3
+  },
+  {
+    question: "From which amendment of civil service act, 2049, civil servants are prohibited from acquiring and applying foreign permanent residency/ diversity visa?",
+    options: ["5th", "4th", "3rd", "2nd"],
+    answer: 1
+  },
+  {
+    question: "How many times has the Civil Service regulation amended?",
+    options: ["15", "14", "16", "13"],
+    answer: 0
+  },
+  {
+    question: "Last amendment of civil service regulation was made in?",
+    options: ["2076/01/30", "2076/02/30", "2075/01/30", "2074/01/30"],
+    answer: 0
+  },
+  {
+    question: "In case of Ph.D. scholar, work experience to apply in open competition shall be less than how many years?",
+    options: ["3 years", "4 years", "2 years", "5 years"],
+    answer: 2
+  },
+  {
+    question: "Excellent civil service award has been provided to how many civil employee so far?",
+    options: ["2", "4", "3", "2"],
+    answer: 1
+  },
+  {
+    question: "Who is the first recipient of excellent civil service award?",
+    options: ["Shanta Raj Subedi", "Bhagwati Prasad Kafle", "SuryanathGautam", "Bhai Kaaji Tiwari"],
+    answer: 2
+  },
+  {
+    question: "Publication of gazette in Nepal started from when?",
+    options: ["2007/01/30", "2008/02/30", "2008/04/22", "2008/05/22"],
+    answer: 2
+  },
+  {
+    question: "In which part (section) of civil service act, 2049, there is provision of reservation?",
+    options: ["2(3)", "4(7)", "3(2)", "2(7)"],
+    answer: 3
+  },
+  {
+    question: "Which chapter of civil service act-2049, has provisioned about the code of conduct?",
+    options: ["Chapter 5", "Chapter 7", "Chapter 9", "Chapter 4"],
+    answer: 1
+  },
+  {
+    question: "While evaluating the work efficiency of the civil employee, how many marks has been allocated for seniority?",
+    options: ["30 marks", "40 marks", "12 marks", "25 marks"],
+    answer: 0
+  }
+  ],
+
+  "1.11 Functional Scope of Public Service":
+  [
+    {
+    question: "The civil service was defined as \"professional body of officials, permanent, paid and skilled by..",
+    options: ["Felix Nigro", "L. D. White", "Herman Finer", "E. N. Gladden"],
+    answer: 2  // c. Herman Finer
+  },
+  {
+    question: "Who coined the term New Public Management",
+    options: ["Christopher Hood", "L.D. White", "David osborne", "Ted Geabler"],
+    answer: 0  // a. Christopher Hood
+  },
+  {
+    question: "The book \" Reinventing Government\" by David Osborne and Ted Gaebler was published in which year?",
+    options: ["1990 A.D.", "1991 A.D.", "1992 A.D.", "1995 A.D."],
+    answer: 2  // c. 1992 A.D.
+  },
+  {
+    question: "New public management (NPM) is also known as....",
+    options: ["Managerialism", "Market based Public Administration", "Entrepreneurial Government", "All of the above"],
+    answer: 3  // d. All of the above
+  },
+  {
+    question: "New Public Management (NPM) emphasized three Es for reforming public sectors. Which is not included in 3Es?",
+    options: ["Efficiency", "Economy", "Effectiveness", "Ecological"],
+    answer: 3  // d. Ecological
+  },
+  {
+    question: "Which of the following is not a feature of good governance?",
+    options: ["Rule of Law", "Transparency", "Nepotism", "Accountability"],
+    answer: 2  // c. Nepotism
+  },
+  {
+    question: "Which one of the following statements is not correct in respect of New Public Management?",
+    options: ["It upholds public interest", "It has market orientation", "It advocates managerial autonomy", "It focuses on performance appraisal"],
+    answer: 0  // a. It upholds public interest
+  },
+  {
+    question: "\"Good Governance\" and \"Participating Civil Society for Development\" were stressed in World Bank Report of...",
+    options: ["1991", "1992", "1993.", "1994"],
+    answer: 1  // b. 1992
+  },
+  {
+    question: "Globalization means ...",
+    options: ["Foreign capitalist transactions", "The growth of a single unified world market", "Financial market system is centered in a single state", "Geographical location of a firm is of utmost importance"],
+    answer: 1  // b. The growth of a single unified world market
+  },
+  {
+    question: "The classical theory of motivation is also known as..",
+    options: ["Historical theory", "Location theory", "Mechanistic theory", "Human relation theory"],
+    answer: 2  // c. Mechanistic theory
+  },
+  {
+    question: "How many principles of organization were propounded by Henry Fayol?",
+    options: ["12", "13", "14", "15"],
+    answer: 2  // c. 14
+  },
+  {
+    question: "Negative motivation is based on...",
+    options: ["Fear", "Status", "Money", "Reward"],
+    answer: 0  // a. Fear
+  },
+  {
+    question: "The principle of 'span of control' means",
+    options: ["The number of people being controlled", "An employees should receive orders from one superior only", "The control or supervision of the superior over the subordinate", "The number of subordinate employees that an administrator can effectively direct"],
+    answer: 3  // d. The number of subordinate employees that an administrator can effectively direct
+  },
+  {
+    question: "The first country in the world to introduce the right to information was...",
+    options: ["USA", "Finland", "Norway", "Sweden"],
+    answer: 3  // d. Sweden
+  },
+  {
+    question: "The modern concept rule of law was propounded by..",
+    options: ["Lowell", "A.V. Dicey", "H Finer", "W. F. Willoughby"],
+    answer: 1  // b. A.V. Dicey
+  },
+  {
+    question: "Who says \"Power corrupts and absolutely power corrupts absolutely\"?",
+    options: ["Lord Acton", "Woodrow Wilson", "Josiah Stamp", "Luther Gullick"],
+    answer: 0  // a. Lord Acton
+  },
+  {
+    question: "The concept of separation between politics and public administration was first propounded by...",
+    options: ["Aristotle", "Woodrow Wilson", "Karl Marx", "Machiavelli"],
+    answer: 1  // b. Woodrow Wilson
+  },
+  {
+    question: "Who is described as the father of Public Administration?",
+    options: ["Woodrow Wilson", "Fredrick Taylor", "Henry Foyol", "Max Weber"],
+    answer: 0  // a. Woodrow Wilson
+  },
+  {
+    question: "The founder of Scientific Management School of thought was..",
+    options: ["F.W Taylor", "Herbersimson", "L.D. White", "Mary Parker"],
+    answer: 0  // a. F.W Taylor
+  },
+  {
+    question: "Father of Human Relations theory was...",
+    options: ["M.C Douglas", "Elton Mayo", "E.N. Gladden", "L. Urwick"],
+    answer: 1  // b. Elton Mayo
+  },
+  {
+    question: "From when \"Hello Sarkar\" was launched in Nepal?",
+    options: ["2067 Kartik 17", "2068 Kartik 17", "2070 Kartik 4", "2068 Mangsir 17"],
+    answer: 1  // b. 2068 Kartik 17
+  },
+  {
+    question: "Mobile service in Nepal started from when?",
+    options: ["2067 B.S.", "2068 B.S.", "2064 B.S.", "2065 B.S."],
+    answer: 2  // c. 2064 B.S.
+  },
+  {
+    question: "Mobile based service delivery started in Nepal from when?",
+    options: ["2077 B.S.", "2076 B.S.", "2075 B.S.", "2074 B.S."],
+    answer: 3  // d. 2074 B.S.
+  },
+  {
+    question: "In Public service delivery process what is the main role of service recipient?",
+    options: ["Discouraging the irregularities and corruption related activities", "Providing feed back to service provider", "Being attentive to obligation and duties of people", "All of the above"],
+    answer: 3  // d. All of the above
+  },
+  {
+    question: "\"Nagarik App\" in Nepal has been launched by which agency?",
+    options: ["Ministry of Information and Communication", "Ministry of Federal Affairs and General Administration", "Ministry of Home Affairs", "Ministry of Education Science and Technology"],
+    answer: 0  // a. Ministry of Information and Communication
+  },
+  {
+    question: "Nagarik App has been launched in Nepal from when?",
+    options: ["2078 Baisakh 17", "2078 Baisakh 19", "2078 Baisakh 20", "2078 Jestha 19"],
+    answer: 1  // b. 2078 Baisakh 19
+  },
+  {
+    question: "Which of the following falls under categories of Mandatory Public Service?",
+    options: ["Health related service", "Educational Service", "Maintaining Peace and order", "Implementing laws and regulation"],
+    answer: 2  // c. Maintaining Peace and order
+  },
+  {
+    question: "Clean Feed policy in Nepal implemented from when?",
+    options: ["2077 Kartik 7", "2078 Kartik 7", "2078 Baisakh 2", "2078 Jestha 19"],
+    answer: 0  // a. 2077 Kartik 7
+  }
+  ],
+
   "1.12 Public Service / Citizen charter":
   [
     {
