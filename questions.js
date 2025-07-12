@@ -34126,6 +34126,245 @@ window.mcqData = {
     }
 
   ],
+  "1.8 Constitution of Nepal":
+  [
+    {
+    question: "Present constitution of Nepal is the ...... constitution of Nepal by development.",
+    options: ["5th", "6th", "7th", "8th"],
+    answer: 2  // c
+  },
+  {
+    question: "What is the correct name of the present constitution of Nepal?",
+    options: ["The constitution of Kingdom of Nepal", "The Constitution of Nepal, 2072", "Interim Constitution of Nepal", "The constitution of Nepal"],
+    answer: 3  // d
+  },
+  {
+    question: "When was the present constitution of Nepal enforced?",
+    options: ["2015 September 20", "2015 October 20", "2015 November 20", "2015 December 20"],
+    answer: 0  // a
+  },
+  {
+    question: "Who enforced the Present constitution of Nepal?",
+    options: ["House of Representatives", "National Assembly", "First Constituent Assembly", "Second Constituent Assembly"],
+    answer: 3  // d
+  },
+  {
+    question: "Identify the false statement regarding the present constitution of Nepal:",
+    options: [
+      "Sushil Koirala was the prime minister at the time of commencement.",
+      "The present constitution has a signature of 537 CA members.",
+      "The then President Ram Varan Yadav declared its implementation.",
+      "The chairman of Constitution drafting committee was Dr. Baburam Bhattarai.",
+      "The second amendment was made on 2020 June 18"
+    ],
+    answer: 3  // d
+  },
+  {
+    question: "Who is the designer of the national flag of Nepal?",
+    options: ["Shankar Kandel", "Krishna Bir Manandhar", "Shankar Nath Rimal", "Krishna Bhakta Nepali"],
+    answer: 2  // c
+  },
+  {
+    question: "When was the national flag brought in use for the first time?",
+    options: ["2019 Poush 01", "2019 Asar 02", "2019 Jetha 04", "2019 Bhadra 03"],
+    answer: 0  // a
+  },
+  {
+    question: "Who is the composer of national anthem of Nepal?",
+    options: ["Til Bikram Nemwang (Bairagi Kalia)", "Bashudev Luitel (Bhootko Bhinaju)", "Pradeep Kumar Rai (Byakul Maila)", "Baburam Acharya (Kharidar Baje)"],
+    answer: 2  // c
+  },
+  {
+    question: "Who is the music composer of national anthem of Nepal?",
+    options: ["Amrit Gurung", "Prem Dhoj Pradhan", "Ambar Gurung", "Deep Shrestha"],
+    answer: 2  // c
+  },
+  {
+    question: "When was the national anthem of Nepal revealed by the government?",
+    options: ["2064 Shrawan 18", "2065 Shrawan 18", "2066 Shrawan 18", "2067 Shrawan 18"],
+    answer: 0  // a
+  },
+  {
+    question: "Who is the designer of coat of arms of Nepal?",
+    options: ["Shankar Nath Rimal", "Narendra Raj Rajbhandari", "Krish Prasad Koirala", "Tej Bahadur K.C."],
+    answer: 1  // b
+  },
+  {
+    question: "Sovereignty and state authority of Nepal is vested to:",
+    options: ["President", "Prime Minister", "Nepalese People", "All of the above"],
+    answer: 2  // c
+  },
+  {
+    question: "Which position does not require the nominee to be a citizen of Nepal by descent?",
+    options: ["Chief of Province", "Ambassador", "Chief Minister", "Speaker of the province"],
+    answer: 1  // b
+  },
+  {
+    question: "A citizen with Nonresidential Citizenship cannot use......",
+    options: ["Economic Rights", "Social Rights", "Cultural rights", "Political rights"],
+    answer: 3  // d
+  },
+  {
+    question: "How many fundamental rights are in the present constitution?",
+    options: ["30", "31", "32", "33"],
+    answer: 1  // b
+  },
+  {
+    question: "Provision for Right to women is in which article?",
+    options: ["Article 36", "Article 37", "Article 38", "Article 39"],
+    answer: 2  // c
+  },
+  {
+    question: "How many duties of citizens are in Article 48?",
+    options: ["4", "5", "6", "7"],
+    answer: 0  // a
+  },
+  {
+    question: "The state structure is divided into …… levels:",
+    options: ["2", "3", "4", "5"],
+    answer: 1  // b
+  },
+  {
+    question: "Which does not fall under local level?",
+    options: ["Rural Municipality", "Municipality", "District Assembly", "District Coordination Committee"],
+    answer: 3  // d
+  },
+  {
+    question: "Which pair is incorrect?",
+    options: [
+      "Nawalpur - Gandaki Province",
+      "Parasi - Lumbini Province",
+      "Rukum East - Sudur Paschim Province",
+      "Rukum West - Karnali Province"
+    ],
+    answer: 2  // c
+  },
+  {
+    question: "Currency and banking sector fall under:",
+    options: ["Federation", "Province", "Local level", "All levels"],
+    answer: 0  // a
+  },
+  {
+    question: "The second amendment was made in which schedule?",
+    options: ["Schedule 2", "Schedule 3", "Schedule 4", "Schedule 5"],
+    answer: 1  // b
+  },
+  {
+    question: "Rights/Power of Federation are in which schedule?",
+    options: ["Schedule 5", "Schedule 6", "Schedule 7", "Schedule 8"],
+    answer: 0  // a
+  },
+  {
+    question: "Schedule 8 lists powers of:",
+    options: ["Federation", "Province", "Local Level", "All"],
+    answer: 2  // c
+  },
+  {
+    question: "Number of concurrent powers for all levels:",
+    options: ["14", "15", "16", "17"],
+    answer: 1  // b
+  },
+  {
+    question: "Inter-relation between government levels is based on:",
+    options: ["Co-operation", "Co-existence", "Co-ordination", "All of the above"],
+    answer: 3  // d
+  },
+  {
+    question: "Residual power is vested to:",
+    options: ["Federation", "Province", "Local Level", "All"],
+    answer: 0  // a
+  },
+  {
+    question: "Provision for education is under:",
+    options: ["Federation", "Province", "Common Power (Federation + Province)", "Common Power (All levels)"],
+    answer: 3  // d
+  },
+  {
+    question: "Management of Trust (Guthi) is under:",
+    options: ["Federation", "Province", "Local Level", "All"],
+    answer: 1  // b
+  },
+  {
+    question: "Provision for engineering is under:",
+    options: ["Federation", "Province", "Common Power (Federation + Province)", "Common Power (All levels)"],
+    answer: 2  // c
+  },
+  {
+    question: "Actions against national interest are punishable by:",
+    options: ["Constitutional Law", "Federal law", "Provincial law", "Local law"],
+    answer: 1  // b
+  },
+  {
+    question: "Which subject is not in food-related rights?",
+    options: ["Right to food", "Protection from life-threatening hunger", "Right to food sovereignty", "Right to quality goods/services"],
+    answer: 3  // d
+  },
+  {
+    question: "\"Indigent party has right to free legal aid\" is under:",
+    options: ["Justice", "Equality", "Freedom", "Social Justice"],
+    answer: 0  // a
+  },
+  {
+    question: "Free higher education is for:",
+    options: ["Backward Tribes/Dalits", "Marginalized communities", "Disabled/economically disadvantaged", "All of the above"],
+    answer: 3  // d
+  },
+  {
+    question: "\"No forced employment\" is under:",
+    options: ["Right to liberty", "Right to live with dignity", "Right against exploitation", "Right to justice"],
+    answer: 2  // c
+  },
+  {
+    question: "Right maintained during emergency:",
+    options: ["Right to Equality", "Habeas Corpus", "Mandamus", "Quo warranto"],
+    answer: 1  // b
+  },
+  {
+    question: "Who uses state power?",
+    options: ["Federation", "Province", "Local Level", "All levels"],
+    answer: 3  // d
+  },
+  {
+    question: "Not in the common list of rights of federation, province and local level:",
+    options: ["Social Security", "Mining", "Personal Incident Register", "Land Record"],
+    answer: 3  // d
+  },
+  {
+    question: "No death penalty law is under:",
+    options: ["Right to live with dignity", "Right to liberty", "Right to equality", "Right to justice"],
+    answer: 0  // a
+  },
+  {
+    question: "who has the authority over matters that are not mentioned in list of rights of federation, province and local levels(residual power):",
+    options: ["Federation", "Province", "Local Level", "Province"],
+    answer: 0  // a
+  },
+  {
+    question: "Which duty is NOT in Article 48?",
+    options: ["Comply with constitution/laws", "Filing taxes as per law", "Perform compulsory state service", "Protect public property"],
+    answer: 1  // b
+  },
+  {
+    question: "Squat Management(Sukumbasi Byabasthapan) is under:",
+    options: ["Federation", "Federation and Province", "Province and Local level", "All levels"],
+    answer: 3  // d
+  },
+  {
+    question: "Local services management is in:",
+    options: ["Schedule-6", "Schedule-7", "Schedule-9", "Schedule-8"],
+    answer: 3  // d
+  },
+  {
+    question: "Population management is under:",
+    options: ["Federation", "Federation and Province", "Province and Local level", "All levels"],
+    answer: 1  // b
+  },
+  {
+    question: "which federal unit falls under the jurisdiction of Local Property Tax:",
+    options: ["Federation", "Federation and Province", "Local level", "All levels"],
+    answer: 2  // c
+  }
+  ],
 
   "1.9 Government System and Government":
   [
@@ -35110,6 +35349,7 @@ window.mcqData = {
     answer: 0  // a
   }
   ],
+  
   "1.15 Government Planning and Budgeting":
   [
     {
