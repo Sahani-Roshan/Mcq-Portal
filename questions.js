@@ -667,7 +667,7 @@ window.mcqData = {
   {
     question: "A simply supported beam of length l carries a load varying uniformly from zero at left end to maximum at right end maximum bending moment occurs at a distance of",
     options: ["1/√3 from left end", "1/3 from left end", "1/√3 from right end", "1/3 from right end"],
-    answer: 0
+    answer: 2
   },
   {
     question: "Load carrying capacity of fixed beam is",
@@ -19984,10 +19984,10 @@ window.mcqData = {
 
 // Apex questions from weekly exam
 
-"Apex Questions": 
-{
+"Apex Questions": {
+
     "2080-4-13": [
-      {
+{
   question: "What is the area of Sagarmatha National Park?",
   options: [
     "830 sq.km",
@@ -26841,7 +26841,7 @@ window.mcqData = {
         "answer": 1
     },
     {
-        "question": "In Nepal where resource may be uncertain and work interrupted by monsoon, flood etc the \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd techniques is more suitable",
+        "question": "In Nepal where resource may be uncertain and work interrupted by monsoon, flood etc the ........ techniques is more suitable",
         "options": [
             "a. CPM",
             "b. PERT",
@@ -27000,6 +27000,284 @@ window.mcqData = {
         ],
         "answer": 2
     }
+    ],
+    "2082-3-28":[
+       {
+    question: "Which of the below is a disadvantage of air seasoning?",
+    options: ["Power requirement", "skilled supervision", "Need of equipment", "uniformity of seasoning"],
+    answer: 3  // d
+  },
+  {
+    question: "Granite mainly composed of quartz and felspar particles, is obtained from:",
+    options: ["sedimentary rocks", "metamorphic rocks", "igneous rocks", "all the above."],
+    answer: 2  // c
+  },
+  {
+    question: "Duco paints are",
+    options: ["plastic paints", "cellulose paints", "emulsion paints", "oil paints"],
+    answer: 3  // d
+  },
+  {
+    question: "Steel contains carbon approximately",
+    options: ["1.50% to 5.6%", "0.05% to 1.75%", "0.25%", "none"],
+    answer: 1  // b
+  },
+  {
+    question: "The thickness of brick of masonry joint shall not exceed",
+    options: ["19 mm", "15 mm", "40 mm", "7 mm"],
+    answer: 2  // c
+  },
+  {
+    question: "A Good quality stone absorbs water less than",
+    options: ["5%", "10%", "15%", "25%"],
+    answer: 0  // a
+  },
+  {
+    question: "The top front and bottom view align in the manner",
+    options: ["Horizontally", "According to planner Views", "Vertically", "None"],
+    answer: 1  // b
+  },
+  {
+    question: "As built drawing are prepared",
+    options: ["Before construction", "During construction", "After Construction", "None"],
+    answer: 2  // c
+  },
+  {
+    question: "Which of the following is not a drawing hand tool",
+    options: ["Alidade", "straight edge", "French curve", "Set Square"],
+    answer: 0  // a
+  },
+  {
+    question: "Hardness of pencil lead increases as the numeral letter H",
+    options: ["decreases", "remains constant", "increases", "none"],
+    answer: 2  // c
+  },
+  {
+    question: "The performance of a specific task in CPM, is known",
+    options: ["Dummy", "Event", "Activity", "Contract"],
+    answer: 2  // c
+  },
+  {
+    question: "Pre-Qualification should be down while the amount of procurement is to be carried out",
+    options: ["more than 10 million", "less than 5 million", "less than 20 million", "None"],
+    answer: 3  // d
+  },
+  {
+    question: "The Critical activity has",
+    options: ["Maximum Float", "Minimum Float", "Zero Float", "None"],
+    answer: 2  // c
+  },
+  {
+    question: "The earned value analysis in construction management is also known as",
+    options: ["CPM", "S curve", "FERT", "Gantt chart"],
+    answer: 1  // b
+  },
+  {
+    question: "The area under Beta Distribution Curve is divided into two equal parts by",
+    options: ["Most likely time", "Optimistic time", "Pessimistic Time", "Expected Time"],
+    answer: 3  // d
+  },
+  {
+    question: "Amicable Settlement means",
+    options: ["Settled by two parties", "Settled by court", "Settled by a third group", "None"],
+    answer: 0  // a
+  },
+  {
+    question: "Effective stress is",
+    options: [
+      "the stress at particles contacts",
+      "a physical parameter that can be directly measured",
+      "important because it is a function of",
+      "all of the above",
+      "none"
+    ],
+    answer: 2  // c
+  },
+  {
+    question: "The hole constructed in for transferring ground point to the tunnel surface is called as",
+    options: ["drift", "shift", "addt", "hole"],
+    answer: 1  // b
+  },
+  {
+    question: "Mixture of sand, silt and clay size particles in nearly equal proportion is called",
+    options: ["foam", "loess", "laterite", "moonam"],
+    answer: 0  // a
+  },
+  {
+    question: "Drift is the soil transported and disintegrated by",
+    options: ["wind", "glacier", "gravity", "river"],
+    answer: 1  // b
+  },
+  {
+    question: "the capillary fringe water is also known as",
+    options: ["valose water", "gravity water", "suspended water", "all"],
+    answer: 2  // c
+  },
+  {
+    question: "Which one of the following is a secondary phenomenon during an earthquake?",
+    options: ["a fault scarp", "crane offset", "liquefaction", "all of these"],
+    answer: 2  // c
+  },
+  {
+    question: "The minimum cube strength of concrete used for a practessed member, is",
+    options: ["50 kg/cm2", "150 kg/cm2", "250 kg/cm2", "30 kg/cm2", "350 kg/cm2"],
+    answer: 3  // d
+  },
+  {
+    question: "While compacting the concrete by a mechanical vibrator, the slump should not exceed",
+    options: ["2.5 cm", "5.0 cm", "7.5 cm", "10 cm"],
+    answer: 1  // b
+  },
+  {
+    question: "For ensuring quality of concrete, use",
+    options: ["single sized aggregates", "two sized aggregate", "coarse aggregates"],
+    answer: 2  // c
+  },
+  {
+    question: "Addition of porzolana to ordinary port land cement, causes",
+    options: [
+      "Decrease in early strength",
+      "Reduction in chemical action with sulphates",
+      "Increase in shrinkage",
+      "All the above"
+    ],
+    answer: 3  // d
+  },
+  {
+    question: "The continuous strain, which the concrete undergoes due to application of external loads, is called",
+    options: ["Fatigue", "bleeding", "segregation", "creep"],
+    answer: 3  // d
+  },
+  {
+    question: "If the plane table is not horizontal in a direction at right angles to the alfdade, the line of sight is parallel to the fiducial edge only for",
+    options: ["horizontal sights", "inclined sights upward", "inclined sight downward", "none of these"],
+    answer: 0  // a
+  },
+  {
+    question: "The surveying used to determine additional details such as boundaries of fields, is called",
+    options: ["city surveying", "location surveying", "industrial surveying", "topographical surveying"],
+    answer: 2  // c
+  },
+  {
+    question: "In a prismatic compass, the zero of the graduated rings is located at",
+    options: ["north and south and south and east and west and", "east and west and", "east and", "west and"],
+    answer: 1  // b
+  },
+  {
+    question: "An imaginary line tangential to the longitudinal curve of the bubble tube at its middle point is called",
+    options: ["axis of telescope", "axis of level tube", "level line", "line of collimation"],
+    answer: 1  // b
+  },
+  {
+    question: "The tachocenter method of contouring is particularly suitable",
+    options: [
+      "often a contoured map of hill is required",
+      "when the area is not very extensive",
+      "in surveys of roads or railways",
+      "all of these"
+    ],
+    answer: 0  // a
+  },
+  {
+    question: "A staff reading taken on a point whose elevation is to be determined as on a change point is called.",
+    options: ["free sight reading", "back sight reading", "intermediate sight", "none of these"],
+    answer: 0  // a
+  },
+  {
+    question: "When the cross-hairs are not clearly visible,",
+    options: [
+      "the cross-hairs should be adjusted",
+      "the objective should be focused",
+      "the parallax should be removed",
+      "the opposite should be focused"
+    ],
+    answer: 1  // b
+  },
+  {
+    question: "Shadow price is related to",
+    options: ["economic analysis", "financial analysis", "both", "none"],
+    answer: 0  // a
+  },
+  {
+    question: "The wages of supervisors and material handlers are charges as",
+    options: ["Over head", "direct labour cost", "indirect labour cost", "None of these"],
+    answer: 0  // a
+  },
+  {
+    question: "The entrance of tunnel is called",
+    options: ["invert", "heading", "wall", "portal"],
+    answer: 3  // d
+  },
+  {
+    question: "Which of the following sections is the most efficient n-carrying bending moments",
+    options: ["I-section", "rectangular section", "T-section", "Circular section"],
+    answer: 0  // a
+  },
+  {
+    question: "The arc means for supporting uniformly distributed loads to avoid any bending moment must be",
+    options: ["Hinge", "Roller", "Parabolic", "None"],
+    answer: 2  // c
+  },
+  {
+    question: "The bending equation is",
+    options: [
+      "M/I=sigma/y=E/R",
+      "T/I=v/R=C0",
+      "M/R=T/J=C0/I",
+      "T/I=t/I=R/C0"
+    ],
+    answer: 0  // a
+  },
+  {
+    question: "The forces in the members of simple trusses may be analyzed by",
+    options: ["graphical method", "method of section", "method of joints", "all of the above"],
+    answer: 3  // d
+  },
+  {
+    question: "A localized compressive stress at the area of contact between two members is known as",
+    options: ["tensile stress", "bending stress", "crushing stress", "shear stress"],
+    answer: 2  // c
+  },
+  {
+    question: "According to PWD , the applicable rate of liquidity damage is",
+    options: ["0.1−0.5% per day", "0.5−1% per day", "1−2% per day", "3−5% per day"],
+    answer: 0  // a
+  },
+  {
+    question: "In an engineer practice, engineering profession without registering his/her name in Nepal Engineering Council he/she will have to face following legal action",
+    options: ["Pay a penalty of upto Rs.10000", "Both a and b", "undergo jail term upto 3 months", "all of above"],
+    answer: 3  // d
+  },
+  {
+    question: "Seismic design of building in Nepal is elaborated in",
+    options: ["NBC 105", "NBC 205", "NBC 104", "NBC 204"],
+    answer: 0  // a
+  },
+  {
+    question: "The total estimated cost of a building electrification usually accounts for",
+    options: ["0.01", "0.02", "0.08", "0.15"],
+    answer: 2  // c
+  },
+  {
+    question: "The expected out turn of 2.5 cm cement concrete floor area was no longer",
+    options: ["2.5 sq.m", "5.0 sq.m", "2.5 sq.m", "10 sq.m"],
+    answer: 2  // c
+  },
+  {
+    question: "For 100 sq.m cement concrete 1:2:4 4 cm thick floor, the quantity of cement required, is",
+    options: ["0.90 m³", "0.94 m³", "0.98 m³", "0.88 m³"],
+    answer: 1  // b
+  },
+  {
+    question: "The floor area includes the area of the balcony up to",
+    options: ["100%", "75%", "50%", "25%"],
+    answer: 2  // c
+  },
+  {
+    question: "Anti-siphonage pipe is connected to",
+    options: ["Main soil pipe", "Bottom of P trap W.C.", "Top of P trap W.C.", "Side of water closet."],
+    answer: 2  // c
+  }
     ]
 },
 
@@ -33411,8 +33689,7 @@ window.mcqData = {
  
 "General Knowledge": 
 {
-  "1.1.1 Physical Geography": 
-  [
+  "1.1.1 Physical Geography": [
   
     {
         question: "Nepal is geographically situated at ........... zone of the world map",
@@ -33917,8 +34194,7 @@ window.mcqData = {
 
   ],
 
-  "1.3 Geographic Diversity, Climatic Condition and Livelihood": 
-  [
+  "1.3 Geographic Diversity, Climatic Condition and Livelihood":  [
     {
         question: "What percent of the total area of Nepal is occupied by Mountain region?",
         options: ["15%", "17%", "19%", "21%"],
@@ -34431,7 +34707,7 @@ window.mcqData = {
       "in a number not exceeding 25 including Prime Minister",
       "20% of the total Members of National Assembly"
     ],
-    answer: 1  // b
+    answer: 2  // c
   },
   {
     question: "Who heads Provinces of Nepal?",
@@ -34799,7 +35075,7 @@ window.mcqData = {
   },
   {
     question: "For the purpose of evaluation of work performance: out of 40 marks how many maximum number can be granted by reviewer?",
-    options: ["16 marks", "20 marks", "25 marks", "5 marks"],
+    options: ["10 marks", "20 marks", "25 marks", "5 marks"],
     answer: 0
   },
   {
@@ -34834,7 +35110,7 @@ window.mcqData = {
   },
   {
     question: "In which part of present constitution of Nepal, there is provision of Public Service Commission?",
-    options: ["Part 20", "Part 22", "Part 21", "Part 24"],
+    options: ["Part 23", "Part 22", "Part 21", "Part 24"],
     answer: 0
   },
   {
@@ -34874,7 +35150,7 @@ window.mcqData = {
   },
   {
     question: "Excellent civil service award has been provided to how many civil employee so far?",
-    options: ["2", "4", "3", "2"],
+    options: ["5", "4", "3", "2"],
     answer: 1
   },
   {
@@ -34888,8 +35164,8 @@ window.mcqData = {
     answer: 2
   },
   {
-    question: "In which part (section) of civil service act, 2049, there is provision of reservation?",
-    options: ["2(3)", "4(7)", "3(2)", "2(7)"],
+    question: "In which chapter (section) of civil service act, 2049, there is provision of reservation?",
+    options: ["5(3)", "4(7)", "3(2)", "3(7)"],
     answer: 3
   },
   {
