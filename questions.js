@@ -144,7 +144,7 @@ window.mcqData = {
 },
 {
     question: "The relationship between void ratio (e) and porosity ratio (n) is",
-    options: ["n=e/(1-e)", "e=n/(1-e)", "e=(1+n)/(1-e)", "(1+e)/(1-e)"],
+    options: ["n=e/(1-e)", "e=n/(1-n)", "e=(1+n)/(1-e)", "n=(1+e)/(1-e)"],
     answer: 1
 },
 {
@@ -163,9 +163,9 @@ window.mcqData = {
     answer: 0
 },
 {
-    question: "The ratio of the difference between the void ratio of the soil in its loosest and fully dense state is termed as",
+    question: "The ratio of the difference between the void ratio of the soil in its loosest and its natural state to the difference between voids ratioin loosest and densest state is termed as",
     options: ["degree of density", "density index", "relative density", "any of the above"],
-    answer: 2
+    answer: 3
 },
 {
     question: "The specific gravity of sandy soils is",
