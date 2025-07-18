@@ -290,7 +290,7 @@ window.mcqData = {
 {
     question: "The liquidity index of soil is given by",
     options: ["( Wn - Wp)/Ip", "( Wl - Wp)/Ip", "( Wl - Wp)", "none of the above"],
-    answer: 1
+    answer: 0
 },
 {
     question: "Which of the following does not happen when compaction is done?",
@@ -1420,7 +1420,7 @@ window.mcqData = {
       "fixed end with maximum ordinate under the section",
       "fixed end with maximum ordinate under the fixed end",
       "unsupported end with maximum ordinate at the section",
-      "unsupported end with maximum ordinate at the supported end"
+      "unsupported end with maximum ordinate at the unsupported end"
     ],
     answer: 3
   },
@@ -5053,7 +5053,7 @@ window.mcqData = {
       "indicate client the adverse consequences if judgment is over ruled",
       "undertake only those assignments for which he is qualified"
     ],
-    answer: 2 // "c"
+    answer: 1 // "b"
   },
   {
     question: "During construction price variation clause in a contract applies to",
