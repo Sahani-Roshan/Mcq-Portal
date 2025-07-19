@@ -34402,6 +34402,1008 @@ window.mcqData = {
     }
 
   ],
+  "1.7.1 UNO": [
+  {
+    question: "What was the function of Munsikhana Adda during Rana period?",
+    options: [
+      "Functions related to foreign affairs",
+      "Record keeping functions of government employees",
+      "Work related to audit and control",
+      "Work related to issue of notes"
+    ],
+    answer: 0
+  },
+  {
+    question: "Who introduced the concept and named UNO for the very first time?",
+    options: [
+      "Woodrow Wilson",
+      "Eleanor Roosevelt",
+      "Harry S. Trauman",
+      "Franklin Delano Roosevelt"
+    ],
+    answer: 3
+  },
+  {
+    question: "When was UNO established/when was the charter of UNO implemented?",
+    options: [
+      "1945 June 26",
+      "1946 January 11",
+      "1945 October 24",
+      "1955 October 24"
+    ],
+    answer: 2
+  },
+  {
+    question: "When is UN Day observed?",
+    options: [
+      "October 21",
+      "October 22",
+      "October 23",
+      "October 24"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which conference was organized to prepare the charter of UNO?",
+    options: [
+      "Yalta Conference",
+      "San Francisco Conference",
+      "Dambartan Oaks Conference",
+      "New York Conference"
+    ],
+    answer: 1
+  },
+  {
+    question: "How many founder member countries are there in UNO?",
+    options: [
+      "50",
+      "51",
+      "52",
+      "53"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which is the last founder member country to sign the charter of UNO?",
+    options: [
+      "Argentina",
+      "Poland",
+      "Bulgaria",
+      "Peru"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which is the last member country of UNO?",
+    options: [
+      "Sudan",
+      "Taiwan",
+      "Indonesia",
+      "South Sudan"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which of the following statement is false?",
+    options: [
+      "The 1st country to withdraw its membership of UNO is Indonesia",
+      "There are 19 articles and 111 chapters in the charter of UNO.",
+      "The 1st country whose membership was dissolved is Taiwan",
+      "The country of SAARC that attained the membership of UNO under package deal along with Nepal is Sri Lanka"
+    ],
+    answer: 1
+  },
+  {
+    question: "When did Nepal attain membership of United Nation?",
+    options: [
+      "1945 June 24",
+      "1955 December 14",
+      "1956 July 4",
+      "1957 May 04"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of the following is not the official language of UNO?",
+    options: [
+      "Russian",
+      "Spanish",
+      "German",
+      "Arabian"
+    ],
+    answer: 2
+  },
+  {
+    question: "When did UNO officially adopt the flag of UN?",
+    options: [
+      "1947 October 20",
+      "1947 August 3",
+      "1947 May 4",
+      "1947 May 1"
+    ],
+    answer: 0
+  },
+  {
+    question: "Seven countries that contribute the most in budget are called",
+    options: [
+      "Big contributors’",
+      "Blue Chip Contributor",
+      "Big 7",
+      "7 Giants"
+    ],
+    answer: 2
+  },
+  {
+    question: "What was the contribution of Nepal in the budget of UNO?",
+    options: [
+      "0.006%",
+      "0.07%",
+      "0.7%",
+      "0.0007%"
+    ],
+    answer: 0
+  },
+  {
+    question: "When did Nepal start its participation in UN General Assembly?",
+    options: [
+      "1955/11th General Assembly",
+      "1956/11th General Assembly",
+      "1957/11th General Assembly",
+      "1956/10th General Assembly"
+    ],
+    answer: 1
+  },
+  {
+    question: "What is the index of Nepal in UNO?",
+    options: [
+      "72nd",
+      "73rd",
+      "74th",
+      "75th"
+    ],
+    answer: 0
+  },
+  {
+    question: "Who is the first representative of Nepal to UNO?",
+    options: [
+      "Gyan Chandra Acharya",
+      "Chuda Sumsher",
+      "Rishi Kesh Shah",
+      "Amrit Kumar Rai"
+    ],
+    answer: 2
+  },
+  {
+    question: "In which peace keeping mission was the first deployment of Nepal Army in 1958?",
+    options: [
+      "UNIFIL, Lebanon",
+      "SAINAI, Egypt",
+      "UNOGIL Lebanon",
+      "MINUSCA, Mali"
+    ],
+    answer: 2
+  },
+  {
+    question: "When was the department of Peace keeping operation of UN established?",
+    options: [
+      "1990 A.D.",
+      "1991 A.D.",
+      "1992 A.D.",
+      "1993 A.D."
+    ],
+    answer: 2
+  },
+  {
+    question: "How many organs are there in UNO?",
+    options: [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    answer: 2
+  },
+  {
+    question: "Which is the principle or chief organ of UNO?",
+    options: [
+      "Secretariat",
+      "Security Council",
+      "General Assembly",
+      "Economic and Social Council"
+    ],
+    answer: 2
+  },
+  {
+    question: "Which organ coordinates the different activities of specialized agencies of UNO?",
+    options: [
+      "Secretariat",
+      "Security Council",
+      "General Assembly",
+      "Economic and Social Council"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which is the inactive or passive or successful organ of UNO?",
+    options: [
+      "Secretariat",
+      "Security Council",
+      "General Assembly",
+      "Trusteeship Council"
+    ],
+    answer: 3
+  },
+  {
+    question: "The first meeting of UN General Assembly was held in",
+    options: [
+      "1945 October 24",
+      "1946 January 10",
+      "1947 October 20",
+      "1958 March 04"
+    ],
+    answer: 1
+  },
+  {
+    question: "When is the General Assembly of United nations held?",
+    options: [
+      "Third Tuesday of August, every year",
+      "Third Tuesday of September, every year",
+      "Third Tuesday of May, every year",
+      "Third Tuesday of June, every year"
+    ],
+    answer: 1
+  },
+  {
+    question: "Who has been elected the president of 79th General Assembly of UNO?",
+    options: [
+      "Philemon Yang",
+      "Aayatolla Khameni",
+      "Christian Tenek",
+      "Maria Espinosa"
+    ],
+    answer: 0
+  },
+  {
+    question: "Who is the first Nepalese to participate in UN General Assembly?",
+    options: [
+      "Tanka Prasad Acharya",
+      "Madhuraman Acharya",
+      "Chuda Prasad Sharma",
+      "Bhagirath Ingnam"
+    ],
+    answer: 2
+  },
+  {
+    question: "How many members are there in Security Council?",
+    options: [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of the following country is not a member of UN Permanent Security Council?",
+    options: [
+      "France",
+      "Russia",
+      "China",
+      "Japan"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which country is the first veto power user in the world?",
+    options: [
+      "USA",
+      "UK",
+      "Russia",
+      "China"
+    ],
+    answer: 2
+  },
+  {
+    question: "Nepal has been the member of UN Temporary Security Council for …… times.",
+    options: [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    answer: 1
+  },
+  {
+    question: "How many countries represent in UN Temporary Security council from Africa and Asia continent (Afro-Asia)?",
+    options: [
+      "5",
+      "6",
+      "4",
+      "3"
+    ],
+    answer: 0
+  },
+  {
+    question: "How many judges are there in International Court of Justice (ICJ)?",
+    options: [
+      "5",
+      "10",
+      "15",
+      "20"
+    ],
+    answer: 2
+  },
+  {
+    question: "Who appoints the judges of International Court of Justice?",
+    options: [
+      "General Assembly",
+      "Security Council",
+      "Secretariat",
+      "none"
+    ],
+    answer: 0
+  },
+  {
+    question: "What is the term of office of judges of International court of justice?",
+    options: [
+      "3 years",
+      "6 years",
+      "9 year",
+      "10 years"
+    ],
+    answer: 2
+  },
+  {
+    question: "Where is the International court of Justice?",
+    options: [
+      "Tokyo (Japan)",
+      "Amsterdam (Netherlands)",
+      "Hague (Netherlands)",
+      "London (UK)"
+    ],
+    answer: 2
+  },
+  {
+    question: "Which Specialized agency is based on Tripartite Agreement?",
+    options: [
+      "WHO",
+      "FAO",
+      "UNESCO",
+      "ILO"
+    ],
+    answer: 3
+  },
+  {
+    question: "How many members are there in Economic and Social Council (ECOSOC)?",
+    options: [
+      "54",
+      "55",
+      "56",
+      "59"
+    ],
+    answer: 0
+  },
+  {
+    question: "Who is the first Deputy Secretary General of UN?",
+    options: [
+      "Trygve Lee",
+      "Ban Ki Moon",
+      "Antonio Gutteres",
+      "Louis Freshet"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which of the following statement is false?",
+    options: [
+      "The Term of office of secretary general of UNO is 5 years.",
+      "The secretary general of UNO cannot participate in ICJ activities.",
+      "The first Secretary General of UNO is Trygve Lee.",
+      "UN University lies in USA"
+    ],
+    answer: 3
+  },
+  {
+    question: "Dagg Hammarskjold library lies in",
+    options: [
+      "USA (Newyork)",
+      "Japan (Tokyo)",
+      "UK (London)",
+      "Russia (Moscow)"
+    ],
+    answer: 0
+  },
+  {
+    question: "Which of the following secretary general have received Nobel Peace Prize?",
+    options: [
+      "Dagg Hammarskjold",
+      "Urban T",
+      "Kofi Annan",
+      "Both a and c"
+    ],
+    answer: 3
+  },
+  {
+    question: "Secretary who presented a report called Quiet revolution is",
+    options: [
+      "Kofi Annan",
+      "Dagg Hammarskjold",
+      "Antonio Gutteres",
+      "Urban T"
+    ],
+    answer: 0
+  },
+  {
+    question: "Which agency of UNO has received Nobel Peace Prize for two times?",
+    options: [
+      "UNHCR",
+      "UNICEF",
+      "ILO",
+      "WF"
+    ],
+    answer: 0
+  },
+  {
+    question: "Who is the first secretary general of UNO to visit Nepal?",
+    options: [
+      "Urban T",
+      "Xavier Perez",
+      "Ban-ki-moon",
+      "Kofi Annan"
+    ],
+    answer: 0
+  },
+  {
+    question: "First secretary general from African Continent is",
+    options: [
+      "Kofi Annan",
+      "Boutros Boutros Ghali",
+      "Javier Perez",
+      "Kurt Waldheim"
+    ],
+    answer: 1
+  },
+  {
+    question: "First Specialized agency of UNO is",
+    options: [
+      "FAO",
+      "ILO",
+      "UPU",
+      "ITU"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of the following organization is not the specialized agency of UNO?",
+    options: [
+      "International Monetary Fund",
+      "World Bank",
+      "World Trade organization",
+      "World Tourism Organization"
+    ],
+    answer: 3
+  },
+  {
+    question: "Where is the headquarter of International Labor Organization (ILO)?",
+    options: [
+      "Geneva",
+      "Rome",
+      "Paris",
+      "Washington DC"
+    ],
+    answer: 0
+  },
+  {
+    question: "Where is the headquarter of UNICEF?",
+    options: [
+      "Geneva",
+      "Rome",
+      "New York",
+      "Washington DC"
+    ],
+    answer: 2
+  },
+  {
+    question: "UN Armies are known as",
+    options: [
+      "Blue Helmets",
+      "Red Helmets",
+      "White Helmets",
+      "Green Helmets"
+    ],
+    answer: 0
+  },
+  {
+    question: "Which of the following organizations are called sister organizations?",
+    options: [
+      "IMF and World Bank",
+      "World Bank and ADB",
+      "World Bank and WTO",
+      "ADB and BRICS"
+    ],
+    answer: 0
+  },
+  {
+    question: "Bretton Woods Agreement is related to",
+    options: [
+      "IMF",
+      "World Bank",
+      "Both a and b",
+      "IDA"
+    ],
+    answer: 2
+  },
+  {
+    question: "Which specialized agency of UN has conducted Structural Adjustment Program (SAP)?",
+    options: [
+      "IMF",
+      "World Bank",
+      "FAO",
+      "Both a and b"
+    ],
+    answer: 3
+  },
+  {
+    question: "When did Nepal become member of World Trade Organization (WTO)?",
+    options: [
+      "2004 April 23",
+      "2005 April 23",
+      "2006 April 23",
+      "2007 April 23"
+    ],
+    answer: 0
+  },
+  {
+    question: "Which organ of UNO ratifies the budget of UNO for 2 years?",
+    options: [
+      "General Assembly",
+      "Security Council",
+      "Economic and Social Council",
+      "Secretariat"
+    ],
+    answer: 0
+  },
+  {
+    question: "The Marrakesh Agreement is related to",
+    options: [
+      "ADB",
+      "WTO",
+      "World Bank",
+      "None of the above"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which agency of UNO has contributed the most in the conservation and protection of arts, culture and heritages of Nepal and of the world?",
+    options: [
+      "UNICEF",
+      "WIPO",
+      "IAEA",
+      "UNESCO"
+    ],
+    answer: 3
+  },
+  {
+    question: "Special Drawing Rights (SDR) issued by International Monetary Fund is called",
+    options: [
+      "Paper currency",
+      "Paper Gold",
+      "Paper money",
+      "Paper dollar"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of the following agency of UN has not received Nobel Peace Prize?",
+    options: [
+      "UNHCR",
+      "UNICEF",
+      "ILO",
+      "WHO"
+    ],
+    answer: 3
+  },
+  {
+    question: "Where is the headquarter of IMF?",
+    options: [
+      "Manila",
+      "Rome",
+      "New York",
+      "Washington DC"
+    ],
+    answer: 3
+  },
+  {
+    question: "Who is the Secretary General of UN to die in air crash?",
+    options: [
+      "Tryug Vee Lee",
+      "Ban Ki Moon",
+      "Antonio Guttress",
+      "Dagg Hammarskjold"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which of the following statement is False?",
+    options: [
+      "Six languages are spoken in UNO",
+      "The Secretary general of UNO is recommended by Security Council",
+      "There are 15 judges in International Court of Justice",
+      "The term of the secretary general of UNO is 10 years"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which is the only country of SAARC that has not been the member of World Trade Organization?",
+    options: [
+      "Bhutan",
+      "Bangladesh",
+      "Nepal",
+      "Afghanistan"
+    ],
+    answer: 0
+  },
+  {
+    question: "Which of the following is not the component of World Bank?",
+    options: [
+      "IBRD",
+      "IDA",
+      "IFC",
+      "AIIB"
+    ],
+    answer: 3
+  },
+  {
+    question: "What is the term of the president of the UN General Assembly?",
+    options: [
+      "1 year",
+      "2 year",
+      "3 year",
+      "4 year"
+    ],
+    answer: 0
+  },
+  {
+    question: "What is the term of a non-permanent member of the Security Council?",
+    options: [
+      "1 year",
+      "2 year",
+      "3 year",
+      "4 year"
+    ],
+    answer: 1
+  },
+  {
+    question: "The agency of UNO concerned with the improvement of standards of education and strengthening international co-operation in this field is",
+    options: [
+      "UNEP",
+      "UNESCO",
+      "UNICEF",
+      "UNIDO"
+    ],
+    answer: 2
+  },
+  {
+    question: "Which specialized agency of UNO lists world heritage sites?",
+    options: [
+      "UNICEF",
+      "UNESCO",
+      "ICAO",
+      "IAEA"
+    ],
+    answer: 1
+  },
+  {
+    question: "On which date did the UN adopt the Universal Declaration of Human rights?",
+    options: [
+      "1948 January 10",
+      "1948 September 10",
+      "1948 May 10",
+      "1948 December 10"
+    ],
+    answer: 3
+  },
+  {
+    question: "General Assembly of the UNO meets in a regular session of",
+    options: [
+      "once a year",
+      "Twice a year",
+      "Once in 2 years",
+      "when required"
+    ],
+    answer: 0
+  },
+  {
+    question: "The non-permanent members of the Security Council are elected for a period of",
+    options: [
+      "Two years",
+      "One year",
+      "Three years",
+      "four years"
+    ],
+    answer: 0
+  },
+  {
+    question: "When was Nepal elected as the Vice president by the UN General Assembly?",
+    options: [
+      "2022 June 5",
+      "2022 June 6",
+      "2022 June 7",
+      "2022 June 8"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which is the first International Year observed by UNO?",
+    options: [
+      "World RefugeeYear",
+      "World Tourist Year",
+      "World Sports Year",
+      "World family year"
+    ],
+    answer: 0
+  },
+  {
+    question: "When did the Secretary General of United Nations \"Antonio Guterres\" visit Nepal?",
+    options: [
+      "29 October 2023",
+      "28 October, 2023",
+      "27 October 2023",
+      "26 October 2023"
+    ],
+    answer: 0
+  },
+  {
+    question: "The UNO General Assembly has passed a resolution to include which of the following languages in UNO?",
+    options: [
+      "Hindi",
+      "Bengala",
+      "Urdu",
+      "All of them"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which organ of UNO was suspended in 1994?",
+    options: [
+      "UNESCO",
+      "Trusteeship Council",
+      "UNIDOF",
+      "UNDP"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which article of the UN charter mentions about the specialized agencies?",
+    options: [
+      "Article 57",
+      "Article 63",
+      "Both a and b",
+      "Article 52"
+    ],
+    answer: 2
+  },
+  {
+    question: "Which agency recommends the entry permit for the officials who travel abroad on the nomination of Nepal government?",
+    options: [
+      "Department of Consular Services",
+      "Department of Passports",
+      "Division of Etiquette",
+      "Division of Foreign Relations"
+    ],
+    answer: 0
+  },
+  {
+    question: "In 2006, the nomenclature was changed for United Nations commission on human rights and it was renamed as which of the following",
+    options: [
+      "Human rights council",
+      "Humanitarian council",
+      "Human rights commission",
+      "Humanitarian commission"
+    ],
+    answer: 0
+  },
+  {
+    question: "---is a body of United Nations composed of all member states",
+    options: [
+      "General Assembly",
+      "Security Council",
+      "Secretariat",
+      "All of them"
+    ],
+    answer: 0
+  },
+  {
+    question: "Which of the following statement about United Nations Human Rights Council (UNHRC) is correct?",
+    options: [
+      "UNHRC was established in 1946 to replace the United Nations commission on Human Rights.",
+      "The UNHRC is responsible for protecting and promoting economic rights around the world.",
+      "Members of UNHRC are elected by the Security Council for a term of 5 years.",
+      "The office of the High Commissioner for Human Rights acts as the secretariat of the Human rights Council in Geneva, Switzerland."
+    ],
+    answer: 2
+  },
+  {
+    question: "United Nations Digital Library is situated in",
+    options: [
+      "Newyork",
+      "Geneva",
+      "Rome",
+      "Hague"
+    ],
+    answer: 1
+  },
+  {
+    question: "UNO celebrated year 2024 as the year of",
+    options: [
+      "Year of Camelids",
+      "Year of Peace and Trust",
+      "Year of Glacier’s preservation",
+      "Year of Cooperatives"
+    ],
+    answer: 0
+  },
+  {
+    question: "The Year 2025 is observed as ...... year by the UNO?",
+    options: [
+      "Year of Peace and Trust",
+      "Year of glacier’s preservation",
+      "Year of Cooperatives",
+      "All of them"
+    ],
+    answer: 3
+  },
+  {
+    question: "Match the correct pair regarding the celebration of different year by UNO",
+    options: [
+      "2025: Year of Quantum Science and Technology",
+      "2026: Year of the woman Farmer",
+      "2027: Year of Sustainable and resilient tourims",
+      "All of them are correct pair"
+    ],
+    answer: 3
+  },
+  {
+    question: "UNO has declared 2014–2024 as the Decade of",
+    options: [
+      "Decade of Biodiversity",
+      "Decade of Sustainable Energy for All",
+      "Decade of hygiene and Sanitation",
+      "Decade of farmers"
+    ],
+    answer: 1
+  },
+  {
+    question: "Identify the incorrect match regarding the International Year celebration by UNO",
+    options: [
+      "2002: International Year of Ecotourism",
+      "1990: International Literacy year",
+      "1986: International Year of Peace",
+      "1980 : Year of United Nations"
+    ],
+    answer: 3
+  },
+  {
+    question: "When was Nepal elected in the UN temporary security council for the first time",
+    options: [
+      "1965-66",
+      "1955-56",
+      "1969-70",
+      "1988-89"
+    ],
+    answer: 2
+  },
+  {
+    question: "Study the following statements and choose the correct answer from the code- 1: World Bank issues Special Drawings Rights, 2: Universal postal Union headquarter in geneva Switzerland",
+    options: [
+      "Both 1 and 2 above are correct",
+      "1 above is correct. 2 awkward",
+      "2 of the above are correct, 1 is incorrect",
+      "Both 1 and 2 of the above are incorrect"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which of the agency of UNO is the first to establish its office in Nepal?",
+    options: [
+      "FAO",
+      "ILO",
+      "UNESCO",
+      "WHO"
+    ],
+    answer: 0
+  },
+  {
+    question: "Which of the following is not a specialized agency of UNO",
+    options: [
+      "WIPO",
+      "ICAO",
+      "NATO",
+      "WHO"
+    ],
+    answer: 2
+  },
+  {
+    question: "Which is the first SAARC Country to attain the membership of UNO?",
+    options: [
+      "India",
+      "Srilanka",
+      "Nepal",
+      "Bangladesh"
+    ],
+    answer: 0
+  },
+  {
+    question: "Match the correct pair: A=Qatar, B= Malaysia, Mauritus, China: 1= country with diplomatic mission, 2= country with BIPPA agree, 1st country to have labor agreement, country where 5 visa free ticket applies to nepali workers",
+    options: [
+      "A-3 B-4 C-2 D-1",
+      "A-3 B-4 C-2 D-1",
+      "A-3 B-4 C-2 D-1",
+      "A-3 B-4 C-2 D-1"
+    ],
+    answer: 0
+  },
+  {
+    question: "Of which organization among the following has Nepal become the member at first?",
+    options: [
+      "World Bank",
+      "Food and Agriculture Organization",
+      "UNESCO",
+      "ILO"
+    ],
+    answer: 1
+  },
+  {
+    question: "When was World Bank Established?",
+    options: [
+      "1944 A.D.",
+      "1945 A.D.",
+      "1946 A.D.",
+      "1947 A.D."
+    ],
+    answer: 0
+  },
+  {
+    question: "Which of the following countries has a permanent mission of Nepal?",
+    options: [
+      "China",
+      "Japan",
+      "Saudi Arabia",
+      "Austria"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which is the last country of SAARC to maintain diplomatic relationship with Nepal?",
+    options: [
+      "Afghanistan",
+      "Pakistan",
+      "Srilanka",
+      "Maldives"
+    ],
+    answer: 0
+  },
+  {
+    question: "Who is the first prime minister to visit china?",
+    options: [
+      "B.P Koirala",
+      "Matrika Koirala",
+      "Tanka Pd. Acharya",
+      "Dr. K.I Singh"
+    ],
+    answer: 2
+  },
+  {
+    question: "Nepal has not signed Bilateral Investment Promotion and Protection Agreement (BIPPA) with which of the following country",
+    options: [
+      "China",
+      "Germany",
+      "India",
+      "Britian"
+    ],
+    answer: 0
+  }
+  ],
 
   "1.7.2 SAARC & BIMSTECH" : [
   {
