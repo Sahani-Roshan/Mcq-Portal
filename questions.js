@@ -5059,11 +5059,11 @@ window.mcqData = {
     question: "During construction price variation clause in a contract applies to",
     options: [
       "increase in cost of important materials only",
-      "variation in the cost of material labour and fuel",
+      "variation in the cost of material, labour and fuel",
       "variation in total cost of the project estimated as lump sum figure",
       "the rate of inflation"
     ],
-    answer: 3 // "d"
+    answer: 1 // "d"
   },
   {
     question: "As per the prevailing Public Procurement Acts & Regulations of Nepal, provision of price adjustments is normally to incrorporated in civil works contract having project duration?",
@@ -9916,7 +9916,7 @@ window.mcqData = {
   {
     question: "According to IS:399-1963, the weight of the timber is specified at",
     options: ["8% moisture", "12% moisture", "10% moisture", "14% moisture"],
-    answer: 2 // "10% moisture"
+    answer: 1 // "12% moisture"
   },
   {
     question: "Ply wood is made from",
