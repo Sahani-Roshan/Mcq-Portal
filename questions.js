@@ -34402,6 +34402,1059 @@ window.mcqData = {
     }
 
   ],
+
+  "1.7.2 SAARC & BIMSTECH" : [
+  {
+    question: "Which is the first country to maintain diplomatic relationship with Nepal?",
+    options: [
+      "USA",
+      "United Kingdom (UK)",
+      "India",
+      "France"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which is the last country to maintain diplomatic relationship with Nepal?",
+    options: [
+      "Kiribati",
+      "Siera Leone",
+      "Barbados",
+      "None"
+    ],
+    answer: 0
+  },
+  {
+    question: "Which is the first South American Country to maintain diplomatic relationship with Nepal?",
+    options: [
+      "Brazil",
+      "Urugay",
+      "Paraguay",
+      "Argentina"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which is the first country of BIMSTEC to maintain diplomatic relationship with Nepal?",
+    options: [
+      "Thailand",
+      "India",
+      "Myanmar",
+      "Indonesia"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which is the first and last SAARC country to maintain diplomatic relationship with Nepal?",
+    options: [
+      "India and Maldives",
+      "Pakistan and Afghanistan",
+      "Bhutan and India",
+      "India and Bhutan"
+    ],
+    answer: 3
+  },
+  {
+    question: "When was SAARC established?",
+    options: [
+      "1982 August 03",
+      "1983 December 08",
+      "1987 January 16",
+      "1985 December 08"
+    ],
+    answer: 3
+  },
+  {
+    question: "The permanent secretariat of SAARC is located in?",
+    options: [
+      "New Delhi",
+      "Dhaka",
+      "Kathmandu",
+      "Colombo"
+    ],
+    answer: 2
+  },
+  {
+    question: "Which is not the founder member of SAARC?",
+    options: [
+      "Nepal",
+      "India",
+      "Afghanistan",
+      "Bhutan"
+    ],
+    answer: 2
+  },
+  {
+    question: "Which of the following pair is incorrect?",
+    options: [
+      "Article 1= Objective of SAARC",
+      "Article 2= Principles of SAARC",
+      "Article 4: Council of ministers",
+      "Article 7: Secretariat"
+    ],
+    answer: 3
+  },
+  {
+    question: "How many articles are there in the charter of SAARC?",
+    options: [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    answer: 2
+  },
+  {
+    question: "Which organ of SAARC is responsible for the coordination and monitoring the implementation of SAARC activities?",
+    options: [
+      "Council of minister",
+      "Meetings of head of state or Government",
+      "Secretariat",
+      "Action committee"
+    ],
+    answer: 2
+  },
+  {
+    question: "Who is the only prime minister to sign the charter of SAARC?",
+    options: [
+      "Nawaj Sariff",
+      "Parvej Mushraff",
+      "Rajiv Gandhi",
+      "Jawaharlal Nehru"
+    ],
+    answer: 2
+  },
+  {
+    question: "SAARC at present has ………..number of Technical committees",
+    options: [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    answer: 2
+  },
+  {
+    question: "SAARC Secretariat in Nepal was proposed by",
+    options: [
+      "India",
+      "Pakistan",
+      "Bangladesh",
+      "Srilanka"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which is the executive organ of SAARC?",
+    options: [
+      "Standing Committee",
+      "Technical Committee",
+      "Secretariat",
+      "Council of ministers"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which organ of SAARC is called the policy determining organ?",
+    options: [
+      "Head of State or Head of Government",
+      "Council of minister",
+      "Technical Committee",
+      "Program Committee"
+    ],
+    answer: 0
+  },
+  {
+    question: "When was SAARC Secretariat established?",
+    options: [
+      "1987 January 17",
+      "1987 April 2",
+      "1987 March 1",
+      "1987 July 1"
+    ],
+    answer: 0
+  },
+  {
+    question: "Who is the first Secretary General of SAARC?",
+    options: [
+      "Abul Assan",
+      "Arjun BDR Thapa",
+      "Ahamed Salim",
+      "Naim Hassan"
+    ],
+    answer: 0
+  },
+  {
+    question: "Who is the first secretary general of SAARC from Nepal?",
+    options: [
+      "Arjun Bahadur Thapa",
+      "Gyan Chandra Acharya",
+      "Rishi Kesh Shah",
+      "Yadav Kanta Siiwal"
+    ],
+    answer: 3
+  },
+  {
+    question: "The only female secretary general of SAARC Fatima Dhiyana belongs to which country?",
+    options: [
+      "Pakistan",
+      "Srilanka",
+      "Maldives",
+      "Bhutan"
+    ],
+    answer: 2
+  },
+  {
+    question: "Who is the current secretary general of SAARC?",
+    options: [
+      "Ahmed Salim",
+      "Md. Golam Sarwar",
+      "Amzad Hussain B. Siyal",
+      "Chhiring Tobge"
+    ],
+    answer: 1
+  },
+  {
+    question: "Who appoints the secretary general of SAARC?",
+    options: [
+      "Head of state or government",
+      "Council of ministers",
+      "Program committee",
+      "General appointing committee"
+    ],
+    answer: 1
+  },
+  {
+    question: "What is the term of office of the secretary general of SAARC?",
+    options: [
+      "2 years",
+      "3 years",
+      "4 years",
+      "5 years"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which city hosted the first SAARC summit?",
+    options: [
+      "Dhaka",
+      "Colombo",
+      "New Delhi",
+      "Male"
+    ],
+    answer: 0
+  },
+  {
+    question: "How many SAARC summits have been convened out of SAARC capital?",
+    options: [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    answer: 0
+  },
+  {
+    question: "Which is the first SAARC summit held out of capital city?",
+    options: [
+      "First",
+      "second",
+      "Third",
+      "Fourth"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of the following summits have been convened in Nepal?",
+    options: [
+      "\\( 3^{rd} \\), \\( 10^{th} \\) and \\( 18^{th} \\)",
+      "\\( 5^{th} \\), \\( 11^{th} \\) and \\( 17^{th} \\)",
+      "\\( 3^{rd} \\), \\( 11^{th} \\) and \\( 18^{th} \\)",
+      "\\( 3^{rd} \\), \\( 11^{th} \\) and \\( 17^{th} \\)"
+    ],
+    answer: 2
+  },
+  {
+    question: "Who is the first head of government (Prime minister) of Nepal to participate in SAARC Summit?",
+    options: [
+      "Lokendra Bahadur Chand",
+      "Krishna Prasad Bhattarai",
+      "Girija Prasad Koirala",
+      "Surya Bahadur Thapa"
+    ],
+    answer: 1
+  },
+  {
+    question: "Who is the prime minister of Nepal to participate in SAARC summit for most number of times?",
+    options: [
+      "Girija Prasad Koirala",
+      "Sher Bahadur Deuwa",
+      "Manmohan Bhattarai",
+      "Buddhi Bhandari"
+    ],
+    answer: 0
+  },
+  {
+    question: "SAARC Summits are held at a duration of/the chairmanship of SAARC rotates in every",
+    options: [
+      "one year",
+      "2 year",
+      "3 year",
+      "4year"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which member state currently chairs SAARC?",
+    options: [
+      "Nepal",
+      "India",
+      "Maldives",
+      "Srilanka"
+    ],
+    answer: 0
+  },
+  {
+    question: "Which of the following statement is false regarding \\( 18^{th} \\) SAARC Summit?",
+    options: [
+      "Focus made to end HIV/AIDS by 2030 A.D.",
+      "The year 2016 A.D declared the \"SAARC year of cultural heritage\".",
+      "Decision made to reduce the Regional Centers from 11 to 5.",
+      "The summit ended up by 18 point Kathmandu declaration"
+    ],
+    answer: 3
+  },
+  {
+    question: "Where is SAARC agriculture Information Center?",
+    options: [
+      "Bangladesh",
+      "Srilanka",
+      "India",
+      "Bhutan"
+    ],
+    answer: 0
+  },
+  {
+    question: "The newest SAARC regional center is set up in",
+    options: [
+      "Nepal",
+      "Pakistan",
+      "India",
+      "Maldives"
+    ],
+    answer: 2
+  },
+  {
+    question: "Which country is the highest contributor to the budget of SAARC?",
+    options: [
+      "Nepal",
+      "Bhutan",
+      "Pakistan",
+      "India"
+    ],
+    answer: 3
+  },
+  {
+    question: "What is the contribution of Nepal in the budget (expenditure) of SAARC?",
+    options: [
+      "30.32%",
+      "22.52%",
+      "10.72%",
+      "5%"
+    ],
+    answer: 2
+  },
+  {
+    question: "Where is SAARC development fund placed?",
+    options: [
+      "'Bhutan'",
+      "Pakistan",
+      "India",
+      "Bangladesh"
+    ],
+    answer: 0
+  },
+  {
+    question: "Which is the first SAARC nation to prohibit the use of Polytheme goods?",
+    options: [
+      "India",
+      "Afghanistan",
+      "Bhutan",
+      "Bangladesh"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which of the following pair is incorrect?",
+    options: [
+      "Land of golden fiber- Bangladesh",
+      "Land of Silver fiber-Pakistan",
+      "Maldives-Island of men",
+      "Afghanistan- Graveyard of empire"
+    ],
+    answer: 2
+  },
+  {
+    question: "When was SAPTA signed?",
+    options: [
+      "1993 April 01",
+      "1993 April 11",
+      "1993 April 21",
+      "1993 April 23"
+    ],
+    answer: 1
+  },
+  {
+    question: "When did SAPTA come into operation?",
+    options: [
+      "2004 January 6",
+      "2006 January 01",
+      "2008 June 8",
+      "2006 May 2"
+    ],
+    answer: 1
+  },
+  {
+    question: "The largest country in SAARC is?",
+    options: [
+      "Nepal",
+      "Pakistan",
+      "India",
+      "Srilanka"
+    ],
+    answer: 2
+  },
+  {
+    question: "Which is the largest desert of SAARC?",
+    options: [
+      "Gobi",
+      "Thar",
+      "Deccan",
+      "chihuwahuwan"
+    ],
+    answer: 1
+  },
+  {
+    question: "Match the correct pair",
+    options: [
+      "a. '1994 i. SAARC year of youth b. 2016 ii. SAARC year of Diversity c. 1996 iii. SAARC year of Literacy d. 1999 iv. SAARC year of Cultural Heritage a.-i, b-i, c-iii, d-iv",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-i, b-iv, c-ii, d-iii",
+      "a-ii, b-iv, c-i, d-iii"
+    ],
+    answer: 1
+  },
+  {
+    question: "How many landlocked countries are there in SAARC?",
+    options: [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which SAARC country has prohibited the use of Tobacco and Nicotine goods?",
+    options: [
+      "India",
+      "Bangladesh",
+      "Bhutan",
+      "Nepal"
+    ],
+    answer: 2
+  },
+  {
+    question: "Which country introduced Value Added Tax (VAT) system in SAARC?",
+    options: [
+      "India",
+      "Maldives",
+      "Nepal",
+      "Pakistan"
+    ],
+    answer: 3
+  },
+  {
+    question: "The first person of SAARC to receive Nobel Prize is",
+    options: [
+      "Mahatma Gandhi",
+      "Rabindra Nath Tagore",
+      "Jawaharlal Nehru",
+      "Hussain Mohamad Ershad"
+    ],
+    answer: 1
+  },
+  {
+    question: "When was BIMSTEC established?",
+    options: [
+      "1997 June 6",
+      "1997 December 22",
+      "1999 June 3",
+      "2000 May 4"
+    ],
+    answer: 0
+  },
+  {
+    question: "Where is the headquarter/Secretariat of BIMSTEC?",
+    options: [
+      "Nepal",
+      "Bhutan",
+      "Srilanka",
+      "Bangladesh"
+    ],
+    answer: 3
+  },
+  {
+    question: "How many areas of cooperation are there in BIMSTEC?",
+    options: [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which area of cooperation does Nepal represent in BIMSTEC?",
+    options: [
+      "Trade, Development and Investment",
+      "Security",
+      "People to people contact",
+      "Connectivity"
+    ],
+    answer: 2
+  },
+  {
+    question: "Where was the \\( 4^{th} \\) summit of BIMSTEC held?",
+    options: [
+      "Kathmandu",
+      "Colombo",
+      "Thimpu",
+      "Dhaka"
+    ],
+    answer: 0
+  },
+  {
+    question: "When did Nepal become member of BIMSTEC?",
+    options: [
+      "2002 February 8",
+      "2003 February 8",
+      "2004 February 8",
+      "2005 February 8"
+    ],
+    answer: 2
+  },
+  {
+    question: "How many member countries are there in BIMSTEC?",
+    options: [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of the following country is not a member of BIMSTEC?",
+    options: [
+      "Bangladesh",
+      "India",
+      "Malaysia",
+      "Thailand"
+    ],
+    answer: 2
+  },
+  {
+    question: "Which is the last member country of BIMSTEC?",
+    options: [
+      "Malaysia",
+      "Bhutan",
+      "Nepal",
+      "Myanmar"
+    ],
+    answer: 2
+  },
+  {
+    question: "The fifth Summit of BIMSTEC was hosted by",
+    options: [
+      "Srilanka",
+      "Bhutan",
+      "Bangladesh",
+      "Thailand"
+    ],
+    answer: 0
+  },
+  {
+    question: "Who has been appointed the new/fourth secretary general of BIMSTEC?",
+    options: [
+      "Sahidul Islam",
+      "Sumith Nakandawala",
+      "Indra Mani Pandey",
+      "Esala Ruwan Weerakun"
+    ],
+    answer: 2
+  },
+  {
+    question: "Which country recently chairs BIMSTEC?",
+    options: [
+      "Thailand",
+      "New Delhi",
+      "Banglore",
+      "Mumbai"
+    ],
+    answer: 0
+  },
+  {
+    question: "When was the charter of BIMSTEC signed by the mcmcr states?",
+    options: [
+      "2021 March 30",
+      "2022 March 30",
+      "2023 March 30",
+      "None"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of the following is agreement was signed by eight countries of SAARC during \\( 18^{th} \\) summit held in Nepal?",
+    options: [
+      "SAARC Terrorism control agreement",
+      "SAARC Railway circuit agreement",
+      "SAARC heritage trans linkage boundary network agreement",
+      "SAARC Energy Framework Agreement"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which ASEAN country has recently passed the law to shift its capital city?",
+    options: [
+      "Thailand",
+      "Laos",
+      "Indonesia",
+      "Cambodia"
+    ],
+    answer: 2
+  },
+  {
+    question: "How many Chapters, articles and schedules are there in the charter of BIMSTEC?",
+    options: [
+      "11 chapters, 36 articles and 2 schedules",
+      "11 chapters, 35 articles and 2 schedules",
+      "10 chapters, 36 articles and 2 schedules",
+      "11 chapters, 36 articles and 3 schedules"
+    ],
+    answer: 0
+  },
+  {
+    question: "When did the newly signed charter of BIMSTEC come into force or operation?",
+    options: [
+      "2024 May 18",
+      "2024 May 20",
+      "2024 May 24",
+      "2024 May 26"
+    ],
+    answer: 1
+  },
+  {
+    question: "Royal Monetary authority is the central bank of which country?",
+    options: [
+      "India",
+      "Pakistan",
+      "Bhutan",
+      "Nepal"
+    ],
+    answer: 2
+  },
+  {
+    question: "Match the correct headquarter of following organizations:",
+    options: [
+      "A-1, B-2, C-3, D-4",
+      "A-3, B-4, C-2, D-1",
+      "A-3, B-1, C-2, D-4",
+      "A-3, B-1, C-4, D-2"
+    ],
+    answer: 3
+  },
+  {
+    question: "The BIMSTEC summits of the heads of state or government are held at a duration of?",
+    options: [
+      "5 years",
+      "4 years",
+      "3 years",
+      "2 years"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which SAARC Country has the highest and lowest Percapita Income?",
+    options: [
+      "Maldives and Afghanistan",
+      "India and Afghanistan",
+      "Srilanka and Nepal",
+      "Nepal and Bhutan"
+    ],
+    answer: 0
+  },
+  {
+    question: "Which is the first SAARC Country to sign Paris Agreement on Climate change?",
+    options: [
+      "Maldives",
+      "Myanmar",
+      "India",
+      "Srilanka"
+    ],
+    answer: 0
+  },
+  {
+    question: "When was Brexit held in UK to decide the exit from European Union?",
+    options: [
+      "2016 June 20",
+      "2016 June 23",
+      "2016 June 27",
+      "2016 June 30"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which is the first and last country to adopt euro currency?",
+    options: [
+      "England and Croatia",
+      "Germany and Croatia",
+      "Italy and Vatican",
+      "Turkey and Kosovo"
+    ],
+    answer: 1
+  },
+  {
+    question: "The term \"Inner Six\" is related to",
+    options: [
+      "G-24 Organization",
+      "ASEAN",
+      "SAARC",
+      "European Union (EU)"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which of the following is not the organ of BIMSTEC?",
+    options: [
+      "BIMSTEC Council",
+      "Secretariat",
+      "Council of Ministes",
+      "BIMSTEC Summit"
+    ],
+    answer: 0
+  },
+  {
+    question: "Which is the supreme decision making body of BIMSTEC?",
+    options: [
+      "BIMSTEC Decision committee",
+      "BIMSTEC Senior official's meeting",
+      "BIMSTEC Summit",
+      "BIMSTEC Council of ministers"
+    ],
+    answer: 2
+  },
+  {
+    question: "Which sub area of cooperation is represented by Nepal in BIMSTEC?",
+    options: [
+      "Poverty Alleviation",
+      "Culture and Heritage",
+      "Public Health",
+      "Terrorism"
+    ],
+    answer: 0
+  },
+  {
+    question: "What are the official languages of SAARC and BIMSTEC respectively?",
+    options: [
+      "Hindi and English",
+      "English and Bengali",
+      "English and English",
+      "None"
+    ],
+    answer: 2
+  },
+  {
+    question: "The current secretary general of BIMSTEC belongs to which country?",
+    options: [
+      "Bangladesh",
+      "Bhutan",
+      "Srilanka",
+      "Myanmar"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which BIMSTEC summit was hosted by Nepal?",
+    options: [
+      "Second",
+      "Third",
+      "fourth",
+      "fifth"
+    ],
+    answer: 2
+  },
+  {
+    question: "When was the last summit of BIMSTEC held?",
+    options: [
+      "2022 March 27",
+      "2022 March 28",
+      "2022 March 29",
+      "2022 March 30"
+    ],
+    answer: 3
+  },
+  {
+    question: "BIMSTEC Technology Transfer facility is proposed to be set up in",
+    options: [
+      "India",
+      "Thailand",
+      "Sri Lanka",
+      "Nepal"
+    ],
+    answer: 2
+  },
+  {
+    question: "When and where was BIMSTEC Foreign Ministers' Retreat 2024 held?",
+    options: [
+      "2024 July 11, Colombo",
+      "2024 July 11, Kathmandu",
+      "2024 July 11, Islamabad",
+      "2024 July 11, New Delhi"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which of the following SAARC country has the best HDI rank?",
+    options: [
+      "Pakistan",
+      "India",
+      "Nepal",
+      "Srilanka"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which SAARC country is called the \"Country of Thunder bolt\"?",
+    options: [
+      "Bhutan",
+      "Bangladesh",
+      "Japan",
+      "Indonesia"
+    ],
+    answer: 0
+  },
+  {
+    question: "Which is the 4th largest country of SAARC interns of area?",
+    options: [
+      "Pakistan",
+      "Bangladesh",
+      "Nepal",
+      "Srilanka"
+    ],
+    answer: 1
+  },
+  {
+    question: "The 19th SAARC Summit which was postponed was supposed to be held in which country?",
+    options: [
+      "Pakistan",
+      "Iran",
+      "China",
+      "None of these"
+    ],
+    answer: 0
+  },
+  {
+    question: "2010-2020 in the SAARC decade of",
+    options: [
+      "The rights of the labor",
+      "The rights of the women",
+      "The rights of the child",
+      "Intra-regional connectivity"
+    ],
+    answer: 3
+  },
+  {
+    question: "SAARC law was accorded recognition in which year?",
+    options: [
+      "1991 A.D.",
+      "1992 A.D.",
+      "1993 A.D.",
+      "1994 A.D."
+    ],
+    answer: 3
+  },
+  {
+    question: "Which of the following country is not a member of BIMSTEC?",
+    options: [
+      "Bangladesh",
+      "India",
+      "Srilanka",
+      "Pakistan"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which of the following statement is/are true?",
+    options: [
+      "1 correct&2 incorrect",
+      "1 correct and 2 incorrect",
+      "1 and 2 both are correct",
+      "1 and 2 both are incorrect"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of the following countries has a permanent mission of Nepal?",
+    options: [
+      "China",
+      "Japan",
+      "Saudi Arabia",
+      "Austria"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which of the following is not included under the area of cooperation of BIMSTEC?",
+    options: [
+      "Trade, Investment and Development",
+      "People-to-People Contact",
+      "Connectivity",
+      "Environment, Natural Disasters and Biotechnology"
+    ],
+    answer: 3
+  },
+  {
+    question: "Which Country had participated as guest during the 18th SAARC Summit?",
+    options: [
+      "Kenya",
+      "Lesotho",
+      "South Africa",
+      "Philippines"
+    ],
+    answer: 2
+  },
+  {
+    question: "On the basis of date of diplomatic relations established with SAARC countries of Nepal, choose the right order from the earliest to the latest.",
+    options: [
+      "India, Pakistan, Sri Lanka, Bangladesh, Afghanistan, Bhutan, Maldives)",
+      "India, Sri Lanka, Pakistan, Afghanistan, Bangladesh, Maldives, Bhutan",
+      "India, Afghanistan, Pakistan, Maldives, Bhutan, Sri Lanka, Bangladesh",
+      "India, Pakistan, Sri Lanka, Bangladesh, Bhutan, Maldives, Afghanistan"
+    ],
+    answer: 1
+  },
+  {
+    question: "The current Secretary General of SAARC belongs to which Country?",
+    options: [
+      "Bangladesh",
+      "Afghanistan",
+      "Srilanka",
+      "Bhutan"
+    ],
+    answer: 0
+  },
+  {
+    question: "Which SAARC Country is called the land of golden fiber?",
+    options: [
+      "Pakistan",
+      "Bangladesh",
+      "Afghanistan",
+      "Nepal"
+    ],
+    answer: 1
+  },
+  {
+    question: "Number of land locked countries in SAARC?",
+    options: [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    answer: 2
+  },
+  {
+    question: "BIMSTEC was established mainly to promote cooperation and development in which of the following areas?",
+    options: [
+      "Economic and Social",
+      "Economic and Technological",
+      "Science and Technology",
+      "Technological and Cultural"
+    ],
+    answer: 2
+  },
+  {
+    question: "Who is the only Nepalese citizen who received the Post Doctor degree from the famous Oxford University in Britain?",
+    options: [
+      "Kulchandra Gautam",
+      "Bhesha Bahadur Thapa",
+      "Surya Prasad Subedi",
+      "Mahaveer Pun"
+    ],
+    answer: 2
+  },
+  {
+    question: "When did Nepal attain membership of FAO?",
+    options: [
+      "19949 November 15",
+      "1950 November 3",
+      "1951 November 27",
+      "1952 November 27"
+    ],
+    answer: 2
+  },
+  {
+    question: "Afghanistan was represented for the first time as a new member of the South Asian Association for Regional Cooperation (SAARC) at the SAARC summit held in which country?",
+    options: [
+      "India",
+      "Nepal",
+      "Pakistan",
+      "Sri Lanka"
+    ],
+    answer: 0
+  },
+  {
+    question: "Which SAARC Country has not hosted the SAARC Summit for a single time?",
+    options: [
+      "Bhutan",
+      "Srilanka",
+      "Afghanistan",
+      "Pakistan"
+    ],
+    answer: 2
+  },
+  {
+    question: "ICIMOD is related to",
+    options: [
+      "Physical infrastructure development in hilly areas",
+      "Regional economic development",
+      "Climate Change",
+      "International Integrated Development"
+    ],
+    answer: 3
+  },
+  {
+    question: "The 19th BIMSTEC Ministerial Meeting (MM) was held on 09 March 2023 virtually in",
+    options: [
+      "New Delhi (India)",
+      "Bangkok (Thailand)",
+      "Thimpu (Bhuta)",
+      "Pokhara (Nepal)"
+    ],
+    answer: 1
+  },
+  {
+    question: "Which of the following is NOT consistent with BIMSTEC",
+    options: [
+      "BIMSTEC Charter has 30 Articles.",
+      "BIMSTEC Charter was signed on March 30, 2022.",
+      "BIMSTEC Secretariat was established in Dhaka in 2014.",
+      "BIMSTEC Charter was signed by then Prime Minister Sher Bahadur Deuba on behalf of Nepal."
+    ],
+    answer: 0
+  }
+  ],
   "1.8 Constitution of Nepal":
   [
     {
