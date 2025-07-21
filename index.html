@@ -156,7 +156,7 @@
       slice.forEach((q,i)=>{
         const d=document.createElement('div'); d.className='question';
         const h3=document.createElement('h3'); h3.textContent=((currentPage*pageSize)+i+1)+'. '+q.question; d.appendChild(h3);
-        if(q.image){ const img=document.createElement('img'); img.alt = 'Question image';img.style.display   = 'block';img.style.margin    = '10px auto'; img.style.maxWidth  = '20%'; img.style.height    = 'auto';  img.style.maxHeight = '100px'; d.appendChild(img); }
+        if(q.image){ const img=document.createElement('img'); img.src=q.image; img.alt = 'Question image';img.style.display   = 'block';img.style.margin    = '10px auto'; img.style.maxWidth  = '20%'; img.style.height    = 'auto';  img.style.maxHeight = '100px'; d.appendChild(img); }
         const ul=document.createElement('ul'); ul.className='options';
         q.options.forEach((opt,j)=>{ const li=document.createElement('li'); li.textContent=opt;
           li.addEventListener('click',()=>li.style.background=(j===q.answer?'#d4edda':'#f8d7da')); ul.appendChild(li);
