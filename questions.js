@@ -38044,6 +38044,950 @@ window.mcqData = {
     answer: 0  // A
   }
   ],
+},
+
+"IQ":{
+   "Triangle Counting": [
+  {
+    question: "Find the number of triangles",
+    options: ["4", "5", "6", "7"],
+    image: "images/triangle/1.jpg",
+    answer: 1
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["5", "6", "8", "10"],
+    image: "images/triangle/2.jpg",
+    answer: 3
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["16", "13", "9", "7"],
+    image: "images/triangle/3.jpg",
+    answer: 0
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["15", "16", "17", "18"],
+    image: "images/triangle/4.jpg",
+    answer: 2
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["8", "10", "12", "14"],
+    image: "images/triangle/5.jpg",
+    answer: 2
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["11", "13", "15", "17"],
+    image: "images/triangle/6.jpg",
+    answer: 2
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["12", "13", "14", "15"],
+    image: "images/triangle/7.jpg",
+    answer: 3
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["11", "13", "15", "17"],
+    image: "images/triangle/8.jpg",
+    answer: 2
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["16", "18", "14", "15"],
+    image: "images/triangle/9.jpg",
+    answer: 1
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["12", "18", "22", "26"],
+    image: "images/triangle/10.jpg",
+    answer: 1
+  },
+  // 11–20
+  {
+    question: "Find the number of triangles",
+    options: ["10", "19", "21", "23"],
+    image: "images/triangle/11.jpg",
+    answer: 2
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["16", "18", "19", "21"],
+    image: "images/triangle/12.jpg",
+    answer: 3
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["21", "13", "15", "17"],
+    image: "images/triangle/13.jpg",
+    answer: 0
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["28", "20", "24", "27"],
+    image: "images/triangle/14.jpg",
+    answer: 2
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["27", "28", "29", "30"],
+    image: "images/triangle/15.jpg",
+    answer: 1
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["18", "20", "28", "34"],
+    image: "images/triangle/16.jpg",
+    answer: 2
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["20", "24", "28", "32"],
+    image: "images/triangle/17.jpg",
+    answer: 2
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["26 tri, 5 squares", "28 tri, 5 squares", "26 tri, 6 squares", "28 tri, 6 squares"],
+    image: "images/triangle/18.jpg",
+    answer: 3
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["22", "24", "26", "28"],
+    image: "images/triangle/19.jpg",
+    answer: 3
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["8", "10", "11", "12"],
+    image: "images/triangle/20.jpg",
+    answer: 1
+  },
+  // 21–30
+  {
+    question: "Find the number of triangles",
+    options: ["21", "23", "25", "27"],
+    image: "images/triangle/21.jpg",
+    answer: 3
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["27", "25", "23", "21"],
+    image: "images/triangle/22.jpg",
+    answer: 0
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["8", "10", "12", "14"],
+    image: "images/triangle/23.jpg",
+    answer: 3
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["10", "12", "14", "16"],
+    image: "images/triangle/24.jpg",
+    answer: 2
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["36", "40", "44", "48"],
+    image: "images/triangle/25.jpg",
+    answer: 3
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["23", "27", "29", "31"],
+    image: "images/triangle/26.jpg",
+    answer: 2
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["28", "32", "36", "40"],
+    image: "images/triangle/27.jpg",
+    answer: 2
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["34", "36", "35", "32"],
+    image: "images/triangle/28.jpg",
+    answer: 1
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["12", "20", "22", "24"],
+    image: "images/triangle/29.jpg",
+    answer: 2
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["27", "20", "21", "18"],
+    image: "images/triangle/30.jpg",
+    answer: 0
+  },
+  // 31–40
+  {
+    question: "Find the number of triangles",
+    options: ["28 tri, 10 sq", "28 tri, 8 sq", "32 tri, 10 sq", "32 tri, 8 sq"],
+    image: "images/triangle/31.jpg",
+    answer: 2
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["44 tri, 10 sq", "14 tri,16 sq", "27 tri, 6 sq", "36 tri, 9 sq"],
+    image: "images/triangle/32.jpg",
+    answer: 0
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["28 tri, 3 sq", "34 tri, 5 sq", "28 tri, 5 sq", "24 tri, 8 sq"],
+    image: "images/triangle/33.jpg",
+    answer: 2
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["36 tri, 7 sq", "38 tri, 9 sq", "40 tri, 7 sq", "42 tri, 9 sq"],
+    image: "images/triangle/34.jpg",
+    answer: 2
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["21 tri, 7 sq", "18 tri, 8 sq", "20 tri, 8 sq", "22 tri, 7 sq"],
+    image: "images/triangle/35.jpg",
+    answer: 0
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["11", "13", "9", "15"],
+    image: "images/triangle/36.jpg",
+    answer: 1
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["29", "38", "40", "35"],
+    image: "images/triangle/37.jpg",
+    answer: 2
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["16", "15", "14", "13"],
+    image: "images/triangle/38.jpg",
+    answer: 1
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["14", "15", "16", "19"],
+    image: "images/triangle/39.jpg",
+    answer: 1
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["4", "5", "6", "7"],
+    image: "images/triangle/40.jpg",
+    answer: 2
+  },
+  // 41–49
+  {
+    question: "Find the number of triangles",
+    options: ["10", "11", "12", "13"],
+    image: "images/triangle/41.jpg",
+    answer: 1
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["13", "14", "15", "16"],
+    image: "images/triangle/42.jpg",
+    answer: 2
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["28", "36", "40", "48"],
+    image: "images/triangle/43.jpg",
+    answer: 1
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["8", "9", "10", "12"],
+    image: "images/triangle/44.jpg",
+    answer: 1
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["4", "6", "5", "7"],
+    image: "images/triangle/45.jpg",
+    answer: 1
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["4", "5", "6", "7"],
+    image: "images/triangle/46.jpg",
+    answer: 1
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["6", "7", "8", "10"],
+    image: "images/triangle/47.jpg",
+    answer: 2
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["6", "8", "7", "5"],
+    image: "images/triangle/48.jpg",
+    answer: 1
+  },
+  {
+    question: "Find the number of triangles",
+    options: ["8", "9", "7", "11"],
+    image: "images/triangle/49.jpg",
+    answer: 1
+  }
+
+
+  ],
+   
+   "Odd one Out" : [
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Pear", "Apple", "Litchi", "Orange"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["football", "Volleyball", "Cricket", "chess"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["violet", "blue", "green", "butter"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["cricket", "green", "pencil", "white"],
+        "answer": 0
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Poland", "Greece", "Spain", "Korea"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Sun", "Moon", "Star", "Universe"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["House", "Cottage", "School", "Palace"],
+        "answer": 2
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Cow", "Deer", "Donkey", "Rhinoceros"],
+        "answer": 2
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Mother", "friend", "Sister", "Father"],
+        "answer": 1
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["sketch", "diagram", "Poster", "Paper"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["meter", "furlong", "yard", "Acre"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Cheetah", "Lion", "Bear", "Tiger"],
+        "answer": 2
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["giraffe", "Hyena", "Deer", "Rhinoceros"],
+        "answer": 1
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Sparrow", "Swan", "Parrot", "Koel"],
+        "answer": 1
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Kiwi", "Eagle", "Emu", "Penguin"],
+        "answer": 1
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Producer", "Director", "Investor", "Financier"],
+        "answer": 1
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Japan", "India", "Sri Lanka", "New Zealand"],
+        "answer": 1
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Coat", "Shirt", "blouse", "Trousers"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["car", "scooter", "helicopter", "cycle"],
+        "answer": 2
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Calendar", "year", "date", "month"],
+        "answer": 0
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Trunk", "Tree", "Fruit", "Leaf"],
+        "answer": 1
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["King", "Queen", "Bishop", "Minister"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Tall", "Huge", "Thin", "Sharp"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Pound", "Yen", "Ounce", "France"],
+        "answer": 2
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Chameleon", "Crocodile", "Alligator", "Locust"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Dog", "Horse", "Goat", "Fox"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Tomato", "Carrot", "Ginger", "Potato"],
+        "answer": 0
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["cap", "Turban", "Helmet", "Veil"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Physics", "Chemistry", "geography", "Botany"],
+        "answer": 2
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Moth", "Bee", "Lizard", "Aphid"],
+        "answer": 2
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Buffalo", "Llama", "Cow", "Goat"],
+        "answer": 1
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Axe", "Sword", "Knife", "Shovel"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Love", "Clasp", "Cuddle", "Nestle"],
+        "answer": 0
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Hydrogen", "Oxygen", "Iodine", "Nitrogen"],
+        "answer": 2
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Radio", "Television", "Computer", "X-ray"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Apple", "Marigold", "Rose", "Lily"],
+        "answer": 0
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["January", "May", "July", "November"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["8", "28", "64", "125"],
+        "answer": 1
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Curd", "Butter", "Oil", "Cheese"],
+        "answer": 2
+    }
+
+  ],
+   
+   "Analogy 1": [
+    
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Pear", "Apple", "Litchi", "Orange"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["football", "Volleyball", "Cricket", "chess"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["violet", "blue", "green", "butter"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["cricket", "green", "pencil", "white"],
+        "answer": 0
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Poland", "Greece", "Spain", "Korea"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Sun", "Moon", "Star", "Universe"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["House", "Cottage", "School", "Palace"],
+        "answer": 2
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Cow", "Deer", "Donkey", "Rhinoceros"],
+        "answer": 2
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Mother", "friend", "Sister", "Father"],
+        "answer": 1
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["sketch", "diagram", "Poster", "Paper"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["meter", "furlong", "yard", "Acre"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Cheetah", "Lion", "Bear", "Tiger"],
+        "answer": 2
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["giraffe", "Hyena", "Deer", "Rhinoceros"],
+        "answer": 1
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Sparrow", "Swan", "Parrot", "Koel"],
+        "answer": 1
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Kiwi", "Eagle", "Emu", "Penguin"],
+        "answer": 1
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Producer", "Director", "Investor", "Financier"],
+        "answer": 1
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Japan", "India", "Sri Lanka", "New Zealand"],
+        "answer": 1
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Coat", "Shirt", "blouse", "Trousers"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["car", "scooter", "helicopter", "cycle"],
+        "answer": 2
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Calendar", "year", "date", "month"],
+        "answer": 0
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Trunk", "Tree", "Fruit", "Leaf"],
+        "answer": 1
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["King", "Queen", "Bishop", "Minister"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Tall", "Huge", "Thin", "Sharp"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Pound", "Yen", "Ounce", "France"],
+        "answer": 2
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Chameleon", "Crocodile", "Alligator", "Locust"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Dog", "Horse", "Goat", "Fox"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Tomato", "Carrot", "Ginger", "Potato"],
+        "answer": 0
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["cap", "Turban", "Helmet", "Veil"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Physics", "Chemistry", "geography", "Botany"],
+        "answer": 2
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Moth", "Bee", "Lizard", "Aphid"],
+        "answer": 2
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Buffalo", "Llama", "Cow", "Goat"],
+        "answer": 1
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Axe", "Sword", "Knife", "Shovel"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Love", "Clasp", "Cuddle", "Nestle"],
+        "answer": 0
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Hydrogen", "Oxygen", "Iodine", "Nitrogen"],
+        "answer": 2
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Radio", "Television", "Computer", "X-ray"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Apple", "Marigold", "Rose", "Lily"],
+        "answer": 0
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["January", "May", "July", "November"],
+        "answer": 3
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["8", "28", "64", "125"],
+        "answer": 1
+    },
+    {
+        "question": "Choose the odd one out.",
+        "options": ["Curd", "Butter", "Oil", "Cheese"],
+        "answer": 2
+    }
+
+  ],
+
+   "Analogy 2" : [
+    {
+        "question": "Walking : Running :: Smiling : ?",
+        "options": ["Feeling", "Laughing", "Face", "Weeping"],
+        "answer": 1
+    },
+    {
+        "question": "Skirmish : War :: Disease : ?",
+        "options": ["Medicine", "Patient", "Epidemic", "Infection"],
+        "answer": 2
+    },
+    {
+        "question": "Physician : Treatment :: Judge : ?",
+        "options": ["Court", "Judgement", "Lawyer", "Punishment"],
+        "answer": 1
+    },
+    {
+        "question": "Circle : Circumference : Square : ?",
+        "options": ["Volume", "Area", "Diagonal", "Perimeter"],
+        "answer": 3
+    },
+    {
+        "question": "Ink : Pen :: Blood : ?",
+        "options": ["Donation", "Vein", "Accident", "Doctor"],
+        "answer": 1
+    },
+    {
+        "question": "Chlorophyll : Plant :: Haemoglobin : ?",
+        "options": ["Haemorrhage", "Blood", "Oxygen", "Red"],
+        "answer": 1
+    },
+    {
+        "question": "Bread : Yeast :: Curd : ?",
+        "options": ["Fungi", "Bacteria", "Germs", "Virus"],
+        "answer": 1
+    },
+    {
+        "question": "Meat : Vegetarian :: Liquor : ?",
+        "options": ["Insane", "Introvert", "Teetotaler", "Foolish"],
+        "answer": 2
+    },
+    {
+        "question": "Quack : Duck :: Bellows : ?",
+        "options": ["cat", "Frog", "Bull", "Fox"],
+        "answer": 2
+    },
+    {
+        "question": "Court : Justice :: School : ?",
+        "options": ["Teacher", "Student", "Ignorance", "Education"],
+        "answer": 3
+    },
+    {
+        "question": "Video : Cassette :: Computer : ?",
+        "options": ["Reels", "Recordings", "Files", "Floppy"],
+        "answer": 3
+    },
+    {
+        "question": "White : Peace :: Red : ?",
+        "options": ["Violence", "Roses", "Hatred", "Cleanliness"],
+        "answer": 0
+    },
+    {
+        "question": "Street : Lane :: Road : ?",
+        "options": ["Avenue", "Highway", "Footpath", "Junction"],
+        "answer": 0
+    },
+    {
+        "question": "Hour : Second :: Tertiary : ?",
+        "options": ["Intermediary", "Primary", "Ordinary", "Simplicity"],
+        "answer": 1
+    },
+    {
+        "question": "South : North-West :: West : ?",
+        "options": ["South-west", "North-east", "East", "South"],
+        "answer": 1
+    },
+    {
+        "question": "Part is related to whole in the same way as Arc is related to …?",
+        "options": ["Trapezium", "Circle", "Triangle", "Square"],
+        "answer": 1
+    },
+    {
+        "question": "Major is related to Lieutenant in the same way as Squadron Leader is related to …?",
+        "options": ["Group Captain", "Flying Attendant", "Flying Officer", "Pilot Officer"],
+        "answer": 2
+    },
+    {
+        "question": "Needle is related to Thread in the same way as Pen is related to …?",
+        "options": ["Ink", "Cap", "Paper", "Word"],
+        "answer": 0
+    },
+    {
+        "question": "Impossible is related to Feasible in the same way as Theoretical is related to …?",
+        "options": ["Radical", "Usable", "Practical", "Workable"],
+        "answer": 2
+    },
+    {
+        "question": "Sea : Shore",
+        "options": ["Train : Rails", "Road : Footpath", "Ocean : Bay", "River : Delta"],
+        "answer": 1
+    },
+    {
+        "question": "Hope : Aspire",
+        "options": ["Fake : Ordinary", "Fib : Lie", "Film : Flam", "Love : Elevate"],
+        "answer": 1
+    },
+    {
+        "question": "Hymn : Praise",
+        "options": ["Dirge : Grief", "Prayer : Congregation", "Liturgy : Delta", "Lullaby : Child"],
+        "answer": 1
+    },
+    {
+        "question": "Food : Hungry",
+        "options": ["Though : Politics", "Water : River", "Rest : Weary", "Wine : Intoxication"],
+        "answer": 2
+    },
+    {
+        "question": "Editor : Newspaper",
+        "options": ["Blacksmith : Furnace", "Author : Novel", "Journal : Journalist", "Table : Carpenter"],
+        "answer": 1
+    },
+    {
+        "question": "Confine : Prisoner",
+        "options": ["Impeach : President", "Detain : Suspect", "Ambush : Sentry", "Trace : Fugitive"],
+        "answer": 1
+    },
+    {
+        "question": "Curator : Museum",
+        "options": ["Wit : Wisdom", "Bank : Teller", "Manager : Office", "Doctor : Patient"],
+        "answer": 2
+    },
+    {
+        "question": "Joy : Euphoria",
+        "options": ["Poverty : Wealth", "Melancholy : Depression", "Sorrow : Joy", "Noise : Pollution"],
+        "answer": 1
+    },
+    {
+        "question": "MAD : JXA :: RUN : ?",
+        "options": ["ORK", "OSQ", "PRJ", "UXQ"],
+        "answer": 0
+    },
+    {
+        "question": "BIGE : JQOM :: RYWU : ?",
+        "options": ["AGFD", "ZFDB", "ZGEC", "ZYVX"],
+        "answer": 2
+    },
+    {
+        "question": "FILM : ADGH :: MILK : ?",
+        "options": ["ADGF", "HDGE", "HDGF", "HEGF"],
+        "answer": 2
+    },
+    {
+        "question": "EJOT : VQLG :: BGLQ : ?",
+        "options": ["AEIM", "AFKP", "YTOJ", "ZUPK"],
+        "answer": 2
+    },
+    {
+        "question": "JLNP : OMKI :: SUWY : ?",
+        "options": ["FGHI", "MLKJ", "PLHD", "XVTR"],
+        "answer": 3
+    },
+    {
+        "question": "NOPQ : MLKJ :: HIJK : ?",
+        "options": ["DEFG", "EFGH", "FEDC", "GFED"],
+        "answer": 3
+    },
+    {
+        "question": "CLOSE : DNRWJ :: OPEN : ?",
+        "options": ["PRHR", "PRJQ", "RPJB", "RZWR"],
+        "answer": 0
+    },
+    {
+        "question": "EIGHTY : GIEYTH :: OUTPUT : ?",
+        "options": ["TUOTUP", "TUOUTP", "UTOPTU", "UOTUPT"],
+        "answer": 0
+    },
+    {
+        "question": "Kidney : Nephron :: Central Nervous System : ?",
+        "options": ["Cerebrum", "Brain", "Neurons", "Spinal Cord"],
+        "answer": 2
+    },
+    {
+        "question": "Insects : Entomology :: Snakes : ?",
+        "options": ["Agrology", "Cetrology", "Mycology", "Ophiology"],
+        "answer": 3
+    },
+    {
+        "question": "JOKE : GLHB :: RISK : ?",
+        "options": ["QHRJ", "SJTL", "ULVN", "OFPH"],
+        "answer": 3
+    },
+    {
+        "question": "MAN : PDQ :: WAN : ?",
+        "options": ["NAW", "ZDQ", "YDQ", "YQD"],
+        "answer": 1
+    },
+    {
+        "question": "AEFJ : KOPT :: ? : QUVZ",
+        "options": ["HKQL", "GLKP", "HLKP", "GKLP"],
+        "answer": 3
+    },
+    {
+        "question": "YTOJ : XSN1 :: WRMH : ?",
+        "options": ["VQLG", "TOJE", "RMHC", "UPKF"],
+        "answer": 0
+    },
+    {
+        "question": "EIGK : EACY :: RVTY : ?",
+        "options": ["RVSQ", "RNPM", "RWUY", "RMPL"],
+        "answer": 1
+    },
+    {
+        "question": "Money : Misappropriation :: Writing : ?",
+        "options": ["Deception", "Mistake", "Plagiarism", "Theft"],
+        "answer": 2
+    },
+    {
+        "question": "Tanning : Leather :: Pyrotechnics : ?",
+        "options": ["Bombs", "Fireworks", "Wool", "Machinery"],
+        "answer": 1
+    },
+    {
+        "question": "MOUSE : KPSTC :: LIGHT : ?",
+        "options": ["MGHFU", "JGEFR", "JJEIR", "MHIU"],
+        "answer": 2
+    },
+    {
+        "question": "Eccrinology : Secretions :: Selenography : ?",
+        "options": ["Sun", "Mantle", "Crust", "Moon"],
+        "answer": 3
+    },
+    {
+        "question": "Virology : Virus :: Semantics : ?",
+        "options": ["Amoeba", "Language", "Nature", "Society"],
+        "answer": 1
+    }
+
+  ]
+  
 }
 
 
