@@ -218,7 +218,7 @@ window.mcqData = {
     answer: 0
 },
 {
-    question: "A soil sample contains a degree of saturation is 30%, find the percentage of air voids",
+    question: "A soil sample contains a degree of saturation is 30%, find the air content",
     options: ["70%", "30%", "60%", "50%"],
     answer: 0
 },
@@ -6269,9 +6269,9 @@ window.mcqData = {
   {
     question: "The slack for an event i is given by",
     options: [
-      "Tʲₗ – Tᵉₗ",
-      "Tʲₗ – Tᵉᵢ",
-      "Tᵉᵢ – Tʲₗ",
+      "T Lj - T Li",
+      "T Lj - T Ei",
+      "T Li - T Ei",
       "none of the above"
     ],
     answer: 2 // "c"
