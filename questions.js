@@ -270,7 +270,7 @@ window.mcqData = {
 {
     question: "The ratio of plasticity index to flow index is called",
     options: ["activity ratio", "liquidity index", "toughness index", "shrinkage index"],
-    answer: 1
+    answer: 2
 },
 {
     question: "In a soil if the water content is equal to the liquid limit, its relative consistency is",
@@ -410,7 +410,7 @@ window.mcqData = {
     answer: 1
   },
   {
-    question: "The percentage elongation of a material from a direct tensile test indicates",
+    question: "The percentage elongation  a material from a direct tensile test indicates",
     options: ["ductility", "strength", "yield stress", "brittleness"],
     answer: 0
   },
@@ -727,7 +727,7 @@ window.mcqData = {
   {
     question: "In any beam, there is acting uniformly moment then its curve is",
     options: ["circular arch", "parabolic arch", "both (a) and (b) of above", "none of the above"],
-    answer: 1
+    answer: 0
   },
   {
     question: "The shape of bending moment diagram over the length of a beam, carrying a uniformly increasing load is",
@@ -1602,7 +1602,7 @@ window.mcqData = {
       "rupture",
       "ductility"
     ],
-    answer: 2
+    answer: 3
   },
   {
     question: "Bending moment at any section in a conjugate beam gives in the actual beam:",
@@ -11428,12 +11428,13 @@ window.mcqData = {
   answer: 0
 },
 {
-  question: "Pick up the correct statement from the following: e) all of the above",
+  question: "Pick up the correct statement from the following:",
   options: [
     "lime in excess, causes the cement to expand and disintegrate",
     "silica in excess, causes the cement to set slowly",
     "alumina in excess, reduces the strength of the cement",
     "magnesium oxide in excess, remains in free state and makes the cement unsound",
+    "all of the above",
   ],
   answer: 4
 },
@@ -11617,12 +11618,13 @@ window.mcqData = {
   answer: 1
 },
 {
-  question: "Pick up the correct statement from the following: e) all of the above",
+  question: "Pick up the correct statement from the following:",
   options: [
     "insufficient quantity of water makes the concrete mix harsh",
     "insufficient quantity of water makes the concrete unworkable",
     "excess quantity of water makes the concrete segregated",
     "excess quantity of water cause bleeding in concrete",
+    "all of the above",
   ],
   answer: 4
 },
@@ -11657,12 +11659,13 @@ window.mcqData = {
   answer: 1
 },
 {
-  question: "Pick up the correct statement from the following: e) all of the above",
+  question: "Pick up the correct statement from the following:",
   options: [
     "high percentage of C₃S and low percentage of C₂S cause rapid hardening",
     "high percentage of C₃S and low percentage of C₂S make the cement less resistive to chemical attack",
     "low percentage of C₃S and high percentage of C₂S contribute to slow hardening",
     "low percentage of C₃S and high percentage of C₂S provide greater resistance to chemical attack",
+    "all of the above",
   ],
   answer: 4
 },
@@ -11812,9 +11815,9 @@ window.mcqData = {
     "calcium chloride acts as a retarder",
     "gypsum (calcium sulphate) acts as an accelerator",
     "gypsum (calcium sulphate) acts as a retarder",
-    "calcium chloride acts as an accelerator e) both (",
-    "and (",
-    "of above",
+    "calcium chloride acts as an accelerator ",
+    "both c and d",
+    
   ],
   answer: 4
 },
@@ -12039,12 +12042,13 @@ window.mcqData = {
   answer: 3
 },
 {
-  question: "Pick up the correct statement from the following: e) all of the above",
+  question: "Pick up the correct statement from the following: ",
   options: [
     "the maximum size of a coarse aggregate, is 75 mm and minimum 4.75 mm",
     "the maximum size of a fine aggregate, is 4.75 mm and minimum 0.075 mm",
     "the material having particles of size varying from 0.06 mm to 0.002 mm is known as silt",
     "the material having particles of size less than 0.002 mm, is known as clay",
+    "all of the above",
   ],
   answer: 4
 },
@@ -12119,22 +12123,24 @@ window.mcqData = {
   answer: 0
 },
 {
-  question: "Pick up the correct statement from the following: e) all of the above",
+  question: "Pick up the correct statement from the following:",
   options: [
     "sands obtained from pits, is washed to remove clay and silt",
     "sands obtained from flooded pits, need not be washed before use",
     "sea shore sands contain chloride which cause efflorescence",
     "the chloride in sea shore sand and shingle may cause corrosion of reinforcement if the concrete is porous",
+    "all of the above",
   ],
   answer: 4
 },
 {
-  question: "Pick up the correct statement from the following: e) all of the above",
+  question: "Pick up the correct statement from the following:",
   options: [
     "sand stones may be defined into calcareous, siliceous and ferruginous sand stones",
     "concrete using sand stones, cracks due to excessive shrinkage",
     "very hard and close grained crystallized lime stones are suitable aggregates but provide low strength",
     "broken bricks produce a concrete having good fire resisting qualities",
+    "all of the above",
   ],
   answer: 4
 },
@@ -12189,12 +12195,13 @@ window.mcqData = {
   answer: 3
 },
 {
-  question: "Pick up the correct statement from the following: e) all of the above",
+  question: "Pick up the correct statement from the following: ",
   options: [
     "bulking of sand is caused due to formation of a thin film of surface moisture",
     "fine sand bulks more than coarse sand",
     "with 10% moisture content by weight, the bulking of sand is increased by 50%",
     "the volume of fully saturated sand, is equal to the volume of dry and loose sand",
+    "all of the above",
   ],
   answer: 4
 },
@@ -12209,12 +12216,13 @@ window.mcqData = {
   answer: 2
 },
 {
-  question: "Pick up the correct statement from the following: e) all of the above",
+  question: "Pick up the correct statement from the following: ",
   options: [
     "the bulk density of fine aggregate is usually about 10 percent more than that of coarse aggregate of similar composition",
     "the specific gravity of aggregate is important for the determination of the moisture content",
     "absorption and porosity of an aggregate, influence the property of the concrete",
     "a highly absorptive aggregate reduces the workability of concrete considerably",
+    "all of the above",
   ],
   answer: 4
 },
@@ -12611,12 +12619,13 @@ window.mcqData = {
   answer: 4
 },
 {
-  question: "Pick up the correct statement from the following: e) all of the above",
+  question: "Pick up the correct statement from the following:",
   options: [
     "the concrete gains strength due to hydration of cement",
     "the concrete cured at a temperature below 23°C, gains strength up to 28 days",
     "the concrete does not set at freezing point",
     "the strength of concrete increases with its age",
+    "all of the above",
   ],
   answer: 4
 },
@@ -12851,12 +12860,13 @@ window.mcqData = {
   answer: 4
 },
 {
-  question: "Pick up the correct statement from the following: e) all of the above",
+  question: "Pick up the correct statement from the following: ",
   options: [
     "an increase in water content must be accompanied by an increase in cement content",
     "angular and rough aggregates reduce the workability of the concrete",
     "large size aggregates increase the workability due to lesser surface area",
     "the slump of the concrete mix decreases due to an increase in temperature",
+    "all of the above",
   ],
   answer: 4
 },
@@ -13033,12 +13043,13 @@ window.mcqData = {
   answer: 3
 },
 {
-  question: "Pick up the correct statement from the following: e) none of the above",
+  question: "Pick up the correct statement from the following:",
   options: [
     "segregation is necessary for a workable concrete",
     "consistency does not affect the workability of concrete",
     "if the slump increases, workability decreases",
     "if the concrete mix is dry, the slump is maximum",
+    "none of the above",
   ],
   answer: 4
 },
@@ -13173,12 +13184,13 @@ window.mcqData = {
   answer: 3
 },
 {
-  question: "Pick up the correct statement from the following: e) all of the above",
+  question: "Pick up the correct statement from the following:",
   options: [
     "the quality of water governs the strength of concrete",
     "the quality of water required for concreting, depends upon the grading of aggregate and method of compaction",
     "10% excess of water reduces the strength of concrete by 15%",
     "30% excess of water reduces the strength of concrete by 50%",
+    "all of the above",
   ],
   answer: 4
 },
@@ -14083,12 +14095,13 @@ window.mcqData = {
   answer: 3
 },
 {
-  question: "Pick up the correct statement from the following: e) all of the above",
+  question: "Pick up the correct statement from the following:",
   options: [
     "The weight of ingredients of concrete mix, is taken in kilograms",
     "water and aggregates is measured in liters",
     "the finished concrete is measured in cubic metres",
     "20 bags of cement make one tonne",
+    "all of the above",
   ],
   answer: 4
 },
@@ -14193,12 +14206,13 @@ window.mcqData = {
   answer: 1
 },
 {
-  question: "Pick up the correct statement from the following: e) all of the above",
+  question: "Pick up the correct statement from the following:",
   options: [
     "the diameter of the pipe line used for transportation of concrete by pumps does not exceed 30 cm",
     "the slump of the concrete to be pumped should not be less than 5 cm and more",
     "the water cement ratio of concrete to be pumped is kept between 0.5 to 0.65",
     "number of bends provided in the pipe line should be minimum",
+    "all of the above",
   ],
   answer: 4
 },
@@ -14353,12 +14367,13 @@ window.mcqData = {
   answer: 4
 },
 {
-  question: "Pick up the correct statement from the following: e) all of the above",
+  question: "Pick up the correct statement from the following:",
   options: [
     "water enables chemical reaction to take place with cement",
     "water lubricates the mixture of gravel, sand and cement",
     "only a small quantity of water is required for hydration of cement",
     "strength of concrete structure largely depends upon its workability",
+    "all of the above",
   ],
   answer: 4
 },
@@ -14373,12 +14388,13 @@ window.mcqData = {
   answer: 3
 },
 {
-  question: "Pick up the correct statement from the following: e) all of the above",
+  question: "Pick up the correct statement from the following: ",
   options: [
     "higher workability indicates unexpected increase in the moisture content",
     "higher workability indicates deficiency of sand",
     "if the concrete mix is dry, the slump is zero",
     "concrete mix having zero slump, is unsuitable for high strength",
+    "all of the above",
   ],
   answer: 4
 },
@@ -14403,12 +14419,13 @@ window.mcqData = {
   answer: 3
 },
 {
-  question: "Pick up the correct statement from the following: e) all of the above",
+  question: "Pick up the correct statement from the following:",
   options: [
     "there should not be any loss of cement from the charged drum of the mixer",
     "cement should be mixed for at least one minute",
     "10% of water is placed in the rotating drum before adding dry material",
     "10% of water is added after placing the other ingredients in the drum",
+    "all of the above",
   ],
   answer: 4
 },
@@ -14525,12 +14542,13 @@ window.mcqData = {
   answer: 3
 },
 {
-  question: "Pick up the correct statement from the following: e) all of the above",
+  question: "Pick up the correct statement from the following:",
   options: [
     "construction joints in columns are provided a few cm below the junction of beam",
     "construction joints in columns are provided at the bottom haunching",
     "construction joints in beam and slabs are provided within middle third",
     "construction joints are generally provided in positions subjected to least shear force",
+    "all of the above",
   ],
   answer: 4
 },
@@ -14575,12 +14593,13 @@ window.mcqData = {
   answer: 4
 },
 {
-  question: "Pick up the correct statement from the following: e) all of the above",
+  question: "Pick up the correct statement from the following: ",
   options: [
     "construction joints are necessarily planned for their locations",
     "expansion joints are provided to accommodate thermal expansion",
     "construction joints are provided to control shrinkage cracks",
     "expansion joints need not be provided in foundation concrete",
+    "all of the above",
   ],
   answer: 4
 },
@@ -14611,9 +14630,7 @@ window.mcqData = {
   options: [
     "the free water is the amount of water added while mixing and the amount of water held on the surface of the aggregates prior to mixing",
     "the total water is the free water and the amount actually absorbed by the aggregates",
-    "both (",
-    "and (",
-    "of above",
+    "both of above",
     "none of the above",
   ],
   answer: 3
@@ -17713,7 +17730,7 @@ window.mcqData = {
 {
   question: "The RL of BM is 1000.00 m. Back sight reading at the BM is 2.555 and RL of IS is 1000.055 then find the reading of IS",
   options: [
-    "3.5",
+    "2.5",
     "2.55",
     "3",
     "0.005",
