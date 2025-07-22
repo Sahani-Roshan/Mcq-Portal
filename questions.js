@@ -38551,201 +38551,127 @@ window.mcqData = {
    
    "Analogy 1": [
     
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Pear", "Apple", "Litchi", "Orange"],
-        "answer": 3
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["football", "Volleyball", "Cricket", "chess"],
-        "answer": 3
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["violet", "blue", "green", "butter"],
-        "answer": 3
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["cricket", "green", "pencil", "white"],
-        "answer": 0
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Poland", "Greece", "Spain", "Korea"],
-        "answer": 3
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Sun", "Moon", "Star", "Universe"],
-        "answer": 3
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["House", "Cottage", "School", "Palace"],
-        "answer": 2
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Cow", "Deer", "Donkey", "Rhinoceros"],
-        "answer": 2
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Mother", "friend", "Sister", "Father"],
-        "answer": 1
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["sketch", "diagram", "Poster", "Paper"],
-        "answer": 3
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["meter", "furlong", "yard", "Acre"],
-        "answer": 3
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Cheetah", "Lion", "Bear", "Tiger"],
-        "answer": 2
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["giraffe", "Hyena", "Deer", "Rhinoceros"],
-        "answer": 1
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Sparrow", "Swan", "Parrot", "Koel"],
-        "answer": 1
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Kiwi", "Eagle", "Emu", "Penguin"],
-        "answer": 1
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Producer", "Director", "Investor", "Financier"],
-        "answer": 1
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Japan", "India", "Sri Lanka", "New Zealand"],
-        "answer": 1
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Coat", "Shirt", "blouse", "Trousers"],
-        "answer": 3
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["car", "scooter", "helicopter", "cycle"],
-        "answer": 2
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Calendar", "year", "date", "month"],
-        "answer": 0
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Trunk", "Tree", "Fruit", "Leaf"],
-        "answer": 1
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["King", "Queen", "Bishop", "Minister"],
-        "answer": 3
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Tall", "Huge", "Thin", "Sharp"],
-        "answer": 3
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Pound", "Yen", "Ounce", "France"],
-        "answer": 2
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Chameleon", "Crocodile", "Alligator", "Locust"],
-        "answer": 3
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Dog", "Horse", "Goat", "Fox"],
-        "answer": 3
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Tomato", "Carrot", "Ginger", "Potato"],
-        "answer": 0
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["cap", "Turban", "Helmet", "Veil"],
-        "answer": 3
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Physics", "Chemistry", "geography", "Botany"],
-        "answer": 2
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Moth", "Bee", "Lizard", "Aphid"],
-        "answer": 2
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Buffalo", "Llama", "Cow", "Goat"],
-        "answer": 1
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Axe", "Sword", "Knife", "Shovel"],
-        "answer": 3
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Love", "Clasp", "Cuddle", "Nestle"],
-        "answer": 0
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Hydrogen", "Oxygen", "Iodine", "Nitrogen"],
-        "answer": 2
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Radio", "Television", "Computer", "X-ray"],
-        "answer": 3
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Apple", "Marigold", "Rose", "Lily"],
-        "answer": 0
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["January", "May", "July", "November"],
-        "answer": 3
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["8", "28", "64", "125"],
-        "answer": 1
-    },
-    {
-        "question": "Choose the odd one out.",
-        "options": ["Curd", "Butter", "Oil", "Cheese"],
-        "answer": 2
-    }
+  {
+    "question": "Dog : Bark :: Goat : ?",
+    "options": ["Bleat", "Howl", "Grout", "Bray"],
+    "answer": 0
+  },
+  {
+    "question": "Mango : Fruit :: Potato : ?",
+    "options": ["Root", "Fruit", "Stem", "Flower"],
+    "answer": 2
+  },
+  {
+    "question": "Aeroplane : Cockpit :: Train : ?",
+    "options": ["wagon", "coach", "compartment", "engine"],
+    "answer": 3
+  },
+  {
+    "question": "Book : Publisher :: Film : ?",
+    "options": ["producer", "director", "editor", "writer"],
+    "answer": 0
+  },
+  {
+    "question": "Radio : Listener :: Film : ?",
+    "options": ["producer", "actor", "viewer", "director"],
+    "answer": 2
+  },
+  {
+    "question": "Milk : Emulsion :: Butter : ?",
+    "options": ["Aerosol", "suspension", "sol", "gel"],
+    "answer": 3
+  },
+  {
+    "question": "Thunder : Rain :: ? : Night",
+    "options": ["Evening", "Dark", "Day", "Dusk"],
+    "answer": 0
+  },
+  {
+    "question": "Mountain : Hill :: Tree : ?",
+    "options": ["Ground", "Leaf", "forest", "Shrub"],
+    "answer": 3
+  },
+  {
+    "question": "Doctor : Patient :: Politician : ?",
+    "options": ["Masses", "Voter", "Power", "Chair"],
+    "answer": 0
+  },
+  {
+    "question": "Girl : Beautiful :: Boy : ?",
+    "options": ["Smart", "Heroic", "Courageous", "Handsome"],
+    "answer": 3
+  },
+  {
+    "question": "Boat : Oar :: Bicycle : ?",
+    "options": ["pedal", "seat", "Road", "wheel"],
+    "answer": 0
+  },
+  {
+    "question": "Horse : Jockey :: Car : ?",
+    "options": ["Mechanic", "Chauffeur", "Steering", "Brake"],
+    "answer": 1
+  },
+  {
+    "question": "Air : Atmosphere :: Water : ?",
+    "options": ["Hydrosphere", "Ecosphere", "Biosphere", "Stratosphere"],
+    "answer": 0
+  },
+  {
+    "question": "Scout : Army :: Clerk : ?",
+    "options": ["office", "files", "officer", "Administration"],
+    "answer": 0
+  },
+  {
+    "question": "Energy : Joule :: Volume : ?",
+    "options": ["Solid", "capacity", "kilogram", "litre"],
+    "answer": 3
+  },
+  {
+    "question": "Electricity : Wire :: Water : ?",
+    "options": ["pipe", "River", "Jug", "Bottle"],
+    "answer": 0
+  },
+  {
+    "question": "Drama : Stage :: Tennis : ?",
+    "options": ["Tournament", "Net", "Court", "Racket"],
+    "answer": 2
+  },
+  {
+    "question": "Hot : Oven :: Cold : ?",
+    "options": ["Ice cream", "Air conditioner", "Snow", "Refrigerator"],
+    "answer": 3
+  },
+  {
+    "question": "Conference : Chairman :: Newspaper : ?",
+    "options": ["Reporter", "Distributor", "Printer", "Editor"],
+    "answer": 3
+  },
+  {
+    "question": "Bank : River :: Coast : ?",
+    "options": ["Flood", "Waves", "Sea", "Beach"],
+    "answer": 2
+  },
+  {
+    "question": "Flower : Butterfly :: Dirt : ?",
+    "options": ["Rats", "Fly", "Bugs", "Sweeper"],
+    "answer": 1
+  },
+  {
+    "question": "Calf : Cow :: Puppy : ?",
+    "options": ["Dog", "Buch", "Horse", "Donkey"],
+    "answer": 1
+  },
+  {
+    "question": "Coal : Hat :: Wax : ?",
+    "options": ["Energy", "Candle", "Light", "Bee"],
+    "answer": 1
+  },
+  {
+    "question": "Tea : Cup :: Tobacco : ?",
+    "options": ["Leaves", "Hookah", "Toxin", "Cheroot"],
+    "answer": 3
+  }
+
 
   ],
 
