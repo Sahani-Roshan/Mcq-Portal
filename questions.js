@@ -35661,7 +35661,7 @@ window.mcqData = {
   }
   ],
 
-"1.1.1.5 Science and Technology":[
+ "1.1.1.5 Science and Technology":[
   {
     "question": "Who is called the Geometrical monster?",
     "options": ["Euclid", "Archimedes", "John Dalton", "Einstein"],
@@ -36161,8 +36161,459 @@ window.mcqData = {
     "question": "Who invented Bicycle?",
     "options": ["Leo H Baekeland", "Karl Benz", "Evangelista Torricelli", "Kirkpatrick Macmillan"],
     "answer": 3
+  },
+  {
+    "question": "Who synthesized the first wholly artificial gene?",
+    "options": ["Hargobind Khorana", "J.J. Thompson", "Benjamin Franklin", "Meghnad Saha"],
+    "answer": 0
+  },
+  {
+    "question": "What item, originally called the 'Whirlwind', was invented by Ives McGaffey in 1869?",
+    "options": ["Blender", "Electric mixer", "Washing machine", "Vacuum cleaner"],
+    "answer": 3
+  },
+  {
+    "question": "Who invented Bakelite?",
+    "options": ["Charles Goodyear", "Leo Hendrik Baekeland", "Roy Plunkett", "Henry Ford"],
+    "answer": 1
+  },
+  {
+    "question": "What beverage was invented by Charles Alderton in 1885 in Waco, Texas?",
+    "options": ["Cream soda", "Coca-Cola", "Dr. Pepper", "Sprite"],
+    "answer": 2
+  },
+  {
+    "question": "What drink was invented by Charles Leiper Gregg in 1929?",
+    "options": ["7-Up", "Yoo-Hoo", "Pepsi", "Hawaiian Punch"],
+    "answer": 0
+  },
+  {
+    "question": "For what is Charles Babbage (1792-1871) remembered?",
+    "options": ["Computers", "Telescopes", "Radio-Telegraphy", "Steam Boating"],
+    "answer": 0
+  },
+  {
+    "question": "Who invented Automobiles using gasoline?",
+    "options": ["Leo H Baekeland", "Karl Benz", "Evangelista Torricelli", "Kirkpatrick Macmillan"],
+    "answer": 1
+  },
+  {
+    "question": "Who invented the battery?",
+    "options": ["John Wilkinson", "Alessandro Volta", "James Hargreaves", "Thomas Edison"],
+    "answer": 1
+  },
+  {
+    "question": "When was the toothbrush invented?",
+    "options": ["1770", "1765", "1790", "1742"],
+    "answer": 0
+  },
+  {
+    "question": "Who invented Fountain Pen?",
+    "options": ["John J. Loud", "Sir Frank Whittle", "Lewis E. Waterman", "Kirkpatrick Macmillan"],
+    "answer": 2
+  },
+  {
+    "question": "The first crop plant genome sequenced is",
+    "options": ["Maize", "Wheat", "Rice", "Barley"],
+    "answer": 2
+  },
+  {
+    "question": "The first transgenic plant to be produced is",
+    "options": ["Rice", "Maize", "Cotton", "Tobacco"],
+    "answer": 3
+  },
+  {
+    "question": "The genetically engineered 'Golden Rice' synthesize large amount of",
+    "options": ["Vitamin K", "Beta Carotene", "Vitamin C", "Beta galactosidase"],
+    "answer": 1
+  },
+  {
+    "question": "DNA fingerprinting refers to",
+    "options": ["Technique used for identification of fingerprints of individuals", "Molecular analysis of profiles of DNA-Samples", "Analysis of DNA samples using imprinting devices", "Techniques used for molecular analysis of different specimens of DNA"],
+    "answer": 1
+  },
+  {
+    "question": "The vaccine developed from animal cell culture was",
+    "options": ["Hepatitis B Vaccine", "Influenza vaccine", "Small Pox vaccine", "Polio Vaccine"],
+    "answer": 3
+  },
+  {
+    "question": "The production of complete animals from somatic cells of an animal is called",
+    "options": ["Gene cloning", "Animal Cloning", "Cell cloning", "All of the above"],
+    "answer": 3
+  },
+  {
+    "question": "Which is the first cloned baby of the world announced in 2002 December 27?",
+    "options": ["Eve", "Ape", "Dome", "Evra"],
+    "answer": 0
+  },
+  {
+    "question": "DNA is not composed of",
+    "options": ["Adenosine (A)", "Thymine (T)", "Guanine (G)", "Uracil (U)"],
+    "answer": 3
+  },
+  {
+    "question": "When was the first test tube baby Louise Joy Brown born?",
+    "options": ["1978 July 20", "1978 July 25", "1978 July 30", "1978 July 10"],
+    "answer": 1
+  },
+  {
+    "question": "The first Test tube of Nepal is",
+    "options": ["Om Mani Dhungana", "Surya Mani Tamang", "Daman Dhungana", "Om Mani Tamang"],
+    "answer": 3
+  },
+  {
+    "question": "Tissue culture center in Nepal have been established in",
+    "options": ["Khumaltar", "Godavari", "Lele", "Olangehungola"],
+    "answer": 1
+  },
+  {
+    "question": "The second generation computers used...... as memory storage device",
+    "options": ["Vaccum", "Transistors", "Integrated Circuit", "Artificial Intelligence"],
+    "answer": 1
+  },
+  {
+    "question": "'Grand Trunk Herald' is a newspaper published by",
+    "options": ["Albert Einstein", "Thomas Alva Edison", "Marconi", "Archimedes"],
+    "answer": 1
+  },
+  {
+    "question": "Which Italian Philosopher first stated that the Earth revolves round the sun?",
+    "options": ["Nicholas Copernicus", "Johanes Keppler", "Giordano Bruno", "Darwin"],
+    "answer": 2
+  },
+  {
+    "question": "Natural Selection is a theory postulated by",
+    "options": ["Edward Jenner", "Charles Darwin", "Lamarck", "John Dalton"],
+    "answer": 1
+  },
+  {
+    "question": "What is the full form of RADAR?",
+    "options": ["Radio Detection and Raying", "Rapid Detection and Ranging", "Radio Detection and Ranging", "Radio Detection and Recognizing"],
+    "answer": 2
+  },
+  {
+    "question": "What is the full form of SIM card used in mobile phone?",
+    "options": ["Subscriber Identity molecule", "Subscriber Identity module", "Subscriber Identity mail", "Subscriber Identity Magnitude"],
+    "answer": 1
+  },
+  {
+    "question": "What is Albert Einstein mostly related to?",
+    "options": ["Theory of gravitation", "Theory of air pollution", "Theory of radioactivity", "Theory of Relativity"],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following scientist have won Nobel Prize in two different field?",
+    "options": ["Guglielmo Marconi", "Louis Pasteur", "Charles Darwin", "Madam Curie"],
+    "answer": 3
+  },
+  {
+    "question": "Who is famous for 'Theory of exploding black holes drew upon both relativity theory and quantum mechanics'?",
+    "options": ["Darwin", "Newton", "Einstein", "Stephen William Hawkins"],
+    "answer": 3
+  },
+  {
+    "question": "Which scientist is called the Wizard of the Menlo park?",
+    "options": ["Thomas Alba Edison", "Royman Powell", "Har Govind Khurana", "Arhimides"],
+    "answer": 0
+  },
+  {
+    "question": "Which scientist had more than 1000 inventions to his name?",
+    "options": ["Michael Faraday", "Pythagoras", "Thomas Alba Edison", "Gallileo Galletei"],
+    "answer": 2
+  },
+  {
+    "question": "Who profounded Heliocentric Theory for the very first time?",
+    "options": ["Johanas Kepler", "Edwin Hubble", "Nicholas Copernicus", "Giradano Bruno"],
+    "answer": 2
+  },
+  {
+    "question": "What is computer networking called that is used within a building?",
+    "options": ["LAN", "WAN", "CAN", "LWAN"],
+    "answer": 0
+  },
+  {
+    "question": "Theory of lever was invented by",
+    "options": ["Archimedes", "John Dalton", "Herodotus", "Euclid"],
+    "answer": 0
+  },
+  {
+    "question": "Who discovered insulin?",
+    "options": ["Frederick Banting", "Hermanin Faizer", "Darwin", "Calmette"],
+    "answer": 0
+  },
+  {
+    "question": "Psychic analysis and dream analysis are related to which of the following?",
+    "options": ["Herman Parkins (USA)", "Sigmund Freud (Austria)", "John Dalton (England)"],
+    "answer": 1
+  },
+  {
+    "question": "Who had established the world's first printing press?",
+    "options": ["Erasmus", "Thomas more", "Gutenberg", "Loyala"],
+    "answer": 2
+  },
+  {
+    "question": "How many pounds are there in one kg?",
+    "options": ["2.20462 pounds", "2.022 pounds", "2.452 pounds", "2.789 pounds"],
+    "answer": 0
+  },
+  {
+    "question": "Who experimented with the speed of light in 1676 A.D?",
+    "options": ["Archimedes", "J.J Thomson", "Euclid", "Rhomer"],
+    "answer": 3
+  },
+  {
+    "question": "One barrel equals to ...... liters",
+    "options": ["145 liters", "153 liters", "159 liters", "165 liters"],
+    "answer": 2
+  },
+  {
+    "question": "Which device is used to separate water molecules into hydrogen and oxygen using electricity?",
+    "options": ["Electrolysers", "Neutralysers", "Electrolytes", "Water splitters"],
+    "answer": 0
+  },
+  {
+    "question": "Who was the scientist who discovered the law of electrical resistance?",
+    "options": ["George Ohm", "John Dalton", "Alessandro Volta", "Thomas Edison"],
+    "answer": 0
+  },
+  {
+    "question": "Lie detector instrument is called......",
+    "options": ["Polygraph machine", "Breathalyzer machine", "Anemone machine", "lieophlyzer machine"],
+    "answer": 0
+  },
+  {
+    "question": "Who is called the father of Atom (Nuclear) bomb?",
+    "options": ["Albert Einstein", "Galileo Galilei", "Sir Issac Newton", "Michael Faraday"],
+    "answer": 0
+  },
+  {
+    "question": "Match the correct pair",
+    "options": [
+      "A-iii B-iv C-ii D-i",
+      "A-ii B-iv C-ii D-iv",
+      "A-i B-iv C-ii D-iii",
+      "A-iii B-iv C-ii D-ii"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Who discovered the theory of gravity?",
+    "options": ["Albert Einstein", "Issac Newton", "John Dalton", "Robert Boyle"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following chemicals is harmful to our health?",
+    "options": ["D.D.T", "Mercury", "Arsenic", "All of the above"],
+    "answer": 3
+  },
+  {
+    "question": "What is the device that gives information about poisonous gas called?",
+    "options": ["Toxiquan", "Toxivan", "Toximeter", "Toxifan"],
+    "answer": 2
+  },
+  {
+    "question": "Who is known as Father of Immunology?",
+    "options": ["Samuel Richardson", "Edward Jenner", "Euclid", "Louis Pasteur"],
+    "answer": 1
+  },
+  {
+    "question": "What is the method of opening blocked or closed artery without cutting the artery of the heart?",
+    "options": ["Angiotherapy", "Angioplasty", "Angioplasma", "Physiotherapy"],
+    "answer": 1
+  },
+  {
+    "question": "Which device is used to measure the speed of a vehicle?",
+    "options": ["Audio meter", "Barometer", "Speedo meter", "Lactometer"],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is a theory propounded by Albert Einstein?",
+    "options": ["Relative density", "Thermal Conductivity", "Germ Theory", "Theory of relativity"],
+    "answer": 3
+  },
+  {
+    "question": "Identify the incorrect pair",
+    "options": [
+      "Archimides: Spirals",
+      "Galileo Galilei: The Starry messenger",
+      "Issac Newton: Principia",
+      "Stefan William Hawkins: The Sky star"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Match the correct pair",
+    "options": [
+      "A-iii B-iv C-ii D-i",
+      "A-ii B-iv C-ii D-iv",
+      "A-iv B-iii C-ii D-i",
+      "A-iii B-iv C-ii D-ii"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Match the correct pair",
+    "options": [
+      "A-iii B-i C-iv D-ii",
+      "A-ii B-iv C-ii D-iv",
+      "A-i B-iv C-ii D-iii",
+      "A-iii B-iv C-ii D-ii"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following statements is incorrect?",
+    "options": [
+      "Law of Floatation was postulated by Archimedes.",
+      "Inertia is related to Newton's second law of motion.",
+      "The theory of the fixedness of the sun and the rotation of the earth was propounded by Galileo.",
+      "Ecology deals with the study of animals and their environment."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Blood transfusion researcher William Harvey is a citizen of which country?",
+    "options": ["Germany", "America", "Britain", "Italy"],
+    "answer": 2
+  },
+  {
+    "question": "Who is the scientist who discovered the vaccine against rabies?",
+    "options": ["Louis Pasteur", "Charles Darwin", "Thomas Edison", "Michel Faraday"],
+    "answer": 0
+  },
+  {
+    "question": "What disease is insulin related to?",
+    "options": ["Blood Pressure", "Compensator", "Gastric", "Diabetes"],
+    "answer": 3
+  },
+  {
+    "question": "Who is the inventor of dynamite?",
+    "options": ["Michael Faraday", "Joseph Priestly", "Alfred Nobel", "Moser"],
+    "answer": 2
+  },
+  {
+    "question": "What is the side effect of using more than prescribed medicine?",
+    "options": ["Side effect", "Addiction", "Toxicity", "Sensitivity"],
+    "answer": 0
+  },
+  {
+    "question": "Who is the scientist who invented the safety lamp?",
+    "options": ["Sir Humphrey Davy", "Joseph Priestly", "Madame Curie", "Marconi"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the most abundant metal found on the earth?",
+    "options": ["Copper", "Zinc", "Iron", "Nickel"],
+    "answer": 2
+  },
+  {
+    "question": "The SI Unit of work or power is measured in",
+    "options": ["Calorie", "Joule", "Newton", "Fathom"],
+    "answer": 1
+  },
+  {
+    "question": "When was Chat GPT, an artificial intelligence chatbot developed by Open AI (Artificial Intelligence) Company, made public?",
+    "options": ["2022 November 22", "2022 November 26", "2022 November 30", "2022 November 28"],
+    "answer": 2
+  },
+  {
+    "question": "What is SODIS Technology?",
+    "options": ["Energy production by molecules", "Purification of water by heating", "Purification of drinking water by solar power", "Purification of water naturally"],
+    "answer": 2
+  },
+  {
+    "question": "When is National Science Day celebrated in Nepal?",
+    "options": ["Ashoj 1", "Ashoj 2", "Ashoj 3", "Ashoj 4"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the first Nepali bank to use robot?",
+    "options": ["Standard Chartered Bank", "SBI Bank", "NIC Bank", "Himalayan Bank"],
+    "answer": 1
+  },
+  {
+    "question": "In which category did Albert Einstein win Nobel Prize?",
+    "options": ["Photolight effect", "Photoelectric effect", "Theory of relativity", "General Theory of Relativity"],
+    "answer": 1
+  },
+  {
+    "question": "Which is the first pharmaceutical company of Nepal to manufacture anti cancer drugs?",
+    "options": ["Magnus", "Tigiz", "M Tech", "Curex"],
+    "answer": 1
+  },
+  {
+    "question": "What is the device used to see things that cannot be seen directly with the eyes called?",
+    "options": ["Telescope", "Heliscope", "Pyroscope", "Microscope"],
+    "answer": 1
+  },
+  {
+    "question": "Who is called the father of genetics?",
+    "options": ["Carl Linnaeus", "Lamark", "Gregor John Mendel", "Darwin"],
+    "answer": 2
+  },
+  {
+    "question": "Which gas is used in welding?",
+    "options": ["Oxygen", "Hydrogen", "Ammonia", "Nitrogen"],
+    "answer": 0
+  },
+  {
+    "question": "What is the science of studying mountains?",
+    "options": ["Oncology", "Ornithology", "Orology", "Osteology"],
+    "answer": 2
+  },
+  {
+    "question": "What is the full form of VIRUS?",
+    "options": ["Very Intelligent Result Unit Source", "Very Interchanged Resources Under Search", "Viral Information Resources Under Siege", "Viral Important Record User Search"],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following pair is incorrect",
+    "options": ["Zoom: Eric Yuan", "ChatGPT: Sam Altman and Elon Musk", "Twitter: Linda Yaccarino", "Apple: Bill Gates"],
+    "answer": 3
+  },
+  {
+    "question": "Who founded Calculator?",
+    "options": ["Marconi", "Marie Curie", "Blaise Pascal", "Lady Ada"],
+    "answer": 2
+  },
+  {
+    "question": "What is the full form of LCD?",
+    "options": ["Liquid Crystal Display", "Light Common Diode", "Long Close Display", "Length Crystal Display"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following was invented by Wilhelm Conrad Roentgen",
+    "options": ["Electric Charge", "Electric Bulb", "X-Ray", "Thermodynamics"],
+    "answer": 2
+  },
+  {
+    "question": "Who first discovered the method of measuring the diameter of the sun and the moon?",
+    "options": ["Archimides", "John Dalton", "Newton", "Galileo Galelei"],
+    "answer": 3
+  },
+  {
+    "question": "Who is the propounder of the theory of density?",
+    "options": ["Archimides", "Charles Darwin", "Galileo Galelei", "Henry Busion"],
+    "answer": 0
+  },
+  {
+    "question": "The output quality of printer is measured by.....",
+    "options": ["dots per inch", "dots printed per unit time", "dots per page", "All of the above"],
+    "answer": 0
+  },
+  {
+    "question": "What does GB, which is used to demonstrate the size of memory in the computer mean?",
+    "options": ["General byte", "Grossbyte", "Getabyte", "Gigabyte"],
+    "answer": 3
+  },
+  {
+    "question": "Cataract disease is related to which part of the eye?",
+    "options": ["Cornea", "Lens", "Retina", "Eyebrow"],
+    "answer": 1
   }
 ],
+
   "1.3 Geographic Diversity, Climatic Condition and Livelihood":  [
     {
         question: "What percent of the total area of Nepal is occupied by Mountain region?",
