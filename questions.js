@@ -34211,6 +34211,586 @@ window.mcqData = {
 
   ],
 
+"1.1.1.2 Notable Events":[
+
+  {
+    "question": "Who is the first person to be entitled “Shah”?",
+    "options": ["Rishiraj Ranaji Khan", "Kulmandan Khan", "Jagadev Khan", "Bichitra Khan"],
+    "answer": 1
+  },
+  {
+    "question": "Who is the first king of Shah dynasty?",
+    "options": ["Prithvi Narayan Shah", "Yashobramha Shah", "Kulmandan Shah", "Dravya Shah"],
+    "answer": 2
+  },
+  {
+    "question": "Who is the first king of Gorkha representing Shah dynasty?",
+    "options": ["Puma Shah", "Yashobramha Shah", "Narahari Shah", "Dravya Shah"],
+    "answer": 3
+  },
+  {
+    "question": "When did Dravya Shah establish Gorkha State after defeating Khadka king?",
+    "options": ["1515 Bhadra 25", "1616 Bhadra 25", "1717 Bhadra 25", "1818 Bhadra 25"],
+    "answer": 1
+  },
+  {
+    "question": "Who is the last shah king of Gorkha?",
+    "options": ["Narabhupal Shah", "Ram Shah", "Prithvi Narayan Shah", "Pratap Singh Shah"],
+    "answer": 2
+  },
+  {
+    "question": "When was Prithvi Narayan Shah born?",
+    "options": ["1723 A.D.", "1724 A.D.", "1725 A.D.", "1726 A.D."],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following pair is incorrect?",
+    "options": [
+      "Father of Unification campaign-Prithvi Narayan Shah",
+      "Founder of Gorkha State-Dravya Shah",
+      "Father of Nation and Democracy-King Tribhuvan",
+      "Rana Bahadur Shah-Youngest king of Nepal"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "The first state annexed by Prithvi Narayan Shah during unification campaign",
+    "options": ["Nuwakot", "Belkot", "Taldum", "Changu"],
+    "answer": 0
+  },
+  {
+    "question": "The chief of district were called.... During Prithvi Narayan Shah rule",
+    "options": ["Chotdar", "Subba", "Sardar", "Wokil"],
+    "answer": 1
+  },
+  {
+    "question": "When did Gorkha attain Victory over Nuwakot?",
+    "options": ["1800", "1801", "1802", "1803"],
+    "answer": 1
+  },
+  {
+    "question": "When was Kathmandu declared the capital city of Nepal?",
+    "options": ["1769", "1768", "1767", "1766"],
+    "answer": 0
+  },
+  {
+    "question": "In which battle did Kazi Kalu Pandey die?",
+    "options": ["The first battle of Nuwakot", "The second battle of Makwanpur", "The first battle of Kirtipur", "The last battle of Kirtipur"],
+    "answer": 2
+  },
+  {
+    "question": "Who is the first kazi of Nepal, whose actual name is Banshidhar Pandey?",
+    "options": ["Kalu Pandey", "Damodar Pandey", "Bamsharaj Pandey", "None"],
+    "answer": 0
+  },
+  {
+    "question": "Who of the following is not amongst the leader of 'Jayatu Sanskritam Andolan' of 2004 B.S?",
+    "options": ["Nara Bahadur Karmacharya", "Rajeshwor Devkota", "Shree Bhadra Sharma", "Kashinath Gautam"],
+    "answer": 0
+  },
+  {
+    "question": "Who is known as the indecisive ruler?",
+    "options": ["Rajendra Shah", "Mahendra Shah", "Gyanendra Shah", "None of the above"],
+    "answer": 0
+  },
+  {
+    "question": "Where did Prithvi Narayan Shah die?",
+    "options": ["Devghat", "Devighat", "Dipalghat", "Rupalghat"],
+    "answer": 1
+  },
+  {
+    "question": "Who introduced the system of Red Seal in Nepal?",
+    "options": ["Ram Shah", "Narabhupal Shah", "Prithvi Narayan Shah", "All"],
+    "answer": 2
+  },
+  {
+    "question": "Prithvi Narayan Shah had extended the territory of Nepal from Gorkha to ...... in the east and ... In the west",
+    "options": ["Mechi-Marsyangdi", "Mechi-Trishuli", "Mechi-Madi", "Mechi-Gandaki"],
+    "answer": 0
+  },
+  {
+    "question": "Who extended the territory of Nepal from Tisia in the east and Kangada in the west?",
+    "options": ["Rana Bahadur Shah", "Bhimsen Thapa", "Bahadur Shah", "Rajendra Bikram Shah"],
+    "answer": 2
+  },
+  {
+    "question": "What is the real name of Bahadur Shah who ruled as a regent for 9 years?",
+    "options": ["Fatya Bahadur Shah", "Gorakh Bahadur Shah", "Bishnu Bahadur Shah", "Rajendra Bikram Shah"],
+    "answer": 0
+  },
+  {
+    "question": "Who introduced Gajjatra in Nepal?",
+    "options": ["Gunakamadev", "Jay Prakash Malla", "Pratap Singh Shah", "Rana Bahadur Shah"],
+    "answer": 0
+  },
+  {
+    "question": "Who introduced the system of riding chariot of Kumari in Indrajatta?",
+    "options": ["Jay Prakash Malla", "Rana Bahadur Shah", "Girbanyuddha Bikram Shah", "Surendra Bikram Shah"],
+    "answer": 0
+  },
+  {
+    "question": "When did first Nepal-Tibet war take place?",
+    "options": ["1788", "1789", "1790", "1792"],
+    "answer": 0
+  },
+  {
+    "question": "When was Kerung Treaty signed?",
+    "options": ["1789 June 2", "1792 October 05", "1856 March 24", "1950 July 31"],
+    "answer": 0
+  },
+  {
+    "question": "Thapathali Treaty was signed in 1856 March 24 between which countries?",
+    "options": ["Nepal and China", "Nepal and Tibet", "Nepal and India", "Nepal and India"],
+    "answer": 1
+  },
+  {
+    "question": "When was Nepal-Anglo war held between Nepal and British East India Company?",
+    "options": ["1814-1816", "1815-1817", "1816-1818", "1817-1819"],
+    "answer": 0
+  },
+  {
+    "question": "Who was the defensive commander of Nepal in Nalapani during Nepal-Anglo war?",
+    "options": ["Bhakti Thapa", "Amar Singh Thapa", "Balabhadra Kunwar", "Bhimsen Thapa"],
+    "answer": 2
+  },
+  {
+    "question": "In which battle did Bhakti Thapa lost his life?",
+    "options": ["Almoda", "Kamaan", "Gadhwal", "Deuthai"],
+    "answer": 3
+  },
+  {
+    "question": "Who was the commander of Nepal army in the western region during Nepal Anglo war?",
+    "options": ["Ujir Singh Thapa", "Ranojir Singh Thapa", "Ranabir Singh Thapa", "Amar Singh Thapa"],
+    "answer": 3
+  },
+  {
+    "question": "Who is called the “Hero of Nepal Anglo war” and “The Living Lion of Nepal”?",
+    "options": ["Amar Singh Thapa", "Balabhadra Kunwar", "Bhakti Thapa", "Surbir Thapa"],
+    "answer": 0
+  },
+  {
+    "question": "Where did Balabhadra die?",
+    "options": ["India", "Pakistan", "Afghanistan", "UK"],
+    "answer": 2
+  },
+  {
+    "question": "Where did Amar Singh Thapa commit suicide?",
+    "options": ["Damodar Kunda", "Dudh Kunda", "Gosainkunda", "Narad Kunda"],
+    "answer": 2
+  },
+  {
+    "question": "When was the treaty of Sugauli Signed?",
+    "options": ["1816 March 3", "1816 March 4", "1816 March 5", "1816 March 6"],
+    "answer": 0
+  },
+  {
+    "question": "When was Panchayat system (Partyless system) introduced in Nepal?",
+    "options": ["2015 Poush 22", "2016 Poush 22", "2017 Poush 22", "2018 Poush 22"],
+    "answer": 2
+  },
+  {
+    "question": "Who signed The Betrawati Treaty representing Nepal after second Nepal Tibet war?",
+    "options": ["Devi Dutta Thapa", "Bhakti Thapa", "Pratap Shah", "Kalu Pandey"],
+    "answer": 0
+  },
+  {
+    "question": "The first king to get entitled 'Bikram' is",
+    "options": ["Girbanyuddha", "Rana Bahadur", "Bahadur Shah", "Trailokya"],
+    "answer": 0
+  },
+  {
+    "question": "When did Kot massacre take place?",
+    "options": ["1903 Ashwin 2", "1903 Ashwin 3", "1903 Ashwin 4", "1903 Ashwin 5"],
+    "answer": 0
+  },
+  {
+    "question": "Who was the first person killed in Kot Parva?",
+    "options": ["Abhiman Singh Basnyat", "Birdhoj Basnyat", "Bir Kishor Pandey", "Kamal Mani Thapa"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is incorrect?",
+    "options": [
+      "There were six prime ministers in Nepal before the Rana regime",
+      "Prime minister who died in Kot Parva was Fattejung Shah",
+      "Jung Bahadur Rana became the prime minister of Nepal after this massacre",
+      "The immediate cause of this massacre was the killing of Mathavar Singh Thapa"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "For how many years rana rule lasted in Nepal?",
+    "options": ["102", "103", "104", "105"],
+    "answer": 2
+  },
+  {
+    "question": "When did Bhandarkhal massacre take place?",
+    "options": ["1903 Ashwin 2", "1903 Kartik 12", "1903 Mangsir 16", "1903 Poush 23"],
+    "answer": 1
+  },
+  {
+    "question": "The place named 'Alaau' lies in which place of Nepal?",
+    "options": ["Birgunj", "Bihar", "Sitamadi", "Govargadha"],
+    "answer": 0
+  },
+  {
+    "question": "The first Rana prime minister of Nepal who established Durbar High School is",
+    "options": ["Jung Bahadur Rana", "Bal Narsimha Rana", "Prem Rana", "None"],
+    "answer": 0
+  },
+  {
+    "question": "Who is the first Prime Minister of Nepal to visit Europe?",
+    "options": ["BP Koirala", "Junga Bahadur Rana", "Bhimsen Thapa", "Bir Shumsher"],
+    "answer": 1
+  },
+  {
+    "question": "Who enforced the first civil code of Nepal Muluki Ain?",
+    "options": ["BP Koirala", "Junga Bahadur Rana", "Bhimsen Thapa", "Bir Shumsher"],
+    "answer": 1
+  },
+  {
+    "question": "When was Public Service Commission formed in Nepal?",
+    "options": ["2008 Asar", "2009 Asar", "2007 Asar", "2010 Asar"],
+    "answer": 0
+  },
+  {
+    "question": "Who is the introducer of women education in Nepal?",
+    "options": ["Junga Bahadur Rana", "Bir Shumsher", "Dev Shumsher", "Raman Shumsher"],
+    "answer": 1
+  },
+  {
+    "question": "Who is known as the Dhankute Maharaja?",
+    "options": ["Junga Bahadur Rana", "Bir Shumsher", "Dev Shumsher", "Dambar Shumsher"],
+    "answer": 2
+  },
+  {
+    "question": "When was Sathi pratha abolished from Nepal?",
+    "options": ["1977 Asar 25", "1978 Asar 25", "1979 Asar 25", "1980 Asar 25"],
+    "answer": 0
+  },
+  {
+    "question": "Who was the Prime Minister of Nepal during 2nd World War?",
+    "options": ["Chandra Shumsher", "Juddha Shumsher", "Mohan Shumsher", "Dhir Shumsher"],
+    "answer": 1
+  },
+  {
+    "question": "Who is known as the father of school and Father of Education in Nepal?",
+    "options": [
+      "Mohan Shumsher & Padma Shumsher",
+      "Juddha Shumsher and Dhir Shumsher",
+      "Padma Shumsher & Dev Shumsher",
+      "Dhir Shumsher and Khadga Shumsher"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Who crowned Junga Bahadur Rana with the title 'Shree 3' of Lamjung and Kaski?",
+    "options": ["King Surendra", "King Rajendra", "Trailokya", "Bahadur Shah"],
+    "answer": 0
+  },
+  {
+    "question": "Who introduced Agnate Pratha in Nepal?",
+    "options": ["Ranaudip Singh Kunwar", "Dhir Shumsher", "Jagat Jung", "Jung Bahadur Rana"],
+    "answer": 3
+  },
+  {
+    "question": "Who is the first Prime Minister of Nepal after Rana rule or after democracy declaration?",
+    "options": ["Mohan Shumsher", "Juddha Shumsher", "Padma Shumsher", "BP Koirala"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following pair is incorrect?",
+    "options": [
+      "B.P. Koirala: first public elected Prime minister of Nepal",
+      "Matrika Prasad Koirala: First Prime Minister from the general public",
+      "Manmohan Adhikari: first communist prime minister",
+      "Marichman Singh Shrestha: Last Prime minister of Panchayat System"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Who is the last Rana Prime Minister of Nepal?",
+    "options": ["Mohan Shumsher", "Padma Shumsher", "Bhim Shumsher", "Juddha Shumsher"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the first commercial bank of Nepal?",
+    "options": ["Nepal Arab Bank", "Rastriya Bank Limited", "Nepal Rastra Bank", "Nepal Bank Limited"],
+    "answer": 3
+  },
+  {
+    "question": "Who is the first martyr of Nepal?",
+    "options": ["Gangalal Shrestha", "Shukra Raj Shastri", "Lakhan Thapa", "Dashrath Chand"],
+    "answer": 2
+  },
+  {
+    "question": "When was the first general election held in Nepal?",
+    "options": ["2012", "2013", "2014", "2015"],
+    "answer": 3
+  },
+  {
+    "question": "When was the first public elected government formed in Nepal?",
+    "options": ["2016 Jetha 13", "2016 Asar 16", "2016 Shrawan 13", "2016 Bhadra 5"],
+    "answer": 1
+  },
+  {
+    "question": "Who is the first female minister of Nepal?",
+    "options": ["Shailaja Acharya", "Dwarika Devi Thakurani", "Purnima Shrestha", "Manchhura Devi"],
+    "answer": 1
+  },
+  {
+    "question": "When was the only referendum held in Nepal?",
+    "options": ["2036 Baisakh 10", "2037 Jetha 20", "2037 Baishakh 20", "2039 Asar 2"],
+    "answer": 2
+  },
+  {
+    "question": "Who is known as the political king in Nepalese history?",
+    "options": ["King Birendra", "King Mahendra", "King Gyanendra", "King Surendra"],
+    "answer": 1
+  },
+  {
+    "question": "BIPPA agreement between Nepal and India take place in?",
+    "options": ["2009", "2010", "2011", "2012"],
+    "answer": 2
+  },
+  {
+    "question": "Who is the first female president of Nepal?",
+    "options": ["Sailaja Acharya", "Sushika Karki", "Bidhya Devi Bhandari", "Sushila Thapa"],
+    "answer": 2
+  },
+  {
+    "question": "Who is the first female chief Justice of Nepal?",
+    "options": ["Sailaja Acharya", "Sushila Karki", "Bidhya Devi Bhandari", "Sushila Thapa"],
+    "answer": 1
+  },
+  {
+    "question": "Who is the first female deputy Prime Minister of Nepal?",
+    "options": ["Sailaja Acharya", "Sushika Karki", "Bidhya Devi Bhandari", "Sushila Thapa"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the only temple of Nepal that does not have pinnacle?",
+    "options": ["Pashupatinath", "Krishna Mandir", "Ashok Vinayak", "Swoyambhunath"],
+    "answer": 2
+  },
+  {
+    "question": "Who is the first editor of Gorkhapatra?",
+    "options": ["Nara Dev Pandey", "Subash Chandra Nembang", "Krishna Prasad Bhattarai", "Ratna Shumsher JBR"],
+    "answer": 0
+  },
+  {
+    "question": "Who is the first chair person of constituent Assembly?",
+    "options": ["Mahendra Narayan Nidhi", "Subash Chandra Nembang", "Krishna Prasad Bhattarai", "Baburam Bhattarai"],
+    "answer": 1
+  },
+  {
+    "question": "Who is the first chairman of public service commission?",
+    "options": ["Anirudra Pratap Singh", "Sanjay Dhauranjikar", "Krishna Prasad Bhattarai", "Madhav Prasad Regmi"],
+    "answer": 0
+  },
+  {
+    "question": "Who is the first scientist of Nepal?",
+    "options": ["Khadga Shumsher", "Gehendra Shumsher", "Binaya Singh Rana", "Dhir Shumsher JBR"],
+    "answer": 1
+  },
+  {
+    "question": "Who built Rani Mahal of Palpa?",
+    "options": ["Prem Singh Basnet", "Khadga Shumsher", "Arjun Narsingh Rana", "Bhim Buddha Pulami"],
+    "answer": 1
+  },
+  {
+    "question": "Who is known as the Badakaji in Nepalese History?",
+    "options": ["Bhakti Thapa", "Kalu Pandey", "Balbir Thapa", "Amar Singh Thapa"],
+    "answer": 3
+  },
+  {
+    "question": "Who built Singha Durbar?",
+    "options": ["Junga Bahadur Rana", "Juddha Shumsher", "Padma Shumsher", "Chandra Shumsher"],
+    "answer": 3
+  },
+  {
+    "question": "When did Royal Massacre happen in Royal Palace of Nepal?",
+    "options": ["2001 June 1", "2001 June 2", "2001 June 3", "2001 June 4"],
+    "answer": 0
+  },
+  {
+    "question": "When was MRP introduced by Government of Nepal?",
+    "options": ["2066", "2067", "2068", "2069"],
+    "answer": 1
+  },
+  {
+    "question": "Who is the first person from the general public to wear a Royal Crown (Shreepech)?",
+    "options": ["Jung Bahadur Rana", "Dhir Shumsher", "Bir Shumsher", "Dev Shumsher"],
+    "answer": 0
+  },
+  {
+    "question": "When was Kamaiya system abolished from Nepal?",
+    "options": ["2056 B.S.", "2057 B.S.", "2058 B.S.", "2059 B.S."],
+    "answer": 1
+  },
+  {
+    "question": "Who is the only king to enforce two constitutions of Nepal?",
+    "options": ["Tribhuwan Shah", "Mahendra Shah", "Surendra Shah", "Gyanendra Shah"],
+    "answer": 1
+  },
+  {
+    "question": "Who is known as the Bullet Maharaja?",
+    "options": ["Tribhuwan Shah", "Mahendra Shah", "Surendra Shah", "Trailokya Shah"],
+    "answer": 3
+  },
+  {
+    "question": "'If soldiers are strong the Palace will be strong.' Who said this?",
+    "options": ["Tribhuwan Shah", "Mahendra Shah", "Surendra Shah", "Prithvi Narayan Shah"],
+    "answer": 3
+  },
+  {
+    "question": "During whose period of rule in Nepal, The tri rule (Trayi Sashan, rule by three) existed?",
+    "options": ["Girban Yuddha Bikram Shah", "Mahendra Shah", "Surendra Shah", "Prithvi Narayan Shah"],
+    "answer": 0
+  },
+  {
+    "question": "Which king nicknamed as 'Swami Maharaja' was sworded by his own brother?",
+    "options": ["Rana Bahadur Shah", "Sher Bahadur Shah", "Pratap Singh Shah", "Rajendra Bikram Shah"],
+    "answer": 0
+  },
+  {
+    "question": "Which department carried out the work of constructing houses during Rana regime?",
+    "options": ["Chaprasi Adda", "Sarraf Khana", "Pipa Goshwara", "Shrestha Api"],
+    "answer": 0
+  },
+  {
+    "question": "Which department carried out the Government audit activities during Rana Regime?",
+    "options": ["Kumari Chowk", "Lekha Adda", "Lekhapadhi Adda", "Goth Tahabil"],
+    "answer": 0
+  },
+  {
+    "question": "The famous Medal of Honor “Gorkha Dakshin Bahu” was introduced during the kingship of",
+    "options": ["Prithvi Bir Bikram Shah", "King Tribhuvan", "King Mahendra", "King Birendra"],
+    "answer": 0
+  },
+  {
+    "question": "The department established by Prithvi Narayan Shah to carry out the works related to land and land reformation system was",
+    "options": ["Munsikhana", "Jaisi Kotha", "Chhebhadel Adda", "Sadar Daphtarkhana"],
+    "answer": 3
+  },
+  {
+    "question": "The department that acted as Bank during the reign of Prithvi Narayan Shah was",
+    "options": ["Kaushitosha Khana", "Hiti Chowk", "Bhandarkhal Tahabil", "Census Goshwara"],
+    "answer": 2
+  },
+  {
+    "question": "The department named “Kadel Chowk” during Rana regime carried the function of",
+    "options": ["Gold and silver management", "Cattle and Horse management", "Maintain water supply", "Look after arms and ammunitions"],
+    "answer": 0
+  },
+  {
+    "question": "Who is the signature holder of the treaty of Peace and friendship between Nepal and India that was signed in 1950 July 31?",
+    "options": ["Subarna Shumsher", "Mahabir Shumsher", "Mohan Shumsher", "Matrika Pd. Koirala"],
+    "answer": 2
+  },
+  {
+    "question": "Comprehensive peace accord between the Government of Nepal and Maoist Party/ Declaration of the end of war was signed in",
+    "options": ["2062 Mangsir 5", "2063 Mangsir 7", "2063 Mangsir 13", "2063 Mangsir 5"],
+    "answer": 3
+  },
+  {
+    "question": "When was the first historical election of constituent assembly held?",
+    "options": ["2008 April 10", "2008 April 10", "2008 April 12", "2008 April 14"],
+    "answer": 0
+  },
+  {
+    "question": "Royal proclamation declaring the restoration of House of Representative was made in",
+    "options": ["2063 Baishakh 11", "2063 Baishakh 12", "2063 Baishakh 13", "2063 Baishakh 14"],
+    "answer": 0
+  },
+  {
+    "question": "When was Nepal declared Republic?",
+    "options": ["2008 April 10", "2008 May 28", "2008 June 13", "2008 July 13"],
+    "answer": 1
+  },
+  {
+    "question": "Who is the last national dignitary of Nepal, declared on 2021 June 28?",
+    "options": ["Balabhadra Kunwar", "Sriharsha Thapa", "Amar Singh Thapa", "Bhakti Thapa"],
+    "answer": 3
+  },
+  {
+    "question": "When was Singhadurbar caught on fire?",
+    "options": ["2030 Baishakh 25", "2030 Jetha 25", "2030 Asar 25", "2030 Bhadra 25"],
+    "answer": 2
+  },
+  {
+    "question": "When was the historical constituent Assembly dissolved in Nepal?",
+    "options": ["2012 May 25", "2012 May 26", "2012 May 27", "2012 May 28"],
+    "answer": 3
+  },
+  {
+    "question": "When was the House of Representatives in Nepal dissolved for the last time?",
+    "options": ["2077 Jetha 7", "2077 Jetha 8", "2077 Jetha 9", "2077 Jetha 10"],
+    "answer": 1
+  },
+  {
+    "question": "Who is known as “Panchayat ko Malami” in the history of Nepal?",
+    "options": ["Lokendra Bahadur Chand", "Surya Bahadur Thapa", "Marich Man Singh Shrestha", "Mammohan Adhikari"],
+    "answer": 2
+  },
+  {
+    "question": "Who shifted the capital from Kathmandu to Nuwakot?",
+    "options": ["Prithvi Narayan Shah", "Kalu Pandey", "Bahadur Shah", "Damodar Pandey"],
+    "answer": 3
+  },
+  {
+    "question": "Who is the designer of Martyr’s gate “Nepal Smarak”?",
+    "options": ["Laxman Prasad Chalise", "Shankar Nath Rimal", "Muktila Kayastha", "Gopal Man Chitrakar"],
+    "answer": 1
+  },
+  {
+    "question": "The government of Nepal started the publication of gazette from",
+    "options": ["2008 Shrawan 22", "2008 Magh 21", "2008 Asar 2", "2008 Ashwin 3"],
+    "answer": 0
+  },
+  {
+    "question": "Who was the Prime Minister of Nepal when Nepal signed BIPPA agreement with India?",
+    "options": ["Pushpa Kamal Dahal", "Baburam Bhattarai", "Sher Bahadur Deuba", "Sushil Koirala"],
+    "answer": 1
+  },
+  {
+    "question": "When did the first aircraft land in Nepal?",
+    "options": ["2006 Baishakh 10", "2006 Baishakh 11", "2006 Baishakh 12", "2006 Baishakh 13"],
+    "answer": 1
+  },
+  {
+    "question": "Nepal attained the membership of International Civil Aviation Organization (ICAO)",
+    "options": ["1960 May 29", "1960 June 29", "1960 July 29", "1960 August 29"],
+    "answer": 2
+  },
+  {
+    "question": "When was the house of representative dissolved for the last time?",
+    "options": ["2077 Poush 05", "2077 Falgun 11", "2078 Jetha 08", "2078 Asar 28"],
+    "answer": 2
+  },
+  {
+    "question": "When was the house of representatives reinstated for the last time?",
+    "options": ["2077 Poush 05", "2077 Falgun 11", "2078 Jetha 08", "2078 Asar 28"],
+    "answer": 3
+  },
+  {
+    "question": "When was Jaya Prithivi Bahadur Singh declared the 18th/last national dignitary of Nepal?",
+    "options": [
+      "2079 Asar 05/2022 June 19",
+      "2079 Asar 06/2022 June 20",
+      "2079 Asar 07/2022 June 21",
+      "2079 Asar 08/2022 June 22"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "If I die the nation will not die, but if Bhimsen Thapa dies the nation will collapse. Who said this quote?",
+    "options": ["Bahadur Shah", "Rana Bahadur Shah", "Bhimsen Thapa", "Bhakti Thapa"],
+    "answer": 1
+  }
+],
+
+
   "1.1.1.3 Economic Demography":[
   {
     "question": "Which is the major food crop grown in Nepal?",
@@ -35081,7 +35661,508 @@ window.mcqData = {
   }
   ],
 
-
+"1.1.1.5 Science and Technology":[
+  {
+    "question": "Who is called the Geometrical monster?",
+    "options": ["Euclid", "Archimedes", "John Dalton", "Einstein"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following inventions made Albert Einstein win the Nobel Prize in Physics in 1921?",
+    "options": ["Quantum Theory of Light", "General Theory of Relativity", "The Photoelectric effect", "Wave Particle Duality"],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following invention is related to Thomas Alva Edison?",
+    "options": ["Motion Picture Camera", "AC Current", "Explosive", "Binocular"],
+    "answer": 0
+  },
+  {
+    "question": "Who is the inventor of Radio?",
+    "options": ["Gregor Mendel", "Maxwell", "Guglielmo Marconi", "Archimedes"],
+    "answer": 2
+  },
+  {
+    "question": "Who discovered Generator?",
+    "options": ["Michael Faraday", "Thomas Edison", "Madam Curie", "Alfred Nobel"],
+    "answer": 0
+  },
+  {
+    "question": "Wright Brothers are regarded inventors of the",
+    "options": ["Hot Air Balloon", "Bicycle", "Aeroplane", "None of the above"],
+    "answer": 2
+  },
+  {
+    "question": "Which country has become the first one to approve commercial production of genetically modified golden rice?",
+    "options": ["Thailand", "Cambodia", "Bangladesh", "The Philippines"],
+    "answer": 3
+  },
+  {
+    "question": "The study of all the factors that are responsible for the appearance of a particular disease is called",
+    "options": ["Aetiology", "Epidemic", "Endermic", "Epidemiology"],
+    "answer": 2
+  },
+  {
+    "question": "The wave nature of electrons was first experimentally established by -",
+    "options": ["Photoelectric effect", "Double slit experiment", "Davisson and Germer experiment", "Compton Effect"],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following does not contribute to the pollution in the water body?",
+    "options": ["Heavy metal", "Ozone", "Micro plastics", "Pesticides"],
+    "answer": 1
+  },
+  {
+    "question": "How much percentage of freshwater is available on earth?",
+    "options": ["30%", "3%", "0.3%", "0.17%"],
+    "answer": 1
+  },
+  {
+    "question": "Researchers from the UK and India have developed a handwashing robot, which has been named",
+    "options": ["Gope", "Hepe", "Hope", "Pepe"],
+    "answer": 3
+  },
+  {
+    "question": "Who amongst the following is a pioneer in discovering the heating effect of electric current?",
+    "options": ["Isaac Newton", "Galileo Galilei", "James P. Joule", "J.J. Thomson"],
+    "answer": 2
+  },
+  {
+    "question": "The instrument used to measure the temperature of the source from its thermal radiation -",
+    "options": ["Hydrometer", "Barometer", "Thermopile", "Pyrometer"],
+    "answer": 2
+  },
+  {
+    "question": "SPHEREX mission has been launched by ……(Note: SPHEREX (Spectro-Photometer for the History of the Universe)",
+    "options": ["NASA (USA)", "ISRO (India)", "Roscosmos (Russia)", "CNSA (China)"],
+    "answer": 0
+  },
+  {
+    "question": "Virtual currency Bitcoin is based on -",
+    "options": ["Block Chain Technology", "Internet of Things", "Artificial Intelligence", "3-D Printing"],
+    "answer": 0
+  },
+  {
+    "question": "Higgs Boson is also known as the -",
+    "options": ["Electron", "Sand Particle", "Neutron", "God Particle"],
+    "answer": 3
+  },
+  {
+    "question": "Which was the first living creature sent in space?",
+    "options": ["Cat", "Dog", "Monkey", "Rat"],
+    "answer": 2
+  },
+  {
+    "question": "The blood pressure of a young male human being is",
+    "options": ["110/70", "120/80", "135/90", "140/100"],
+    "answer": 1
+  },
+  {
+    "question": "The electron was first identified by",
+    "options": ["J. Kepler", "D. Rutherford", "J. J. Thompson", "James Chadwick"],
+    "answer": 2
+  },
+  {
+    "question": "The first attempt in printing was made in England by",
+    "options": ["William Caxton", "James Watt", "James Arkwright", "Isaac Newton"],
+    "answer": 0
+  },
+  {
+    "question": "The branch of science that studies cells is called",
+    "options": ["cytology", "homoplasty", "entomology", "hormonology"],
+    "answer": 0
+  },
+  {
+    "question": "The energy of food is measured in",
+    "options": ["kelvin", "bushel", "Calories", "None of the above"],
+    "answer": 2
+  },
+  {
+    "question": "The frequency of which of the following is the highest?",
+    "options": ["Micro waves", "Radio waves", "Gamma rays", "Light waves"],
+    "answer": 2
+  },
+  {
+    "question": "The clear sky looks blue because",
+    "options": ["reflection of light", "refraction of light", "diffraction of light", "dispersion of light"],
+    "answer": 3
+  },
+  {
+    "question": "The first Indian and Asian to receive the Nobel Prize in Physics was",
+    "options": ["C.V. Raman", "Mother Teresa", "Rabindranath Tagore", "S. Chandrasekhar"],
+    "answer": 0
+  },
+  {
+    "question": "The common pesticides which are in use consist of",
+    "options": ["PCBs", "organochlorines", "olefins", "heterocyclic compounds"],
+    "answer": 2
+  },
+  {
+    "question": "The chemical name of Vitamin B is",
+    "options": ["thiamine", "ascorbic acid", "riboflavin", "nicotinamide"],
+    "answer": 0
+  },
+  {
+    "question": "The instrument used to measure electric current is",
+    "options": ["ammeter", "electrometer", "galvanometer", "spectrometer"],
+    "answer": 0
+  },
+  {
+    "question": "The Law of Natural Selection is associated with",
+    "options": ["Dalton", "Darwin", "Kepler", "Mendel"],
+    "answer": 1
+  },
+  {
+    "question": "The reaction which converts sugar solution into alcohol is an example of",
+    "options": ["saponification", "hydrogenation", "fermentation", "hydrolysis"],
+    "answer": 2
+  },
+  {
+    "question": "The Scottish bacteriologist who discovered penicillin was",
+    "options": ["Alexander Fleming", "Albert Einstein", "Archimedes", "Aryabhatta"],
+    "answer": 0
+  },
+  {
+    "question": "The number of already named bones in the human skeleton is",
+    "options": ["200", "206", "212", "218"],
+    "answer": 1
+  },
+  {
+    "question": "The ozone layer restricts",
+    "options": ["visible light", "infrared radiation", "x-rays and gamma rays", "ultraviolet radiation"],
+    "answer": 3
+  },
+  {
+    "question": "The site of the third oldest civilisation after the Sumerian and Egyptian, Mohenjo-daro, was built in",
+    "options": ["2500 BC", "2500-2000 BC", "2300 BC", "2200 BC"],
+    "answer": 0
+  },
+  {
+    "question": "The normal threshold of hearing is around",
+    "options": ["60-80 db", "45-60 db", "100-120 db", "25-45 db"],
+    "answer": 3
+  },
+  {
+    "question": "The refrigerant commonly used for domestic refrigerators is",
+    "options": ["alcohol", "ammonia", "neon", "None of the above"],
+    "answer": 1
+  },
+  {
+    "question": "The ozone layer is being destroyed by chlorofluorocarbons. In this regard which do you consider as the most harmful?",
+    "options": ["Carbon atom", "Chlorine atom", "Fluorine atom", "The entire compound"],
+    "answer": 2
+  },
+  {
+    "question": "The red blood cells are formed in the",
+    "options": ["Heart", "Liver", "Lymph Nodes", "Bone Marrow"],
+    "answer": 3
+  },
+  {
+    "question": "The SI unit of ___ is named after Andre Marie Ampere.",
+    "options": ["power", "potential difference", "electric current", "energy"],
+    "answer": 2
+  },
+  {
+    "question": "The scientist who first discovered that the earth revolves round the sun was",
+    "options": ["Newton", "Dalton", "Nicholas Copernicus", "Einstein"],
+    "answer": 2
+  },
+  {
+    "question": "The 'pulse' of the aquatic environment can be ascertained by measuring",
+    "options": ["nitrogen", "oxygen", "alkalinity", "conductivity"],
+    "answer": 1
+  },
+  {
+    "question": "The range of R.B.C to W.B.C in the human body is",
+    "options": ["15 : 500", "10 : 500", "5 : 500", "1 : 500"],
+    "answer": 3
+  },
+  {
+    "question": "The number of chromosomes in human body is",
+    "options": ["42", "44", "46", "48"],
+    "answer": 2
+  },
+  {
+    "question": "The purest form of water can be obtained from",
+    "options": ["a deep tubewell", "a running stream", "a hot water spring", "a heavy shower of rain"],
+    "answer": 3
+  },
+  {
+    "question": "The telescope is used for viewing",
+    "options": ["distant objects", "near objects", "small objects", "living cells"],
+    "answer": 0
+  },
+  {
+    "question": "Venturi tube is used for",
+    "options": ["measuring intensity of earthquakes", "measuring specific gravity", "measuring density", "measuring flow of a fluid"],
+    "answer": 3
+  },
+  {
+    "question": "The velocity of light was first measured by",
+    "options": ["Einstein", "Newton", "Romer", "Galileo"],
+    "answer": 2
+  },
+  {
+    "question": "Weight of an object put in a satellite orbiting in space around the earth is",
+    "options": ["the same as on the earth", "slightly more than that on the earth", "less than that on the earth", "reduced to zero"],
+    "answer": 3
+  },
+  {
+    "question": "The three abundant elements in the earth's crust are aluminium, oxygen and silicon. The correct order of their abundance is",
+    "options": ["oxygen, aluminium, silicon", "aluminium, silicon, oxygen", "oxygen, silicon, aluminium", "silicon, oxygen, aluminium"],
+    "answer": 2
+  },
+  {
+    "question": "Velocity of wind is measured by",
+    "options": ["speedometer", "tachometer", "anemometer", "audiometer"],
+    "answer": 2
+  },
+  {
+    "question": "The unit of energy in MKS system is",
+    "options": ["volt", "erg", "ohm", "joule"],
+    "answer": 3
+  },
+  {
+    "question": "The theory of inheritance of acquired character was propounded by",
+    "options": ["Charles Darwin", "Gregor Mendel", "J.B. Lamarck", "Weismann"],
+    "answer": 2
+  },
+  {
+    "question": "The SI unit of ___ is named after Andre Marie Ampere.",
+    "options": ["power", "potential difference", "electric current", "energy"],
+    "answer": 2
+  },
+  {
+    "question": "When did Yuri Alekseyevich Gagarin of Russia, the first man to reach space, reached space?",
+    "options": ["1960", "1961", "1962", "1963"],
+    "answer": 1
+  },
+  {
+    "question": "When a given amount of air is cooled",
+    "options": ["the amount of moisture it can hold decreases", "its absolute humidity decreases", "its relative humidity remains constant", "its absolute humidity increases"],
+    "answer": 0
+  },
+  {
+    "question": "What is the function of a dynamo?",
+    "options": ["To convert heat energy into light energy", "To convert light energy into heat energy", "To convert mechanical energy into electrical energy", "To convert electrical energy into mechanical energy"],
+    "answer": 2
+  },
+  {
+    "question": "Yuri Gagarin was",
+    "options": ["a Russian cosmonaut & became the first man to travel in space.", "the first person to fly at great height of about 340 km from the earth", "both (a) and (b)", "None of the above"],
+    "answer": 2
+  },
+  {
+    "question": "When did Commander Robert Peary discovered North Pole?",
+    "options": ["1904", "1905", "1908", "1909"],
+    "answer": 3
+  },
+  {
+    "question": "When did Roald Amundsen discover South Pole?",
+    "options": ["1909", "1910", "1911", "1912"],
+    "answer": 2
+  },
+  {
+    "question": "When did US astronauts Neil Armstrong and Edwin E. Aldrin land on the moon?",
+    "options": ["July 21, 1969", "July 21, 1970", "July 21, 1963", "July 21, 1972"],
+    "answer": 0
+  },
+  {
+    "question": "What is the S.I. unit of temperature?",
+    "options": ["Kelvin", "Celsius", "Centigrade", "Fahrenheit"],
+    "answer": 0
+  },
+  {
+    "question": "When did India enter into space age by launching the satellite 'Aryabhatta'?",
+    "options": ["1966", "1932", "1975", "1990"],
+    "answer": 2
+  },
+  {
+    "question": "When Christopher Columbus did discover the North America?",
+    "options": ["1455 AD", "1492 AD", "1139 AD", "1556 AD"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following act as a channel of transmission of blood to the heart in the human body?",
+    "options": ["Arteries", "Muscle fibres", "Nerves", "Veins"],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following acts as a resistance against in the body?",
+    "options": ["Carbohydrates", "Red corpuscles", "Vitamins", "White corpuscles"],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following inventions were done by Thomas Alva Edison?",
+    "options": ["Incandescent lamp", "Phonograph (Gramophone) and microphone", "Carbon telephone transmitters", "All of the above"],
+    "answer": 3
+  },
+  {
+    "question": "When was Mona Lisa painted by Leonardo da Vinci?",
+    "options": ["1431 AD", "1492 AD", "1504 AD", "1556 AD"],
+    "answer": 2
+  },
+  {
+    "question": "On a night when the sky is clear, the temperature may dip considerably; on a cloudy night the temperature will usually dip much less. The reason for this difference is that",
+    "options": ["the clear sky allows radiant energy to escape readily from the earth", "on a cloudy night the clouds are warm and therefore retard the cooling", "the clear sky allows the cold of outer space to reach the earth", "current of air carry the heat away from the earth on a clear night"],
+    "answer": 0
+  },
+  {
+    "question": "Name the instrument used to measure relative humidity",
+    "options": ["Hydrometer", "Hygrometer", "Barometer", "Mercury Thermometer"],
+    "answer": 1
+  },
+  {
+    "question": "Michael Faraday discovered",
+    "options": ["electromagnetism", "benzene, liquid gases and optical glass", "the induction of electric current", "All of the above"],
+    "answer": 3
+  },
+  {
+    "question": "Most commonly used bleaching agent is",
+    "options": ["alcohol", "carbon dioxide", "chlorine", "sodium chloride"],
+    "answer": 2
+  },
+  {
+    "question": "Neil Armstrong and Edwin Aldrin were the first to",
+    "options": ["step on the moon", "circle the moon", "walk in space", "journey into space"],
+    "answer": 0
+  },
+  {
+    "question": "Leonardo da Vinci",
+    "options": ["was a great Italian painter, sculptor and architect", "got universal fame form his masterpiece", "drew models of organs such as the heart, lungs and womb", "All of the above"],
+    "answer": 3
+  },
+  {
+    "question": "Marco Polo",
+    "options": ["discovered Greenland", "travelled through China, India and other parts of Asia", "travelled round the Cape of Good Hope", "discovered Canada"],
+    "answer": 1
+  },
+  {
+    "question": "Of the blood groups A, B, AB and O, which one is transfused into a person whose blood group is A?",
+    "options": ["Group A only", "Group B only", "Group A and O", "Group AB only"],
+    "answer": 2
+  },
+  {
+    "question": "Numismatics is the study of",
+    "options": ["coins", "numbers", "stamps", "space"],
+    "answer": 0
+  },
+  {
+    "question": "What is the name of the CalTech seismologist who invented the scale used to measure the magnitude of earthquakes?",
+    "options": ["Charles Richter", "Hiram Walker", "Giuseppe Mercalli", "Joshua Rumble"],
+    "answer": 0
+  },
+  {
+    "question": "What James Watt invented?",
+    "options": ["Diving bell", "Steam boat", "Hot air balloon", "Rotary steam engine"],
+    "answer": 3
+  },
+  {
+    "question": "Who invented Jet Engine?",
+    "options": ["Sir Frank Whittle", "Gottlieb Daimler", "Roger Bacon", "Lewis E. Waterman"],
+    "answer": 0
+  },
+  {
+    "question": "What invention caused many deaths while testing it?",
+    "options": ["Dynamic", "Ladders", "Race cars", "Parachute"],
+    "answer": 3
+  },
+  {
+    "question": "What now ubiquitous device was invented by Zenith engineer Eugene Polley in 1955?",
+    "options": ["Microwave oven", "Remote control", "VCR", "Calculator"],
+    "answer": 1
+  },
+  {
+    "question": "What Benjamin Franklin invented?",
+    "options": ["Bifocal spectacles", "Radio", "Barometer", "Hygrometer"],
+    "answer": 0
+  },
+  {
+    "question": "This part-time race car driver invented the bucket seat in 1969.",
+    "options": ["Steve McQueen", "Harrison Frazier", "Paul Newman", "John Wayne"],
+    "answer": 0
+  },
+  {
+    "question": "What plaything was invented by Joe McVicker in 1956?",
+    "options": ["Silly Putty", "Etch-A-Sketch", "Lite-Brite", "Play-Doh"],
+    "answer": 3
+  },
+  {
+    "question": "Who invented Gramophone?",
+    "options": ["Michael Faraday", "Fahrenheit", "Sir Alexander Graham Bell", "Thomas Alva Edison"],
+    "answer": 3
+  },
+  {
+    "question": "Which scientist used to forget his own name?",
+    "options": ["Michael Faraday", "John Dalton", "Issac Newton", "Thomas Alba Edison"],
+    "answer": 3
+  },
+  {
+    "question": "Who conceived the idea of parachute?",
+    "options": ["Leonardo Da Vinci", "Solomon Lee Van Meter", "Fausto Veranzio", "J. Blanchard"],
+    "answer": 0
+  },
+  {
+    "question": "The Manhattan Project was started by President Roosevelt in 1942 to ensure that the U.S. beat the Germans in developing a nuclear bomb. Whom did Roosevelt appoint as scientific head the Manhattan Project?",
+    "options": ["Robert Oppenheimer", "James B. Conant", "Leslie R. Groves", "Vannevar Bush"],
+    "answer": 0
+  },
+  {
+    "question": "Who is the English physicist responsible for the 'Big Bang Theory'?",
+    "options": ["Albert Einstein", "Michael Skube", "George Gamow", "Roger Penrose"],
+    "answer": 2
+  },
+  {
+    "question": "Which insurance salesman invented the fountain pen in 1884?",
+    "options": ["Lewis Edson Waterman", "Sir William Grove", "Charles Kettering", "George Fountain"],
+    "answer": 0
+  },
+  {
+    "question": "What Enrico Fermi invented?",
+    "options": ["X ray machine", "Betatron", "Cyclotron", "Nuclear reactor"],
+    "answer": 3
+  },
+  {
+    "question": "Who among the following invented the small pox vaccine?",
+    "options": ["Robert Koch", "Edward Jenner", "Robert Hooke", "Louis Pasteur"],
+    "answer": 1
+  },
+  {
+    "question": "What invention is credited to the Russian born American inventor Vladimir Kosma Zworykin?",
+    "options": ["Telegraph", "Radio", "Television", "Dishwasher"],
+    "answer": 2
+  },
+  {
+    "question": "Benjamin Franklin was a prolific inventor. He invented the lightning rod, the Franklin stove, studied electricity, discovered the Gulf Stream, started the first library, and on and on. Among his other inventions, what musical instrument did he invent?",
+    "options": ["Banjo", "Oboe", "Clarinet", "Harmonium"],
+    "answer": 3
+  },
+  {
+    "question": "What Elisha Otis invented?",
+    "options": ["The brake used in modern elevators", "Jet Engine", "Turbine", "Hydraulic Crane"],
+    "answer": 0
+  },
+  {
+    "question": "Who invented Bifocal Lens?",
+    "options": ["Alfred B. Nobel", "Thomas Alva Edison", "Benjamin Franklin", "Rudolf Diesel"],
+    "answer": 2
+  },
+  {
+    "question": "What Karl Benz invented?",
+    "options": ["Gasoline powered automobile", "Streetcar", "Glider", "Steam turbine"],
+    "answer": 0
+  },
+  {
+    "question": "Who invented Dynamite?",
+    "options": ["Sir Alexander Graham Bell", "Benjamin Franklin", "Thomas Alva Edison", "Alfred B. Nobel"],
+    "answer": 3
+  },
+  {
+    "question": "Who invented Bicycle?",
+    "options": ["Leo H Baekeland", "Karl Benz", "Evangelista Torricelli", "Kirkpatrick Macmillan"],
+    "answer": 3
+  }
+],
   "1.3 Geographic Diversity, Climatic Condition and Livelihood":  [
     {
         question: "What percent of the total area of Nepal is occupied by Mountain region?",
