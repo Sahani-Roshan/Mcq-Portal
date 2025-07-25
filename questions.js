@@ -13005,9 +13005,7 @@ window.mcqData = {
   options: [
     "increases",
     "decreases",
-    "both (",
-    "and (",
-    "of above",
+    "both",
     "none of the above",
   ],
   answer: 0
