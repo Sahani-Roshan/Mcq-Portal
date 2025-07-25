@@ -10711,7 +10711,7 @@ window.mcqData = {
   {
     question: "The drawing for municipality is done at scale",
     options: ["1\" = 8'", "1:50", "1:100", "both (a) and (c)"],
-    answer: 0
+    answer: 3
   },
   {
     question: "To measure a fraction we use",
@@ -34211,587 +34211,1878 @@ window.mcqData = {
 
   ],
 
-"1.1.1.2 Notable Events":[
+  "1.1.2 Socio Culture aspect":[
+  {
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which is the oldest religion of the world?",
+      "options": {
+        "a": "Hinduism",
+        "b": "Buddhism",
+        "c": "Islam",
+        "d": "Christianity"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 2,
+      "question": "Which is the largest religion of the world?",
+      "options": {
+        "a": "Hinduism",
+        "b": "Christianity",
+        "c": "Buddhism",
+        "d": "Islam"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 3,
+      "question": "How many religions are observed in Nepal according to census 2021?",
+      "options": {
+        "a": "10",
+        "b": "11",
+        "c": "12",
+        "d": "13"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 4,
+      "question": "What percent of people in Nepal observe Hinduism according to the census of 2011?",
+      "options": {
+        "a": "80.3%",
+        "b": "81.19%",
+        "c": "82.3%",
+        "d": "83.3%"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 5,
+      "question": "What is the religious text of Hinduism called?",
+      "options": {
+        "a": "Quran",
+        "b": "Bible",
+        "c": "Veda",
+        "d": "Tripitak"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 6,
+      "question": "Hindus believe that existence is a cycle of",
+      "options": {
+        "a": "Birth",
+        "b": "death",
+        "c": "rebirth",
+        "d": "Karma",
+        "e": "All of the above"
+      },
+      "answer": "e"
+    },
+    {
+      "id": 7,
+      "question": "Which is the least worshipped god of Hinduism?",
+      "options": {
+        "a": "Brahma",
+        "b": "Vishnu",
+        "c": "Shiva",
+        "d": "Saraswati"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 8,
+      "question": "Which is the first incarnation of Lord Vishnu?",
+      "options": {
+        "a": "Kurma",
+        "b": "Matsya",
+        "c": "Varaha",
+        "d": "Narsimha"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 9,
+      "question": "Snake hanged around the neck of Lord Shiva is",
+      "options": {
+        "a": "Natraja",
+        "b": "Bhairava",
+        "c": "Bashuki",
+        "d": "Nandi"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 10,
+      "question": "Which is the oldest Veda?",
+      "options": {
+        "a": "Rig Veda",
+        "b": "Yajur- Veda",
+        "c": "Sam Veda",
+        "d": "Atharva Veda"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 11,
+      "question": "Which is the shortest Veda?",
+      "options": {
+        "a": "Rig Veda",
+        "b": "Yajur- Veda",
+        "c": "Sam Veda",
+        "d": "Atharva Veda"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 12,
+      "question": "Music is believed to have originated from",
+      "options": {
+        "a": "Rig Veda",
+        "b": "Yajur- Veda",
+        "c": "Sam Veda",
+        "d": "Atharva Veda"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 13,
+      "question": "Shrimal Bhagavad Gita was originally written in which language?",
+      "options": {
+        "a": "Sanskrit",
+        "b": "Pali",
+        "c": "Tiruhatta",
+        "d": "Bramhi"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 14,
+      "question": "Which is the largest epic of the world?",
+      "options": {
+        "a": "Ramayana",
+        "b": "Mahabharata",
+        "c": "Upanishad",
+        "d": "Indra jal"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 15,
+      "question": "Who is the composer of Mahabharata?",
+      "options": {
+        "a": "Valmiki",
+        "b": "Ved-Vyasa",
+        "c": "Ganesha",
+        "d": "Bhanubikata Acharya"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 16,
+      "question": "Who is called the light of Asia?",
+      "options": {
+        "a": "Jesus Christ",
+        "b": "Gurunanak",
+        "c": "Gautam Buddha",
+        "d": "Mahabir Jain"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 17,
+      "question": "Where did Gautam Buddha attain enlightenment?",
+      "options": {
+        "a": "Bodhgaya",
+        "b": "Sarnath",
+        "c": "Vaishali",
+        "d": "Kushinagar"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 18,
+      "question": "Which is the oldest Pillar (Idol) of Nepal?",
+      "options": {
+        "a": "Ashoka Pillar",
+        "b": "Virupakshya",
+        "c": "Vishworupa",
+        "d": "Kalbhairabh"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 19,
+      "question": "Who is the founder of Islam?",
+      "options": {
+        "a": "Swetamber Hajrath",
+        "b": "Guru Nanak",
+        "c": "Hajarath Musa",
+        "d": "Paigambar Mohanhad"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 20,
+      "question": "What is the religious text of Kirant called?",
+      "options": {
+        "a": "Pinak",
+        "b": "Samran Bachan",
+        "c": "Sumnima",
+        "d": "Mundhum"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 21,
+      "question": "“Dhaan nach” is the cultural dance of which ethnic group?",
+      "options": {
+        "a": "Rai",
+        "b": "Limbu",
+        "c": "Tamang",
+        "d": "Newar"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 22,
+      "question": "What is the religious priest of Magar called?",
+      "options": {
+        "a": "Baiga",
+        "b": "Deusi",
+        "c": "Pande",
+        "d": "Bhusal"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 23,
+      "question": "Which ethnic caste is called Praja?",
+      "options": {
+        "a": "Raute",
+        "b": "Praja",
+        "c": "Dhimal",
+        "d": "Jirel"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 24,
+      "question": "The festival “Tamu Lhosar” is observed by",
+      "options": {
+        "a": "Tamang",
+        "b": "Magar",
+        "c": "Sherpa",
+        "d": "Gurung"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 25,
+      "question": "The festival “Shiruwa” is observed by which ethnic group of Nepal?",
+      "options": {
+        "a": "Rajbanshi",
+        "b": "Mandal",
+        "c": "Yadav",
+        "d": "Satar"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 26,
+      "question": "Which caste does not use vermilion in the marriage function?",
+      "options": {
+        "a": "Tamang",
+        "b": "Gurung",
+        "c": "Sherpa",
+        "d": "Magar"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 27,
+      "question": "Which of the following caste does not fall under marginalized indigenous caste?",
+      "options": {
+        "a": "Dhimal",
+        "b": "Tamang",
+        "c": "Tharu",
+        "d": "Danuwar"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 28,
+      "question": "How many endangered castes are there in Nepal?",
+      "options": {
+        "a": "8",
+        "b": "9",
+        "c": "10",
+        "d": "11"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 29,
+      "question": "What is the native place of origin of “Byashi” ethnic group?",
+      "options": {
+        "a": "Bajhang",
+        "b": "Darchula",
+        "c": "Baitadi",
+        "d": "Dailekh"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 30,
+      "question": "Which caste does not have permanent residence?",
+      "options": {
+        "a": "Dhunel",
+        "b": "Banjara",
+        "c": "Bankariya",
+        "d": "Raute"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 31,
+      "question": "The caste which provides ingua fruit tree (Chiuri tree) as dowry is",
+      "options": {
+        "a": "Raute",
+        "b": "Chepang",
+        "c": "Hyolmo",
+        "d": "Lhomi"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 32,
+      "question": "Which caste is called “Karvote”?",
+      "options": {
+        "a": "Lhomi",
+        "b": "Hayu",
+        "c": "Gaine",
+        "d": "Kishan"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 33,
+      "question": "It is sin to touch money. This statement is truth in which caste?",
+      "options": {
+        "a": "Raute",
+        "b": "Chhantyal",
+        "c": "Free",
+        "d": "Puma"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 34,
+      "question": "When did Chandra Sumsher declare the end of slavery system in Nepal?",
+      "options": {
+        "a": "1981 Bhadra 13",
+        "b": "1981 Ashwin 07",
+        "c": "1981 Kartik 29",
+        "d": "1981 Magh 08"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 35,
+      "question": "Daughters from poor family are bought by the rich and are offered to god as a vow. This evil is called",
+      "options": {
+        "a": "Jhuma Pratha",
+        "b": "Deuki pratha",
+        "c": "Jhara Pratha",
+        "d": "Danguwa Prata"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 36,
+      "question": "What is the second most spoken language of Nepal?",
+      "options": {
+        "a": "Nepali",
+        "b": "Maithili",
+        "c": "Bhoipuri",
+        "d": "Newari"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 37,
+      "question": "Language that falls in unknown language group is",
+      "options": {
+        "a": "Santhal",
+        "b": "Tamil",
+        "c": "Kusunda",
+        "d": "Mulayam"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 38,
+      "question": "What is the language spoken by Raute called?",
+      "options": {
+        "a": "Khamjee",
+        "b": "Khamchi",
+        "c": "Kham",
+        "d": "Kagate"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 39,
+      "question": "Nepali, Bhoipuri, Maithili fall in which family of language?",
+      "options": {
+        "a": "Bharopeli",
+        "b": "Bhot Burmese",
+        "c": "Dravid",
+        "d": "Agneya"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 40,
+      "question": "Which is the third least populated caste of Nepal?",
+      "options": {
+        "a": "Raute",
+        "b": "Norang",
+        "c": "Kusunda",
+        "d": "Kalat"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 41,
+      "question": "Which is the newly added caste in the list of indigenous caste?",
+      "options": {
+        "a": "Dhimal",
+        "b": "Raute",
+        "c": "Humli",
+        "d": "Santhal"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 42,
+      "question": "Match the correct pair regarding Gautam Buddha",
+      "table": {
+        "Event": ["First sermon", "Last sermon", "Enlightenment", "Death"],
+        "Place": ["Vaishali", "Sarnath", "Bodhgaya", "Kushinagar"]
+      },
+      "options": {
+        "a": "a-ii, b-i, c-iv, d-iii",
+        "b": "a-ii, b-iv, c-i, d-iii",
+        "c": "a-i, b-ii, c-iii, d-iv",
+        "d": "a-ii, b-i, c-iii, d-iv"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 43,
+      "question": "What is the death of Gautam Buddha called?",
+      "options": {
+        "a": "Parinisvikarna",
+        "b": "Dharma Chakra Pravartan",
+        "c": "Mahapariniryana",
+        "d": "Mahanibhiskaran"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 44,
+      "question": "Which of the following does not fall under eight fold path truths (Astangik marga)?",
+      "options": {
+        "a": "Right Understanding",
+        "b": "Right Speech",
+        "c": "Right meditation",
+        "d": "Right attitude"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 45,
+      "question": "Sati pratha was first included in which Veda?",
+      "options": {
+        "a": "Atharva Veda",
+        "b": "Rig Veda",
+        "c": "Yajur Veda",
+        "d": "Sama Veda"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 46,
+      "question": "Vedic text are sometimes called",
+      "options": {
+        "a": "Mantra",
+        "b": "Shruti",
+        "c": "Katha",
+        "d": "Sonet"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 47,
+      "question": "The class system (Brahmin, Kshatriya, Vaishya and Sudra) was conceptualized in which veda",
+      "options": {
+        "a": "Rig Veda",
+        "b": "Atharva Veda",
+        "c": "Yajur Veda",
+        "d": "Sama Veda"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 48,
+      "question": "Which god motivated Valmiki to compose Ramayana?",
+      "options": {
+        "a": "Brahma",
+        "b": "Vishnu",
+        "c": "Krishna",
+        "d": "Shiva"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 49,
+      "question": "Who translated Ramayana initially written in Sanskrit into Nepali language?",
+      "options": {
+        "a": "Bhanu Bhakta Acharya",
+        "b": "Motiram Bhatta",
+        "c": "Vedbyas",
+        "d": "Agnetro"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 50,
+      "question": "Identify the incorrect pair regarding the holy places of different religions",
+      "options": {
+        "a": "Hindu......Temple",
+        "b": "Muslim......Mosque/Masjid",
+        "c": "Christianity......Church",
+        "d": "Buddhism......Agni Mandir"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 51,
+      "question": "Match the correct pair",
+      "table": {
+        "Description": ["Religious rituals", "Gotta word first used", "Shortest Veda", "Magical formulae"],
+        "Veda": ["Sama Veda", "Atharva Veda", "Yajur Veda", "Rig Veda"]
+      },
+      "options": {
+        "a": "a-ii, b-i, c-iv, d-iii",
+        "b": "a-iii, b-iv, c-i, d-ii",
+        "c": "a-i, b-ii, c-iii, d-iv",
+        "d": "a-ii, b-i, c-iii, d-iv"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 52,
+      "question": "The largest Hindu temple “Angkor wat” is located at",
+      "options": {
+        "a": "Malaysia",
+        "b": "Brunei",
+        "c": "Vietnam",
+        "d": "Cambodia"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 53,
+      "question": "Whose statue is found in maximum number in the world?",
+      "options": {
+        "a": "Gautam Buddha",
+        "b": "Jesus Christ",
+        "c": "Mahabir Jain",
+        "d": "Hajrath Musa"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 54,
+      "question": "Who built Pashupatinath temple?",
+      "options": {
+        "a": "Mandev",
+        "b": "Prachnada Dev",
+        "c": "Anshuverma",
+        "d": "Basanta Dev"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 55,
+      "question": "Which is the first temple of Nepal?",
+      "options": {
+        "a": "Changunarayan",
+        "b": "Swoyanbhunath",
+        "c": "Dakshinkali",
+        "d": "Pashupatinath"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 56,
+      "question": "In which country is “Borobudur” the largest Buddha temple of the world?",
+      "options": {
+        "a": "Indonesia",
+        "b": "Malaysia",
+        "c": "Cambodia",
+        "d": "Singapore"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 57,
+      "question": "Which is the second most spoken mother language of Nepal?",
+      "options": {
+        "a": "Bhojpuri",
+        "b": "Maithili",
+        "c": "Kirat",
+        "d": "Dotyali"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 58,
+      "question": "When was Nepal declared Secular state?",
+      "options": {
+        "a": "2063 Jestha 04",
+        "b": "2063 Mangshir 05",
+        "c": "2063 Kartik 23",
+        "d": "2063 Magh 08"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 59,
+      "question": "The famous place where the war of Mahabharata was fought currently lies in which state of India?",
+      "options": {
+        "a": "Himanchal Pradesh",
+        "b": "Hariyana",
+        "c": "Uttar Pradesh",
+        "d": "Bihar"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 60,
+      "question": "Match languages and language families.",
+      "table": {
+        "Language": ["Khan", "Darai", "Urau"],
+        "Language Family": ["Other", "Chinese/Tibetan", "Bharopeli"]
+      },
+      "options": {
+        "a": "A-3, B-1, C-2",
+        "b": "A-2, B-1, C-3",
+        "c": "A-1, B-2, C-3",
+        "d": "A-2, B-3, C-1"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 61,
+      "question": "Which is the first district declared free from Kamlari Pratha?",
+      "options": {
+        "a": "Banke",
+        "b": "Bardiya",
+        "c": "Dang",
+        "d": "Kanchanpur"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 62,
+      "question": "Match the correct pairs of different religions practiced in Nepal and their places of worship.",
+      "table": {
+        "Religions": ["Hinduism", "Buddhism", "Islam", "Christianity"],
+        "Place of worship": ["Bihar", "Temple", "Church", "Masjid"]
+      },
+      "options": {
+        "a": "A-2, B-3, C-4, D-1",
+        "b": "A-4, B-3, C-2, D-1",
+        "c": "A-2 B-1, C-4, D-3",
+        "d": "A-3 B 2, C-1, D-4"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 63,
+      "question": "Match the correct pair",
+      "table": {
+        "Religions": ["Hinduism", "Buddhism", "Islam", "Christianity"],
+        "Place of worship": ["Bihar", "Temple", "Church", "Masjid"]
+      },
+      "options": {
+        "a": "A-2, B-3, C-4, D-1",
+        "b": "A-4, B-3, C-2, D-1",
+        "c": "A-2 B-1, C-4, D-3",
+        "d": "A-3 B 2, C-1, D-4"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 64,
+      "question": "What was the name of the father of ancient character Veda vyas?",
+      "options": {
+        "a": "Vasudeva",
+        "b": "Yudhisthira",
+        "c": "Atri",
+        "d": "Parashara"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 65,
+      "question": "Thakurbaba temple is located in which district?",
+      "options": {
+        "a": "Bardiya",
+        "b": "Banke",
+        "c": "Dang",
+        "d": "Kapilvastu"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 66,
+      "question": "Which is the first movie of newari language of Nepal?",
+      "options": {
+        "a": "Umi",
+        "b": "Sherni",
+        "c": "Gunii",
+        "d": "Uni"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 67,
+      "question": "What was the name of King Janak's queen?",
+      "options": {
+        "a": "Kunti",
+        "b": "Sunayana",
+        "c": "Mandodari",
+        "d": "Sugandha"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 68,
+      "question": "Choose the right option by matching the caste and festival.",
+      "options": {
+        "a": "A-3, B-1, C-4, D-2",
+        "b": "A-4, B-3, C-2, D-1",
+        "c": "A-3, B-4, C-1, D-2",
+        "d": "A-3, B-2 C-4 D-1"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 69,
+      "question": "Aradhyadev Pashupatinath temple is built in which style?",
+      "options": {
+        "a": "Shikhar",
+        "b": "Pagoda",
+        "c": "Mughal",
+        "d": "Nagra"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 70,
+      "question": "Which of the following festivals are celebrated by the Rajvanshi caste?",
+      "options": {
+        "a": "Chasok",
+        "b": "Siriwa",
+        "c": "Judshital",
+        "d": "Gaura"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 71,
+      "question": "What is the name of the festival celebrated as New Year especially by Tamang, Shema, Guwetic. in Nepal?",
+      "options": {
+        "a": "Judshital",
+        "b": "Lhosar",
+        "c": "Udhauli",
+        "d": "Torantha"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 72,
+      "question": "After Nepali language, which is the most spoken language in Nepal?",
+      "options": {
+        "a": "Maithili",
+        "b": "Newari",
+        "c": "Bhojpuri",
+        "d": "Tharu"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 73,
+      "question": "What is the old name of Rani Pokhari?",
+      "options": {
+        "a": "Vishnu Tirtha",
+        "b": "Swapna Tirtha",
+        "c": "Saraswati Kunda",
+        "d": "Dev Kunda"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 74,
+      "question": "The Newari language spoken in Nepal belongs to which language family?",
+      "options": {
+        "a": "Bharopeli",
+        "b": "Bhot Burmeli",
+        "c": "Agneya",
+        "d": "Arya"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 75,
+      "question": "In which district is the Shalik (Idol) of Kiranti King Yalambar?",
+      "options": {
+        "a": "Bhojpur",
+        "b": "Sankhuwasabha",
+        "c": "Taplejung",
+        "d": "Terhathum"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 76,
+      "question": "Mayadevi, who is associated with the life of Siddhartha Gautama, is also referred to as...",
+      "options": {
+        "a": "Mahamaya",
+        "b": "Prajapati Gautami",
+        "c": "Yasodhara",
+        "d": "Nandakumar"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 77,
+      "question": "Match group I with group II and choose the correct option.",
+      "options": {
+        "a": "A-3, B-1, C-4, D-2",
+        "b": "A-4, B-3, C-2, D-1",
+        "c": "A-3, B-4, C-1, D-2",
+        "d": "A-3, B-2 C-4 D-1"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 78,
+      "question": "Which of the following is correct in the order of least to most spoken languages?",
+      "options": {
+        "a": "Tharu, Maithali, Bhoipuri, Nepali",
+        "b": "Bhoipuri, Tharu, Maithali, Nepali",
+        "c": "Bhoipuri, Maithali Tharu, Nepali",
+        "d": "Tharu, Bhoipuri, Maithali, Nepali"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 79,
+      "question": "Match the correct pair",
+      "options": {
+        "a": "A-3, B-1, C-4, D-2",
+        "b": "A-4, B-3, C-2, D-1",
+        "c": "A-3, B-4, C-1, D-2",
+        "d": "A-3, B-2 C-4 D-1"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 80,
+      "question": "Whose literary nickname is Veda Vyasa?",
+      "options": {
+        "a": "Yogesh Raj",
+        "b": "Lokendra Bahadur Chand",
+        "c": "Swami Prapannacharya",
+        "d": "Hemang Dixit"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 81,
+      "question": "How many meters above sea level is the Maulakalika temple?",
+      "options": {
+        "a": "541",
+        "b": "551",
+        "c": "561",
+        "d": "671"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 82,
+      "question": "Which of the following properties of Nepal is not listed in the UNESCO World Heritage List?",
+      "options": {
+        "a": "Hanumandhoka Palace",
+        "b": "Janaki Temple",
+        "c": "Mayadevi Temple",
+        "d": "Changunarayan Temple"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 83,
+      "question": "Which caste of Nepal has the tradition of 'choosing Bhaimansa' and celebrating 'Tilasankrait' festival as a new year to organize the development work?",
+      "options": {
+        "a": "Rajbanshi",
+        "b": "Kusunda",
+        "c": "Sunar",
+        "d": "Tharu"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 84,
+      "question": "Match the correct Pair",
+      "options": {
+        "a": "A-3, B-1, C-4, D-5",
+        "b": "A-4, B-5, C-2, D-1",
+        "c": "A-3, B-4, C-5, D-1",
+        "d": "A-5, B-2 C-4 D-1"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 85,
+      "question": "During the era of which king of the Kirant era, the Maurya emperor Ashok erected a billiard in Lumbini, establishing the historical foundation of Lumbini as the Buddha?",
+      "options": {
+        "a": "Jighro",
+        "b": "Jitedasti",
+        "c": "Patuk",
+        "d": "Stihuko"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 86,
+      "question": "Sinja Valley, which is known as the cornerstone of Nepal's language, culture and located in which district?",
+      "options": {
+        "a": "Jumla",
+        "b": "Humla",
+        "c": "Kalikot",
+        "d": "Jajarkot"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 87,
+      "question": "Which of the following song is sung by the Limbu caste of Nepal?",
+      "options": {
+        "a": "Palam",
+        "b": "Hori",
+        "c": "Jhyaure",
+        "d": "Asare"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 88,
+      "question": "Which places in Nepal will be promoted as Birthing Hub and Wedding Hub respectively in budget statement of the fiscal year 2081/82?",
+      "options": {
+        "a": "Janakpur and Lumbini",
+        "b": "Lumbini and Janakpur",
+        "c": "Lumbini and Pokhara",
+        "d": "Nepalgunj and Bhaktapur"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 89,
+      "question": "Amali system was abolished during which Rana Prime Minister?",
+      "options": {
+        "a": "Juddha Sumsher",
+        "b": "Dev Sumsher",
+        "c": "Chandra Sumsher",
+        "d": "Bir Sumsher"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 90,
+      "question": "Siruwa Parwa is celebrated by which ethnic caste of Nepal?",
+      "options": {
+        "a": "Rajbanshi",
+        "b": "Satar",
+        "c": "Dhima",
+        "d": "Meche"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 91,
+      "question": "Which language was used in the Ashoka pillar of Lumbini?",
+      "options": {
+        "a": "Pali",
+        "b": "Ranjana",
+        "c": "Brahmi",
+        "d": "Sirijunga"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 92,
+      "question": "Which is the oldest script (Lipi) of Nepal?",
+      "options": {
+        "a": "Devnagari",
+        "b": "Sanskrit",
+        "c": "Brahmi",
+        "d": "Katiti"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 93,
+      "question": "What is the land given to a particular caste for enjoyment so that it cannot be sold?",
+      "options": {
+        "a": "Raikar",
+        "b": "Birta",
+        "c": "Kipat",
+        "d": "All of the above"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 94,
+      "question": "Who was the Malla King who established the Ram Temple with Lavakush at Aryaghat on banks of Bagmati?",
+      "options": {
+        "a": "Jayasthiti Malla",
+        "b": "Pratap Malla",
+        "c": "Rudra Malla",
+        "d": "Yaksha Malla"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 95,
+      "question": "Who is the promoter of 'Uttar Mimansa (Vedanta)', a scripture of Hindu philosophy?",
+      "options": {
+        "a": "Vyasa",
+        "b": "Jaimini",
+        "c": "Kapil",
+        "d": "Karnad"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 96,
+      "question": "What do the Tamang's call the monasteries built like walls along the road by mentioned prayers and mantras?",
+      "options": {
+        "a": "Pyag",
+        "b": "Mane",
+        "c": "Chotha",
+        "d": "Euro"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 97,
+      "question": "Mocho Boko Gumba is situated in which of the following district?",
+      "options": {
+        "a": "Jumla",
+        "b": "Humla",
+        "c": "Mustang",
+        "d": "Manang"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 98,
+      "question": "Match the Correct pair",
+      "options": {
+        "a": "A-3, B-1, C-4, D-2",
+        "b": "A-2, B-1, C-4, D-3",
+        "c": "A-3, B-2, C-4, D-1",
+        "d": "A-2, B-3, C-4, D-1"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 99,
+      "question": "What is the Pitaka called which contains the teachings of Lord Buddha?",
+      "options": {
+        "a": "Shukta Pitaka",
+        "b": "Abhidhamma Pitaka",
+        "c": "Vinay Pitaka",
+        "d": "None"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 100,
+      "question": "'Saraya dance' is related to which topic?",
+      "options": {
+        "a": "Love and affection",
+        "b": "Farming",
+        "c": "Marriage Vow",
+        "d": "War practice"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 101,
+      "question": "Which of the following statement is false?",
+      "options": {
+        "a": "Nepali and Bhipuri language falls under Bharopeli Language Family.",
+        "b": "Pata Mela is a festival celebrated by Satar caste.",
+        "c": "Kumar Shashthi is a cultural festival of Newar community.",
+        "d": "Raute is listed in the list of marginalized indigenous nationalities."
+      },
+      "answer": "d"
+    },
+    {
+      "id": 102,
+      "question": "How any minor castes are there in Nepal according to the census of 2078?",
+      "options": {
+        "a": "110",
+        "b": "115",
+        "c": "120",
+        "d": "125"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 103,
+      "question": "Which of the following is not included in the list of four Vinayaka of Valley?",
+      "options": {
+        "a": "Jal Vinayaka",
+        "b": "Chandra Vinayaka",
+        "c": "Soorya Vinayaka",
+        "d": "Siddhi Vinayaka"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 104,
+      "question": "Which of the following is not a String instrument (Tarbaza)?",
+      "options": {
+        "a": "Bina",
+        "b": "Sitar",
+        "c": "Kamal",
+        "d": "Sarangi"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 105,
+      "question": "In which style has the Mahaboudha Temple of Patan been built?",
+      "options": {
+        "a": "Pagoda Style",
+        "b": "Shikhar Style",
+        "c": "Mughal Style",
+        "d": "Stupa Style"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 106,
+      "question": "Match between the dance of Group-A and caste of Group-B",
+      "options": {
+        "a": "a-1, b-2, c-3, d-4",
+        "b": "a-4, b-3, c-2, d-1",
+        "c": "a-2, b-1, c-4, d-3",
+        "d": "a-2, b-3, c-4, d-1"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 107,
+      "question": "'Saraya dance' is related to which topic?",
+      "options": {
+        "a": "1 right but 2 wrong",
+        "b": "2 right but 1 wrong",
+        "c": "1 and 2 both right",
+        "d": "1 and 2 both wrong"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 108,
+      "question": "Who is known as the guru of the gods?",
+      "options": {
+        "a": "Vaidhyanath",
+        "b": "Dhainwantari",
+        "c": "Ashwini kumar",
+        "d": "Bihaspati"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 109,
+      "question": "Which of the following statement is incorrect?",
+      "options": {
+        " Ape": "The oldest Veda is Rigveda.",
+        "b": "Chandi dance is famous in Magar tribes.",
+        "c": "The designer of Lumbini Master Plan is Dr. Kenzo Tange.",
+        "d": "Changunarayan is the first temple built in Pagoda Style."
+      },
+      "answer": "b"
+    },
+    {
+      "id": 110,
+      "question": "In which caste is 'Chyabrung dance' famous?",
+      "options": {
+        "a": "Rai",
+        "b": "Sherpa",
+        "c": "Limbu",
+        "d": "Thakali"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 111,
+      "question": "Balgopaleshwar temple in the middle of Ranjpokhari is built in which style?",
+      "options": {
+        "a": "Pagoda",
+        "b": "Granthakut",
+        "c": "Shikhar",
+        "d": "Stupa"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 112,
+      "question": "By what other name is Thangka Chitra (painting) known?",
+      "options": {
+        "a": "Pauya Chitra",
+        "b": "Granthá Chitra",
+        "c": "Bhitte Chitra",
+        "d": "None"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 113,
+      "question": "Limbu language is written in which script?",
+      "options": {
+        "a": "Brahmi",
+        "b": "Ranjana",
+        "c": "Kutila",
+        "d": "Srijungha"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 114,
+      "question": "Which of the following is not included in Upayeda?",
+      "options": {
+        "a": "Dhanurveda",
+        "b": "Gandharvaveda",
+        "c": "Atharvaveda",
+        "d": "Ayurveda"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 115,
+      "question": "Which of the following places is not included in the Lumbini master plan?",
+      "options": {
+        "a": "Devdah",
+        "b": "Ramgram",
+        "c": "Tilaurakot",
+        "d": "Chandrauja"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 116,
+      "question": "Tamang Museum is located in which district?",
+      "options": {
+        "a": "Nuwakot",
+        "b": "Rasuwa",
+        "c": "Lalitpur",
+        "d": "Sindhupalchowk"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 117,
+      "question": "The word 'Poldok' is related to which caste?",
+      "options": {
+        "a": "Majhi",
+        "b": "Jirel",
+        "c": "Satar",
+        "d": "Dhimal"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 118,
+      "question": "Danguwa Praha is common in which caste?",
+      "options": {
+        "a": "Rajbanshi",
+        "b": "Malla",
+        "c": "Satar",
+        "d": "Banjara"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 119,
+      "question": "Arrange the correct order",
+      "options": {
+        "a": "1-2-3-4",
+        "b": "1-3-4-1",
+        "c": "1-4-2-3",
+        "d": "4-3-2-1"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 120,
+      "question": "According to the story of the Mahabharata, among the 100 brothers and sons of Dhritarshin who participated in the Mahabharata war on the side of the Pandavas?",
+      "options": {
+        "a": "Dushshasan",
+        "b": "Yuyutsu",
+        "c": "Jarasandha",
+        "d": "Jayadraya"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 121,
+      "question": "How many cultural heritage sites are listed in World Heritage site?",
+      "options": {
+        "a": "5",
+        "b": "6",
+        "c": "7",
+        "d": "8"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 122,
+      "question": "Where did Gautam Buddha deliver his first and last sermon?",
+      "options": {
+        "a": "Kapilvastu and Ramgram",
+        "b": "Sarnath and Kushinagar",
+        "c": "Kushinagar and Bodhgaya",
+        "d": "Ramgram and Tilaurakot"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 123,
+      "question": "Who is known as the god of rain and mercy?",
+      "options": {
+        "a": "Machchhindranath",
+        "b": "Pashupatinath",
+        "c": "Budhanilakantha",
+        "d": "Gorakhnath"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 124,
+      "question": "Mahaguru Falgunanda Lingden is associated with which religion?",
+      "options": {
+        "a": "Kirati",
+        "b": "Hindu",
+        "c": "Islam",
+        "d": "Christianity"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 125,
+      "question": "Who built the historic religious site Boudhanath Stupa?",
+      "options": {
+        "a": "Siddhinarsingha Malla",
+        "b": "Pratap Malla",
+        "c": "Mandev",
+        "d": "Jung Bahadur"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 126,
+      "question": "Identify the false statement?",
+      "options": {
+        "a": "Udauli and Ubhauli are the major festivals of Kirat community.",
+        "b": "Pratap Singh Shah introduced the system of burying the lingo of Indra Jatra.",
+        "c": "Adams Peak, the center of faith for Hinduism, Buddhism and Islam lies in Srilanka.",
+        "d": "The caste that lives in forest for 6 months and 6 months in house is Raute."
+      },
+      "answer": "d"
+    },
+    {
+      "id": 127,
+      "question": "Adivasi Janajati multi-caste (Bahu jatiya) museum is located in which district?",
+      "options": {
+        "a": "Dharan (Sunsari)",
+        "b": "Pokhara (Kaski)",
+        "c": "Bhrikutimandap (Kathmandu)",
+        "d": "Ghalegaun (Lanjung)"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 128,
+      "question": "What is the religious text of the Sherpa caste called?",
+      "options": {
+        "a": "Upanishad",
+        "b": "Phogyu",
+        "c": "Mundhum",
+        "d": "Manirimdu"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 129,
+      "question": "What name did the Limbu give to the religion preached by Mahaguru Falgunanda?",
+      "options": {
+        "a": "Paruhang",
+        "b": "Satyahangma",
+        "c": "Sumnima",
+        "d": "Mundhum"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 130,
+      "question": "List the Kaurava army commanders who were replaced after each died in the Mahabharata war in chronological order:",
+      "options": {
+        "a": "Bhishma, Dronacharcha, Karna, Shalya, Ashwatthama",
+        "b": "Bhishma, Dronacharcha, Shalya, Karna, Ashwatthama",
+        "c": "Bhishma, karna, Dronacharcha, Karna, Shalya, Ashwatthama",
+        "d": "Bhishma, Dronacharcha, Karna, Ashwatthama, Shalya"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 131,
+      "question": "According to Hindu mythology, what is the name of Lord Kumar's vehicle?",
+      "options": {
+        "a": "Garuda",
+        "b": "Crow",
+        "c": "Peacock",
+        "d": "Bhairava"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 132,
+      "question": "Who is the father of the planets according to religious texts?",
+      "options": {
+        "a": "Krishna",
+        "b": "Soorya",
+        "c": "Shiva",
+        "d": "Ganesha"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 133,
+      "question": "Darai castes have settled in which of the following districts?",
+      "options": {
+        "a": "Lamjung",
+        "b": "Kaski",
+        "c": "Tanahun",
+        "d": "Myagdi"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 134,
+      "question": "In which caste, The Butter Tree (Chiuri Plant) is given as dowry?",
+      "options": {
+        "a": "Magar",
+        "b": "Tamang",
+        "c": "Dhimal",
+        "d": "Chepang"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 135,
+      "question": "Which caste worships the sedum plant (Siudi Plant)?",
+      "options": {
+        "a": "Chepang",
+        "b": "Raute",
+        "c": "Satar",
+        "d": "Meche"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 136,
+      "question": "What kind of animal skin is used to make the instrument 'Damphu' played by the Tamang people?",
+      "options": {
+        "a": "Leopard",
+        "b": "Rhino",
+        "c": "Goat",
+        "d": "Deer"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 137,
+      "question": "Chonam is an important cultural festival of which caste?",
+      "options": {
+        "a": "Chepang",
+        "b": "Tamang",
+        "c": "Gurung",
+        "d": "Rai"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 138,
+      "question": "Which of the following pair is incorrect?",
+      "options": {
+        "a": "Chepang......Praja",
+        "b": "Meche......Bodo",
+        "c": "Lhomi......Karbnote",
+        "d": "Magar......Tamu"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 139,
+      "question": "Chandi Puja is prevalent in which caste?",
+      "options": {
+        "a": "Limbu",
+        "b": "Rai",
+        "c": "Tamang",
+        "d": "Magar"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 140,
+      "question": "Which community celebrates Chhath festival?",
+      "options": {
+        "a": "Rajbanshi",
+        "b": "Satar",
+        "c": "Mithila",
+        "d": "Byashi"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 141,
+      "question": "Sirijat is the main festival celebrated by which caste?",
+      "options": {
+        "a": "Rai",
+        "b": "Chidimar",
+        "c": "Chepang",
+        "d": "Dhimal"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 142,
+      "question": "'Chirai Bhajahar', a festival celebrating an unmarried daughter as a bird, is celebrated in which community of Nepal?",
+      "options": {
+        "a": "Gurung",
+        "b": "Bhramin",
+        "c": "Chhetri",
+        "d": "Tharu"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 143,
+      "question": "Which caste celebrates Pondiya festival?",
+      "options": {
+        "a": "Tharu",
+        "b": "Newar",
+        "c": "Rai",
+        "d": "Gurung"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 144,
+      "question": "Identify the incorrect pair regarding the dance of different caste",
+      "options": {
+        "a": "Sakela Dance......Lepcha",
+        "b": "Balan Dance......Bhramin and Chhetri",
+        "c": "Maruni Dance......Magar",
+        "d": "Jhijhiya Dance......Tharu"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 145,
+      "question": "What of the following statement is/are true?",
+      "options": {
+        "a": "1 and 2 are correct",
+        "b": "2 and 4 correct",
+        "c": "3 and 4 correct",
+        "d": "All of them are correct"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 146,
+      "question": "Match the following castes and the dances they perform.",
+      "table": {
+        "Group A": ["Bhramin", "Sherpa", "Tharu", "Gandharva"],
+        "Group B": ["Bahramase", "Tarbare", "Hanuman", "Rimpudini"]
+      },
+      "options": {
+        "a": "a-1, b-2, c-3, d-4",
+        "b": "a-4, b-3, c-2, d-1",
+        "c": "a-3, b-4, c-1, d-2",
+        "d": "a-2, b-3, c-4, d-1"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 147,
+      "question": "What is the religious text of the Sherpa caste called?",
+      "table": {
+        "Group A": ["Magar", "Newar", "Tharu", "Chhetri"],
+        "Group B": ["Pandit", "Bhusal", "Guvaju", "Bharra"]
+      },
+      "options": {
+        "a": "a-1, b-2, c-3, d-4",
+        "b": "a-4, b-3, c-2, d-1",
+        "c": "a-3, b-4, c-1, d-2",
+        "d": "a-2, b-3, c-4, d-1"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 148,
+      "question": "What is the religious text of the Sherpa caste called?",
+      "table": {
+        "Group A": ["Magar", "Tharu", "Gurung", "Sherpa"],
+        "Group B": ["Jhijiya", "Sorathi", "Syabru", "Kaura"]
+      },
+      "options": {
+        "a": "a-1, b-2, c-3, d-4",
+        "b": "a-4, b-1, c-2, d-1",
+        "c": "a-3, b-4, c-1, d-2",
+        "d": "a-2, b-3, c-4, d-1"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 149,
+      "question": "Which festival of different castes makes the correct pair?",
+      "options": {
+        "a": "Satar......Soharaya",
+        "b": "Rajbanshi......Kaura",
+        "c": "Newar......Kumari",
+        "d": "Darai......Chutka"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 150,
+      "question": "What is the religious text of the Sherpa caste called?",
+      "table": {
+        "Group A": ["Viruda", "Moreo", "Hudko", "Khajjadi"],
+        "Group B": ["Vajan Kirtan", "Bhanda", "Jagar", "Gaura Parwa"]
+      },
+      "options": {
+        "a": "a-2, b-3, c-4, d-1",
+        "b": "a-4, b-1, c-2, d-1",
+        "c": "a-3, b-4, c-1, d-2",
+        "d": "a-2, b-3, c-4, d-1"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 151,
+      "question": "What is the language spoken by the Chepang caste called?",
+      "options": {
+        "a": "Khanche",
+        "b": "Khamji",
+        "c": "Kham",
+        "d": "Manirimdu"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 152,
+      "question": "On which date does the festival Shivratri fall?",
+      "options": {
+        "a": "Falgun Krishna Panchami",
+        "b": "Falgun Shukla Panchami",
+        "c": "Falgun Krishna Chaturdashi",
+        "d": "Falgun Shukla Chaturdashi"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 153,
+      "question": "When is the big fair held in Gosakunda in Rasuwa district?",
+      "options": {
+        "a": "Janai Purnima",
+        "b": "New Year",
+        "c": "Dashain",
+        "d": "Maghi"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 154,
+      "question": "What is the story told to the newlywed bride in the Maithili community?",
+      "options": {
+        "a": "Madhu Gatha",
+        "b": "Madhu Mahima",
+        "c": "Madhu Vani",
+        "d": "Madhu Shravani"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 155,
+      "question": "Which language family do satars belong to?",
+      "options": {
+        "a": "Bhot Burmese",
+        "b": "Varopeli",
+        "c": "Agnesiyali",
+        "d": "Dravid"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 156,
+      "question": "Consider the following statement.",
+      "options": {
+        "a": "1 only",
+        "b": "1, 2, 3 only",
+        "c": "1 and 3 only",
+        "d": "2 and 4 only"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 157,
+      "question": "Match the correct pair",
+      "table": {
+        "Group A": ["Full Moon", "Christ", "Vishnu Gupta", "Karl marx"],
+        "Group B": ["Israel", "Kautilya", "England", "Buddha"]
+      },
+      "options": {
+        "a": "a-2, b-3, c-4, d-1",
+        "b": "a-4, b-1, c-2, d-3",
+        "c": "a-3, b-4, c-1, d-2",
+        "d": "a-2, b-3, c-4, d-1"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 158,
+      "question": "Which of the following customs is said to be the human insensitivity or cruel custom?",
+      "options": {
+        "a": "Dowry Pratha",
+        "b": "Sati Pratha",
+        "c": "Das Pratha",
+        "d": "Kamaiya Pratha"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 159,
+      "question": "Match the correct pair",
+      "table": {
+        "Group A": ["Endangered group", "Highly marginalized group", "Marginalized group", "Deprived of facilities"],
+        "Group B": ["Kumal", "Yakkha", "Raji", "Majhi"]
+      },
+      "options": {
+        "a": "a-2, b-3, c-1, d-4",
+        "b": "a-1, b-2, c-3, d-4",
+        "c": "a-3, b-4, c-1, d-2",
+        "d": "a-3, b-1, c-4, d-2"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 160,
+      "question": "Which of the following caste does not fall under highly marginalized group?",
+      "options": {
+        "a": "Majhi",
+        "b": "Sunuwar",
+        "c": "Siyar",
+        "d": "Chepang"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 161,
+      "question": "When did Nepal sign and ratify the UNESCO Convention on the Protection of Cultural Heritage, 2003?",
+      "options": {
+        "a": "2010 June 15",
+        "b": "2003 October 17",
+        "c": "2005 January 25",
+        "d": "2007 May 21"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 162,
+      "question": "Balgopaleshwor temple located in between Ranjpokhari is reconstructed in which architecture style?",
+      "options": {
+        "a": "Shikhar",
+        "b": "Pagoda",
+        "c": "Granthakut",
+        "d": "Rajput"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 163,
+      "question": "Who was the first Liechavi king to see the Bhoto Jatra of Rato Machhindranath?",
+      "options": {
+        "a": "Mandev",
+        "b": "Anshuverma",
+        "c": "Bar dev",
+        "d": "Narendra Dev"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 164,
+      "question": "Identify the incorrect pair.",
+      "options": {
+        "a": "Buddhism......Gautam Buddha",
+        "b": "Christianity......Jesus Christ",
+        "c": "Jainism......Mahavir Jain",
+        "d": "Kirat......Gurunanak"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 165,
+      "question": "Match the correct pair",
+      "table": {
+        "Religion": ["Hindu", "Buddhism", "Islam", "Kirant"],
+        "Percentage": ["5.09%", "81.19%", "8.21%", "3.17%"]
+      },
+      "options": {
+        "a": "a-2, b-3, c-1, d-4",
+        "b": "a-1, b-2, c-3, d-4",
+        "c": "a-3, b-4, c-1, d-2",
+        "d": "a-3, b-1, c-4, d-2"
+      },
+      "answer": "a"
+    }
+  ]
+}
+  ],
 
-  {
-    "question": "Who is the first person to be entitled “Shah”?",
-    "options": ["Rishiraj Ranaji Khan", "Kulmandan Khan", "Jagadev Khan", "Bichitra Khan"],
-    "answer": 1
-  },
-  {
-    "question": "Who is the first king of Shah dynasty?",
-    "options": ["Prithvi Narayan Shah", "Yashobramha Shah", "Kulmandan Shah", "Dravya Shah"],
-    "answer": 2
-  },
-  {
-    "question": "Who is the first king of Gorkha representing Shah dynasty?",
-    "options": ["Puma Shah", "Yashobramha Shah", "Narahari Shah", "Dravya Shah"],
-    "answer": 3
-  },
-  {
-    "question": "When did Dravya Shah establish Gorkha State after defeating Khadka king?",
-    "options": ["1515 Bhadra 25", "1616 Bhadra 25", "1717 Bhadra 25", "1818 Bhadra 25"],
-    "answer": 1
-  },
-  {
-    "question": "Who is the last shah king of Gorkha?",
-    "options": ["Narabhupal Shah", "Ram Shah", "Prithvi Narayan Shah", "Pratap Singh Shah"],
-    "answer": 2
-  },
-  {
-    "question": "When was Prithvi Narayan Shah born?",
-    "options": ["1723 A.D.", "1724 A.D.", "1725 A.D.", "1726 A.D."],
-    "answer": 0
-  },
-  {
-    "question": "Which of the following pair is incorrect?",
-    "options": [
-      "Father of Unification campaign-Prithvi Narayan Shah",
-      "Founder of Gorkha State-Dravya Shah",
-      "Father of Nation and Democracy-King Tribhuvan",
-      "Rana Bahadur Shah-Youngest king of Nepal"
-    ],
-    "answer": 3
-  },
-  {
-    "question": "The first state annexed by Prithvi Narayan Shah during unification campaign",
-    "options": ["Nuwakot", "Belkot", "Taldum", "Changu"],
-    "answer": 0
-  },
-  {
-    "question": "The chief of district were called.... During Prithvi Narayan Shah rule",
-    "options": ["Chotdar", "Subba", "Sardar", "Wokil"],
-    "answer": 1
-  },
-  {
-    "question": "When did Gorkha attain Victory over Nuwakot?",
-    "options": ["1800", "1801", "1802", "1803"],
-    "answer": 1
-  },
-  {
-    "question": "When was Kathmandu declared the capital city of Nepal?",
-    "options": ["1769", "1768", "1767", "1766"],
-    "answer": 0
-  },
-  {
-    "question": "In which battle did Kazi Kalu Pandey die?",
-    "options": ["The first battle of Nuwakot", "The second battle of Makwanpur", "The first battle of Kirtipur", "The last battle of Kirtipur"],
-    "answer": 2
-  },
-  {
-    "question": "Who is the first kazi of Nepal, whose actual name is Banshidhar Pandey?",
-    "options": ["Kalu Pandey", "Damodar Pandey", "Bamsharaj Pandey", "None"],
-    "answer": 0
-  },
-  {
-    "question": "Who of the following is not amongst the leader of 'Jayatu Sanskritam Andolan' of 2004 B.S?",
-    "options": ["Nara Bahadur Karmacharya", "Rajeshwor Devkota", "Shree Bhadra Sharma", "Kashinath Gautam"],
-    "answer": 0
-  },
-  {
-    "question": "Who is known as the indecisive ruler?",
-    "options": ["Rajendra Shah", "Mahendra Shah", "Gyanendra Shah", "None of the above"],
-    "answer": 0
-  },
-  {
-    "question": "Where did Prithvi Narayan Shah die?",
-    "options": ["Devghat", "Devighat", "Dipalghat", "Rupalghat"],
-    "answer": 1
-  },
-  {
-    "question": "Who introduced the system of Red Seal in Nepal?",
-    "options": ["Ram Shah", "Narabhupal Shah", "Prithvi Narayan Shah", "All"],
-    "answer": 2
-  },
-  {
-    "question": "Prithvi Narayan Shah had extended the territory of Nepal from Gorkha to ...... in the east and ... In the west",
-    "options": ["Mechi-Marsyangdi", "Mechi-Trishuli", "Mechi-Madi", "Mechi-Gandaki"],
-    "answer": 0
-  },
-  {
-    "question": "Who extended the territory of Nepal from Tisia in the east and Kangada in the west?",
-    "options": ["Rana Bahadur Shah", "Bhimsen Thapa", "Bahadur Shah", "Rajendra Bikram Shah"],
-    "answer": 2
-  },
-  {
-    "question": "What is the real name of Bahadur Shah who ruled as a regent for 9 years?",
-    "options": ["Fatya Bahadur Shah", "Gorakh Bahadur Shah", "Bishnu Bahadur Shah", "Rajendra Bikram Shah"],
-    "answer": 0
-  },
-  {
-    "question": "Who introduced Gajjatra in Nepal?",
-    "options": ["Gunakamadev", "Jay Prakash Malla", "Pratap Singh Shah", "Rana Bahadur Shah"],
-    "answer": 0
-  },
-  {
-    "question": "Who introduced the system of riding chariot of Kumari in Indrajatta?",
-    "options": ["Jay Prakash Malla", "Rana Bahadur Shah", "Girbanyuddha Bikram Shah", "Surendra Bikram Shah"],
-    "answer": 0
-  },
-  {
-    "question": "When did first Nepal-Tibet war take place?",
-    "options": ["1788", "1789", "1790", "1792"],
-    "answer": 0
-  },
-  {
-    "question": "When was Kerung Treaty signed?",
-    "options": ["1789 June 2", "1792 October 05", "1856 March 24", "1950 July 31"],
-    "answer": 0
-  },
-  {
-    "question": "Thapathali Treaty was signed in 1856 March 24 between which countries?",
-    "options": ["Nepal and China", "Nepal and Tibet", "Nepal and India", "Nepal and India"],
-    "answer": 1
-  },
-  {
-    "question": "When was Nepal-Anglo war held between Nepal and British East India Company?",
-    "options": ["1814-1816", "1815-1817", "1816-1818", "1817-1819"],
-    "answer": 0
-  },
-  {
-    "question": "Who was the defensive commander of Nepal in Nalapani during Nepal-Anglo war?",
-    "options": ["Bhakti Thapa", "Amar Singh Thapa", "Balabhadra Kunwar", "Bhimsen Thapa"],
-    "answer": 2
-  },
-  {
-    "question": "In which battle did Bhakti Thapa lost his life?",
-    "options": ["Almoda", "Kamaan", "Gadhwal", "Deuthai"],
-    "answer": 3
-  },
-  {
-    "question": "Who was the commander of Nepal army in the western region during Nepal Anglo war?",
-    "options": ["Ujir Singh Thapa", "Ranojir Singh Thapa", "Ranabir Singh Thapa", "Amar Singh Thapa"],
-    "answer": 3
-  },
-  {
-    "question": "Who is called the “Hero of Nepal Anglo war” and “The Living Lion of Nepal”?",
-    "options": ["Amar Singh Thapa", "Balabhadra Kunwar", "Bhakti Thapa", "Surbir Thapa"],
-    "answer": 0
-  },
-  {
-    "question": "Where did Balabhadra die?",
-    "options": ["India", "Pakistan", "Afghanistan", "UK"],
-    "answer": 2
-  },
-  {
-    "question": "Where did Amar Singh Thapa commit suicide?",
-    "options": ["Damodar Kunda", "Dudh Kunda", "Gosainkunda", "Narad Kunda"],
-    "answer": 2
-  },
-  {
-    "question": "When was the treaty of Sugauli Signed?",
-    "options": ["1816 March 3", "1816 March 4", "1816 March 5", "1816 March 6"],
-    "answer": 0
-  },
-  {
-    "question": "When was Panchayat system (Partyless system) introduced in Nepal?",
-    "options": ["2015 Poush 22", "2016 Poush 22", "2017 Poush 22", "2018 Poush 22"],
-    "answer": 2
-  },
-  {
-    "question": "Who signed The Betrawati Treaty representing Nepal after second Nepal Tibet war?",
-    "options": ["Devi Dutta Thapa", "Bhakti Thapa", "Pratap Shah", "Kalu Pandey"],
-    "answer": 0
-  },
-  {
-    "question": "The first king to get entitled 'Bikram' is",
-    "options": ["Girbanyuddha", "Rana Bahadur", "Bahadur Shah", "Trailokya"],
-    "answer": 0
-  },
-  {
-    "question": "When did Kot massacre take place?",
-    "options": ["1903 Ashwin 2", "1903 Ashwin 3", "1903 Ashwin 4", "1903 Ashwin 5"],
-    "answer": 0
-  },
-  {
-    "question": "Who was the first person killed in Kot Parva?",
-    "options": ["Abhiman Singh Basnyat", "Birdhoj Basnyat", "Bir Kishor Pandey", "Kamal Mani Thapa"],
-    "answer": 0
-  },
-  {
-    "question": "Which of the following is incorrect?",
-    "options": [
-      "There were six prime ministers in Nepal before the Rana regime",
-      "Prime minister who died in Kot Parva was Fattejung Shah",
-      "Jung Bahadur Rana became the prime minister of Nepal after this massacre",
-      "The immediate cause of this massacre was the killing of Mathavar Singh Thapa"
-    ],
-    "answer": 3
-  },
-  {
-    "question": "For how many years rana rule lasted in Nepal?",
-    "options": ["102", "103", "104", "105"],
-    "answer": 2
-  },
-  {
-    "question": "When did Bhandarkhal massacre take place?",
-    "options": ["1903 Ashwin 2", "1903 Kartik 12", "1903 Mangsir 16", "1903 Poush 23"],
-    "answer": 1
-  },
-  {
-    "question": "The place named 'Alaau' lies in which place of Nepal?",
-    "options": ["Birgunj", "Bihar", "Sitamadi", "Govargadha"],
-    "answer": 0
-  },
-  {
-    "question": "The first Rana prime minister of Nepal who established Durbar High School is",
-    "options": ["Jung Bahadur Rana", "Bal Narsimha Rana", "Prem Rana", "None"],
-    "answer": 0
-  },
-  {
-    "question": "Who is the first Prime Minister of Nepal to visit Europe?",
-    "options": ["BP Koirala", "Junga Bahadur Rana", "Bhimsen Thapa", "Bir Shumsher"],
-    "answer": 1
-  },
-  {
-    "question": "Who enforced the first civil code of Nepal Muluki Ain?",
-    "options": ["BP Koirala", "Junga Bahadur Rana", "Bhimsen Thapa", "Bir Shumsher"],
-    "answer": 1
-  },
-  {
-    "question": "When was Public Service Commission formed in Nepal?",
-    "options": ["2008 Asar", "2009 Asar", "2007 Asar", "2010 Asar"],
-    "answer": 0
-  },
-  {
-    "question": "Who is the introducer of women education in Nepal?",
-    "options": ["Junga Bahadur Rana", "Bir Shumsher", "Dev Shumsher", "Raman Shumsher"],
-    "answer": 1
-  },
-  {
-    "question": "Who is known as the Dhankute Maharaja?",
-    "options": ["Junga Bahadur Rana", "Bir Shumsher", "Dev Shumsher", "Dambar Shumsher"],
-    "answer": 2
-  },
-  {
-    "question": "When was Sathi pratha abolished from Nepal?",
-    "options": ["1977 Asar 25", "1978 Asar 25", "1979 Asar 25", "1980 Asar 25"],
-    "answer": 0
-  },
-  {
-    "question": "Who was the Prime Minister of Nepal during 2nd World War?",
-    "options": ["Chandra Shumsher", "Juddha Shumsher", "Mohan Shumsher", "Dhir Shumsher"],
-    "answer": 1
-  },
-  {
-    "question": "Who is known as the father of school and Father of Education in Nepal?",
-    "options": [
-      "Mohan Shumsher & Padma Shumsher",
-      "Juddha Shumsher and Dhir Shumsher",
-      "Padma Shumsher & Dev Shumsher",
-      "Dhir Shumsher and Khadga Shumsher"
-    ],
-    "answer": 2
-  },
-  {
-    "question": "Who crowned Junga Bahadur Rana with the title 'Shree 3' of Lamjung and Kaski?",
-    "options": ["King Surendra", "King Rajendra", "Trailokya", "Bahadur Shah"],
-    "answer": 0
-  },
-  {
-    "question": "Who introduced Agnate Pratha in Nepal?",
-    "options": ["Ranaudip Singh Kunwar", "Dhir Shumsher", "Jagat Jung", "Jung Bahadur Rana"],
-    "answer": 3
-  },
-  {
-    "question": "Who is the first Prime Minister of Nepal after Rana rule or after democracy declaration?",
-    "options": ["Mohan Shumsher", "Juddha Shumsher", "Padma Shumsher", "BP Koirala"],
-    "answer": 0
-  },
-  {
-    "question": "Which of the following pair is incorrect?",
-    "options": [
-      "B.P. Koirala: first public elected Prime minister of Nepal",
-      "Matrika Prasad Koirala: First Prime Minister from the general public",
-      "Manmohan Adhikari: first communist prime minister",
-      "Marichman Singh Shrestha: Last Prime minister of Panchayat System"
-    ],
-    "answer": 3
-  },
-  {
-    "question": "Who is the last Rana Prime Minister of Nepal?",
-    "options": ["Mohan Shumsher", "Padma Shumsher", "Bhim Shumsher", "Juddha Shumsher"],
-    "answer": 0
-  },
-  {
-    "question": "Which is the first commercial bank of Nepal?",
-    "options": ["Nepal Arab Bank", "Rastriya Bank Limited", "Nepal Rastra Bank", "Nepal Bank Limited"],
-    "answer": 3
-  },
-  {
-    "question": "Who is the first martyr of Nepal?",
-    "options": ["Gangalal Shrestha", "Shukra Raj Shastri", "Lakhan Thapa", "Dashrath Chand"],
-    "answer": 2
-  },
-  {
-    "question": "When was the first general election held in Nepal?",
-    "options": ["2012", "2013", "2014", "2015"],
-    "answer": 3
-  },
-  {
-    "question": "When was the first public elected government formed in Nepal?",
-    "options": ["2016 Jetha 13", "2016 Asar 16", "2016 Shrawan 13", "2016 Bhadra 5"],
-    "answer": 1
-  },
-  {
-    "question": "Who is the first female minister of Nepal?",
-    "options": ["Shailaja Acharya", "Dwarika Devi Thakurani", "Purnima Shrestha", "Manchhura Devi"],
-    "answer": 1
-  },
-  {
-    "question": "When was the only referendum held in Nepal?",
-    "options": ["2036 Baisakh 10", "2037 Jetha 20", "2037 Baishakh 20", "2039 Asar 2"],
-    "answer": 2
-  },
-  {
-    "question": "Who is known as the political king in Nepalese history?",
-    "options": ["King Birendra", "King Mahendra", "King Gyanendra", "King Surendra"],
-    "answer": 1
-  },
-  {
-    "question": "BIPPA agreement between Nepal and India take place in?",
-    "options": ["2009", "2010", "2011", "2012"],
-    "answer": 2
-  },
-  {
-    "question": "Who is the first female president of Nepal?",
-    "options": ["Sailaja Acharya", "Sushika Karki", "Bidhya Devi Bhandari", "Sushila Thapa"],
-    "answer": 2
-  },
-  {
-    "question": "Who is the first female chief Justice of Nepal?",
-    "options": ["Sailaja Acharya", "Sushila Karki", "Bidhya Devi Bhandari", "Sushila Thapa"],
-    "answer": 1
-  },
-  {
-    "question": "Who is the first female deputy Prime Minister of Nepal?",
-    "options": ["Sailaja Acharya", "Sushika Karki", "Bidhya Devi Bhandari", "Sushila Thapa"],
-    "answer": 0
-  },
-  {
-    "question": "Which is the only temple of Nepal that does not have pinnacle?",
-    "options": ["Pashupatinath", "Krishna Mandir", "Ashok Vinayak", "Swoyambhunath"],
-    "answer": 2
-  },
-  {
-    "question": "Who is the first editor of Gorkhapatra?",
-    "options": ["Nara Dev Pandey", "Subash Chandra Nembang", "Krishna Prasad Bhattarai", "Ratna Shumsher JBR"],
-    "answer": 0
-  },
-  {
-    "question": "Who is the first chair person of constituent Assembly?",
-    "options": ["Mahendra Narayan Nidhi", "Subash Chandra Nembang", "Krishna Prasad Bhattarai", "Baburam Bhattarai"],
-    "answer": 1
-  },
-  {
-    "question": "Who is the first chairman of public service commission?",
-    "options": ["Anirudra Pratap Singh", "Sanjay Dhauranjikar", "Krishna Prasad Bhattarai", "Madhav Prasad Regmi"],
-    "answer": 0
-  },
-  {
-    "question": "Who is the first scientist of Nepal?",
-    "options": ["Khadga Shumsher", "Gehendra Shumsher", "Binaya Singh Rana", "Dhir Shumsher JBR"],
-    "answer": 1
-  },
-  {
-    "question": "Who built Rani Mahal of Palpa?",
-    "options": ["Prem Singh Basnet", "Khadga Shumsher", "Arjun Narsingh Rana", "Bhim Buddha Pulami"],
-    "answer": 1
-  },
-  {
-    "question": "Who is known as the Badakaji in Nepalese History?",
-    "options": ["Bhakti Thapa", "Kalu Pandey", "Balbir Thapa", "Amar Singh Thapa"],
-    "answer": 3
-  },
-  {
-    "question": "Who built Singha Durbar?",
-    "options": ["Junga Bahadur Rana", "Juddha Shumsher", "Padma Shumsher", "Chandra Shumsher"],
-    "answer": 3
-  },
-  {
-    "question": "When did Royal Massacre happen in Royal Palace of Nepal?",
-    "options": ["2001 June 1", "2001 June 2", "2001 June 3", "2001 June 4"],
-    "answer": 0
-  },
-  {
-    "question": "When was MRP introduced by Government of Nepal?",
-    "options": ["2066", "2067", "2068", "2069"],
-    "answer": 1
-  },
-  {
-    "question": "Who is the first person from the general public to wear a Royal Crown (Shreepech)?",
-    "options": ["Jung Bahadur Rana", "Dhir Shumsher", "Bir Shumsher", "Dev Shumsher"],
-    "answer": 0
-  },
-  {
-    "question": "When was Kamaiya system abolished from Nepal?",
-    "options": ["2056 B.S.", "2057 B.S.", "2058 B.S.", "2059 B.S."],
-    "answer": 1
-  },
-  {
-    "question": "Who is the only king to enforce two constitutions of Nepal?",
-    "options": ["Tribhuwan Shah", "Mahendra Shah", "Surendra Shah", "Gyanendra Shah"],
-    "answer": 1
-  },
-  {
-    "question": "Who is known as the Bullet Maharaja?",
-    "options": ["Tribhuwan Shah", "Mahendra Shah", "Surendra Shah", "Trailokya Shah"],
-    "answer": 3
-  },
-  {
-    "question": "'If soldiers are strong the Palace will be strong.' Who said this?",
-    "options": ["Tribhuwan Shah", "Mahendra Shah", "Surendra Shah", "Prithvi Narayan Shah"],
-    "answer": 3
-  },
-  {
-    "question": "During whose period of rule in Nepal, The tri rule (Trayi Sashan, rule by three) existed?",
-    "options": ["Girban Yuddha Bikram Shah", "Mahendra Shah", "Surendra Shah", "Prithvi Narayan Shah"],
-    "answer": 0
-  },
-  {
-    "question": "Which king nicknamed as 'Swami Maharaja' was sworded by his own brother?",
-    "options": ["Rana Bahadur Shah", "Sher Bahadur Shah", "Pratap Singh Shah", "Rajendra Bikram Shah"],
-    "answer": 0
-  },
-  {
-    "question": "Which department carried out the work of constructing houses during Rana regime?",
-    "options": ["Chaprasi Adda", "Sarraf Khana", "Pipa Goshwara", "Shrestha Api"],
-    "answer": 0
-  },
-  {
-    "question": "Which department carried out the Government audit activities during Rana Regime?",
-    "options": ["Kumari Chowk", "Lekha Adda", "Lekhapadhi Adda", "Goth Tahabil"],
-    "answer": 0
-  },
-  {
-    "question": "The famous Medal of Honor “Gorkha Dakshin Bahu” was introduced during the kingship of",
-    "options": ["Prithvi Bir Bikram Shah", "King Tribhuvan", "King Mahendra", "King Birendra"],
-    "answer": 0
-  },
-  {
-    "question": "The department established by Prithvi Narayan Shah to carry out the works related to land and land reformation system was",
-    "options": ["Munsikhana", "Jaisi Kotha", "Chhebhadel Adda", "Sadar Daphtarkhana"],
-    "answer": 3
-  },
-  {
-    "question": "The department that acted as Bank during the reign of Prithvi Narayan Shah was",
-    "options": ["Kaushitosha Khana", "Hiti Chowk", "Bhandarkhal Tahabil", "Census Goshwara"],
-    "answer": 2
-  },
-  {
-    "question": "The department named “Kadel Chowk” during Rana regime carried the function of",
-    "options": ["Gold and silver management", "Cattle and Horse management", "Maintain water supply", "Look after arms and ammunitions"],
-    "answer": 0
-  },
-  {
-    "question": "Who is the signature holder of the treaty of Peace and friendship between Nepal and India that was signed in 1950 July 31?",
-    "options": ["Subarna Shumsher", "Mahabir Shumsher", "Mohan Shumsher", "Matrika Pd. Koirala"],
-    "answer": 2
-  },
-  {
-    "question": "Comprehensive peace accord between the Government of Nepal and Maoist Party/ Declaration of the end of war was signed in",
-    "options": ["2062 Mangsir 5", "2063 Mangsir 7", "2063 Mangsir 13", "2063 Mangsir 5"],
-    "answer": 3
-  },
-  {
-    "question": "When was the first historical election of constituent assembly held?",
-    "options": ["2008 April 10", "2008 April 10", "2008 April 12", "2008 April 14"],
-    "answer": 0
-  },
-  {
-    "question": "Royal proclamation declaring the restoration of House of Representative was made in",
-    "options": ["2063 Baishakh 11", "2063 Baishakh 12", "2063 Baishakh 13", "2063 Baishakh 14"],
-    "answer": 0
-  },
-  {
-    "question": "When was Nepal declared Republic?",
-    "options": ["2008 April 10", "2008 May 28", "2008 June 13", "2008 July 13"],
-    "answer": 1
-  },
-  {
-    "question": "Who is the last national dignitary of Nepal, declared on 2021 June 28?",
-    "options": ["Balabhadra Kunwar", "Sriharsha Thapa", "Amar Singh Thapa", "Bhakti Thapa"],
-    "answer": 3
-  },
-  {
-    "question": "When was Singhadurbar caught on fire?",
-    "options": ["2030 Baishakh 25", "2030 Jetha 25", "2030 Asar 25", "2030 Bhadra 25"],
-    "answer": 2
-  },
-  {
-    "question": "When was the historical constituent Assembly dissolved in Nepal?",
-    "options": ["2012 May 25", "2012 May 26", "2012 May 27", "2012 May 28"],
-    "answer": 3
-  },
-  {
-    "question": "When was the House of Representatives in Nepal dissolved for the last time?",
-    "options": ["2077 Jetha 7", "2077 Jetha 8", "2077 Jetha 9", "2077 Jetha 10"],
-    "answer": 1
-  },
-  {
-    "question": "Who is known as “Panchayat ko Malami” in the history of Nepal?",
-    "options": ["Lokendra Bahadur Chand", "Surya Bahadur Thapa", "Marich Man Singh Shrestha", "Mammohan Adhikari"],
-    "answer": 2
-  },
-  {
-    "question": "Who shifted the capital from Kathmandu to Nuwakot?",
-    "options": ["Prithvi Narayan Shah", "Kalu Pandey", "Bahadur Shah", "Damodar Pandey"],
-    "answer": 3
-  },
-  {
-    "question": "Who is the designer of Martyr’s gate “Nepal Smarak”?",
-    "options": ["Laxman Prasad Chalise", "Shankar Nath Rimal", "Muktila Kayastha", "Gopal Man Chitrakar"],
-    "answer": 1
-  },
-  {
-    "question": "The government of Nepal started the publication of gazette from",
-    "options": ["2008 Shrawan 22", "2008 Magh 21", "2008 Asar 2", "2008 Ashwin 3"],
-    "answer": 0
-  },
-  {
-    "question": "Who was the Prime Minister of Nepal when Nepal signed BIPPA agreement with India?",
-    "options": ["Pushpa Kamal Dahal", "Baburam Bhattarai", "Sher Bahadur Deuba", "Sushil Koirala"],
-    "answer": 1
-  },
-  {
-    "question": "When did the first aircraft land in Nepal?",
-    "options": ["2006 Baishakh 10", "2006 Baishakh 11", "2006 Baishakh 12", "2006 Baishakh 13"],
-    "answer": 1
-  },
-  {
-    "question": "Nepal attained the membership of International Civil Aviation Organization (ICAO)",
-    "options": ["1960 May 29", "1960 June 29", "1960 July 29", "1960 August 29"],
-    "answer": 2
-  },
-  {
-    "question": "When was the house of representative dissolved for the last time?",
-    "options": ["2077 Poush 05", "2077 Falgun 11", "2078 Jetha 08", "2078 Asar 28"],
-    "answer": 2
-  },
-  {
-    "question": "When was the house of representatives reinstated for the last time?",
-    "options": ["2077 Poush 05", "2077 Falgun 11", "2078 Jetha 08", "2078 Asar 28"],
-    "answer": 3
-  },
-  {
-    "question": "When was Jaya Prithivi Bahadur Singh declared the 18th/last national dignitary of Nepal?",
-    "options": [
-      "2079 Asar 05/2022 June 19",
-      "2079 Asar 06/2022 June 20",
-      "2079 Asar 07/2022 June 21",
-      "2079 Asar 08/2022 June 22"
-    ],
-    "answer": 1
-  },
-  {
-    "question": "If I die the nation will not die, but if Bhimsen Thapa dies the nation will collapse. Who said this quote?",
-    "options": ["Bahadur Shah", "Rana Bahadur Shah", "Bhimsen Thapa", "Bhakti Thapa"],
-    "answer": 1
-  }
-],
-
-
-  "1.1.1.3 Economic Demography":[
+  "1.1.3 Economic Demography":[
   {
     "question": "Which is the major food crop grown in Nepal?",
     "options": [
@@ -35511,9 +36802,9 @@ window.mcqData = {
     "options": ["Ratan Tata", "Hugko Nokia", "Morbili Slyer", "Martin Cooper"],
     "answer": 3
   }
-],
+  ],
 
-  "1.1.1.4 Demography" : [
+  "1.1.4 Demography" : [
      {
     "question": "What is the current literacy rate of Nepal?",
     "options": ["76.2 percent", "67.2 percent", "68.2 percent", "69.13 percent"],
@@ -35661,7 +36952,807 @@ window.mcqData = {
   }
   ],
 
- "1.1.1.5 Science and Technology":[
+  "1.2 Major Natural Resources":[
+
+  ],
+
+  "1.3 Geographic Diversity, Climatic Condition and Livelihood":  [
+    {
+        question: "What percent of the total area of Nepal is occupied by Mountain region?",
+        options: ["15%", "17%", "19%", "21%"],
+        answer: 0  // a
+    },
+    {
+        question: "Nepal is ranked ……in the rank of world’s most bio-diverse countries",
+        options: ["45th", "46th", "47th", "49th"],
+        answer: 3  // d
+    },
+    {
+        question: "What are the two least spoken languages of Nepal?",
+        options: ["Kusunda and Bankariya", "Bankaria and Kusunda", "Surei and Kusunda", "Tharu and Sadhani"],
+        answer: 0  // a
+    },
+    {
+        question: "How many languages are spoken in Nepal as the mother tongue?",
+        options: ["115", "119", "124", "142"],
+        answer: 2  // c
+    },
+    {
+        question: "Which of the following languages have been recommended as the official languages of Province?",
+        options: ["Tamang and Nepal Bhasa (Newar)", "Maithili, Bhoipuri and Bajrika", "Tamang and Newar", "Tharu and Abadhi"],
+        answer: 0  // a
+    },
+    {
+        question: "The most common language family of Nepal is",
+        options: ["Bharopedi", "BhotiBurnedi", "Agneli", "Dravid"],
+        answer: 0  // a
+    },
+    {
+        question: "What percent of people speak Nepali Language?",
+        options: ["44.86 %", "45.64%", "46.46%", "48.4%"],
+        answer: 0  // a
+    },
+    {
+        question: "Which is the least populated state of Nepal?",
+        options: ["Bankariya", "Nirang", "Kusunda", "Sutel"],
+        answer: 1  // b
+    },
+    {
+        question: "Which is the largest valley of Nepal?",
+        options: ["Dang", "Udayapur", "Surkter", "Chihwan"],
+        answer: 0  // a
+    },
+    {
+        question: "The deepest valley of Nepal which is also the deepest valley of the world lies in",
+        options: ["Sankhuwashabha", "Bhojpur", "Solukhambhu", "Rasuwa"],
+        answer: 0  // a
+    },
+    {
+        question: "Which is the first wetland of Nepal listed in World Ramsar Site in 1987 December 17?",
+        options: ["KokhiTappu", "Jagadishpur lake", "Ghodaghodi Lake", "Phewa lake"],
+        answer: 0  // a
+    },
+    {
+        question: "Which of the following is not included in World Ramsar Site?",
+        options: ["Mapokhari", "Phewa lake", "Beganas lake", "Satyawati lake"],
+        answer: 3  // d
+    },
+    {
+        question: "How many sites of Nepal have been listed in world heritage site by UNESCO?",
+        options: ["8", "9", "10", "11"],
+        answer: 2  // c
+    },
+    {
+        question: "Which of the following sites is not listed in the world heritage site?",
+        options: ["Paslupatinath", "Lumbini", "Changunaryan", "Nyatpol"],
+        answer: 3  // d
+    },
+    {
+        question: "Which is the last heritage listed in world heritage site in 1997?",
+        options: ["Lumbini", "Boudianath", "Changunaryan", "Basantapur Durbur"],
+        answer: 3  // d
+    },
+    {
+        question: "How many protected mammals are there in Nepal?",
+        options: ["25", "26", "27", "28"],
+        answer: 1  // b
+    },
+    {
+        question: "Which of the following mammals are not included in the list of protected mammals?",
+        options: ["Pangolin", "Royal Bengal Tiger", "Panda", "Lynx"],
+        answer: 3  // d
+    },
+    {
+        question: "Which of the following bird is not included in the list of protected species of birds?",
+        options: ["Danphe", "KhanMayur", "Sanas crane", "Dhukur"],
+        answer: 3  // d
+    },
+    {
+        question: "How many tigers are there in Nepal?",
+        options: ["230", "355", "240", "245"],
+        answer: 1  // b
+    },
+    {
+        question: "Among 752 Rhino in Nepal, how many of them are in Chiwan National Park?",
+        options: ["690", "692", "694", "696"],
+        answer: 2  // c
+    },
+    {
+        question: "Which national park of Nepal is the major for tigers in Nepal?",
+        options: ["Shuklaphtanta", "Paras", "Bauke", "Bardiya"],
+        answer: 0  // a
+    },
+    {
+        question: "The forest with Sal tree, Sisco, Red wood, Cutch tree (Khayar) is called",
+        options: ["Tropical Evergreen Forest", "Decidious Forest", "Coniferous Forest", "Alpine Forest"],
+        answer: 0  // a
+    },
+    {
+        question: "The only bird found in Nepal, Spinny babbler is found in which national park?",
+        options: ["Bauke National Park", "Bardiya National Park", "Chiwan National Park", "She Phoksundo National Park"],
+        answer: 1  // b
+    },
+    {
+        question: "Which is the largest national park of Nepal in terms of area?",
+        options: ["She-Phoksundo", "Khaphad", "Makalu-Barun", "Rara"],
+        answer: 0  // a
+    },
+    {
+        question: "Which district of Nepal is famous for Rhododendron?",
+        options: ["Jhapa", "Illam", "Pancithiar", "Bhojpur"],
+        answer: 1  // b
+    },
+    {
+        question: "How many types of climate are found in Nepal?",
+        options: ["4", "5", "6", "7"],
+        answer: 1  // b
+    },
+    {
+        question: "Which region of Nepal is called Monsoon affected region of Nepal?",
+        options: ["Mountain", "Hills", "Chure", "Terai"],
+        answer: 3  // d
+    },
+    {
+        question: "Monsoon wind originates from",
+        options: ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+        answer: 2  // c
+    },
+    {
+        question: "Tropical Monsoon climate is found at a height of",
+        options: ["60 meter-1200 meter", "2100-2100 meter", "2100-3300 meter", "3300 meters"],
+        answer: 0  // a
+    },
+    {
+        question: "Which climate is found above 5000 meters?",
+        options: ["Monsoon", "Temperate", "Alpine", "Tundra"],
+        answer: 3  // d
+    },
+    {
+        question: "Which climate is most suitable for healthier living?",
+        options: ["Warm Temperate", "Cold Temperate", "Sub-Tropical", "Monsoon"],
+        answer: 0  // a
+    },
+    {
+        question: "Which is the following statement is false?",
+        options: [
+            "Monsoon climate is the most favourable climate for agriculture.",
+            "The most unfavourable climate of Nepal is Mountain climate/Tundra/Polar climate.",
+            "Alpine climate is famous for animal farming and Trekking (Tourism Promotion).",
+            "Cold temperate climate is found in Kathmandu."
+        ],
+        answer: 3  // d
+    },
+    {
+        question: "Rhododendron is found in which type of climate?",
+        options: ["Warm Temperate", "Cold Temperate", "Monsoon Climate", "Alpine"],
+        answer: 0  // a
+    },
+    {
+        question: "Which of the following vegetation is not found in Tropical climate?",
+        options: ["Sal", "Sisson", "Khayar", "Lapsi"],
+        answer: 3  // d
+    },
+    {
+        question: "The medicinal herb “Yarshagumba (Cordyseps sinensis)” is found in which type of climate?",
+        options: ["Alpine", "Tundra", "Tropical", "Sub-tropical"],
+        answer: 0  // a
+    },
+    {
+        question: "Which climate is called vegetation free area?",
+        options: ["Monsoon", "Tundra", "Alpine", "Sub alpine region"],
+        answer: 1  // b
+    },
+    {
+        question: "What is the main occupation of the people of Himalayan region?",
+        options: ["Animal Husbandry", "Agriculture", "Trade", "Industrial activity"],
+        answer: 0  // a
+    },
+    {
+        question: "Which region of Nepal is called Lesser Himalaya?",
+        options: ["Bhabar", "Chure", "Mahabharata", "Inner Himalaya"],
+        answer: 2  // c
+    },
+    {
+        question: "There are ……… seasons of Nepal",
+        options: ["4", "5", "6", "7"],
+        answer: 2  // c
+    },
+    {
+        question: "Sharad (Autumn) season in Nepal can be observed in the month of",
+        options: ["Jetla-Asar", "Shrawan-Bhadra", "Ashwin-Kartik", "Mangsir-Poush"],
+        answer: 2  // c
+    }
+
+  ],
+
+   "1.4 Notable Events":[
+
+  {
+    "question": "Who is the first person to be entitled “Shah”?",
+    "options": ["Rishiraj Ranaji Khan", "Kulmandan Khan", "Jagadev Khan", "Bichitra Khan"],
+    "answer": 1
+  },
+  {
+    "question": "Who is the first king of Shah dynasty?",
+    "options": ["Prithvi Narayan Shah", "Yashobramha Shah", "Kulmandan Shah", "Dravya Shah"],
+    "answer": 2
+  },
+  {
+    "question": "Who is the first king of Gorkha representing Shah dynasty?",
+    "options": ["Puma Shah", "Yashobramha Shah", "Narahari Shah", "Dravya Shah"],
+    "answer": 3
+  },
+  {
+    "question": "When did Dravya Shah establish Gorkha State after defeating Khadka king?",
+    "options": ["1515 Bhadra 25", "1616 Bhadra 25", "1717 Bhadra 25", "1818 Bhadra 25"],
+    "answer": 1
+  },
+  {
+    "question": "Who is the last shah king of Gorkha?",
+    "options": ["Narabhupal Shah", "Ram Shah", "Prithvi Narayan Shah", "Pratap Singh Shah"],
+    "answer": 2
+  },
+  {
+    "question": "When was Prithvi Narayan Shah born?",
+    "options": ["1723 A.D.", "1724 A.D.", "1725 A.D.", "1726 A.D."],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following pair is incorrect?",
+    "options": [
+      "Father of Unification campaign-Prithvi Narayan Shah",
+      "Founder of Gorkha State-Dravya Shah",
+      "Father of Nation and Democracy-King Tribhuvan",
+      "Rana Bahadur Shah-Youngest king of Nepal"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "The first state annexed by Prithvi Narayan Shah during unification campaign",
+    "options": ["Nuwakot", "Belkot", "Taldum", "Changu"],
+    "answer": 0
+  },
+  {
+    "question": "The chief of district were called.... During Prithvi Narayan Shah rule",
+    "options": ["Chotdar", "Subba", "Sardar", "Wokil"],
+    "answer": 1
+  },
+  {
+    "question": "When did Gorkha attain Victory over Nuwakot?",
+    "options": ["1800", "1801", "1802", "1803"],
+    "answer": 1
+  },
+  {
+    "question": "When was Kathmandu declared the capital city of Nepal?",
+    "options": ["1769", "1768", "1767", "1766"],
+    "answer": 0
+  },
+  {
+    "question": "In which battle did Kazi Kalu Pandey die?",
+    "options": ["The first battle of Nuwakot", "The second battle of Makwanpur", "The first battle of Kirtipur", "The last battle of Kirtipur"],
+    "answer": 2
+  },
+  {
+    "question": "Who is the first kazi of Nepal, whose actual name is Banshidhar Pandey?",
+    "options": ["Kalu Pandey", "Damodar Pandey", "Bamsharaj Pandey", "None"],
+    "answer": 0
+  },
+  {
+    "question": "Who of the following is not amongst the leader of 'Jayatu Sanskritam Andolan' of 2004 B.S?",
+    "options": ["Nara Bahadur Karmacharya", "Rajeshwor Devkota", "Shree Bhadra Sharma", "Kashinath Gautam"],
+    "answer": 0
+  },
+  {
+    "question": "Who is known as the indecisive ruler?",
+    "options": ["Rajendra Shah", "Mahendra Shah", "Gyanendra Shah", "None of the above"],
+    "answer": 0
+  },
+  {
+    "question": "Where did Prithvi Narayan Shah die?",
+    "options": ["Devghat", "Devighat", "Dipalghat", "Rupalghat"],
+    "answer": 1
+  },
+  {
+    "question": "Who introduced the system of Red Seal in Nepal?",
+    "options": ["Ram Shah", "Narabhupal Shah", "Prithvi Narayan Shah", "All"],
+    "answer": 2
+  },
+  {
+    "question": "Prithvi Narayan Shah had extended the territory of Nepal from Gorkha to ...... in the east and ... In the west",
+    "options": ["Mechi-Marsyangdi", "Mechi-Trishuli", "Mechi-Madi", "Mechi-Gandaki"],
+    "answer": 0
+  },
+  {
+    "question": "Who extended the territory of Nepal from Tisia in the east and Kangada in the west?",
+    "options": ["Rana Bahadur Shah", "Bhimsen Thapa", "Bahadur Shah", "Rajendra Bikram Shah"],
+    "answer": 2
+  },
+  {
+    "question": "What is the real name of Bahadur Shah who ruled as a regent for 9 years?",
+    "options": ["Fatya Bahadur Shah", "Gorakh Bahadur Shah", "Bishnu Bahadur Shah", "Rajendra Bikram Shah"],
+    "answer": 0
+  },
+  {
+    "question": "Who introduced Gajjatra in Nepal?",
+    "options": ["Gunakamadev", "Jay Prakash Malla", "Pratap Singh Shah", "Rana Bahadur Shah"],
+    "answer": 0
+  },
+  {
+    "question": "Who introduced the system of riding chariot of Kumari in Indrajatta?",
+    "options": ["Jay Prakash Malla", "Rana Bahadur Shah", "Girbanyuddha Bikram Shah", "Surendra Bikram Shah"],
+    "answer": 0
+  },
+  {
+    "question": "When did first Nepal-Tibet war take place?",
+    "options": ["1788", "1789", "1790", "1792"],
+    "answer": 0
+  },
+  {
+    "question": "When was Kerung Treaty signed?",
+    "options": ["1789 June 2", "1792 October 05", "1856 March 24", "1950 July 31"],
+    "answer": 0
+  },
+  {
+    "question": "Thapathali Treaty was signed in 1856 March 24 between which countries?",
+    "options": ["Nepal and China", "Nepal and Tibet", "Nepal and India", "Nepal and India"],
+    "answer": 1
+  },
+  {
+    "question": "When was Nepal-Anglo war held between Nepal and British East India Company?",
+    "options": ["1814-1816", "1815-1817", "1816-1818", "1817-1819"],
+    "answer": 0
+  },
+  {
+    "question": "Who was the defensive commander of Nepal in Nalapani during Nepal-Anglo war?",
+    "options": ["Bhakti Thapa", "Amar Singh Thapa", "Balabhadra Kunwar", "Bhimsen Thapa"],
+    "answer": 2
+  },
+  {
+    "question": "In which battle did Bhakti Thapa lost his life?",
+    "options": ["Almoda", "Kamaan", "Gadhwal", "Deuthai"],
+    "answer": 3
+  },
+  {
+    "question": "Who was the commander of Nepal army in the western region during Nepal Anglo war?",
+    "options": ["Ujir Singh Thapa", "Ranojir Singh Thapa", "Ranabir Singh Thapa", "Amar Singh Thapa"],
+    "answer": 3
+  },
+  {
+    "question": "Who is called the “Hero of Nepal Anglo war” and “The Living Lion of Nepal”?",
+    "options": ["Amar Singh Thapa", "Balabhadra Kunwar", "Bhakti Thapa", "Surbir Thapa"],
+    "answer": 0
+  },
+  {
+    "question": "Where did Balabhadra die?",
+    "options": ["India", "Pakistan", "Afghanistan", "UK"],
+    "answer": 2
+  },
+  {
+    "question": "Where did Amar Singh Thapa commit suicide?",
+    "options": ["Damodar Kunda", "Dudh Kunda", "Gosainkunda", "Narad Kunda"],
+    "answer": 2
+  },
+  {
+    "question": "When was the treaty of Sugauli Signed?",
+    "options": ["1816 March 3", "1816 March 4", "1816 March 5", "1816 March 6"],
+    "answer": 0
+  },
+  {
+    "question": "When was Panchayat system (Partyless system) introduced in Nepal?",
+    "options": ["2015 Poush 22", "2016 Poush 22", "2017 Poush 22", "2018 Poush 22"],
+    "answer": 2
+  },
+  {
+    "question": "Who signed The Betrawati Treaty representing Nepal after second Nepal Tibet war?",
+    "options": ["Devi Dutta Thapa", "Bhakti Thapa", "Pratap Shah", "Kalu Pandey"],
+    "answer": 0
+  },
+  {
+    "question": "The first king to get entitled 'Bikram' is",
+    "options": ["Girbanyuddha", "Rana Bahadur", "Bahadur Shah", "Trailokya"],
+    "answer": 0
+  },
+  {
+    "question": "When did Kot massacre take place?",
+    "options": ["1903 Ashwin 2", "1903 Ashwin 3", "1903 Ashwin 4", "1903 Ashwin 5"],
+    "answer": 0
+  },
+  {
+    "question": "Who was the first person killed in Kot Parva?",
+    "options": ["Abhiman Singh Basnyat", "Birdhoj Basnyat", "Bir Kishor Pandey", "Kamal Mani Thapa"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is incorrect?",
+    "options": [
+      "There were six prime ministers in Nepal before the Rana regime",
+      "Prime minister who died in Kot Parva was Fattejung Shah",
+      "Jung Bahadur Rana became the prime minister of Nepal after this massacre",
+      "The immediate cause of this massacre was the killing of Mathavar Singh Thapa"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "For how many years rana rule lasted in Nepal?",
+    "options": ["102", "103", "104", "105"],
+    "answer": 2
+  },
+  {
+    "question": "When did Bhandarkhal massacre take place?",
+    "options": ["1903 Ashwin 2", "1903 Kartik 12", "1903 Mangsir 16", "1903 Poush 23"],
+    "answer": 1
+  },
+  {
+    "question": "The place named 'Alaau' lies in which place of Nepal?",
+    "options": ["Birgunj", "Bihar", "Sitamadi", "Govargadha"],
+    "answer": 0
+  },
+  {
+    "question": "The first Rana prime minister of Nepal who established Durbar High School is",
+    "options": ["Jung Bahadur Rana", "Bal Narsimha Rana", "Prem Rana", "None"],
+    "answer": 0
+  },
+  {
+    "question": "Who is the first Prime Minister of Nepal to visit Europe?",
+    "options": ["BP Koirala", "Junga Bahadur Rana", "Bhimsen Thapa", "Bir Shumsher"],
+    "answer": 1
+  },
+  {
+    "question": "Who enforced the first civil code of Nepal Muluki Ain?",
+    "options": ["BP Koirala", "Junga Bahadur Rana", "Bhimsen Thapa", "Bir Shumsher"],
+    "answer": 1
+  },
+  {
+    "question": "When was Public Service Commission formed in Nepal?",
+    "options": ["2008 Asar", "2009 Asar", "2007 Asar", "2010 Asar"],
+    "answer": 0
+  },
+  {
+    "question": "Who is the introducer of women education in Nepal?",
+    "options": ["Junga Bahadur Rana", "Bir Shumsher", "Dev Shumsher", "Raman Shumsher"],
+    "answer": 1
+  },
+  {
+    "question": "Who is known as the Dhankute Maharaja?",
+    "options": ["Junga Bahadur Rana", "Bir Shumsher", "Dev Shumsher", "Dambar Shumsher"],
+    "answer": 2
+  },
+  {
+    "question": "When was Sathi pratha abolished from Nepal?",
+    "options": ["1977 Asar 25", "1978 Asar 25", "1979 Asar 25", "1980 Asar 25"],
+    "answer": 0
+  },
+  {
+    "question": "Who was the Prime Minister of Nepal during 2nd World War?",
+    "options": ["Chandra Shumsher", "Juddha Shumsher", "Mohan Shumsher", "Dhir Shumsher"],
+    "answer": 1
+  },
+  {
+    "question": "Who is known as the father of school and Father of Education in Nepal?",
+    "options": [
+      "Mohan Shumsher & Padma Shumsher",
+      "Juddha Shumsher and Dhir Shumsher",
+      "Padma Shumsher & Dev Shumsher",
+      "Dhir Shumsher and Khadga Shumsher"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Who crowned Junga Bahadur Rana with the title 'Shree 3' of Lamjung and Kaski?",
+    "options": ["King Surendra", "King Rajendra", "Trailokya", "Bahadur Shah"],
+    "answer": 0
+  },
+  {
+    "question": "Who introduced Agnate Pratha in Nepal?",
+    "options": ["Ranaudip Singh Kunwar", "Dhir Shumsher", "Jagat Jung", "Jung Bahadur Rana"],
+    "answer": 3
+  },
+  {
+    "question": "Who is the first Prime Minister of Nepal after Rana rule or after democracy declaration?",
+    "options": ["Mohan Shumsher", "Juddha Shumsher", "Padma Shumsher", "BP Koirala"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following pair is incorrect?",
+    "options": [
+      "B.P. Koirala: first public elected Prime minister of Nepal",
+      "Matrika Prasad Koirala: First Prime Minister from the general public",
+      "Manmohan Adhikari: first communist prime minister",
+      "Marichman Singh Shrestha: Last Prime minister of Panchayat System"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Who is the last Rana Prime Minister of Nepal?",
+    "options": ["Mohan Shumsher", "Padma Shumsher", "Bhim Shumsher", "Juddha Shumsher"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the first commercial bank of Nepal?",
+    "options": ["Nepal Arab Bank", "Rastriya Bank Limited", "Nepal Rastra Bank", "Nepal Bank Limited"],
+    "answer": 3
+  },
+  {
+    "question": "Who is the first martyr of Nepal?",
+    "options": ["Gangalal Shrestha", "Shukra Raj Shastri", "Lakhan Thapa", "Dashrath Chand"],
+    "answer": 2
+  },
+  {
+    "question": "When was the first general election held in Nepal?",
+    "options": ["2012", "2013", "2014", "2015"],
+    "answer": 3
+  },
+  {
+    "question": "When was the first public elected government formed in Nepal?",
+    "options": ["2016 Jetha 13", "2016 Asar 16", "2016 Shrawan 13", "2016 Bhadra 5"],
+    "answer": 1
+  },
+  {
+    "question": "Who is the first female minister of Nepal?",
+    "options": ["Shailaja Acharya", "Dwarika Devi Thakurani", "Purnima Shrestha", "Manchhura Devi"],
+    "answer": 1
+  },
+  {
+    "question": "When was the only referendum held in Nepal?",
+    "options": ["2036 Baisakh 10", "2037 Jetha 20", "2037 Baishakh 20", "2039 Asar 2"],
+    "answer": 2
+  },
+  {
+    "question": "Who is known as the political king in Nepalese history?",
+    "options": ["King Birendra", "King Mahendra", "King Gyanendra", "King Surendra"],
+    "answer": 1
+  },
+  {
+    "question": "BIPPA agreement between Nepal and India take place in?",
+    "options": ["2009", "2010", "2011", "2012"],
+    "answer": 2
+  },
+  {
+    "question": "Who is the first female president of Nepal?",
+    "options": ["Sailaja Acharya", "Sushika Karki", "Bidhya Devi Bhandari", "Sushila Thapa"],
+    "answer": 2
+  },
+  {
+    "question": "Who is the first female chief Justice of Nepal?",
+    "options": ["Sailaja Acharya", "Sushila Karki", "Bidhya Devi Bhandari", "Sushila Thapa"],
+    "answer": 1
+  },
+  {
+    "question": "Who is the first female deputy Prime Minister of Nepal?",
+    "options": ["Sailaja Acharya", "Sushika Karki", "Bidhya Devi Bhandari", "Sushila Thapa"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the only temple of Nepal that does not have pinnacle?",
+    "options": ["Pashupatinath", "Krishna Mandir", "Ashok Vinayak", "Swoyambhunath"],
+    "answer": 2
+  },
+  {
+    "question": "Who is the first editor of Gorkhapatra?",
+    "options": ["Nara Dev Pandey", "Subash Chandra Nembang", "Krishna Prasad Bhattarai", "Ratna Shumsher JBR"],
+    "answer": 0
+  },
+  {
+    "question": "Who is the first chair person of constituent Assembly?",
+    "options": ["Mahendra Narayan Nidhi", "Subash Chandra Nembang", "Krishna Prasad Bhattarai", "Baburam Bhattarai"],
+    "answer": 1
+  },
+  {
+    "question": "Who is the first chairman of public service commission?",
+    "options": ["Anirudra Pratap Singh", "Sanjay Dhauranjikar", "Krishna Prasad Bhattarai", "Madhav Prasad Regmi"],
+    "answer": 0
+  },
+  {
+    "question": "Who is the first scientist of Nepal?",
+    "options": ["Khadga Shumsher", "Gehendra Shumsher", "Binaya Singh Rana", "Dhir Shumsher JBR"],
+    "answer": 1
+  },
+  {
+    "question": "Who built Rani Mahal of Palpa?",
+    "options": ["Prem Singh Basnet", "Khadga Shumsher", "Arjun Narsingh Rana", "Bhim Buddha Pulami"],
+    "answer": 1
+  },
+  {
+    "question": "Who is known as the Badakaji in Nepalese History?",
+    "options": ["Bhakti Thapa", "Kalu Pandey", "Balbir Thapa", "Amar Singh Thapa"],
+    "answer": 3
+  },
+  {
+    "question": "Who built Singha Durbar?",
+    "options": ["Junga Bahadur Rana", "Juddha Shumsher", "Padma Shumsher", "Chandra Shumsher"],
+    "answer": 3
+  },
+  {
+    "question": "When did Royal Massacre happen in Royal Palace of Nepal?",
+    "options": ["2001 June 1", "2001 June 2", "2001 June 3", "2001 June 4"],
+    "answer": 0
+  },
+  {
+    "question": "When was MRP introduced by Government of Nepal?",
+    "options": ["2066", "2067", "2068", "2069"],
+    "answer": 1
+  },
+  {
+    "question": "Who is the first person from the general public to wear a Royal Crown (Shreepech)?",
+    "options": ["Jung Bahadur Rana", "Dhir Shumsher", "Bir Shumsher", "Dev Shumsher"],
+    "answer": 0
+  },
+  {
+    "question": "When was Kamaiya system abolished from Nepal?",
+    "options": ["2056 B.S.", "2057 B.S.", "2058 B.S.", "2059 B.S."],
+    "answer": 1
+  },
+  {
+    "question": "Who is the only king to enforce two constitutions of Nepal?",
+    "options": ["Tribhuwan Shah", "Mahendra Shah", "Surendra Shah", "Gyanendra Shah"],
+    "answer": 1
+  },
+  {
+    "question": "Who is known as the Bullet Maharaja?",
+    "options": ["Tribhuwan Shah", "Mahendra Shah", "Surendra Shah", "Trailokya Shah"],
+    "answer": 3
+  },
+  {
+    "question": "'If soldiers are strong the Palace will be strong.' Who said this?",
+    "options": ["Tribhuwan Shah", "Mahendra Shah", "Surendra Shah", "Prithvi Narayan Shah"],
+    "answer": 3
+  },
+  {
+    "question": "During whose period of rule in Nepal, The tri rule (Trayi Sashan, rule by three) existed?",
+    "options": ["Girban Yuddha Bikram Shah", "Mahendra Shah", "Surendra Shah", "Prithvi Narayan Shah"],
+    "answer": 0
+  },
+  {
+    "question": "Which king nicknamed as 'Swami Maharaja' was sworded by his own brother?",
+    "options": ["Rana Bahadur Shah", "Sher Bahadur Shah", "Pratap Singh Shah", "Rajendra Bikram Shah"],
+    "answer": 0
+  },
+  {
+    "question": "Which department carried out the work of constructing houses during Rana regime?",
+    "options": ["Chaprasi Adda", "Sarraf Khana", "Pipa Goshwara", "Shrestha Api"],
+    "answer": 0
+  },
+  {
+    "question": "Which department carried out the Government audit activities during Rana Regime?",
+    "options": ["Kumari Chowk", "Lekha Adda", "Lekhapadhi Adda", "Goth Tahabil"],
+    "answer": 0
+  },
+  {
+    "question": "The famous Medal of Honor “Gorkha Dakshin Bahu” was introduced during the kingship of",
+    "options": ["Prithvi Bir Bikram Shah", "King Tribhuvan", "King Mahendra", "King Birendra"],
+    "answer": 0
+  },
+  {
+    "question": "The department established by Prithvi Narayan Shah to carry out the works related to land and land reformation system was",
+    "options": ["Munsikhana", "Jaisi Kotha", "Chhebhadel Adda", "Sadar Daphtarkhana"],
+    "answer": 3
+  },
+  {
+    "question": "The department that acted as Bank during the reign of Prithvi Narayan Shah was",
+    "options": ["Kaushitosha Khana", "Hiti Chowk", "Bhandarkhal Tahabil", "Census Goshwara"],
+    "answer": 2
+  },
+  {
+    "question": "The department named “Kadel Chowk” during Rana regime carried the function of",
+    "options": ["Gold and silver management", "Cattle and Horse management", "Maintain water supply", "Look after arms and ammunitions"],
+    "answer": 0
+  },
+  {
+    "question": "Who is the signature holder of the treaty of Peace and friendship between Nepal and India that was signed in 1950 July 31?",
+    "options": ["Subarna Shumsher", "Mahabir Shumsher", "Mohan Shumsher", "Matrika Pd. Koirala"],
+    "answer": 2
+  },
+  {
+    "question": "Comprehensive peace accord between the Government of Nepal and Maoist Party/ Declaration of the end of war was signed in",
+    "options": ["2062 Mangsir 5", "2063 Mangsir 7", "2063 Mangsir 13", "2063 Mangsir 5"],
+    "answer": 3
+  },
+  {
+    "question": "When was the first historical election of constituent assembly held?",
+    "options": ["2008 April 10", "2008 April 10", "2008 April 12", "2008 April 14"],
+    "answer": 0
+  },
+  {
+    "question": "Royal proclamation declaring the restoration of House of Representative was made in",
+    "options": ["2063 Baishakh 11", "2063 Baishakh 12", "2063 Baishakh 13", "2063 Baishakh 14"],
+    "answer": 0
+  },
+  {
+    "question": "When was Nepal declared Republic?",
+    "options": ["2008 April 10", "2008 May 28", "2008 June 13", "2008 July 13"],
+    "answer": 1
+  },
+  {
+    "question": "Who is the last national dignitary of Nepal, declared on 2021 June 28?",
+    "options": ["Balabhadra Kunwar", "Sriharsha Thapa", "Amar Singh Thapa", "Bhakti Thapa"],
+    "answer": 3
+  },
+  {
+    "question": "When was Singhadurbar caught on fire?",
+    "options": ["2030 Baishakh 25", "2030 Jetha 25", "2030 Asar 25", "2030 Bhadra 25"],
+    "answer": 2
+  },
+  {
+    "question": "When was the historical constituent Assembly dissolved in Nepal?",
+    "options": ["2012 May 25", "2012 May 26", "2012 May 27", "2012 May 28"],
+    "answer": 3
+  },
+  {
+    "question": "When was the House of Representatives in Nepal dissolved for the last time?",
+    "options": ["2077 Jetha 7", "2077 Jetha 8", "2077 Jetha 9", "2077 Jetha 10"],
+    "answer": 1
+  },
+  {
+    "question": "Who is known as “Panchayat ko Malami” in the history of Nepal?",
+    "options": ["Lokendra Bahadur Chand", "Surya Bahadur Thapa", "Marich Man Singh Shrestha", "Mammohan Adhikari"],
+    "answer": 2
+  },
+  {
+    "question": "Who shifted the capital from Kathmandu to Nuwakot?",
+    "options": ["Prithvi Narayan Shah", "Kalu Pandey", "Bahadur Shah", "Damodar Pandey"],
+    "answer": 3
+  },
+  {
+    "question": "Who is the designer of Martyr’s gate “Nepal Smarak”?",
+    "options": ["Laxman Prasad Chalise", "Shankar Nath Rimal", "Muktila Kayastha", "Gopal Man Chitrakar"],
+    "answer": 1
+  },
+  {
+    "question": "The government of Nepal started the publication of gazette from",
+    "options": ["2008 Shrawan 22", "2008 Magh 21", "2008 Asar 2", "2008 Ashwin 3"],
+    "answer": 0
+  },
+  {
+    "question": "Who was the Prime Minister of Nepal when Nepal signed BIPPA agreement with India?",
+    "options": ["Pushpa Kamal Dahal", "Baburam Bhattarai", "Sher Bahadur Deuba", "Sushil Koirala"],
+    "answer": 1
+  },
+  {
+    "question": "When did the first aircraft land in Nepal?",
+    "options": ["2006 Baishakh 10", "2006 Baishakh 11", "2006 Baishakh 12", "2006 Baishakh 13"],
+    "answer": 1
+  },
+  {
+    "question": "Nepal attained the membership of International Civil Aviation Organization (ICAO)",
+    "options": ["1960 May 29", "1960 June 29", "1960 July 29", "1960 August 29"],
+    "answer": 2
+  },
+  {
+    "question": "When was the house of representative dissolved for the last time?",
+    "options": ["2077 Poush 05", "2077 Falgun 11", "2078 Jetha 08", "2078 Asar 28"],
+    "answer": 2
+  },
+  {
+    "question": "When was the house of representatives reinstated for the last time?",
+    "options": ["2077 Poush 05", "2077 Falgun 11", "2078 Jetha 08", "2078 Asar 28"],
+    "answer": 3
+  },
+  {
+    "question": "When was Jaya Prithivi Bahadur Singh declared the 18th/last national dignitary of Nepal?",
+    "options": [
+      "2079 Asar 05/2022 June 19",
+      "2079 Asar 06/2022 June 20",
+      "2079 Asar 07/2022 June 21",
+      "2079 Asar 08/2022 June 22"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "If I die the nation will not die, but if Bhimsen Thapa dies the nation will collapse. Who said this quote?",
+    "options": ["Bahadur Shah", "Rana Bahadur Shah", "Bhimsen Thapa", "Bhakti Thapa"],
+    "answer": 1
+  }
+  ],
+
+  "1.5 Current Periodic Plan":[
+
+  ],
+
+  "1.6.1 SDG, Environment":[
+
+  ],
+
+  "1.6.2 Science and Technology":[
   {
     "question": "Who is called the Geometrical monster?",
     "options": ["Euclid", "Archimedes", "John Dalton", "Einstein"],
@@ -36612,216 +38703,8 @@ window.mcqData = {
     "options": ["Cornea", "Lens", "Retina", "Eyebrow"],
     "answer": 1
   }
-],
-
-  "1.3 Geographic Diversity, Climatic Condition and Livelihood":  [
-    {
-        question: "What percent of the total area of Nepal is occupied by Mountain region?",
-        options: ["15%", "17%", "19%", "21%"],
-        answer: 0  // a
-    },
-    {
-        question: "Nepal is ranked ……in the rank of world’s most bio-diverse countries",
-        options: ["45th", "46th", "47th", "49th"],
-        answer: 3  // d
-    },
-    {
-        question: "What are the two least spoken languages of Nepal?",
-        options: ["Kusunda and Bankariya", "Bankaria and Kusunda", "Surei and Kusunda", "Tharu and Sadhani"],
-        answer: 0  // a
-    },
-    {
-        question: "How many languages are spoken in Nepal as the mother tongue?",
-        options: ["115", "119", "124", "142"],
-        answer: 2  // c
-    },
-    {
-        question: "Which of the following languages have been recommended as the official languages of Province?",
-        options: ["Tamang and Nepal Bhasa (Newar)", "Maithili, Bhoipuri and Bajrika", "Tamang and Newar", "Tharu and Abadhi"],
-        answer: 0  // a
-    },
-    {
-        question: "The most common language family of Nepal is",
-        options: ["Bharopedi", "BhotiBurnedi", "Agneli", "Dravid"],
-        answer: 0  // a
-    },
-    {
-        question: "What percent of people speak Nepali Language?",
-        options: ["44.86 %", "45.64%", "46.46%", "48.4%"],
-        answer: 0  // a
-    },
-    {
-        question: "Which is the least populated state of Nepal?",
-        options: ["Bankariya", "Nirang", "Kusunda", "Sutel"],
-        answer: 1  // b
-    },
-    {
-        question: "Which is the largest valley of Nepal?",
-        options: ["Dang", "Udayapur", "Surkter", "Chihwan"],
-        answer: 0  // a
-    },
-    {
-        question: "The deepest valley of Nepal which is also the deepest valley of the world lies in",
-        options: ["Sankhuwashabha", "Bhojpur", "Solukhambhu", "Rasuwa"],
-        answer: 0  // a
-    },
-    {
-        question: "Which is the first wetland of Nepal listed in World Ramsar Site in 1987 December 17?",
-        options: ["KokhiTappu", "Jagadishpur lake", "Ghodaghodi Lake", "Phewa lake"],
-        answer: 0  // a
-    },
-    {
-        question: "Which of the following is not included in World Ramsar Site?",
-        options: ["Mapokhari", "Phewa lake", "Beganas lake", "Satyawati lake"],
-        answer: 3  // d
-    },
-    {
-        question: "How many sites of Nepal have been listed in world heritage site by UNESCO?",
-        options: ["8", "9", "10", "11"],
-        answer: 2  // c
-    },
-    {
-        question: "Which of the following sites is not listed in the world heritage site?",
-        options: ["Paslupatinath", "Lumbini", "Changunaryan", "Nyatpol"],
-        answer: 3  // d
-    },
-    {
-        question: "Which is the last heritage listed in world heritage site in 1997?",
-        options: ["Lumbini", "Boudianath", "Changunaryan", "Basantapur Durbur"],
-        answer: 3  // d
-    },
-    {
-        question: "How many protected mammals are there in Nepal?",
-        options: ["25", "26", "27", "28"],
-        answer: 1  // b
-    },
-    {
-        question: "Which of the following mammals are not included in the list of protected mammals?",
-        options: ["Pangolin", "Royal Bengal Tiger", "Panda", "Lynx"],
-        answer: 3  // d
-    },
-    {
-        question: "Which of the following bird is not included in the list of protected species of birds?",
-        options: ["Danphe", "KhanMayur", "Sanas crane", "Dhukur"],
-        answer: 3  // d
-    },
-    {
-        question: "How many tigers are there in Nepal?",
-        options: ["230", "355", "240", "245"],
-        answer: 1  // b
-    },
-    {
-        question: "Among 752 Rhino in Nepal, how many of them are in Chiwan National Park?",
-        options: ["690", "692", "694", "696"],
-        answer: 2  // c
-    },
-    {
-        question: "Which national park of Nepal is the major for tigers in Nepal?",
-        options: ["Shuklaphtanta", "Paras", "Bauke", "Bardiya"],
-        answer: 0  // a
-    },
-    {
-        question: "The forest with Sal tree, Sisco, Red wood, Cutch tree (Khayar) is called",
-        options: ["Tropical Evergreen Forest", "Decidious Forest", "Coniferous Forest", "Alpine Forest"],
-        answer: 0  // a
-    },
-    {
-        question: "The only bird found in Nepal, Spinny babbler is found in which national park?",
-        options: ["Bauke National Park", "Bardiya National Park", "Chiwan National Park", "She Phoksundo National Park"],
-        answer: 1  // b
-    },
-    {
-        question: "Which is the largest national park of Nepal in terms of area?",
-        options: ["She-Phoksundo", "Khaphad", "Makalu-Barun", "Rara"],
-        answer: 0  // a
-    },
-    {
-        question: "Which district of Nepal is famous for Rhododendron?",
-        options: ["Jhapa", "Illam", "Pancithiar", "Bhojpur"],
-        answer: 1  // b
-    },
-    {
-        question: "How many types of climate are found in Nepal?",
-        options: ["4", "5", "6", "7"],
-        answer: 1  // b
-    },
-    {
-        question: "Which region of Nepal is called Monsoon affected region of Nepal?",
-        options: ["Mountain", "Hills", "Chure", "Terai"],
-        answer: 3  // d
-    },
-    {
-        question: "Monsoon wind originates from",
-        options: ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
-        answer: 2  // c
-    },
-    {
-        question: "Tropical Monsoon climate is found at a height of",
-        options: ["60 meter-1200 meter", "2100-2100 meter", "2100-3300 meter", "3300 meters"],
-        answer: 0  // a
-    },
-    {
-        question: "Which climate is found above 5000 meters?",
-        options: ["Monsoon", "Temperate", "Alpine", "Tundra"],
-        answer: 3  // d
-    },
-    {
-        question: "Which climate is most suitable for healthier living?",
-        options: ["Warm Temperate", "Cold Temperate", "Sub-Tropical", "Monsoon"],
-        answer: 0  // a
-    },
-    {
-        question: "Which is the following statement is false?",
-        options: [
-            "Monsoon climate is the most favourable climate for agriculture.",
-            "The most unfavourable climate of Nepal is Mountain climate/Tundra/Polar climate.",
-            "Alpine climate is famous for animal farming and Trekking (Tourism Promotion).",
-            "Cold temperate climate is found in Kathmandu."
-        ],
-        answer: 3  // d
-    },
-    {
-        question: "Rhododendron is found in which type of climate?",
-        options: ["Warm Temperate", "Cold Temperate", "Monsoon Climate", "Alpine"],
-        answer: 0  // a
-    },
-    {
-        question: "Which of the following vegetation is not found in Tropical climate?",
-        options: ["Sal", "Sisson", "Khayar", "Lapsi"],
-        answer: 3  // d
-    },
-    {
-        question: "The medicinal herb “Yarshagumba (Cordyseps sinensis)” is found in which type of climate?",
-        options: ["Alpine", "Tundra", "Tropical", "Sub-tropical"],
-        answer: 0  // a
-    },
-    {
-        question: "Which climate is called vegetation free area?",
-        options: ["Monsoon", "Tundra", "Alpine", "Sub alpine region"],
-        answer: 1  // b
-    },
-    {
-        question: "What is the main occupation of the people of Himalayan region?",
-        options: ["Animal Husbandry", "Agriculture", "Trade", "Industrial activity"],
-        answer: 0  // a
-    },
-    {
-        question: "Which region of Nepal is called Lesser Himalaya?",
-        options: ["Bhabar", "Chure", "Mahabharata", "Inner Himalaya"],
-        answer: 2  // c
-    },
-    {
-        question: "There are ……… seasons of Nepal",
-        options: ["4", "5", "6", "7"],
-        answer: 2  // c
-    },
-    {
-        question: "Sharad (Autumn) season in Nepal can be observed in the month of",
-        options: ["Jetla-Asar", "Shrawan-Bhadra", "Ashwin-Kartik", "Mangsir-Poush"],
-        answer: 2  // c
-    }
-
   ],
+
   "1.7.1 UNO": [
   {
     question: "What was the function of Munsikhana Adda during Rana period?",
