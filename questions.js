@@ -34212,50 +34212,833 @@ window.mcqData = {
   ],
 
   "1.1.2 Socio Culture aspect":[
+  
   {
-      "id": 1,
-      "question": "Which is the oldest religion of the world?",
-      "options": {
-        "a": "Hinduism",
-        "b": "Buddhism",
-        "c": "Islam",
-        "d": "Christianity"
-      },
-      "answer": "a"
-    },
-    {
-      "id": 2,
-      "question": "Which is the largest religion of the world?",
-      "options": {
-        "a": "Hinduism",
-        "b": "Christianity",
-        "c": "Buddhism",
-        "d": "Islam"
-      },
-      "answer": "b"
-    },
-    {
-      "id": 3,
-      "question": "How many religions are observed in Nepal according to census 2021?",
-      "options": {
-        "a": "10",
-        "b": "11",
-        "c": "12",
-        "d": "13"
-      },
-      "answer": "c"
-    },
-    {
-      "id": 4,
-      "question": "What percent of people in Nepal observe Hinduism according to the census of 2011?",
-      "options": {
-        "a": "80.3%",
-        "b": "81.19%",
-        "c": "82.3%",
-        "d": "83.3%"
-      },
-      "answer": "b"
-    },
+    "question": "Which is the oldest religion of the world?",
+    "options": ["Hinduism", "Buddhism", "Islam", "Christianity"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the largest religion of the world?",
+    "options": ["Hinduism", "Christianity", "Buddhism", "Islam"],
+    "answer": 1
+  },
+  {
+    "question": "How many religions are observed in Nepal according to census 2021?",
+    "options": ["10", "11", "12", "13"],
+    "answer": 2
+  },
+  {
+    "question": "What percent of people in Nepal observe Hinduism according to the census of 2011?",
+    "options": ["80.3%", "81.19%", "82.3%", "83.3%"],
+    "answer": 1
+  },
+  {
+    "question": "What is the religious text of Hinduism called?",
+    "options": ["Quran", "Bible", "Veda", "Tripitak"],
+    "answer": 2
+  },
+  {
+    "question": "Hindus believe that existence is a cycle of",
+    "options": ["Birth", "death", "rebirth", "Karma", "All of the above"],
+    "answer": 4
+  },
+  {
+    "question": "Which is the least worshipped god of Hinduism?",
+    "options": ["Brahma", "Vishnu", "Shiva", "Saraswati"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the first incarnation of Lord Vishnu?",
+    "options": ["Kurma", "Matsya", "Varaha", "Narsimha"],
+    "answer": 1
+  },
+  {
+    "question": "Snake hanged around the neck of Lord Shiva is",
+    "options": ["Natraja", "Bhairava", "Bashuki", "Nandi"],
+    "answer": 2
+  },
+  {
+    "question": "Which is the oldest Veda?",
+    "options": ["Rig Veda", "Yajur- Veda", "Sam Veda", "Atharva Veda"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the shortest Veda?",
+    "options": ["Rig Veda", "Yajur- Veda", "Sam Veda", "Atharva Veda"],
+    "answer": 2
+  },
+  {
+    "question": "Music is believed to have originated from",
+    "options": ["Rig Veda", "Yajur- Veda", "Sam Veda", "Atharva Veda"],
+    "answer": 2
+  },
+  {
+    "question": "Shrimal Bhagavad Gita was originally written in which language?",
+    "options": ["Sanskrit", "Pali", "Tiruhatta", "Bramhi"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the largest epic of the world?",
+    "options": ["Ramayana", "Mahabharata", "Upanishad", "Indra jal"],
+    "answer": 1
+  },
+  {
+    "question": "Who is the composer of Mahabharata?",
+    "options": ["Valmiki", "Ved-Vyasa", "Ganesha", "Bhanubikata Acharya"],
+    "answer": 1
+  },
+  {
+    "question": "Who is called the light of Asia?",
+    "options": ["Jesus Christ", "Gurunanak", "Gautam Buddha", "Mahabir Jain"],
+    "answer": 2
+  },
+  {
+    "question": "Where did Gautam Buddha attain enlightenment?",
+    "options": ["Bodhgaya", "Sarnath", "Vaishali", "Kushinagar"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the oldest Pillar (Idol) of Nepal?",
+    "options": ["Ashoka Pillar", "Virupakshya", "Vishworupa", "Kalbhairabh"],
+    "answer": 1
+  },
+  {
+    "question": "Who is the founder of Islam?",
+    "options": ["Swetamber Hajrath", "Guru Nanak", "Hajarath Musa", "Paigambar Mohanhad"],
+    "answer": 3
+  },
+  {
+    "question": "What is the religious text of Kirant called?",
+    "options": ["Pinak", "Samran Bachan", "Sumnima", "Mundhum"],
+    "answer": 3
+  },
+  {
+    "question": "“Dhaan nach” is the cultural dance of which ethnic group?",
+    "options": ["Rai", "Limbu", "Tamang", "Newar"],
+    "answer": 1
+  },
+  {
+    "question": "What is the religious priest of Magar called?",
+    "options": ["Baiga", "Deusi", "Pande", "Bhusal"],
+    "answer": 3
+  },
+  {
+    "question": "Which ethnic caste is called Praja?",
+    "options": ["Raute", "Praja", "Dhimal", "Jirel"],
+    "answer": 0
+  },
+  {
+    "question": "The festival “Tamu Lhosar” is observed by",
+    "options": ["Tamang", "Magar", "Sherpa", "Gurung"],
+    "answer": 3
+  },
+  {
+    "question": "The festival “Shiruwa” is observed by which ethnic group of Nepal?",
+    "options": ["Rajbanshi", "Mandal", "Yadav", "Satar"],
+    "answer": 0
+  },
+  {
+    "question": "Which caste does not use vermilion in the marriage function?",
+    "options": ["Tamang", "Gurung", "Sherpa", "Magar"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following caste does not fall under marginalized indigenous caste?",
+    "options": ["Dhimal", "Tamang", "Tharu", "Danuwar"],
+    "answer": 3
+  },
+  {
+    "question": "How many endangered castes are there in Nepal?",
+    "options": ["8", "9", "10", "11"],
+    "answer": 2
+  },
+  {
+    "question": "What is the native place of origin of “Byashi” ethnic group?",
+    "options": ["Bajhang", "Darchula", "Baitadi", "Dailekh"],
+    "answer": 1
+  },
+  {
+    "question": "Which caste does not have permanent residence?",
+    "options": ["Dhunel", "Banjara", "Bankariya", "Raute"],
+    "answer": 1
+  },
+  {
+    "question": "The caste which provides ingua fruit tree (Chiuri tree) as dowry is",
+    "options": ["Raute", "Chepang", "Hyolmo", "Lhomi"],
+    "answer": 1
+  },
+  {
+    "question": "Which caste is called “Karvote”?",
+    "options": ["Lhomi", "Hayu", "Gaine", "Kishan"],
+    "answer": 0
+  },
+  {
+    "question": "It is sin to touch money. This statement is truth in which caste?",
+    "options": ["Raute", "Chhantyal", "Free", "Puma"],
+    "answer": 0
+  },
+  {
+    "question": "When did Chandra Sumsher declare the end of slavery system in Nepal?",
+    "options": ["1981 Bhadra 13", "1981 Ashwin 07", "1981 Kartik 29", "1981 Magh 08"],
+    "answer": 3
+  },
+  {
+    "question": "Daughters from poor family are bought by the rich and are offered to god as a vow. This evil is called",
+    "options": ["Jhuma Pratha", "Deuki pratha", "Jhara Pratha", "Danguwa Prata"],
+    "answer": 1
+  },
+  {
+    "question": "What is the second most spoken language of Nepal?",
+    "options": ["Nepali", "Maithili", "Bhoipuri", "Newari"],
+    "answer": 1
+  },
+  {
+    "question": "Language that falls in unknown language group is",
+    "options": ["Santhal", "Tamil", "Kusunda", "Mulayam"],
+    "answer": 2
+  },
+  {
+    "question": "What is the language spoken by Raute called?",
+    "options": ["Khamjee", "Khamchi", "Kham", "Kagate"],
+    "answer": 1
+  },
+  {
+    "question": "Nepali, Bhoipuri, Maithili fall in which family of language?",
+    "options": ["Bharopeli", "Bhot Burmese", "Dravid", "Agneya"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the third least populated caste of Nepal?",
+    "options": ["Raute", "Norang", "Kusunda", "Kalat"],
+    "answer": 2
+  },
+  {
+    "question": "Which is the newly added caste in the list of indigenous caste?",
+    "options": ["Dhimal", "Raute", "Humli", "Santhal"],
+    "answer": 2
+  },
+  {
+    "question": "Match the correct pair regarding Gautam Buddha",
+    "options": ["a-ii, b-i, c-iv, d-iii", "a-ii, b-iv, c-i, d-iii", "a-i, b-ii, c-iii, d-iv", "a-ii, b-i, c-iii, d-iv"],
+    "answer": 3
+  },
+  {
+    "question": "What is the death of Gautam Buddha called?",
+    "options": ["Parinisvikarna", "Dharma Chakra Pravartan", "Mahapariniryana", "Mahanibhiskaran"],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following does not fall under eight fold path truths (Astangik marga)?",
+    "options": ["Right Understanding", "Right Speech", "Right meditation", "Right attitude"],
+    "answer": 3
+  },
+  {
+    "question": "Sati pratha was first included in which Veda?",
+    "options": ["Atharva Veda", "Rig Veda", "Yajur Veda", "Sama Veda"],
+    "answer": 0
+  },
+  {
+    "question": "Vedic text are sometimes called",
+    "options": ["Mantra", "Shruti", "Katha", "Sonet"],
+    "answer": 1
+  },
+  {
+    "question": "The class system (Brahmin, Kshatriya, Vaishya and Sudra) was conceptualized in which veda",
+    "options": ["Rig Veda", "Atharva Veda", "Yajur Veda", "Sama Veda"],
+    "answer": 0
+  },
+  {
+    "question": "Which god motivated Valmiki to compose Ramayana?",
+    "options": ["Brahma", "Vishnu", "Krishna", "Shiva"],
+    "answer": 1
+  },
+  {
+    "question": "Who translated Ramayana initially written in Sanskrit into Nepali language?",
+    "options": ["Bhanu Bhakta Acharya", "Motiram Bhatta", "Vedbyas", "Agnetro"],
+    "answer": 0
+  },
+  {
+    "question": "Identify the incorrect pair regarding the holy places of different religions",
+    "options": ["Hindu......Temple", "Muslim......Mosque/Masjid", "Christianity......Church", "Buddhism......Agni Mandir"],
+    "answer": 3
+  },
+  {
+    "question": "Match the correct pair",
+    "options": ["a-ii, b-i, c-iv, d-iii", "a-iii, b-iv, c-i, d-ii", "a-i, b-ii, c-iii, d-iv", "a-ii, b-i, c-iii, d-iv"],
+    "answer": 1
+  },
+  {
+    "question": "The largest Hindu temple “Angkor wat” is located at",
+    "options": ["Malaysia", "Brunei", "Vietnam", "Cambodia"],
+    "answer": 3
+  },
+  {
+    "question": "Whose statue is found in maximum number in the world?",
+    "options": ["Gautam Buddha", "Jesus Christ", "Mahabir Jain", "Hajrath Musa"],
+    "answer": 0
+  },
+  {
+    "question": "Who built Pashupatinath temple?",
+    "options": ["Mandev", "Prachnada Dev", "Anshuverma", "Basanta Dev"],
+    "answer": 1
+  },
+  {
+    "question": "Which is the first temple of Nepal?",
+    "options": ["Changunarayan", "Swoyanbhunath", "Dakshinkali", "Pashupatinath"],
+    "answer": 1
+  },
+  {
+    "question": "In which country is “Borobudur” the largest Buddha temple of the world?",
+    "options": ["Indonesia", "Malaysia", "Cambodia", "Singapore"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the second most spoken mother language of Nepal?",
+    "options": ["Bhojpuri", "Maithili", "Kirat", "Dotyali"],
+    "answer": 1
+  },
+  {
+    "question": "When was Nepal declared Secular state?",
+    "options": ["2063 Jestha 04", "2063 Mangshir 05", "2063 Kartik 23", "2063 Magh 08"],
+    "answer": 0
+  },
+  {
+    "question": "The famous place where the war of Mahabharata was fought currently lies in which state of India?",
+    "options": ["Himanchal Pradesh", "Hariyana", "Uttar Pradesh", "Bihar"],
+    "answer": 1
+  },
+  {
+    "question": "Match languages and language families.",
+    "options": ["A-3, B-1, C-2", "A-2, B-1, C-3", "A-1, B-2, C-3", "A-2, B-3, C-1"],
+    "answer": 3
+  },
+  {
+    "question": "Which is the first district declared free from Kamlari Pratha?",
+    "options": ["Banke", "Bardiya", "Dang", "Kanchanpur"],
+    "answer": 2
+  },
+  {
+    "question": "Match the correct pairs of different religions practiced in Nepal and their places of worship.",
+    "options": ["A-2, B-3, C-4, D-1", "A-4, B-3, C-2, D-1", "A-2 B-1, C-4, D-3", "A-3 B 2, C-1, D-4"],
+    "answer": 2
+  },
+  {
+    "question": "Match the correct pair",
+    "options": ["A-2, B-3, C-4, D-1", "A-4, B-3, C-2, D-1", "A-2 B-1, C-4, D-3", "A-3 B 2, C-1, D-4"],
+    "answer": 0
+  },
+  {
+    "question": "What was the name of the father of ancient character Veda vyas?",
+    "options": ["Vasudeva", "Yudhisthira", "Atri", "Parashara"],
+    "answer": 3
+  },
+  {
+    "question": "Thakurbaba temple is located in which district?",
+    "options": ["Bardiya", "Banke", "Dang", "Kapilvastu"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the first movie of newari language of Nepal?",
+    "options": ["Umi", "Sherni", "Gunii", "Uni"],
+    "answer": 0
+  },
+  {
+    "question": "What was the name of King Janak's queen?",
+    "options": ["Kunti", "Sunayana", "Mandodari", "Sugandha"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the right option by matching the caste and festival.",
+    "options": ["A-3, B-1, C-4, D-2", "A-4, B-3, C-2, D-1", "A-3, B-4, C-1, D-2", "A-3, B-2 C-4 D-1"],
+    "answer": 0
+  },
+  {
+    "question": "Aradhyadev Pashupatinath temple is built in which style?",
+    "options": ["Shikhar", "Pagoda", "Mughal", "Nagra"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following festivals are celebrated by the Rajvanshi caste?",
+    "options": ["Chasok", "Siriwa", "Judshital", "Gaura"],
+    "answer": 1
+  },
+  {
+    "question": "What is the name of the festival celebrated as New Year especially by Tamang, Shema, Guwetic in Nepal?",
+    "options": ["Judshital", "Lhosar", "Udhauli", "Torantha"],
+    "answer": 1
+  },
+  {
+    "question": "After Nepali language, which is the most spoken language in Nepal?",
+    "options": ["Maithili", "Newari", "Bhojpuri", "Tharu"],
+    "answer": 0
+  },
+  {
+    "question": "What is the old name of Rani Pokhari?",
+    "options": ["Vishnu Tirtha", "Swapna Tirtha", "Saraswati Kunda", "Dev Kunda"],
+    "answer": 0
+  },
+  {
+    "question": "The Newari language spoken in Nepal belongs to which language family?",
+    "options": ["Bharopeli", "Bhot Burmeli", "Agneya", "Arya"],
+    "answer": 1
+  },
+  {
+    "question": "In which district is the Shalik (Idol) of Kiranti King Yalambar?",
+    "options": ["Bhojpur", "Sankhuwasabha", "Taplejung", "Terhathum"],
+    "answer": 1
+  },
+  {
+    "question": "Mayadevi, who is associated with the life of Siddhartha Gautama, is also referred to as...",
+    "options": ["Mahamaya", "Prajapati Gautami", "Yasodhara", "Nandakumar"],
+    "answer": 0
+  },
+  {
+    "question": "Match group I with group II and choose the correct option.",
+    "options": ["A-3, B-1, C-4, D-2", "A-4, B-3, C-2, D-1", "A-3, B-4, C-1, D-2", "A-3, B-2 C-4 D-1"],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following is correct in the order of least to most spoken languages?",
+    "options": ["Tharu, Maithali, Bhoipuri, Nepali", "Bhoipuri, Tharu, Maithali, Nepali", "Bhoipuri, Maithali Tharu, Nepali", "Tharu, Bhoipuri, Maithali, Nepali"],
+    "answer": 3
+  },
+  {
+    "question": "Match the correct pair",
+    "options": ["A-3, B-1, C-4, D-2", "A-4, B-3, C-2, D-1", "A-3, B-4, C-1, D-2", "A-3, B-2 C-4 D-1"],
+    "answer": 2
+  },
+  {
+    "question": "Whose literary nickname is Veda Vyasa?",
+    "options": ["Yogesh Raj", "Lokendra Bahadur Chand", "Swami Prapannacharya", "Hemang Dixit"],
+    "answer": 3
+  },
+  {
+    "question": "How many meters above sea level is the Maulakalika temple?",
+    "options": ["541", "551", "561", "671"],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following properties of Nepal is not listed in the UNESCO World Heritage List?",
+    "options": ["Hanumandhoka Palace", "Janaki Temple", "Mayadevi Temple", "Changunarayan Temple"],
+    "answer": 1
+  },
+  {
+    "question": "Which caste of Nepal has the tradition of 'choosing Bhaimansa' and celebrating 'Tilasankrait' festival as a new year to organize the development work?",
+    "options": ["Rajbanshi", "Kusunda", "Sunar", "Tharu"],
+    "answer": 3
+  },
+  {
+    "question": "Match the correct pair",
+    "options": ["A-3, B-1, C-4, D-5", "A-4, B-5, C-2, D-1", "A-3, B-4, C-5, D-1", "A-5, B-2 C-4 D-1"],
+    "answer": 2
+  },
+  {
+    "question": "During the era of which king of the Kirant era, the Maurya emperor Ashok erected a billiard in Lumbini, establishing the historical foundation of Lumbini as the Buddha?",
+    "options": ["Jighro", "Jitedasti", "Patuk", "Stihuko"],
+    "answer": 3
+  },
+  {
+    "question": "Sinja Valley, which is known as the cornerstone of Nepal's language, culture and located in which district?",
+    "options": ["Jumla", "Humla", "Kalikot", "Jajarkot"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following song is sung by the Limbu caste of Nepal?",
+    "options": ["Palam", "Hori", "Jhyaure", "Asare"],
+    "answer": 0
+  },
+  {
+    "question": "Which places in Nepal will be promoted as Birthing Hub and Wedding Hub respectively in budget statement of the fiscal year 2081/82?",
+    "options": ["Janakpur and Lumbini", "Lumbini and Janakpur", "Lumbini and Pokhara", "Nepalgunj and Bhaktapur"],
+    "answer": 1
+  },
+  {
+    "question": "Amali system was abolished during which Rana Prime Minister?",
+    "options": ["Juddha Sumsher", "Dev Sumsher", "Chandra Sumsher", "Bir Sumsher"],
+    "answer": 2
+  },
+  {
+    "question": "Siruwa Parwa is celebrated by which ethnic caste of Nepal?",
+    "options": ["Rajbanshi", "Satar", "Dhima", "Meche"],
+    "answer": 0
+  },
+  {
+    "question": "Which language was used in the Ashoka pillar of Lumbini?",
+    "options": ["Pali", "Ranjana", "Brahmi", "Sirijunga"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the oldest script (Lipi) of Nepal?",
+    "options": ["Devnagari", "Sanskrit", "Brahmi", "Katiti"],
+    "answer": 2
+  },
+  {
+    "question": "What is the land given to a particular caste for enjoyment so that it cannot be sold?",
+    "options": ["Raikar", "Birta", "Kipat", "All of the above"],
+    "answer": 2
+  },
+  {
+    "question": "Who was the Malla King who established the Ram Temple with Lavakush at Aryaghat on banks of Bagmati?",
+    "options": ["Jayasthiti Malla", "Pratap Malla", "Rudra Malla", "Yaksha Malla"],
+    "answer": 0
+  },
+  {
+    "question": "Who is the promoter of 'Uttar Mimansa (Vedanta)', a scripture of Hindu philosophy?",
+    "options": ["Vyasa", "Jaimini", "Kapil", "Karnad"],
+    "answer": 0
+  },
+  {
+    "question": "What do the Tamang's call the monasteries built like walls along the road by mentioned prayers and mantras?",
+    "options": ["Pyag", "Mane", "Chotha", "Euro"],
+    "answer": 1
+  },
+  {
+    "question": "Mocho Boko Gumba is situated in which of the following district?",
+    "options": ["Jumla", "Humla", "Mustang", "Manang"],
+    "answer": 3
+  },
+  {
+    "question": "Match the Correct pair",
+    "options": ["A-3, B-1, C-4, D-2", "A-2, B-1, C-4, D-3", "A-3, B-2, C-4, D-1", "A-2, B-3, C-4, D-1"],
+    "answer": 3
+  },
+  {
+    "question": "What is the Pitaka called which contains the teachings of Lord Buddha?",
+    "options": ["Shukta Pitaka", "Abhidhamma Pitaka", "Vinay Pitaka", "None"],
+    "answer": 0
+  },
+  {
+    "question": "'Saraya dance' is related to which topic?",
+    "options": ["Love and affection", "Farming", "Marriage Vow", "War practice"],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following statement is false?",
+    "options": ["Nepali and Bhipuri language falls under Bharopeli Language Family.", "Pata Mela is a festival celebrated by Satar caste.", "Kumar Shashthi is a cultural festival of Newar community.", "Raute is listed in the list of marginalized indigenous nationalities."],
+    "answer": 3
+  },
+  {
+    "question": "How many minor castes are there in Nepal according to the census of 2078?",
+    "options": ["110", "115", "120", "125"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is not included in the list of four Vinayaka of Valley?",
+    "options": ["Jal Vinayaka", "Chandra Vinayaka", "Soorya Vinayaka", "Siddhi Vinayaka"],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following is not a String instrument (Tarbaza)?",
+    "options": ["Bina", "Sitar", "Kamal", "Sarangi"],
+    "answer": 2
+  },
+  {
+    "question": "In which style has the Mahaboudha Temple of Patan been built?",
+    "options": ["Pagoda Style", "Shikhar Style", "Mughal Style", "Stupa Style"],
+    "answer": 1
+  },
+  {
+    "question": "Match between the dance of Group-A and caste of Group-B",
+    "options": ["a-1, b-2, c-3, d-4", "a-4, b-3, c-2, d-1", "a-2, b-1, c-4, d-3", "a-2, b-3, c-4, d-1"],
+    "answer": 2
+  },
+  {
+    "question": "'Saraya dance' is related to which topic?",
+    "options": ["1 right but 2 wrong", "2 right but 1 wrong", "1 and 2 both right", "1 and 2 both wrong"],
+    "answer": 2
+  },
+  {
+    "question": "Who is known as the guru of the gods?",
+    "options": ["Vaidhyanath", "Dhainwantari", "Ashwini kumar", "Bihaspati"],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following statement is incorrect?",
+    "options": ["The oldest Veda is Rigveda.", "Chandi dance is famous in Magar tribes.", "The designer of Lumbini Master Plan is Dr. Kenzo Tange.", "Changunarayan is the first temple built in Pagoda Style."],
+    "answer": 1
+  },
+  {
+    "question": "In which caste is 'Chyabrung dance' famous?",
+    "options": ["Rai", "Sherpa", "Limbu", "Thakali"],
+    "answer": 2
+  },
+  {
+    "question": "Balgopaleshwar temple in the middle of Ranjpokhari is built in which style?",
+    "options": ["Pagoda", "Granthakut", "Shikhar", "Stupa"],
+    "answer": 2
+  },
+  {
+    "question": "By what other name is Thangka Chitra (painting) known?",
+    "options": ["Pauya Chitra", "Granthá Chitra", "Bhitte Chitra", "None"],
+    "answer": 1
+  },
+  {
+    "question": "Limbu language is written in which script?",
+    "options": ["Brahmi", "Ranjana", "Kutila", "Srijungha"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is not included in Upayeda?",
+    "options": ["Dhanurveda", "Gandharvaveda", "Atharvaveda", "Ayurveda"],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following places is not included in the Lumbini master plan?",
+    "options": ["Devdah", "Ramgram", "Tilaurakot", "Chandrauja"],
+    "answer": 3
+  },
+  {
+    "question": "Tamang Museum is located in which district?",
+    "options": ["Nuwakot", "Rasuwa", "Lalitpur", "Sindhupalchowk"],
+    "answer": 1
+  },
+  {
+    "question": "The word 'Poldok' is related to which caste?",
+    "options": ["Majhi", "Jirel", "Satar", "Dhimal"],
+    "answer": 1
+  },
+  {
+    "question": "Danguwa Praha is common in which caste?",
+    "options": ["Rajbanshi", "Malla", "Satar", "Banjara"],
+    "answer": 0
+  },
+  {
+    "question": "Arrange the correct order",
+    "options": ["1-2-3-4", "1-3-4-1", "1-4-2-3", "4-3-2-1"],
+    "answer": 0
+  },
+  {
+    "question": "According to the story of the Mahabharata, among the 100 brothers and sons of Dhritarshin who participated in the Mahabharata war on the side of the Pandavas?",
+    "options": ["Dushshasan", "Yuyutsu", "Jarasandha", "Jayadraya"],
+    "answer": 1
+  },
+  {
+    "question": "How many cultural heritage sites are listed in World Heritage site?",
+    "options": ["5", "6", "7", "8"],
+    "answer": 3
+  },
+  {
+    "question": "Where did Gautam Buddha deliver his first and last sermon?",
+    "options": ["Kapilvastu and Ramgram", "Sarnath and Kushinagar", "Kushinagar and Bodhgaya", "Ramgram and Tilaurakot"],
+    "answer": 1
+  },
+  {
+    "question": "Who is known as the god of rain and mercy?",
+    "options": ["Machchhindranath", "Pashupatinath", "Budhanilakantha", "Gorakhnath"],
+    "answer": 0
+  },
+  {
+    "question": "Mahaguru Falgunanda Lingden is associated with which religion?",
+    "options": ["Kirati", "Hindu", "Islam", "Christianity"],
+    "answer": 0
+  },
+  {
+    "question": "Who built the historic religious site Boudhanath Stupa?",
+    "options": ["Siddhinarsingha Malla", "Pratap Malla", "Mandev", "Jung Bahadur"],
+    "answer": 1
+  },
+  {
+    "question": "Identify the false statement?",
+    "options": ["Udauli and Ubhauli are the major festivals of Kirat community.", "Pratap Singh Shah introduced the system of burying the lingo of Indra Jatra.", "Adams Peak, the center of faith for Hinduism, Buddhism and Islam lies in Srilanka.", "The caste that lives in forest for 6 months and 6 months in house is Raute."],
+    "answer": 3
+  },
+  {
+    "question": "Adivasi Janajati multi-caste (Bahu jatiya) museum is located in which district?",
+    "options": ["Dharan (Sunsari)", "Pokhara (Kaski)", "Bhrikutimandap (Kathmandu)", "Ghalegaun (Lanjung)"],
+    "answer": 0
+  },
+  {
+    "question": "What is the religious text of the Sherpa caste called?",
+    "options": ["Upanishad", "Phogyu", "Mundhum", "Manirimdu"],
+    "answer": 1
+  },
+  {
+    "question": "What name did the Limbu give to the religion preached by Mahaguru Falgunanda?",
+    "options": ["Paruhang", "Satyahangma", "Sumnima", "Mundhum"],
+    "answer": 1
+  },
+  {
+    "question": "List the Kaurava army commanders who were replaced after each died in the Mahabharata war in chronological order:",
+    "options": ["Bhishma, Dronacharcha, Karna, Shalya, Ashwatthama", "Bhishma, Dronacharcha, Shalya, Karna, Ashwatthama", "Bhishma, karna, Dronacharcha, Karna, Shalya, Ashwatthama", "Bhishma, Dronacharcha, Karna, Ashwatthama, Shalya"],
+    "answer": 0
+  },
+  {
+    "question": "According to Hindu mythology, what is the name of Lord Kumar's vehicle?",
+    "options": ["Garuda", "Crow", "Peacock", "Bhairava"],
+    "answer": 2
+  },
+  {
+    "question": "Who is the father of the planets according to religious texts?",
+    "options": ["Krishna", "Soorya", "Shiva", "Ganesha"],
+    "answer": 1
+  },
+  {
+    "question": "Darai castes have settled in which of the following districts?",
+    "options": ["Lamjung", "Kaski", "Tanahun", "Myagdi"],
+    "answer": 2
+  },
+  {
+    "question": "In which caste, The Butter Tree (Chiuri Plant) is given as dowry?",
+    "options": ["Magar", "Tamang", "Dhimal", "Chepang"],
+    "answer": 3
+  },
+  {
+    "question": "Which caste worships the sedum plant (Siudi Plant)?",
+    "options": ["Chepang", "Raute", "Satar", "Meche"],
+    "answer": 3
+  },
+  {
+    "question": "What kind of animal skin is used to make the instrument 'Damphu' played by the Tamang people?",
+    "options": ["Leopard", "Rhino", "Goat", "Deer"],
+    "answer": 3
+  },
+  {
+    "question": "Chonam is an important cultural festival of which caste?",
+    "options": ["Chepang", "Tamang", "Gurung", "Rai"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following pair is incorrect?",
+    "options": ["Chepang......Praja", "Meche......Bodo", "Lhomi......Karbnote", "Magar......Tamu"],
+    "answer": 3
+  },
+  {
+    "question": "Chandi Puja is prevalent in which caste?",
+    "options": ["Limbu", "Rai", "Tamang", "Magar"],
+    "answer": 1
+  },
+  {
+    "question": "Which community celebrates Chhath festival?",
+    "options": ["Rajbanshi", "Satar", "Mithila", "Byashi"],
+    "answer": 2
+  },
+  {
+    "question": "Sirijat is the main festival celebrated by which caste?",
+    "options": ["Rai", "Chidimar", "Chepang", "Dhimal"],
+    "answer": 3
+  },
+  {
+    "question": "'Chirai Bhajahar', a festival celebrating an unmarried daughter as a bird, is celebrated in which community of Nepal?",
+    "options": ["Gurung", "Bhramin", "Chhetri", "Tharu"],
+    "answer": 3
+  },
+  {
+    "question": "Which caste celebrates Pondiya festival?",
+    "options": ["Tharu", "Newar", "Rai", "Gurung"],
+    "answer": 0
+  },
+  {
+    "question": "Identify the incorrect pair regarding the dance of different caste",
+    "options": ["Sakela Dance......Lepcha", "Balan Dance......Bhramin and Chhetri", "Maruni Dance......Magar", "Jhijhiya Dance......Tharu"],
+    "answer": 0
+  },
+  {
+    "question": "What of the following statement is/are true?",
+    "options": ["1 and 2 are correct", "2 and 4 correct", "3 and 4 correct", "All of them are correct"],
+    "answer": 3
+  },
+  {
+    "question": "Match the following castes and the dances they perform.",
+    "options": ["a-1, b-2, c-3, d-4", "a-4, b-3, c-2, d-1", "a-3, b-4, c-1, d-2", "a-2, b-3, c-4, d-1"],
+    "answer": 2
+  },
+  {
+    "question": "What is the religious text of the Sherpa caste called?",
+    "options": ["a-1, b-2, c-3, d-4", "a-4, b-3, c-2, d-1", "a-3, b-4, c-1, d-2", "a-2, b-3, c-4, d-1"],
+    "answer": 0
+  },
+  {
+    "question": "What is the religious text of the Sherpa caste called?",
+    "options": ["a-1, b-2, c-3, d-4", "a-4, b-3, c-2, d-1", "a-3, b-4, c-1, d-2", "a-2, b-3, c-4, d-1"],
+    "answer": 1
+  },
+  {
+    "question": "Which festival of different castes makes the correct pair?",
+    "options": ["Satar......Soharaya", "Rajbanshi......Kaura", "Newar......Kumari", "Darai......Chutka"],
+    "answer": 1
+  },
+  {
+    "question": "What is the religious text of the Sherpa caste called?",
+    "options": ["a-2, b-3, c-4, d-1", "a-4, b-1, c-2, d-1", "a-3, b-4, c-1, d-2", "a-2, b-3, c-4, d-1"],
+    "answer": 0
+  },
+  {
+    "question": "What is the language spoken by the Chepang caste called?",
+    "options": ["Khanche", "Khamji", "Kham", "Manirimdu"],
+    "answer": 0
+  },
+  {
+    "question": "On which date does the festival Shivratri fall?",
+    "options": ["Falgun Krishna Panchami", "Falgun Shukla Panchami", "Falgun Krishna Chaturdashi", "Falgun Shukla Chaturdashi"],
+    "answer": 2
+  },
+  {
+    "question": "When is the big fair held in Gosakunda in Rasuwa district?",
+    "options": ["Janai Purnima", "New Year", "Dashain", "Maghi"],
+    "answer": 0
+  },
+  {
+    "question": "What is the story told to the newlywed bride in the Maithili community?",
+    "options": ["Madhu Gatha", "Madhu Mahima", "Madhu Vani", "Madhu Shravani"],
+    "answer": 3
+  },
+  {
+    "question": "Which language family do Satars belong to?",
+    "options": ["Bhot Burmese", "Varopeli", "Agnesiyali", "Dravid"],
+    "answer": 2
+  },
+  {
+    "question": "Consider the following statement.",
+    "options": ["1 only", "1, 2, 3 only", "1 and 3 only", "2 and 4 only"],
+    "answer": 1
+  },
+  {
+    "question": "Match the correct pair",
+    "options": ["a-2, b-3, c-4, d-1", "a-4, b-1, c-2, d-3", "a-3, b-4, c-1, d-2", "a-2, b-3, c-4, d-1"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following customs is said to be the human insensitivity or cruel custom?",
+    "options": ["Dowry Pratha", "Sati Pratha", "Das Pratha", "Kamaiya Pratha"],
+    "answer": 1
+  },
+  {
+    "question": "Match the correct pair",
+    "options": ["a-2, b-3, c-1, d-4", "a-1, b-2, c-3, d-4", "a-3, b-4, c-1, d-2", "a-3, b-1, c-4, d-2"],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following caste does not fall under highly marginalized group?",
+    "options": ["Majhi", "Sunuwar", "Siyar", "Chepang"],
+    "answer": 1
+  },
+  {
+    "question": "When did Nepal sign and ratify the UNESCO Convention on the Protection of Cultural Heritage, 2003?",
+    "options": ["2010 June 15", "2003 October 17", "2005 January 25", "2007 May 21"],
+    "answer": 0
+  },
+  {
+    "question": "Balgopaleshwor temple located in between Ranjpokhari is reconstructed in which architecture style?",
+    "options": ["Shikhar", "Pagoda", "Granthakut", "Rajput"],
+    "answer": 1
+  },
+  {
+    "question": "Who was the first Liechavi king to see the Bhoto Jatra of Rato Machhindranath?",
+    "options": ["Mandev", "Anshuverma", "Bar dev", "Narendra Dev"],
+    "answer": 0
+  },
+  {
+    "question": "Identify the incorrect pair.",
+    "options": ["Buddhism......Gautam Buddha", "Christianity......Jesus Christ", "Jainism......Mahavir Jain", "Kirat......Gurunanak"],
+    "answer": 3
+  },
+  {
+    "question": "Match the correct pair",
+    "options": ["a-2, b-3, c-1, d-4", "a-1, b-2, c-3, d-4", "a-3, b-4, c-1, d-2", "a-3, b-1, c-4, d-2"],
+    "answer": 0
+  }
+
   ],
 
   "1.1.3 Economic Demography":[
