@@ -34602,7 +34602,7 @@ window.mcqData = {
   {
     "question": "Match group I with group II and choose the correct option.",
     "options": ["A-3, B-1, C-4, D-2", "A-4, B-3, C-2, D-1", "A-3, B-4, C-1, D-2", "A-3, B-2 C-4 D-1"],
-    "image": "images/socioculture/70.jpg",
+    "image": "images/socioculture/77.jpg",
     "answer": 3
   },
   {
