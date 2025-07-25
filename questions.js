@@ -2839,7 +2839,7 @@ window.mcqData = {
   {
     question: "In the analysis of rates, the profit and over head for the contractor is generally taken as",
     options: ["20%", "15%", "10%", "5%"],
-    answer: 2 // c: 10%
+    answer: 1 // b
   },
   {
     question: "Contractor tax is",
