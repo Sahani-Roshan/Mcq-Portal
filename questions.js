@@ -34421,6 +34421,7 @@ window.mcqData = {
   {
     "question": "Match the correct pair regarding Gautam Buddha",
     "options": ["a-ii, b-i, c-iv, d-iii", "a-ii, b-iv, c-i, d-iii", "a-i, b-ii, c-iii, d-iv", "a-ii, b-i, c-iii, d-iv"],
+    "image": "images/socioculture/42.jpg",
     "answer": 3
   },
   {
@@ -34466,6 +34467,7 @@ window.mcqData = {
   {
     "question": "Match the correct pair",
     "options": ["a-ii, b-i, c-iv, d-iii", "a-iii, b-iv, c-i, d-ii", "a-i, b-ii, c-iii, d-iv", "a-ii, b-i, c-iii, d-iv"],
+    "image": "images/socioculture/51.jpg",
     "answer": 1
   },
   {
@@ -34511,6 +34513,7 @@ window.mcqData = {
   {
     "question": "Match languages and language families.",
     "options": ["A-3, B-1, C-2", "A-2, B-1, C-3", "A-1, B-2, C-3", "A-2, B-3, C-1"],
+    "image": "images/socioculture/60.jpg",
     "answer": 3
   },
   {
@@ -34521,11 +34524,13 @@ window.mcqData = {
   {
     "question": "Match the correct pairs of different religions practiced in Nepal and their places of worship.",
     "options": ["A-2, B-3, C-4, D-1", "A-4, B-3, C-2, D-1", "A-2 B-1, C-4, D-3", "A-3 B 2, C-1, D-4"],
+    "image": "images/socioculture/62.jpg",
     "answer": 2
   },
   {
     "question": "Match the correct pair",
     "options": ["A-2, B-3, C-4, D-1", "A-4, B-3, C-2, D-1", "A-2 B-1, C-4, D-3", "A-3 B 2, C-1, D-4"],
+    "image": "images/socioculture/63.jpg",
     "answer": 0
   },
   {
@@ -34551,6 +34556,7 @@ window.mcqData = {
   {
     "question": "Choose the right option by matching the caste and festival.",
     "options": ["A-3, B-1, C-4, D-2", "A-4, B-3, C-2, D-1", "A-3, B-4, C-1, D-2", "A-3, B-2 C-4 D-1"],
+    "image": "images/socioculture/68.jpg",
     "answer": 0
   },
   {
@@ -34596,6 +34602,7 @@ window.mcqData = {
   {
     "question": "Match group I with group II and choose the correct option.",
     "options": ["A-3, B-1, C-4, D-2", "A-4, B-3, C-2, D-1", "A-3, B-4, C-1, D-2", "A-3, B-2 C-4 D-1"],
+    "image": "images/socioculture/70.jpg",
     "answer": 3
   },
   {
@@ -34606,6 +34613,7 @@ window.mcqData = {
   {
     "question": "Match the correct pair",
     "options": ["A-3, B-1, C-4, D-2", "A-4, B-3, C-2, D-1", "A-3, B-4, C-1, D-2", "A-3, B-2 C-4 D-1"],
+    "image": "images/socioculture/79.jpg",
     "answer": 2
   },
   {
@@ -34631,6 +34639,7 @@ window.mcqData = {
   {
     "question": "Match the correct pair",
     "options": ["A-3, B-1, C-4, D-5", "A-4, B-5, C-2, D-1", "A-3, B-4, C-5, D-1", "A-5, B-2 C-4 D-1"],
+    "image": "images/socioculture/84.jpg",
     "answer": 2
   },
   {
@@ -34701,6 +34710,7 @@ window.mcqData = {
   {
     "question": "Match the Correct pair",
     "options": ["A-3, B-1, C-4, D-2", "A-2, B-1, C-4, D-3", "A-3, B-2, C-4, D-1", "A-2, B-3, C-4, D-1"],
+    "image": "images/socioculture/98.jpg",
     "answer": 3
   },
   {
@@ -34741,10 +34751,11 @@ window.mcqData = {
   {
     "question": "Match between the dance of Group-A and caste of Group-B",
     "options": ["a-1, b-2, c-3, d-4", "a-4, b-3, c-2, d-1", "a-2, b-1, c-4, d-3", "a-2, b-3, c-4, d-1"],
+    "image": "images/socioculture/106.jpg",
     "answer": 2
   },
   {
-    "question": "'Saraya dance' is related to which topic?",
+    "question": "1. Bisket jatra is also celebrated as tongue piercing festival. 2. Shiva & parbati are worshipped in Pata mela",
     "options": ["1 right but 2 wrong", "2 right but 1 wrong", "1 and 2 both right", "1 and 2 both wrong"],
     "answer": 2
   },
@@ -34804,7 +34815,7 @@ window.mcqData = {
     "answer": 0
   },
   {
-    "question": "Arrange the correct order",
+    "question": "Arrange the correct order: 1 Tamu Lhosar, 2 maghi parwa, 3 sonam lhosar, 4 Gyaplo lhosar",
     "options": ["1-2-3-4", "1-3-4-1", "1-4-2-3", "4-3-2-1"],
     "answer": 0
   },
@@ -34936,21 +34947,25 @@ window.mcqData = {
   {
     "question": "What of the following statement is/are true?",
     "options": ["1 and 2 are correct", "2 and 4 correct", "3 and 4 correct", "All of them are correct"],
+    "image": "images/socioculture/145.jpg",
     "answer": 3
   },
   {
     "question": "Match the following castes and the dances they perform.",
     "options": ["a-1, b-2, c-3, d-4", "a-4, b-3, c-2, d-1", "a-3, b-4, c-1, d-2", "a-2, b-3, c-4, d-1"],
+    "image": "images/socioculture/146.jpg",
     "answer": 2
   },
   {
-    "question": "What is the religious text of the Sherpa caste called?",
+    "question": "Match the following?",
     "options": ["a-1, b-2, c-3, d-4", "a-4, b-3, c-2, d-1", "a-3, b-4, c-1, d-2", "a-2, b-3, c-4, d-1"],
+    "image": "images/socioculture/147.jpg",
     "answer": 0
   },
   {
-    "question": "What is the religious text of the Sherpa caste called?",
+    "question": "Match",
     "options": ["a-1, b-2, c-3, d-4", "a-4, b-3, c-2, d-1", "a-3, b-4, c-1, d-2", "a-2, b-3, c-4, d-1"],
+    "image": "images/socioculture/148.jpg",
     "answer": 1
   },
   {
@@ -34959,8 +34974,9 @@ window.mcqData = {
     "answer": 1
   },
   {
-    "question": "What is the religious text of the Sherpa caste called?",
+    "question": "Match",
     "options": ["a-2, b-3, c-4, d-1", "a-4, b-1, c-2, d-1", "a-3, b-4, c-1, d-2", "a-2, b-3, c-4, d-1"],
+    "image": "images/socioculture/150.jpg",
     "answer": 0
   },
   {
@@ -34989,13 +35005,15 @@ window.mcqData = {
     "answer": 2
   },
   {
-    "question": "Consider the following statement.",
+    "question": "Consider the following statement and find incorrect.",
     "options": ["1 only", "1, 2, 3 only", "1 and 3 only", "2 and 4 only"],
+     "image": "images/socioculture/156.jpg",
     "answer": 1
   },
   {
     "question": "Match the correct pair",
     "options": ["a-2, b-3, c-4, d-1", "a-4, b-1, c-2, d-3", "a-3, b-4, c-1, d-2", "a-2, b-3, c-4, d-1"],
+     "image": "images/socioculture/157.jpg",
     "answer": 1
   },
   {
@@ -35006,6 +35024,7 @@ window.mcqData = {
   {
     "question": "Match the correct pair",
     "options": ["a-2, b-3, c-1, d-4", "a-1, b-2, c-3, d-4", "a-3, b-4, c-1, d-2", "a-3, b-1, c-4, d-2"],
+     "image": "images/socioculture/159.jpg",
     "answer": 2
   },
   {
@@ -35036,6 +35055,7 @@ window.mcqData = {
   {
     "question": "Match the correct pair",
     "options": ["a-2, b-3, c-1, d-4", "a-1, b-2, c-3, d-4", "a-3, b-4, c-1, d-2", "a-3, b-1, c-4, d-2"],
+     "image": "images/socioculture/165.jpg",
     "answer": 0
   }
 
