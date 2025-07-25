@@ -34212,7 +34212,50 @@ window.mcqData = {
   ],
 
   "1.1.2 Socio Culture aspect":[
-  
+  {
+      "id": 1,
+      "question": "Which is the oldest religion of the world?",
+      "options": {
+        "a": "Hinduism",
+        "b": "Buddhism",
+        "c": "Islam",
+        "d": "Christianity"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 2,
+      "question": "Which is the largest religion of the world?",
+      "options": {
+        "a": "Hinduism",
+        "b": "Christianity",
+        "c": "Buddhism",
+        "d": "Islam"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 3,
+      "question": "How many religions are observed in Nepal according to census 2021?",
+      "options": {
+        "a": "10",
+        "b": "11",
+        "c": "12",
+        "d": "13"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 4,
+      "question": "What percent of people in Nepal observe Hinduism according to the census of 2011?",
+      "options": {
+        "a": "80.3%",
+        "b": "81.19%",
+        "c": "82.3%",
+        "d": "83.3%"
+      },
+      "answer": "b"
+    },
   ],
 
   "1.1.3 Economic Demography":[
