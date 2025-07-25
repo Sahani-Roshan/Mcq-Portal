@@ -158,8 +158,8 @@ window.mcqData = {
     answer: 2
 },
 {
-    question: "The fundamental relation between percentage Air voids na, specific gravity (G), water content (w) and dry density (Yd) is",
-    options: ["nd = G(1-S)/1+e", "WS = Ge", "We = SG", "none of the above"],
+    question: "The fundamental relation between void ratio(e), specific gravity (G), Degree of Saturation(S) and density (Y) is",
+    options: ["Y = G(1-S)*Yw/1+e", "WS = Ge", "We = SG", "none of the above"],
     answer: 0
 },
 {
@@ -17976,7 +17976,7 @@ window.mcqData = {
   answer: 2
 },
 {
-  question: "The points A and B are 1530 m apart across a wide river. The following reciprocal levels are taken with one level Level at    Reading on A    B A  2.165    3.810 B  0.91    2.355 The true difference in level between A and B would be",
+  question: "The points A and B are 1530 m apart across a wide river. The following reciprocal levels are taken with one level Level at A:    Reading on A&B: 2.165, 0.91     Level at B: Reading at A&B: 3.810, 2.355 .The true difference in level between A and B would be",
   options: [
     "1.255 m",
     "1.455 m",
