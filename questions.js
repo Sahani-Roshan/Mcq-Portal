@@ -34775,17 +34775,17 @@ window.mcqData = {
   {
     "question": "Balgopaleshwar temple in the middle of Ranjpokhari is built in which style?",
     "options": ["Pagoda", "Granthakut", "Shikhar", "Stupa"],
-    "answer": 2
+    "answer": 1
   },
   {
     "question": "By what other name is Thangka Chitra (painting) known?",
     "options": ["Pauya Chitra", "Granthá Chitra", "Bhitte Chitra", "None"],
-    "answer": 1
+    "answer": 0
   },
   {
     "question": "Limbu language is written in which script?",
     "options": ["Brahmi", "Ranjana", "Kutila", "Srijungha"],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "Which of the following is not included in Upayeda?",
@@ -35038,12 +35038,12 @@ window.mcqData = {
   {
     "question": "Balgopaleshwor temple located in between Ranjpokhari is reconstructed in which architecture style?",
     "options": ["Shikhar", "Pagoda", "Granthakut", "Rajput"],
-    "answer": 1
+    "answer": 2
   },
   {
     "question": "Who was the first Liechavi king to see the Bhoto Jatra of Rato Machhindranath?",
     "options": ["Mandev", "Anshuverma", "Bar dev", "Narendra Dev"],
-    "answer": 0
+    "answer": 2
   },
   {
     "question": "Identify the incorrect pair.",
@@ -35233,6 +35233,7 @@ window.mcqData = {
       "A-3, B-2, C-4, D-1",
       "A-4, B-3, C-1, D-2"
     ],
+    "image": "images/ecogeo/30.jpg",
     "answer": 0
   },
   {
@@ -35347,7 +35348,7 @@ window.mcqData = {
       "a-iii, b-iv, c-i, d-ii",
       "a-iii, b-i, c-iv, d-ii",
       "a-iv, b-i, c-iii, d-ii"
-    ],
+    ],"image": "images/socioculture/48.jpg",
     "answer": 2
   },
   {
@@ -35452,7 +35453,7 @@ window.mcqData = {
       "A-2, B-1, C-4, D-3",
       "A-3, B-2, C-4, D-1",
       "A-4, B-3, C-1, D-2"
-    ],
+    ],"image": "images/socioculture/67.jpg",
     "answer": 3
   },
   {
@@ -35517,7 +35518,7 @@ window.mcqData = {
       "1-iv, 2-ii, 3-iii, 4-i",
       "1-iii, 2-i, 3-iv, 4-ii",
       "1-ii, 2-iii, 3-i, 4-iv"
-    ],
+    ],"image": "images/socioculture/76.jpg",
     "answer": 1
   },
   {
@@ -35601,7 +35602,7 @@ window.mcqData = {
       "a-i, b-ii, c-iii, d-iv, e-v",
       "a-ii, b-iii, c-iv, d-v, e-i",
       "a-iii, b-iv, c-v, d-i, e-ii"
-    ],
+    ],"image": "images/socioculture/90.jpg",
     "answer": 0
   },
   {
