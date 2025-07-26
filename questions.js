@@ -36627,7 +36627,7 @@ window.mcqData = {
   },
   {
     "question": "When was the first historical election of constituent assembly held?",
-    "options": ["2008 April 10", "2008 April 10", "2008 April 12", "2008 April 14"],
+    "options": ["2008 April 10", "2008 April 11", "2008 April 12", "2008 April 14"],
     "answer": 0
   },
   {
