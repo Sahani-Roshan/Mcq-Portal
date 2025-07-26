@@ -35932,6 +35932,665 @@ window.mcqData = {
 
   "1.2 Major Natural Resources":[
 
+  {
+    "question": "The term “white coal” sometimes referred to which of the following?",
+    "options": ["Hydroelectricity", "Coal", "geothermal energy"],
+    "answer": 0
+  },
+  {
+    "question": "What is the estimated potential of hydroelectricity potential in Nepal?",
+    "options": ["82,000 Megawatt", "83,000Megawatte", "84,000Megawatt", "85,000Megawatt"],
+    "answer": 1
+  },
+  {
+    "question": "What is the foreign currency obtained by selling hydroelectricity?",
+    "options": ["US Dollar", "Pound Sterling", "White Currency", "White Dollar"],
+    "answer": 3
+  },
+  {
+    "question": "Second class rivers originate from………",
+    "options": ["Himalayas", "Mahabharata range", "Chure Range", "Midland range"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is not the first class river?",
+    "options": ["Koshi", "Gandaki", "karnali", "Bagnati"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is a second class river?",
+    "options": ["Trishuli", "Tamor", "Rapti", "Tila"],
+    "answer": 2
+  },
+  {
+    "question": "Which is the deepest river of Nepal?",
+    "options": ["Triyuga", "Koshi", "Narayani", "Karnali"],
+    "answer": 2
+  },
+  {
+    "question": "What is Mahakali River in India called?",
+    "options": ["Damodar", "Sarayan", "Ghangara", "Sharada"],
+    "answer": 3
+  },
+  {
+    "question": "Which river of Nepal flows in opposite direction?",
+    "options": ["Bagnati", "Tukucha", "karmonasha", "Hanumante"],
+    "answer": 2
+  },
+  {
+    "question": "Which river originates from Sapantirtha?",
+    "options": ["Bagnati", "Vishnumati", "Manohara", "Dhobi khola"],
+    "answer": 1
+  },
+  {
+    "question": "Which river of Nepal is called “The Sorrow of Bihar” and “Sorrow of Bengal”?",
+    "options": ["Koshi", "Trishuli", "Marsyangdi", "Kaligandaki"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the eastern most second class river of Nepal?",
+    "options": ["Tamor", "Mechi", "Arun", "Indrawati"],
+    "answer": 1
+  },
+  {
+    "question": "Which river originates at the highest altitude of the world?",
+    "options": ["Tamor", "Trishuli", "Gandaki", "Arun"],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following is not the tributary of Gandaki River?",
+    "options": ["Madi", "Marsyangdi", "Tila", "Budhigandaki"],
+    "answer": 2
+  },
+  {
+    "question": "Tikapur is situated on the bank of which river?",
+    "options": ["Kamali", "Mohana", "Babai", "Hardinath"],
+    "answer": 0
+  },
+  {
+    "question": "…… class rivers are called seasonal rivers/third class/temporary/Chure rivers?",
+    "options": ["First class", "Second Class", "Third Class", "fourth class"],
+    "answer": 2
+  },
+  {
+    "question": "Tainor river from Tibet enters Nepal from",
+    "options": ["Yari Pass", "Olangchungola pass", "CHangla Pass", "None"],
+    "answer": 1
+  },
+  {
+    "question": "How many rivers of Nepal originate from Tibet (Bhot)?",
+    "options": ["4", "5", "6", "7"],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following river does not originate from Tibet (Bhot Himal)?",
+    "options": ["Tamor", "Sunkoshi", "Indrawati", "Tamakoshi"],
+    "answer": 2
+  },
+  {
+    "question": "Which river of Nepal is famous for Dolphin?",
+    "options": ["Kamali", "Koshi", "Gandaki", "Mahakali"],
+    "answer": 0
+  },
+  {
+    "question": "Which river of Nepal is famous for a precious black stone “Shaligram”?",
+    "options": ["Budhi gandaki", "Setigandaki", "Kali gandaki", "Marsyangdi"],
+    "answer": 2
+  },
+  {
+    "question": "Mahakali, which is the shortest and smallest first class river of Nepal originates from",
+    "options": ["Mustang peak", "Api peak", "Tukuche peak", "Manaslu peak"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following river originates from Gosainkunda?",
+    "options": ["Trishuli", "Kali gandaki", "Budhigandaki", "Marsyangdi"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following pair is incorrect?",
+    "options": ["Indrawati-Satya Bahini", "Budhigandaki-Yashodhara", "Arun-Mahaprabha", "Rapti-Hemganiga"],
+    "answer": 3
+  },
+  {
+    "question": "What is the mythological name of Kaligandaki River?",
+    "options": ["Ganga Sworupa", "Vaishanbi Sworupa", "Kaumarya Sworupa", "Baruwa"],
+    "answer": 0
+  },
+  {
+    "question": "The decade 2018 -2028 is observed as ………decade for energy development",
+    "options": ["Energy and Water Resource decade", "Energy and irrigation", "Energy and public partnership decade", "People’s participation in Energy consumption"],
+    "answer": 0
+  },
+  {
+    "question": "Total electricity (in megawatt) connected to the national grid through hydroelectricity is",
+    "options": ["2790.45", "2818.91", "2892.90", "2981.94"],
+    "answer": 1
+  },
+  {
+    "question": "Which province has the least access to electricity?",
+    "options": ["Kamali", "Sudur Paschim", "Lumbini", "Province number 1"],
+    "answer": 0
+  },
+  {
+    "question": "In which district is \"Barju Lake\" situated?",
+    "options": ["Sunsari", "Morang", "Jhapa", "Sapiari"],
+    "answer": 0
+  },
+  {
+    "question": "What percent of Nepalese people have access to electricity?",
+    "options": ["95.7 percent", "95.9 percent", "96.7 percent", "97.7 percent"],
+    "answer": 2
+  },
+  {
+    "question": "When is national energy observed in Nepal?",
+    "options": ["Jetha 6", "Jetha 7", "Jetha 8", "Jetha 9"],
+    "answer": 3
+  },
+  {
+    "question": "Which is the first hydropower project of Nepal?",
+    "options": ["Sundarijal", "Pharping", "Kulekhani", "kali gandaki"],
+    "answer": 1
+  },
+  {
+    "question": "Which country provided technical assistance for the construction of Pharping hydropower?",
+    "options": ["USA", "UK", "Russia", "Japan"],
+    "answer": 1
+  },
+  {
+    "question": "What is the production capacity of Kaligandaki Hydropower project?",
+    "options": ["140 megawatt", "142 megawatt", "144 megawatt", "146 megawatt"],
+    "answer": 2
+  },
+  {
+    "question": "Kulekhani hydropower is situated in which district of Nepal?",
+    "options": ["Kathmandu", "Mustang", "Makwanpur", "Dolakha"],
+    "answer": 2
+  },
+  {
+    "question": "Hydropwer project at the highest altitude is",
+    "options": ["Sundarijal", "Pharping", "Upper Tamakoshi", "Thame"],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following pair is incorrect?",
+    "options": ["Chamelia hydropower -Darchula", "Trishuli-Nuwakot", "Sunkoshi-Sindhupalehowk", "Sundarijal- Nuwakot"],
+    "answer": 3
+  },
+  {
+    "question": "Identify the incorrect pair",
+    "options": ["Kulekhani-Japan", "Upper Tamakoshi-India", "Marsyangdi-Germany", "Devighat- India"],
+    "answer": 1
+  },
+  {
+    "question": "Which is the first hydropower built from private sector?",
+    "options": ["Chilime", "Sanchzen", "Mailing Khola", "Khimti"],
+    "answer": 3
+  },
+  {
+    "question": "The largest hydropwer project generated from the private sector is",
+    "options": ["Solu khola", "Khimti", "Chilime", "Upper Tamakoshi"],
+    "answer": 0
+  },
+  {
+    "question": "Hydroelectric projects of capacity between 100-1000 megawatt are called.....hydropower",
+    "options": ["Small", "Large", "Medium", "Massive"],
+    "answer": 1
+  },
+  {
+    "question": "The largest hydropower project of Nepal under construction \"Upper Tamakoshi\" is situated in which district?",
+    "options": ["Dolakha", "Ramechihap", "Sindhupalehowk", "Russia"],
+    "answer": 0
+  },
+  {
+    "question": "The first hydropower constructed by Nepal is",
+    "options": ["Farping", "Sundarijal", "Khimti", "Kulekhani"],
+    "answer": 1
+  },
+  {
+    "question": "Match the correct pair",
+    "options": ["a-i, b-ii, c-iii, d-iv", "a-iv, b-ii, c-iii, d-I", "a-iv, b-ii, c-i, d-iii", "a-iii, b-i, c-iv, d-ii"],
+    "image": "images/naturalres/44.jpg",
+    "answer": 2
+  },
+  {
+    "question": "Which of the following statement is incorrect?",
+    "options": ["Rara lake is the largest lake of Nepal", "She Phoksundo is the deepest lake of Nepal", "Lake situated at the highest altitude is Tilicho lake", "Ghodaghodi lake is also called Kapil lake", "Tal Barahi Temple lies at the middle of Rara lake"],
+    "answer": 4
+  },
+  {
+    "question": "Which is the largest man-made pond (water reservoir)?",
+    "options": ["Bharat lake", "Surma Sarovar", "Chho-Rolpa", "Indra Sarovar"],
+    "answer": 3
+  },
+  {
+    "question": "Which is the largest glacier of Nepal?",
+    "options": ["Langtang", "Khumbu", "Ngopa", "Fungi"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following pair is wrongly matched",
+    "options": ["Largest water falls: Hyatung (Terhathum)", "Longest water falls: Pachal (Kalikot)", "Water falls at the highest altitude: Shuligad (Dolpa)", "Rupee water falls: Mustang"],
+    "answer": 3
+  },
+  {
+    "question": "Which lake is called Mahendra Lake?",
+    "options": ["Jagadishpur lake", "Rara lake", "Satyawati lake", "Bulbule lake"],
+    "answer": 1
+  },
+  {
+    "question": "It is supposed that a new lake has been discovered at the highest altitude. Name the lake",
+    "options": ["Chhayanath", "Kajin Sara", "Chame", "Upper Titicho"],
+    "answer": 1
+  },
+  {
+    "question": "Where did Badakaji Amar singh Thapa commit suicide?",
+    "options": ["Gosainkunda", "Damodar Kunda", "Narad Kunda", "Dudh kunda"],
+    "answer": 0
+  },
+  {
+    "question": "Which geographical sobriquet is wrong?",
+    "options": ["District of pond: Kathmandu", "District of lakes: Kaski", "Cherapunji of Nepal: Kathmandu", "District of Kunda: Rasuwa"],
+    "answer": 2
+  },
+  {
+    "question": "A famous religious spot Sworgadwari lies in which Province of Nepal?",
+    "options": ["Bagnati", "Gandaki", "Lumbini", "Karnali"],
+    "answer": 2
+  },
+  {
+    "question": "Paddy is best grown in which types of soil?",
+    "options": ["Alluvial", "Sandy Boulder", "Red Brown", "Lacustrine"],
+    "answer": 0
+  },
+  {
+    "question": "What type of soil is best for cash crops?",
+    "options": ["Glacial", "Lacustrine", "Black", "Red Brown"],
+    "answer": 3
+  },
+  {
+    "question": "What percent of the total area of Nepal is surrounded by forest area?",
+    "options": ["44.74%", "45.31%", "44.9%", "44.98%"],
+    "answer": 1
+  },
+  {
+    "question": "Which province has the largest area of forest?",
+    "options": ["Gandaki", "Lumbini", "Koshi", "Sudur Paschim"],
+    "answer": 2
+  },
+  {
+    "question": "On the basis of total land area of province, which province has largest forest area?",
+    "options": ["Karnali", "Madhesh", "Bagnati", "Lumbini"],
+    "answer": 2
+  },
+  {
+    "question": "Which province has the least forest area?",
+    "options": ["Province number 1", "Madhesh", "Bagnati", "Lumbini"],
+    "answer": 1
+  },
+  {
+    "question": "Which is the first national park of Nepal?",
+    "options": ["Chitwan", "Langtang", "Rara", "Sagarmatha"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the largest national park of Terai region?",
+    "options": ["Chitwan", "Parsa", "Banke", "Bardiya"],
+    "answer": 3
+  },
+  {
+    "question": "Langtang National park is famous for",
+    "options": ["One horned Rhino", "Black Buck", "Panda", "Bengal Tiger"],
+    "answer": 2
+  },
+  {
+    "question": "Parsa National Park is not extended in which of the following district?",
+    "options": ["Chitwan", "Makwanpur", "Parsa", "Nawalpur"],
+    "answer": 3
+  },
+  {
+    "question": "How many wetlands have been listed in the world Ramsar site?",
+    "options": ["8", "10", "12", "14"],
+    "answer": 1
+  },
+  {
+    "question": "Which is the first national park listed in world heritage site?",
+    "options": ["Chitwan", "Sagarmatha", "Rara", "Shuklaphanta"],
+    "answer": 1
+  },
+  {
+    "question": "Match the correct pair",
+    "options": ["A-ii, B-iii, C-iv, D-i", "A-i, B-iii, C-iv, D-ii", "A-ii, B-iii, C-ii, D-i", "A-ii, B-i, C-iv, D-iii"],
+    "image": "images/naturalres/66.jpg",
+    "answer": 0
+  },
+  {
+    "question": "Uranium is found in which place of Nepal?",
+    "options": ["Bank of Chameliya river", "Bank of Koshi river", "Bank of Kaligandaki river", "Bank of Narayani river"],
+    "answer": 0
+  },
+  {
+    "question": "Which place of Nepal is famous for Iron?",
+    "options": ["Thakkhola", "Doti", "Lhotse", "Those"],
+    "answer": 3
+  },
+  {
+    "question": "The magnesite ore in Nepal is found in ………district",
+    "options": ["Dolakha", "Udayapur", "Ramcchhhap", "Sindhulj"],
+    "answer": 0
+  },
+  {
+    "question": "Dhaubadi Iron ore is in",
+    "options": ["Nawalparasi West", "Nawalparasi East", "Dang", "Udayapur"],
+    "answer": 1
+  },
+  {
+    "question": "Geru ore (Ochre) in Nepal is found in which district?",
+    "options": ["Sindhupalchowk", "Dolakha", "Ramcchhap", "Nuwakot"],
+    "answer": 0
+  },
+  {
+    "question": "By which name is the lake inside the holy pilgrimage site Lumbini known?",
+    "options": ["Pushkarini", "Pushpakarini", "Ashik Batika", "Madhukarini"],
+    "answer": 0
+  },
+  {
+    "question": "Which national park is famous for four horned Antelope “Chausinga”?",
+    "options": ["Sagarmatha national park", "Langtang national park", "Rara National Park", "Parsa National Park"],
+    "answer": 3
+  },
+  {
+    "question": "Wild buffalo “Arna” is conserved in which of the following places?",
+    "options": ["Chitwan", "Bardiya", "Nawalaparasis East", "Koshi Tappu"],
+    "answer": 3
+  },
+  {
+    "question": "Which place of Nepal is famous for Marble?",
+    "options": ["Fulchowki", "Chandragiri", "Godavari", "Shivapuri"],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following pair is/are correct",
+    "options": ["Fungfung water falls-Nuwakot", "Fungfung water falls-Taplejung", "Fungfungla-Gorkha", "All the pair are correct"],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following national park is/are listed in the world heritage site by UNESCO?",
+    "options": ["Sagarmatha national park", "Chitwan national park", "both a and b", "none"],
+    "answer": 2
+  },
+  {
+    "question": "Which is the last (12th) forest conservation area of Nepal?",
+    "options": ["Apinampa", "Gaurishankar", "Blackbuck", "Godavari-fulchwoki"],
+    "answer": 3
+  },
+  {
+    "question": "What is the scientific name of the protected bird “Black Stork”?",
+    "options": ["Ciconia Nigra", "Ciconia ciconia", "Grus Antegone", "None of the above"],
+    "answer": 0
+  },
+  {
+    "question": "Which lake area of Nepal is are declared the bird sanctuary (Bird Reserve)?",
+    "options": ["Rara", "Jagadishpur", "Ghodaghodi", "Both b & c"],
+    "answer": 3
+  },
+  {
+    "question": "Which district of Nepal has the highest number of Lakes?",
+    "options": ["Humla", "Jumla", "Dolpa", "Mugu"],
+    "answer": 0
+  },
+  {
+    "question": "Which conservation area of Nepal conducts the census of Himalayan blue ship “Naur” with be said from world wildlife fund?",
+    "options": ["Manaslu", "Kanchanjunga", "Apinampa", "Black Buck"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following national park is famous for musk deer (Kastruri miriga)?",
+    "options": ["Chitwan national park", "Rara National park", "Parsa national park", "Sagarmatha and langtang national park"],
+    "answer": 3
+  },
+  {
+    "question": "Which district of Nepal is famous for salt?",
+    "options": ["Thakkhola (Mustang)", "Jomson (Mustang)", "Lamjung (Beshi sahar)", "Chame (Manang)"],
+    "answer": 0
+  },
+  {
+    "question": "The famous lakes Sagarhavia, Jagadishpur, Lamba Sagar, Jakhira are located in which district?",
+    "options": ["Rupandehi", "Arghakhanchi", "Rolpa", "Kapilvasu"],
+    "answer": 0
+  },
+  {
+    "question": "What is the height of Gosainkunda?",
+    "options": ["4240 meter", "4380 meter", "4450 meter", "4690 meter"],
+    "answer": 1
+  },
+  {
+    "question": "In which district is the sacred Salpa pond, considered to be the origin of Kirant's Mundhum?",
+    "options": ["Sankhuwasabha", "Tehrathum", "Dhankuta", "Bhoipur"],
+    "answer": 3
+  },
+  {
+    "question": "In which district is Gajedi lake of Nepal located ?",
+    "options": ["Kapilvastu", "Rupandehi", "Nawalpur", "Rukum East"],
+    "answer": 1
+  },
+  {
+    "question": "What is the ancient/mytological name for Rani Pokhari?",
+    "options": ["Vishnu Tirtha", "Swopna Tirtha", "Maikunda", "Dev Kunda"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following lake is not included in Ramsar Site?",
+    "options": ["Jagadishpur lake", "Ghodaghodi lake", "Bulbule lake", "Mai Pokhari"],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following pair is incorrect?",
+    "options": ["Mai Pokhari: Illam", "Satashidahm.Jhapa", "Salpa Pokhari: Terhathum", "Barahakshetra: Sunsari"],
+    "answer": 2
+  },
+  {
+    "question": "Which river of Nepal has the largest hydropower potential?",
+    "options": ["Koshi", "Gandaki", "Karnali", "Mahakali"],
+    "answer": 2
+  },
+  {
+    "question": "Which river of Nepal is famous for White Rafting?",
+    "options": ["Karnali", "Kaligandaki", "Trshulli", "Rapti"],
+    "answer": 0
+  },
+  {
+    "question": "Sano Bheri is called Uttar Ganga, whereas Karmonasha is called?",
+    "options": ["Uttar Bahini", "Uttar Ghagara", "Uttar ki Rani", "Uttar mohada"],
+    "answer": 0
+  },
+  {
+    "question": "Among the following statements, which statement is correct?",
+    "options": ["The Nilgiri Mountain lies in Karnali province", "Larke Bhaniyang (pass) lies in Mustang in broder between Nepal and Tibet", "Kamala River is a border river of Siraha andMahottari districts", "Kamini Daha lies in Bara district"],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following statement is true?",
+    "options": ["The Largest glacier lake of Nepal is Chho-Rolpa (Dolakha)", "The Glacier lake located at the lowest altitude is kapuche (Kaski)", "both a & b", "Baubali (Teendhare Jharana) is situated at Rasuwa"],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following among the protected wildlife of Nepal is not in the protected list ?",
+    "options": ["Musk Deer (Kasturi Mriga)", "Red Deer", "Swamp Deer (Barasingha)", "Himalayan Bear"],
+    "answer": 1
+  },
+  {
+    "question": "The first Jatayu Restaurant of Nawalpur aims to protect which animals?",
+    "options": ["Tiger Conservation", "Rhino Conservation", "Wild Bird Conservation", "Vulture Conservation"],
+    "answer": 3
+  },
+  {
+    "question": "Figure out the correct order of conservation areas in order from first to last based on establishment.",
+    "options": ["Krishnasar, Apinampa, Manaslu, Gaurishankar", "Apinampa, Gaurishankar, Krishnasar, Manaslu", "Gaurishankar, Manaslu, Krishnasar, Apinampa", "Manaslu, Krishnasar, Gaurishankar, Apinampa"],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following animals is not included in the protected reptiles of Nepal ?",
+    "options": ["Python", "Ghariyal Gohi", "Red Lizard", "Golden Monitor Lizard"],
+    "answer": 2
+  },
+  {
+    "question": "Which district of Nepal is famous for Coal?",
+    "options": ["Chatara (Sunsari)", "Biratnagar (Morang)", "Chandragadhi (Jhapa)", "Musikot (Rukum)"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is true regarding Yarshagumba?",
+    "options": ["Yarshagumba is called Yellow living Gold", "Yarshagumba's English name is Chinese caterpillar", "The scientific name of Yarshagumba is Cordyceps sinensis", "All of them are true"],
+    "answer": 3
+  },
+  {
+    "question": "Bhikuti Mountain Peak falls under which mountain range?",
+    "options": ["Damodar", "Dhaulagiri", "Manasiri", "Ganesh"],
+    "answer": 0
+  },
+  {
+    "question": "The district headquarter of Dolpa, Duna! Bazar is situated on the bank of which river?",
+    "options": ["Mugu Kamali", "Sani Bheri", "Thuli Bheri", "Tila"],
+    "answer": 2
+  },
+  {
+    "question": "Which climate is found at an altitude of 4000 to 7000 feet?",
+    "options": ["Warm Temperate", "Cold Temperate", "Alpine", "Monsoon"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is a major determinant of the climatic condition of Nepal?",
+    "options": ["Latitude", "Height", "Vegetation", "Hills"],
+    "answer": 1
+  },
+  {
+    "question": "There is decrease of one degree Celsius temperature with the increase in ......height?",
+    "options": ["150 meter", "155 meter", "160 meter", "165 meter"],
+    "answer": 3
+  },
+  {
+    "question": "Which type of climate is suitable for the following conditions. identify the incorrect magic?",
+    "options": ["Healthier living/Most suitable climate: warm temperate", "Agriculture activities......Monsoon Climate", "Herbs and shrubs......Alpine climate", "Dense forest and vegetation......Cold temperate"],
+    "answer": 3
+  },
+  {
+    "question": "Which is the height of Kathmandu from the sea level?",
+    "options": ["1310 meter", "1320 meter", "1337 meter", "1347 meter"],
+    "answer": 2
+  },
+  {
+    "question": "Api Peak lies in which mountain range?",
+    "options": ["Guransh", "Nilgiri", "Rolwaling", "Annapuna"],
+    "answer": 0
+  },
+  {
+    "question": "Which National Park is located at the highest altitude?",
+    "options": ["Langtang", "Sagarmatha", "Shey Phoksundo", "Rara"],
+    "answer": 1
+  },
+  {
+    "question": "Which National park is regarded as the richest national park interms of bio diversity?",
+    "options": ["Chitwan", "Langtang", "Bardiya", "Banke"],
+    "answer": 1
+  },
+  {
+    "question": "Based on the height of mountain peaks which of the following order is correct?",
+    "options": ["Lhotse-Chooyu-Manaslu-Dhaulagiri-Makalu", "Manaslu-Dhaulagiri-Chooyu-Makalu-Lhotse", "Makalu-Lhotse-Chooyu-Manaslu-Dhaulagiri", "Dhaulagiri-Manaslu-Makalu-Chooyu-Lhotse"],
+    "answer": 0
+  },
+  {
+    "question": "Match the correct pair between the hydropower projects and thier located districts",
+    "options": ["a-2, b-1, c-4, d-3", "a-1, b-2, c-3, d-4", "a-3, b-4, c-1, d-2", "a-3, b-1, c-4, d-2"],
+    "image": "images/naturalres/114.jpg",
+    "answer": 0
+  },
+  {
+    "question": "Which lake is considered the capital city for birds?",
+    "options": ["Ghodaghodi", "Jagadishpur", "Jhilamila", "Phewa lake"],
+    "answer": 1
+  },
+  {
+    "question": "What type of climate is found at a height of 7000 feet to 10,000 feet?",
+    "options": ["Monsoon", "Warm Temperate", "Cold Temperate", "Alpine"],
+    "answer": 2
+  },
+  {
+    "question": "Which district is not connected to Dhorpatan Hunting Wildlife Reserve?",
+    "options": ["Rukuni East", "Baglung", "Myagdi", "Dolpa"],
+    "answer": 3
+  },
+  {
+    "question": "What type of climate is Kathmandu Valley?",
+    "options": ["Warm Temperate", "Cold Temperate", "Tropical monsoon", "Alpine"],
+    "answer": 0
+  },
+  {
+    "question": "Where is Bio diversity information center located?",
+    "options": ["Chitwan", "Makwanpur", "Banke", "Bardiya"],
+    "answer": 0
+  },
+  {
+    "question": "Ramsar Convention is related to?",
+    "options": ["Wetland Conservation", "Climate change", "Environment management", "Waste Management"],
+    "answer": 0
+  },
+  {
+    "question": "The production of hydro electricity production in Nepal started from?",
+    "options": ["1968 Jetha 9", "1968 Asar 9", "1968 Bhadra 9", "1968 Mangair 9"],
+    "answer": 0
+  },
+  {
+    "question": "Based on the production capacity match the correct pair?",
+    "options": ["Madhya marsyangdi-Solu dudhkoshi-Bhotekoshi-Supermadi", "Solu dudhkoshi- madhya marsyangdi-Bhotekoshi-Supermadi", "Solu dudhkoshi-madhya marsyangdi-Supermadi-Bhotekoshi", "Madhyamarayangdi-Solududhkoshi-Supermadi-Bhotekoshi"],
+    "answer": 1
+  },
+  {
+    "question": "Which is the first underground hydropower project of Nepal?",
+    "options": ["Farping Hydropower", "Sunkoshi Hydropower", "Tinau Hydropower", "Khintti -1 Hydropower"],
+    "answer": 2
+  },
+  {
+    "question": "What is the production capacity of under construction Arun III hydropower located at Sankhuwasabha district?",
+    "options": ["900 megawatt", "800 megawatt", "700 megawatt", "600 megawatt"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the largest hydropower project constructed from the private sector?",
+    "options": ["Khintti", "Khanikhola", "Solukhola (Dudhkoshi)", "Kulekhani"],
+    "answer": 2
+  },
+  {
+    "question": "The total production capacity of Budhigandaki Hydropower project is?",
+    "options": ["900 megawatt", "1000 megawatt", "1200 megawatt", "1650 megawatt"],
+    "answer": 2
+  },
+  {
+    "question": "Who regulates electricity generation, transmission, distribution or trade in Nepal?",
+    "options": ["Electricity Development Department", "Nepal Electricity Authority", "Power Generation Company", "Electricity Regulatory Commission"],
+    "answer": 3
+  },
+  {
+    "question": "Based on the power generation capacity, the hydropower project up to how much production capacity is called small hydropower project?",
+    "options": ["25 Kilowatt", "50 Kilowatt", "75 Kilowatt", "100 Kilowatt"],
+    "answer": 3
+  },
+  {
+    "question": "Which country supported the construction of Pharping hydroelectric project, the first electricity project in Nepal?",
+    "options": ["United Kingdom", "India", "China", "USA"],
+    "answer": 0
+  },
+  {
+    "question": "The production capacity of Hetauda Diesel Plant (Makwanpur) is?",
+    "options": ["14.1 Megawatt", "16.7 Megawatt", "18.9 Megawatt", "25.6 Megawatt"],
+    "answer": 0
+  },
+  {
+    "question": "What percent of population of Nepal has access to electricity in the FY 2080/81?",
+    "options": ["95.7 percent", "96.7 percent", "97.7 percent", "98.7 percent"],
+    "answer": 1
+  }
+
   ],
 
   "1.3 Geographic Diversity, Climatic Condition and Livelihood":  [
