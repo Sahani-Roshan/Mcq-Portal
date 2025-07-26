@@ -37736,6 +37736,487 @@ window.mcqData = {
   ],
 
   "1.6.1 SDG, Environment":[
+    
+  {
+    "question": "What is sustainable Development?",
+    "options": ["the development that meets the need of present without compromising the ability of future generations to meet their own needs", "To conserve natural resources and to develop alternate sources of power while reducing pollution and harm to the environment", "it is the practice of developing land and construction projects in a manner that reduces their impact on the environment by allowing them to create energy efficient models of self sufficiency", "All of the above"],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following is correct, if we only achieve two out of three pillars of Sustainable Development?",
+    "options": ["Social + Economic Sustainability = Equitable", "Social + Environmental Sustainability = Bearable", "Economic + Environmental Sustainability = Viable", "All of the above"],
+    "answer": 3
+  },
+  {
+    "question": "In which year the term ‘Sustainable Development’ /idea of sustainable development came into existence?",
+    "options": ["1987", "1980", "1978", "1992"],
+    "answer": 1
+  },
+  {
+    "question": "Where was the Sustainable development popularized for the first time?",
+    "options": ["Human Development Report", "Rio Summit", "Kyio Declaration", "Brutland Commission"],
+    "answer": 3
+  },
+  {
+    "question": "When did UN General Assembly form Brutland Commission to study the relationship between Environment and Development?",
+    "options": ["1980", "1981", "1982", "1983"],
+    "answer": 3
+  },
+  {
+    "question": "The discussion on “Sustainable Development” started after the submission of a report on environment to the United Nation in 1987. The name of that report was",
+    "options": ["Report on Climate change", "Rio declaration protocol", "Our Common Future", "Environment Assessment Report"],
+    "answer": 2
+  },
+  {
+    "question": "Meeting the needs of the present generation without compromising the ability of future generation to meet their own need is given by",
+    "options": ["BangariMathai", "Sundarla Bahuguna", "Brundtland", "All of them"],
+    "answer": 2
+  },
+  {
+    "question": "The United Nations Commission on Sustainable Development (CSD) was established by the UN General Assembly in the year",
+    "options": ["1992", "1993", "1994", "1995"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following UN commission is responsible for reviewing progress in the implementation of Agenda 21 and the Rio Declaration on Environment and Development?",
+    "options": ["United Nation Disarmament Commission", "United Nations Statistical Commission", "United Nations Commission on Sustainable Development (CSD)", "United Nations Commission on Human Rights"],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is not included in the parameters of sustainable development?",
+    "options": ["Carrying capacity", "Inter and Intra-generation equity", "Gender disparity and diversity", "None of the above"],
+    "answer": 3
+  },
+  {
+    "question": "How many Sustainable development goals are there in the U.N. Agenda 2030?",
+    "options": ["14", "15", "16", "17"],
+    "answer": 3
+  },
+  {
+    "question": "When did Sustainable Development goals came into force?",
+    "options": ["2015 January 1", "2016 January 1", "2017 January 1", "2018 January 1"],
+    "answer": 1
+  },
+  {
+    "question": "Which UN General Assembly declared the SDGs with the commitment of transforming the world between 2016 and 2030?",
+    "options": ["70", "71", "72", "73"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the first country to sign Paris Agreement?",
+    "options": ["Srilanka", "Maldives", "Nepal", "India"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is not a sustainable development goal targeted to be achieved by 2030?",
+    "options": ["Zero Hunger", "Ensure Healthy Lives", "Gender Equality", "Space Research"],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following do not form part of a strategy of sustainable development?",
+    "options": ["Relying more on organic farming.", "Reducing the use of Personal Vehicles and promoting public transport", "Safeguarding the habitats of indigenous communities, flora and fauna", "Not compromising on the needs of the present generation with respect to future generations"],
+    "answer": 3
+  },
+  {
+    "question": "With reference to the United Nations’ Sustainable Development Goals, which of the following is SDG 10?",
+    "options": ["Reducing inequalities", "Zero Hunger", "Climate Action", "Decent work and economic growth"],
+    "answer": 0
+  },
+  {
+    "question": "The first environment summit organized by United Nations, called the summit on the future of Human and environment was organized by",
+    "options": ["Stockholm", "Helsinki", "Rio the Zenerio", "Paris"],
+    "answer": 0
+  },
+  {
+    "question": "When is world Environment Day observed?",
+    "options": ["June 3", "June 4", "June 5", "June 6"],
+    "answer": 2
+  },
+  {
+    "question": "United Nations Environment Program (UNEP) was established in 1972 June 5 with its headquarter located at",
+    "options": ["Nairobi, Kenya", "New York, USA", "Montreal, Canada", "London, UK"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following Agenda were passed by the Rio Summit of 1992?",
+    "options": ["Agenda 21", "Forest Conservation Policy", "Biodiversity", "Climate Change", "All of the above"],
+    "answer": 4
+  },
+  {
+    "question": "When was the second environmental summit held?",
+    "options": ["1990 A.D.", "1991 A.D.", "1992 A.D.", "1993 A.D."],
+    "answer": 2
+  },
+  {
+    "question": "What is Kyoto Protocol related to?",
+    "options": ["Reduction of emission of greenhouse gases", "prevent the depletion of Ozone Layer", "Carbon Trading", "All of the above"],
+    "answer": 3
+  },
+  {
+    "question": "According to Kyoto protocol, which of the following is not a greenhouse gas?",
+    "options": ["Methane", "Carbon Dioxide", "Nitrous oxide", "Water Vapor"],
+    "answer": 3
+  },
+  {
+    "question": "United Nations Climate Change Conference, COP 28 (also called COP Summit), was hosted by",
+    "options": ["Egypt", "UAE", "Spain", "France"],
+    "answer": 1
+  },
+  {
+    "question": "Which country conducted first under water cabinet meeting to draw the attention of the world regarding the effects of climate change and its mitigating measures in 2009 October 16?",
+    "options": ["Nepal", "Maldives", "Srilanka", "India"],
+    "answer": 1
+  },
+  {
+    "question": "\"Biocarbon Fund Initiative for Sustainable forest Landscapes\" is managed by the",
+    "options": ["International Monetary Fund", "United Nations Environment Program", "World Bank", "Asian Infrastructure Investment Bank"],
+    "answer": 2
+  },
+  {
+    "question": "Modern concept of sustainable development focuses more on",
+    "options": ["Economic development", "Social development", "Environmental protection", "all of the above"],
+    "answer": 3
+  },
+  {
+    "question": "United Nations (UN) decade of education for sustainable development is from",
+    "options": ["2002-11", "2003-12", "2004-13", "2005-14"],
+    "answer": 3
+  },
+  {
+    "question": "The United Nations Conference on Sustainable Development (UNCSD) is also known as",
+    "options": ["Rio 2010", "Rio 2011", "Rio 2012", "Rio 2013"],
+    "answer": 2
+  },
+  {
+    "question": "Four domains of circles of sustainability, used by the United Nations.",
+    "options": ["economic, ecological, political and cultural", "economic, social, political and cultural", "economic, ecological, social and cultural", "economic, ecological, political and social"],
+    "answer": 0
+  },
+  {
+    "question": "The technology which meets the sustainable development needs is often referred to as",
+    "options": ["advanced technology", "appropriate technology", "sustainable technology", "adaptive technology"],
+    "answer": 1
+  },
+  {
+    "question": "A promising direction towards sustainable development is to design systems that are",
+    "options": ["Flexible and irreversible", "flexible and reversible", "Inflexible and reversible", "inflexible and irreversible"],
+    "answer": 1
+  },
+  {
+    "question": "The Sustainable Development Goals (SDGs) recognize that all countries must stimulate action in the following key areas.",
+    "options": ["people, planet, prosperity, peace and partnership", "people, planet, prosperity, plants and planning", "people, planet, prosperity, plants and partnership", "people, planet, prosperity, peace and planning"],
+    "answer": 0
+  },
+  {
+    "question": "What is the major cause of depletion of Ozone layer?",
+    "options": ["Carbon dioxide", "Chlorofluorocarbon", "Methane", "Nitrogen"],
+    "answer": 1
+  },
+  {
+    "question": "Which is the major contributor of Green House gases?",
+    "options": ["Nitrous Oxide", "Chlorofluorocarbon", "Methane", "Carbon dioxide"],
+    "answer": 3
+  },
+  {
+    "question": "Euro-6 standard is related to",
+    "options": ["Vehicle Pollution", "Electricity Production", "Oil Standard", "Noise pollution"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the first organization involved in nature conservation is",
+    "options": ["IUCN", "NTNC", "WWF", "ICIMOD"],
+    "answer": 0
+  },
+  {
+    "question": "Where is the headquarter of International Union for Conservation of Nature (IUCN)?",
+    "options": ["Gland", "Geneva", "New york", "Paris"],
+    "answer": 0
+  },
+  {
+    "question": "International Center for Integrated Mountaineering Development (ICIMOD) is",
+    "options": ["An intergovernmental knowledge and learning center that develops and shares research, information, and innovations to empower people.", "International regional organization involved for the right of mountaineers", "International Center for clearing dead bodies and debris in Mountain regions", "All of the above"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is not a member of ICIMOD?",
+    "options": ["Nepal", "Bhutan", "Maldives", "China"],
+    "answer": 2
+  },
+  {
+    "question": "The government of Nepal has made a target to replace petroleum vehicles by electrical vehicles by",
+    "options": ["2080 B.S.", "2084 B.S.", "2088 B.S.", "2090 B.S."],
+    "answer": 2
+  },
+  {
+    "question": "What is the full form of PPP-interns of environment?",
+    "options": ["Polluter Pays Payment", "Pollution Payment Price", "Polluter Pays Principle", "Polluter Pays Price"],
+    "answer": 2
+  },
+  {
+    "question": "The Government of Nepal has decided to ban to use polythene bags above ……….",
+    "options": ["30 microns", "35 microns", "40 microns", "45 microns"],
+    "answer": 2
+  },
+  {
+    "question": "When was World Wildlife Fund (WWF) with symbol Panda established?",
+    "options": ["1961 April 29", "1961 May 29", "1961 June 29", "1961 July 29"],
+    "answer": 0
+  },
+  {
+    "question": "Convention on International Trade on Endangered Species of Wild Fauna and Flora (CITEs) was signed in 1973 March 3 in",
+    "options": ["Washington D.C.", "New York", "Florida", "Geneva"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following pair is incorrect?",
+    "options": ["Green Belt Movement: Bangari Mathai", "Father of Biodiversity: Edward Wilson", "Global 500: Dr.Krishna Kumar Pandey", "Nepal member of IUCN: 1948 A.D."],
+    "answer": 3
+  },
+  {
+    "question": "What of the following does not fall under Biodiversity?",
+    "options": ["Genetic biodiversity", "Species biodiversity", "Ecosystem Biodiversity", "Climatic Biodiversity"],
+    "answer": 3
+  },
+  {
+    "question": "The House of Representatives of Nepal passed the Convention on Biological Diversity on 23 November 1993 and implemented it from",
+    "options": ["22 February 1994", "1994 May 26", "1994 May 28", "1994 May 30"],
+    "answer": 0
+  },
+  {
+    "question": "When is World Biodiversity day observed?",
+    "options": ["May 15", "May 17", "May 22", "May 27"],
+    "answer": 2
+  },
+  {
+    "question": "When did Darwin’s Natural heir E.O Wilson die?",
+    "options": ["2021 May 07", "2021 July 13", "2021 October 18", "2021 December 26"],
+    "answer": 3
+  },
+  {
+    "question": "The founder of Chipko Movement, SundarLaIBahuguna died on",
+    "options": ["2021 May 21", "2021 may 22", "2021 May 23", "2021 May 24"],
+    "answer": 0
+  },
+  {
+    "question": "The most stable and largest ecosystem is found in",
+    "options": ["Forest", "Land", "Ocean", "All of the above"],
+    "answer": 2
+  },
+  {
+    "question": "What does Biodiversity hotspots mean?",
+    "options": ["An area with extremely high levels of biodiversity", "An area with moderate levels of biodiversity", "An area with low level of biodiversity", "An area with extreme wet land"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following sustainable development goals (SDGs) is not internalized by Nepal?",
+    "options": ["SDG number 13", "SDG number 14", "SDG number 15", "SDG number 16"],
+    "answer": 1
+  },
+  {
+    "question": "According to the Environment Protection Act, 2076, who shall be the chairman of the National Council for Environmental Protection and Climate Change Management?",
+    "options": ["President", "Prime Minister", "Miniter of Forest and Environment", "Forest Secretary"],
+    "answer": 1
+  },
+  {
+    "question": "In Nepal, the system of environmental protection policy has been started from which plan?",
+    "options": ["Fifth", "Sixth", "Seventh", "Eighth"],
+    "answer": 1
+  },
+  {
+    "question": "What are the three main dimensions of sustainable development?",
+    "options": ["Economic, cultural, social", "Economic, Social, Environmental", "Economic, Legal, Environmental", "Economic, social, physical"],
+    "answer": 1
+  },
+  {
+    "question": "How long does long-term thinking take to achieve sustainable development goals?",
+    "options": ["2087 B.S.", "2097 B.S.", "2100 B.S.", "2025 B.S."],
+    "answer": 2
+  },
+  {
+    "question": "The fifteenth periodical plan had a long-term vision of achieving sustainable development goals and upgrading Nepal to the list of middle-income countries by",
+    "options": ["2078 B.S.", "2087 B.S.", "2089 B.S.", "2100 B.S."],
+    "answer": 1
+  },
+  {
+    "question": "Where is the headquarter of United Nations Environment Program (UNEP) located?",
+    "options": ["Newyork (USA)", "Madrid (Spain)", "Rome (Italy)", "Nairobi (Kenya)"],
+    "answer": 3
+  },
+  {
+    "question": "Which UN Climate Change Conference passed the Paris Agreement, the legally binding international treaty on climate change?",
+    "options": ["COP 21", "COP22", "COP23", "COP 24"],
+    "answer": 0
+  },
+  {
+    "question": "According to the Sustainable Development Goals (SDG) of the United Nations, what is the minimum percentage of the total national income should the developed countries contribute to the least developed countries as aid?",
+    "options": ["0.13 percent", "0.15 percent", "0.17 percent", "0.19 percent"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the Sustainable Development Goals Nepal has achieved by 2030?",
+    "options": ["End all forms of poverty", "Achieve gender equality", "Reduce child mortality", "End hunger and ensure food security"],
+    "answer": 2
+  },
+  {
+    "question": "Goal No. 4 of Sustainable Development Goals is related to?",
+    "options": ["Quality and inclusive education", "Health and better Society", "Gender Equality", "Clean water and Sanitation"],
+    "answer": 0
+  },
+  {
+    "question": "Which goal of 'Sustainable Development Goals' is related to strengthening scientific and technical capacity to guide developing countries towards sustainable consumption and production?",
+    "options": ["Goal 13: Climate Action", "Goal 12: Sustainable Consumption and Production", "Goal 10: Reducing inequality", "Goal 7: Affordable and clean energy"],
+    "answer": 1
+  },
+  {
+    "question": "Matching Sustainable Development Goals with its related subject, select correct alternative.",
+    "options": ["a-v, b-iii, c-ii, d-iv", "a-iv, b-iii, c-ii, d-i", "a-i, b-iii, c-ii, d-v", "a-ii, b-iv, c-iii, d-i"],
+    "answer": 1
+  },
+  {
+    "question": "Sustainable Development goal number 5 is related to",
+    "options": ["End of all forms of poverty", "Health and well being", "Quality Education", "Gender Equality"],
+    "answer": 3
+  },
+  {
+    "question": "Green Belt Movement associated with?",
+    "options": ["Sundarla Bahuguna", "Megha Patekar", "Bangari Mathai", "E.O Wilson"],
+    "answer": 2
+  },
+  {
+    "question": "Which is the first country to sign Agenda 21",
+    "options": ["USA", "China", "India", "Germany"],
+    "answer": 1
+  },
+  {
+    "question": "Agenda 21 is related to",
+    "options": ["Environment and Development", "Climate change", "Ozone layer depletion", "Global Warming"],
+    "answer": 0
+  },
+  {
+    "question": "Consider the following statements.",
+    "options": ["A right B wrong", "A wrong B right", "Both A and B", "Both A and B are incorrect"],
+    "answer": 2
+  },
+  {
+    "question": "Who was the first scientist to identify the thinning of ozone layer?",
+    "options": ["Sherwood Rowland", "Gro-Harlem Brundtland", "Archimides", "Greta Thunberg"],
+    "answer": 0
+  },
+  {
+    "question": "Greenhouse gas emissions have increased by what percentage in the period from 1990 to 2019?",
+    "options": ["1.45 percent", "1.56 percent", "1.78 percent", "1.84 percent"],
+    "answer": 0
+  },
+  {
+    "question": "Identify the correct order of the countries that emit the most greenhouse gases.",
+    "options": ["China - America - Russia - India", "China- India- Canada- Indonesia", "China - America - Japan - Germany", "China- America- India - Indonesia"],
+    "answer": 3
+  },
+  {
+    "question": "In how many local levels of Nepal the climate model program has been implemented?",
+    "options": ["5", "6", "7", "8"],
+    "answer": 3
+  },
+  {
+    "question": "What is Loss and Damage fund related to?",
+    "options": ["Biodiversity", "Sustainable Development", "Climate Change", "Environmental Management"],
+    "answer": 2
+  },
+  {
+    "question": "From which decade the term biodiversity came into use?",
+    "options": ["1970", "1960", "1980", "1990"],
+    "answer": 2
+  },
+  {
+    "question": "Where is the Biodiversity Information Center located?",
+    "options": ["Bardiya", "Chitwan", "Banke", "Mustang"],
+    "answer": 1
+  },
+  {
+    "question": "Consider the following statements and choose the correct answer.",
+    "options": ["1 correct, 2 incorrect", "2 correct, 1 incorrect", "Both 1 and 2 are correct", "Both 1 and 2 are incorrect"],
+    "answer": 2
+  },
+  {
+    "question": "Which Scientist practically and scientifically proved Green House effect?",
+    "options": ["John Tyndal", "Charles Fabrey", "Henry Buison", "James Fobe"],
+    "answer": 0
+  },
+  {
+    "question": "Greenhouse gases depict the Ozone layer was first studied by",
+    "options": ["Arrhenius", "J.C. Farman", "J. F. Tumbrage", "Gregormendel"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is not an effect of climate change?",
+    "options": ["Acid Rain", "Landlslides", "Glacial eruptions", "Land fragmentation"],
+    "answer": 3
+  },
+  {
+    "question": "What is the index of Nepal in Asia in terms of biodiversity?",
+    "options": ["15th", "11th", "25th", "20th"],
+    "answer": 1
+  },
+  {
+    "question": "When did Nepal become a member of IUCN?",
+    "options": ["1973 A.D.", "1975A.D.", "1948 A.D.", "1953 A.D."],
+    "answer": 0
+  },
+  {
+    "question": "Which gas is used in refrigerator?",
+    "options": ["Ethane", "Methane", "Ammonia", "Nitrogen"],
+    "answer": 2
+  },
+  {
+    "question": "Match the correct pair",
+    "options": ["A-ii B-i C-iv D-iii", "A-iii B-ii C-i D-iv", "A-iv B-i C-ii D-iii", "A-iii B-ii C-i D-iv"],
+    "answer": 0
+  },
+  {
+    "question": "What is the Global 500 associated with?",
+    "options": ["Music", "Information Technology", "Evironment Protection", "Wind Energy"],
+    "answer": 2
+  },
+  {
+    "question": "Which goal of Sustainable Development Goals represents climate change?",
+    "options": ["8", "10", "13", "16"],
+    "answer": 2
+  },
+  {
+    "question": "In which country is the head office of UN HABITAT located?",
+    "options": ["Kenya", "Thailand", "Turkey", "Switzerland"],
+    "answer": 0
+  },
+  {
+    "question": "In which unit is the thickness of the ozone layer measured?",
+    "options": ["Pabson Unit", "Dobson Unit", "SI Unit", "Vogue Unit"],
+    "answer": 1
+  },
+  {
+    "question": "In fiscal year 2080/81, 5.96 percent of the total budget has been allocated for climate change mitigation and adaptation.",
+    "options": ["4.91 percent", "4.98 percent", "5.96 percent", "6.94 percent"],
+    "answer": 2
+  },
+  {
+    "question": "Identify the correct statement",
+    "options": ["1 incorrect, 2 and 3 correct", "2 incorrect, 1 and 3 correct", "1 and 2 incorrect", "1, 2 and 3 incorrect"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following statement is true about sustainable development goals (SDGs)?",
+    "options": ["There are 17 goals and 169 targets in Sustainable development goals", "The time frame to achieve SDGs is 15 years", "SDGs is a plan of action for people, the planet and prosperity.", "All of the above are correct"],
+    "answer": 3
+  },
+  {
+    "question": "Local adaptation action plans have been implemented at 263 local levels for climate change biodiversity management and green economy.",
+    "options": ["260", "263", "460", "753"],
+    "answer": 1
+  },
+  {
+    "question": "Who is the person/scientist who received the Nobel Prize for conducting the Green Belt Movement campaign in the field of environmental protection?",
+    "options": ["E.O.Wilson", "Bangari Mathai", "Meghna Patekar", "Sundar Lal Bahuguna"],
+    "answer": 1
+  }
 
   ],
 
