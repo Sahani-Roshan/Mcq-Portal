@@ -35348,7 +35348,7 @@ window.mcqData = {
       "a-iii, b-iv, c-i, d-ii",
       "a-iii, b-i, c-iv, d-ii",
       "a-iv, b-i, c-iii, d-ii"
-    ],"image": "images/socioculture/48.jpg",
+    ],"image": "images/ecogeo/48.jpg",
     "answer": 2
   },
   {
@@ -35453,7 +35453,7 @@ window.mcqData = {
       "A-2, B-1, C-4, D-3",
       "A-3, B-2, C-4, D-1",
       "A-4, B-3, C-1, D-2"
-    ],"image": "images/socioculture/67.jpg",
+    ],"image": "images/ecogeo/67.jpg",
     "answer": 3
   },
   {
@@ -35518,7 +35518,7 @@ window.mcqData = {
       "1-iv, 2-ii, 3-iii, 4-i",
       "1-iii, 2-i, 3-iv, 4-ii",
       "1-ii, 2-iii, 3-i, 4-iv"
-    ],"image": "images/socioculture/76.jpg",
+    ],"image": "images/ecogeo/76.jpg",
     "answer": 1
   },
   {
@@ -35602,7 +35602,7 @@ window.mcqData = {
       "a-i, b-ii, c-iii, d-iv, e-v",
       "a-ii, b-iii, c-iv, d-v, e-i",
       "a-iii, b-iv, c-v, d-i, e-ii"
-    ],"image": "images/socioculture/90.jpg",
+    ],"image": "images/ecogeo/90.jpg",
     "answer": 0
   },
   {
