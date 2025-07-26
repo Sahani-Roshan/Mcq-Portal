@@ -36723,6 +36723,356 @@ window.mcqData = {
   ],
 
   "1.5 Current Periodic Plan":[
+  {
+    "question": "The constitution of Nepal envisages creating ………oriented economy",
+    "options": ["Prosperous", "independent", "socialist", "All of the above"],
+    "answer": 3
+  },
+  {
+    "question": "Till now, the Government of Nepal has implemented a total of ………plans",
+    "options": ["13", "14", "16", "15"],
+    "answer": 2
+  },
+  {
+    "question": "Among the given below which is the current periodic plan?",
+    "options": ["208182-208586", "207576-8081", "207778-8283", "None"],
+    "answer": 0
+  },
+  {
+    "question": "When did Nepal observe plan holiday for the very first time?",
+    "options": ["2015-2016", "2016-2017", "2017-2018", "2018-2019"],
+    "answer": 3
+  },
+  {
+    "question": "Among the given below which is not the fiscal year in which Nepal observed plan holiday?",
+    "options": ["201819", "201920", "204748", "204849"],
+    "answer": 1
+  },
+  {
+    "question": "How many plans of Nepal are three year plans?",
+    "options": ["3", "4", "5", "6"],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following plans are three year plans?",
+    "options": ["Second, Seventh, twelfth, thirteenth & fourteenth plans", "First, eleventh, twelfth, thirteenth & thirteenth plans", "Second, Tenth, twelfth, thirteenth & fourteenth plans", "Second, eleventh, twelfth, thirteenth & fourteenth plans"],
+    "answer": 3
+  },
+  {
+    "question": "The currently endorsed plan (Sixteenth) is a ………year plan",
+    "options": ["3 year", "4year", "5 year", "6 year"],
+    "answer": 2
+  },
+  {
+    "question": "The current plan is the ………plan after the promulgation of the constitution by the historical constituent assembly.",
+    "options": ["First", "Third", "Fourth", "Fifth"],
+    "answer": 1
+  },
+  {
+    "question": "The 16th plan has been endorsed with the slogan of",
+    "options": ["We must eradicate ignorance and illiteracy from our nation", "Good Governance, Social Justice, and Prosperity", "The growth and development of the people.", "The need for growth, for development, for change is fundamental for life."],
+    "answer": 1
+  },
+  {
+    "question": "The current periodic plan consist of………………",
+    "options": ["30 goals", "40 goals", "50 goals", "60 goals"],
+    "answer": 1
+  },
+  {
+    "question": "Among the given below which is correction option?",
+    "options": ["Current periodic plan has 10 good governance goals", "Current periodic plan has 10 social justice goals", "Current periodic plan has 20 prosperity goals", "All of the following are correct"],
+    "answer": 3
+  },
+  {
+    "question": "Fifteenth Plan had been prepared with the long-term vision of fulfilling the shared national aspiration for “Prosperous Nepal, Happy Nepali” by making Nepal a high-income country by",
+    "options": ["2022", "2030", "2043", "2050"],
+    "answer": 2
+  },
+  {
+    "question": "Fifteenth plan has been formulated for five years with a Long-Term Vision of taking Nepal to the level of advanced countries by……",
+    "options": ["2022", "2030", "2043", "2050"],
+    "answer": 2
+  },
+  {
+    "question": "Which periodic plan of Nepal had the single objective of poverty alleviation?",
+    "options": ["10th", "9th", "8th", "7th"],
+    "answer": 0
+  },
+  {
+    "question": "The current periodic plan has…………strategies",
+    "options": ["5", "6", "7", "8"],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following is at the top priority in 16th Periodic Plan?",
+    "options": ["Accessible modern infrastructure and intensive connectivity.", "High and equitable national income.", "Well-being and decent life", "Digital Database and e-Governance (E-Governance)"],
+    "answer": 3
+  },
+  {
+    "question": "The long-term vision of the 15 Plan was to increase Nepal’s per capita national income to at least",
+    "options": ["USD 12,000", "USD 12,100", "USD 12,200", "USD 12,300"],
+    "answer": 1
+  },
+  {
+    "question": "The 15 Plan is expected to create a foundation for Nepal to graduate to an upper-middle-income country by achieving the Sustainable Development Goals by",
+    "options": ["2028", "2029", "2030 (2087 B.S.)", "2035"],
+    "answer": 2
+  },
+  {
+    "question": "What is the end year of 16th Plan",
+    "options": ["2085/86", "2086/87", "2084/85", "2088/89"],
+    "answer": 0
+  },
+  {
+    "question": "What has been proposed for the Sixteenth Plan to start from the financial year 2081/82?",
+    "options": ["Promoting good governance, social justice and prosperity", "Strengthening of macroeconomic fundamentals", "A strong, sustainable and employment-oriented economy", "Prosperity in human life and national economy"],
+    "answer": 1
+  },
+  {
+    "question": "The 16th plan has a target to achieve......economic growth rate by the end of this plan in 2085/86",
+    "options": ["6.8%", "7.3%", "10.5%", "10.85%"],
+    "answer": 1
+  },
+  {
+    "question": "What is the current HDI rank of Nepal according to Human Development Index (HDI) 2023/24 published by UNDP?",
+    "options": ["124", "146", "142", "137"],
+    "answer": 1
+  },
+  {
+    "question": "The 16th plan targets to increase the value of national HDI to......by the end of the plan.",
+    "options": ["0.613", "0.624", "0.650", "0.626"],
+    "answer": 2
+  },
+  {
+    "question": "From which periodic plan Nepal materialize the concept of Environment Impact Assessment?",
+    "options": ["7th", "8th", "9th", "10th"],
+    "answer": 0
+  },
+  {
+    "question": "In the sixteenth five-year plan, what percentage of the population below the poverty line has been targeted by the financial year 2085/86?",
+    "options": ["12.0%", "13.5%", "9.5%", "4.2%"],
+    "answer": 0
+  },
+  {
+    "question": "What was the targeted percentage of Nepali Citizen's receiving national ID by the end of fifteenth five year plan?",
+    "options": ["93%", "95%", "98%", "100%"],
+    "answer": 3
+  },
+  {
+    "question": "The current plan aims to increase the per capita income of Nepal by the financial year 2085/86?",
+    "options": ["1456 US $", "1595 US$", "2351 US$", "12,100 US$"],
+    "answer": 2
+  },
+  {
+    "question": "What percentage of population is targeted to have access on basic drinking water by the end of 15^h plan?",
+    "options": ["90%", "88%", "99%", "100%"],
+    "answer": 2
+  },
+  {
+    "question": "Economic growth after the end of 15th plan (long term vision) is expected to be?",
+    "options": ["10.5%", "10%", "9%", "8%"],
+    "answer": 0
+  },
+  {
+    "question": "According to 16th periodic plan which indicator is not included in happiness index?",
+    "options": ["Good governance", "High and equitable national income", "Well being and decent life", "Safe, civilized, just society"],
+    "answer": 1
+  },
+  {
+    "question": "Which index is not included in long term national goal of prosperity?",
+    "options": ["High and sustainable production and productivity", "Development and full utilization of human capital potentials", "Accessible modern infrastructure and in intensive connectivity", "National unity, security and dignity"],
+    "answer": 3
+  },
+  {
+    "question": "When did the sixteenth plan start in Nepal?",
+    "options": ["2081/04/01", "2081/03/01", "2081/02/01", "2081/01/01"],
+    "answer": 0
+  },
+  {
+    "question": "Population under multidimensional poverty will be reduced to what percentage by 2043/44?",
+    "options": ["5%", "4%", "3%", "2%"],
+    "answer": 2
+  },
+  {
+    "question": "Internet users is expected to reach......by 2100?",
+    "options": ["99%", "100%", "95%", "96%"],
+    "answer": 1
+  },
+  {
+    "question": "The current plan targets average life expectancy at birth to reach",
+    "options": ["71 years", "72 years", "73 years", "74 years"],
+    "answer": 2
+  },
+  {
+    "question": "What is the main strategy of 16th Plan?",
+    "options": ["To internalize gender mainstreaming", "To implement policy making and development programs", "To strengthen the interrelationship and functional capacity", "Achieve good governance, social justice and prosperity"],
+    "answer": 3
+  },
+  {
+    "question": "Power generation by the end of 16 periodic plan will be...",
+    "options": ["11,769 Megawatt", "15,560 Megawatt", "12,800 Megawatt", "10,000 Megawatt"],
+    "answer": 0
+  },
+  {
+    "question": "2075-2085 is being observed as which decade?",
+    "options": ["Education", "Energy", "Health", "Infrastructure"],
+    "answer": 1
+  },
+  {
+    "question": "According to the 15 plan, what is the digital literacy rate of Nepal?",
+    "options": ["40", "50", "60", "70"],
+    "answer": 0
+  },
+  {
+    "question": "Which body presents the periodic plans of Nepal?",
+    "options": ["Ministry of Finance", "National planning commission", "Central Bureau of Statistics", "Ministry of urban planning and development"],
+    "answer": 1
+  },
+  {
+    "question": "The current period plan (16th) has an ambitious target of minimizing unemployment rate from 11.4 percent to......",
+    "options": ["3%", "4%", "5%", "6%"],
+    "answer": 2
+  },
+  {
+    "question": "The current periodic plan has an estimated investment of",
+    "options": ["111.02 trillion", "111.84 trillion", "112.67 trillion", "113.92 trillion"],
+    "answer": 1
+  },
+  {
+    "question": "The current periodic plan aims to achieve the......Gender Development Index",
+    "options": ["0.567", "0.602", "0.670", "0.967"],
+    "answer": 3
+  },
+  {
+    "question": "What is the current Gender Development Index of Nepal?",
+    "options": ["0.885", "0.876", "0.967", "0.493"],
+    "answer": 0
+  },
+  {
+    "question": "What is the projected economic growth rate by the end of sixteenth plan?",
+    "options": ["10.1%", "10.2%", "7.3%", "10.4%"],
+    "answer": 2
+  },
+  {
+    "question": "What is the condition called in which a foreign aid is not required?",
+    "options": ["White Holiday", "Laundering cause", "Fiduciary issue", "Zero Net Aid"],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following pair is incorrect?",
+    "options": ["Population with access to internet by the end of this plan......90 percent", "Road density by the end of this plan......0.77/Sq.km", "Literacy rate by the end of this plan......85.0 Percent", "Expenditure per tourist (per day) by the end of this plan......200 Dollar"],
+    "answer": 3
+  },
+  {
+    "question": "What is the population with access to internet?",
+    "options": ["68.45 percent", "69.2 percent", "66.34 percent", "62.56 percent"],
+    "answer": 1
+  },
+  {
+    "question": "What is the current road density of Nepal?",
+    "options": ["0.63/Sq.km", "0.77/Sq.km", "0.87/Sq.km", "0.97/Sq.km"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following factor depict the importance of planning?",
+    "options": ["Unity of action", "Unity of direction to employees efforts", "Both a and b", "None of the above"],
+    "answer": 2
+  },
+  {
+    "question": "Planning......",
+    "options": ["Reduce uncertainties", "Reduce overlapping and wasteful activities", "Promote innovative ideas", "All of the above"],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following is not step of planning process?",
+    "options": ["Evaluating alternative course", "Controlling", "Developing premises", "Implementing plan"],
+    "answer": 1
+  },
+  {
+    "question": "From which periodic plan Nepal materialize the concept of Environment Impact Assessment?",
+    "options": ["7", "8", "9", "10"],
+    "answer": 0
+  },
+  {
+    "question": "Among the given below which is not the fiscal year in which Nepal observe plan holiday?",
+    "options": ["2018/19", "2019/20", "2047/48", "2048/49"],
+    "answer": 1
+  },
+  {
+    "question": "What is the targeted percentage of Nepali Citizen's receiving national ID no. by the end of 16th five year plan?",
+    "options": ["93%", "95%", "98%", "90%"],
+    "answer": 3
+  },
+  {
+    "question": "Family with access to financial institution by the end of 16th plan will be?",
+    "options": ["81%", "90%", "85%", "92%"],
+    "answer": 2
+  },
+  {
+    "question": "What percentage of population is targeted to have access on electricity by the end of 16th plan?",
+    "options": ["99%", "98%", "100%", "96%"],
+    "answer": 2
+  },
+  {
+    "question": "Economic growth after the end of 16th plan is expected to be?",
+    "options": ["7.3%", "10%", "9%", "8%"],
+    "answer": 0
+  },
+  {
+    "question": "Among the given below which were three year plan?",
+    "options": ["4th, 10th, 11th, 12th", "2nd, 10th, 11th, 12th", "10th, 11th, 12th, 13th", "2nd, 11th, 12th, 13th"],
+    "answer": 3
+  },
+  {
+    "question": "Global competitive index by the end of  ámica16th periodic plan will be?",
+    "options": ["64", "65", "85", "62"],
+    "answer": 1
+  },
+  {
+    "question": "Which index is not included in long term national goal of prosperity?",
+    "options": ["High and sustainable production and productivity", "Development and full utilization of human capital potentials", "Accessible modern infrastructure and in intensive connectivity", "National unity, security and dignity"],
+    "answer": 3
+  },
+  {
+    "question": "By the end of 16th periodic plan what was the Per Capita Gross National Income of Nepalese citizen?",
+    "options": ["2351 US $", "2492US $", "2045 US $", "2450 US $"],
+    "answer": 0
+  },
+  {
+    "question": "Population under absolute poverty will be reduced from 20.3% to what percentage by the end of current periodic plan?",
+    "options": ["115%", "14", "12%", "13%"],
+    "answer": 2
+  },
+  {
+    "question": "Population with access to Internet by end of 16th plan is expected to be...?",
+    "options": ["80%", "90%", "85%", "75%"],
+    "answer": 1
+  },
+  {
+    "question": "Planning is...",
+    "options": ["Looking ahead", "Guiding people", "Managing staff", "Delegating authority"],
+    "answer": 0
+  },
+  {
+    "question": "Among the given below which is the current periodic plan?",
+    "options": ["2081/82-85/86", "2080/81-84/85", "2079/80-83/84", "None"],
+    "answer": 0
+  },
+  {
+    "question": "Three level of planning include...",
+    "options": ["Strategic, intermediate, operational", "Headquarters, divisional, local", "Top, middle, bottom", "None"],
+    "answer": 0
+  },
+  {
+    "question": "Among the given below which is correction option?",
+    "options": ["By the end of current periodic plan consumer inflation will be limited to 5 percentage", "Current periodic plan has 6 goal of prosperity and 4 goal of happiness", "Current periodic plan has 5 goal of prosperity and 5 goal of happiness", "The current periodic plan is 2080/81-84/85"],
+    "answer": 0
+  },
+  {
+    "question": "Electricity generation by the end of 16th periodic plan will be...",
+    "options": ["11769 MW", "12160 MW", "11700 MW", "13200 MW"],
+    "answer": 0
+  }
 
   ],
 
@@ -38615,7 +38965,7 @@ window.mcqData = {
     answer: 0
   },
   {
-    question: "Match the correct pair: A=Qatar, B= Malaysia, Mauritus, China: 1= country with diplomatic mission, 2= country with BIPPA agree, 1st country to have labor agreement, country where 5 visa free ticket applies to nepali workers",
+    question: "Match the correct pair: A=Qatar, B= Malaysia, C= Mauritus, D= China : 1= country with diplomatic mission, 2= country with BIPPA agree, 3= 1st country to have labor agreement, 4= country where free visa free ticket applies to nepali workers",
     options: [
       "A-3 B-4 C-2 D-1",
       "A-3 B-4 C-2 D-1",
