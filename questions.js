@@ -38070,6 +38070,7 @@ window.mcqData = {
   {
     "question": "Matching Sustainable Development Goals with its related subject, select correct alternative.",
     "options": ["a-v, b-iii, c-ii, d-iv", "a-iv, b-iii, c-ii, d-i", "a-i, b-iii, c-ii, d-v", "a-ii, b-iv, c-iii, d-i"],
+    "image": "images/sdg/67.jpg",
     "answer": 1
   },
   {
@@ -38095,6 +38096,8 @@ window.mcqData = {
   {
     "question": "Consider the following statements.",
     "options": ["A right B wrong", "A wrong B right", "Both A and B", "Both A and B are incorrect"],
+    "image": "images/sdg/72.jpg",
+
     "answer": 2
   },
   {
@@ -38135,6 +38138,7 @@ window.mcqData = {
   {
     "question": "Consider the following statements and choose the correct answer.",
     "options": ["1 correct, 2 incorrect", "2 correct, 1 incorrect", "Both 1 and 2 are correct", "Both 1 and 2 are incorrect"],
+    "image": "images/sdg/80.jpg",
     "answer": 2
   },
   {
@@ -38170,6 +38174,7 @@ window.mcqData = {
   {
     "question": "Match the correct pair",
     "options": ["A-ii B-i C-iv D-iii", "A-iii B-ii C-i D-iv", "A-iv B-i C-ii D-iii", "A-iii B-ii C-i D-iv"],
+    "image": "images/sdg/87.jpg",
     "answer": 0
   },
   {
