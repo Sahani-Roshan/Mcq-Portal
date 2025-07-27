@@ -35934,12 +35934,12 @@ window.mcqData = {
 
   {
     "question": "The term “white coal” sometimes referred to which of the following?",
-    "options": ["Hydroelectricity", "Coal", "geothermal energy"],
+    "options": ["Hydroelectricity", "Coal", "geothermal energy","Wind Energy"],
     "answer": 0
   },
   {
     "question": "What is the estimated potential of hydroelectricity potential in Nepal?",
-    "options": ["82,000 Megawatt", "83,000Megawatte", "84,000Megawatt", "85,000Megawatt"],
+    "options": ["82,000 Megawatt", "83,000 Megawatt", "84,000 Megawatt", "85,000 Megawatt"],
     "answer": 1
   },
   {
@@ -35954,8 +35954,8 @@ window.mcqData = {
   },
   {
     "question": "Which of the following is not the first class river?",
-    "options": ["Koshi", "Gandaki", "karnali", "Bagnati"],
-    "answer": 0
+    "options": ["Koshi", "Gandaki", "karnali", "Bagmati"],
+    "answer": 3
   },
   {
     "question": "Which of the following is a second class river?",
@@ -35978,8 +35978,8 @@ window.mcqData = {
     "answer": 2
   },
   {
-    "question": "Which river originates from Sapantirtha?",
-    "options": ["Bagnati", "Vishnumati", "Manohara", "Dhobi khola"],
+    "question": "Which river originates from Sapan tirtha?",
+    "options": ["Bagmati", "Vishnumati", "Manohara", "Dhobi khola"],
     "answer": 1
   },
   {
@@ -36013,7 +36013,7 @@ window.mcqData = {
     "answer": 2
   },
   {
-    "question": "Tainor river from Tibet enters Nepal from",
+    "question": "Tamor river from Tibet enters Nepal from",
     "options": ["Yari Pass", "Olangchungola pass", "CHangla Pass", "None"],
     "answer": 1
   },
