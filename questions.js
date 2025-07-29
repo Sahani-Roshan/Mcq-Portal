@@ -38205,6 +38205,7 @@ window.mcqData = {
   {
     "question": "Identify the correct statement",
     "options": ["1 incorrect, 2 and 3 correct", "2 incorrect, 1 and 3 correct", "1 and 2 incorrect", "1, 2 and 3 incorrect"],
+    "image": "images/sdg/93.jpg",
     "answer": 0
   },
   {
