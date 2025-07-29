@@ -38198,7 +38198,7 @@ window.mcqData = {
     "answer": 1
   },
   {
-    "question": "In fiscal year 2080/81, 5.96 percent of the total budget has been allocated for climate change mitigation and adaptation.",
+    "question": "In fiscal year 2080/81,..... percent of the total budget has been allocated for climate change mitigation and adaptation.",
     "options": ["4.91 percent", "4.98 percent", "5.96 percent", "6.94 percent"],
     "answer": 2
   },
