@@ -38214,7 +38214,7 @@ window.mcqData = {
     "answer": 3
   },
   {
-    "question": "Local adaptation action plans have been implemented at 263 local levels for climate change biodiversity management and green economy.",
+    "question": "Local adaptation action plans have been implemented at ...... local levels for climate change biodiversity management and green economy.",
     "options": ["260", "263", "460", "753"],
     "answer": 1
   },
