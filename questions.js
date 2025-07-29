@@ -36911,8 +36911,8 @@ window.mcqData = {
   },
   {
     "question": "Who introduced Gajjatra in Nepal?",
-    "options": ["Gunakamadev", "Jay Prakash Malla", "Pratap Singh Shah", "Rana Bahadur Shah"],
-    "answer": 0
+    "options": ["Gunakamadev", "Jay Prakash Malla", "Pratap Malla", "Rana Bahadur Shah"],
+    "answer": 2
   },
   {
     "question": "Who introduced the system of riding chariot of Kumari in Indrajatta?",
