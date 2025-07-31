@@ -17,7 +17,7 @@
     .question-container { margin-top: 2rem; }
     .question { background: #fff; margin-bottom: 1.5rem; padding: 1rem; border-radius: .5rem; box-shadow: 0 1px 5px rgba(0,0,0,0.1); position: relative; }
     .question h3 { margin-bottom: .75rem; }
-    .options { list-style: none; }
+    .options { list-style: none; padding: 0; }
     .options li { padding: .5rem 1rem; margin-bottom: .5rem; background: #ecf0f1; border-radius: .25rem; cursor: pointer; }
     .options li:hover { background: #d0d7de; }
     .star, .report { position: absolute; top: 1rem; font-size: 1.25rem; cursor: pointer; color: #ccc; }
@@ -50,141 +50,218 @@
   </div>
   <script src="questions.js"></script>
   <script>
+    // Section definitions including Practice GK
     const sections = [
       "Structural Engineering","Engineering Survey","Construction Materials","Concrete Technology",
       "Geotechnical Engineering","Construction Management","Estimation and Costing","Engineering Drawing",
-      "Engineering Economics","Professional Practice","Apex Questions","General Knowledge","500+ MCQ","Practice Questions","IQ"
+      "Engineering Economics","Professional Practice","Apex Questions","General Knowledge","Practice GK","500+ MCQ","Practice Questions","IQ"
     ];
+
+    // For Practice Questions pool sizes
     const practicePattern = {
       "Structural Engineering":5,"Engineering Survey":7,"Construction Materials":6,"Concrete Technology":5,
       "Geotechnical Engineering":6,"Construction Management":6,"Estimation and Costing":5,"Engineering Drawing":4,
       "Engineering Economics":3,"Professional Practice":3
     };
-    let currentSection=null, currentSubsection=null, currentPage=0, customFlow=false;
-    let marked=JSON.parse(localStorage.getItem('marked')||'[]');
-    let reported=JSON.parse(localStorage.getItem('reported')||'[]');
-    const pageSize=25;
-    let currentQuestions=[];
 
-    const secList=document.getElementById('sections-list');
-    sections.forEach(sec=>{
-      const div=document.createElement('div'); div.className='section-card'; div.textContent=sec;
-      div.addEventListener('click',()=>handleSectionClick(sec)); secList.appendChild(div);
+    // State variables
+    let currentSection = null, currentSubsection = null, currentPage = 0, customFlow = false;
+    let marked = JSON.parse(localStorage.getItem('marked')||'[]');
+    let reported = JSON.parse(localStorage.getItem('reported')||'[]');
+    const pageSize = 25;
+    let currentQuestions = [];
+
+    // Initialize main sections view
+    const secList = document.getElementById('sections-list');
+    sections.forEach(sec => {
+      const card = document.createElement('div');
+      card.className = 'section-card';
+      card.textContent = sec;
+      card.addEventListener('click', () => handleSectionClick(sec));
+      secList.appendChild(card);
     });
-    document.getElementById('backBtn').addEventListener('click',goBack);
-    document.getElementById('backFromSubsectionBtn').addEventListener('click',()=>toggleView('main-view'));
-    document.getElementById('viewMarkedBtn').addEventListener('click',()=>prepareMarkedView());
-    document.getElementById('viewReportedBtn').addEventListener('click',()=>prepareReportedView());
 
-    function toggleView(id){['main-view','subsection-view','question-view'].forEach(v=>document.getElementById(v).style.display=v===id?'block':'none');}
+    document.getElementById('backBtn').addEventListener('click', goBack);
+    document.getElementById('backFromSubsectionBtn').addEventListener('click', () => toggleView('main-view'));
+    document.getElementById('viewMarkedBtn').addEventListener('click', prepareMarkedView);
+    document.getElementById('viewReportedBtn').addEventListener('click', prepareReportedView);
 
-    function handleSectionClick(sec){
-      customFlow=false; currentSection=sec; currentSubsection=null;
-      if(sec==='Practice Questions'){loadPracticeQuestions(); return;} 
-      const data=window.mcqData[sec];
-      if(data && typeof data==='object' && !Array.isArray(data)) loadSubsections(sec);
+    function toggleView(id) {
+      ['main-view','subsection-view','question-view'].forEach(v => {
+        document.getElementById(v).style.display = v === id ? 'block' : 'none';
+      });
+    }
+
+    function handleSectionClick(sec) {
+      customFlow = false;
+      currentSection = sec;
+      currentSubsection = null;
+      if (sec === 'Practice Questions') { loadPracticeQuestions(); return; }
+      if (sec === 'Practice GK') { loadPracticeGKQuestions(); return; }
+      const data = window.mcqData[sec];
+      if (data && typeof data === 'object' && !Array.isArray(data)) loadSubsections(sec);
       else loadSectionQuestions(sec);
     }
 
-    function loadSubsections(sec){
-      currentSection=sec; customFlow=false;
-      const subs=Object.keys(window.mcqData[sec]||{});
+    function loadSubsections(sec) {
+      currentSection = sec;
+      const subs = Object.keys(window.mcqData[sec] || {});
       document.getElementById('subsection-title').textContent = sec;
-      const list=document.getElementById('subsections-list'); list.innerHTML='';
-      subs.forEach(sub=>{
-        const d=document.createElement('div'); d.className='section-card'; d.textContent=sub;
-        d.addEventListener('click',()=>loadSubsectionQuestions(sec,sub)); list.appendChild(d);
+      const list = document.getElementById('subsections-list'); list.innerHTML = '';
+      subs.forEach(sub => {
+        const card = document.createElement('div');
+        card.className = 'section-card';
+        card.textContent = sub;
+        card.addEventListener('click', () => loadSubsectionQuestions(sec, sub));
+        list.appendChild(card);
       });
       toggleView('subsection-view');
     }
-    function loadSubsectionQuestions(sec,sub){
-      customFlow=false; currentSection=sec; currentSubsection=sub;
-      currentQuestions=(window.mcqData[sec][sub]||[]).map((q,i)=>({...q,section:sec,subsection:sub,origIdx:i}));
-      currentPage=0; renderQuestions(); toggleView('question-view');
-    }
-    function loadSectionQuestions(sec){
-      customFlow=false; currentSection=sec; currentSubsection=null;
-      currentQuestions=(window.mcqData[sec]||[]).map((q,i)=>({...q,section:sec,subsection:null,origIdx:i}));
-      currentPage=0; renderQuestions(); toggleView('question-view');
-    }
-    function loadPracticeQuestions(){
-      customFlow=false; currentSection='Practice Questions'; currentSubsection=null;
-      currentQuestions=[]; let poolIndex=0;
-      Object.entries(practicePattern).forEach(([sec,c])=>{
-        let arr=window.mcqData[sec];
-        if(arr && typeof arr==='object' && !Array.isArray(arr)) arr=Object.values(arr).flat();
-        const pick=arr.sort(()=>Math.random()-.5).slice(0,c);
-        pick.forEach(q=>currentQuestions.push({...q,section:sec,subsection:null,origIdx:poolIndex++}));
-      });
-      currentPage=0; renderQuestions(); toggleView('question-view');
+
+    function loadSubsectionQuestions(sec, sub) {
+      customFlow = false;
+      currentSection = sec;
+      currentSubsection = sub;
+      currentQuestions = (window.mcqData[sec][sub] || []).map((q,i) => ({ ...q, section: sec, subsection: sub, origIdx: i }));
+      currentPage = 0;
+      renderQuestions();
+      toggleView('question-view');
     }
 
-    function prepareMarkedView(){
-      customFlow=true; currentSection='Marked Questions'; currentSubsection=null;
-      const secs=Array.from(new Set(marked.map(m=>m.split('::')[0])));
-      renderCustomSubs(secs,'Marked Questions',marked);
-    }
-    function prepareReportedView(){
-      customFlow=true; currentSection='Reported Questions'; currentSubsection=null;
-      const secs=Array.from(new Set(reported.map(m=>m.split('::')[0])));
-      renderCustomSubs(secs,'Reported Questions',reported);
-    }
-    function renderCustomSubs(secs,title,keys){
-      document.getElementById('subsection-title').textContent=title+' - Select Section';
-      const list=document.getElementById('subsections-list'); list.innerHTML='';
-      secs.forEach(sec=>{
-        const d=document.createElement('div'); d.className='section-card'; d.textContent=sec;
-        d.addEventListener('click',()=>loadCustomQuestions(sec,title,keys)); list.appendChild(d);
-      });
-      toggleView('subsection-view');
-    }
-    function loadCustomQuestions(sec,title,keys){
-      customFlow=true; currentSection=title; currentSubsection=sec;
-      const filtered=keys.filter(k=>k.startsWith(sec+'::'));
-      currentQuestions=filtered.map(k=>{
-        const parts=k.split('::'); const idx=parseInt(parts.pop(),10);
-        const sub=parts[1]||null;
-        const q=sub?window.mcqData[sec][sub][idx]:window.mcqData[sec][idx];
-        return{...q,section:sec,subsection:sub,origIdx:idx};
-      });
-      currentPage=0; renderQuestions(); toggleView('question-view');
+    function loadSectionQuestions(sec) {
+      customFlow = false;
+      currentSection = sec;
+      currentSubsection = null;
+      currentQuestions = (window.mcqData[sec] || []).map((q,i) => ({ ...q, section: sec, subsection: null, origIdx: i }));
+      currentPage = 0;
+      renderQuestions();
+      toggleView('question-view');
     }
 
-    function renderQuestions(){
-      const con=document.getElementById('questionsContainer'); con.innerHTML='';
-      const slice=currentQuestions.slice(currentPage*pageSize,(currentPage+1)*pageSize);
-      slice.forEach((q,i)=>{
-        const d=document.createElement('div'); d.className='question';
-        const h3=document.createElement('h3'); h3.textContent=((currentPage*pageSize)+i+1)+'. '+q.question; d.appendChild(h3);
-        if(q.image){ const img=document.createElement('img'); img.src=q.image; img.alt = 'Question image';img.style.display   = 'block';img.style.margin    = '10px auto'; img.style.maxWidth  = '40%'; img.style.height    = 'auto';  img.style.maxHeight = '130px'; d.appendChild(img); }
-        const ul=document.createElement('ul'); ul.className='options';
-        q.options.forEach((opt,j)=>{ const li=document.createElement('li'); li.textContent=opt;
-          li.addEventListener('click',()=>li.style.background=(j===q.answer?'#d4edda':'#f8d7da')); ul.appendChild(li);
+    function loadPracticeQuestions() {
+      customFlow = false;
+      currentSection = 'Practice Questions';
+      currentSubsection = null;
+      currentQuestions = [];
+      let poolIndex = 0;
+      Object.entries(practicePattern).forEach(([sec, count]) => {
+        let arr = window.mcqData[sec];
+        if (arr && typeof arr === 'object' && !Array.isArray(arr)) arr = Object.values(arr).flat();
+        const picks = arr.sort(() => Math.random() - .5).slice(0, count);
+        picks.forEach(q => currentQuestions.push({ ...q, section: sec, subsection: null, origIdx: poolIndex++ }));
+      });
+      currentPage = 0;
+      renderQuestions();
+      toggleView('question-view');
+    }
+
+    function loadPracticeGKQuestions() {
+      customFlow = false;
+      currentSection = 'Practice GK';
+      currentSubsection = null;
+      currentQuestions = [];
+      Object.entries(window.mcqData['General Knowledge'] || {}).forEach(([sub, arr]) => {
+        const picks = arr.map((q,i) => ({ ...q, section: 'General Knowledge', subsection: sub, origIdx: i }))
+                          .sort(() => Math.random() - .5)
+                          .slice(0, 2);
+        currentQuestions.push(...picks);
+      });
+      // Shuffle final pool
+      currentQuestions.sort(() => Math.random() - .5);
+      currentPage = 0;
+      renderQuestions();
+      toggleView('question-view');
+    }
+
+    // Marked & Reported views
+    function prepareMarkedView() {
+      customFlow = true;
+      currentSection = 'Marked Questions';
+      currentQuestions = Object.entries(window.mcqData).flatMap(([sec, val]) => {
+        if (typeof val === 'object' && !Array.isArray(val)) {
+          return Object.entries(val).flatMap(([sub, arr]) =>
+            arr.map((q,i) => ({ ...q, section: sec, subsection: sub, origIdx: i, key: sec+'::'+sub+'::'+i }))
+          );
+        }
+        return val.map((q,i) => ({ ...q, section: sec, subsection: null, origIdx: i, key: sec+'::'+i }));
+      }).filter(q => marked.includes(q.key));
+      currentPage = 0;
+      renderQuestions();
+      toggleView('question-view');
+    }
+
+    function prepareReportedView() {
+      customFlow = true;
+      currentSection = 'Reported Questions';
+      currentQuestions = Object.entries(window.mcqData).flatMap(([sec, val]) => {
+        if (typeof val === 'object' && !Array.isArray(val)) {
+          return Object.entries(val).flatMap(([sub, arr]) =>
+            arr.map((q,i) => ({ ...q, section: sec, subsection: sub, origIdx: i, key: sec+'::'+sub+'::'+i }))
+          );
+        }
+        return val.map((q,i) => ({ ...q, section: sec, subsection: null, origIdx: i, key: sec+'::'+i }));
+      }).filter(q => reported.includes(q.key));
+      currentPage = 0;
+      renderQuestions();
+      toggleView('question-view');
+    }
+
+    // Rendering Qs and Pagination
+    function renderQuestions() {
+      const con = document.getElementById('questionsContainer'); con.innerHTML = '';
+      const slice = currentQuestions.slice(currentPage*pageSize, (currentPage+1)*pageSize);
+      slice.forEach((q,i) => {
+        const d = document.createElement('div'); d.className = 'question';
+        const h3 = document.createElement('h3'); h3.textContent = ((currentPage*pageSize)+i+1)+'. '+q.question; d.appendChild(h3);
+        if(q.image){ const img=document.createElement('img'); img.src=q.image; img.style.maxWidth='100%'; img.style.maxHeight='130px'; d.appendChild(img); }
+        const ul = document.createElement('ul'); ul.className = 'options';
+        q.options.forEach((opt,j) => { const li = document.createElement('li'); li.textContent = opt;
+          li.addEventListener('click', () => li.style.background = (j===q.answer ? '#d4edda' : '#f8d7da'));
+          ul.appendChild(li);
         }); d.appendChild(ul);
-        const key=q.section+'::'+(q.subsection?q.subsection+'::':'')+q.origIdx;
-        const star=document.createElement('span'); star.className='star'; star.innerHTML=marked.includes(key)?'★':'☆';
-        if(marked.includes(key)) star.classList.add('marked'); star.addEventListener('click',()=>toggleMark(key,star)); d.appendChild(star);
-        const rpt=document.createElement('span'); rpt.className='report'; rpt.innerHTML=reported.includes(key)?'🚩':'🏳️';
-        if(reported.includes(key)) rpt.classList.add('reported'); rpt.addEventListener('click',()=>toggleReport(key,rpt)); d.appendChild(rpt);
+        const key = q.section+'::'+(q.subsection? q.subsection+'::':'')+q.origIdx;
+        const star = document.createElement('span'); star.className = 'star'; star.innerHTML = marked.includes(key)?'★':'☆';
+        if(marked.includes(key)) star.classList.add('marked');
+        star.addEventListener('click', () => toggleMark(key, star)); d.appendChild(star);
+        const rpt = document.createElement('span'); rpt.className = 'report'; rpt.innerHTML = reported.includes(key)?'🚩':'🏳️';
+        if(reported.includes(key)) rpt.classList.add('reported');
+        rpt.addEventListener('click', () => toggleReport(key, rpt)); d.appendChild(rpt);
         con.appendChild(d);
       });
       renderPagination(); con.scrollIntoView({block:'start'});
     }
-    function renderPagination(){
-      const p=document.getElementById('pagination'); p.innerHTML='';
-      const total=Math.ceil(currentQuestions.length/pageSize);
-      if(currentPage>0){ const b=document.createElement('button'); b.className='nav-btn'; b.textContent='Previous'; b.addEventListener('click',()=>{currentPage--;renderQuestions();}); p.appendChild(b); }
+
+    function renderPagination() {
+      const p = document.getElementById('pagination'); p.innerHTML = '';
+      const total = Math.ceil(currentQuestions.length/pageSize);
+      if(currentPage>0){ const b = document.createElement('button'); b.textContent='Prev'; b.addEventListener('click',()=>{currentPage--;renderQuestions();}); p.appendChild(b); }
       p.append(` Page ${currentPage+1} of ${total} `);
-      if(currentPage<total-1){ const b=document.createElement('button'); b.className='nav-btn'; b.textContent='Next'; b.addEventListener('click',()=>{currentPage++;renderQuestions();}); p.appendChild(b); }
+      if(currentPage<total-1){ const b = document.createElement('button'); b.textContent='Next'; b.addEventListener('click',()=>{currentPage++;renderQuestions();}); p.appendChild(b); }
     }
-    function toggleMark(k,e){ if(marked.includes(k)){ marked=marked.filter(x=>x!==k); e.textContent='☆'; e.classList.remove('marked'); } else{ marked.push(k); e.textContent='★'; e.classList.add('marked'); } localStorage.setItem('marked',JSON.stringify(marked)); }
-    function toggleReport(k,e){ if(reported.includes(k)){ reported=reported.filter(x=>x!==k); e.textContent='🏳️'; e.classList.remove('reported'); } else{ reported.push(k); e.textContent='🚩'; e.classList.add('reported'); } localStorage.setItem('reported',JSON.stringify(reported)); }
+
+    function toggleMark(key, el){ if(marked.includes(key)){ marked = marked.filter(k=>k!==key); el.innerHTML='☆'; el.classList.remove('marked'); }
+      else { marked.push(key); el.innerHTML='★'; el.classList.add('marked'); }
+      localStorage.setItem('marked', JSON.stringify(marked)); }
+
+    function toggleReport(key, el){ if(reported.includes(key)){ reported = reported.filter(k=>k!==key); el.innerHTML='🏳️'; el.classList.remove('reported'); }
+      else { reported.push(key); el.innerHTML='🚩'; el.classList.add('reported'); }
+      localStorage.setItem('reported', JSON.stringify(reported)); }
+
     function goBack(){
-      if(document.getElementById('question-view').style.display==='block'){
-        if(customFlow || currentSubsection) toggleView('subsection-view');
-        else toggleView('main-view');
-      } else toggleView('main-view');
+  // Always return to subsection if viewing a subsection, otherwise main view
+  if(document.getElementById('question-view').style.display==='block'){
+    if(customFlow){
+      toggleView('main-view');
+    } else if(currentSubsection){
+      toggleView('subsection-view');
+    } else {
+      toggleView('main-view');
     }
+  } else {
+    toggleView('main-view');
+  }
+}
+
   </script>
 </body>
 </html>
