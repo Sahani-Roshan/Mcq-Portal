@@ -36004,7 +36004,7 @@ window.mcqData = {
   },
   {
     "question": "Tikapur is situated on the bank of which river?",
-    "options": ["Kamali", "Mohana", "Babai", "Hardinath"],
+    "options": ["Karnali", "Mohana", "Babai", "Hardinath"],
     "answer": 0
   },
   {
