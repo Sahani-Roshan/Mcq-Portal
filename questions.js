@@ -213,7 +213,7 @@ window.mcqData = {
     answer: 1
 },
 {
-    question: "The soil sample contains volume of void 0.2 and volume of soil is 0.30 then find the void ratio & porosity of soil",
+    question: "The soil sample contains volume of void 0.2 and volume of soil solids is 0.30 then find the void ratio & porosity of soil",
     options: ["0.67, 0.40", "0.40, 0.67", "0.67, 0.80", "0.80, 0.67"],
     answer: 0
 },
@@ -2344,7 +2344,7 @@ window.mcqData = {
   {
     question: "In the center-line method of working out volumes, for cross walls what deductions must be made from the center line length at each junction?",
     options: ["twice the breadth", "breadth", "1.5 breadth", "half the breadth"],
-    answer: 3 // half the breadth
+    answer: 1 // breadth
   },
   {
     question: "The unit rate of items written by the contractor in BOQ is in numeral as well as alphabetical form. Which one is preferred?",
@@ -5083,7 +5083,7 @@ window.mcqData = {
       "individual, organization, profession, society",
       "profession, individual, organization society"
     ],
-    answer: 1 // "b"
+    answer: 0 // "a"
   },
   {
     question: "In Nepal, which of the following Act contains the provisions on health and safety of the workers?",
@@ -11351,7 +11351,7 @@ window.mcqData = {
   {
     question: "The space covered by a drawing in a paper after changing the scale from 1:100 to 1:50 will:",
     options: ["increase 400%", "increase 200%", "decrease 200%", "decrease 400%"],
-    answer: 3
+    answer: 0
   }
 ],
 
@@ -12539,12 +12539,13 @@ window.mcqData = {
   answer: 0
 },
 {
-  question: "To produce impermeable concrete e) all of the above",
+  question: "To produce impermeable concrete ",
   options: [
     "thorough mixing of concrete is required",
     "proper compaction of concrete is required",
     "proper curing of concrete is required",
     "properly graded and non-porous aggregates are required",
+    "all of the above",
   ],
   answer: 4
 },
@@ -12609,12 +12610,13 @@ window.mcqData = {
   answer: 2
 },
 {
-  question: "Pick up the incorrect statement applicable to the field test of good cement e) all of the above",
+  question: "Pick up the incorrect statement applicable to the field test of good cement ",
   options: [
     "when one thrusts one’s hand into a bag of cement, one should feel warm",
     "the colour of the cement is bluish",
     "a handful of cement thrown into a bucket of water should sink immediately",
     "by rubbing the cement in between fingers, one should feel rough",
+    "e) all of the above",
   ],
   answer: 4
 },
@@ -13993,12 +13995,13 @@ window.mcqData = {
   answer: 1
 },
 {
-  question: "Too wet concrete may cause e) all of the above",
+  question: "Too wet concrete may cause ",
   options: [
     "weakness of concrete",
     "excessive laitance",
     "segregation",
     "lower density",
+    "all of the above",
   ],
   answer: 4
 },
