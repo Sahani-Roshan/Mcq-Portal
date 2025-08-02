@@ -41800,7 +41800,7 @@ window.mcqData = {
     answer: 3  // d
   },
   {
-    question: "According to the constitution of Nepal, which of the following officers is exempted from impeachment?",
+    question: "According to the constitution of Nepal, which of the following officers is liable for impeachment?",
     options: [
       "President, Vice President, Chief Justice",
       "Members of the Judiciary and Supreme Court Judges",
