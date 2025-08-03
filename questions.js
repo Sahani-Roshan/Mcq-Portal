@@ -159,7 +159,7 @@ window.mcqData = {
 },
 {
     question: "The fundamental relation between void ratio(e), specific gravity (G), Degree of Saturation(S) and density (Y) is",
-    options: ["Y = G(1-S)*Yw/1+e", "WS = Ge", "We = SG", "none of the above"],
+    options: ["Y = G(1+S)*Yw/1+e", "WS = Ge", "We = SG", "none of the above"],
     answer: 0
 },
 {
@@ -385,7 +385,7 @@ window.mcqData = {
     answer: 1
   },
   {
-    question: "In any member of structure system, the strain does not effect the size of member",
+    question: "In any member of structure system, the ...... strain does not effect the size of member",
     options: ["lateral strain", "volumetric strain", "shear strain", "longitudinal strain"],
     answer: 2
   },
@@ -536,7 +536,7 @@ window.mcqData = {
   },
   {
     question: "If the M.I of section about its axis is I and if the effective sectional area is A, then radius of gyration r is given by",
-    options: ["√(I / A)", "√(I / l A)", "√(A / I)", "√(I / A)"],
+    options: ["√(I / A)", "√(I / l A)", "√(A / I)", "√(I) / A"],
     answer: 0
   },
   {
@@ -602,26 +602,31 @@ window.mcqData = {
   {
     question: "Find the shear force produced in the member BC due to load shown in fig. (4 kN at C, BC horizontal, A–B fixed)",
     options: ["4 kN", "50 kN", "25 kN", "75 kN"],
+    image: "images/structure/57.jpg",
     answer: 0
   },
   {
     question: "Find the bending moment at fixed end for the structure as shown in fig. (10 T at top of vertical member 1 m above bracket, bracket 2 m from base)",
     options: ["0", "10 T m", "20 T m", "30 T m"],
+    image: "images/structure/58.jpg",
     answer: 0
   },
   {
     question: "Find the bending moment at fixed end for the structure as shown in fig. (5 T at horizontal arm 2 m from wall, 10 T at top of vertical)",
     options: ["0", "10 T m", "20 T m", "30 T m"],
+    image: "images/structure/59.jpg",
     answer: 0
   },
   {
     question: "Find the bending moment at fixed end of cantilever as shown in fig. (5 T at 2 m, 10 T-m couple at 5 m)",
     options: ["0", "10 T m", "20 T m", "30 T m"],
+    image: "images/structure/60.jpg",
     answer: 0
   },
   {
     question: "Find the bending moment at fixed end of cantilever as shown in fig. (10 T at 2 m, 10 T-m couple)",
     options: ["0", "10 T m", "20 T m", "30 T m"],
+    image: "images/structure/61.jpg",
     answer: 1
   },
   {
@@ -1582,6 +1587,7 @@ window.mcqData = {
       "20 kN",
       "30 kN"
     ],
+    image: "images/structure/187.jpg",
     answer: 1
   },
   {
@@ -1652,6 +1658,7 @@ window.mcqData = {
       "12",
       "8"
     ],
+    image: "images/structure/194.jpg",
     answer: 3
   },
   {
@@ -1672,6 +1679,7 @@ window.mcqData = {
       "unstable",
       "stable"
     ],
+    image: "images/structure/196.jpg",
     answer: 2
   },
   {
@@ -1682,6 +1690,7 @@ window.mcqData = {
       "30 kN·m",
       "10 kN·m"
     ],
+    image: "images/structure/197.jpg",
     answer: 0
   },
   {
@@ -1712,6 +1721,7 @@ window.mcqData = {
       "w L",
       "2 w L / 3"
     ],
+    image: "images/structure/200.jpg",
     answer: 0
   },
   {
