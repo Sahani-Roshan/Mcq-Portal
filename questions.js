@@ -1737,10 +1737,10 @@ window.mcqData = {
   {
     question: "For a cantilever with a uniformly distributed load of total W over entire length L, the mixing bending moment is:",
     options: [
-      "W L / δ",
-      "W L",
+      "W L^2 / 2",
+      "W L^2 / 8",
       "W L / 2",
-      "—"
+      "None"
     ],
     answer: 2
   },
