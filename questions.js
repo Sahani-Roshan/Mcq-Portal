@@ -128,9 +128,9 @@ window.mcqData = {
     answer: 0
 },
 {
-    question: "Theoretically, the void ratio in soils can have the following values",
-    options: [">1", "<1", ">0.5", ">0.5"],
-    answer: 1
+    question: "Theoretically, the void ratio in soils can",
+    options: ["never be >1", "be zero", "take any values >0", "take values between 0 and 1 only"],
+    answer: 2
 },
 {
     question: "The ratio of weight of water to the weight of solids in a given mass of soil, is known as",
@@ -285,7 +285,7 @@ window.mcqData = {
 {
     question: "The difference between plastic limit and shrinkage limit is called",
     options: ["fluidity index", "reliability", "plasticity index", "shrinkage index"],
-    answer: 2
+    answer: 3
 },
 {
     question: "The liquidity index of soil is given by",
@@ -2818,8 +2818,8 @@ window.mcqData = {
   },
   {
     question: "Which of the following is not a common size of reinforcement bars?",
-    options: ["16 mm", "20 mm", "25 mm", "32 mm"],
-    answer: 3 // d: 32 mm (Note: There seems to be a numbering error in the original text)
+    options: ["16 mm", "20 mm", "25 mm", "30 mm"],
+    answer: 3 // d: 30 mm
   },
   {
     question: "The approximate weight of one cubic meter of mild steel is",
@@ -11588,12 +11588,13 @@ window.mcqData = {
   answer: 3
 },
 {
-  question: "Addition of pozzolana to ordinary portland cement, causes e) all of the above",
+  question: "Addition of pozzolana to ordinary portland cement, causes ",
   options: [
     "decrease in early strength",
     "reduction in chemical action with sulphates",
     "increase in shrinkage",
     "reduction in bleeding",
+    "e) all of the above",
   ],
   answer: 4
 },
@@ -19944,7 +19945,7 @@ window.mcqData = {
     "dumpy level",
     "theodolite",
     "clinometer",
-    "clinometer",
+    "abney level",
   ],
   answer: 0
 },
