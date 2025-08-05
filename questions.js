@@ -34686,12 +34686,12 @@ window.mcqData = {
   },
   {
     "question": "Which language was used in the Ashoka pillar of Lumbini?",
-    "options": ["Pali", "Ranjana", "Brahmi", "Sirijunga"],
+    "options": ["Pali", "Ranjana", "Bramhi", "Sirijunga"],
     "answer": 0
   },
   {
     "question": "Which is the oldest script (Lipi) of Nepal?",
-    "options": ["Devnagari", "Sanskrit", "Brahmi", "Katiti"],
+    "options": ["Devnagari", "Sanskrit", "Bramhi", "Katiti"],
     "answer": 2
   },
   {
@@ -34798,7 +34798,7 @@ window.mcqData = {
   },
   {
     "question": "Limbu language is written in which script?",
-    "options": ["Brahmi", "Ranjana", "Kutila", "Srijungha"],
+    "options": ["Bramhi", "Ranjana", "Kutila", "Srijungha"],
     "answer": 3
   },
   {
