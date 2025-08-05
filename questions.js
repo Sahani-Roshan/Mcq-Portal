@@ -40630,11 +40630,12 @@ window.mcqData = {
   {
     question: "Match the correct pair",
     options: [
-      "a. '1994 i. SAARC year of youth b. 2016 ii. SAARC year of Diversity c. 1996 iii. SAARC year of Literacy d. 1999 iv. SAARC year of Cultural Heritage a.-i, b-i, c-iii, d-iv",
+      "a-i, b-i, c-iii, d-iv",
       "a-i, b-iv, c-iii, d-ii",
       "a-i, b-iv, c-ii, d-iii",
       "a-ii, b-iv, c-i, d-iii"
     ],
+    image: "images/saarc/44.jpg",
     answer: 1
   },
   {
