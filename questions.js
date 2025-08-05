@@ -2812,7 +2812,7 @@ window.mcqData = {
     answer: 3 // d: two coats of coaltar
   },
   {
-    question: "The area of the segmental portion of an arch with span, 1 and rise r is approximately given by",
+    question: "The area of the segmental portion of an arch with span, l and rise r is approximately given by",
     options: ["(2/3)lr", "(1/2)lr", "(3/4)lr", "(3/8)lr"],
     answer: 0 // a: (2/3)lr
   },
