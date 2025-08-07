@@ -15610,12 +15610,12 @@ window.mcqData = {
   answer: 3
 },
 {
-  question: "Least count is given by where p & v are the smallest division of primary & secondary scale respectively.",
+  question: "Least count is given by ",
   options: [
     "p–v",
     "v–p",
     "p+v",
-    "both",
+    "both a and b",
   ],
   answer: 3
 },
@@ -15902,7 +15902,7 @@ window.mcqData = {
 {
   question: "Ranging is the process of fixing intermediate points between two points while changing the measurement of distance between two points, then find the correct statement",
   options: [
-    "accurate ranging is not possible without ranging",
+    "accurate chaining is not possible without ranging",
     "accurate ranging is not possible without chaining",
     "chaining & ranging proceeds simultaneously",
     "all of the above",
@@ -16420,7 +16420,7 @@ window.mcqData = {
   answer: 3
 },
 {
-  question: "The optical square is based on the principle of optical",
+  question: "The optical square is based on the principle of ",
   options: [
     "reflection",
     "refraction",
