@@ -16705,7 +16705,7 @@ window.mcqData = {
     "is constant",
     "varies from place to place & is zero at the equator and maximum at the poles",
     "is zero at the equator and poles",
-    "",
+    "none of the above",
   ],
   answer: 1
 },
@@ -16797,7 +16797,7 @@ window.mcqData = {
     "line passing through the point having same dip",
     "line passing through the point having zero dip",
   ],
-  answer: 1
+  answer: 0
 },
 {
   question: "In survey works declination varies from time to time and place to place. The main important variation is",
@@ -16840,10 +16840,10 @@ window.mcqData = {
   answer: 1
 },
 {
-  question: "The magnetic declination at a place is 7°20′ W, the bearing given by the compass is S45° E, the true bearing of the place is",
+  question: "The magnetic declination at a place is 7°20′ W, the bearing given by the compass is S 45°40' E, the true bearing of the place is",
   options: [
-    "N53° 0′ E",
-    "S53° 0′ E",
+    "N52° 20′ E",
+    "S5° 0′ E",
     "N53° 0′ W",
     "S53° 0′ W",
   ],
@@ -17460,7 +17460,7 @@ window.mcqData = {
   answer: 2
 },
 {
-  question: "The observed reading on a levelling staff was 3.525 m. If the staff was 0.125 m off from the original ground level, what should be correct reading?",
+  question: "The observed reading on a levelling staff was 3.525 m. If the staff was 0.125 m on from the original ground level, what should be correct reading?",
   options: [
     "3.65 m",
     "3.525 m",
@@ -17790,7 +17790,7 @@ window.mcqData = {
   answer: 1
 },
 {
-  question: "Tiling levels are used for",
+  question: "Tilting levels are used for",
   options: [
     "fly levelling",
     "precise leveling",
