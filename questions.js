@@ -8510,7 +8510,7 @@ window.mcqData = {
   },
   {
     question: "A stone is rejected if the water absorption is more than",
-    options: ["15%", "20%", "25%", "30%"],
+    options: ["10%", "20%", "25%", "30%"],
     answer: 0
   },
   {
@@ -9101,7 +9101,7 @@ window.mcqData = {
   {
     question: "The main constituents, which is mainly responsible for hydraulicity is",
     options: ["water", "silica", "clay", "calcium oxide"],
-    answer: 1 // "silica"
+    answer: 2
   },
   {
     question: "Which one is correct?",
@@ -9386,7 +9386,7 @@ window.mcqData = {
   {
     question: "The seven-day compressive strength of a good portland cement, as obtained from the compressive test on cement-sand mortar cubes, should not be less than",
     options: ["125 kg/cm²", "150 kg/cm²", "175 kg/cm²", "200 kg/cm²"],
-    answer: 1 // "150 kg/cm²"
+    answer: 2 // "175 kg/cm²"
   },
   {
     question: "Excessive free lime and excessive magnesia present in the cement make the cement",
@@ -17990,7 +17990,7 @@ window.mcqData = {
   answer: 2
 },
 {
-  question: "The points A and B are 1530 m apart across a wide river. The following reciprocal levels are taken with one level Level at A:    Reading on A&B: 2.165, 0.91     Level at B: Reading at A&B: 3.810, 2.355 .The true difference in level between A and B would be",
+  question: "The points A and B are 1530 m apart across a wide river. The following reciprocal levels are taken with one level Level at A:    Reading on A&B: 2.165, 3.81     Level at B: Reading at A&B: 0.91, 2.355 .The true difference in level between A and B would be",
   options: [
     "1.255 m",
     "1.455 m",
@@ -18762,7 +18762,7 @@ window.mcqData = {
 {
   question: "The closing error is given by",
   options: [
-    "√ΣL² + ΣD²",
+    "√(ΣL² + ΣD²)",
     "√ΣL + ΣD²",
     "ΣL² + ΣD²",
     "none of the above",
@@ -18800,7 +18800,7 @@ window.mcqData = {
   answer: 1
 },
 {
-  question: "n a closed traverse, the closing error should not be more than  Where N is the no. of side of traverse",
+  question: "n a closed traverse, the closing error should not be more than.....Where N is the no. of side of traverse",
   options: [
     "N × least count of instrument",
     "√N × least count of instrument",
@@ -18884,7 +18884,7 @@ window.mcqData = {
   options: [
     "tachometry",
     "hydrography",
-    "tacheometry",
+    "topography",
     "all of the above",
   ],
   answer: 0
@@ -19120,12 +19120,13 @@ window.mcqData = {
   answer: 2
 },
 {
-  question: "Error in tacheometric surveying is due to e) all the above",
+  question: "Error in tacheometric surveying is due to",
   options: [
     "manipulation",
     "sighting",
     "natural causes",
     "instrumental error",
+    "all the above",
   ],
   answer: 4
 },
@@ -19893,7 +19894,7 @@ window.mcqData = {
   question: "Which of the following statement is not correct regarding field work leveling?",
   options: [
     "leveling should always start and finish at points of known RL so that misclosure can be detected",
-    "all staff length should be more than 60 m",
+    "all site length should be more than 60 m",
     "the staff must be held vertically by suitable use of a bracket bubble",
     "readings should be booked immediately after they are observed",
   ],
