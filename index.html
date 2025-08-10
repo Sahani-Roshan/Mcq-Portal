@@ -20,18 +20,22 @@
     .options { list-style: none; padding: 0; }
     .options li { padding: .5rem 1rem; margin-bottom: .5rem; background: #ecf0f1; border-radius: .25rem; cursor: pointer; }
     .options li:hover { background: #d0d7de; }
-    .star, .report { position: absolute; top: 1rem; font-size: 1.25rem; cursor: pointer; color: #ccc; }
+    .star, .report { position: absolute; top: 1rem; font-size: 1.25rem; cursor: pointer; color: #ccc; user-select: none; }
     .star { right: 2.5rem; }
     .report { right: 1rem; }
     .star.marked { color: gold; }
     .report.reported { color: crimson; }
     /* Styled pagination buttons */
     #pagination .nav-btn { margin: 0 .5rem; }
+    /* small helper for group-card text */
+    .group-count { font-size: 0.9rem; color: #666; margin-top: .5rem; }
   </style>
 </head>
 <body>
   <div class="container">
     <header><h1>Engineering MCQ Portal</h1></header>
+
+    <!-- Main view -->
     <div id="main-view">
       <div class="sections" id="sections-list"></div>
       <div style="text-align:center; margin-top:1rem;">
@@ -39,50 +43,376 @@
         <button class="view-mark-btn nav-btn" id="viewReportedBtn">View Reported Questions</button>
       </div>
     </div>
+
+    <!-- Subsection / grouping view (also reused for marked/reported groups) -->
     <div id="subsection-view" style="display:none;">
       <button class="nav-btn" id="backFromSubsectionBtn">← Back</button>
       <h2 id="subsection-title">Select Subsection</h2>
       <div class="sections" id="subsections-list"></div>
     </div>
+
+    <!-- Question view -->
     <div id="question-view" style="display:none;">
       <button class="nav-btn" id="backBtn">← Back</button>
       <div class="question-container" id="questionsContainer"></div>
       <div id="pagination" style="text-align:center; margin-top:1rem;"></div>
     </div>
   </div>
+
   <script src="questions.js"></script>
   <script>
-    const sections=["Structural Engineering","Engineering Survey","Construction Materials","Concrete Technology","Geotechnical Engineering","Construction Management","Estimation and Costing","Engineering Drawing","Engineering Economics","Professional Practice","Apex Questions","General Knowledge","Practice GK","500+ MCQ","Practice Questions","IQ"];
-    const practicePattern={"Structural Engineering":5,"Engineering Survey":7,"Construction Materials":6,"Concrete Technology":5,"Geotechnical Engineering":6,"Construction Management":6,"Estimation and Costing":5,"Engineering Drawing":4,"Engineering Economics":3,"Professional Practice":3};
-    let currentSection=null,currentSubsection=null,currentPage=0,customFlow=false;
-    let marked=JSON.parse(localStorage.getItem('marked')||'[]');
-    let reported=JSON.parse(localStorage.getItem('reported')||'[]');
-    const pageSize=25;let currentQuestions=[];
-    const secList=document.getElementById('sections-list');
-    sections.forEach(sec=>{const card=document.createElement('div');card.className='section-card';card.textContent=sec;card.addEventListener('click',()=>handleSectionClick(sec));secList.appendChild(card);});
-    document.getElementById('backBtn').addEventListener('click',goBack);
-    document.getElementById('backFromSubsectionBtn').addEventListener('click',()=>toggleView('main-view'));
-    document.getElementById('viewMarkedBtn').addEventListener('click',prepareMarkedView);
-    document.getElementById('viewReportedBtn').addEventListener('click',prepareReportedView);
-    function toggleView(id){['main-view','subsection-view','question-view'].forEach(v=>{document.getElementById(v).style.display=v===id?'block':'none';});}
-    function handleSectionClick(sec){customFlow=false;currentSection=sec;currentSubsection=null;if(sec==='Practice Questions'){loadPracticeQuestions();return;}if(sec==='Practice GK'){loadPracticeGKQuestions();return;}const data=window.mcqData[sec];if(data&&typeof data==='object'&&!Array.isArray(data))loadSubsections(sec);else loadSectionQuestions(sec);}
-    function loadSubsections(sec){currentSection=sec;const subs=Object.keys(window.mcqData[sec]||{});document.getElementById('subsection-title').textContent=sec;const list=document.getElementById('subsections-list');list.innerHTML='';subs.forEach(sub=>{const card=document.createElement('div');card.className='section-card';card.textContent=sub;card.addEventListener('click',()=>loadSubsectionQuestions(sec,sub));list.appendChild(card);});toggleView('subsection-view');}
-    function loadSubsectionQuestions(sec,sub){customFlow=false;currentSection=sec;currentSubsection=sub;currentQuestions=window.mcqData[sec][sub].map((q,i)=>({...q,section:sec,subsection:sub,origIdx:i}));currentPage=0;renderQuestions();toggleView('question-view');}
-    function loadSectionQuestions(sec){customFlow=false;currentSection=sec;currentSubsection=null;currentQuestions=window.mcqData[sec].map((q,i)=>({...q,section:sec,subsection:null,origIdx:i}));currentPage=0;renderQuestions();toggleView('question-view');}
-    function loadPracticeQuestions(){customFlow=false;currentSection='Practice Questions';currentSubsection=null;currentQuestions=[];let poolIndex=0;Object.entries(practicePattern).forEach(([sec,count])=>{let arr=window.mcqData[sec];if(!Array.isArray(arr))arr=Object.values(arr).flat();const picks=arr.sort(()=>Math.random()-.5).slice(0,count);picks.forEach(q=>currentQuestions.push({...q,section:sec,subsection:null,origIdx:poolIndex++}));});currentPage=0;renderQuestions();toggleView('question-view');}
-    function loadPracticeGKQuestions(){customFlow=false;currentSection='Practice GK';currentSubsection=null;currentQuestions=[];Object.entries(window.mcqData['General Knowledge']||{}).forEach(([sub,arr])=>{const picks=arr.map((q,i)=>({...q,section:'General Knowledge',subsection:sub,origIdx:i})).sort(()=>Math.random()-.5).slice(0,2);currentQuestions.push(...picks);});currentQuestions.sort(()=>Math.random()-.5);currentPage=0;renderQuestions();toggleView('question-view');}
-    function prepareMarkedView(){customFlow=true;currentSection='Marked Questions';currentQuestions=[];Object.entries(window.mcqData).forEach(([sec,val])=>{if(!Array.isArray(val)){Object.entries(val).forEach(([sub,arr])=>{arr.forEach((q,i)=>{const key=`${sec}::${sub}::${i}`;if(marked.includes(key))currentQuestions.push({...q,section:sec,subsection:sub,origIdx:i});});});}else{val.forEach((q,i)=>{const key=`${sec}::${i}`;if(marked.includes(key))currentQuestions.push({...q,section:sec,subsection:null,origIdx:i});});}});currentPage=0;renderQuestions();toggleView('question-view');}
-    function prepareReportedView(){customFlow=true;currentSection='Reported Questions';currentQuestions=[];Object.entries(window.mcqData).forEach(([sec,val])=>{if(!Array.isArray(val)){Object.entries(val).forEach(( [sub,arr] )=>{arr.forEach((q,i)=>{const key=`${sec}::${sub}::${i}`;if(reported.includes(key))currentQuestions.push({...q,section:sec,subsection:sub,origIdx:i});});});}else{val.forEach((q,i)=>{const key=`${sec}::${i}`;if(reported.includes(key))currentQuestions.push({...q,section:sec,subsection:null,origIdx:i});});}});currentPage=0;renderQuestions();toggleView('question-view');}
-    function renderQuestions(){const container=document.getElementById('questionsContainer');container.innerHTML='';const slice=currentQuestions.slice(currentPage*pageSize,(currentPage+1)*pageSize);slice.forEach((q,idx)=>{const card=document.createElement('div');card.className='question';const title=document.createElement('h3');title.textContent=`${currentPage*pageSize+idx+1}. ${q.question}`;card.appendChild(title);if(q.image){const img=document.createElement('img');img.src=q.image;img.style.maxWidth='100%';img.style.maxHeight='130px';card.appendChild(img);}const opts=document.createElement('ul');opts.className='options';q.options.forEach((opt,i)=>{const li=document.createElement('li');li.textContent=opt;li.addEventListener('click',()=>li.style.background=i===q.answer?'#d4edda':'#f8d7da');opts.appendChild(li);});card.appendChild(opts);const key=currentSubsection?`${q.section}::${q.subsection}::${q.origIdx}`:`${q.section}::${q.origIdx}`;const star = document.createElement('span');
+    // Sections list (kept as before)
+    const sections = [
+      "Structural Engineering","Engineering Survey","Construction Materials","Concrete Technology",
+      "Geotechnical Engineering","Construction Management","Estimation and Costing","Engineering Drawing",
+      "Engineering Economics","Professional Practice","Apex Questions","General Knowledge","Practice GK","500+ MCQ","Practice Questions","IQ"
+    ];
+
+    const practicePattern = {
+      "Structural Engineering":5,"Engineering Survey":7,"Construction Materials":6,"Concrete Technology":5,
+      "Geotechnical Engineering":6,"Construction Management":6,"Estimation and Costing":5,"Engineering Drawing":4,
+      "Engineering Economics":3,"Professional Practice":3
+    };
+
+    // State
+    let currentSection = null;
+    let currentSubsection = null; // normal subsection name OR special use for marked/reported later
+    let currentPage = 0;
+    let customFlow = false; // used when viewing marked/reported grouping flows
+    let marked = JSON.parse(localStorage.getItem('marked') || '[]');
+    let reported = JSON.parse(localStorage.getItem('reported') || '[]');
+    const pageSize = 25;
+    let currentQuestions = [];
+
+    // populate main sections
+    const secList = document.getElementById('sections-list');
+    sections.forEach(sec => {
+      const card = document.createElement('div');
+      card.className = 'section-card';
+      card.textContent = sec;
+      card.addEventListener('click', () => handleSectionClick(sec));
+      secList.appendChild(card);
+    });
+
+    // global handlers
+    document.getElementById('backBtn').addEventListener('click', goBack);
+    document.getElementById('backFromSubsectionBtn').addEventListener('click', () => {
+      // When in marked/reported group listing, back should go to main view
+      if (customFlow) {
+        toggleView('main-view');
+        customFlow = false;
+      } else {
+        toggleView('main-view');
+      }
+    });
+    document.getElementById('viewMarkedBtn').addEventListener('click', prepareMarkedView);
+    document.getElementById('viewReportedBtn').addEventListener('click', prepareReportedView);
+
+    function toggleView(id) {
+      ['main-view','subsection-view','question-view'].forEach(v => {
+        document.getElementById(v).style.display = (v === id) ? 'block' : 'none';
+      });
+    }
+
+    function handleSectionClick(sec) {
+      customFlow = false;
+      currentSection = sec;
+      currentSubsection = null;
+
+      if (sec === 'Practice Questions') { loadPracticeQuestions(); return; }
+      if (sec === 'Practice GK') { loadPracticeGKQuestions(); return; }
+
+      const data = window.mcqData[sec];
+      if (data && typeof data === 'object' && !Array.isArray(data)) loadSubsections(sec);
+      else loadSectionQuestions(sec);
+    }
+
+    function loadSubsections(sec) {
+      currentSection = sec;
+      const subs = Object.keys(window.mcqData[sec] || {});
+      document.getElementById('subsection-title').textContent = sec;
+      const list = document.getElementById('subsections-list'); list.innerHTML = '';
+      subs.forEach(sub => {
+        const card = document.createElement('div');
+        card.className = 'section-card';
+        card.textContent = sub;
+        card.addEventListener('click', () => loadSubsectionQuestions(sec, sub));
+        list.appendChild(card);
+      });
+      toggleView('subsection-view');
+    }
+
+    function loadSubsectionQuestions(sec, sub) {
+      customFlow = false;
+      currentSection = sec;
+      currentSubsection = sub;
+      currentQuestions = (window.mcqData[sec][sub] || []).map((q,i) => ({ ...q, section: sec, subsection: sub, origIdx: i }));
+      currentPage = 0;
+      renderQuestions();
+      toggleView('question-view');
+    }
+
+    function loadSectionQuestions(sec) {
+      customFlow = false;
+      currentSection = sec;
+      currentSubsection = null;
+      currentQuestions = (window.mcqData[sec] || []).map((q,i) => ({ ...q, section: sec, subsection: null, origIdx: i }));
+      currentPage = 0;
+      renderQuestions();
+      toggleView('question-view');
+    }
+
+    function loadPracticeQuestions() {
+      customFlow = false;
+      currentSection = 'Practice Questions';
+      currentSubsection = null;
+      currentQuestions = [];
+      let poolIndex = 0;
+      Object.entries(practicePattern).forEach(([sec,count]) => {
+        let arr = window.mcqData[sec];
+        if (arr && typeof arr === 'object' && !Array.isArray(arr)) arr = Object.values(arr).flat();
+        const picks = (arr || []).sort(() => Math.random() - .5).slice(0, count);
+        picks.forEach(q => currentQuestions.push({ ...q, section: sec, subsection: null, origIdx: poolIndex++ }));
+      });
+      currentPage = 0;
+      renderQuestions();
+      toggleView('question-view');
+    }
+
+    function loadPracticeGKQuestions() {
+      customFlow = false;
+      currentSection = 'Practice GK';
+      currentSubsection = null;
+      currentQuestions = [];
+      Object.entries(window.mcqData['General Knowledge'] || {}).forEach(([sub, arr]) => {
+        const picks = (arr || []).map((q,i) => ({ ...q, section: 'General Knowledge', subsection: sub, origIdx: i }))
+                               .sort(() => Math.random() - .5)
+                               .slice(0,2);
+        currentQuestions.push(...picks);
+      });
+      currentQuestions.sort(() => Math.random() - .5);
+      currentPage = 0;
+      renderQuestions();
+      toggleView('question-view');
+    }
+
+    // --- NEW: grouped view for marked questions ---
+    function prepareMarkedView() {
+      customFlow = true;
+      currentSection = 'Marked Questions';
+      currentSubsection = null;
+
+      // build groups: section + subsection with counts
+      const groups = [];
+      Object.entries(window.mcqData).forEach(([sec, val]) => {
+        if (!Array.isArray(val)) {
+          // val is object of subsections
+          Object.entries(val).forEach(([sub, arr]) => {
+            const count = (arr || []).reduce((acc, q, i) => {
+              const key = `${sec}::${sub}::${i}`;
+              return acc + (marked.includes(key) ? 1 : 0);
+            }, 0);
+            if (count > 0) groups.push({ section: sec, subsection: sub, count });
+          });
+        } else {
+          // val is an array (no subsections)
+          const count = (val || []).reduce((acc, q, i) => {
+            const key = `${sec}::${i}`;
+            return acc + (marked.includes(key) ? 1 : 0);
+          }, 0);
+          if (count > 0) groups.push({ section: sec, subsection: null, count });
+        }
+      });
+
+      // render groups in subsection-view
+      document.getElementById('subsection-title').textContent = 'Marked Questions (grouped)';
+      const list = document.getElementById('subsections-list'); list.innerHTML = '';
+
+      if (groups.length === 0) {
+        const card = document.createElement('div');
+        card.className = 'section-card';
+        card.textContent = 'No marked questions';
+        list.appendChild(card);
+      } else {
+        groups.forEach(g => {
+          const card = document.createElement('div');
+          card.className = 'section-card';
+          card.innerHTML = `<strong>${g.section}</strong>${g.subsection ? ' — ' + g.subsection : ''}<div class="group-count">${g.count} marked</div>`;
+          card.addEventListener('click', () => loadMarkedSubsectionQuestions(g.section, g.subsection));
+          list.appendChild(card);
+        });
+      }
+
+      toggleView('subsection-view');
+    }
+
+    function loadMarkedSubsectionQuestions(sectionName, subsectionName) {
+      customFlow = true;
+      currentSection = 'Marked Questions';
+      currentSubsection = subsectionName ? `${sectionName}::${subsectionName}` : `${sectionName}::_nosub`;
+      // collect only marked questions from that sub
+      const collected = [];
+      if (subsectionName !== null) {
+        const arr = (window.mcqData[sectionName] && window.mcqData[sectionName][subsectionName]) || [];
+        arr.forEach((q, i) => {
+          const key = `${sectionName}::${subsectionName}::${i}`;
+          if (marked.includes(key)) collected.push({ ...q, section: sectionName, subsection: subsectionName, origIdx: i });
+        });
+      } else {
+        const arr = window.mcqData[sectionName] || [];
+        arr.forEach((q, i) => {
+          const key = `${sectionName}::${i}`;
+          if (marked.includes(key)) collected.push({ ...q, section: sectionName, subsection: null, origIdx: i });
+        });
+      }
+      currentQuestions = collected;
+      currentPage = 0;
+      renderQuestions();
+      toggleView('question-view');
+    }
+
+    // --- NEW: grouped view for reported questions (parallel to marked) ---
+    function prepareReportedView() {
+      customFlow = true;
+      currentSection = 'Reported Questions';
+      currentSubsection = null;
+
+      const groups = [];
+      Object.entries(window.mcqData).forEach(([sec, val]) => {
+        if (!Array.isArray(val)) {
+          Object.entries(val).forEach(([sub, arr]) => {
+            const count = (arr || []).reduce((acc, q, i) => {
+              const key = `${sec}::${sub}::${i}`;
+              return acc + (reported.includes(key) ? 1 : 0);
+            }, 0);
+            if (count > 0) groups.push({ section: sec, subsection: sub, count });
+          });
+        } else {
+          const count = (val || []).reduce((acc, q, i) => {
+            const key = `${sec}::${i}`;
+            return acc + (reported.includes(key) ? 1 : 0);
+          }, 0);
+          if (count > 0) groups.push({ section: sec, subsection: null, count });
+        }
+      });
+
+      document.getElementById('subsection-title').textContent = 'Reported Questions (grouped)';
+      const list = document.getElementById('subsections-list'); list.innerHTML = '';
+      if (groups.length === 0) {
+        const card = document.createElement('div');
+        card.className = 'section-card';
+        card.textContent = 'No reported questions';
+        list.appendChild(card);
+      } else {
+        groups.forEach(g => {
+          const card = document.createElement('div');
+          card.className = 'section-card';
+          card.innerHTML = `<strong>${g.section}</strong>${g.subsection ? ' — ' + g.subsection : ''}<div class="group-count">${g.count} reported</div>`;
+          card.addEventListener('click', () => loadReportedSubsectionQuestions(g.section, g.subsection));
+          list.appendChild(card);
+        });
+      }
+      toggleView('subsection-view');
+    }
+
+    function loadReportedSubsectionQuestions(sectionName, subsectionName) {
+      customFlow = true;
+      currentSection = 'Reported Questions';
+      currentSubsection = subsectionName ? `${sectionName}::${subsectionName}` : `${sectionName}::_nosub`;
+      const collected = [];
+      if (subsectionName !== null) {
+        const arr = (window.mcqData[sectionName] && window.mcqData[sectionName][subsectionName]) || [];
+        arr.forEach((q, i) => {
+          const key = `${sectionName}::${subsectionName}::${i}`;
+          if (reported.includes(key)) collected.push({ ...q, section: sectionName, subsection: subsectionName, origIdx: i });
+        });
+      } else {
+        const arr = window.mcqData[sectionName] || [];
+        arr.forEach((q, i) => {
+          const key = `${sectionName}::${i}`;
+          if (reported.includes(key)) collected.push({ ...q, section: sectionName, subsection: null, origIdx: i });
+        });
+      }
+      currentQuestions = collected;
+      currentPage = 0;
+      renderQuestions();
+      toggleView('question-view');
+    }
+
+    // Render questions and pagination (keeps previous behavior)
+    function renderQuestions() {
+      const container = document.getElementById('questionsContainer');
+      container.innerHTML = '';
+      const slice = currentQuestions.slice(currentPage * pageSize, (currentPage + 1) * pageSize);
+      slice.forEach((q, idx) => {
+        const card = document.createElement('div'); card.className = 'question';
+        const title = document.createElement('h3');
+        title.textContent = `${currentPage * pageSize + idx + 1}. ${q.question}`;
+        card.appendChild(title);
+        if (q.image) {
+          const img = document.createElement('img');
+          img.src = q.image;
+          img.style.maxWidth = '100%';
+          img.style.maxHeight = '130px';
+          card.appendChild(img);
+        }
+        const opts = document.createElement('ul'); opts.className = 'options';
+        (q.options || []).forEach((opt, i) => {
+          const li = document.createElement('li'); li.textContent = opt;
+          li.addEventListener('click', () => li.style.background = i === q.answer ? '#d4edda' : '#f8d7da');
+          opts.appendChild(li);
+        });
+        card.appendChild(opts);
+
+        // build consistent key
+        const key = (typeof q.subsection === 'string' && q.subsection !== '') ? `${q.section}::${q.subsection}::${q.origIdx}` : `${q.section}::${q.origIdx}`;
+
+        // star
+        const star = document.createElement('span');
         star.className = 'star';
         star.innerHTML = marked.includes(key) ? '★' : '☆';
         if (marked.includes(key)) star.classList.add('marked');
         star.addEventListener('click', () => toggleMark(key, star));
-        card.appendChild(star);const flag=document.createElement('span');flag.className='report';flag.innerHTML=reported.includes(key)?'🚩':'🏳️';flag.addEventListener('click',()=>toggleReport(key,flag));card.appendChild(flag);container.appendChild(card);});renderPagination();
-      // Scroll to top of questions
+        card.appendChild(star);
+
+        // report flag
+        const flag = document.createElement('span'); flag.className = 'report';
+        flag.innerHTML = reported.includes(key) ? '🚩' : '🏳️';
+        if (reported.includes(key)) flag.classList.add('reported');
+        flag.addEventListener('click', () => toggleReport(key, flag));
+        card.appendChild(flag);
+
+        container.appendChild(card);
+      });
+
+      renderPagination();
+
+      // ensure top-of-questions on page change
       document.getElementById('questionsContainer').scrollIntoView({ block: 'start' });
     }
-    function renderPagination(){const pag=document.getElementById('pagination');pag.innerHTML='';const total=Math.ceil(currentQuestions.length/pageSize);if(currentPage>0){const prev=document.createElement('button');prev.className='nav-btn';prev.textContent='← Previous';prev.addEventListener('click',()=>{currentPage--;renderQuestions();});pag.appendChild(prev);}const info=document.createTextNode(` Page ${currentPage+1} of ${total} `);pag.appendChild(info);if(currentPage<total-1){const next=document.createElement('button');next.className='nav-btn';next.textContent='Next →';next.addEventListener('click',()=>{currentPage++;renderQuestions();});pag.appendChild(next);}}    
+
+    function renderPagination() {
+      const pag = document.getElementById('pagination'); pag.innerHTML = '';
+      const total = Math.max(1, Math.ceil(currentQuestions.length / pageSize));
+      if (currentPage > 0) {
+        const prev = document.createElement('button');
+        prev.className = 'nav-btn';
+        prev.textContent = '← Previous';
+        prev.addEventListener('click', () => { currentPage--; renderQuestions(); });
+        pag.appendChild(prev);
+      }
+      const info = document.createTextNode(` Page ${currentPage + 1} of ${total} `);
+      pag.appendChild(info);
+      if (currentPage < total - 1) {
+        const next = document.createElement('button');
+        next.className = 'nav-btn';
+        next.textContent = 'Next →';
+        next.addEventListener('click', () => { currentPage++; renderQuestions(); });
+        pag.appendChild(next);
+      }
+    }
+
+    // mark/report toggles (persisted)
     function toggleMark(key, el) {
       if (marked.includes(key)) {
         marked = marked.filter(k => k !== key);
@@ -95,8 +425,36 @@
       }
       localStorage.setItem('marked', JSON.stringify(marked));
     }
-    function toggleReport(key,el){if(reported.includes(key)){reported=reported.filter(k=>k!==key);el.innerHTML='🏳️';}else{reported.push(key);el.innerHTML='🚩';}localStorage.setItem('reported',JSON.stringify(reported));}
-    function goBack(){if(document.getElementById('question-view').style.display==='block'){if(currentSubsection){toggleView('subsection-view');}else{toggleView('main-view');}}else{toggleView('main-view');}}
+
+    function toggleReport(key, el) {
+      if (reported.includes(key)) {
+        reported = reported.filter(k => k !== key);
+        el.innerHTML = '🏳️';
+        el.classList.remove('reported');
+      } else {
+        reported.push(key);
+        el.innerHTML = '🚩';
+        el.classList.add('reported');
+      }
+      localStorage.setItem('reported', JSON.stringify(reported));
+    }
+
+    function goBack() {
+      if (document.getElementById('question-view').style.display === 'block') {
+        // if we are showing a subsection's questions (normal subsection)
+        // and not a customFlow group listing, go to subsection-view only when currentSubsection is a real subsection (not the special markers used for grouping)
+        if (customFlow) {
+          // customFlow indicates we came from grouped marked/reported listing; going back there is best
+          toggleView('subsection-view');
+        } else if (currentSubsection) {
+          toggleView('subsection-view');
+        } else {
+          toggleView('main-view');
+        }
+      } else {
+        toggleView('main-view');
+      }
+    }
   </script>
 </body>
 </html>
