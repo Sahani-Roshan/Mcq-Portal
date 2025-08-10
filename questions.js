@@ -11484,6 +11484,7 @@ window.mcqData = {
     "silicious and argillaceous materials",
     "argillaceous and calcareous materials",
     "silicious and calcareous materials",
+    "silicious, agrillaceous, calcareous materials",
   ],
   answer: 3
 },
@@ -11600,12 +11601,13 @@ window.mcqData = {
   answer: 4
 },
 {
-  question: "Addition of pozzolana to cement e) none of the above",
+  question: "Addition of pozzolana to cement ",
   options: [
     "decrease workability",
     "increase strength",
     "increase heat of hydration",
     "decrease curing time",
+    "none of the above"
   ],
   answer: 4
 },
@@ -12336,9 +12338,8 @@ window.mcqData = {
     "volume of water to that of cement",
     "weight of water to that of cement",
     "weight of concrete to that of water",
-    "volume of concrete to that of water e) both (",
-    "and (",
-    "of the above",
+    "volume of concrete to that of water ",
+    "both a and b",
   ],
   answer: 4
 },
