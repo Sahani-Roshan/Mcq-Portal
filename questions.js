@@ -11518,12 +11518,13 @@ window.mcqData = {
   answer: 0
 },
 {
-  question: "For quality control of portland cement, the test essentially done is e) all of the above",
+  question: "For quality control of portland cement, the test essentially done is",
   options: [
     "setting time",
     "soundness",
     "tensile strength",
     "consistency",
+    "all of the above"
   ],
   answer: 4
 },
@@ -11594,7 +11595,7 @@ window.mcqData = {
     "reduction in chemical action with sulphates",
     "increase in shrinkage",
     "reduction in bleeding",
-    "e) all of the above",
+    "all of the above",
   ],
   answer: 4
 },
@@ -11609,12 +11610,13 @@ window.mcqData = {
   answer: 4
 },
 {
-  question: "Pozzolana cement is used with confidence for e) all of the above",
+  question: "Pozzolana cement is used with confidence for ",
   options: [
     "dams",
     "massive foundation",
     "abutments",
     "R.C.C. structures",
+    "all of the above"
   ],
   answer: 4
 },
@@ -11721,12 +11723,13 @@ window.mcqData = {
   answer: 1
 },
 {
-  question: "For ordinary portland cement e) all of the above",
+  question: "For ordinary portland cement",
   options: [
     "residual does not exceed 10% when sieved through IS sieve No. 9",
     "soundness varies from 5 to 10",
     "initial setting time is not less than 30 minutes",
     "compressive stress after 7 days, is not less than 175 kg/cm²",
+    "all of the above"
   ],
   answer: 4
 },
@@ -12460,12 +12463,13 @@ window.mcqData = {
   answer: 3
 },
 {
-  question: "The strength and quality of concrete, depends upon e) all of the above",
+  question: "The strength and quality of concrete, depends upon",
   options: [
     "grading of the aggregates",
     "surface area of the aggregates",
     "shape of the aggregates",
     "surface texture of the aggregates",
+    "all of the above"
   ],
   answer: 4
 },
@@ -12627,7 +12631,7 @@ window.mcqData = {
     "the colour of the cement is bluish",
     "a handful of cement thrown into a bucket of water should sink immediately",
     "by rubbing the cement in between fingers, one should feel rough",
-    "e) all of the above",
+    "all of the above",
   ],
   answer: 4
 },
@@ -12733,12 +12737,13 @@ window.mcqData = {
   answer: 1
 },
 {
-  question: "Segregation is responsible for e) all of the above",
+  question: "Segregation is responsible for ",
   options: [
     "honey-combed concrete",
     "porous layers in concrete",
     "surface scaling in concrete",
     "sand streaks in concrete",
+    "all of the above"
   ],
   answer: 4
 },
@@ -12833,12 +12838,13 @@ window.mcqData = {
   answer: 3
 },
 {
-  question: "The lower water cement ratio in concrete, introduces e) all of the above",
+  question: "The lower water cement ratio in concrete, introduces ",
   options: [
     "smaller creep and shrinkage",
     "greater density and smaller permeability",
     "improved frost resistance",
     "greater wear resistance and improved bond strength",
+    "all of the above"
   ],
   answer: 4
 },
@@ -12863,12 +12869,13 @@ window.mcqData = {
   answer: 2
 },
 {
-  question: "The factor which affects workability, is e) all of the above",
+  question: "The factor which affects workability, is ",
   options: [
     "water content and its temperature",
     "shape and size of the aggregates",
     "grading and surface textures of the aggregates",
     "air entraining agents",
+    "all of the above"
   ],
   answer: 4
 },
@@ -13065,12 +13072,13 @@ window.mcqData = {
   answer: 4
 },
 {
-  question: "Proper proportioning of concrete, ensures e) all of the above",
+  question: "Proper proportioning of concrete, ensures ",
   options: [
     "desired strength and workability",
     "desired durability",
     "water tightness of the structure",
     "resistance to wear",
+    "all of the above"
   ],
   answer: 4
 },
@@ -13125,12 +13133,13 @@ window.mcqData = {
   answer: 3
 },
 {
-  question: "For preparing a test-specimen, it is necessary e) all of the above",
+  question: "For preparing a test-specimen, it is necessary ",
   options: [
     "to mix cement and fine aggregate by dry hand",
     "to mix coarse aggregates",
     "to mix water to the cement, fine aggregates and coarse aggregates",
     "to oil inter surface of the mould and the base plate, before placing concrete",
+    "all of the above"
   ],
   answer: 4
 },
@@ -13175,12 +13184,13 @@ window.mcqData = {
   answer: 1
 },
 {
-  question: "The correct proportion of ingredients of concrete, depends upon e) all of the above",
+  question: "The correct proportion of ingredients of concrete, depends upon ",
   options: [
     "bulking of sand",
     "water content",
     "absorption",
     "workability",
+    "all of the above"
   ],
   answer: 4
 },
@@ -13256,32 +13266,35 @@ window.mcqData = {
   answer: 2
 },
 {
-  question: "The method of voids for determination of quantity of cement paste assumes that e) all of the above",
+  question: "The method of voids for determination of quantity of cement paste assumes that",
   options: [
     "voids in coarse aggregates are filled by fine aggregates",
     "voids in fine aggregates are filled by the cement paste",
     "volume of fine aggregates is equal to total voids in coarse aggregate plus 10% extra",
     "volume of cement paste required is equal to total volume of voids in fine aggregates plus 15% extra",
+    "all of the above"
   ],
   answer: 4
 },
 {
-  question: "Pick up the incorrect statement from the following e) all of the above",
+  question: "Pick up the incorrect statement from the following",
   options: [
     "workability of the concrete mix decreases with an increase in the moisture content",
     "concrete for which preliminary tests are conducted, is called controlled concrete",
     "bulking of sand depends upon the finesse of grains",
     "concrete mix 1 : 6 : 12, is used for mass concrete in piers",
+    "all of the above"
   ],
   answer: 4
 },
 {
-  question: "Shrinkage in cement concrete can be reduced by using e) all of the above",
+  question: "Shrinkage in cement concrete can be reduced by using ",
   options: [
     "low water cement ratio",
     "less cement in the concrete",
     "proper concrete mix",
     "pre-saturated aggregates",
+    "all of the above"
   ],
   answer: 4
 },
@@ -13386,42 +13399,46 @@ window.mcqData = {
   answer: 3
 },
 {
-  question: "While designing an air entrained concrete e) all of the above",
+  question: "While designing an air entrained concrete ",
   options: [
     "water cement ratio is reduced",
     "proportion of aggregates is reduced",
     "an allowance for the entrained air is made",
     "strength of the concretes, is reduced",
+    "all of the above"
   ],
   answer: 4
 },
 {
-  question: "An ideal ware house, is provided e) all of the above",
+  question: "An ideal ware house, is provided ",
   options: [
     "water proof masonry walls",
     "water proof roof",
     "few windows which remain generally",
     "15 cm thick concrete floor laid on a dry course of soling",
+    "all of the above"
   ],
   answer: 4
 },
 {
-  question: "Pick up the incorrect statement from the following: e) none of the above",
+  question: "Pick up the incorrect statement from the following: ",
   options: [
     "space between the exterior walls of a ware house and bag piles should be 30 cm",
     "cement bags should preferably be piled on wooden planks",
     "cement bags should be placed such that bags of one layer does not touch the bags of the adjacent layer",
     "width and height of the pile should not exceed 3 m and 2.70 m respectively",
+    "all of the above"
   ],
   answer: 4
 },
 {
-  question: "The specification of a cement bag for storage, are e) all of the above",
+  question: "The specification of a cement bag for storage, are ",
   options: [
     "weight 50 kg",
     "height 18 cm",
     "plan area 3000 sq.cm",
     "volume 35 litres",
+    "all of the above"
   ],
   answer: 4
 },
@@ -13476,12 +13493,13 @@ window.mcqData = {
   answer: 0
 },
 {
-  question: "To ensure constant moisture content in aggregates e) all of the above",
+  question: "To ensure constant moisture content in aggregates",
   options: [
     "area of each aggregate pile should be large",
     "height of each aggregate pile should not exceed 1.50 m",
     "aggregate pile should be left for 24 hours before aggregates are used",
     "conical heaps of aggregates should be avoided to prevent moisture vibration",
+    "all of the above"
   ],
   answer: 4
 },
@@ -13506,22 +13524,24 @@ window.mcqData = {
   answer: 0
 },
 {
-  question: "An excess of flaky particles in concrete aggregates e) all of the above",
+  question: "An excess of flaky particles in concrete aggregates ",
   options: [
     "decrease the workability",
     "increase the quantity of water and sand",
     "affects the durability of concrete",
     "more than 15% are not desirable",
+    "all of the above"
   ],
   answer: 4
 },
 {
-  question: "Grading of sand causes great variation in e) all of the above",
+  question: "Grading of sand causes great variation in",
   options: [
     "workability of concrete",
     "strength of concrete",
     "durability of concrete",
     "handling and placing",
+    "all of the above"
   ],
   answer: 4
 },
@@ -13636,12 +13656,13 @@ window.mcqData = {
   answer: 2
 },
 {
-  question: "For given water content, workability decreases if the concrete aggregates contain an excess of e) all of the above",
+  question: "For given water content, workability decreases if the concrete aggregates contain an excess of ",
   options: [
     "thin particles",
     "flat particles",
     "elongated particles",
     "flaky particles",
+    "all of the above"
   ],
   answer: 4
 },
@@ -13696,12 +13717,13 @@ window.mcqData = {
   answer: 3
 },
 {
-  question: "Pozzolanic properties exist in e) all of the above",
+  question: "Pozzolanic properties exist in ",
   options: [
     "shales",
     "fly ash",
     "pumicite",
     "diatomaceous clay",
+    "all of the above"
   ],
   answer: 4
 },
@@ -13876,22 +13898,24 @@ window.mcqData = {
   answer: 3
 },
 {
-  question: "Workability of concrete may be improved by adding e) all of the above",
+  question: "Workability of concrete may be improved by adding ",
   options: [
     "fly ash",
     "hydrated lime",
     "calcium chloride",
     "bentonite",
+    "all of the above"
   ],
   answer: 4
 },
 {
-  question: "Workability of concrete may be improved by adding e) all of the above",
+  question: "Workability of concrete may be improved by adding ",
   options: [
     "air-entering agent",
     "foaming agent",
     "oily agent",
     "aluminium compound",
+    "all of the above"
   ],
   answer: 4
 },
@@ -13926,22 +13950,24 @@ window.mcqData = {
   answer: 3
 },
 {
-  question: "Addition of pozzolana to cement causes e) all of the above",
+  question: "Addition of pozzolana to cement causes ",
   options: [
     "reduction in permeability",
     "loss of heat of hydration",
     "reduction in bleeding",
     "increase in curing time",
+    "all of the above"
   ],
   answer: 4
 },
 {
-  question: "For a good concrete e) all of the above",
+  question: "For a good concrete",
   options: [
     "aggregates should be hard and durable",
     "cement should be sufficient to produce the required strength",
     "water should be free form organic material",
     "mixing of ingredients should be done thoroughly so as to produce homogeneity",
+    "all of the above"
   ],
   answer: 4
 },
@@ -14027,12 +14053,13 @@ window.mcqData = {
   answer: 3
 },
 {
-  question: "Proper batching ensures e) all of the above",
+  question: "Proper batching ensures ",
   options: [
     "economy",
     "durability",
     "workability",
     "strength",
+    "all of the above"
   ],
   answer: 4
 },
@@ -14369,12 +14396,13 @@ window.mcqData = {
   answer: 3
 },
 {
-  question: "Under normal conditions using an ordinary cement, the period of removal of the form work is e) all of the above",
+  question: "Under normal conditions using an ordinary cement, the period of removal of the form work is ",
   options: [
     "7 days for beams soffits",
     "14 days for bottom of slabs of spans 4.6 m and more",
     "21 days for bottom of beams over 6 m spans",
     "2 days for vertical sides of columns",
+    "all of the above"
   ],
   answer: 4
 },
@@ -14512,12 +14540,13 @@ window.mcqData = {
   answer: 3
 },
 {
-  question: "Construction joints are provided e) all of the above",
+  question: "Construction joints are provided",
   options: [
     "where BM and SF are small",
     "where it is supported by another member",
     "at 18 m apart in huge structures",
     "in concrete wall at sill level of windows",
+    "all of the above"
   ],
   answer: 4
 },
@@ -14527,9 +14556,7 @@ window.mcqData = {
     "contraction joint",
     "expansion joint",
     "construction joint",
-    "both (",
-    "and (",
-    "of above",
+    "both a and b",
   ],
   answer: 2
 },
@@ -14585,22 +14612,24 @@ window.mcqData = {
   answer: 3
 },
 {
-  question: "According to the recommendations of IS:456-2000, expansion joints e) all of the above",
+  question: "According to the recommendations of IS:456-2000, expansion joints ",
   options: [
     "are provided where plane changes abruptly",
     "are provided to ensure minimum resistance",
     "are supported on separate columns",
     "do not carry reinforcement across them",
+    "all of the above"
   ],
   answer: 4
 },
 {
-  question: "Construction joints are generally provided in concrete e) all of the above",
+  question: "Construction joints are generally provided in concrete ",
   options: [
     "roads",
     "retaining walls",
     "lining of channel",
     "lining of tunnels",
+    "all of the above"
   ],
   answer: 4
 },
@@ -40793,9 +40822,9 @@ window.mcqData = {
     question: "Which country recently chairs BIMSTEC?",
     options: [
       "Thailand",
-      "New Delhi",
-      "Banglore",
-      "Mumbai"
+      "India",
+      "Bangladesh",
+      "Myanmar"
     ],
     answer: 0
   },
