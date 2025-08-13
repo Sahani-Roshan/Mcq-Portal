@@ -63,11 +63,34 @@
     background: rgba(245,248,255,0.97);
     padding:1.2rem; border-radius:1rem; margin-bottom:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.1); position:relative;
   }
-  .question h3 {margin-bottom:0.8rem; color:#2a5298;}
-  .options {list-style:none;}
+
+  /* ---- KEY FIXES BELOW ----
+     Ensures options align exactly under the start of the question text
+  */
+  .question h3 {
+    margin: 0 0 0.35rem 0;       /* smaller bottom gap, consistent start */
+    color: #2a5298;
+    padding: 0;                  /* no extra padding */
+  }
+
+  /* Remove default UL indentation and ensure options start under question */
+  .options {
+    list-style: none;
+    margin: 0;                   /* remove top/bottom margins */
+    padding: 0;                  /* remove default left padding */
+    margin-top: 0.25rem;         /* small vertical separation from question */
+  }
+
+  /* li alignment: no left margin so it lines up with question start */
   .options li {
     background: rgba(255,255,255,0.6);
-    padding:0.6rem 1rem; margin-bottom:0.5rem; border-radius:0.5rem; cursor:pointer; transition: background 0.15s ease;
+    padding:0.6rem 1rem;
+    margin: 0 0 0.5rem 0;        /* only bottom margin */
+    border-radius:0.5rem;
+    cursor:pointer;
+    transition: background 0.15s ease;
+    display: block;              /* ensures full-width clickable area */
+    box-sizing: border-box;
   }
   .options li:hover {background: rgba(255,255,255,0.85);}
   .star, .report {position:absolute; top:1rem; font-size:1.5rem; cursor:pointer; color:#444; user-select:none;}
@@ -102,7 +125,7 @@
         <button class="view-mark-btn nav-btn" id="viewReportedBtn">🚩 View Reported Questions</button>
       </div>
     </div>
-    <!-- Subsection / grouping view (also reused for marked/reported groups) -->
+    <!-- Subsection / grouping view -->
     <div id="subsection-view" style="display:none; text-align:left;">
       <button class="nav-btn small-btn" id="backFromSubsectionBtn">← Back</button>
       <h2 id="subsection-title" style="margin-top:0.5rem; text-align:center;">Select Subsection</h2>
@@ -123,9 +146,12 @@
       </div>
     </div>
   </div>
+
+  <!-- keep your external questions.js -->
   <script src="questions.js"></script>
-   <script>
-    // Sections list (kept as before)
+
+  <script>
+    // Sections and app state (unchanged)
     const sections = [
       "Structural Engineering","Engineering Survey","Construction Materials","Concrete Technology",
       "Geotechnical Engineering","Construction Management","Estimation and Costing","Engineering Drawing",
@@ -138,18 +164,16 @@
       "Engineering Economics":3,"Professional Practice":3
     };
 
-    // State
     let currentSection = null;
-    let currentSubsection = null; // normal subsection name OR special use for marked/reported later
+    let currentSubsection = null;
     let currentPage = 0;
-    let customFlow = false; // used when viewing marked/reported grouping flows
+    let customFlow = false;
     let marked = JSON.parse(localStorage.getItem('marked') || '[]');
     let reported = JSON.parse(localStorage.getItem('reported') || '[]');
     const pageSize = 25;
     let currentQuestions = [];
     let wrongCount = 0;
 
-    // populate main sections
     const secList = document.getElementById('sections-list');
     sections.forEach(sec => {
       const card = document.createElement('div');
@@ -159,16 +183,9 @@
       secList.appendChild(card);
     });
 
-    // global handlers
     document.getElementById('backBtn').addEventListener('click', goBack);
     document.getElementById('backFromSubsectionBtn').addEventListener('click', () => {
-      // When in marked/reported group listing, back should go to main view
-      if (customFlow) {
-        toggleView('main-view');
-        customFlow = false;
-      } else {
-        toggleView('main-view');
-      }
+      if (customFlow) { toggleView('main-view'); customFlow = false; } else { toggleView('main-view'); }
     });
     document.getElementById('viewMarkedBtn').addEventListener('click', prepareMarkedView);
     document.getElementById('viewReportedBtn').addEventListener('click', prepareReportedView);
@@ -187,7 +204,7 @@
       if (sec === 'Practice Questions') { loadPracticeQuestions(); return; }
       if (sec === 'Practice GK') { loadPracticeGKQuestions(); return; }
 
-      const data = window.mcqData[sec];
+      const data = window.mcqData && window.mcqData[sec];
       if (data && typeof data === 'object' && !Array.isArray(data)) loadSubsections(sec);
       else loadSectionQuestions(sec);
     }
@@ -207,7 +224,6 @@
       toggleView('subsection-view');
     }
 
-    // --- Modified: initialize _wrongCounted flag for each question ---
     function loadSubsectionQuestions(sec, sub) {
       customFlow = false;
       currentSection = sec;
@@ -268,17 +284,13 @@
       toggleView('question-view');
     }
 
-    // --- NEW: grouped view for marked questions ---
     function prepareMarkedView() {
       customFlow = true;
       currentSection = 'Marked Questions';
       currentSubsection = null;
-
-      // build groups: section + subsection with counts
       const groups = [];
-      Object.entries(window.mcqData).forEach(([sec, val]) => {
+      Object.entries(window.mcqData || {}).forEach(([sec, val]) => {
         if (!Array.isArray(val)) {
-          // val is object of subsections
           Object.entries(val).forEach(([sub, arr]) => {
             const count = (arr || []).reduce((acc, q, i) => {
               const key = `${sec}::${sub}::${i}`;
@@ -287,7 +299,6 @@
             if (count > 0) groups.push({ section: sec, subsection: sub, count });
           });
         } else {
-          // val is an array (no subsections)
           const count = (val || []).reduce((acc, q, i) => {
             const key = `${sec}::${i}`;
             return acc + (marked.includes(key) ? 1 : 0);
@@ -296,7 +307,6 @@
         }
       });
 
-      // render groups in subsection-view
       document.getElementById('subsection-title').textContent = 'Marked Questions (grouped)';
       const list = document.getElementById('subsections-list'); list.innerHTML = '';
 
@@ -322,7 +332,6 @@
       customFlow = true;
       currentSection = 'Marked Questions';
       currentSubsection = subsectionName ? `${sectionName}::${subsectionName}` : `${sectionName}::_nosub`;
-      // collect only marked questions from that sub
       const collected = [];
       if (subsectionName !== null) {
         const arr = (window.mcqData[sectionName] && window.mcqData[sectionName][subsectionName]) || [];
@@ -343,14 +352,12 @@
       toggleView('question-view');
     }
 
-    // --- NEW: grouped view for reported questions (parallel to marked) ---
     function prepareReportedView() {
       customFlow = true;
       currentSection = 'Reported Questions';
       currentSubsection = null;
-
       const groups = [];
-      Object.entries(window.mcqData).forEach(([sec, val]) => {
+      Object.entries(window.mcqData || {}).forEach(([sec, val]) => {
         if (!Array.isArray(val)) {
           Object.entries(val).forEach(([sub, arr]) => {
             const count = (arr || []).reduce((acc, q, i) => {
@@ -411,7 +418,6 @@
       toggleView('question-view');
     }
 
-    // Render questions and pagination (keeps previous behavior)
     function renderQuestions() {
       const container = document.getElementById('questionsContainer');
       container.innerHTML = '';
@@ -431,36 +437,27 @@
         const opts = document.createElement('ul'); opts.className = 'options';
         (q.options || []).forEach((opt, i) => {
           const li = document.createElement('li'); li.textContent = opt;
-
-          // --- Modified click handler: only count one wrong per question but keep options clickable ---
           li.addEventListener('click', (ev) => {
             if (i === q.answer) {
-              // correct - show green (do NOT affect wrongCount)
               li.style.background = '#d4edda';
             } else {
-              // wrong - show red
               li.style.background = '#f8d7da';
-              // increment only once per question
               if (!q._wrongCounted) {
                 q._wrongCounted = true;
-                // only track/display wrongCount during Practice Questions flow
                 if (currentSection === 'Practice Questions') {
                   wrongCount++;
                   document.getElementById('wrongCount').textContent = `Wrong Answers: ${wrongCount}`;
                 }
               }
             }
-            // do not disable options — keep them clickable as requested
+            // options remain clickable (no disabling)
           });
-
           opts.appendChild(li);
         });
         card.appendChild(opts);
 
-        // build consistent key
         const key = (typeof q.subsection === 'string' && q.subsection !== '') ? `${q.section}::${q.subsection}::${q.origIdx}` : `${q.section}::${q.origIdx}`;
 
-        // star
         const star = document.createElement('span');
         star.className = 'star';
         star.innerHTML = marked.includes(key) ? '★' : '☆';
@@ -468,7 +465,6 @@
         star.addEventListener('click', () => toggleMark(key, star));
         card.appendChild(star);
 
-        // report flag
         const flag = document.createElement('span'); flag.className = 'report';
         flag.innerHTML = reported.includes(key) ? '🚩' : '🏳️';
         if (reported.includes(key)) flag.classList.add('reported');
@@ -479,8 +475,6 @@
       });
 
       renderPagination();
-
-      // ensure top-of-questions on page change
       document.getElementById('questionsContainer').scrollIntoView({ block: 'start' });
     }
 
@@ -505,7 +499,6 @@
       }
     }
 
-    // mark/report toggles (persisted)
     function toggleMark(key, el) {
       if (marked.includes(key)) {
         marked = marked.filter(k => k !== key);
@@ -519,7 +512,7 @@
       localStorage.setItem('marked', JSON.stringify(marked));
     }
 
-     function toggleReport(key, el) {
+    function toggleReport(key, el) {
       if (reported.includes(key)) {
         reported = reported.filter(k => k !== key);
         el.innerHTML = '🏳️';
@@ -532,13 +525,9 @@
       localStorage.setItem('reported', JSON.stringify(reported));
     }
 
-
     function goBack() {
       if (document.getElementById('question-view').style.display === 'block') {
-        // if we are showing a subsection's questions (normal subsection)
-        // and not a customFlow group listing, go to subsection-view only when currentSubsection is a real subsection (not the special markers used for grouping)
         if (customFlow) {
-          // customFlow indicates we came from grouped marked/reported listing; going back there is best
           toggleView('subsection-view');
         } else if (currentSubsection) {
           toggleView('subsection-view');
@@ -549,6 +538,9 @@
         toggleView('main-view');
       }
     }
+
+    // initial view
+    toggleView('main-view');
   </script>
-  </body>
+</body>
 </html>
