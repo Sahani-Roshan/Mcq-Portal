@@ -13428,7 +13428,7 @@ window.mcqData = {
     "cement bags should preferably be piled on wooden planks",
     "cement bags should be placed such that bags of one layer does not touch the bags of the adjacent layer",
     "width and height of the pile should not exceed 3 m and 2.70 m respectively",
-    "all of the above"
+    "none of the above"
   ],
   answer: 4
 },
@@ -13801,10 +13801,10 @@ window.mcqData = {
 {
   question: "If the various concrete ingredients i.e. cement, sand and aggregates are in the ratio of 1 : 3 : 6, the grade of concrete, is",
   options: [
-    "M100",
-    "M150",
-    "M200",
-    "M250",
+    "M10",
+    "M15",
+    "M20",
+    "M25",
   ],
   answer: 0
 },
