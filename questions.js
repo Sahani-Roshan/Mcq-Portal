@@ -4193,7 +4193,7 @@ window.mcqData = {
       "१८",
       "२१"
     ],
-    answer: 2 // "१८"
+    answer: 3 // 
   },
   {
     question: "NEC मा NEA मध्ये निर्वाचित गरी पठाएको सदस्यहरुको संख्या कति हुन्छ?",
@@ -14798,12 +14798,13 @@ window.mcqData = {
   answer: 2
 },
 {
-  question: "Pick up the incorrect statement from the following: e) none of the above",
+  question: "Pick up the incorrect statement from the following:",
   options: [
     "admixtures accelerate hydration",
     "admixtures make concrete water proof",
     "admixtures make concrete acid proof",
     "admixtures give high strength",
+    "none of the above",
   ],
   answer: 4
 },
@@ -14812,9 +14813,8 @@ window.mcqData = {
   options: [
     "volume of hydrated cement to the sum of volume of hydrated cement and capillary pores",
     "the sum of volume of hydrated cement and capillary pores to volume of hydrated cement",
-    "both (",
-    "and (",
-    "of above",
+    "both of above",
+    "none of above",
   ],
   answer: 0
 },
@@ -14873,9 +14873,7 @@ window.mcqData = {
   options: [
     "pre­tensioning",
     "post tensioning",
-    "both (",
-    "and (",
-    "of above",
+    "both ",
     "none of the above",
   ],
   answer: 1
@@ -14926,10 +14924,7 @@ window.mcqData = {
     "40 mm",
     "maximum size of cable or bar",
     "5 mm plus maximum size of aggregate",
-    "greater of (",
-    ", (",
-    "and (",
-    "of above",
+    "greater of a,b and c of above",
   ],
   answer: 3
 },
@@ -15368,9 +15363,7 @@ window.mcqData = {
   options: [
     "affects only the early development of strength",
     "affects only the ultimate strength",
-    "both (",
-    "and (",
-    "of above",
+    "both a and b",
     "does not affect the strength",
   ],
   answer: 0
