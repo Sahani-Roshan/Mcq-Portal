@@ -3,10 +3,9 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Engineering MCQ Portal — UI fixes</title>
+<title>Engineering MCQ Portal — sync & toggle fix</title>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 <style>
-  /* --- overall layout (unchanged) --- */
   body { font-family: 'Roboto', sans-serif; background: linear-gradient(135deg,#fceabb,#f8b500,#1e3c72,#2a5298); background-size:400% 400%; animation: gradientBG 15s ease infinite; color:#222; overflow-x:hidden; position:relative; }
   @keyframes gradientBG{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
   .symbol{position:absolute;font-size:3rem;color:rgba(255,255,255,0.12);animation:float 20s linear infinite;z-index:0}
@@ -21,57 +20,48 @@
   .nav-btn.page-btn{ padding:0.4rem 0.8rem; font-size:0.85rem; margin:0 0.3rem }
   .question-container{ margin-top:1.2rem; text-align:left }
 
-  /* --- QUESTION CARD: increased padding-right reserves space for icons ---
-     This prevents the star/flag from overlapping the question text.
-  */
   .question{
     background: rgba(245,248,255,0.98);
     padding:1rem;
-    padding-right:4.5rem;       /* <-- reserve space on right for star & flag */
+    padding-right:4.5rem;
     border-radius:10px;
     margin-bottom:1rem;
     box-shadow:0 6px 14px rgba(0,0,0,0.08);
     position:relative;
   }
 
-  /* ensure question heading doesn't flow under icons */
-  .question h3{ margin:0 0 .35rem 0; color:#163a77; margin-right:4.5rem; /* match padding-right */ }
+  .question h3{ margin:0 0 .35rem 0; color:#163a77; margin-right:4.5rem; }
 
   .options{ list-style:none; padding:0; margin:0; margin-top:.25rem }
   .options li{ background: rgba(255,255,255,0.8); padding:.6rem .9rem; margin-bottom:.5rem; border-radius:6px; cursor:pointer; transition: background .12s; display:block }
   .options li:hover{ background: rgba(255,255,255,1) }
 
-  /* --- STAR & REPORT styling (moved into reserved area) --- */
   .star, .report{
     position:absolute;
-    top:12px;                    /* a little lower so it's visually separated from heading */
+    top:12px;
     font-size:1.2rem;
     cursor:pointer;
     user-select:none;
-    z-index:5;                   /* ensure icon is above card content */
-    background: rgba(255,255,255,0.95); /* white pill behind icon for contrast */
+    z-index:5;
+    background: rgba(255,255,255,0.95);
     padding:4px 8px;
     border-radius:8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.08);
     line-height:1;
   }
-
-  /* place them inside reserved padding area (not overlapping text) */
-  .report { right:8px; }   /* flag at far-right */
-  .star   { right:56px; }  /* star left of flag; matches old layout but stays inside reserved area */
+  .report { right:8px; }
+  .star   { right:56px; }
 
   .star.marked{ color:gold }
   .report.reported{ color:crimson }
 
-  /* --- PAGINATION / page-info color fix --- */
   #pagination{ display:flex; justify-content:center; align-items:center; gap:.6rem; margin-top:1rem }
-  #pagination .page-info { color: #ffffff !important; font-weight:600; } /* <-- made white and bold */
+  #pagination .page-info { color: #ffffff !important; font-weight:600; }
 
   .group-count{ font-size:0.85rem; color:#2a5298; margin-top:0.5rem }
   img{ border-radius:6px; margin-top:0.5rem; border:2px solid rgba(0,0,0,0.05); max-width:100% }
   #wrongCount{ text-align:center; margin-top:1rem; font-weight:bold; color:#b71c1c; font-size:1.05rem; display:none }
 
-  /* responsive tweak: slightly reduce reserved space on narrow screens */
   @media (max-width:520px){
     .question{ padding-right:3.2rem; }
     .question h3{ margin-right:3.2rem; }
@@ -116,12 +106,6 @@
 
   <script src="questions.js"></script>
   <script>
-  /*************************************************************************
-   * This file keeps the stable-id marking/reporting logic and only changes
-   * UI layout (icons reserved space and page-info color).
-   * The rest of the app logic (mark/report, practice pooling, etc.) is left intact.
-   *************************************************************************/
-
   const sections = [
     "Structural Engineering","Engineering Survey","Construction Materials","Concrete Technology",
     "Geotechnical Engineering","Construction Management","Estimation and Costing","Engineering Drawing",
@@ -144,7 +128,6 @@
   let currentQuestions = [];
   let wrongCount = 0;
 
-  // helpers for stable id & legacy key (same approach as before)
   function makeStableId(section, subsection, origIdx, questionText){
     const sub = (typeof subsection === 'string' && subsection !== null) ? subsection : '';
     const qtxt = String(questionText || '').replace(/\s+/g,' ').trim();
@@ -158,24 +141,24 @@
     return `${sec}::${sub}::${idx}`;
   }
 
-  // basic view toggler and DOM setup
   function toggleView(id){
     ['main-view','subsection-view','question-view'].forEach(v => {
       document.getElementById(v).style.display = (v === id) ? 'block' : 'none';
     });
   }
+
   const secList = document.getElementById('sections-list');
   sections.forEach(sec => {
     const card = document.createElement('div');
     card.className = 'section-card';
     card.textContent = sec;
-    card.addEventListener('click', ()=> handleSectionClick(sec));
+    card.addEventListener('click', () => handleSectionClick(sec));
     secList.appendChild(card);
   });
 
   document.getElementById('backBtn').addEventListener('click', goBack);
-  document.getElementById('backFromSubsectionBtn').addEventListener('click', ()=> {
-    if (customFlow) { toggleView('main-view'); customFlow=false } else toggleView('main-view');
+  document.getElementById('backFromSubsectionBtn').addEventListener('click', () => {
+    if (customFlow) { toggleView('main-view'); customFlow = false; } else { toggleView('main-view'); }
   });
   document.getElementById('viewMarkedBtn').addEventListener('click', prepareMarkedView);
   document.getElementById('viewReportedBtn').addEventListener('click', prepareReportedView);
@@ -211,7 +194,6 @@
     toggleView('subsection-view');
   }
 
-  // attach source info + stable id when loading questions
   function loadSubsectionQuestions(sec, sub){
     customFlow = false;
     currentSection = sec;
@@ -250,7 +232,6 @@
     toggleView('question-view');
   }
 
-  // collect questions with original source (used for practice pool)
   function collectAllQuestionsWithSource(sec){
     const val = window.mcqData[sec];
     const collected = [];
@@ -264,7 +245,6 @@
     return collected;
   }
 
-  // PRACTICE pool preserves original source so stable id matches later
   function loadPracticeQuestions(){
     customFlow = false;
     currentSection = 'Practice Questions';
@@ -318,7 +298,6 @@
     toggleView('question-view');
   }
 
-  // MARKED/REPORTED grouping (scan dataset and check new id and legacy key)
   function prepareMarkedView(){
     customFlow = true;
     currentSection = 'Marked Questions';
@@ -485,9 +464,7 @@
       renderPagination();
       return;
     }
-
     currentQuestions.forEach(q=>{ if (typeof q._wrongCounted === 'undefined') q._wrongCounted = false; });
-
     const slice = currentQuestions.slice(currentPage*pageSize, (currentPage+1)*pageSize);
     slice.forEach((q, idx) => {
       const card = document.createElement('div'); card.className = 'question';
@@ -557,32 +534,38 @@
     }
   }
 
+  // FIXED toggleMark: single click toggles whether marked by new OR legacy key.
   function toggleMark(key, el, q){
-    try {
-      const legacy = legacyKeyFor(q);
-      if (legacy && marked.includes(legacy)) marked = marked.filter(k => k !== legacy);
-    } catch(e){}
-    if (marked.includes(key)){
-      marked = marked.filter(k => k !== key);
-      el.innerHTML = '☆'; el.classList.remove('marked');
+    const legacy = legacyKeyFor(q);
+    const currentlyMarked = (key && marked.includes(key)) || (legacy && marked.includes(legacy));
+    if (currentlyMarked) {
+      // unmark: remove both possible forms
+      marked = marked.filter(k => k !== key && k !== legacy);
+      el.innerHTML = '☆';
+      el.classList.remove('marked');
     } else {
-      marked.push(key);
-      el.innerHTML = '★'; el.classList.add('marked');
+      // mark: remove any legacy duplicates and add stable key
+      if (legacy) marked = marked.filter(k => k !== legacy);
+      if (!marked.includes(key)) marked.push(key);
+      el.innerHTML = '★';
+      el.classList.add('marked');
     }
     localStorage.setItem('marked', JSON.stringify(marked));
   }
 
+  // FIXED toggleReport: same single-click toggle behavior for reported
   function toggleReport(key, el, q){
-    try {
-      const legacy = legacyKeyFor(q);
-      if (legacy && reported.includes(legacy)) reported = reported.filter(k => k !== legacy);
-    } catch(e){}
-    if (reported.includes(key)){
-      reported = reported.filter(k => k !== key);
-      el.innerHTML = '🏳️'; el.classList.remove('reported');
+    const legacy = legacyKeyFor(q);
+    const currentlyReported = (key && reported.includes(key)) || (legacy && reported.includes(legacy));
+    if (currentlyReported) {
+      reported = reported.filter(k => k !== key && k !== legacy);
+      el.innerHTML = '🏳️';
+      el.classList.remove('reported');
     } else {
-      reported.push(key);
-      el.innerHTML = '🚩'; el.classList.add('reported');
+      if (legacy) reported = reported.filter(k => k !== legacy);
+      if (!reported.includes(key)) reported.push(key);
+      el.innerHTML = '🚩';
+      el.classList.add('reported');
     }
     localStorage.setItem('reported', JSON.stringify(reported));
   }
