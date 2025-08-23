@@ -2384,7 +2384,7 @@ window.mcqData = {
   {
     question: "In the case of unsewered areas, an additional provision for septic tank is usually",
     options: ["1 % of the building cost", "3 to 4 % of the building cost", "10 % of the building cost", "12 to 15 % of the building cost"],
-    answer: 1 // 3 to 4 % of the building cost
+    answer: 2 // 10 % of the building cost
   },
   {
     question: "The capacity of a flushing cistern is normally",
@@ -2778,8 +2778,8 @@ window.mcqData = {
   },
   {
     question: "In case of steel rolling shutter; for the estimation of painted area, the plain area is multiplied by",
-    options: ["3/4", "1", "5/4", "3/2"],
-    answer: 2 // c: 5/4
+    options: ["1.1", "1.2", "1.3", "1.5"],
+    answer: 0 // 
   },
   {
     question: "To account for the corrugation, the plain area of the semi-corrugated asbestos sheet is increased by (for white washing)",
@@ -12263,7 +12263,7 @@ window.mcqData = {
   answer: 2
 },
 {
-  question: "IS sieve No. 10 mm and 4.75 mm are generally used for grading of",
+  question: "IS sieve No. 10  and 4.75 mm are generally used for grading of",
   options: [
     "coarse aggregate",
     "fine aggregate",
@@ -18120,7 +18120,7 @@ window.mcqData = {
     "details may not be available while redrawing to a different scale.",
     "accessories are likely to be lost",
   ],
-  answer: 0
+  answer: 2
 },
 {
   question: "Placing the table over the station such that the station plotted on sheet is exactly above the corresponding station on the ground is",
@@ -20001,7 +20001,7 @@ window.mcqData = {
     "pedometer",
     "speedometer",
   ],
-  answer: 3
+  answer: 1
 },
 {
   question: "The horizontal distances obtained tacheometrically are corrected for:",
