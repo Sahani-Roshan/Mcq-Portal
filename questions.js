@@ -2044,7 +2044,7 @@ window.mcqData = {
   {
     question: "For electric wiring such as fan, light, plug etc, the estimate is made in terms of",
     options: ["type of point", "number of points", "total load at main in kw", "total length of wiring in meters"],
-    answer: 2 // total load at main in kw
+    answer: 1 // 
   },
   {
     question: "The unit of payment for blasting of rock including stacking is",
@@ -2054,7 +2054,7 @@ window.mcqData = {
   {
     question: "The unit of payment for road side brick edging to increase the pavement width is",
     options: ["cu m", "metre", "sq m", "kg"],
-    answer: 2 // sq m
+    answer: 1//  m
   },
   {
     question: "Generally the unit of measurement for partition wall is",
@@ -2089,7 +2089,7 @@ window.mcqData = {
   {
     question: "The quantity of soiling is obtained in",
     options: ["m³", "m", "m²", "lump-sum"],
-    answer: 3 // lump-sum
+    answer: 2 // 
   },
   {
     question: "The quantity of honey-comb walls are worked out in",
