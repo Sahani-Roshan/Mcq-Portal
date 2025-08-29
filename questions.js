@@ -2384,7 +2384,7 @@ window.mcqData = {
   {
     question: "In the case of unsewered areas, an additional provision for septic tank is usually",
     options: ["1 % of the building cost", "3 to 4 % of the building cost", "10 % of the building cost", "12 to 15 % of the building cost"],
-    answer: 2 // 10 % of the building cost
+    answer: 1 // 3-4 % of the building cost
   },
   {
     question: "The capacity of a flushing cistern is normally",
