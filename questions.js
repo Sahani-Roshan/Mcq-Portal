@@ -2708,7 +2708,7 @@ window.mcqData = {
   },
   {
     question: "In the case of roof truss made of steel, rivets, bolts, nuts etc. normally account for",
-    options: ["5%", "10%", "10%", "20%"],
+    options: ["5%", "10%", "15%", "20%"],
     answer: 0 // a: 5%
   },
   {
@@ -2744,7 +2744,7 @@ window.mcqData = {
   {
     question: "Minimum side lap required for asbestos cement sheets is",
     options: ["4 cm", "10 cm", "15 cm", "25 cm"],
-    answer: 2 // c: 15 cm
+    answer: 0 // a: 4 cm
   },
   {
     question: "End lap provided in asbestos cements is equal to",
@@ -2928,8 +2928,8 @@ window.mcqData = {
   },
   {
     question: "A layer of dry bricks put below the foundation concrete, in the case of soft soils, is called",
-    options: ["soiling", "shoring", "D.P.C.", "none of the above"],
-    answer: 0 // a: soiling
+    options: ["soling", "shoring", "D.P.C.", "none of the above"],
+    answer: 0 // a: soling
   },
   {
     question: "The expenses of items which do not come under any regular head of items and the cost of unforeseen items are called",
@@ -3143,7 +3143,7 @@ window.mcqData = {
   },
   {
     question: "The value of structure without being dismantled at the end of its utility period is known as:",
-    options: ["scrap value", "savage value", "market value", "book value"],
+    options: ["scrap value", "salvage value", "market value", "book value"],
     answer: 1 // b: savage value
   },
   {
@@ -19641,7 +19641,7 @@ window.mcqData = {
     "3 × shift",
     "4 × shift",
   ],
-  answer: 2
+  answer: 3
 },
 {
   question: "Find the length of curve if R = 500 m, Intersection angle = 120°",
@@ -20011,7 +20011,7 @@ window.mcqData = {
     "refra. & curva. correction",
     "tension correction",
   ],
-  answer: 1
+  answer: 2
 },
 {
   question: "The use of alidade is associated with the use of:",
