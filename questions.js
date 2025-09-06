@@ -2087,7 +2087,7 @@ window.mcqData = {
     answer: 3 // all of the above
   },
   {
-    question: "The quantity of soiling is obtained in",
+    question: "The quantity of soling is obtained in",
     options: ["m³", "m", "m²", "lump-sum"],
     answer: 2 // 
   },
@@ -13746,7 +13746,7 @@ window.mcqData = {
     "pozzolona",
     "lime, pozzolona and clay",
   ],
-  answer: 1
+  answer: 0
 },
 {
   question: "Allowable shear strength of concrete, depends upon",
@@ -14457,7 +14457,7 @@ window.mcqData = {
     "10 days",
     "14 days",
   ],
-  answer: 3
+  answer: 1
 },
 {
   question: "Pick up the correct statement from the following:",
