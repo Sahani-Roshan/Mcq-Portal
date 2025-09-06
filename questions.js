@@ -14471,7 +14471,7 @@ window.mcqData = {
   answer: 4
 },
 {
-  question: "If the effective working time is 7 hours and per‐batch time of concrete mixer of 150 litre capacity, is",
+  question: "If the effective working time is 7 hours and per‐batch time of concrete is 3 minutes, the output of a concrete mixer of 150 litre capacity, is",
   options: [
     "15,900 litres",
     "16,900 litres",
