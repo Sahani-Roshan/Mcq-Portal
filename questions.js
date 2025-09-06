@@ -3607,7 +3607,7 @@ window.mcqData = {
     answer: 1 // "decreases"
   },
   {
-    question: "According to law of supply, if the price of goods increases then the demand of articles",
+    question: "According to law of supply, if the price of goods increases then the supply of articles",
     options: ["increases", "decreases", "constant", "all of the above"],
     answer: 0 // "increases"
   },
@@ -3814,7 +3814,7 @@ window.mcqData = {
   {
     question: "Which of the following has least significance in Benefit Cost Analysis of a Public Project?",
     options: ["identification of relevant benefits and costs", "measurement of benefits and costs", "calculation of pay back period", "treatment of uncertainty"],
-    answer: 3 // "treatment of uncertainty"
+    answer: 2 // 
   },
   {
     question: "Costs that are not borne by the parties to the economic ……… are called 'externalities'.",
@@ -4019,7 +4019,7 @@ window.mcqData = {
       "the analysis makes sure that the benefits are at least 10-20% more than the costs",
       "the B-C ratio is a ratio of discounted benefits to discounted costs"
     ],
-    answer: 2 // "the analysis makes sure that the benefits are at least 10-20% more than the costs"
+    answer: 1 // "the analysis makes sure that the benefits are at least 10-20% more than the costs"
   },
   {
     question: "In economic analysis a shift in the supply curve is said to take place due to",
