@@ -1735,7 +1735,7 @@ window.mcqData = {
     answer: 3
   },
   {
-    question: "For a cantilever with a uniformly distributed load of total W over entire length L, the mixing bending moment is:",
+    question: "For a cantilever with a uniformly distributed load of total W over entire length L, the maximum bending moment is:",
     options: [
       "W L^2 / 2",
       "W L^2 / 8",
@@ -4160,10 +4160,10 @@ window.mcqData = {
     options: [
       "2014 BS",
       "2024 BS",
-      "2034 BS",
+      "2019 BS",
       "2044 BS"
     ],
-    answer: 1 // "2024 BS"
+    answer: 2 // "2024 BS"
   },
   {
     question: "The number of members in Nepal Engineers' Association are",
@@ -4263,7 +4263,7 @@ window.mcqData = {
       "सामान्य प्रशासन मन्त्रालय",
       "गृह मन्त्रालय"
     ],
-    answer: 3 // "गृह मन्त्रालय"
+    answer: 1 // "गृह मन्त्रालय"
   },
   {
     question: "नेपाल इन्जिनियरिङ परिषद् नियमावली, २०५७ सम्बन्धी कुन गलत छ?",
@@ -4336,14 +4336,14 @@ window.mcqData = {
     answer: 3 // "superintendent engineer"
   },
   {
-    question: "For the registration of general engineer the amount of fee required is",
+    question: "For the registration of general engineer the amount of fee required is(latest one)",
     options: [
       "NRs 2000/-",
       "NRs 3000/-",
-      "NRs 3500/-",
+      "NRs 5000/-",
       "NRs 4000/-"
     ],
-    answer: 1 // "NRs 3000/-"
+    answer: 2 // "NRs 5000/-"
   },
   {
     question: "For the registration of professional engineers the amount of fee required is",
@@ -4486,7 +4486,7 @@ window.mcqData = {
     answer: 1 // "overseer to engineer"
   },
   {
-    question: "गैर नेपाली दर्ताबाला इन्जिनियरहरुको नाम दर्ता गर्न ……को लागि गरिन्छ।",
+    question: "गैर नेपाली दर्ताबाला इन्जिनियरहरुको नाम दर्ता गर्द ……को लागि गरिन्छ।",
     options: [
       "एक वर्ष",
       "दुई वर्ष",
@@ -4556,7 +4556,7 @@ window.mcqData = {
     answer: 2 // "9 & 15"
   },
   {
-    question: "प्रत्येक योजनामा हालाले बढिमा कतिपय योजनालाई सदस्यता गर्न सक्दछ?",
+    question: "प्रत्येक बोलपत्र दाताले बढिमा कतिवटा बोलपत्र दाखिला गर्न सक्दछ?",
     options: [
       "एक",
       "दुई",
@@ -4673,7 +4673,7 @@ window.mcqData = {
       "department head",
       "none of the above"
     ],
-    answer: 2 // "department head"
+    answer: 3 // "department head"
   },
   {
     question: "To work for survey, design estimate & supervision of a road project, the consultant has to submit",
@@ -5153,7 +5153,7 @@ window.mcqData = {
       "renting house",
       "none of the above"
     ],
-    answer: 3 // "d"
+    answer: 1 // "d"
   },
   {
     question: "The general experience required for nomination of chairperson of NEC is:",
