@@ -1722,7 +1722,7 @@ window.mcqData = {
       "2 w L / 3"
     ],
     image: "images/structure/200.jpg",
-    answer: 0
+    answer: 1
   },
   {
     question: "Prestressing to a large extent removes the disadvantages which a conventional reinforced concrete structure suffers as compared to a comparable:",
@@ -36046,7 +36046,7 @@ window.mcqData = {
     "answer": 0
   },
   {
-    "question": "…… class rivers are called seasonal rivers/third class/temporary/Chure rivers?",
+    "question": "…… class rivers are called seasonal rivers/temporary/Chure rivers?",
     "options": ["First class", "Second Class", "Third Class", "fourth class"],
     "answer": 2
   },
