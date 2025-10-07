@@ -10961,36 +10961,43 @@ window.mcqData = {
   {
     question: "The symbol indicates",
     options: ["temple", "mosque", "church", "museum"],
+    image: "images/drawing/100.jpg",
     answer: 1
   },
   {
     question: "The symbol indicates",
     options: ["church", "temple", "mosque", "gurudwara"],
+    image: "images/drawing/101.jpg",
     answer: 0
   },
   {
     question: "The symbol indicates",
     options: ["bamboo", "mango", "black berry", "tree"],
+    image: "images/drawing/102.jpg",
     answer: 3
   },
   {
     question: "Symbol … indicates",
     options: ["brick", "stone", "steel", "concrete"],
+    image: "images/drawing/103.jpg",
     answer: 1
   },
   {
     question: "The symbol represents",
     options: ["school", "temple", "church", "catenary"],
+    image: "images/drawing/104.jpg",
     answer: 0
   },
   {
     question: "What is the slant for the letter shown?",
     options: ["80°", "10°", "0°", "none of the above"],
+    image: "images/drawing/105.jpg",
     answer: 1
   },
   {
     question: "What is the aspect ratio for the letter shown ?",
     options: ["1", "2", "0.5", "3"],
+    image: "images/drawing/106.jpg",
     answer: 2
   },
   {
