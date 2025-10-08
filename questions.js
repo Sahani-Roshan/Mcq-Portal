@@ -11207,7 +11207,7 @@ window.mcqData = {
   },
   {
     question: "Which of the following is not intended while making a 'sketch' in the context of technical drawings?",
-    options: ["a fished product", "free hand sketching", "a preliminary product", "a quick way to record an idea for work"],
+    options: ["a finished product", "free hand sketching", "a preliminary product", "a quick way to record an idea for work"],
     answer: 0
   },
   {
@@ -18950,7 +18950,7 @@ window.mcqData = {
   answer: 2
 },
 {
-  question: "The method of tacheometry in which the observation is made with stadia wires with a known spacing is",
+  question: "The method of tacheometry in which the observation is made with stadia wires with variable interval is",
   options: [
     "movable hair method",
     "fixed hair method",
