@@ -33929,12 +33929,12 @@ window.mcqData = {
     {
         question: "Which of the following district is not upgraded to Mountainous region from Hilly region?",
         options: ["Dolakha", "Ramechhap", "Dhading", "Gorkha"],
-        answer: 2  // c
+        answer: 0  // a
     },
     {
         question: "Which is the last district upgraded from Hilly region to Mountainous region?",
         options: ["East Rukum", "West Rukum", "Myagdi", "Kalikot"],
-        answer: 0  // a
+        answer: 2  // c
     },
     {
         question: "Which district of Nepal has the trace of volcano?",
@@ -33998,8 +33998,8 @@ window.mcqData = {
     },
     {
         question: "Which of the following district does not lie in Inner Terai?",
-        options: ["Morang", "Nawalparasi West.", "Surkhet", "Nawalparasi East"],
-        answer: 0  // a
+        options: ["Dang", "Nawalparasi West.", "Surkhet", "Nawalparasi East"],
+        answer: 1  // b
     },
     {
         question: "What is the area occupied by Inner Terai?",
@@ -34153,13 +34153,13 @@ window.mcqData = {
     },
     {
         question: "Which of the following districts does not have any municipalities?",
-        options: ["Dolpa", "Rolpa", "Humla", "Rasuwa"],
-        answer: 1  // b
+        options: ["Dolpa", "Rolpa", "Mugu", "Rasuwa"],
+        answer: 3  // d
     },
     {
         question: "Which of the following is the largest sub-metropolitan city based on area?",
         options: ["Itahari", "Ghorahi", "Hetauda", "Kalaiya"],
-        answer: 0  // a
+        answer: 1  // b
     },
     {
         question: "Which is the last metropolitan city of Nepal?",
@@ -34269,7 +34269,7 @@ window.mcqData = {
   {
     "question": "How many religions are observed in Nepal according to census 2021?",
     "options": ["10", "11", "12", "13"],
-    "answer": 2
+    "answer": 0
   },
   {
     "question": "What percent of people in Nepal observe Hinduism according to the census of 2011?",
@@ -34423,7 +34423,7 @@ window.mcqData = {
   },
   {
     "question": "When did Chandra Sumsher declare the end of slavery system in Nepal?",
-    "options": ["1981 Bhadra 13", "1981 Ashwin 07", "1981 Kartik 29", "1981 Magh 08"],
+    "options": ["1981 Bhadra 13", "1981 Ashwin 07", "1981 Kartik 29", "1981 Mangsir 14"],
     "answer": 3
   },
   {
@@ -34469,7 +34469,7 @@ window.mcqData = {
   },
   {
     "question": "What is the death of Gautam Buddha called?",
-    "options": ["Parinisvikarna", "Dharma Chakra Pravartan", "Mahapariniryana", "Mahanibhiskaran"],
+    "options": ["Parinisvikarna", "Dharma Chakra Pravartan", "Mahaparinirvana", "Mahanibhiskaran"],
     "answer": 2
   },
   {
@@ -34525,7 +34525,7 @@ window.mcqData = {
   },
   {
     "question": "Who built Pashupatinath temple?",
-    "options": ["Mandev", "Prachnada Dev", "Anshuverma", "Basanta Dev"],
+    "options": ["Mandev", "Prachanda Dev", "Anshuverma", "Basanta Dev"],
     "answer": 1
   },
   {
@@ -34588,7 +34588,7 @@ window.mcqData = {
   },
   {
     "question": "Which is the first movie of newari language of Nepal?",
-    "options": ["Umi", "Sherni", "Gunii", "Uni"],
+    "options": ["Urni", "Sherni", "Gunii", "Uni"],
     "answer": 0
   },
   {
@@ -34833,7 +34833,7 @@ window.mcqData = {
     "answer": 3
   },
   {
-    "question": "Which of the following is not included in Upayeda?",
+    "question": "Which of the following is not included in Upaveda?",
     "options": ["Dhanurveda", "Gandharvaveda", "Atharvaveda", "Ayurveda"],
     "answer": 2
   },
@@ -35003,11 +35003,11 @@ window.mcqData = {
     "question": "Match the following?",
     "options": ["a-1, b-2, c-3, d-4", "a-4, b-3, c-2, d-1", "a-3, b-4, c-1, d-2", "a-2, b-3, c-4, d-1"],
     "image": "images/socioculture/147.jpg",
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "Match",
-    "options": ["a-1, b-2, c-3, d-4", "a-4, b-3, c-2, d-1", "a-3, b-4, c-1, d-2", "a-2, b-3, c-4, d-1"],
+    "options": ["a-1, b-2, c-3, d-4", "a-4, b-1, c-2, d-3", "a-3, b-4, c-1, d-2", "a-2, b-3, c-4, d-1"],
     "image": "images/socioculture/148.jpg",
     "answer": 1
   },
