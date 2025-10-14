@@ -35014,7 +35014,7 @@ window.mcqData = {
   {
     "question": "Which festival of different castes makes the correct pair?",
     "options": ["Satar......Soharaya", "Rajbanshi......Kaura", "Newar......Kumari", "Darai......Chutka"],
-    "answer": 1
+    "answer": 0
   },
   {
     "question": "Match",
@@ -35024,7 +35024,7 @@ window.mcqData = {
   },
   {
     "question": "What is the language spoken by the Chepang caste called?",
-    "options": ["Khanche", "Khamji", "Kham", "Manirimdu"],
+    "options": ["Khamche", "Khamji", "Kham", "Manirimdu"],
     "answer": 0
   },
   {
@@ -36356,7 +36356,7 @@ window.mcqData = {
   },
   {
     "question": "Which of the following pair is/are correct",
-    "options": ["Fungfung water falls-Nuwakot", "Fungfung water falls-Taplejung", "Fungfungla-Gorkha", "All the pair are correct"],
+    "options": ["Fungfung water falls-Nuwakot", "Fungfunge water falls-Taplejung", "Fungfungla-Gorkha", "All the pair are correct"],
     "answer": 3
   },
   {
@@ -36402,7 +36402,7 @@ window.mcqData = {
   {
     "question": "The famous lakes Sagarhavia, Jagadishpur, Lamba Sagar, Jakhira are located in which district?",
     "options": ["Rupandehi", "Arghakhanchi", "Rolpa", "Kapilvasu"],
-    "answer": 0
+    "answer": 3
   },
   {
     "question": "What is the height of Gosainkunda?",
@@ -36542,7 +36542,7 @@ window.mcqData = {
   {
     "question": "Based on the height of mountain peaks which of the following order is correct?",
     "options": ["Lhotse-Chooyu-Manaslu-Dhaulagiri-Makalu", "Manaslu-Dhaulagiri-Chooyu-Makalu-Lhotse", "Makalu-Lhotse-Chooyu-Manaslu-Dhaulagiri", "Dhaulagiri-Manaslu-Makalu-Chooyu-Lhotse"],
-    "answer": 0
+    "answer": 1
   },
   {
     "question": "Match the correct pair between the hydropower projects and thier located districts",
@@ -36660,13 +36660,13 @@ window.mcqData = {
         answer: 2  // c
     },
     {
-        question: "Which of the following languages have been recommended as the official languages of Province?",
+        question: "Which of the following languages have been recommended as the official languages of Bagmati Province?",
         options: ["Tamang and Nepal Bhasa (Newar)", "Maithili, Bhoipuri and Bajrika", "Tamang and Newar", "Tharu and Abadhi"],
         answer: 0  // a
     },
     {
         question: "The most common language family of Nepal is",
-        options: ["Bharopedi", "BhotiBurnedi", "Agneli", "Dravid"],
+        options: ["Bharopeli", "Bhot Burmeli", "Agneli", "Dravid"],
         answer: 0  // a
     },
     {
@@ -36675,8 +36675,8 @@ window.mcqData = {
         answer: 0  // a
     },
     {
-        question: "Which is the least populated state of Nepal?",
-        options: ["Bankariya", "Nirang", "Kusunda", "Sutel"],
+        question: "Which is the least populated caste of Nepal?",
+        options: ["Bankariya", "Nurang", "Kusunda", "Sutel"],
         answer: 1  // b
     },
     {
@@ -36711,7 +36711,7 @@ window.mcqData = {
     },
     {
         question: "Which is the last heritage listed in world heritage site in 1997?",
-        options: ["Lumbini", "Boudianath", "Changunaryan", "Basantapur Durbur"],
+        options: ["Lumbini", "Boudhanath", "Changunaryan", "Basantapur Durbar"],
         answer: 3  // d
     },
     {
@@ -37439,7 +37439,7 @@ window.mcqData = {
   },
   {
     "question": "Among the given below which is the current periodic plan?",
-    "options": ["208182-208586", "207576-8081", "207778-8283", "None"],
+    "options": ["2081/82-2085/86", "2075/76-80/81", "2077/78-82/83", "None"],
     "answer": 0
   },
   {
@@ -37449,7 +37449,7 @@ window.mcqData = {
   },
   {
     "question": "Among the given below which is not the fiscal year in which Nepal observed plan holiday?",
-    "options": ["201819", "201920", "204748", "204849"],
+    "options": ["2018/19", "2019/20", "2047/48", "2048/49"],
     "answer": 1
   },
   {
@@ -37728,7 +37728,7 @@ window.mcqData = {
     "answer": 3
   },
   {
-    "question": "Global competitive index by the end of  ámica16th periodic plan will be?",
+    "question": "Global competitive index by the end of 16th periodic plan will be?",
     "options": ["64", "65", "85", "62"],
     "answer": 1
   },
