@@ -40491,10 +40491,10 @@ window.mcqData = {
   {
     question: "Which of the following summits have been convened in Nepal?",
     options: [
-      "\\( 3^{rd} \\), \\( 10^{th} \\) and \\( 18^{th} \\)",
-      "\\( 5^{th} \\), \\( 11^{th} \\) and \\( 17^{th} \\)",
-      "\\( 3^{rd} \\), \\( 11^{th} \\) and \\( 18^{th} \\)",
-      "\\( 3^{rd} \\), \\( 11^{th} \\) and \\( 17^{th} \\)"
+      "3rd, 10th and 18",
+      "5th, 11th and 17",
+      "3rd, 11th and 18th",
+      "3rd, 11th and 17th"
     ],
     answer: 2
   },
@@ -40830,7 +40830,7 @@ window.mcqData = {
     answer: 0
   },
   {
-    question: "When was the charter of BIMSTEC signed by the mcmcr states?",
+    question: "When was the charter of BIMSTEC signed by the member states?",
     options: [
       "2021 March 30",
       "2022 March 30",
@@ -41005,7 +41005,7 @@ window.mcqData = {
       "Bangladesh",
       "Bhutan",
       "Srilanka",
-      "Myanmar"
+      "India"
     ],
     answer: 3
   },
@@ -41889,12 +41889,12 @@ window.mcqData = {
   {
     question: "According to civil service act, provision of reservation can be reviewed in how many years?",
     options: ["7 years", "8 years", "10 years", "15 years"],
-    answer: 0
+    answer: 2
   },
   {
     question: "While fulfilling the vacancy of gazetted third class officer how much percentage is allocated for internal competitive exam?",
     options: ["30%", "35%", "10%", "None of the above"],
-    answer: 2
+    answer: 3
   },
   {
     question: "According to civil service act, 2049, which district does not fall in the category of backward area?",
@@ -41979,7 +41979,7 @@ window.mcqData = {
   {
     question: "While fulfilling in the pool of gazetted first class how much percentage is allocated for open competitive exam?",
     options: ["15%", "35%", "10%", "20%"],
-    answer: 3
+    answer: 2
   },
   {
     question: "How many classes are there in gazetted level of civil service in Nepal?",
