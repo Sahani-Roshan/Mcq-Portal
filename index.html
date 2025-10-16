@@ -280,7 +280,10 @@
     currentSection = 'Practice GK';
     currentSubsection = null;
     currentQuestions = [];
-    document.getElementById('wrongCount').style.display = 'none';
+    // NEW: enable wrong-answer counter for Practice GK just like Practice Questions
+    wrongCount = 0;
+    document.getElementById('wrongCount').textContent = 'Wrong Answers: 0';
+    document.getElementById('wrongCount').style.display = 'block';
 
     Object.entries(window.mcqData['General Knowledge'] || {}).forEach(([sub, arr]) => {
       const picks = (arr || []).map((q,i) => {
@@ -483,7 +486,8 @@
             li.style.background = '#f8d7da';
             if (!q._wrongCounted) {
               q._wrongCounted = true;
-              if (currentSection === 'Practice Questions') {
+              // UPDATED: count wrong answers for BOTH Practice Questions and Practice GK
+              if (currentSection === 'Practice Questions' || currentSection === 'Practice GK') {
                 wrongCount++;
                 document.getElementById('wrongCount').textContent = `Wrong Answers: ${wrongCount}`;
               }
