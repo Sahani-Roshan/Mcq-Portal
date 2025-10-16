@@ -35018,7 +35018,7 @@ window.mcqData = {
   },
   {
     "question": "Match",
-    "options": ["a-2, b-3, c-4, d-1", "a-4, b-1, c-2, d-1", "a-3, b-4, c-1, d-2", "a-2, b-3, c-4, d-1"],
+    "options": ["a-2, b-3, c-4, d-1", "a-4, b-1, c-2, d-1", "a-3, b-4, c-1, d-2", "a-3, b-2, c-4, d-1"],
     "image": "images/socioculture/150.jpg",
     "answer": 0
   },
