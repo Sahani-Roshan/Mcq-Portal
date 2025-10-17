@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
+<meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Engineering MCQ Portal — sync & toggle fix</title>
+<title>Engineering MCQ Portal — de-dup for Practice & GK</title>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 <style>
   body { font-family: 'Roboto', sans-serif; background: linear-gradient(135deg,#fceabb,#f8b500,#1e3c72,#2a5298); background-size:400% 400%; animation: gradientBG 15s ease infinite; color:#222; overflow-x:hidden; position:relative; }
@@ -56,7 +56,7 @@
   .report.reported{ color:crimson }
 
   #pagination{ display:flex; justify-content:center; align-items:center; gap:.6rem; margin-top:1rem }
-  #pagination .page-info { color: #ffffff !important; font-weight:600; }
+  #pagination .page-info { color: #ffffff !important; font-weight:600; text-shadow: 1px 1px 3px rgba(0,0,0,0.55) }
 
   .group-count{ font-size:0.85rem; color:#2a5298; margin-top:0.5rem }
   img{ border-radius:6px; margin-top:0.5rem; border:2px solid rgba(0,0,0,0.05); max-width:100% }
@@ -71,10 +71,17 @@
 </style>
 </head>
 <body>
+  <!-- background scientific/math symbols -->
   <div class="symbol" style="top:10%; left:5%;">∑</div>
   <div class="symbol" style="top:40%; left:20%;">π</div>
   <div class="symbol" style="top:70%; left:15%;">√</div>
   <div class="symbol" style="top:20%; right:10%;">Δ</div>
+  <div class="symbol" style="top:50%; right:5%;">∞</div>
+  <div class="symbol" style="top:80%; right:25%;">≈</div>
+  <div class="symbol" style="top:15%; right:40%;">∫</div>
+  <div class="symbol" style="top:60%; left:45%;">θ</div>
+  <div class="symbol" style="top:35%; left:70%;">λ</div>
+  <div class="symbol" style="top:85%; left:30%;">Ω</div>
 
   <div class="container">
     <header><h1>⚡ Engineering MCQ Portal</h1></header>
@@ -97,492 +104,671 @@
       <div style="display:flex; align-items:center; margin-bottom:1rem;">
         <button class="nav-btn small-btn" id="backBtn">← Back</button>
       </div>
-
       <div id="wrongCount">Wrong Answers: 0</div>
       <div class="question-container" id="questionsContainer"></div>
       <div id="pagination"></div>
     </div>
   </div>
 
-  <script src="questions.js"></script>
-  <script>
-  const sections = [
-    "Structural Engineering","Engineering Survey","Construction Materials","Concrete Technology",
-    "Geotechnical Engineering","Construction Management","Estimation and Costing","Engineering Drawing",
-    "Engineering Economics","Professional Practice","Apex Questions","General Knowledge","Practice GK","500+ MCQ","Practice Questions","IQ"
-  ];
+<script src="questions.js"></script>
+<script>
+/* --------------------------
+   Core data, state & helpers
+   -------------------------- */
+const sections = [
+  "Structural Engineering","Engineering Survey","Construction Materials","Concrete Technology",
+  "Geotechnical Engineering","Construction Management","Estimation and Costing","Engineering Drawing",
+  "Engineering Economics","Professional Practice","Apex Questions","General Knowledge","Practice GK","500+ MCQ","Practice Questions","IQ"
+];
 
-  const practicePattern = {
-    "Structural Engineering":5,"Engineering Survey":7,"Construction Materials":6,"Concrete Technology":5,
-    "Geotechnical Engineering":6,"Construction Management":6,"Estimation and Costing":5,"Engineering Drawing":4,
-    "Engineering Economics":3,"Professional Practice":3
+const practicePattern = {
+  "Structural Engineering":5,"Engineering Survey":7,"Construction Materials":6,"Concrete Technology":5,
+  "Geotechnical Engineering":6,"Construction Management":6,"Estimation and Costing":5,"Engineering Drawing":4,
+  "Engineering Economics":3,"Professional Practice":3
+};
+
+let currentSection = null;
+let currentSubsection = null;
+let currentPage = 0;
+let customFlow = false;
+let marked = JSON.parse(localStorage.getItem('marked') || '[]');
+let reported = JSON.parse(localStorage.getItem('reported') || '[]');
+const pageSize = 25;
+let currentQuestions = [];
+let wrongCount = 0;
+
+function makeStableId(section, subsection, origIdx, questionText){
+  const sub = (typeof subsection === 'string' && subsection !== null) ? subsection : '';
+  const qtxt = String(questionText || '').replace(/\s+/g,' ').trim();
+  return `${section}::${sub}::${origIdx}::${qtxt}`;
+}
+function legacyKeyFor(q){
+  const sec = q._sourceSection || q.section;
+  const sub = (typeof q._sourceSubsection !== 'undefined') ? q._sourceSubsection : q.subsection;
+  const idx = (typeof q._sourceIdx !== 'undefined') ? q._sourceIdx : q.origIdx;
+  if (sub === null || sub === undefined || sub === '') return `${sec}::${idx}`;
+  return `${sec}::${sub}::${idx}`;
+}
+
+function toggleView(id){
+  ['main-view','subsection-view','question-view'].forEach(v => {
+    document.getElementById(v).style.display = (v === id) ? 'block' : 'none';
+  });
+}
+
+/* Fisher–Yates shuffle (uses crypto when available) */
+function shuffleArray(arr){
+  const a = arr.slice();
+  const randFloat = (max) => {
+    if (window.crypto && window.crypto.getRandomValues) {
+      const r = new Uint32Array(1);
+      window.crypto.getRandomValues(r);
+      return (r[0] / (0xFFFFFFFF + 1)) * max;
+    }
+    return Math.random() * max;
   };
-
-  let currentSection = null;
-  let currentSubsection = null;
-  let currentPage = 0;
-  let customFlow = false;
-  let marked = JSON.parse(localStorage.getItem('marked') || '[]');
-  let reported = JSON.parse(localStorage.getItem('reported') || '[]');
-  const pageSize = 25;
-  let currentQuestions = [];
-  let wrongCount = 0;
-
-  function makeStableId(section, subsection, origIdx, questionText){
-    const sub = (typeof subsection === 'string' && subsection !== null) ? subsection : '';
-    const qtxt = String(questionText || '').replace(/\s+/g,' ').trim();
-    return `${section}::${sub}::${origIdx}::${qtxt}`;
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(randFloat(i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
   }
-  function legacyKeyFor(q){
-    const sec = q._sourceSection || q.section;
-    const sub = (typeof q._sourceSubsection !== 'undefined') ? q._sourceSubsection : q.subsection;
-    const idx = (typeof q._sourceIdx !== 'undefined') ? q._sourceIdx : q.origIdx;
-    if (sub === null || sub === undefined || sub === '') return `${sec}::${idx}`;
-    return `${sec}::${sub}::${idx}`;
-  }
+  return a;
+}
 
-  function toggleView(id){
-    ['main-view','subsection-view','question-view'].forEach(v => {
-      document.getElementById(v).style.display = (v === id) ? 'block' : 'none';
-    });
-  }
+/* ---------- persistent recent history helpers ---------- */
+function getRecentPractice(){ try { const raw = localStorage.getItem('recentPractice'); return raw ? JSON.parse(raw) : []; } catch(e){return [];} }
+function setRecentPractice(arr){ try { localStorage.setItem('recentPractice', JSON.stringify(arr)); } catch(e){} }
 
-  const secList = document.getElementById('sections-list');
-  sections.forEach(sec => {
-    const card = document.createElement('div');
-    card.className = 'section-card';
-    card.textContent = sec;
-    card.addEventListener('click', () => handleSectionClick(sec));
-    secList.appendChild(card);
-  });
+function getRecentGK(){ try { const raw = localStorage.getItem('recentGK'); return raw ? JSON.parse(raw) : []; } catch(e){return [];} }
+function setRecentGK(arr){ try { localStorage.setItem('recentGK', JSON.stringify(arr)); } catch(e){} }
 
-  document.getElementById('backBtn').addEventListener('click', goBack);
-  document.getElementById('backFromSubsectionBtn').addEventListener('click', () => {
-    if (customFlow) { toggleView('main-view'); customFlow = false; } else { toggleView('main-view'); }
-  });
-  document.getElementById('viewMarkedBtn').addEventListener('click', prepareMarkedView);
-  document.getElementById('viewReportedBtn').addEventListener('click', prepareReportedView);
+/* ---------- UI setup ---------- */
+const secList = document.getElementById('sections-list');
+sections.forEach(sec => {
+  const card = document.createElement('div');
+  card.className = 'section-card';
+  card.textContent = sec;
+  card.addEventListener('click', () => handleSectionClick(sec));
+  secList.appendChild(card);
+});
 
-  function handleSectionClick(sec){
-    customFlow = false;
-    currentSection = sec;
-    currentSubsection = null;
+document.getElementById('backBtn').addEventListener('click', goBack);
+document.getElementById('backFromSubsectionBtn').addEventListener('click', () => {
+  if (customFlow) { toggleView('main-view'); customFlow = false; } else { toggleView('main-view'); }
+});
+document.getElementById('viewMarkedBtn').addEventListener('click', prepareMarkedView);
+document.getElementById('viewReportedBtn').addEventListener('click', prepareReportedView);
 
-    if (sec === 'Practice Questions') { loadPracticeQuestions(); return; }
-    if (sec === 'Practice GK') { loadPracticeGKQuestions(); return; }
+/* ---------- core navigation & loaders ---------- */
+function handleSectionClick(sec){
+  customFlow = false;
+  currentSection = sec;
+  currentSubsection = null;
 
-    const data = window.mcqData && window.mcqData[sec];
-    if (data && typeof data === 'object' && !Array.isArray(data)) loadSubsections(sec);
-    else loadSectionQuestions(sec);
-  }
+  if (sec === 'Practice Questions') { loadPracticeQuestions(); return; }
+  if (sec === 'Practice GK') { loadPracticeGKQuestions(); return; }
 
-  function loadSubsections(sec){
-    currentSection = sec;
-    const subs = Object.keys(window.mcqData[sec] || {});
-    document.getElementById('subsection-title').textContent = sec;
-    const list = document.getElementById('subsections-list'); list.innerHTML = '';
-    if (subs.length === 0){
-      const card = document.createElement('div'); card.className='section-card'; card.textContent='No subsections';
+  const data = window.mcqData && window.mcqData[sec];
+  if (data && typeof data === 'object' && !Array.isArray(data)) loadSubsections(sec);
+  else loadSectionQuestions(sec);
+}
+
+function loadSubsections(sec){
+  currentSection = sec;
+  const subs = Object.keys(window.mcqData[sec] || {});
+  document.getElementById('subsection-title').textContent = sec;
+  const list = document.getElementById('subsections-list'); list.innerHTML = '';
+  if (subs.length === 0){
+    const card = document.createElement('div'); card.className='section-card'; card.textContent='No subsections';
+    list.appendChild(card);
+  } else {
+    subs.forEach(sub=>{
+      const card = document.createElement('div'); card.className='section-card'; card.textContent=sub;
+      card.addEventListener('click', ()=> loadSubsectionQuestions(sec, sub));
       list.appendChild(card);
+    });
+  }
+  toggleView('subsection-view');
+}
+
+function loadSubsectionQuestions(sec, sub){
+  customFlow = false;
+  currentSection = sec;
+  currentSubsection = sub;
+
+  const arr = Array.isArray(window.mcqData[sec][sub]) ? window.mcqData[sec][sub] : [];
+  currentQuestions = arr.map((q,i) => {
+    const obj = { ...q, section: sec, subsection: sub, origIdx: i, _wrongCounted: false };
+    obj._sourceSection = sec; obj._sourceSubsection = sub; obj._sourceIdx = i;
+    obj._id = makeStableId(sec, sub, i, q.question);
+    return obj;
+  });
+
+  currentPage = 0;
+  document.getElementById('wrongCount').style.display = 'none';
+  renderQuestions();
+  toggleView('question-view');
+}
+
+function loadSectionQuestions(sec){
+  customFlow = false;
+  currentSection = sec;
+  currentSubsection = null;
+
+  const arr = Array.isArray(window.mcqData[sec]) ? window.mcqData[sec] : [];
+  currentQuestions = arr.map((q,i) => {
+    const obj = { ...q, section: sec, subsection: null, origIdx: i, _wrongCounted: false };
+    obj._sourceSection = sec; obj._sourceSubsection = null; obj._sourceIdx = i;
+    obj._id = makeStableId(sec, null, i, q.question);
+    return obj;
+  });
+
+  currentPage = 0;
+  document.getElementById('wrongCount').style.display = 'none';
+  renderQuestions();
+  toggleView('question-view');
+}
+
+/* helper to collect questions from sections that are objects or arrays */
+function collectAllQuestionsWithSource(sec){
+  const val = window.mcqData[sec];
+  const collected = [];
+  if (Array.isArray(val)) {
+    (val || []).forEach((q,i) => collected.push({ q, sourceSub: null, sourceIdx: i }));
+  } else if (val && typeof val === 'object') {
+    Object.entries(val).forEach(([sub, arr]) => {
+      (arr || []).forEach((q,i) => collected.push({ q, sourceSub: sub, sourceIdx: i }));
+    });
+  }
+  return collected;
+}
+
+/* ============================================================
+   Practice Questions (updated with persistent recent-history)
+   - prefers not-recent questions, fills as needed, updates recentPractice
+   ============================================================ */
+function loadPracticeQuestions(){
+  customFlow = false;
+  currentSection = 'Practice Questions';
+  currentSubsection = null;
+  currentQuestions = [];
+
+  // Reset wrong counter and show it
+  wrongCount = 0;
+  document.getElementById('wrongCount').textContent = 'Wrong Answers: 0';
+  document.getElementById('wrongCount').style.display = 'block';
+
+  // Build pools for each section listed in practicePattern
+  const sectionsList = Object.entries(practicePattern); // [[sec, count], ...]
+  const expectedTotal = sectionsList.reduce((s, [,c]) => s + c, 0);
+
+  // recent history: store last sessions' question ids (keep approx last 4 sessions worth or at least 100)
+  const recent = getRecentPractice();
+  const recentLimit = Math.max(100, expectedTotal * 4);
+
+  // For each section, build pool of candidate objects (with stable ids)
+  const pools = sectionsList.map(([sec, count]) => {
+    const poolRaw = collectAllQuestionsWithSource(sec);
+    const pool = poolRaw.map(pick => {
+      const q = pick.q;
+      const obj = { ...q, section: sec, subsection: pick.sourceSub, origIdx: pick.sourceIdx, _wrongCounted: false };
+      obj._sourceSection = sec; obj._sourceSubsection = pick.sourceSub; obj._sourceIdx = pick.sourceIdx;
+      obj._id = makeStableId(sec, pick.sourceSub, pick.sourceIdx, q.question);
+      return obj;
+    });
+    return { sec, count, pool };
+  });
+
+  const selectedIds = new Set();
+
+  // 1) Per-section: prefer items not in recent
+  pools.forEach(({sec, count, pool}) => {
+    const preferred = pool.filter(x => !recent.includes(x._id));
+    const fallback = pool.filter(x => recent.includes(x._id));
+    const picks = [];
+
+    const prefShuffled = shuffleArray(preferred);
+    for (let item of prefShuffled) {
+      if (picks.length >= count) break;
+      if (!selectedIds.has(item._id)) { picks.push(item); selectedIds.add(item._id); }
+    }
+
+    if (picks.length < count) {
+      const fallShuffled = shuffleArray(fallback);
+      for (let item of fallShuffled) {
+        if (picks.length >= count) break;
+        if (!selectedIds.has(item._id)) { picks.push(item); selectedIds.add(item._id); }
+      }
+    }
+
+    currentQuestions.push(...picks);
+  });
+
+  // 2) If not enough, fill from remaining preferred across all pools
+  if (currentQuestions.length < expectedTotal) {
+    const leftoverPreferred = [];
+    pools.forEach(({pool}) => {
+      pool.forEach(item => {
+        if (!selectedIds.has(item._id) && !recent.includes(item._id)) leftoverPreferred.push(item);
+      });
+    });
+    const add = shuffleArray(leftoverPreferred).slice(0, expectedTotal - currentQuestions.length);
+    add.forEach(x => { selectedIds.add(x._id); currentQuestions.push(x); });
+  }
+
+  // 3) If still short, fill from any remaining (including recent)
+  if (currentQuestions.length < expectedTotal) {
+    const leftoverAny = [];
+    pools.forEach(({pool}) => {
+      pool.forEach(item => {
+        if (!selectedIds.has(item._id)) leftoverAny.push(item);
+      });
+    });
+    const add2 = shuffleArray(leftoverAny).slice(0, expectedTotal - currentQuestions.length);
+    add2.forEach(x => { selectedIds.add(x._id); currentQuestions.push(x); });
+  }
+
+  // Final shuffle so the session isn't grouped by section
+  currentQuestions = shuffleArray(currentQuestions);
+
+  // Update recentPractice: prepend this session's ids, keep limit
+  const thisSessionIds = currentQuestions.map(q => q._id);
+  const newRecent = thisSessionIds.concat(recent.filter(id => !thisSessionIds.includes(id)));
+  setRecentPractice(newRecent.slice(0, recentLimit));
+
+  currentPage = 0;
+  renderQuestions();
+  toggleView('question-view');
+}
+
+/* ============================================================
+   Practice GK (now updated to use persistent recent-history too)
+   - selects desiredPerSub (2) per GK subsection but avoids recent GK picks
+   ============================================================ */
+function loadPracticeGKQuestions(){
+  customFlow = false;
+  currentSection = 'Practice GK';
+  currentSubsection = null;
+  currentQuestions = [];
+
+  // Reset wrong counter and show it
+  wrongCount = 0;
+  document.getElementById('wrongCount').textContent = 'Wrong Answers: 0';
+  document.getElementById('wrongCount').style.display = 'block';
+
+  const GK = window.mcqData['General Knowledge'] || {};
+  const subsections = Object.entries(GK); // [ [subname, arr], ... ]
+  const desiredPerSub = 2;
+  const expectedTotal = subsections.length * desiredPerSub;
+
+  // recent history for GK: keep roughly last 4 sessions (or at least 50 ids)
+  const recent = getRecentGK();
+  const recentLimit = Math.max(50, expectedTotal * 4);
+
+  // Build pools with stable ids
+  const poolsBySub = subsections.map(([sub, arr]) => {
+    const pool = (arr || []).map((q, i) => {
+      const obj = { ...q, section: 'General Knowledge', subsection: sub, origIdx: i, _wrongCounted: false };
+      obj._sourceSection = 'General Knowledge';
+      obj._sourceSubsection = sub;
+      obj._sourceIdx = i;
+      obj._id = makeStableId('General Knowledge', sub, i, q.question);
+      return obj;
+    });
+    return { sub, pool };
+  });
+
+  const selectedIds = new Set();
+
+  // 1) Prefer picking from items NOT in recent for each subsection
+  poolsBySub.forEach(({sub, pool}) => {
+    const preferred = pool.filter(x => !recent.includes(x._id));
+    const fallback = pool.filter(x => recent.includes(x._id));
+    const picks = [];
+
+    const prefShuffled = shuffleArray(preferred);
+    for (let item of prefShuffled) {
+      if (picks.length >= desiredPerSub) break;
+      if (!selectedIds.has(item._id)) { picks.push(item); selectedIds.add(item._id); }
+    }
+
+    if (picks.length < desiredPerSub) {
+      const fallShuffled = shuffleArray(fallback);
+      for (let item of fallShuffled) {
+        if (picks.length >= desiredPerSub) break;
+        if (!selectedIds.has(item._id)) { picks.push(item); selectedIds.add(item._id); }
+      }
+    }
+
+    currentQuestions.push(...picks);
+  });
+
+  // 2) Fill from remaining preferred across all subsections if needed
+  if (currentQuestions.length < expectedTotal) {
+    const leftoverPreferred = [];
+    poolsBySub.forEach(({pool}) => {
+      pool.forEach(item => {
+        if (!selectedIds.has(item._id) && !recent.includes(item._id)) leftoverPreferred.push(item);
+      });
+    });
+    const addFromPreferred = shuffleArray(leftoverPreferred).slice(0, expectedTotal - currentQuestions.length);
+    addFromPreferred.forEach(x => { selectedIds.add(x._id); currentQuestions.push(x); });
+  }
+
+  // 3) If still short, fill from leftover recent items
+  if (currentQuestions.length < expectedTotal) {
+    const leftoverRecent = [];
+    poolsBySub.forEach(({pool}) => {
+      pool.forEach(item => {
+        if (!selectedIds.has(item._id)) leftoverRecent.push(item);
+      });
+    });
+    const addFromRecent = shuffleArray(leftoverRecent).slice(0, expectedTotal - currentQuestions.length);
+    addFromRecent.forEach(x => { selectedIds.add(x._id); currentQuestions.push(x); });
+  }
+
+  // Final shuffle so questions aren't grouped by subsection
+  currentQuestions = shuffleArray(currentQuestions);
+
+  // Update recentGK: prepend this session's ids, trim to recentLimit
+  const thisSessionIds = currentQuestions.map(q => q._id);
+  const newRecent = thisSessionIds.concat(recent.filter(id => !thisSessionIds.includes(id)));
+  setRecentGK(newRecent.slice(0, recentLimit));
+
+  currentPage = 0;
+  renderQuestions();
+  toggleView('question-view');
+}
+
+/* ---------- Marked / Reported grouped views ---------- */
+function prepareMarkedView(){
+  customFlow = true;
+  currentSection = 'Marked Questions';
+  currentSubsection = null;
+  const groups = [];
+  Object.entries(window.mcqData || {}).forEach(([sec,val]) => {
+    if (Array.isArray(val)){
+      let count = 0;
+      (val||[]).forEach((q,i) => {
+        const idNew = makeStableId(sec,null,i,q.question);
+        const legacy = `${sec}::${i}`;
+        if (marked.includes(idNew) || marked.includes(legacy)) count++;
+      });
+      if (count>0) groups.push({ section: sec, subsection: null, count });
     } else {
-      subs.forEach(sub=>{
-        const card = document.createElement('div'); card.className='section-card'; card.textContent=sub;
-        card.addEventListener('click', ()=> loadSubsectionQuestions(sec, sub));
-        list.appendChild(card);
-      });
-    }
-    toggleView('subsection-view');
-  }
-
-  function loadSubsectionQuestions(sec, sub){
-    customFlow = false;
-    currentSection = sec;
-    currentSubsection = sub;
-
-    const arr = Array.isArray(window.mcqData[sec][sub]) ? window.mcqData[sec][sub] : [];
-    currentQuestions = arr.map((q,i) => {
-      const obj = { ...q, section: sec, subsection: sub, origIdx: i, _wrongCounted: false };
-      obj._sourceSection = sec; obj._sourceSubsection = sub; obj._sourceIdx = i;
-      obj._id = makeStableId(sec, sub, i, q.question);
-      return obj;
-    });
-
-    currentPage = 0;
-    document.getElementById('wrongCount').style.display = 'none';
-    renderQuestions();
-    toggleView('question-view');
-  }
-
-  function loadSectionQuestions(sec){
-    customFlow = false;
-    currentSection = sec;
-    currentSubsection = null;
-
-    const arr = Array.isArray(window.mcqData[sec]) ? window.mcqData[sec] : [];
-    currentQuestions = arr.map((q,i) => {
-      const obj = { ...q, section: sec, subsection: null, origIdx: i, _wrongCounted: false };
-      obj._sourceSection = sec; obj._sourceSubsection = null; obj._sourceIdx = i;
-      obj._id = makeStableId(sec, null, i, q.question);
-      return obj;
-    });
-
-    currentPage = 0;
-    document.getElementById('wrongCount').style.display = 'none';
-    renderQuestions();
-    toggleView('question-view');
-  }
-
-  function collectAllQuestionsWithSource(sec){
-    const val = window.mcqData[sec];
-    const collected = [];
-    if (Array.isArray(val)) {
-      (val || []).forEach((q,i) => collected.push({ q, sourceSub: null, sourceIdx: i }));
-    } else if (val && typeof val === 'object') {
-      Object.entries(val).forEach(([sub, arr]) => {
-        (arr || []).forEach((q,i) => collected.push({ q, sourceSub: sub, sourceIdx: i }));
-      });
-    }
-    return collected;
-  }
-
-  function loadPracticeQuestions(){
-    customFlow = false;
-    currentSection = 'Practice Questions';
-    currentSubsection = null;
-    currentQuestions = [];
-    wrongCount = 0;
-    document.getElementById('wrongCount').textContent = 'Wrong Answers: 0';
-    document.getElementById('wrongCount').style.display = 'block';
-
-    let poolIndex = 0;
-    Object.entries(practicePattern).forEach(([sec,count]) => {
-      const pool = collectAllQuestionsWithSource(sec);
-      const picks = pool.sort(()=>Math.random()-0.5).slice(0, count);
-      picks.forEach(pick => {
-        const q = pick.q;
-        const sourceSub = pick.sourceSub;
-        const sourceIdx = pick.sourceIdx;
-        const obj = { ...q, section: sec, subsection: null, origIdx: poolIndex, _wrongCounted: false };
-        obj._sourceSection = sec; obj._sourceSubsection = sourceSub; obj._sourceIdx = sourceIdx;
-        obj._id = makeStableId(sec, sourceSub, sourceIdx, q.question);
-        poolIndex++;
-        currentQuestions.push(obj);
-      });
-    });
-
-    currentPage = 0;
-    renderQuestions();
-    toggleView('question-view');
-  }
-
-  function loadPracticeGKQuestions(){
-    customFlow = false;
-    currentSection = 'Practice GK';
-    currentSubsection = null;
-    currentQuestions = [];
-    // NEW: enable wrong-answer counter for Practice GK just like Practice Questions
-    wrongCount = 0;
-    document.getElementById('wrongCount').textContent = 'Wrong Answers: 0';
-    document.getElementById('wrongCount').style.display = 'block';
-
-    Object.entries(window.mcqData['General Knowledge'] || {}).forEach(([sub, arr]) => {
-      const picks = (arr || []).map((q,i) => {
-        const obj = { ...q, section: 'General Knowledge', subsection: sub, origIdx: i, _wrongCounted: false };
-        obj._sourceSection = 'General Knowledge'; obj._sourceSubsection = sub; obj._sourceIdx = i;
-        obj._id = makeStableId('General Knowledge', sub, i, q.question);
-        return obj;
-      }).sort(()=>Math.random()-0.5).slice(0,2);
-      currentQuestions.push(...picks);
-    });
-
-    currentQuestions.sort(()=>Math.random()-0.5);
-    currentPage = 0;
-    renderQuestions();
-    toggleView('question-view');
-  }
-
-  function prepareMarkedView(){
-    customFlow = true;
-    currentSection = 'Marked Questions';
-    currentSubsection = null;
-    const groups = [];
-    Object.entries(window.mcqData || {}).forEach(([sec,val]) => {
-      if (Array.isArray(val)){
+      Object.entries(val).forEach(([sub,arr]) => {
         let count = 0;
-        (val||[]).forEach((q,i) => {
-          const idNew = makeStableId(sec,null,i,q.question);
-          const legacy = `${sec}::${i}`;
+        (arr||[]).forEach((q,i) => {
+          const idNew = makeStableId(sec,sub,i,q.question);
+          const legacy = `${sec}::${sub}::${i}`;
           if (marked.includes(idNew) || marked.includes(legacy)) count++;
         });
-        if (count>0) groups.push({ section: sec, subsection: null, count });
-      } else {
-        Object.entries(val).forEach(([sub,arr]) => {
-          let count = 0;
-          (arr||[]).forEach((q,i) => {
-            const idNew = makeStableId(sec,sub,i,q.question);
-            const legacy = `${sec}::${sub}::${i}`;
-            if (marked.includes(idNew) || marked.includes(legacy)) count++;
-          });
-          if (count>0) groups.push({ section: sec, subsection: sub, count });
-        });
+        if (count>0) groups.push({ section: sec, subsection: sub, count });
+      });
+    }
+  });
+
+  document.getElementById('subsection-title').textContent = 'Marked Questions (grouped)';
+  const list = document.getElementById('subsections-list'); list.innerHTML = '';
+  if (groups.length===0){
+    const card = document.createElement('div'); card.className='section-card'; card.textContent='No marked questions'; list.appendChild(card);
+  } else {
+    groups.forEach(g=>{
+      const card = document.createElement('div'); card.className='section-card';
+      card.innerHTML = `<strong>${g.section}</strong>${g.subsection ? ' — ' + g.subsection : ''}<div class="group-count">${g.count} marked</div>`;
+      card.addEventListener('click', ()=> loadMarkedSubsectionQuestions(g.section, g.subsection));
+      list.appendChild(card);
+    });
+  }
+  toggleView('subsection-view');
+}
+
+function loadMarkedSubsectionQuestions(sectionName, subsectionName){
+  customFlow = true;
+  currentSection = 'Marked Questions';
+  currentSubsection = subsectionName ? `${sectionName}::${subsectionName}` : `${sectionName}::_nosub`;
+  const collected = [];
+  if (subsectionName !== null){
+    const arr = (window.mcqData[sectionName] && window.mcqData[sectionName][subsectionName]) || [];
+    arr.forEach((q,i) => {
+      const idNew = makeStableId(sectionName, subsectionName, i, q.question);
+      const legacy = `${sectionName}::${subsectionName}::${i}`;
+      if (marked.includes(idNew) || marked.includes(legacy)){
+        const obj = { ...q, section: sectionName, subsection: subsectionName, origIdx: i, _wrongCounted: false };
+        obj._sourceSection = sectionName; obj._sourceSubsection = subsectionName; obj._sourceIdx = i;
+        obj._id = idNew;
+        collected.push(obj);
       }
     });
-
-    document.getElementById('subsection-title').textContent = 'Marked Questions (grouped)';
-    const list = document.getElementById('subsections-list'); list.innerHTML = '';
-    if (groups.length===0){
-      const card = document.createElement('div'); card.className='section-card'; card.textContent='No marked questions'; list.appendChild(card);
-    } else {
-      groups.forEach(g=>{
-        const card = document.createElement('div'); card.className='section-card';
-        card.innerHTML = `<strong>${g.section}</strong>${g.subsection ? ' — ' + g.subsection : ''}<div class="group-count">${g.count} marked</div>`;
-        card.addEventListener('click', ()=> loadMarkedSubsectionQuestions(g.section, g.subsection));
-        list.appendChild(card);
-      });
-    }
-    toggleView('subsection-view');
+  } else {
+    const arr = window.mcqData[sectionName] || [];
+    arr.forEach((q,i) => {
+      const idNew = makeStableId(sectionName, null, i, q.question);
+      const legacy = `${sectionName}::${i}`;
+      if (marked.includes(idNew) || marked.includes(legacy)){
+        const obj = { ...q, section: sectionName, subsection: null, origIdx: i, _wrongCounted: false };
+        obj._sourceSection = sectionName; obj._sourceSubsection = null; obj._sourceIdx = i;
+        obj._id = idNew;
+        collected.push(obj);
+      }
+    });
   }
+  currentQuestions = collected;
+  currentPage = 0;
+  document.getElementById('wrongCount').style.display = 'none';
+  renderQuestions();
+  toggleView('question-view');
+}
 
-  function loadMarkedSubsectionQuestions(sectionName, subsectionName){
-    customFlow = true;
-    currentSection = 'Marked Questions';
-    currentSubsection = subsectionName ? `${sectionName}::${subsectionName}` : `${sectionName}::_nosub`;
-    const collected = [];
-    if (subsectionName !== null){
-      const arr = (window.mcqData[sectionName] && window.mcqData[sectionName][subsectionName]) || [];
-      arr.forEach((q,i) => {
-        const idNew = makeStableId(sectionName, subsectionName, i, q.question);
-        const legacy = `${sectionName}::${subsectionName}::${i}`;
-        if (marked.includes(idNew) || marked.includes(legacy)){
-          const obj = { ...q, section: sectionName, subsection: subsectionName, origIdx: i, _wrongCounted: false };
-          obj._sourceSection = sectionName; obj._sourceSubsection = subsectionName; obj._sourceIdx = i;
-          obj._id = idNew;
-          collected.push(obj);
-        }
+function prepareReportedView(){
+  customFlow = true;
+  currentSection = 'Reported Questions';
+  currentSubsection = null;
+  const groups = [];
+  Object.entries(window.mcqData || {}).forEach(([sec,val])=>{
+    if (Array.isArray(val)){
+      let count=0;
+      (val||[]).forEach((q,i)=>{
+        const idNew = makeStableId(sec,null,i,q.question);
+        const legacy = `${sec}::${i}`;
+        if (reported.includes(idNew) || reported.includes(legacy)) count++;
       });
+      if (count>0) groups.push({ section: sec, subsection: null, count });
     } else {
-      const arr = window.mcqData[sectionName] || [];
-      arr.forEach((q,i) => {
-        const idNew = makeStableId(sectionName, null, i, q.question);
-        const legacy = `${sectionName}::${i}`;
-        if (marked.includes(idNew) || marked.includes(legacy)){
-          const obj = { ...q, section: sectionName, subsection: null, origIdx: i, _wrongCounted: false };
-          obj._sourceSection = sectionName; obj._sourceSubsection = null; obj._sourceIdx = i;
-          obj._id = idNew;
-          collected.push(obj);
-        }
-      });
-    }
-    currentQuestions = collected;
-    currentPage = 0;
-    document.getElementById('wrongCount').style.display = 'none';
-    renderQuestions();
-    toggleView('question-view');
-  }
-
-  function prepareReportedView(){
-    customFlow = true;
-    currentSection = 'Reported Questions';
-    currentSubsection = null;
-    const groups = [];
-    Object.entries(window.mcqData || {}).forEach(([sec,val])=>{
-      if (Array.isArray(val)){
+      Object.entries(val).forEach(([sub,arr])=>{
         let count=0;
-        (val||[]).forEach((q,i)=>{
-          const idNew = makeStableId(sec,null,i,q.question);
-          const legacy = `${sec}::${i}`;
+        (arr||[]).forEach((q,i)=>{
+          const idNew = makeStableId(sec,sub,i,q.question);
+          const legacy = `${sec}::${sub}::${i}`;
           if (reported.includes(idNew) || reported.includes(legacy)) count++;
         });
-        if (count>0) groups.push({ section: sec, subsection: null, count });
-      } else {
-        Object.entries(val).forEach(([sub,arr])=>{
-          let count=0;
-          (arr||[]).forEach((q,i)=>{
-            const idNew = makeStableId(sec,sub,i,q.question);
-            const legacy = `${sec}::${sub}::${i}`;
-            if (reported.includes(idNew) || reported.includes(legacy)) count++;
-          });
-          if (count>0) groups.push({ section: sec, subsection: sub, count });
-        });
+        if (count>0) groups.push({ section: sec, subsection: sub, count });
+      });
+    }
+  });
+  document.getElementById('subsection-title').textContent = 'Reported Questions (grouped)';
+  const list = document.getElementById('subsections-list'); list.innerHTML = '';
+  if (groups.length===0){
+    const card = document.createElement('div'); card.className='section-card'; card.textContent='No reported questions'; list.appendChild(card);
+  } else {
+    groups.forEach(g=>{
+      const card = document.createElement('div'); card.className='section-card';
+      card.innerHTML = `<strong>${g.section}</strong>${g.subsection ? ' — ' + g.subsection : ''}<div class="group-count">${g.count} reported</div>`;
+      card.addEventListener('click', ()=> loadReportedSubsectionQuestions(g.section, g.subsection));
+      list.appendChild(card);
+    });
+  }
+  toggleView('subsection-view');
+}
+
+function loadReportedSubsectionQuestions(sectionName, subsectionName){
+  customFlow = true;
+  currentSection = 'Reported Questions';
+  currentSubsection = subsectionName ? `${sectionName}::${subsectionName}` : `${sectionName}::_nosub`;
+  const collected = [];
+  if (subsectionName !== null){
+    const arr = (window.mcqData[sectionName] && window.mcqData[sectionName][subsectionName]) || [];
+    arr.forEach((q,i)=>{
+      const idNew = makeStableId(sectionName, subsectionName, i, q.question);
+      const legacy = `${sectionName}::${subsectionName}::${i}`;
+      if (reported.includes(idNew) || reported.includes(legacy)){
+        const obj = { ...q, section: sectionName, subsection: subsectionName, origIdx: i, _wrongCounted: false };
+        obj._sourceSection = sectionName; obj._sourceSubsection = subsectionName; obj._sourceIdx = i;
+        obj._id = idNew;
+        collected.push(obj);
       }
     });
-    document.getElementById('subsection-title').textContent = 'Reported Questions (grouped)';
-    const list = document.getElementById('subsections-list'); list.innerHTML = '';
-    if (groups.length===0){
-      const card = document.createElement('div'); card.className='section-card'; card.textContent='No reported questions'; list.appendChild(card);
-    } else {
-      groups.forEach(g=>{
-        const card = document.createElement('div'); card.className='section-card';
-        card.innerHTML = `<strong>${g.section}</strong>${g.subsection ? ' — ' + g.subsection : ''}<div class="group-count">${g.count} reported</div>`;
-        card.addEventListener('click', ()=> loadReportedSubsectionQuestions(g.section, g.subsection));
-        list.appendChild(card);
-      });
-    }
-    toggleView('subsection-view');
-  }
-
-  function loadReportedSubsectionQuestions(sectionName, subsectionName){
-    customFlow = true;
-    currentSection = 'Reported Questions';
-    currentSubsection = subsectionName ? `${sectionName}::${subsectionName}` : `${sectionName}::_nosub`;
-    const collected = [];
-    if (subsectionName !== null){
-      const arr = (window.mcqData[sectionName] && window.mcqData[sectionName][subsectionName]) || [];
-      arr.forEach((q,i)=>{
-        const idNew = makeStableId(sectionName, subsectionName, i, q.question);
-        const legacy = `${sectionName}::${subsectionName}::${i}`;
-        if (reported.includes(idNew) || reported.includes(legacy)){
-          const obj = { ...q, section: sectionName, subsection: subsectionName, origIdx: i, _wrongCounted: false };
-          obj._sourceSection = sectionName; obj._sourceSubsection = subsectionName; obj._sourceIdx = i;
-          obj._id = idNew;
-          collected.push(obj);
-        }
-      });
-    } else {
-      const arr = window.mcqData[sectionName] || [];
-      arr.forEach((q,i)=>{
-        const idNew = makeStableId(sectionName, null, i, q.question);
-        const legacy = `${sectionName}::${i}`;
-        if (reported.includes(idNew) || reported.includes(legacy)){
-          const obj = { ...q, section: sectionName, subsection: null, origIdx: i, _wrongCounted: false };
-          obj._sourceSection = sectionName; obj._sourceSubsection = null; obj._sourceIdx = i;
-          obj._id = idNew;
-          collected.push(obj);
-        }
-      });
-    }
-    currentQuestions = collected;
-    currentPage = 0;
-    document.getElementById('wrongCount').style.display = 'none';
-    renderQuestions();
-    toggleView('question-view');
-  }
-
-  function renderQuestions(){
-    const container = document.getElementById('questionsContainer'); container.innerHTML = '';
-    if (!currentQuestions || currentQuestions.length === 0) {
-      const card = document.createElement('div'); card.className='question';
-      card.innerHTML = `<h3>No questions found for this selection.</h3>`;
-      container.appendChild(card);
-      renderPagination();
-      return;
-    }
-    currentQuestions.forEach(q=>{ if (typeof q._wrongCounted === 'undefined') q._wrongCounted = false; });
-    const slice = currentQuestions.slice(currentPage*pageSize, (currentPage+1)*pageSize);
-    slice.forEach((q, idx) => {
-      const card = document.createElement('div'); card.className = 'question';
-      const title = document.createElement('h3');
-      title.textContent = `${currentPage*pageSize + idx + 1}. ${q.question}`;
-      card.appendChild(title);
-      if (q.image){
-        const img = document.createElement('img'); img.src = q.image; img.style.maxHeight = '140px'; card.appendChild(img);
+  } else {
+    const arr = window.mcqData[sectionName] || [];
+    arr.forEach((q,i)=>{
+      const idNew = makeStableId(sectionName, null, i, q.question);
+      const legacy = `${sectionName}::${i}`;
+      if (reported.includes(idNew) || reported.includes(legacy)){
+        const obj = { ...q, section: sectionName, subsection: null, origIdx: i, _wrongCounted: false };
+        obj._sourceSection = sectionName; obj._sourceSubsection = null; obj._sourceIdx = i;
+        obj._id = idNew;
+        collected.push(obj);
       }
-      const opts = document.createElement('ul'); opts.className = 'options';
-      (q.options || []).forEach((opt, i) => {
-        const li = document.createElement('li'); li.textContent = opt;
-        li.addEventListener('click', ()=> {
-          if (i === q.answer) li.style.background = '#d4edda';
-          else {
-            li.style.background = '#f8d7da';
-            if (!q._wrongCounted) {
-              q._wrongCounted = true;
-              // UPDATED: count wrong answers for BOTH Practice Questions and Practice GK
-              if (currentSection === 'Practice Questions' || currentSection === 'Practice GK') {
-                wrongCount++;
-                document.getElementById('wrongCount').textContent = `Wrong Answers: ${wrongCount}`;
-              }
+    });
+  }
+  currentQuestions = collected;
+  currentPage = 0;
+  document.getElementById('wrongCount').style.display = 'none';
+  renderQuestions();
+  toggleView('question-view');
+}
+
+/* ------------------------------
+   Render questions & pagination
+   (wrongCount increments for both Practice modes)
+   ------------------------------ */
+function renderQuestions(){
+  const container = document.getElementById('questionsContainer'); container.innerHTML = '';
+  if (!currentQuestions || currentQuestions.length === 0) {
+    const card = document.createElement('div'); card.className='question';
+    card.innerHTML = `<h3>No questions found for this selection.</h3>`;
+    container.appendChild(card);
+    renderPagination();
+    return;
+  }
+  currentQuestions.forEach(q=>{ if (typeof q._wrongCounted === 'undefined') q._wrongCounted = false; });
+  const slice = currentQuestions.slice(currentPage*pageSize, (currentPage+1)*pageSize);
+  slice.forEach((q, idx) => {
+    const card = document.createElement('div'); card.className = 'question';
+    const title = document.createElement('h3');
+    title.textContent = `${currentPage*pageSize + idx + 1}. ${q.question}`;
+    card.appendChild(title);
+    if (q.image){
+      const img = document.createElement('img'); img.src = q.image; img.style.maxHeight = '140px'; card.appendChild(img);
+    }
+    const opts = document.createElement('ul'); opts.className = 'options';
+    (q.options || []).forEach((opt, i) => {
+      const li = document.createElement('li'); li.textContent = opt;
+      li.addEventListener('click', ()=> {
+        if (i === q.answer) li.style.background = '#d4edda';
+        else {
+          li.style.background = '#f8d7da';
+          if (!q._wrongCounted) {
+            q._wrongCounted = true;
+            // Count wrong for BOTH practice flows
+            if (currentSection === 'Practice Questions' || currentSection === 'Practice GK') {
+              wrongCount++;
+              document.getElementById('wrongCount').textContent = `Wrong Answers: ${wrongCount}`;
             }
           }
-        });
-        opts.appendChild(li);
+        }
       });
-      card.appendChild(opts);
-
-      const key = q._id || makeStableId(q.section, q.subsection, q.origIdx, q.question);
-      const legacy = legacyKeyFor(q);
-
-      const star = document.createElement('span');
-      star.className = 'star';
-      star.innerHTML = (marked.includes(key) || marked.includes(legacy)) ? '★' : '☆';
-      if (marked.includes(key) || marked.includes(legacy)) star.classList.add('marked');
-      star.addEventListener('click', (e)=>{ e.stopPropagation(); toggleMark(key, star, q); });
-      card.appendChild(star);
-
-      const flag = document.createElement('span'); flag.className = 'report';
-      flag.innerHTML = (reported.includes(key) || reported.includes(legacy)) ? '🚩' : '🏳️';
-      if (reported.includes(key) || reported.includes(legacy)) flag.classList.add('reported');
-      flag.addEventListener('click',(e)=>{ e.stopPropagation(); toggleReport(key, flag, q); });
-      card.appendChild(flag);
-
-      container.appendChild(card);
+      opts.appendChild(li);
     });
+    card.appendChild(opts);
 
-    renderPagination();
-    document.getElementById('questionsContainer').scrollIntoView({ block:'start' });
-  }
-
-  function renderPagination(){
-    const pag = document.getElementById('pagination'); pag.innerHTML = '';
-    const total = Math.max(1, Math.ceil(currentQuestions.length / pageSize));
-    if (currentPage > 0){
-      const prev = document.createElement('button'); prev.className='nav-btn page-btn'; prev.textContent='← Previous';
-      prev.addEventListener('click', ()=>{ currentPage--; renderQuestions(); });
-      pag.appendChild(prev);
-    }
-    const info = document.createElement('span'); info.className='page-info'; info.textContent = `Page ${currentPage+1} of ${total}`;
-    pag.appendChild(info);
-    if (currentPage < total-1){
-      const next = document.createElement('button'); next.className='nav-btn page-btn'; next.textContent='Next →';
-      next.addEventListener('click', ()=>{ currentPage++; renderQuestions(); });
-      pag.appendChild(next);
-    }
-  }
-
-  // FIXED toggleMark: single click toggles whether marked by new OR legacy key.
-  function toggleMark(key, el, q){
+    const key = q._id || makeStableId(q.section, q.subsection, q.origIdx, q.question);
     const legacy = legacyKeyFor(q);
-    const currentlyMarked = (key && marked.includes(key)) || (legacy && marked.includes(legacy));
-    if (currentlyMarked) {
-      // unmark: remove both possible forms
-      marked = marked.filter(k => k !== key && k !== legacy);
-      el.innerHTML = '☆';
-      el.classList.remove('marked');
-    } else {
-      // mark: remove any legacy duplicates and add stable key
-      if (legacy) marked = marked.filter(k => k !== legacy);
-      if (!marked.includes(key)) marked.push(key);
-      el.innerHTML = '★';
-      el.classList.add('marked');
-    }
-    localStorage.setItem('marked', JSON.stringify(marked));
-  }
 
-  // FIXED toggleReport: same single-click toggle behavior for reported
-  function toggleReport(key, el, q){
-    const legacy = legacyKeyFor(q);
-    const currentlyReported = (key && reported.includes(key)) || (legacy && reported.includes(legacy));
-    if (currentlyReported) {
-      reported = reported.filter(k => k !== key && k !== legacy);
-      el.innerHTML = '🏳️';
-      el.classList.remove('reported');
-    } else {
-      if (legacy) reported = reported.filter(k => k !== legacy);
-      if (!reported.includes(key)) reported.push(key);
-      el.innerHTML = '🚩';
-      el.classList.add('reported');
-    }
-    localStorage.setItem('reported', JSON.stringify(reported));
-  }
+    const star = document.createElement('span');
+    star.className = 'star';
+    star.innerHTML = (marked.includes(key) || marked.includes(legacy)) ? '★' : '☆';
+    if (marked.includes(key) || marked.includes(legacy)) star.classList.add('marked');
+    star.addEventListener('click', (e)=>{ e.stopPropagation(); toggleMark(key, star, q); });
+    card.appendChild(star);
 
-  function goBack(){
-    if (document.getElementById('question-view').style.display === 'block'){
-      if (customFlow) toggleView('subsection-view');
-      else if (currentSubsection) toggleView('subsection-view');
-      else toggleView('main-view');
-    } else toggleView('main-view');
-  }
+    const flag = document.createElement('span'); flag.className = 'report';
+    flag.innerHTML = (reported.includes(key) || reported.includes(legacy)) ? '🚩' : '🏳️';
+    if (reported.includes(key) || reported.includes(legacy)) flag.classList.add('reported');
+    flag.addEventListener('click',(e)=>{ e.stopPropagation(); toggleReport(key, flag, q); });
+    card.appendChild(flag);
 
-  toggleView('main-view');
-  </script>
+    container.appendChild(card);
+  });
+
+  renderPagination();
+  document.getElementById('questionsContainer').scrollIntoView({ block:'start' });
+}
+
+function renderPagination(){
+  const pag = document.getElementById('pagination'); pag.innerHTML = '';
+  const total = Math.max(1, Math.ceil(currentQuestions.length / pageSize));
+  if (currentPage > 0){
+    const prev = document.createElement('button'); prev.className='nav-btn page-btn'; prev.textContent='← Previous';
+    prev.addEventListener('click', ()=>{ currentPage--; renderQuestions(); });
+    pag.appendChild(prev);
+  }
+  const info = document.createElement('span'); info.className='page-info'; info.textContent = `Page ${currentPage+1} of ${total}`;
+  pag.appendChild(info);
+  if (currentPage < total-1){
+    const next = document.createElement('button'); next.className='nav-btn page-btn'; next.textContent='Next →';
+    next.addEventListener('click', ()=>{ currentPage++; renderQuestions(); });
+    pag.appendChild(next);
+  }
+}
+
+/* --------------------------
+   Mark / Report toggles
+   -------------------------- */
+function toggleMark(key, el, q){
+  const legacy = legacyKeyFor(q);
+  const currentlyMarked = (key && marked.includes(key)) || (legacy && marked.includes(legacy));
+  if (currentlyMarked) {
+    marked = marked.filter(k => k !== key && k !== legacy);
+    el.innerHTML = '☆';
+    el.classList.remove('marked');
+  } else {
+    if (legacy) marked = marked.filter(k => k !== legacy);
+    if (!marked.includes(key)) marked.push(key);
+    el.innerHTML = '★';
+    el.classList.add('marked');
+  }
+  localStorage.setItem('marked', JSON.stringify(marked));
+}
+
+function toggleReport(key, el, q){
+  const legacy = legacyKeyFor(q);
+  const currentlyReported = (key && reported.includes(key)) || (legacy && reported.includes(legacy));
+  if (currentlyReported) {
+    reported = reported.filter(k => k !== key && k !== legacy);
+    el.innerHTML = '🏳️';
+    el.classList.remove('reported');
+  } else {
+    if (legacy) reported = reported.filter(k => k !== legacy);
+    if (!reported.includes(key)) reported.push(key);
+    el.innerHTML = '🚩';
+    el.classList.add('reported');
+  }
+  localStorage.setItem('reported', JSON.stringify(reported));
+}
+
+/* ----------
+   Navigation helpers
+   ---------- */
+function goBack(){
+  if (document.getElementById('question-view').style.display === 'block'){
+    if (customFlow) toggleView('subsection-view');
+    else if (currentSubsection) toggleView('subsection-view');
+    else toggleView('main-view');
+  } else toggleView('main-view');
+}
+
+/* Start on main view */
+toggleView('main-view');
+</script>
 </body>
 </html>

@@ -34758,7 +34758,7 @@ window.mcqData = {
   },
   {
     "question": "What is the Pitaka called which contains the teachings of Lord Buddha?",
-    "options": ["Shukta Pitaka", "Abhidhamma Pitaka", "Vinay Pitaka", "None"],
+    "options": ["Sutta Pitaka", "Abhidhamma Pitaka", "Vinay Pitaka", "None"],
     "answer": 0
   },
   {
@@ -34768,7 +34768,7 @@ window.mcqData = {
   },
   {
     "question": "Which of the following statement is false?",
-    "options": ["Nepali and Bhipuri language falls under Bharopeli Language Family.", "Pata Mela is a festival celebrated by Satar caste.", "Kumar Shashthi is a cultural festival of Newar community.", "Raute is listed in the list of marginalized indigenous nationalities."],
+    "options": ["Nepali and Bhojpuri language falls under Bharopeli Language Family.", "Pata Mela is a festival celebrated by Satar caste.", "Kumar Shashthi is a cultural festival of Newar community.", "Raute is listed in the list of marginalized indigenous nationalities."],
     "answer": 3
   },
   {
@@ -35816,7 +35816,7 @@ window.mcqData = {
     "answer": 0
   },
   {
-    "question": "Sukulumba airport is located in which of the following districts?",
+    "question": "Sukilumba airport is located in which of the following districts?",
     "options": ["Taplejung", "Panchthar", "Illam", "Jhapa"],
     "answer": 2
   },
@@ -41224,7 +41224,7 @@ window.mcqData = {
     options: [
       "19949 November 15",
       "1950 November 3",
-      "1951 November 27",
+      "1951 November 21",
       "1952 November 27"
     ],
     answer: 2
