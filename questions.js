@@ -40043,7 +40043,7 @@ window.mcqData = {
       "Members of UNHRC are elected by the Security Council for a term of 5 years.",
       "The office of the High Commissioner for Human Rights acts as the secretariat of the Human rights Council in Geneva, Switzerland."
     ],
-    answer: 2
+    answer: 3
   },
   {
     question: "United Nations Digital Library is situated in",
