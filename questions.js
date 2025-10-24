@@ -21640,7 +21640,7 @@ window.mcqData = {
         "answer": 2
     },
     {
-        "question": "The boundary of water of\u00a0 a still lake represents",
+        "question": "The boundary of water of a still lake represents",
         "options": [
             "a. level surface",
             "b. horizontal surface",
@@ -21665,7 +21665,7 @@ window.mcqData = {
             "a. levelling is done first",
             "b. centering is done first",
             "c. orientation is done first",
-            "d. both levelling and centering\u00a0 are done simultaneously"
+            "d. both levelling and centering are done simultaneously"
         ],
         "answer": 3
     },
@@ -34804,7 +34804,7 @@ window.mcqData = {
   },
   {
     "question": "Who is known as the guru of the gods?",
-    "options": ["Vaidhyanath", "Dhainwantari", "Ashwini kumar", "Bihaspati"],
+    "options": ["Vaidhyanath", "Dhainwantari", "Ashwini kumar", "Brihaspati"],
     "answer": 3
   },
   {
@@ -35743,6 +35743,7 @@ window.mcqData = {
       "2 and 4 are correct",
       "2 and 3 are correct"
     ],
+    "image": "images/ecogeo/106.jpg",
     "answer": 1
   },
   {
@@ -36741,7 +36742,7 @@ window.mcqData = {
     },
     {
         question: "Which national park of Nepal is the major for tigers in Nepal?",
-        options: ["Shuklaphtanta", "Paras", "Bauke", "Bardiya"],
+        options: ["Shuklaphtanta", "Parsa", "Banke", "Bardiya"],
         answer: 0  // a
     },
     {
@@ -42727,14 +42728,14 @@ window.mcqData = {
     answer: 1  // B
   },
   {
-    question: "According to economic survey of current year Human Development index of Nepal is?",
+    question: "According to economic survey of current year(081/82) Human Development index of Nepal is?",
     options: [
       "0.589",
       "0.601",
       "0.569",
-      "0.625"
+      "0.622"
     ],
-    answer: 2  // C
+    answer: 3  // C
   },
   {
     question: "Everyday expenditure of Tourist in Nepal is?",
