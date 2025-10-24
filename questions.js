@@ -41128,6 +41128,7 @@ window.mcqData = {
       "1 and 2 both are correct",
       "1 and 2 both are incorrect"
     ],
+    image: "images/saarc/90.jpg",
     answer: 1
   },
   {
