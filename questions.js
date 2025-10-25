@@ -36697,7 +36697,7 @@ window.mcqData = {
     },
     {
         question: "Which of the following is not included in World Ramsar Site?",
-        options: ["Mapokhari", "Phewa lake", "Beganas lake", "Satyawati lake"],
+        options: ["Mai pokhari", "Phewa lake", "Beganas lake", "Satyawati lake"],
         answer: 3  // d
     },
     {
