@@ -11902,7 +11902,7 @@ window.mcqData = {
     "zone III",
     "zone IV",
   ],
-  answer: 0
+  answer: 3
 },
 {
   question: "Sands of zone I are",
