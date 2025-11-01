@@ -13846,7 +13846,7 @@ window.mcqData = {
   answer: 2
 },
 {
-  question: "The ratio of various ingredients (cement, sand, aggregates) in concrete of grade M200, is",
+  question: "The ratio of various ingredients (cement, sand, aggregates) in concrete of grade M20, is",
   options: [
     "1 : 2 : 4",
     "1 : 3 : 6",
