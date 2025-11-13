@@ -4800,8 +4800,8 @@ window.mcqData = {
     options: [
       "6 articles",
       "7 articles",
-      "8 articles",
-      "9 articles"
+      "11 articles",
+      "8 articles"
     ],
     answer: 2 // "8 articles"
   },
