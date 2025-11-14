@@ -3074,6 +3074,7 @@ window.mcqData = {
   {
     question: "The quantity of earth wok in 1 Km length of road following given section should be",
     options: ["15000 m³", "30000 m³", "10000 m³", "none of the above"],
+    image: "images/estimation/213.jpg",
     answer: 0 // a: 15000 m³
   },
   {
@@ -3094,6 +3095,7 @@ window.mcqData = {
   {
     question: "Find the area of the figure given below and dimension are in m",
     options: ["600 m²", "450 m²", "375 m²", "300 m²"],
+    image: "images/estimation/217.jpg",
     answer: 2 // c: 375 m²
   },
   {
@@ -3109,6 +3111,7 @@ window.mcqData = {
   {
     question: "Find the area of the quadrilateral shown below and dimension are in m",
     options: ["1050 m²", "1470 m²", "980 m²", "2450 m²"],
+    image: "images/estimation/220.jpg",
     answer: 3 // d: 2450 m²
   },
   {
@@ -6394,6 +6397,7 @@ window.mcqData = {
       "1, 2, 3, 5, 6, 4 and 7 respectively",
       "none of the above"
     ],
+    image: "images/constmangmt/122.jpg",
     answer: 1 // "b"
   },
   {
@@ -6514,6 +6518,7 @@ window.mcqData = {
       "burst",
       "merge"
     ],
+    image: "images/constmangmt/134.jpg",
     answer: 3 // "d"
   },
   {
@@ -6524,6 +6529,7 @@ window.mcqData = {
       "burst",
       "merge"
     ],
+    image: "images/constmangmt/135.jpg",
     answer: 2 // "c"
   },
   {
