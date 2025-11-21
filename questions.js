@@ -3116,7 +3116,7 @@ window.mcqData = {
   },
   {
     question: "Value is",
-    options: ["the cost of a structure", "the cost of a structure", "both of the above", "none of the above"],
+    options: ["the rent of a structure", "the cost of a structure", "both of the above", "none of the above"],
     answer: 1 // b: the cost of a structure
   },
   {
@@ -5709,7 +5709,7 @@ window.mcqData = {
     answer: 3 // "d"
   },
   {
-    question: "In PERT analysis, the start and end of event is represented by",
+    question: "In PERT analysis, the start and end of activity is represented by",
     options: [
       "activity",
       "event",
@@ -8487,7 +8487,7 @@ window.mcqData = {
   {
     question: "Shingle is",
     options: ["decomposed laterite", "crushed granite", "water bound pebbles", "air weathered rock"],
-    answer: 0
+    answer: 2
   },
   {
     question: "The tendency of minerals split along a certain plane, in known as",
@@ -8610,7 +8610,7 @@ window.mcqData = {
     answer: 1
   },
   {
-    question: "Crushing strength for most of the building stone should be more than",
+    question: "Crushing strength for most of the building stone should be less than",
     options: ["500 kg/cm²", "1000 kg/cm²", "1500 kg/cm²", "2000 kg/cm²"],
     answer: 1
   },
@@ -9535,7 +9535,7 @@ window.mcqData = {
     answer: 2 // "ductility"
   },
   {
-    question: "The Property of metals because of which they can be transformed into different shapes by heating is called",
+    question: "The Property of metals because of which they can be transformed into different shapes by hitting is called",
     options: ["toughness", "hardness", "ductility", "malleability"],
     answer: 3 // "malleability"
   },
@@ -12387,7 +12387,7 @@ window.mcqData = {
   answer: 0
 },
 {
-  question: "How much water read for M₂₀ mix concrete of cement 50 kg?",
+  question: "How much water neaded for M₂₀ mix concrete of cement 50 kg?",
   options: [
     "30 lit",
     "35 lit",
@@ -12467,7 +12467,7 @@ window.mcqData = {
   answer: 0
 },
 {
-  question: "Pick up the correct statement from the following: Internal friction between the ingredients of concrete, is decreasing by using",
+  question: "Pick up the correct statement from the following: Internal friction between the ingredients of concrete, is decreased by using",
   options: [
     "less water",
     "fine aggregates",
@@ -13107,7 +13107,7 @@ window.mcqData = {
   answer: 0
 },
 {
-  question: "The grade of concrete M₁₅₀ means that compressive strength of a 15 cm cube after 28 days, is",
+  question: "The grade of concrete M₁₅ means that compressive strength of a 15 cm cube after 28 days, is",
   options: [
     "100 kg/cm²",
     "150 kg/cm²",
@@ -13822,7 +13822,7 @@ window.mcqData = {
   answer: 0
 },
 {
-  question: "Permissible compressive strength of M150 concrete grade is",
+  question: "Permissible compressive strength of M15 concrete grade is",
   options: [
     "100 kg/cm²",
     "150 kg/cm²",
@@ -13832,7 +13832,7 @@ window.mcqData = {
   answer: 1
 },
 {
-  question: "Permissible compressive strength of M150 concrete grade is",
+  question: "Permissible compressive strength of M15 concrete grade is",
   options: [
     "100 kg/m²",
     "15 kg/cm²",
@@ -13842,7 +13842,7 @@ window.mcqData = {
   answer: 2
 },
 {
-  question: "Permissible compressive strength of M200 concrete grade is",
+  question: "Permissible compressive strength of M20 concrete grade is",
   options: [
     "100 kg/cm²",
     "150 kg/cm²",
@@ -13862,7 +13862,7 @@ window.mcqData = {
   answer: 2
 },
 {
-  question: "Permissible compressive strength of M250 concrete grade is",
+  question: "Permissible compressive strength of M25 concrete grade is",
   options: [
     "100 kg/cm²",
     "150 kg/cm²",
@@ -13872,7 +13872,7 @@ window.mcqData = {
   answer: 3
 },
 {
-  question: "Permissible compressive strength of M300 concrete grade is",
+  question: "Permissible compressive strength of M30 concrete grade is",
   options: [
     "100 kg/cm²",
     "150 kg/cm²",
@@ -14673,10 +14673,8 @@ window.mcqData = {
   options: [
     "volume",
     "weight",
-    "both (",
-    "and (",
-    "of above",
-    "consolidation",
+    "both",
+    "none",
   ],
   answer: 1
 },
@@ -16879,7 +16877,7 @@ window.mcqData = {
   question: "The magnetic declination at a place is 7°20′ W, the bearing given by the compass is S 45°40' E, the true bearing of the place is",
   options: [
     "N52° 20′ E",
-    "S5° 0′ E",
+    "S53° 0′ E",
     "N53° 0′ W",
     "S53° 0′ W",
   ],
@@ -18558,8 +18556,8 @@ window.mcqData = {
 {
   question: "In case of telescopic alidade, the adjustment done is",
   options: [
-    "the line of collimation should perpendicular to the axis of telescope",
-    "the horizontal axis should be parallel to the alidade rule",
+    "the line of collimation should perpendicular to the horizontal axis of telescope",
+    "the horizontal axis should be parallel to the alidade base",
     "the bubble line of telescope level should be parallel to the plane of collimation",
     "all of the above",
   ],
@@ -18836,7 +18834,7 @@ window.mcqData = {
   answer: 1
 },
 {
-  question: "n a closed traverse, the closing error should not be more than.....Where N is the no. of side of traverse",
+  question: "In a closed traverse, the closing error should not be more than.....Where N is the no. of side of traverse",
   options: [
     "N × least count of instrument",
     "√N × least count of instrument",
@@ -19063,7 +19061,7 @@ window.mcqData = {
     "50",
     "25",
   ],
-  answer: 1
+  answer: 0
 },
 {
   question: "Theodolite traverse is plotted more accurately by",
@@ -21049,9 +21047,9 @@ window.mcqData = {
     "Less than 0.25",
     "between 0.25 and 0.7",
     "between 0.7 and 1.5",
-    "",
+    "1.5 to 4",
   ],
-  answer: 2
+  answer: 0
 },
     ],
     "2080-4-20": [
@@ -41906,7 +41904,7 @@ window.mcqData = {
   },
   {
     question: "According to civil service act, 2049, which district does not fall in the category of backward area?",
-    options: ["Achham", "Bajura", "Jumal", "Doti"],
+    options: ["Achham", "Bajura", "Jumla", "Doti"],
     answer: 3
   },
   {
